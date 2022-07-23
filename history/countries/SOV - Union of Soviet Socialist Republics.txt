@@ -24,6 +24,7 @@ if = {
 		corvette_hull_2000 = 1
 		destroyer_hull_1960 = 1
 		destroyer_hull_1980 = 1
+		destroyer_hull_1990 = 1
 		cruiser_hull_1960 = 1
 		cruiser_hull_1980 = 1
 		battlecruiser_hull_1980 = 1

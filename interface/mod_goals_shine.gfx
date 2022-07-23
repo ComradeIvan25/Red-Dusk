@@ -1317,38 +1317,6 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_focus_SOV_legacy_of_warsaw_pact_shine"
-		texturefile = "gfx/interface/goals/focus_SOV_legacy_of_warsaw_pact.png"
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_SOV_legacy_of_warsaw_pact.png"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.png" 	# <- the animated file
-			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 2.0 y = 1.0 } 
-		}
-
-		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_SOV_legacy_of_warsaw_pact.png"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.png" 	# <- the animated file
-			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		legacy_lazy_load = no
-	}
-	
-	SpriteType = {
 		name = "GFX_focus_SOV_extreme_planning_shine"
 		texturefile = "gfx/interface/goals/focus_SOV_extreme_planning.png"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1399,38 +1367,6 @@ spriteTypes = {
 
 		animation = {
 			animationmaskfile = "gfx/interface/goals/focus_SOV_Pressure_US.png"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.png" 	# <- the animated file
-			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		legacy_lazy_load = no
-	}
-	
-	SpriteType = {
-		name = "GFX_focus_SOV_rebirth_of_warsaw_pact_shine"
-		texturefile = "gfx/interface/goals/focus_SOV_rebirth_of_warsaw_pact.png"
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_SOV_rebirth_of_warsaw_pact.png"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.png" 	# <- the animated file
-			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 2.0 y = 1.0 } 
-		}
-
-		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_SOV_rebirth_of_warsaw_pact.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -3630,70 +3566,6 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_SOV_increase_ties_with_warsaw_pact_shine"
-		texturefile = "gfx/interface/goals/SOV_increase_ties_with_warsaw_pact.dds"
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/SOV_increase_ties_with_warsaw_pact.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
-			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 2.0 y = 1.0 } 
-		}
-
-		animation = {
-			animationmaskfile = "gfx/interface/goals/SOV_increase_ties_with_warsaw_pact.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
-			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		legacy_lazy_load = no
-	}
-	
-	SpriteType = {
-		name = "GFX_SOV_increase_warsaw_pact_spending_shine"
-		texturefile = "gfx/interface/goals/SOV_increase_warsaw_pact_spending.dds"
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/SOV_increase_warsaw_pact_spending.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
-			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 2.0 y = 1.0 } 
-		}
-
-		animation = {
-			animationmaskfile = "gfx/interface/goals/SOV_increase_warsaw_pact_spending.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
-			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		legacy_lazy_load = no
-	}
-	
-	SpriteType = {
 		name = "GFX_SOV_isolate_czech_shine"
 		texturefile = "gfx/interface/goals/SOV_isolate_czech.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -3744,38 +3616,6 @@ spriteTypes = {
 
 		animation = {
 			animationmaskfile = "gfx/interface/goals/SOV_keep_your_friend_close.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
-			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		legacy_lazy_load = no
-	}
-	
-	SpriteType = {
-		name = "GFX_SOV_legacy_of_warsaw_pact_shine"
-		texturefile = "gfx/interface/goals/SOV_legacy_of_warsaw_pact.dds"
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/SOV_legacy_of_warsaw_pact.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
-			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 2.0 y = 1.0 } 
-		}
-
-		animation = {
-			animationmaskfile = "gfx/interface/goals/SOV_legacy_of_warsaw_pact.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -4878,38 +4718,6 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_SOV_warsaw_pact_reborn_shine"
-		texturefile = "gfx/interface/goals/SOV_warsaw_pact_reborn.dds"
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/SOV_warsaw_pact_reborn.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
-			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 2.0 y = 1.0 } 
-		}
-
-		animation = {
-			animationmaskfile = "gfx/interface/goals/SOV_warsaw_pact_reborn.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
-			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		legacy_lazy_load = no
-	}
-
-    SpriteType = {
 		name = "GFX_focus_IRQ_iraq_future_shine"
 		texturefile = "gfx/interface/goals/focus_IRQ_new_era.png"
 		effectFile = "gfx/FX/buttonstate.lua"

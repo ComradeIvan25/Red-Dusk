@@ -2761,4 +2761,37 @@ spriteTypes = {
 		name = "GFX_rocket_artillery_2020_medium"
 		texturefile = "gfx/interface/technologies/rocket_artillery_7.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_tech_air_burst_shells_medium"
+		texturefile = "gfx/interface/technologies/tech_air_burst.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_improved_artillery_ammo_medium"
+		texturefile = "gfx/interface/technologies/tech_improved_arty_ammo.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_guided_artillery_ammo_1_medium"
+		texturefile = "gfx/interface/technologies/tech_guided_arty_ammo_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_guided_artillery_ammo_2_medium"
+		texturefile = "gfx/interface/technologies/tech_guided_arty_ammo_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_manoeuvre_tactics_medium"
+		texturefile = "gfx/interface/technologies/tech_manoeuver_tactics.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_artillery_guidance_systems_1_medium"
+		texturefile = "gfx/interface/technologies/tech_arty_guidance_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_artillery_guidance_systems_2_medium"
+		texturefile = "gfx/interface/technologies/tech_arty_guidance_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_artillery_guidance_systems_3_medium"
+		texturefile = "gfx/interface/technologies/tech_arty_guidance_3.dds"
+	}
 }

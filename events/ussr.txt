@@ -763,6 +763,30 @@ country_event = {
 			TAJ = {
 			set_cosmetic_tag = TAJ_com_puppet
 			}
+			release_puppet_on_controlled = MOL
+			MOL = {
+			set_cosmetic_tag = MOL_com_puppet
+			}
+	}
+
+}
+
+#gorbachev gets couped by putin#
+country_event = {
+	id = ussr.32
+	title = ussr.32.t
+	desc = ussr.32.d
+	picture = GFX_report_event_gorby_diplo
+	
+	is_triggered_only = yes
+	
+	
+    #bruh#
+	option = {
+		name = ussr.32.a
+		retire_country_leader = yes
+		promote_character = SOV_vladimir_putin
+		load_focus_tree = ussr_putin_focus
 	}
 
 }

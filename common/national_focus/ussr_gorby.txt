@@ -1,12 +1,12 @@
 ﻿focus_tree = {
 	id = ussr_gorby_focus
-	#country = {
-	#	factor = 0
-	#	modifier = {
-	#	tag = SOV
-	#	add = 55
-	#	}
-	#}
+	country = {
+		factor = 0
+		modifier = {
+		tag = SOV
+		add = 55
+		}
+	}
 	
 	continuous_focus_position = { x = 10 y = 9999 }
 	
@@ -201,6 +201,10 @@
 		completion_reward = {
 			add_stability = -0.10
 			add_political_power = 20
+			remove_advisor_role = {
+			  character = "SOV_boris_pugo"
+			  slot = political_advisor
+			}
 		}
 	}
 	focus = {
@@ -1045,7 +1049,339 @@
 		}
 	}
 	
+	focus = {
+		id = SOV_gorby_gorbachevs_new_foreign_policy
+		icon = GFX_focus_SOV_prep_future
+		x = 15
+		y = 23
 
+		prerequisite = {focus = SOV_gorby_union_reborn}
+		mutually_exclusive = {}
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+		add_stability = 0.10
+		add_political_power = 100
+		}
+	}
+	
+	## re open relations with eastern block ##
+	
+	focus = {
+		id = SOV_gorby_reopen_relations_with_the_eastern_block
+		icon = GFX_focus_SOV_prep_future
+		x = 11
+		y = 25
+
+		prerequisite = {focus = SOV_gorby_gorbachevs_new_foreign_policy}
+		mutually_exclusive = {}
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+		#to do : unlocks decision for getting relations with eastern block countries#
+		}
+	}
+	
+	focus = {
+		id = SOV_gorby_reopen_relations_with_romania
+		icon = GFX_focus_SOV_prep_future
+		x = 5
+		y = 26
+		
+		prerequisite = {focus = SOV_gorby_reopen_relations_with_the_eastern_block}
+		mutually_exclusive = {}
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+		#to do : incrases the support in romania#
+		}
+	}
+	
+	focus = {
+		id = SOV_gorby_damming_the_legacy_of_ceausescu
+		icon = GFX_focus_SOV_prep_future
+		x = 4
+		y = 27
+		
+		prerequisite = {focus = SOV_gorby_reopen_relations_with_romania}
+		mutually_exclusive = {}
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+		#to do : incrases the support in romania and unlocks decisions to slander ceausescu's style of ruling#
+		}
+	}
+	
+	focus = {
+		id = SOV_gorby_supporting_the_workers
+		icon = GFX_focus_SOV_prep_future
+		x = 6
+		y = 27
+		
+		prerequisite = {focus = SOV_gorby_reopen_relations_with_romania}
+		mutually_exclusive = {}
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+		#to do : incrases the support in romania and unlocks decisions give economic aid#
+		}
+	}
+	
+	focus = {
+		id = SOV_gorby_reopen_relations_with_Hungary
+		icon = GFX_focus_SOV_prep_future
+		x = 9
+		y = 26
+		
+		prerequisite = {focus = SOV_gorby_reopen_relations_with_the_eastern_block}
+		mutually_exclusive = {}
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+		#to do : incrases the support in Hungary #
+		}
+	}
+
+	focus = {
+		id = SOV_gorby_apologizing_for_56_crackdown
+		icon = GFX_focus_SOV_prep_future
+		x = 8
+		y = 27
+		
+		prerequisite = {focus = SOV_gorby_reopen_relations_with_Hungary}
+		mutually_exclusive = {}
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+		#to do : incrases the support in Hungary #
+		}
+	}
+	
+	focus = {
+		id = SOV_gorby_amnesty_for_the_rebels
+		icon = GFX_focus_SOV_prep_future
+		x = 10
+		y = 27
+		
+		prerequisite = {focus = SOV_gorby_reopen_relations_with_Hungary}
+		mutually_exclusive = {}
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+		add_political_power = -50
+		#to do : incrases the support in Hungary #
+		}
+	}
+	
+	focus = {
+		id = SOV_gorby_economic_aid_for_hungary
+		icon = GFX_focus_SOV_prep_future
+		x = 9
+		y = 28
+		
+		prerequisite = {focus = SOV_gorby_amnesty_for_the_rebels focus = SOV_gorby_apologizing_for_56_crackdown}
+		mutually_exclusive = {}
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+		#to do : incrases the support in Hungary and unlocks a decision to give aid to hungary#
+		}
+	}
+	
+	focus = {
+		id = SOV_gorby_reopen_relations_with_poland
+		icon = GFX_focus_SOV_prep_future
+		x = 13
+		y = 26
+		
+		prerequisite = {focus = SOV_gorby_reopen_relations_with_the_eastern_block}
+		mutually_exclusive = {}
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+		#to do : incrases the support in Poland#
+		}
+	}
+	
+	focus = {
+		id = SOV_gorby_reopen_relations_with_slovakia
+		icon = GFX_focus_SOV_prep_future
+		x = 16
+		y = 26
+		
+		prerequisite = {focus = SOV_gorby_reopen_relations_with_the_eastern_block}
+		mutually_exclusive = {}
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+		#to do : incrases the support in Slovakia#
+		}
+	}
+	
+	focus = {
+		id = SOV_gorby_reopen_relations_with_bulgaria
+		icon = GFX_focus_SOV_prep_future
+		x = 19
+		y = 26
+		
+		prerequisite = {focus = SOV_gorby_reopen_relations_with_the_eastern_block}
+		mutually_exclusive = {}
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+		#to do : incrases the support in Bulgaria#
+		}
+	}
+	
+	focus = {
+		id = SOV_gorby_allies_not_subjects
+		icon = GFX_focus_SOV_prep_future
+		x = 11
+		y = 29
+		
+		prerequisite = {focus = SOV_gorby_damming_the_legacy_of_ceausescu} 
+		prerequisite = {focus = SOV_gorby_supporting_the_workers} 
+		prerequisite = {focus = SOV_gorby_economic_aid_for_hungary} 
+		prerequisite = {focus = SOV_gorby_reopen_relations_with_slovakia} 
+		prerequisite = {focus = SOV_gorby_reopen_relations_with_poland }
+		prerequisite = {focus = SOV_gorby_reopen_relations_with_bulgaria }
+		mutually_exclusive = {}
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+		#to do : incrases the support in Bulgaria#
+		}
+	}
 ### Economy ###
 
 	focus = {

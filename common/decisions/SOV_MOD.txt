@@ -1610,7 +1610,7 @@ sov_reinteg_decisions_via_peace = {
 	
 	sov_ref_rally_communists = {
 
-		icon = GFX_red_flag_holding_hand
+		icon = GFX_decision_red_flag_holding_hand
 
 		allowed = {
 			original_tag = SOV
@@ -1647,7 +1647,7 @@ sov_rally_support_for_gorby = {
 	
 	sov_rallying_support_for_gorby_timeclock = {
 
-		icon = GFX_decision_generic_political_rally
+		icon = GFX_decision_revolt
 
 		allowed = {
 			original_tag = SOV
@@ -1687,7 +1687,7 @@ sov_rally_support_for_gorby = {
         days_mission_timeout = 100      
 
 		timeout_effect = {
-		country_event = {id = ussr.}
+		country_event = {id = ussr.32}
 		set_country_flag = sov_gorby_got_couped	
 		}
 		complete_effect = { 
@@ -1697,7 +1697,7 @@ sov_rally_support_for_gorby = {
 	
 	sov_gorby_gain_politbro_support = {
 
-		icon = category_generic_communism
+		icon = GFX_decision_generic_political_discourse
 
 		allowed = {
 			original_tag = SOV
@@ -1735,7 +1735,7 @@ sov_rally_support_for_gorby = {
 	
 	sov_gorby_gain_KGB_support = {
 
-		icon = category_generic_communism
+		icon = GFX_decision_spy
 
 		allowed = {
 			original_tag = SOV
@@ -1763,7 +1763,7 @@ sov_rally_support_for_gorby = {
 		ai_will_do = {
 			factor = 0
 		}
-		remove_effect = { 
+		complete_effect = { 
 			add_political_power = 10
 			add_stability = 0.02
 			add_to_variable = { sov_gorby_support = 20 }
@@ -1773,7 +1773,7 @@ sov_rally_support_for_gorby = {
 	
 	sov_gorby_gain_peoples_support = {
 
-		icon = category_generic_communism
+		icon = GFX_decision_red_flag_holding_hand
 
 		allowed = {
 			original_tag = SOV
@@ -1801,7 +1801,7 @@ sov_rally_support_for_gorby = {
 		ai_will_do = {
 			factor = 0
 		}
-		remove_effect = { 
+		complete_effect = { 
 			add_political_power = 5
 			add_stability = -0.03
 			add_to_variable = { sov_gorby_support = 15}
@@ -1811,7 +1811,7 @@ sov_rally_support_for_gorby = {
 	
 	sov_gorby_support_secured = {
 
-		icon = category_generic_communism
+		icon = GFX_decision_hol_exchange_intelligence_data
 
 		allowed = {
 			original_tag = SOV
@@ -1819,7 +1819,6 @@ sov_rally_support_for_gorby = {
 		available = {
 			original_tag = SOV
 			has_country_flag = gorby_gathering_support_time
-			custom_effect_tooltip = gorby_has_70_support
 			check_variable = { sov_gorby_support > 69 }
 		}
 		visible = {
@@ -1839,6 +1838,7 @@ sov_rally_support_for_gorby = {
 			factor = 0
 		}
 		complete_effect = { 
+			custom_effect_tooltip = gorby_has_70_support
 			set_country_flag = gorby_secured_support
 		}
 	}

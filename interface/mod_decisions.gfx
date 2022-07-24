@@ -28,13 +28,18 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_red_flag_holding_hand"
+		name = "GFX_decision_red_flag_holding_hand"
 		texturefile = "gfx/interface/decisions/red_flag_holding_hand.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_soviet_flag_with_fists_under_it"
+		name = "GFX_decision_soviet_flag_with_fists_under_it"
 		texturefile = "gfx/interface/decisions/soviet_flag_with_fists_under_it.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_spy"
+		texturefile = "gfx/interface/decisions/decision_spy.dds"
 	}
 	
 }

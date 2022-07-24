@@ -100,6 +100,16 @@ leader_traits = {
 		}
 	}
 	
+	party_hardliner = {
+		random = no
+		political_power_factor = 0.10
+		stability_factor = -0.10
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	leader_of_the_intelligance_network = {
 		random = no
 		stability_factor = -0.05

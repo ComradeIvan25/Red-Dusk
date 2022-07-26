@@ -8,6 +8,9 @@ focus_tree = {
 			tag = VIN
 		}
 	}
+	
+	####STARTING TREE###
+        	
 	#New Millennium, New Vietnam
 	focus = {
 		id = VIN_newmillenniumnewvietnam
@@ -38,6 +41,12 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VIN_newmillenniumnewvietnam  }
+         completion_reward = {
+			swap_ideas = {
+	     remove_idea = VIN_fifty_years_resistance
+		 add_idea = VIN_fifty_years_resistance_1
+        }
+			}
 	}
 
 	#Status of the Economy
@@ -142,6 +151,10 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VIN_healing_scars_of_war  }
+		completion_reward = { 
+			stability_factor = 0.03
+			war_support_factor = 0.03
+		}
 	}
 
 	#Help Martyrs Family
@@ -285,6 +298,12 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VIN_increase_budget_of_the_veterans_association  }
+		completion_reward = {
+		swap_ideas = {
+		remove_idea = VIN_fifty_years_resistance_2 
+		add_idea = VIN_fifty_years_resistance_3
 	}
+	
+	#######
 
 }

@@ -18,6 +18,55 @@ ideas = {
 				conscription_factor = -0.1
 			}
 		}
+        VIN_fifty_years_resistance_1 = {
+			name = VIN_fifty_years_resistance_1_name
+
+			removal_cost = -1
+
+			picture = VIN_fifty_years_resistance_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = -0.1
+				conscription_factor = -0.1
+			}
+		}
+		VIN_fifty_years_resistance_2 = {
+			name = VIN_fifty_years_resistance_2_name
+
+			removal_cost = -1
+
+			picture = VIN_fifty_years_resistance_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = -0.08
+				conscription_factor = -0.05
+				consumer_goods_factor = 0.03
+			}
+		}
+		VIN_fifty_years_resistance_3 = {
+			name = VIN_fifty_years_resistance_3_name
+
+			removal_cost = -1
+
+			picture = VIN_fifty_years_resistance_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = -0.05
+				consumer_goods_factor = 0.03
+			}
+		}
 
 		VIN_doi_moi = {
 			name = VIN_doi_moi_name
@@ -53,6 +102,7 @@ ideas = {
 			modifier = {
 				army_core_defence_factor = 0.1
 				defensive_war_stability_factor = 0.2
+				offensive_war_stability_factor = 0.2
 			}
 		}
 

@@ -211,6 +211,13 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/YUG_tito.dds"
 	}
 	
+		##industrial companies##
+	
+	spriteType = {
+		name = "GFX_idea_YUG_yugoslav_railways_icon"
+		texturefile = "gfx/interface/ideas/YUG_yugoslav_railways.dds"
+	}
+	
 	#Thailand#
 	spriteType = {
 		name = "GFX_idea_SIA_rama_ix"

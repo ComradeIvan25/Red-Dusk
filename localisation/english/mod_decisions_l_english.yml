@@ -142,10 +142,23 @@
  
  ##SOUTH AFRICA###
 
- saf_deal_with_insurgents:0 "Dealing With the Insurgents"
+ saf_deal_with_insurgents:0 "Dealing With The Insurgents"
  saf_deal_with_insurgents_desc:0 "At last, we turned the government focus back to dealing with the radical §RANC insurgents§W§ .These §Rinsurgents§W§  have caused the deaths of multiple civilians, army officials, and many more politicians in our government. But now by using multiple strategies we have learned over the years we are finally going to put an end to this organization and §Gsecure our country once and for all.§W§ \n\n§REstimated ANC fighting strength is [?anc_fight_strength]§W§\n\n"
  saf_timer_clock_end_of_operations:0 "End of Operations..."
  saf_continue_forced_removels:0 "Continue Forced Removals"
  saf_deploy_the_police_force:0 "Deploy the Police Force"
  saf_deploy_the_army:0 "Deploy the Army"
+ 
+ saf_opening_investments:0 "Open For Buisness"
+ saf_opening_investments_desc:0 ""
+ saf_build_civs_facs_in_limpopo:0 "Modernise Limpopo"
+ saf_build_civs_facs_in_limpopo_desc:0 ""
+ saf_build_civs_facs_in_northern_cape:0 "Expand Our Mining Plans"
+ saf_build_civs_facs_in_northern_cape_desc:0 ""
+ saf_build_civs_facs_in_natal:0 "Invest In Natal"
+ saf_build_civs_facs_in_natal_desc:0 ""
+ saf_build_mil_facs:0 "militerise the coast"
+ saf_build_mil_facs_desc:0 ""
+ saf_improve_working_conditions:0 ""
+ saf_improve_working_conditions_desc:0 ""
  

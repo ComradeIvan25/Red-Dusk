@@ -190,7 +190,7 @@ saf_opening_investments = {
 			civilian_factory_use = 2
 			}
 			complete_effect = { 
-				573 = {
+				852 = {
 					add_extra_state_shared_building_slots = 2
 	
 					add_building_construction = {
@@ -225,7 +225,7 @@ saf_opening_investments = {
 			civilian_factory_use = 2
 			}
 			complete_effect = { 
-				573 = {
+				847 = {
 					add_extra_state_shared_building_slots = 2
 
 						add_building_construction = {
@@ -260,7 +260,7 @@ saf_opening_investments = {
 				civilian_factory_use = 3
 				}
 				complete_effect = { 
-					573 = {
+					719 = {
 						add_extra_state_shared_building_slots = 2
 
 						add_building_construction = {
@@ -295,7 +295,7 @@ saf_opening_investments = {
 				civilian_factory_use = 4
 				}
 				complete_effect = { 
-					573 = {
+					847 = {
 						add_extra_state_shared_building_slots = 2
 
 						add_building_construction = {
@@ -306,7 +306,7 @@ saf_opening_investments = {
 					}
 				}
 				complete_effect = { 
-					573 = {
+					848 = {
 						add_extra_state_shared_building_slots = 2
 
 						add_building_construction = {
@@ -319,31 +319,31 @@ saf_opening_investments = {
 			}
 
 }
-		saf_improve_working_conditions = {
-			icon = GFX_decision_generic_factory
+saf_improve_working_conditions = {
+	icon = GFX_decision_generic_factory
 
-			allowed = {
-				original_tag = SAF
-			}
-			available = {
-				has_completed_focus = SAF_more_investments_in_civil_sector
-			}
-			visible = {
-				has_completed_focus = SAF_more_investments_in_civil_sector
-			}
-
-			cost = 30
-			fire_only_once = yes
-			ai_will_do = {
-				factor = 0
-			}
-			days_remove = 45
-			complete_effect = { 
-				swap_ideas = {
-					remove_idea = SAF_money_idea
-					add_idea = SAF_money_idea_2
-				}
-			}
+	allowed = {
+		original_tag = SAF
+	}
+	available = {
+		has_completed_focus = SAF_more_investments_in_civil_sector
+	}
+	visible = {
+		has_completed_focus = SAF_more_investments_in_civil_sector
+	}
+	
+	cost = 30
+	fire_only_once = yes
+	ai_will_do = {
+		factor = 0
+	}
+	days_remove = 45
+	complete_effect = { 
+		swap_ideas = {
+			remove_idea = SAF_money_idea
+			add_idea = SAF_money_idea_2
 		}
+	}
+}
 
 }

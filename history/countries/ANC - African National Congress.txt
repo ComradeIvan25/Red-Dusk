@@ -14,6 +14,8 @@ recruit_character = ANC_godfrey_ngwenya
 add_ideas = ANC_fanatical_idea
 add_ideas = ANC_mandela_idea
 
+add_ideas = ussr_aligned_nation
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "2000.1.1"

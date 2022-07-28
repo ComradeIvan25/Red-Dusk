@@ -1,5 +1,8 @@
 characters = {
-
+	
+	### AFTER MAKING A NEW character GO TO THE COUNTRY FILE THEY HAVE (SOV - Union of Soviet Socialist Republics) AND WRITE "recruit_character = (the id of the character) ###
+	### i wasted so many minutes because i forgot about this multiple times -durango ###
+	
 	## Leaders ##
 
 	SOV_gennady_yanayev = {
@@ -105,7 +108,7 @@ characters = {
 				original_tag = SOV
 			}
 			traits = {
-				leader_of_the_intelligance_network 
+				party_hardliner 
 			}
 		}
 	}
@@ -229,7 +232,47 @@ characters = {
 			}
 		}
 	}
-
+	
+	SOV_nikolai_ryzhkov = {
+		name = "Nikolai Ryzhkov"
+		portraits = {
+			civilian = {
+				small = "gfx/leaders/SOV/yuri_maslyukov.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = SOV_nikolai_ryzhkov
+			allowed = {
+				original_tag = SOV
+			}
+			traits = {
+				leader_of_the_council_of_ministers 
+			}
+		}
+	}
+	
+	SOV_anatoly_lukyanov = {
+		name = "Anatoly Lukyanov" 
+		portraits = {
+			civilian = {
+				small = "gfx/leaders/SOV/yuri_maslyukov.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = SOV_anatoly_lukyanov
+			allowed = {
+				original_tag = SOV
+			}
+			traits = {
+				reformist_advisor 
+			}
+		}
+	}
+	
 	## Generals ##
 
 	SOV_sergey_shoigu = {

@@ -24,6 +24,7 @@ if = {
 		corvette_hull_2000 = 1
 		destroyer_hull_1960 = 1
 		destroyer_hull_1980 = 1
+		destroyer_hull_1990 = 1
 		cruiser_hull_1960 = 1
 		cruiser_hull_1980 = 1
 		battlecruiser_hull_1980 = 1
@@ -169,6 +170,9 @@ add_ideas = SOV_militarised_industry
 add_ideas = SOV_party_infighting
 add_ideas = SOV_rising_separatism
 
+add_ideas = ussr_aligned_nation
+
+## leaders ##
 recruit_character = SOV_gennady_yanayev
 recruit_character = SOV_dmitry_yazov
 recruit_character = SOV_anatoly_chernyaev
@@ -179,12 +183,18 @@ recruit_character = SOV_vladimir_putin
 recruit_character = SOV_party
 recruit_character = SOV_mikhail_kolesnikov
 recruit_character = SOV_vladimir_based
+
+## advisors ##
+recruit_character = SOV_yuri_maslyukov
+recruit_character = SOV_nikolai_ryzhkov
+recruit_character = SOV_anatoly_lukyanov
+
+## generals ##
 recruit_character = SOV_aleksandr_korzhakov
 recruit_character = SOV_alexey_sorokin
 recruit_character = SOV_anatoly_kulikov
 recruit_character = SOV_anatoly_kvashnin
 recruit_character = SOV_arkady_bakhin 
-recruit_character = SOV_yuri_maslyukov
 recruit_character = SOV_dmitry_bulgakov
 recruit_character = SOV_ivan_kapitanets
 recruit_character = SOV_nikolai_yevmenov

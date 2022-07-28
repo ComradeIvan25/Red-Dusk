@@ -97,7 +97,7 @@ sov_invade_china_decisions = {
 
 
 sov_rally_support_for_gorby = {
-	icon = GFX_decision_category_usa_congress
+	icon = GFX_decision_category_generic_foreign_policy
 
 	priority = 10
 

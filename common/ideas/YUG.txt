@@ -791,4 +791,31 @@ ideas = {
 		
 		}
 	}
+	
+	industrial_concern = {
+				
+		YUG_yugoslav_railways = {
+			
+			picture = YUG_yugoslav_railways_icon
+			
+			cost = 100
+			
+			allowed = {
+				original_TAG = YUG
+			}
+			
+			research_bonus = {
+			}
+			
+			traits = { railway_company }
+			
+			modifier = {
+			}
+
+			ai_will_do = {
+				factor = 2
+			}
+		}
+		
+	}
 }

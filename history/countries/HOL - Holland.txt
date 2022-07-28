@@ -28,4 +28,7 @@ set_popularities = {
 recruit_character = HOL_kok
 
 add_ideas = GER_eu
+
+add_ideas = usa_aligned_nation
+
 set_convoys = 150

@@ -18,6 +18,72 @@ ideas = {
 				conscription_factor = -0.1
 			}
 		}
+        VIN_fifty_years_resistance_1 = {
+			name = VIN_fifty_years_resistance_1_name
+
+			removal_cost = -1
+
+			picture = VIN_fifty_years_resistance_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = -0.1
+				conscription_factor = -0.1
+			}
+		}
+		VIN_fifty_years_resistance_2 = {
+			name = VIN_fifty_years_resistance_2_name
+
+			removal_cost = -1
+
+			picture = VIN_fifty_years_resistance_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = -0.08
+				conscription_factor = -0.1
+				consumer_goods_factor = 0.02
+			}
+		}
+		VIN_fifty_years_resistance_3 = {
+			name = VIN_fifty_years_resistance_3_name
+
+			removal_cost = -1
+
+			picture = VIN_fifty_years_resistance_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = -0.05
+				conscription_factor = -0.1
+				consumer_goods_factor = 0.03
+			}
+		}
+		VIN_fifty_years_resistance_4 = {
+			name = VIN_fifty_years_resistance_4_name
+
+			removal_cost = -1
+
+			picture = VIN_fifty_years_resistance_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = -0.05
+				consumer_goods_factor = 0.03
+			}
+		}
 
 		VIN_doi_moi = {
 			name = VIN_doi_moi_name
@@ -38,6 +104,26 @@ ideas = {
 				drift_defence_factor = -0.1
 			}
 		}
+		VIN_doi_moi_1 = {
+			name = VIN_doi_moi_name_1
+
+			removal_cost = -1
+
+			picture = VIN_doi_moi_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_buildings_factor = 0.12
+				production_factory_max_efficiency_factor = 0.05
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				drift_defence_factor = -0.15
+				min_export = 0.08
+			}
+		}
 
 		VIN_patriotic_tradition = {
 			name = VIN_patriotic_tradition_name
@@ -53,6 +139,7 @@ ideas = {
 			modifier = {
 				army_core_defence_factor = 0.1
 				defensive_war_stability_factor = 0.2
+				offensive_war_stability_factor = 0.2
 			}
 		}
 

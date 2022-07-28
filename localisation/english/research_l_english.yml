@@ -1554,6 +1554,24 @@
  support_tech_logistics_2020_short:0 "Logistics IV"
  support_tech_logistics_2020_desc:0 "Even the most basic divisions need to have a reliable supply of resources, otherwise the effectiveness and morale of each unit plummets. A dedicated logistics company is able to decrease a division's reliance on existing permanent supply lines, allowing it to venture deeper into contested territory."
 
+ # Artillery #
+ tech_air_burst_shells:0 "Air Burst Shells"
+ tech_air_burst_shells_desc:0 "By triggering artillery shells to detonate in the air instead of on contact with the ground, the subsequent explosion is spread over a wider area, causing greater damage to enemy targets."
+ tech_improved_artillery_ammo:0 "Improved Ammunition"
+ tech_improved_artillery_ammo_desc:0 "With higher quality materials becoming available after the Second World War, shells can now be manufactured with a higher explosive to metal ratio, along with improved ballistic performance."
+ tech_guided_artillery_ammo_1:0 "Basic Guided Shells"
+ tech_guided_artillery_ammo_1_desc:0 "By using fin stabilisation and laser guidance, artillery shells can be guided onto targets by a drone or ground-based observer. This allows them to target smaller targets more precisely, as well as adjust their flight path for moving targets."
+ tech_guided_artillery_ammo_2:0 "Improved Guided Shells"
+ tech_guided_artillery_ammo_2_desc:0 "With the success of guided artillery shells, improvements in guidance, range, and explosive power can be made, allowing for existing artillery equipment to have increased capabilities."
+ tech_manoeuvre_tactics:0 "Manoeuvre Tactics"
+ tech_manoeuvre_tactics_desc:0 "To avoid enemy reconnaissance and counter-battery fire, self-propelled artillery squadrons must be trained to effectively employ 'shoot-and-scoot' tactics, quickly driving to a different hidden location after performing an artillery strike."
+ tech_artillery_guidance_systems_1:0 "Basic Guidance Systems"
+ tech_artillery_guidance_systems_1_desc:0 "By taking advantage of modern recon units and advancements in computer technology, artillery can be more accurate and precise with the usage of various computer algorithms, as well as real-time data from the field."
+ tech_artillery_guidance_systems_2:0 "Improved Guidance Systems"
+ tech_artillery_guidance_systems_2_desc:0 "By taking advantage of modern recon units and advancements in computer technology, artillery can be more accurate and precise with the usage of various computer algorithms, as well as real-time data from the field."
+ tech_artillery_guidance_systems_3:0 "Advanced Guidance Systems"
+ tech_artillery_guidance_systems_3_desc:0 "By taking advantage of modern recon units and advancements in computer technology, artillery can be more accurate and precise with the usage of various computer algorithms, as well as real-time data from the field."
+
 ## Nation-Specific Tech ##
 # SOV #
  SOV_heli_naval_1970:0 "Kamov Ka-25"

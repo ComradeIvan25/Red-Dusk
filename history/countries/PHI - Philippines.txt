@@ -9,6 +9,8 @@ recruit_character = PHI_Gloria_Macapagal_Arroyo
 
 add_ideas = SIA_asean
 
+add_ideas = usa_aligned_nation
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1935.9.15"

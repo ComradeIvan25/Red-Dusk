@@ -6,6 +6,8 @@ set_war_support = 0.3
 
 recruit_character = AST_john_howard
 
+add_ideas = usa_aligned_nation
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1934.9.15"

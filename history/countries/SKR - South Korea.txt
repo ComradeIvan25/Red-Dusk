@@ -6,6 +6,8 @@ set_convoys = 50
 
 recruit_character = SKR_kim_dae-jung
 
+add_ideas = usa_aligned_nation
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"

@@ -6,6 +6,8 @@ set_convoys = 5
 
 recruit_character = MZB_joaquim
 
+add_ideas = ussr_aligned_nation
+
 set_politics = {
 	ruling_party = communism
 	last_election = "1936.1.1"

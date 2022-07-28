@@ -4,6 +4,14 @@ set_convoys = 0
 
 recruit_character = UGA_yoweri
 
+
+#UGA = { set_province_controller = 12783 }
+
+declare_war_on = {
+	target = COG
+	type = topple_government
+}
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "2000.1.1"

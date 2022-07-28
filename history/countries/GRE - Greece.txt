@@ -11,6 +11,8 @@ if = {
 
 recruit_character = GRE_konstantinos_stephanopoulos
 
+add_ideas = usa_aligned_nation
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1935.6.9"

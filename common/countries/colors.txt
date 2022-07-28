@@ -862,3 +862,11 @@ TAM = {
 	color = rgb { 211 10 30 }
 	color_ui = rgb { 193 80 0 }
 }
+RGO = {
+	color = rgb { 143 136 82 }
+	color_ui = rgb { 143 186 82 }
+}
+RCK = {
+	color = rgb { 102 124 155 }
+	color_ui = rgb { 115 124 155 }
+}

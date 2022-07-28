@@ -16,6 +16,7 @@ recruit_character = SIA_chuan_leekpai
 add_ideas = SIA_asean
 add_ideas = SIA_rama_IX
 
+add_ideas = usa_aligned_nation
 
 set_politics = {
 	ruling_party = neutrality

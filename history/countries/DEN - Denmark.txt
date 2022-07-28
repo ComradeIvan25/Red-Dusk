@@ -29,4 +29,6 @@ recruit_character = DEN_poul_nyrup
 
 add_ideas = GER_eu
 
+add_ideas = usa_aligned_nation
+
 set_convoys = 40

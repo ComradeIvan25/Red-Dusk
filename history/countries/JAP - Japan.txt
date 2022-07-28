@@ -10,6 +10,8 @@ set_convoys = 400
 recruit_character = JAP_keizō_obuchi
 recruit_character = JAP_yoshiro_mori
 
+add_ideas = usa_aligned_nation
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"

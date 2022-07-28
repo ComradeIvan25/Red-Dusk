@@ -8,6 +8,9 @@ focus_tree = {
 			tag = VIN
 		}
 	}
+	
+	####STARTING TREE###
+        	
 	#New Millennium, New Vietnam
 	focus = {
 		id = VIN_newmillenniumnewvietnam
@@ -38,6 +41,12 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VIN_newmillenniumnewvietnam  }
+         completion_reward = {
+			swap_ideas = {
+	     remove_idea = VIN_fifty_years_resistance
+		 add_idea = VIN_fifty_years_resistance_1
+        }
+			}
 	}
 
 	#Status of the Economy
@@ -90,6 +99,13 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VIN_open_stock_market  }
+		completion_reward = {
+		add_opinion_modifier = { target = USA modifier = medium_increase } 
+		swap_ideas = {
+		remove_idea = VIN_doi_moi
+		add_idea = VIN_doi_moi_1
+		}
+	}
 	}
 
 	#Support State-owned Enterprise
@@ -103,6 +119,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VIN_status_of_the_economy  }
+
 	}
 
 	#Expand Collectivization
@@ -129,6 +146,16 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VIN_expand_collectivization  } prerequisite = { focus = VIN_sign_vietnam__us_trade_agreement  }
+		completion_reward = {
+		set_politics = {
+			ruling_party = reformed_communism
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = reformed_communism
+			popularity = 0.5
+		}
+	}
 	}
 
 	#Improve Veteran Welfare
@@ -142,6 +169,10 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VIN_healing_scars_of_war  }
+		completion_reward = { 
+			add_stability= 0.03
+			add_war_support = 0.03
+		}
 	}
 
 	#Help Martyrs Family
@@ -155,6 +186,12 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VIN_healing_scars_of_war  }
+		completion_reward = {
+		swap_ideas = {
+		remove_idea = VIN_fifty_years_resistance_1
+		add_idea = VIN_fifty_years_resistance_2
+	}
+	}
 	}
 
 	#Red Indochina
@@ -272,6 +309,12 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VIN_help_martyrs_family  } prerequisite = { focus = VIN_improve_veteran_welfare  }
+		completion_reward = {
+		swap_ideas = {
+		remove_idea = VIN_fifty_years_resistance_2 
+		add_idea = VIN_fifty_years_resistance_3
+	}
+	}
 	}
 
 	#The Greatest Generation
@@ -285,6 +328,12 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VIN_increase_budget_of_the_veterans_association  }
+        completion_reward = { 
+		swap_ideas = {
+		remove_idea = VIN_fifty_years_resistance_3
+		add_idea = VIN_fifty_years_resistance_4
 	}
+	
+	#######
 
 }

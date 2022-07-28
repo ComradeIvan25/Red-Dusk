@@ -91,7 +91,7 @@ country_event = {
 			SOV = {
 				has_equipment = { infantry_weapons > 249 }
 				has_equipment = { support_equipment > 99 }
-				has_equipment = { artillery_equipment > 19 }
+				has_equipment = { towed_artillery_equipment > 19 }
 				has_equipment = { mbt_tank_equipment > 14 }
 				has_equipment = { fighter_equipment > 9 }
 			}
@@ -110,7 +110,7 @@ country_event = {
 				target = IRQ
 			}
 			send_equipment = {
-				equipment = artillery_equipment
+				equipment = towed_artillery_equipment
 				amount = 20
 				target = IRQ
 			}

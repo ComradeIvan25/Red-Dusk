@@ -8,7 +8,13 @@
  offensive_doctrine:0 "Offensive Doctrine"
  defensive_doctrine:0 "Defensive Doctrine"
  reformist:0 "Reformist"
+ reformist_advisor:0 "Reformist Advisor"
  chief_of_industry:0 "Chief of Industry"
  leader_of_the_intelligance_network:0 "Leader of the Intelligance Network"
- 
+ party_hardliner:0 "Party Hardliner"
+ leader_of_the_council_of_ministers:0 "Leader of the Council of Ministers"
+ leader_of_the_council_of_ministers_2:0 "Leader of the Council of Ministers"
+  
  chemical_ali:0 "Chemical Ali"
+ 
+ railway_company:0 "Railway Company"

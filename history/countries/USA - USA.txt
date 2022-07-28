@@ -103,6 +103,8 @@ add_ideas = USA_misdirected_foreign_policy
 add_ideas = USA_military_spending
 add_ideas = USA_last_bastion
 
+add_ideas = usa_aligned_nation
+
 recruit_character = USA_dan_quayle
 recruit_character = USA_george_bush
 

@@ -93,7 +93,7 @@ focus_tree = {
 	
 	focus = {
 		id = YUG_slobodan_our_savior
-		icon = GFX_focus_YUG_tito_honour
+		icon = GFX_focus_YUG_slobo_saviour
 		x = 10
 		y = 2
 

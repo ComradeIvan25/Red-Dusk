@@ -22,5 +22,28 @@ ideas = {
 		}
 
 	}
+	
+	hidden_ideas = {
+	
+		china_aligned_nation = {
+				
+			name = china_aligned_nation_name
+
+			removal_cost = -1
+
+			picture =  bruh_nothing
+
+			allowed = {
+				always = no
+			}
+				
+			modifier = {
+			}	
+
+		}
+	
+	
+	}
+
 
 }

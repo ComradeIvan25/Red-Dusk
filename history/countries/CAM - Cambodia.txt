@@ -7,6 +7,8 @@ set_research_slots = 2
 add_ideas = CAM_legacy_of_polpot
 add_ideas = CAM_internal_conflict
 
+add_ideas = ussr_aligned_nation
+
 recruit_character = CAM_Hun_Sen
 
 set_politics = {

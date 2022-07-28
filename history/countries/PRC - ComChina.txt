@@ -18,3 +18,5 @@ set_popularities = {
 }
 
 add_ideas = PRC_legacy_xiaoping_reform
+
+add_ideas = china_aligned_nation

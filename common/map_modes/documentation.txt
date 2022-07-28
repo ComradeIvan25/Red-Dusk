@@ -30,12 +30,21 @@ scripted_map_modes = {
 								OR = {						
 								has_idea = ussr_aligned_nation 
 								has_idea = usa_aligned_nation
+								has_idea = china_aligned_nation 
 								}
 							}
 						}
 						set_temp_variable = { red = 0.50 }
 						set_temp_variable = { green = 0.50 }
 						set_temp_variable = { blue = 0.50 }
+					}
+					else = {
+						limit = {
+						has_idea = china_aligned_nation 
+						}
+						set_temp_variable = { red = 0.950 }
+						set_temp_variable = { green = 0.354 }
+						set_temp_variable = { blue = 0.354 }
 					}
 				}
 

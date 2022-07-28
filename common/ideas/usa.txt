@@ -160,7 +160,30 @@ ideas = {
 				political_power_gain = -0.10
 			}
 		}
+		
+		
+	}
+	
+	hidden_ideas = {
+	
+		usa_aligned_nation = {
+				
+			name = usa_aligned_nation_name
 
+			removal_cost = -1
+
+			picture =  bruh_nothing
+
+			allowed = {
+				always = no
+			}
+				
+			modifier = {
+			}	
+
+		}
+	
+	
 	}
 
 }

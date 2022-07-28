@@ -7,6 +7,8 @@ set_convoys = 5
 recruit_character = SRL_Chandrika_Kumaratunga
 recruit_character = SRL_Dingiri_Banda_Wijetunga
 
+add_ideas = usa_aligned_nation
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"

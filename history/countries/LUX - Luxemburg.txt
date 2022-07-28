@@ -9,6 +9,8 @@ recruit_character = LUX_jean_claude
 
 add_ideas = GER_eu
 
+add_ideas = usa_aligned_nation
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1934.6.3"

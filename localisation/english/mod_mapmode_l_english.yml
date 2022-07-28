@@ -1,0 +1,6 @@
+﻿l_english:
+ MAPMODE_COLD_WAR_MAP:0 "Cold War"
+ MAPMODE_COLD_WAR_MAP_NAME:0 "Cold War"
+ MAPMODE_COLD_WAR_MAP_DESCRIPTION:0 "Shows the current Cold War Development with countries stances"
+ cold_war_map_tooltip:0 "§BBlue countries§! are aligned with [USA.GetNameWithFlag] \n\n§RRed countries§! are aligned with [SOV.GetNameWithFlag] \n\n§gGrey countries§! are not aligned with anybody"
+ cold_war_map_tooltip_delay:0 ""

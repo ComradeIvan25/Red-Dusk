@@ -12,6 +12,8 @@ add_ideas = GER_eu
 add_ideas = ENG_commonwelth
 add_ideas = ENG_queen
 
+add_ideas = usa_aligned_nation
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1935.11.14"

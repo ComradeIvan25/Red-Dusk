@@ -28,5 +28,7 @@ recruit_character = SPR_josé_aznar
 
 add_ideas = GER_eu
 
+add_ideas = usa_aligned_nation
+
 set_convoys = 150
 set_stability = 0.5

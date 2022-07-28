@@ -19,4 +19,6 @@ set_popularities = {
 
 recruit_character = CAN_jean_chrétien
 
+add_ideas = usa_aligned_nation
+
 set_convoys = 100

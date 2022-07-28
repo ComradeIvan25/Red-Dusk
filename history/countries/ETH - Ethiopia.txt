@@ -9,6 +9,8 @@ recruit_character = ETH_mengistu
 
 add_ideas = ETH_soviet
 
+add_ideas = ussr_aligned_nation
+
 set_politics = {
 	ruling_party = communism
 	last_election = "2000.1.1"

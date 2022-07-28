@@ -7,6 +7,8 @@ set_war_support = 0.3
 
 recruit_character = NZL_helen_clark
 
+add_ideas = usa_aligned_nation
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1935.11.27"

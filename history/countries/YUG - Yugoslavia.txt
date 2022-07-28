@@ -26,7 +26,7 @@ set_popularities = {
 	democratic = 10
 	fascism = 40
 	communism = 20
-        reformed_communism = 30
+    reformed_communism = 30
 }
 
 add_ideas = YUG_demoralized_army
@@ -34,5 +34,7 @@ add_ideas = YUG_yugoslav_mode_of_socialism
 add_ideas = YUG_broken_brotherhood
 add_ideas = YUG_what_are_we
 add_ideas = YUG_after_tito
+
+add_ideas = ussr_aligned_nation
 
 set_stability = 0.4

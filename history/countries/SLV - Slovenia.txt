@@ -4,6 +4,8 @@ set_research_slots = 3
 
 recruit_character = SLV_milan_kucan
 
+add_ideas = usa_aligned_nation
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"

@@ -35,6 +35,4 @@ add_ideas = YUG_broken_brotherhood
 add_ideas = YUG_what_are_we
 add_ideas = YUG_after_tito
 
-add_ideas = ussr_aligned_nation
-
 set_stability = 0.4

@@ -9,6 +9,8 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = usa_aligned_nation
+
 set_popularities = {
 	democratic = 70
         fascism = 10

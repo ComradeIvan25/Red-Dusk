@@ -475,6 +475,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_YUG_tito_honour.png"
 	}
 	SpriteType = {
+		name = "GFX_focus_YUG_slobo_saviour"
+		texturefile = "gfx/interface/goals/focus_YUG_slobodan_our_savior.png"
+	}
+	SpriteType = {
 		name = "GFX_focus_SOV_steady_as"
 		texturefile = "gfx/interface/goals/focus_SOV_steady_as_she_goes.png"
 	}

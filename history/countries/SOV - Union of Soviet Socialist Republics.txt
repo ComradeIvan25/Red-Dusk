@@ -135,6 +135,20 @@ set_technology = {
 	paratrooper_tech_1960 = 1
 	paratrooper_tech_1980 = 1
 	marine_tech_1960 = 1
+	towed_artillery_1960 = 1
+	towed_artillery_1980 = 1
+	motorised_artillery_1960 = 1
+	motorised_artillery_1970 = 1
+	motorised_artillery_1980 = 1
+	motorised_artillery_1990 = 1
+	rocket_artillery_1960 = 1
+	rocket_artillery_1970 = 1
+	rocket_artillery_1980 = 1
+	rocket_artillery_1990 = 1
+	tech_air_burst_shells = 1
+	tech_improved_artillery_ammo = 1
+	tech_guided_artillery_ammo_1 = 1
+	tech_artillery_guidance_systems_1 = 1
 }
 if = {
 	limit = {
@@ -145,9 +159,9 @@ if = {
 	}
 }
 
-set_research_slots = 3
-set_stability = 0.5
-set_war_support = 0.3
+set_research_slots = 4
+set_stability = 0.7
+set_war_support = 0.2
 
 set_convoys = 200
 

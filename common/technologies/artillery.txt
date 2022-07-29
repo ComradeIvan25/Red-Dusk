@@ -35,6 +35,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 3
+
+			modifier = {
+				factor = 5
+				is_major = yes
+			}
+			modifier = {
+				factor = 4
+				date > 2000.01.01
+			}
 		}
 
 		categories = {
@@ -67,6 +77,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 3
+
+			modifier = {
+				factor = 5
+				is_major = yes
+			}
+			modifier = {
+				factor = 4
+				date > 2000.01.01
+			}
 		}
 
 		categories = {
@@ -95,6 +115,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 3
+
+			modifier = {
+				factor = 5
+				is_major = yes
+			}
+			modifier = {
+				factor = 4
+				date > 2005.01.01
+			}
 		}
 
 		categories = {
@@ -118,6 +148,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 3
+
+			modifier = {
+				factor = 5
+				is_major = yes
+			}
+			modifier = {
+				factor = 4
+				date > 2025.01.01
+			}
 		}
 
 		categories = {
@@ -131,6 +171,10 @@ technologies = {
 
 		enable_equipments = {
 			motorised_artillery_equipment_1
+		}
+
+		dependencies = {
+			tech_motorised_1960 = 1
 		}
 
 		path = {
@@ -152,6 +196,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 4
+				is_major = yes
+			}
+			modifier = {
+				factor = 3
+				date > 2000.01.01
+			}
 		}
 
 		categories = {
@@ -163,6 +217,10 @@ technologies = {
 
 		enable_equipments = {
 			motorised_artillery_equipment_2
+		}
+
+		dependencies = {
+			tech_motorised_1960 = 1
 		}
 
 		path = {
@@ -184,6 +242,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 4
+				is_major = yes
+			}
+			modifier = {
+				factor = 3
+				date > 2000.01.01
+			}
 		}
 
 		categories = {
@@ -195,6 +263,10 @@ technologies = {
 
 		enable_equipments = {
 			motorised_artillery_equipment_3
+		}
+
+		dependencies = {
+			tech_motorised_1960 = 1
 		}
 
 		path = {
@@ -212,6 +284,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 4
+				is_major = yes
+			}
+			modifier = {
+				factor = 3
+				date > 2000.01.01
+			}
 		}
 
 		categories = {
@@ -223,6 +305,10 @@ technologies = {
 
 		enable_equipments = {
 			motorised_artillery_equipment_4
+		}
+
+		dependencies = {
+			tech_motorised_1960 = 1
 		}
 
 		path = {
@@ -244,6 +330,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 4
+				is_major = yes
+			}
+			modifier = {
+				factor = 3
+				date > 2000.01.01
+			}
 		}
 
 		categories = {
@@ -255,6 +351,10 @@ technologies = {
 
 		enable_equipments = {
 			motorised_artillery_equipment_5
+		}
+
+		dependencies = {
+			tech_motorised_1960 = 1
 		}
 
 		path = {
@@ -272,6 +372,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 4
+				is_major = yes
+			}
+			modifier = {
+				factor = 3
+				date > 2005.01.01
+			}
 		}
 
 		categories = {
@@ -283,6 +393,10 @@ technologies = {
 
 		enable_equipments = {
 			motorised_artillery_equipment_6
+		}
+
+		dependencies = {
+			tech_motorised_1960 = 1
 		}
 
 		path = {
@@ -300,6 +414,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 4
+				is_major = yes
+			}
+			modifier = {
+				factor = 3
+				date > 2015.01.01
+			}
 		}
 
 		categories = {
@@ -313,6 +437,10 @@ technologies = {
 			motorised_artillery_equipment_7
 		}
 
+		dependencies = {
+			tech_motorised_1960 = 1
+		}
+
 		research_cost = 3
 
 		start_year = 2020
@@ -323,6 +451,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 4
+				is_major = yes
+			}
+			modifier = {
+				factor = 3
+				date > 2025.01.01
+			}
 		}
 
 		categories = {
@@ -336,6 +474,10 @@ technologies = {
 
 		enable_equipments = {
 			rocket_artillery_equipment_1
+		}
+
+		dependencies = {
+			tech_motorised_1960 = 1
 		}
 
 		path = {
@@ -357,6 +499,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 4
+				tag = SOV
+			}
 		}
 
 		categories = {
@@ -368,6 +520,10 @@ technologies = {
 
 		enable_equipments = {
 			rocket_artillery_equipment_2
+		}
+
+		dependencies = {
+			tech_motorised_1960 = 1
 		}
 
 		path = {
@@ -389,6 +545,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 4
+				tag = SOV
+			}
 		}
 
 		categories = {
@@ -400,6 +566,10 @@ technologies = {
 
 		enable_equipments = {
 			rocket_artillery_equipment_3
+		}
+
+		dependencies = {
+			tech_motorised_1960 = 1
 		}
 
 		path = {
@@ -417,6 +587,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 4
+				tag = SOV
+			}
 		}
 
 		categories = {
@@ -428,6 +608,10 @@ technologies = {
 
 		enable_equipments = {
 			rocket_artillery_equipment_4
+		}
+
+		dependencies = {
+			tech_motorised_1960 = 1
 		}
 
 		path = {
@@ -445,6 +629,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 4
+				tag = SOV
+			}
 		}
 
 		categories = {
@@ -456,6 +650,10 @@ technologies = {
 
 		enable_equipments = {
 			rocket_artillery_equipment_5
+		}
+
+		dependencies = {
+			tech_motorised_1960 = 1
 		}
 
 		path = {
@@ -473,6 +671,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 4
+				tag = SOV
+			}
 		}
 
 		categories = {
@@ -484,6 +692,10 @@ technologies = {
 
 		enable_equipments = {
 			rocket_artillery_equipment_6
+		}
+
+		dependencies = {
+			tech_motorised_1960 = 1
 		}
 
 		path = {
@@ -501,6 +713,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 4
+				tag = SOV
+			}
 		}
 
 		categories = {
@@ -514,6 +736,10 @@ technologies = {
 			rocket_artillery_equipment_7
 		}
 
+		dependencies = {
+			tech_motorised_1960 = 1
+		}
+
 		research_cost = 3.5
 
 		start_year = 2020
@@ -524,6 +750,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 4
+				tag = SOV
+			}
 		}
 
 		categories = {
@@ -549,7 +785,21 @@ technologies = {
 			position = { x = 3 y = 3 }
 		}
 
+		towed_artillery_unit = {
+			soft_attack = 0.2
+		}
+		towed_artillery_support_unit = {
+			soft_attack = 0.2
+		}
+		motorised_artillery_unit = {
+			soft_attack = 0.2
+		}
+		motorised_artillery_support_unit = {
+			soft_attack = 0.2
+		}
+
 		ai_will_do = {
+			factor = 2
 		}
 
 		categories = {
@@ -568,7 +818,21 @@ technologies = {
 			position = { x = 3 y = 5 }
 		}
 
+		towed_artillery_unit = {
+			soft_attack = 0.15
+		}
+		towed_artillery_support_unit = {
+			soft_attack = 0.15
+		}
+		motorised_artillery_unit = {
+			soft_attack = 0.15
+		}
+		motorised_artillery_support_unit = {
+			soft_attack = 0.15
+		}
+
 		ai_will_do = {
+			factor = 1
 		}
 
 		categories = {
@@ -592,7 +856,34 @@ technologies = {
 			position = { x = 3 y = 9 }
 		}
 
+		towed_artillery_unit = {
+			soft_attack = 0.1
+			ap_attack = 0.05
+		}
+		towed_artillery_support_unit = {
+			soft_attack = 0.1
+			ap_attack = 0.05
+		}
+		motorised_artillery_unit = {
+			soft_attack = 0.1
+			ap_attack = 0.05
+		}
+		motorised_artillery_support_unit = {
+			soft_attack = 0.1
+			ap_attack = 0.05
+		}
+
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 3
+				tag = USA
+			}
 		}
 
 		categories = {
@@ -611,7 +902,34 @@ technologies = {
 			position = { x = 3 y = 13 }
 		}
 
+		towed_artillery_unit = {
+			soft_attack = 0.1
+			ap_attack = 0.05
+		}
+		towed_artillery_support_unit = {
+			soft_attack = 0.1
+			ap_attack = 0.05
+		}
+		motorised_artillery_unit = {
+			soft_attack = 0.1
+			ap_attack = 0.05
+		}
+		motorised_artillery_support_unit = {
+			soft_attack = 0.1
+			ap_attack = 0.05
+		}
+
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 3
+				tag = USA
+			}
 		}
 
 		categories = {
@@ -630,7 +948,30 @@ technologies = {
 			position = { x = 9 y = 3 }
 		}
 
+		motorised_artillery_unit = {
+			defense = 0.2
+		}
+		rocket_artillery_unit = {
+			defense = 0.2
+		}
+
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				factor = 1
+				OR = {
+					has_tech = motorised_artillery_1960
+					has_tech = rocket_artillery_1960
+				}
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					has_template_containing_unit = motorised_artillery_unit
+					has_template_containing_unit = rocket_artillery_unit
+				}
+			}
 		}
 
 		categories = {
@@ -654,7 +995,30 @@ technologies = {
 			position = { x = 9 y = 5 }
 		}
 
+		motorised_artillery_unit = {
+			soft_attack = 0.1
+			ap_attack = 0.02
+		}
+		motorised_artillery_support_unit = {
+			soft_attack = 0.1
+			ap_attack = 0.02
+		}
+		rocket_artillery_unit = {
+			soft_attack = 0.1
+			ap_attack = 0.02
+		}
+		rocket_artillery_support_unit = {
+			soft_attack = 0.1
+			ap_attack = 0.02
+		}
+
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -678,7 +1042,30 @@ technologies = {
 			position = { x = 9 y = 9 }
 		}
 
+		motorised_artillery_unit = {
+			soft_attack = 0.1
+			ap_attack = 0.02
+		}
+		motorised_artillery_support_unit = {
+			soft_attack = 0.1
+			ap_attack = 0.02
+		}
+		rocket_artillery_unit = {
+			soft_attack = 0.1
+			ap_attack = 0.02
+		}
+		rocket_artillery_support_unit = {
+			soft_attack = 0.1
+			ap_attack = 0.02
+		}
+
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -697,7 +1084,30 @@ technologies = {
 			position = { x = 9 y = 13 }
 		}
 
+		motorised_artillery_unit = {
+			soft_attack = 0.1
+			ap_attack = 0.02
+		}
+		motorised_artillery_support_unit = {
+			soft_attack = 0.1
+			ap_attack = 0.02
+		}
+		rocket_artillery_unit = {
+			soft_attack = 0.1
+			ap_attack = 0.02
+		}
+		rocket_artillery_support_unit = {
+			soft_attack = 0.1
+			ap_attack = 0.02
+		}
+
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
 		}
 
 		categories = {

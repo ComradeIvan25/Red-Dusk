@@ -1,7 +1,7 @@
 state={
 	id=787
 	name="STATE_787" # Northern Kashmir
-	manpower = 1415800
+	manpower = 1386400
 	
 	state_category = rural
 
@@ -14,12 +14,14 @@ state={
 			infrastructure = 1
 		}
 		add_core_of = PAK
+		add_claim_by = RAJ
+		add_claim_by = PRC
 
 		set_demilitarized_zone = yes
 	}
 
 	provinces={
-		1910 2041 2084 10821 
+		1910 2041 2084 10821
 	}
 
 	local_supplies=0.0 

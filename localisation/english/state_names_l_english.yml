@@ -439,7 +439,7 @@
  STATE_438:0 "Lucknow"
  STATE_439:0 "Delhi"
  STATE_440:0 "Punjab"
- STATE_441:0 "Ladakh"
+ STATE_441:0 "Kashmir"
  STATE_442:0 "Peshawar"
  STATE_443:0 "Sind"
  STATE_444:0 "Baluchistan"
@@ -858,3 +858,4 @@
  STATE_857:0 "Kasai-Oriental"
  STATE_858:0 "Bandundu"
  STATE_859:0 "Sud-Kivu"
+ STATE_860:0 "Bahrain"

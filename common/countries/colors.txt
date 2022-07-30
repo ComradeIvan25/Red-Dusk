@@ -870,3 +870,7 @@ RCK = {
 	color = rgb { 102 124 155 }
 	color_ui = rgb { 115 124 155 }
 }
+BHR = {
+	color = rgb { 214 208 180 }
+	color_ui = rgb { 201 195 165 }
+}

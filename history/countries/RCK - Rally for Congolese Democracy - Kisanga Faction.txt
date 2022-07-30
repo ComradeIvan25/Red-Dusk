@@ -1,17 +1,40 @@
-﻿capital = 295
+﻿capital = 718
 
 #oob = "COG_1936"
 
 set_convoys = 5
 
-recruit_character = COG_laurent
+recruit_character = RCK_Ernest_Wamba_dia_Wamba
+
+add_ideas = COG_africas_world_war
+add_ideas = RCD_tensions
+
+add_ideas = war_economy
+
+declare_war_on = {
+	target = COG
+	type = topple_government
+}
+declare_war_on = {
+	target = ANG
+	type = topple_government
+}
+declare_war_on = {
+	target = NMB
+	type = topple_government
+}
+declare_war_on = {
+	target = ZIM
+	type = topple_government
+}
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "2000.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	democratic = 75
+	neutrality = 25
 }

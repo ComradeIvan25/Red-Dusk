@@ -1087,4 +1087,46 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SOV_warsaw_pact_reborn.dds"
 	}
 	
+	###USA###
+	
+	SpriteType = {
+		name = "GFX_USA_focus_aftermath_of_uneasy_90s"
+		texturefile = "gfx/interface/goals/USA_focus_aftermath_of_uneasy_90s.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_focus_quayle_america"
+		texturefile = "gfx/interface/goals/USA_focus_quayle_america.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_the_three_parties"
+		texturefile = "gfx/interface/goals/USA_focus_the_three_parties.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_economic_ramfications"
+		texturefile = "gfx/interface/goals/USA_focus_economic_ramfications.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_focus_quayles_biggest_failure"
+		texturefile = "gfx/interface/goals/USA_focus_quayles_biggest_failure.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_focus_the_stagnation_crisis"
+		texturefile = "gfx/interface/goals/USA_focus_the_stagnation_crisis.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_focus_wating_for_elections"
+		texturefile = "gfx/interface/goals/USA_focus_wating_for_elections.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_focus_the_winner_is"
+		texturefile = "gfx/interface/goals/USA_focus_the_winner_is.dds"
+	}
+	
 }

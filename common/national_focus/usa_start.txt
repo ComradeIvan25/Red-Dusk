@@ -13,7 +13,7 @@
 	default = no
 	focus = {
 		id = USA_aftermath_of_the_uneasy_90s
-		icon = GFX_focus_SOV_status_of_union
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
 		x = 9
 		y = 0
 
@@ -37,7 +37,7 @@
 	
 	focus = {
 		id = USA_quayles_america
-		icon = GFX_focus_SOV_status_of_union
+		icon = GFX_USA_focus_quayle_america
 		x = 9
 		y = 1
 
@@ -60,7 +60,7 @@
 	
 	focus = {
 		id = USA_economic_ramifications
-		icon = GFX_focus_SOV_status_of_union
+		icon = GFX_USA_economic_ramfications
 		x = 8
 		y = 2
 
@@ -87,7 +87,7 @@
 		
 	focus = {
 		id = USA_stagnation_crisis
-		icon = GFX_focus_SOV_status_of_union
+		icon = GFX_USA_focus_the_stagnation_crisis
 		x = 8
 		y = 3
 
@@ -110,7 +110,7 @@
 	
 	focus = {
 		id = USA_the_three_parties
-		icon = GFX_focus_SOV_status_of_union
+		icon = GFX_USA_the_three_parties
 		x = 10
 		y = 2
 
@@ -134,7 +134,7 @@
 	
 	focus = {
 		id = USA_quayles_biggest_failure
-		icon = GFX_focus_SOV_status_of_union
+		icon = GFX_USA_focus_quayles_biggest_failure
 		x = 10
 		y = 3
 
@@ -161,7 +161,7 @@
 	
 	focus = {
 		id = USA_waiting_for_the_election
-		icon = GFX_focus_SOV_status_of_union
+		icon = GFX_USA_focus_wating_for_elections
 		x = 9
 		y = 4
 
@@ -185,7 +185,7 @@
 	
 	focus = {
 		id = USA_the_winner_is
-		icon = GFX_focus_SOV_status_of_union
+		icon = GFX_USA_focus_the_winner_is
 		x = 9
 		y = 5
 

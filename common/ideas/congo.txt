@@ -1,0 +1,87 @@
+ideas = {
+	
+	country = {
+	
+		COG_africas_world_war = {
+			name = COG_africas_world_war_name
+
+			removal_cost = -1
+
+			picture = nothing
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_core_attack_factor = 0.1
+				army_attack_factor = -0.05
+				stability_factor = -0.3
+				monthly_population = -0.7
+			}
+		}
+		
+		RCD_tensions = {
+			name = RCD_tensions_name
+
+			removal_cost = -1
+
+			picture = nothing
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_cost = 0.5
+				stability_weekly_factor	= -0.001
+				war_support_weekly = 0.001
+			}
+			
+		}
+		
+		RCK_RCD_war = {
+			name = RCD_war_name
+
+			removal_cost = -1
+
+			picture = nothing
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_cost = 0.25
+			}
+			
+			targeted_modifier = {
+				tag = RGO
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+		
+		RGO_RCD_war = {
+			name = RCD_war_name
+
+			removal_cost = -1
+
+			picture = nothing
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_cost = 0.25
+			}
+			
+			targeted_modifier = {
+				tag = RCK
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+	}
+}

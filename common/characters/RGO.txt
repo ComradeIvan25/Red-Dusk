@@ -1,0 +1,18 @@
+characters = {
+
+	RGO_Emile_Ilunga = {
+		name = "Emile Ilunga"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RGO/Emile_Ilunga.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

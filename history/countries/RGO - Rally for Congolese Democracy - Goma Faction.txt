@@ -1,10 +1,20 @@
-﻿capital = 548
+﻿capital = 859
 
-set_convoys = 0
+#oob = "COG_1936"
 
-recruit_character = UGA_yoweri
+set_convoys = 5
+
+recruit_character = RGO_Emile_Ilunga
 
 add_ideas = COG_africas_world_war
+add_ideas = RCD_tensions
+
+add_ideas = war_economy
+
+RGO = { set_province_controller = 12907 }
+RGO = { set_province_controller = 2024 }
+RGO = { set_province_controller = 8016 }
+RGO = { set_province_controller = 7219 }
 
 declare_war_on = {
 	target = COG
@@ -22,16 +32,13 @@ declare_war_on = {
 	target = ZIM
 	type = topple_government
 }
-
 set_politics = {
 	ruling_party = democratic
 	last_election = "2000.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 55
-	fascism = 15
-	communism = 5
-	neutrality = 25
+	democratic = 49
+	neutrality = 51
 }

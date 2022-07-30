@@ -4,6 +4,8 @@ set_convoys = 0
 
 recruit_character = BRD_pierre_buyoya
 
+add_ideas = COG_africas_world_war
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"
@@ -16,4 +18,21 @@ set_popularities = {
 	fascism = 15
 	communism = 5
 	neutrality = 25
+}
+
+declare_war_on = {
+	target = COG
+	type = topple_government
+}
+declare_war_on = {
+	target = ANG
+	type = topple_government
+}
+declare_war_on = {
+	target = NMB
+	type = topple_government
+}
+declare_war_on = {
+	target = ZIM
+	type = topple_government
 }

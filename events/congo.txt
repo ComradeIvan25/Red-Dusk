@@ -1,0 +1,129 @@
+add_namespace = congo
+
+#raid RCD - Goma ?#
+country_event = {
+	id = congo.1
+	title = congo.1.t
+	desc = congo.1.d
+	picture = GFX_report_event_SOV_the_meeting
+	
+	trigger = {
+	date > 2000.4.15
+	original_tag = RCK
+	country_exists = RCK
+	country_exists = RGO
+	}
+
+	fire_only_once = yes
+
+		#yes#
+	option = {
+		name = congo.1.a
+		RGO = {
+		country_event = {id = congo.2 days = 1}
+		add_stability = -0.05
+		}
+		army_experience = 15
+		ai_chance = {
+		factor = 100
+		}
+	}
+}
+
+#RCD - Kisangani raids our bases !#
+country_event = {
+	id = congo.2
+	title = congo.2.t
+	desc = congo.2.d
+	picture = GFX_report_event_SOV_the_meeting
+	
+	is_triggered_only = yes
+	
+		#enough is enough#
+	option = {
+		name = congo.2.a
+		news_event = {id = old_times_news.20 days = 1}
+		army_experience = 15
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.05
+		}
+		
+		RWA = {
+		dismantle_faction = yes  
+		}
+		RWA = {
+		create_faction = "RCD - Goma Forces"
+		}
+		
+		RWA = {
+			add_to_faction = RGO
+			add_to_faction = BRD
+		}
+		
+		UGA = {
+		create_faction = "RCD - Kisangani Forces"
+		}
+		
+		UGA = {
+			add_to_faction = RCK
+		}
+		RGO = {
+			swap_ideas = {
+			remove_idea = RCD_tensions
+			add_idea = RGO_RCD_war
+			}
+			
+			declare_war_on = {
+				target = RCK
+				type = topple_government
+			}
+			declare_war_on = {
+				target = UGA
+				type = topple_government
+			}
+		
+		}
+		
+		RCK = {
+			swap_ideas = {
+			remove_idea = RCD_tensions
+			add_idea = RCK_RCD_war
+			}
+
+		}
+		
+		RWA = {
+			declare_war_on = {
+				target = RCK
+				type = topple_government
+			}
+			declare_war_on = {
+				target = UGA
+				type = topple_government
+			}
+		
+		}
+		
+				
+		BRD = {
+			declare_war_on = {
+				target = RCK
+				type = topple_government
+			}
+			declare_war_on = {
+				target = UGA
+				type = topple_government
+			}
+		
+		}
+		ai_chance = {
+		factor = 100
+		}
+	}
+
+}
+
+
+
+

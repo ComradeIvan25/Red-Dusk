@@ -172,6 +172,7 @@ news_event = {
 	}
 }
 
+#anti - kaliba allaince collapses#
 news_event = {
 	id = old_times_news.20
 	title = old_times_news.20.t
@@ -184,6 +185,54 @@ news_event = {
 	fire_only_once = yes
 	option ={
 		name = old_times_news.20.a
+	}
+}
+
+#Congo Goverment Wins The Second Congo War#
+news_event = {
+	id = old_times_news.21
+	title = old_times_news.21.t
+	desc = old_times_news.21.d
+	picture = GFX_news_alf
+	
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	option ={
+		name = old_times_news.21.a
+	}
+}
+
+#RCD - K Wins The Second Congo War#
+news_event = {
+	id = old_times_news.22
+	title = old_times_news.22.t
+	desc = old_times_news.22.d
+	picture = GFX_news_alf
+	
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	option ={
+		name = old_times_news.22.a
+	}
+}
+
+#RCD - G Wins The Second Congo War#
+news_event = {
+	id = old_times_news.23
+	title = old_times_news.23.t
+	desc = old_times_news.23.d
+	picture = GFX_news_alf
+	
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	option ={
+		name = old_times_news.23.a
 	}
 }
 

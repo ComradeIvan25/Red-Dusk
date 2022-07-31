@@ -6,6 +6,8 @@ recruit_character = UGA_yoweri
 
 add_ideas = COG_africas_world_war
 
+add_ideas = usa_aligned_nation
+
 declare_war_on = {
 	target = COG
 	type = topple_government

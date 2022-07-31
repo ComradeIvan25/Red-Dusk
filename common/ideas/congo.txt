@@ -7,8 +7,12 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = nothing
+			cancel = {
+				has_war = no
+			}
 
+			picture = COG_africas_world_war_icon
+			
 			allowed = {
 				always = no
 			}
@@ -26,7 +30,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = nothing
+			picture = RCD_tensions_icon
 
 			allowed = {
 				always = no
@@ -44,8 +48,12 @@ ideas = {
 			name = RCD_war_name
 
 			removal_cost = -1
-
-			picture = nothing
+			
+			cancel = {
+				has_war = no
+			}
+			
+			picture = RCD_war_icon
 
 			allowed = {
 				always = no
@@ -66,8 +74,12 @@ ideas = {
 			name = RCD_war_name
 
 			removal_cost = -1
-
-			picture = nothing
+			
+			cancel = {
+				has_war = no
+			}
+			
+			picture = RCD_war_icon
 
 			allowed = {
 				always = no

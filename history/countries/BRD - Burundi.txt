@@ -6,6 +6,8 @@ recruit_character = BRD_pierre_buyoya
 
 add_ideas = COG_africas_world_war
 
+add_ideas = usa_aligned_nation
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"

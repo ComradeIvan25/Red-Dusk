@@ -35,7 +35,15 @@
  old_times_news.20.t:0 "Anti - Kabila Alliance Collapses" 
  old_times_news.20.d:0 "Multiple border skirmishes and rise of tensions between the two Congolese Rebel Factions finally mounted into a war between the main rebel "Rally for Congolese Democracy" forces.\n\n Two factions were being supported by diffirent countries such as RCD - Kisangani faction being supported by Uganda forces while RCD - Goma faction supported by Rwanda and Burundi forces causing the unitary Anti - Kabila Alliance to collapse and opening another front in the Second Congo War. " 
  old_times_news.20.a:0 "Congo's Future Grows Ever Uncertain" 
- 
+ old_times_news.21.t:0 "Goverment Forces Win the Second Congo War"
+ old_times_news.21.d:0 ""
+ old_times_news.21.a:0 "Africa's Bloodiest War Finally Ends..."
+ old_times_news.22.t:0 "Rally For Congolese Democracy - Kisangani Forces Win the Second Congo War"
+ old_times_news.22.d:0 ""
+ old_times_news.22.a:0 "Africa's Bloodiest War Finally Ends..."
+ old_times_news.23.t:0 "Rally For Congolese Democracy - Goma Forces Win the Second Congo War"
+ old_times_news.23.d:0 ""
+ old_times_news.23.a:0 "Africa's Bloodiest War Finally Ends..."
   
 ## Flavour News Events ##
  #flavour_news.1.t:0 ##HIDDEN SCRIPTED EVENT##

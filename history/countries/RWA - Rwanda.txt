@@ -6,6 +6,8 @@ recruit_character = RWA_paul_kagame
 
 add_ideas = COG_africas_world_war
 
+add_ideas = usa_aligned_nation
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"

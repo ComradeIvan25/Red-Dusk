@@ -9,6 +9,8 @@ recruit_character = ZIM_peter_walls
 
 add_ideas = COG_africas_world_war
 
+add_ideas = china_aligned_nation
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"

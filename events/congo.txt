@@ -5,7 +5,7 @@ country_event = {
 	id = congo.1
 	title = congo.1.t
 	desc = congo.1.d
-	picture = GFX_report_event_SOV_the_meeting
+	picture = GFX_report_event_spark
 	
 	trigger = {
 	date > 2000.4.15
@@ -35,7 +35,7 @@ country_event = {
 	id = congo.2
 	title = congo.2.t
 	desc = congo.2.d
-	picture = GFX_report_event_SOV_the_meeting
+	picture = GFX_report_event_spark
 	
 	is_triggered_only = yes
 	
@@ -119,6 +119,358 @@ country_event = {
 		}
 		ai_chance = {
 		factor = 100
+		}
+	}
+}	
+	
+	#rebels defeated#
+	country_event = {
+		id = congo.3
+		title = congo.3.t
+		desc = congo.3.d
+		picture = GFX_report_event_spark
+			
+		trigger = {
+		original_tag = COG
+			NOT = {
+			country_exists = RCK
+			country_exists = RGO
+			}
+		}
+
+		fire_only_once = yes
+
+		#yay#
+		option = {
+			name = congo.3.a
+			add_stability = 0.50
+			
+			news_event = {id = old_times_news.21}
+			
+			annex_country = {
+			target = RGO
+			transfer_troops = no
+			}
+			
+			annex_country = {
+			target = RCK
+			transfer_troops = no
+			}
+			
+			
+			295 = {
+			remove_core_of = RCK
+			remove_core_of = RGO
+			}
+		
+			538 = {
+			remove_core_of = RCK
+			remove_core_of = RGO
+			}
+			
+			718 = {
+			remove_core_of = RCK
+			remove_core_of = RGO
+			}
+			
+			855 = {
+			remove_core_of = RCK
+			remove_core_of = RGO
+			}
+			
+			856 = {
+			remove_core_of = RCK
+			remove_core_of = RGO
+			}
+			
+			857 = {			
+			remove_core_of = RCK
+			remove_core_of = RGO
+			}
+			
+			858 = {			
+			remove_core_of = RCK
+			remove_core_of = RGO
+			}
+			
+			859 = {			
+			remove_core_of = RCK
+			remove_core_of = RGO
+			}
+			
+
+			COG = {
+				dismantle_faction = yes
+				white_peace = UGA
+				white_peace = RWA
+				white_peace = BRD
+			}
+							
+			ANG = {
+				dismantle_faction = yes
+				white_peace = UGA
+				white_peace = RWA
+				white_peace = BRD
+			}
+							
+			NMB = {
+				dismantle_faction = yes
+				white_peace = UGA
+				white_peace = RWA
+				white_peace = BRD
+			}
+				
+			ZIM = {
+				dismantle_faction = yes
+				white_peace = UGA
+				white_peace = RWA
+				white_peace = BRD
+			}
+							
+			RWA = {
+			dismantle_faction = yes
+			}
+			
+			UGA = {
+			dismantle_faction = yes
+			}
+							
+		}
+	}
+	
+	#congo gov defeated as RCD - K#
+	country_event = {
+		id = congo.4
+		title = congo.4.t
+		desc = congo.4.d
+		picture = GFX_report_event_spark
+			
+		trigger = {
+		original_tag = RCK
+			NOT = {
+			country_exists = COG
+			country_exists = RGO
+			}
+		}
+
+		fire_only_once = yes
+
+		#yay#
+		option = {
+			name = congo.4.a
+			add_stability = 0.50
+			
+			news_event = {id = old_times_news.22}
+			
+			annex_country = {
+			target = RGO
+			transfer_troops = no
+			}
+			
+			annex_country = {
+			target = COG
+			transfer_troops = no
+			}
+			
+			295 = {
+			remove_core_of = RGO
+			remove_core_of = COG
+			}
+		
+			538 = {
+			remove_core_of = RGO
+			remove_core_of = COG
+			}
+			
+			718 = {
+			remove_core_of = RGO
+			remove_core_of = COG
+			}
+			
+			855 = {
+			remove_core_of = RGO
+			remove_core_of = COG
+			}
+			
+			856 = {
+			remove_core_of = RGO
+			remove_core_of = COG
+			}
+			
+			857 = {			
+			remove_core_of = RGO
+			remove_core_of = COG
+			}
+			
+			858 = {			
+			remove_core_of = RGO
+			remove_core_of = COG
+			}
+			
+			859 = {			
+			remove_core_of = RGO
+			remove_core_of = COG
+			}
+			
+			COG = {
+				dismantle_faction = yes
+				white_peace = UGA
+				white_peace = RWA
+				white_peace = BRD
+			}
+							
+			ANG = {
+				dismantle_faction = yes
+				white_peace = UGA
+				white_peace = RWA
+				white_peace = BRD
+			}
+							
+			NMB = {
+				dismantle_faction = yes
+				white_peace = UGA
+				white_peace = RWA
+				white_peace = BRD
+			}
+				
+			ZIM = {
+				dismantle_faction = yes
+				white_peace = UGA
+				white_peace = RWA
+				white_peace = BRD
+			}
+							
+			RWA = {
+			dismantle_faction = yes
+				white_peace = UGA
+			}
+			
+			BRD = {
+				white_peace = UGA
+			}
+			
+			UGA = {
+			dismantle_faction = yes
+			}
+							
+		}
+	}
+	
+	#congo gov defeated as RCD - G#
+	country_event = {
+		id = congo.5
+		title = congo.5.t
+		desc = congo.5.d
+		picture = GFX_report_event_spark
+			
+		trigger = {
+		original_tag = RGO
+			NOT = {
+			country_exists = COG
+			country_exists = RCK
+			}
+		}
+
+		fire_only_once = yes
+
+		#yay#
+		option = {
+			name = congo.5.a
+			add_stability = 0.50
+			
+			news_event = {id = old_times_news.23}
+			
+			annex_country = {
+			target = RCK
+			transfer_troops = no
+			}
+			
+			annex_country = {
+			target = COG
+			transfer_troops = no
+			}
+			
+			295 = {
+			remove_core_of = RCK
+			remove_core_of = COG
+			}
+		
+			538 = {
+			remove_core_of = RCK
+			remove_core_of = COG
+			}
+			
+			718 = {
+			remove_core_of = RCK
+			remove_core_of = COG
+			}
+			
+			855 = {
+			remove_core_of = RCK
+			remove_core_of = COG
+			}
+			
+			856 = {
+			remove_core_of = RCK
+			remove_core_of = COG
+			}
+			
+			857 = {			
+			remove_core_of = RCK
+			remove_core_of = COG
+			}
+			
+			858 = {			
+			remove_core_of = RCK
+			remove_core_of = COG
+			}
+			
+			859 = {			
+			remove_core_of = RCK
+			remove_core_of = COG
+			}
+			
+			COG = {
+				dismantle_faction = yes
+				white_peace = UGA
+				white_peace = RWA
+				white_peace = BRD
+			}
+							
+			ANG = {
+				dismantle_faction = yes
+				white_peace = UGA
+				white_peace = RWA
+				white_peace = BRD
+			}
+							
+			NMB = {
+				dismantle_faction = yes
+				white_peace = UGA
+				white_peace = RWA
+				white_peace = BRD
+			}
+				
+			ZIM = {
+				dismantle_faction = yes
+				white_peace = UGA
+				white_peace = RWA
+				white_peace = BRD
+			}
+							
+			RWA = {
+			dismantle_faction = yes
+				white_peace = UGA
+			}
+			
+			BRD = {
+				white_peace = UGA
+			}
+			
+			UGA = {
+			dismantle_faction = yes
+			}
+							
 		}
 	}
 

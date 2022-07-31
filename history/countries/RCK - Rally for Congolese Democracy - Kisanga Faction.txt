@@ -11,6 +11,8 @@ add_ideas = RCD_tensions
 
 add_ideas = war_economy
 
+add_ideas = usa_aligned_nation
+
 declare_war_on = {
 	target = COG
 	type = topple_government

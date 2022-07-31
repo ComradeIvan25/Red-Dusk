@@ -11,6 +11,8 @@ add_ideas = RCD_tensions
 
 add_ideas = war_economy
 
+add_ideas = usa_aligned_nation
+
 RGO = { set_province_controller = 12907 }
 RGO = { set_province_controller = 2024 }
 RGO = { set_province_controller = 8016 }

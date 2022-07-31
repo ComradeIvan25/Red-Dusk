@@ -287,4 +287,18 @@ spriteTypes = {
 		name = "GFX_idea_ENG_common_icon"
 		texturefile = "gfx/interface/ideas/ENG_commonwealth.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_COG_africas_world_war_icon"
+		texturefile = "gfx/interface/ideas/COG_africas_ww.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RCD_tensions_icon"
+		texturefile = "gfx/interface/ideas/RCD_tensions.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RCD_war_icon"
+		texturefile = "gfx/interface/ideas/RCD_war.dds"
+	}
+	
 }

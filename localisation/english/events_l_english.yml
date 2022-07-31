@@ -319,7 +319,10 @@
  vin.1.t:0 "New Millennium"
  vin.1.d:0 "Decades of war and embargo have made our country one of the most backward and poorest countries in the world. However, this has changed since the 6th Party Congress. With the "Doi Moi" policy, a series of socio-economic reforms have been implemented that have slowly brought our country from the ashes. Now, Vietnam enters the new millennium with the head held high and full of hope. It's a long road, but the future is certainly bright."
  vin.1.a:0 "The future is here!"
-
+ vin_intro.2.t:0 "Reunification Day"
+ vin_intro.2.d:0 "On April 30, 1975, the red flag of liberty, the flag of the National Liberation Front of South Vietnam, fluttered over the Independence Palace, marking the reunification of Vietnam after more than 20 years of division.\n\nThe victory on April 30, 1975, was a great achievement in the cause of national liberation and social liberation led by our Party and President Ho Chi Minh; a heroic and brilliant history on the road to building and defending the country for thousands of years of the nation's history. Our army and people have defeated U.S imperialism and the Saigon puppet regime; gloriously ended the 30-year war for independence, freedom, and reunification of the Fatherland; put an end to more than a century of oppression by imperialism.\n\nIt is a shining milestone in the history of mankind's struggle for freedom. The victory of the Vietnamese people contributes to promoting the struggle of people around the world for the sake of national independence, peace, democracy, and social progress; cheering and encouraging the nations that are carrying out national liberation and anti-neocolonialism."
+ vin_intro.2.a:0 "Let's cheer!"
+ 
 
  #IRQ#
 

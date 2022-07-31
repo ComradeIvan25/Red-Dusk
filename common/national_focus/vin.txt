@@ -17,7 +17,7 @@ focus_tree = {
 		icon = VIN_new_vietnam
 		x = 7
 		y = 0
-		cost = 4
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -55,7 +55,7 @@ focus_tree = {
 		icon = GFX_focus_SOV_great_industry
 		x = 7
 		y = 1
-		cost = 3
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -141,7 +141,7 @@ focus_tree = {
 		icon = generic_soc_market
 		x = 7
 		y = 4
-		cost = 6
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -164,7 +164,7 @@ focus_tree = {
 		icon = VIN_improve_veteran_welfare
 		x = 2
 		y = 2
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -181,7 +181,7 @@ focus_tree = {
 		icon = VIN_help_family
 		x = 4
 		y = 2
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -244,6 +244,18 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VIN_red_indochina  }
+		completion_reward = {
+		diplomatic_relation = { 
+	    country = CAM 
+	    relation = guarantee 
+	    active = yes
+      } 
+	    diplomatic_relation = { 
+	    country = LAO
+	    relation = guarantee 
+	    active = yes
+    }
+	}
 	}
 
 	#Ask for aid
@@ -304,7 +316,7 @@ focus_tree = {
 		icon = VIN_fund_veteran
 		x = 3
 		y = 3
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}

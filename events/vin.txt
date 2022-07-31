@@ -15,9 +15,22 @@ country_event = {
 		
 		hidden_effect = {
 			VIN = {
-				country_event = { id = vin_intro.2 days = 5 }
+				country_event = { id = vin_intro.2 days = 121 }
 			}
 		}
+	}
+}
+
+country_event = {
+	id = vin_intro.2
+	title = vin_intro.2.t
+	desc = vin_intro.2.d
+	picture = GFX_report_event_VIN_intro2
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vin_intro.2.a
 	}
 }
 

@@ -157,6 +157,10 @@ spriteTypes = {
 		name = "GFX_report_event_VIN_new_age"
 		texturefile = "gfx/event_pictures/VIN/vin.1.png"
 	}
+	spriteType = {
+		name = "GFX_report_event_VIN_intro2"
+		texturefile = "gfx/event_pictures/VIN/VIN.intro2.png"
+	}
 
         ##SAF##
 	spriteType = {

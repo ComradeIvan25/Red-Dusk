@@ -10,6 +10,18 @@ add_ideas = VIN_patriotic_tradition
 
 add_ideas = ussr_aligned_nation
 
+diplomatic_relation = {
+	country = LAO
+	relation = non_aggression_pact
+	active = yes
+}
+
+diplomatic_relation = {
+	country = CAM
+	relation = non_aggression_pact
+	active = yes
+}
+
 recruit_character = VIN_le_kha_phieu
 recruit_character = VIN_le_kha_phieu_1
 recruit_character = VIN_phung_quang_thanh

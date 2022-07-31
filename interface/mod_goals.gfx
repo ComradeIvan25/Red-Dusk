@@ -1086,6 +1086,26 @@ spriteTypes = {
 		name = "GFX_SOV_warsaw_pact_reborn"
 		texturefile = "gfx/interface/goals/SOV_warsaw_pact_reborn.dds"
 	}
+	SpriteType = {
+		name = "GFX_SOV_negotiate_with_rebels"
+		texturefile = "gfx/interface/goals/SOV_negotiate_with_rebels.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_ukrainian_autonomy"
+		texturefile = "gfx/interface/goals/SOV_ukrainian_autonomy.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_increase_chechen_autonomy"
+		texturefile = "gfx/interface/goals/SOV_increase_chechen_autonomy.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_increase_lithuenian_autonomy"
+		texturefile = "gfx/interface/goals/SOV_increase_lithuenian_autonomy.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_setting_ways_better_for_the_USSR"
+		texturefile = "gfx/interface/goals/SOV_setting_ways_better_for_the_USSR.dds"
+	}
 	
 	###USA###
 	

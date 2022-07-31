@@ -2,6 +2,8 @@
 
 ##oob = ""
 
+recruit_character = MOL_petru_lucinschi
+
 set_convoys = 5
 
 set_politics = {

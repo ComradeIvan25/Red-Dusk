@@ -2,10 +2,10 @@
 	id = ussr_gorby_focus
 	country = {
 		factor = 0
-		#modifier = {
-		#tag = SOV
-		#add = 55
-		#}
+		modifier = {
+		tag = SOV
+		add = 55
+		}
 	}
 	
 	continuous_focus_position = { x = 10 y = 9999 }
@@ -231,6 +231,7 @@
 			SOV = {
 				country_event = { id = ussr.27 }
 			}
+			custom_effect_tooltip = gorby_new_ministers_will_be_avaliable
 		}
 	}
 	focus = {
@@ -379,7 +380,7 @@
 	
 	focus = {
 		id = SOV_negotiate_with_the_rebels
-		icon = GFX_focus_SOV_matter_of_economy
+		icon = GFX_SOV_negotiate_with_rebels
 		x = 10
 		y = 11
 
@@ -408,7 +409,7 @@
 	
 	focus = {
 		id = SOV_gorby_establish_local_lithuenian_government
-		icon = GFX_focus_SOV_crush_lith
+		icon = GFX_SOV_increase_lithuenian_autonomy
 		x = 7
 		y = 12
 
@@ -477,7 +478,7 @@
 	
 	focus = {
 		id = SOV_gorby_establish_local_ukrainan_government
-		icon = GFX_focus_SOV_crackdown_ukraine
+		icon = GFX_SOV_ukrainian_autonomy
 		x = 10
 		y = 12
 		
@@ -541,7 +542,7 @@
 
 	focus = {
 		id = SOV_gorby_incrase_chechen_autonomy
-		icon = GFX_focus_SOV_chechnia_secured
+		icon = GFX_SOV_increase_chechen_autonomy
 		x = 13
 		y = 12
 
@@ -601,7 +602,7 @@
 	
 	focus = {
 		id = SOV_gorby_setting_the_ways_for_a_better_ussr
-		icon = GFX_focus_SOV_prep_future
+		icon = GFX_SOV_setting_ways_better_for_the_USSR
 		x = 10
 		y = 13
 

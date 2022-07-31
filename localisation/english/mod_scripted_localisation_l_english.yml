@@ -136,6 +136,7 @@
  gorby_has_70_support:0 "§tGorbachev §YNeeds 70 Support For This Decision\n\n§!"
  gorby_secured_support:0 "§tGorbachev §GHas Secured Support\n\n§!"
  sov_gorby_got_couped:0 "§tGorbachev §RHas Been Couped§!"
+ gorby_new_ministers_will_be_avaliable:0 "§tNew Ministers Will be Available\n\n§!"
  ######SOVIET REFERANDUMS FOR REITEGRATIONS#### 
 
  sov_gorby_ref_incrase_by_5:0 "§GIncreases §CSupport In All Countries §GBy §C5 §GPercent\n\n§!"
@@ -144,7 +145,7 @@
  sov_refs_succeeds:0 "§GReferendums Have Succeeded\n\n§!"
  sov_referandums_happened:0 "§YReferendums Have Been Hold\n\n§!"
  SOV_referandums_decisions_start:0 "§YReferendums Have Been Organized\n\n§!"
- ###### BY ADDING "\n\n" AND ADDING "§W§" RIGHT AFTER IT AT THE END OF THE LOC WILL MAKE IT LOOK MORE CLEAN WHEN USING COLOUR -durango#######
+ ###### BY ADDING "\n\n" AND ADDING "§!" RIGHT AFTER IT AT THE END OF THE LOC WILL MAKE IT LOOK MORE CLEAN WHEN USING COLOUR -durango#######
  
  ########     \n\n§       ######
 

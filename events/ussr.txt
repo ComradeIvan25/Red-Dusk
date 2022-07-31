@@ -738,34 +738,42 @@ country_event = {
 			release_puppet_on_controlled = BLR
 			BLR = {
 			set_cosmetic_tag = BLR_com_puppet
+			add_ideas = ussr_aligned_nation
 			}
 			release_puppet_on_controlled = KAZ
 			KAZ = {
 			set_cosmetic_tag = KAZ_com_puppet
+			add_ideas = ussr_aligned_nation
 			}
 			release_puppet_on_controlled = GEO
 			GEO = {
 			set_cosmetic_tag = GEO_com_puppet
+			add_ideas = ussr_aligned_nation
 			}
 			release_puppet_on_controlled = TMS
 			TMS = {
 			set_cosmetic_tag = TMS_com_puppet
+			add_ideas = ussr_aligned_nation
 			}
 			release_puppet_on_controlled = UZB
 			UZB = {
 			set_cosmetic_tag = UZB_com_puppet
+			add_ideas = ussr_aligned_nation
 			}
 			release_puppet_on_controlled = KYR
 			KYR = {
 			set_cosmetic_tag = KYR_com_puppet
+			add_ideas = ussr_aligned_nation
 			}
 			release_puppet_on_controlled = TAJ
 			TAJ = {
 			set_cosmetic_tag = TAJ_com_puppet
+			add_ideas = ussr_aligned_nation
 			}
 			release_puppet_on_controlled = MOL
 			MOL = {
 			set_cosmetic_tag = MOL_com_puppet
+			add_ideas = ussr_aligned_nation
 			}
 	}
 

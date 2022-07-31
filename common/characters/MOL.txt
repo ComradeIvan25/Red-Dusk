@@ -1,0 +1,18 @@
+characters = {
+
+	MOL_petru_lucinschi = {
+		name = "Petru Lucinschi"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MOL/petru_lucinschi.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

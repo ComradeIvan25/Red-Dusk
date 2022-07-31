@@ -246,6 +246,10 @@ characters = {
 			idea_token = SOV_nikolai_ryzhkov
 			allowed = {
 				original_tag = SOV
+				has_country_leader = {
+					character = SOV_mikhail_gorbachev1
+					ruling_only = yes
+				}
 			}
 			traits = {
 				leader_of_the_council_of_ministers 
@@ -266,6 +270,10 @@ characters = {
 			idea_token = SOV_anatoly_lukyanov
 			allowed = {
 				original_tag = SOV
+				has_country_leader = {
+					character = SOV_mikhail_gorbachev1
+					ruling_only = yes
+				}
 			}
 			traits = {
 				reformist_advisor 

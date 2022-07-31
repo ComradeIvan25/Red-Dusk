@@ -42,7 +42,9 @@ country_event = {
 		#enough is enough#
 	option = {
 		name = congo.2.a
-		news_event = {id = old_times_news.20 days = 1}
+
+		news_event = {id = old_times_news.20}
+
 		army_experience = 15
 		add_popularity = {
 			ideology = neutrality
@@ -377,9 +379,7 @@ country_event = {
 		option = {
 			name = congo.5.a
 			add_stability = 0.50
-			
 			news_event = {id = old_times_news.23}
-			
 			annex_country = {
 			target = RCK
 			transfer_troops = no
@@ -473,9 +473,3 @@ country_event = {
 							
 		}
 	}
-
-}
-
-
-
-

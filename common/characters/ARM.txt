@@ -14,5 +14,20 @@ characters = {
 			id = -1
 		}
 	}
+	
+	ARM_vladimir_movsisyan = {
+		name = "Vladimir Movsisyan"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ARM/vladimir_movsisyan.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
 
 }

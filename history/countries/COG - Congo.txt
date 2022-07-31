@@ -6,6 +6,12 @@ set_convoys = 5
 
 recruit_character = COG_laurent
 
+add_ideas = COG_africas_world_war
+
+add_ideas = war_economy
+
+add_ideas = ussr_aligned_nation
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "2000.1.1"
@@ -13,5 +19,14 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	neutrality = 65
+	communism = 30
+	democratic = 5
+}
+
+create_faction = "Pro Kabila Alliance"
+COG = {
+	add_to_faction = ANG
+	add_to_faction = NMB
+	add_to_faction = ZIM
 }

@@ -473,6 +473,27 @@ on_actions = {
 						set_cosmetic_tag = FIN_com_puppet
 						}
 						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
+						}
+						
 					}
 					
 					### USSR VS POLAND - USSR WINS ###
@@ -496,6 +517,27 @@ on_actions = {
 						
 						POL = {
 						set_cosmetic_tag = POL_com_puppet
+						}
+						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
 						}
 						
 					}
@@ -523,6 +565,27 @@ on_actions = {
 						set_cosmetic_tag = ROM_com_puppet
 						}
 						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
+						}
+						
 					}
 					
 					### USSR VS HUNGARY - USSR WINS ###
@@ -546,6 +609,27 @@ on_actions = {
 						
 						HUN = {
 						set_cosmetic_tag = HUN_com_puppet
+						}
+						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
 						}
 						
 					}
@@ -573,6 +657,27 @@ on_actions = {
 						set_cosmetic_tag = SLO_com_puppet
 						}
 						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
+						}
+						
 					}
 					
 					### USSR VS BULGARIA - USSR WINS ###
@@ -596,6 +701,27 @@ on_actions = {
 						
 						BUL = {
 						set_cosmetic_tag = BUL_com_puppet
+						}
+						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
 						}
 						
 					}
@@ -623,6 +749,27 @@ on_actions = {
 						set_cosmetic_tag = CZE_com_puppet
 						}
 						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
+						}
+						
 					}
 					
 					### USSR VS ALBANIA - USSR WINS ###
@@ -648,6 +795,27 @@ on_actions = {
 						set_cosmetic_tag = ALB_com_puppet
 						}
 						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
+						}
+						
 					}
 					
 					### USSR VS GERMANY - USSR WINS ###
@@ -671,6 +839,27 @@ on_actions = {
 						
 						GER = {
 						set_cosmetic_tag = GER_com_puppet
+						}
+						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
 						}
 						
 					}
@@ -699,6 +888,27 @@ on_actions = {
 						set_cosmetic_tag = TUR_com_puppet
 						}
 						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
+						}
+						
 					}
 					
 					### USSR VS GREECE - USSR WINS ###
@@ -724,6 +934,27 @@ on_actions = {
 						set_cosmetic_tag = GRE_com_puppet
 						}
 						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
+						}
+						
 					}
 					
 					### USSR VS YUGOSLAVIA - USSR WINS ###
@@ -747,6 +978,27 @@ on_actions = {
 						
 						YUG = {
 						set_cosmetic_tag = YUG_com_puppet
+						}
+						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
 						}
 						
 					}
@@ -778,6 +1030,27 @@ on_actions = {
 						transfer_state = 835
 						}
 						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
+						}
+						
 					}
 					
 					### USSR VS NORWAY - USSR WINS ###
@@ -801,6 +1074,27 @@ on_actions = {
 						
 						NOR = {
 						set_cosmetic_tag = NOR_com_puppet
+						}
+						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
 						}
 						
 					}
@@ -828,6 +1122,27 @@ on_actions = {
 						set_cosmetic_tag = DEN_com_puppet
 						}
 						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
+						}
+						
 					}
 					
 					### USSR VS FRANCE - USSR WINS ###
@@ -853,6 +1168,27 @@ on_actions = {
 						set_cosmetic_tag = FRA_com_puppet
 						}
 						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
+						}
+						
 					}
 					
 					### USSR VS NETHERLANDS - USSR WINS ###
@@ -876,6 +1212,27 @@ on_actions = {
 						
 						HOL = {
 						set_cosmetic_tag = HOL_com_puppet
+						}
+
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
 						}
 						
 					}
@@ -904,6 +1261,27 @@ on_actions = {
 						set_cosmetic_tag = BEL_com_puppet
 						}
 						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
+						}
+						
 					}
 					
 					### USSR VS LUXEMBORG - USSR WINS ###
@@ -927,6 +1305,27 @@ on_actions = {
 						
 						LUX = {
 						set_cosmetic_tag = LUX_com_puppet
+						}
+						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
 						}
 						
 					}
@@ -955,6 +1354,27 @@ on_actions = {
 						set_cosmetic_tag = SPR_com_puppet
 						}
 						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
+						}
+						
 					}
 					
 					### USSR VS PORTUGAL - USSR WINS ###
@@ -980,6 +1400,27 @@ on_actions = {
 						set_cosmetic_tag = POR_com_puppet
 						}
 						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
+						}
+						
 					}
 					
 					### USSR VS ENGLAND / UNITED KINGDOM - USSR WINS ###
@@ -1003,6 +1444,27 @@ on_actions = {
 						
 						ENG = {
 						set_cosmetic_tag = ENG_com_puppet
+						}
+						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
 						}
 						
 					}
@@ -1031,6 +1493,27 @@ on_actions = {
 						transfer_state = 119
 						}
 						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
+						}
+						
 					}
 					
 					### USSR VS AUSTRIA - USSR WINS ###
@@ -1054,6 +1537,27 @@ on_actions = {
 						
 						AUS = {
 						set_cosmetic_tag = AUS_com_puppet
+						}
+						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
 						}
 						
 					}
@@ -1081,6 +1585,27 @@ on_actions = {
 						set_cosmetic_tag = SWI_com_puppet
 						}
 						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
+						}
+						
 					}
 					
 					### USSR VS SWEDEN - USSR WINS ###
@@ -1104,6 +1629,27 @@ on_actions = {
 						
 						SWE = {
 						set_cosmetic_tag = SWE_com_puppet
+						}
+						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
 						}
 						
 					}
@@ -1131,6 +1677,27 @@ on_actions = {
 						set_cosmetic_tag = ICE_com_puppet
 						}
 						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
+						}
+						
 					}
 					
 					### USSR VS CHINA - USSR WINS ###
@@ -1154,6 +1721,27 @@ on_actions = {
 						
 						PRC = {
 						set_cosmetic_tag = PRC_com_puppet
+						}
+						
+						ROOT = {
+						add_ideas = ussr_aligned_nation
+							if = {
+								limit = {
+									has_idea = usa_aligned_nation
+	
+								}
+								remove_ideas = usa_aligned_nation
+
+							}
+							
+							else_if = {
+								limit = {
+									has_idea = china_aligned_nation
+	
+								}
+								remove_ideas = china_aligned_nation
+
+							}
 						}
 						
 					}
@@ -1552,6 +2140,264 @@ on_actions = {
 						}
 						
 					}
+					
+					### SECOND CONGO WAR ###
+					
+					### RCD - K VS Congo - RCD - K  WINS ###
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = RCK
+							}
+							ROOT = {
+								original_tag = COG
+							}
+						}
+
+						RCK = {
+							white_peace = ROOT
+							white_peace = ANG
+							white_peace = NMB
+							white_peace = ZIM
+						}
+						
+						RGO = {
+							white_peace = COG
+							white_peace = ANG
+							white_peace = NMB
+							white_peace = ZIM
+						}
+						
+						UGA = {
+							white_peace = COG
+							white_peace = ANG
+							white_peace = NMB
+							white_peace = ZIM
+						}
+						
+						RWA = {
+							white_peace = COG
+							white_peace = ANG
+							white_peace = NMB
+							white_peace = ZIM
+						}
+						
+						BRD = {
+							white_peace = COG
+							white_peace = ANG
+							white_peace = NMB
+							white_peace = ZIM
+						}
+	
+						RCK = {
+							annex_country = {
+							target = COG
+							transfer_troops = no
+							}
+						}
+						
+						
+					}
+						
+					### RCD - K VS Congo - Congo WINS ###
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = COG
+							}
+							ROOT = {
+								original_tag = RCK
+							}
+						}
+
+						COG = {
+							white_peace = ROOT
+						}
+	
+						COG = {
+							annex_country = {
+							target = RCK
+							transfer_troops = no
+							}
+						}
+						
+						}
+					}
+					
+					### RCD - G VS Congo - RCD - G WINS ###
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = RGO
+							}
+							ROOT = {
+								original_tag = COG
+							}
+						}
+						
+						RGO = {
+							white_peace = ROOT
+							white_peace = ANG
+							white_peace = NMB
+							white_peace = ZIM
+						}
+						
+						RCK = {
+							white_peace = COG
+							white_peace = ANG
+							white_peace = NMB
+							white_peace = ZIM
+						}
+						
+						UGA = {
+							white_peace = COG
+							white_peace = ANG
+							white_peace = NMB
+							white_peace = ZIM
+						}
+						
+						RWA = {
+							white_peace = COG
+							white_peace = ANG
+							white_peace = NMB
+							white_peace = ZIM
+						}
+						
+						BRD = {
+							white_peace = COG
+							white_peace = ANG
+							white_peace = NMB
+							white_peace = ZIM
+						}
+						
+						RGO = {
+							annex_country = {
+							target = COG
+							transfer_troops = no
+							}
+						}
+						
+					}
+					
+					### RCD - G VS Congo - Congo WINS ###
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = COG
+							}
+							ROOT = {
+								original_tag = RGO
+							}
+						}
+
+						COG = {
+							white_peace = ROOT
+						}
+	
+						COG = {
+							annex_country = {
+							target = RGO
+							transfer_troops = no
+							}
+						}
+						
+					}
+					
+					### RCD - K VS RCD - G - RCD - K WINS ###
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = RCK
+							}
+							ROOT = {
+								original_tag = RGO
+							}
+						}
+
+						RCK = {
+							white_peace = ROOT
+						}
+	
+						RCK = {
+							annex_country = {
+							target = RGO
+							transfer_troops = no
+							}
+						}
+						
+							COG = {
+								white_peace = RGO
+								white_peace = RWA
+								white_peace = BRD
+							}
+							
+							ANG = {
+								white_peace = RGO
+								white_peace = RWA
+								white_peace = BRD
+							}
+							
+							NMB = {
+								white_peace = RGO
+								white_peace = RWA
+								white_peace = BRD
+							}
+							
+							ZIM = {
+								white_peace = RGO
+								white_peace = RWA
+								white_peace = BRD
+							}
+						
+
+						
+					}
+					
+					### RCD - K VS RCD - G - RCD - G WINS ###
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = RGO
+							}
+							ROOT = {
+								original_tag = RCK
+							}
+						}
+
+						RGO = {
+							white_peace = ROOT
+						}
+	
+						RGO = {
+							annex_country = {
+							target = RCK
+							transfer_troops = no
+							}
+						}
+							
+							COG = {
+								white_peace = RCK
+								white_peace = UGA
+							}
+							
+							ANG = {
+								white_peace = RCK
+								white_peace = UGA
+							}
+							
+							NMB = {
+								white_peace = RCK
+								white_peace = UGA
+							}
+							
+							ZIM = {
+								white_peace = RCK
+								white_peace = UGA
+							}
+							
+						
+					}
+					
 		}
 
 	}

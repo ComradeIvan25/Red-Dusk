@@ -151,8 +151,11 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-		retire_country_leader = yes
-		promote_character = SAF_de_klerk
+			retire_country_leader = yes
+			promote_character = {
+				character = SAF_de_klerk
+				ideology = despotism
+			}
                 }
 	}
 	focus = {

@@ -1,0 +1,29 @@
+
+state={
+	id=860
+	name="STATE_860"
+	manpower = 664610
+	state_category = pastoral
+
+	history={
+		add_core_of = BHR
+		owner = BHR
+		victory_points = {
+			13236 1
+		}
+		buildings = {
+			infrastructure = 2
+			synthetic_refinery = 1
+			air_base = 2
+			13236 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		13236
+	}
+
+	local_supplies=0.0 
+}

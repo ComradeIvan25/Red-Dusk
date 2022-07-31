@@ -4,11 +4,24 @@ set_convoys = 0
 
 recruit_character = UGA_yoweri
 
+add_ideas = COG_africas_world_war
 
-#UGA = { set_province_controller = 12783 }
+add_ideas = usa_aligned_nation
 
 declare_war_on = {
 	target = COG
+	type = topple_government
+}
+declare_war_on = {
+	target = ANG
+	type = topple_government
+}
+declare_war_on = {
+	target = NMB
+	type = topple_government
+}
+declare_war_on = {
+	target = ZIM
 	type = topple_government
 }
 

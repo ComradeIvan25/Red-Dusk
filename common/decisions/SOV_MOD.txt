@@ -1721,7 +1721,7 @@ sov_rally_support_for_gorby = {
 			political_power_cost = 0.50
 		}
 		cost = 5
-		fire_only_once = yes
+		fire_only_once = no
 		ai_will_do = {
 			factor = 0
 		}
@@ -1759,7 +1759,7 @@ sov_rally_support_for_gorby = {
 			political_power_cost = 0.50
 		}
 		cost = 5
-		fire_only_once = yes
+		fire_only_once = no
 		ai_will_do = {
 			factor = 0
 		}
@@ -1797,7 +1797,7 @@ sov_rally_support_for_gorby = {
 			political_power_cost = 0.50
 		}
 		cost = 5
-		fire_only_once = yes
+		fire_only_once = no
 		ai_will_do = {
 			factor = 0
 		}

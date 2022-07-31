@@ -4,6 +4,8 @@ set_convoys = 20
 
 recruit_character = EGY_hosni_mubarak
 
+add_ideas = usa_aligned_nation
+
 set_politics = {
 	ruling_party = fascism
 	last_election = "1936.1.1"

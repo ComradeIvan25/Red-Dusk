@@ -4,6 +4,8 @@ set_convoys = 20
 
 recruit_character = NMB_sam
 
+add_ideas = COG_africas_world_war
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"

@@ -4,6 +4,10 @@ set_convoys = 0
 
 recruit_character = RWA_paul_kagame
 
+add_ideas = COG_africas_world_war
+
+add_ideas = usa_aligned_nation
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"
@@ -15,4 +19,30 @@ set_popularities = {
 	fascism = 20
 	communism = 5
 	neutrality = 50
+}
+
+
+create_faction = "Anti Kabila Alliance"
+RWA = {
+	add_to_faction = UGA
+	add_to_faction = BRD
+	add_to_faction = RCK
+	add_to_faction = RGO
+}
+
+declare_war_on = {
+	target = COG
+	type = topple_government
+}
+declare_war_on = {
+	target = ANG
+	type = topple_government
+}
+declare_war_on = {
+	target = NMB
+	type = topple_government
+}
+declare_war_on = {
+	target = ZIM
+	type = topple_government
 }

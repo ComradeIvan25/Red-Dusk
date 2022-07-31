@@ -32,7 +32,19 @@
  old_times_news.19.t:0 "Formation of "African Liberation Front""
  old_times_news.19.d:0 "It seems that South Africa cannot catch a break. The tensions that were rising between South Africa and it's neighbouring countries over the issue of apartheid have culminated into an open conflict today as these countries joined ANC's "African Liberation Front" and declared war on the South Africa.\n\nMany military experts claim that South African military situation is in dire state but that there is still a slim chance of them turning the war around into their favour. As for now these predictions seem like nothing more than a fantasy as the troops of Zimbabwe, Botswana and Mozambique cross the border to aid their allies in the ANC.\n\nSouth Africa's de-facto leader Constand Viljoen has declared that South Africa will fight to the last man and bullet. Meanwhile there has been no official statement from the leaders of the newly formed "African Liberation Front"."
  old_times_news.19.a:0 "The war continues..."
-
+ old_times_news.20.t:0 "Anti - Kabila Alliance Collapses" 
+ old_times_news.20.d:0 "Multiple border skirmishes and rise of tensions between the two Congolese Rebel Factions finally mounted into a war between the main rebel "Rally for Congolese Democracy" forces.\n\n Two factions were being supported by diffirent countries such as RCD - Kisangani faction being supported by Uganda forces while RCD - Goma faction supported by Rwanda and Burundi forces causing the unitary Anti - Kabila Alliance to collapse and opening another front in the Second Congo War. " 
+ old_times_news.20.a:0 "Congo's Future Grows Ever Uncertain" 
+ old_times_news.21.t:0 "Goverment Forces Win the Second Congo War"
+ old_times_news.21.d:0 ""
+ old_times_news.21.a:0 "Africa's Bloodiest War Finally Ends..."
+ old_times_news.22.t:0 "Rally For Congolese Democracy - Kisangani Forces Win the Second Congo War"
+ old_times_news.22.d:0 ""
+ old_times_news.22.a:0 "Africa's Bloodiest War Finally Ends..."
+ old_times_news.23.t:0 "Rally For Congolese Democracy - Goma Forces Win the Second Congo War"
+ old_times_news.23.d:0 ""
+ old_times_news.23.a:0 "Africa's Bloodiest War Finally Ends..."
+  
 ## Flavour News Events ##
  #flavour_news.1.t:0 ##HIDDEN SCRIPTED EVENT##
  flavour_news.2.t:0 "Disaster in Paris!"

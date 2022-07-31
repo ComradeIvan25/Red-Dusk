@@ -8,6 +8,8 @@ set_convoys = 5
 
 recruit_character = ANG_jose_eduardo
 
+add_ideas = COG_africas_world_war
+
 add_ideas = ussr_aligned_nation
 
 set_politics = {

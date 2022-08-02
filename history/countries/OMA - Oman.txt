@@ -21,3 +21,24 @@ set_politics = {
 set_popularities = {
 	neutrality = 100
 }
+
+diplomatic_relation = {
+	country = BHR
+	relation = non_aggression_pact
+}
+diplomatic_relation = {
+	country = KUW
+	relation = non_aggression_pact
+}
+diplomatic_relation = {
+	country = SAU
+	relation = non_aggression_pact
+}
+diplomatic_relation = {
+	country = QAT
+	relation = non_aggression_pact
+}
+diplomatic_relation = {
+	country = UAE
+	relation = non_aggression_pact
+}

@@ -31,4 +31,8 @@ add_ideas = GER_eu
 
 add_ideas = usa_aligned_nation
 
+HOL = {
+	puppet = CRC
+}
+
 set_convoys = 150

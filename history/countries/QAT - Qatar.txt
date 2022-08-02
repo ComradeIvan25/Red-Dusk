@@ -20,3 +20,24 @@ set_popularities = {
 	communism = 1
 	neutrality = 47
 }
+
+diplomatic_relation = {
+	country = BHR
+	relation = non_aggression_pact
+}
+diplomatic_relation = {
+	country = KUW
+	relation = non_aggression_pact
+}
+diplomatic_relation = {
+	country = OMA
+	relation = non_aggression_pact
+}
+diplomatic_relation = {
+	country = SAU
+	relation = non_aggression_pact
+}
+diplomatic_relation = {
+	country = UAE
+	relation = non_aggression_pact
+}

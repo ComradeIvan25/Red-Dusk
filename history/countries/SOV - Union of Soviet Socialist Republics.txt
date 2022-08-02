@@ -235,6 +235,19 @@ SOV = {
 	add_to_faction = MON
 }
 
+diplomatic_relation = {
+	country = SYR
+	relation = docking_rights
+}
+diplomatic_relation = {
+	country = YEM
+	relation = docking_rights
+}
+diplomatic_relation = {
+	country = ETH
+	relation = docking_rights
+}
+
 # Naval Variants #
 if = {
 	limit = { has_dlc = "Man the Guns" }

@@ -6,13 +6,15 @@ set_convoys = 5
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1936.1.1"
+	last_election = "1996.9.15"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 75
-	fascism = 1
-	communism = 1
-	neutrality = 23
+	democratic = 77
+	communism = 3
+	reformed_communism = 0
+	islamism = 0
+	fascism = 6
+	neutrality = 14
 }

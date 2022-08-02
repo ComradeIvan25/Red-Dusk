@@ -4,7 +4,7 @@
 
 set_convoys = 5
 
-add_ideas = usa_aligned_nation
+recruit_character = BHR_hamad_khalifa
 
 set_politics = {
 	ruling_party = neutrality
@@ -13,8 +13,33 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 51
-	fascism = 1
-	communism = 1
-	neutrality = 47
+	democratic = 25
+	communism = 3
+	reformed_communism = 0
+	islamism = 24
+	fascism = 7
+	neutrality = 41
+}
+
+add_ideas = usa_aligned_nation
+
+diplomatic_relation = {
+	country = KUW
+	relation = non_aggression_pact
+}
+diplomatic_relation = {
+	country = OMA
+	relation = non_aggression_pact
+}
+diplomatic_relation = {
+	country = SAU
+	relation = non_aggression_pact
+}
+diplomatic_relation = {
+	country = QAT
+	relation = non_aggression_pact
+}
+diplomatic_relation = {
+	country = UAE
+	relation = non_aggression_pact
 }

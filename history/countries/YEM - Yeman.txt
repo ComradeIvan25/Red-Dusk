@@ -18,3 +18,5 @@ set_popularities = {
 	neutrality = 25
         fascism = 75
 }
+
+add_ideas = ussr_aligned_nation

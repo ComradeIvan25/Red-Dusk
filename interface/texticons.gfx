@@ -1603,7 +1603,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_unit_motorised_artillery_support_unit_icon_small"
-		texturefile = "gfx/texticons/unit_motorised_artillery_unit_icon_small.dds"
+		texturefile = "gfx/texticons/unit_motorised_artillery_support_unit_icon_small.dds"
 		legacy_lazy_load = no
 		noOfFrames = 2		
 	}
@@ -1621,7 +1621,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_unit_rocket_artillery_support_unit_icon_small"
-		texturefile = "gfx/texticons/unit_rocket_artillery_unit_icon_small.dds"
+		texturefile = "gfx/texticons/unit_rocket_artillery_support_unit_icon_small.dds"
 		legacy_lazy_load = no
 		noOfFrames = 2		
 	}
@@ -1633,7 +1633,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_unit_spaa_vehicle_support_armor_icon_small"
-		texturefile = "gfx/texticons/unit_spaa_vehicle_icon_small.dds"
+		texturefile = "gfx/texticons/unit_spaa_vehicle_support_icon_small.dds"
 		legacy_lazy_load = no
 		noOfFrames = 2		
 	}
@@ -1645,7 +1645,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_unit_towed_artillery_support_unit_icon_small"
-		texturefile = "gfx/texticons/unit_towed_artillery_unit_icon_small.dds"
+		texturefile = "gfx/texticons/unit_towed_artillery_support_unit_icon_small.dds"
 		legacy_lazy_load = no
 		noOfFrames = 2		
 	}

@@ -25,3 +25,5 @@ set_popularities = {
 	communism = 12
 	neutrality = 78
 }
+
+add_ideas = usa_aligned_nation

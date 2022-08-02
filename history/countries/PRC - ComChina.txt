@@ -4,7 +4,15 @@
 set_stability = 0.6
 set_war_support = 0.7
 
+# leaders #
 recruit_character = PRC_jiang_zemin
+# generals #
+recruit_character = PRC_qian_shugen
+recruit_character = PRC_xiong_guangkai
+recruit_character = PRC_tang_tianbiao
+recruit_character = PRC_xu_caihou
+# admirals #
+recruit_character = PRC_shi_yunsheng
 
 set_politics = {
 	ruling_party = reformed_communism
@@ -20,3 +28,8 @@ set_popularities = {
 add_ideas = PRC_legacy_xiaoping_reform
 
 add_ideas = china_aligned_nation
+
+diplomatic_relation = {
+	country = KOR
+	relation = guarantee
+}

@@ -4,15 +4,19 @@
 
 set_convoys = 20
 
+recruit_character = FSM_leo_falcam
+
 set_politics = {
 	ruling_party = democratic
-	last_election = "1936.1.1"
+	last_election = "1999.5.11"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 50
-	fascism = 36
-	communism = 10
-	neutrality = 4
+	democratic = 69
+	communism = 0
+	reformed_communism = 0
+	islamism = 0
+	fascism = 0
+	neutrality = 31
 }

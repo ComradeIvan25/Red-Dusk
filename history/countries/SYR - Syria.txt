@@ -18,3 +18,5 @@ set_popularities = {
 	fascism = 80
 	communism = 5
 }
+
+add_ideas = ussr_aligned_nation

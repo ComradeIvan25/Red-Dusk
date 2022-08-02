@@ -3,7 +3,7 @@ characters = {
 	### AFTER MAKING A NEW character GO TO THE COUNTRY FILE THEY HAVE (SOV - Union of Soviet Socialist Republics) AND WRITE "recruit_character = (the id of the character) ###
 	### i wasted so many minutes because i forgot about this multiple times -durango ###
 	
-	## Leaders ##
+	## Country Leaders ##
 
 	SOV_gennady_yanayev = {
 		name = "Gennady Yanayev"
@@ -211,7 +211,7 @@ characters = {
 		}
 	}
 
-	## advisors ##
+	## Advisors ##
 
 	SOV_yuri_maslyukov = {
 		name = "Yuri Maslyukov"
@@ -281,7 +281,7 @@ characters = {
 		}
 	}
 	
-	## Generals ##
+	## Generals / Field Marshals ##
 
 	SOV_sergey_shoigu = {
 		name = "Sergey Shoygu"
@@ -381,24 +381,6 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	SOV_alexey_sorokin = {
-		name = "Alexey Sorokin"
-		portraits = {
-			army = {
-				large = "gfx/leaders/SOV/Alexey_Sorokin.dds"
-			}
-		}
-		navy_leader={
-			traits={ }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=-1
-		}
-	}
-
 	SOV_anatoly_kvashnin = {
 		name = "Anatoly Kvashnin"
 		portraits = {
@@ -441,74 +423,6 @@ characters = {
 			}
 		}
 		corps_commander={
-			traits={ }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=-1
-		}
-	}
-	SOV_ivan_kapitanets = {
-		name = "Ivan Kapitanets"
-		portraits = {
-			army = {
-				large = "gfx/leaders/SOV/Ivan_Kapitanets.dds"
-			}
-		}
-		navy_leader={
-			traits={ }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=-1
-		}
-	}
-	SOV_nikolai_yevmenov = {
-		name = "Nikolai Yevmenov"
-		portraits = {
-			army = {
-				large = "gfx/leaders/SOV/Nikolai_Yevmenov.dds"
-			}
-		}
-		navy_leader={
-			traits={ }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=-1
-		}
-	}
-	SOV_vladimir_chernavin = {
-		name = "Vladimir Chernavin"
-		portraits = {
-			army = {
-				large = "gfx/leaders/SOV/Vladimir_Chernavin.dds"
-			}
-		}
-		navy_leader={
-			traits={ }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=-1
-		}
-	}
-	SOV_vladimir_korolyov = {
-		name = "Vladimir Korolyov"
-		portraits = {
-			army = {
-				large = "gfx/leaders/SOV/Vladimir_Korolyov.dds"
-			}
-		}
-		navy_leader={
 			traits={ }
 			skill=1
 			attack_skill=1
@@ -603,23 +517,6 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	SOV_vladimir_kuroyedov = {
-		name = "Vladimir Kuroyedov"
-		portraits = {
-			army = {
-				large = "gfx/leaders/SOV/Vladimir_Kuroyedov.dds"
-			}
-		}
-		navy_leader={
-			traits={ }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=-1
-		}
-	}
 	SOV_vladislav_achalov = {
 		name = "Vladislav Achalov"
 		portraits = {
@@ -637,6 +534,111 @@ characters = {
 			legacy_id=-1
 		}
 	}
+
+	## Admirals ##
+
+	SOV_alexey_sorokin = {
+		name = "Alexey Sorokin"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/Alexey_Sorokin.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	SOV_ivan_kapitanets = {
+		name = "Ivan Kapitanets"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/Ivan_Kapitanets.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	SOV_nikolai_yevmenov = {
+		name = "Nikolai Yevmenov"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/Nikolai_Yevmenov.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	SOV_vladimir_chernavin = {
+		name = "Vladimir Chernavin"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/Vladimir_Chernavin.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	SOV_vladimir_korolyov = {
+		name = "Vladimir Korolyov"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/Vladimir_Korolyov.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	SOV_vladimir_kuroyedov = {
+		name = "Vladimir Kuroyedov"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/Vladimir_Kuroyedov.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
 	SOV_vladimir_masorin = {
 		name = "Vladimir Masorin"
 		portraits = {
@@ -649,13 +651,13 @@ characters = {
 			skill=1
 			attack_skill=1
 			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
 			legacy_id=-1
 		}
 	}
 	SOV_vladimir_vysotsky = {
-		name = "Vladimir Vysotsky "
+		name = "Vladimir Vysotsky"
 		portraits = {
 			army = {
 				large = "gfx/leaders/SOV/Vladimir_Vysotsky_.dds"
@@ -666,11 +668,10 @@ characters = {
 			skill=1
 			attack_skill=1
 			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
 			legacy_id=-1
 		}
 	}
-
 
 }

@@ -4,15 +4,19 @@
 
 set_convoys = 20
 
+recruit_character = MLD_maumoon_gayoom
+
 set_politics = {
 	ruling_party = democratic
-	last_election = "1936.1.1"
-	election_frequency = 48
+	last_election = "1998.10.16"
+	election_frequency = 60
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 75
-	fascism = 1
+	democratic = 84
 	communism = 1
-	neutrality = 23
+	reformed_communism = 0
+	islamism = 10
+	fascism = 2
+	neutrality = 3
 }

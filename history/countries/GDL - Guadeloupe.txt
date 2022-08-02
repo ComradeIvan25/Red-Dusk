@@ -4,15 +4,19 @@
 
 set_convoys = 5
 
+recruit_character = GDL_jean-francois_carenco
+
 set_politics = {
 	ruling_party = democratic
-	last_election = "1936.1.1"
-	election_frequency = 48
+	last_election = "1998.1.1"
+	election_frequency = 72
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 75
-	fascism = 1
-	communism = 1
-	neutrality = 23
+	democratic = 53
+	communism = 12
+	reformed_communism = 4
+	islamism = 0
+	fascism = 6
+	neutrality = 25
 }

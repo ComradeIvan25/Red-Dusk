@@ -25,3 +25,7 @@ set_popularities = {
 	fascism = 2
 	communism = 1
 }
+
+ENG = {
+	puppet = BAS
+}

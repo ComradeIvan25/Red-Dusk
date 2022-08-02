@@ -5,12 +5,19 @@
 set_war_support = 0.1
 set_convoys = 5
 
+recruit_character = DOM_leonel_fernandez
+
 set_politics = {
-	ruling_party = fascism
-	last_election = "1934.5.16"
+	ruling_party = democratic
+	last_election = "1996.8.16"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	fascism = 100
+	democratic = 51
+	communism = 4
+	reformed_communism = 0
+	islamism = 0
+	fascism = 19
+	neutrality = 26
 }

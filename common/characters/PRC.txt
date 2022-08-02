@@ -1,5 +1,7 @@
 characters = {
 
+	## Country Leaders ##
+
 	PRC_jiang_zemin = {
 		name = "Jiang Zemin"
 		portraits = {
@@ -12,6 +14,97 @@ characters = {
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1
+		}
+	}
+
+	## Generals ##
+
+	PRC_qian_shugen = {
+		name = "Qian Shugen"
+		portraits = {
+			army = {
+				large = "gfx/leaders/PRC/Qian_Shugen.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PRC_xiong_guangkai = {
+		name = "Xiong Guangkai"
+		portraits = {
+			army = {
+				large = "gfx/leaders/PRC/Xiong_Guangkai.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PRC_tang_tianbiao = {
+		name = "Tang Tianbiao"
+		portraits = {
+			army = {
+				large = "gfx/leaders/PRC/Tang_Tianbiao.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PRC_xu_caihou = {
+		name = "Xu Caihou"
+		portraits = {
+			army = {
+				large = "gfx/leaders/PRC/Xu_Caihou.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	## Admirals ##
+
+	PRC_shi_yunsheng = {
+		name = "Shi Yunsheng"
+		portraits = {
+			army = {
+				large = "gfx/leaders/PRC/Shi_Yunsheng.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
 

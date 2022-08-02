@@ -1106,6 +1106,34 @@ spriteTypes = {
 		name = "GFX_SOV_setting_ways_better_for_the_USSR"
 		texturefile = "gfx/interface/goals/SOV_setting_ways_better_for_the_USSR.dds"
 	}
+	SpriteType = {
+		name = "GFX_SOV_Soviet_Foreign_Policy"
+		texturefile = "gfx/interface/goals/SOV_Soviet_Foreign_Policy.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_decentralize_the_governance"
+		texturefile = "gfx/interface/goals/SOV_decentralize_the_governance.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_destroy_the_hardliners"
+		texturefile = "gfx/interface/goals/SOV_destroy_the_hardliners.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_new_union_treaty"
+		texturefile = "gfx/interface/goals/SOV_new_union_treaty.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_new_way"
+		texturefile = "gfx/interface/goals/SOV_new_way.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_spark_the_flame"
+		texturefile = "gfx/interface/goals/SOV_spark_the_flame.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_back_to_the_union"
+		texturefile = "gfx/interface/goals/SOV_back_to_the_union.dds"
+	}
 	
 	###USA###
 	

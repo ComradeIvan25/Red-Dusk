@@ -134,10 +134,40 @@ country_event = {
 			
 		trigger = {
 		original_tag = COG
-			NOT = {
-			country_exists = RCK
-			country_exists = RGO
+		
+			295 = {
+			is_controlled_by = COG
 			}
+		
+			538 = {
+			is_controlled_by = COG
+			}
+			
+			718 = {
+			is_controlled_by = COG
+			}
+			
+			855 = {
+			is_controlled_by = COG
+			}
+			
+			856 = {
+			is_controlled_by = COG
+			}
+			
+			857 = {			
+			is_controlled_by = COG
+			}
+			
+			858 = {			
+			is_controlled_by = COG
+			}
+			
+			859 = {			
+			is_controlled_by = COG
+			}
+
+		
 		}
 
 		fire_only_once = yes
@@ -249,10 +279,39 @@ country_event = {
 			
 		trigger = {
 		original_tag = RCK
-			NOT = {
-			country_exists = COG
-			country_exists = RGO
+		
+			295 = {
+			is_controlled_by = RCK
 			}
+		
+			538 = {
+			is_controlled_by = RCK
+			}
+			
+			718 = {
+			is_controlled_by = RCK
+			}
+			
+			855 = {
+			is_controlled_by = RCK
+			}
+			
+			856 = {
+			is_controlled_by = RCK
+			}
+			
+			857 = {			
+			is_controlled_by = RCK
+			}
+			
+			858 = {			
+			is_controlled_by = RCK
+			}
+			
+			859 = {			
+			is_controlled_by = RCK
+			}
+
 		}
 
 		fire_only_once = yes
@@ -367,10 +426,39 @@ country_event = {
 			
 		trigger = {
 		original_tag = RGO
-			NOT = {
-			country_exists = COG
-			country_exists = RCK
+			
+			295 = {
+			is_controlled_by = RGO
 			}
+		
+			538 = {
+			is_controlled_by = RGO
+			}
+			
+			718 = {
+			is_controlled_by = RGO
+			}
+			
+			855 = {
+			is_controlled_by = RGO
+			}
+			
+			856 = {
+			is_controlled_by = RGO
+			}
+			
+			857 = {			
+			is_controlled_by = RGO
+			}
+			
+			858 = {			
+			is_controlled_by = RGO
+			}
+			
+			859 = {			
+			is_controlled_by = RGO
+			}
+			
 		}
 
 		fire_only_once = yes

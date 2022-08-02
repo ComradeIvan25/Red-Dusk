@@ -1077,7 +1077,7 @@ country_event = {
 
 
 
-##FOREIGN POLICY / PLUS PLANNING EVENTS FOR POSTWAR BORDER PROBEBLY####
+##FOREIGN POLICY / PLUS PLANNING EVENTS FOR POSTWAR BORDERS ####
 
 #reunify czechoslovakia?#
 country_event = {
@@ -1113,6 +1113,26 @@ country_event = {
 		base = 0
 		}
 		
+	}
+
+}
+
+#influencing North Korea#
+country_event = {
+	id = ussr_foreign_policy.2
+	title = ussr_foreign_policy.2.t
+	desc = ussr_foreign_policy.2.d
+	picture = GFX_report_resistance
+	
+	is_triggered_only = yes
+	
+	##yes##
+	option = {
+		name = ussr_foreign_policy.2.a
+		ai_chance = {
+		base = 100
+		}
+		set_global_flag = influencing_north_korea
 	}
 
 }

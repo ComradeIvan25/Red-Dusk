@@ -2,7 +2,6 @@
 	id = ussr_yazov_focus
 	country = {
 		factor = 0
-		
 	}
 	
 	continuous_focus_position = { x = 10 y = 9999 }

@@ -39,7 +39,7 @@
 	
 	focus = {
 		id = SOV_rally_the_people
-		icon = GFX_focus_SOV_rally_the_people
+		icon = GFX_focus_YUG_pan_slavic_congress
 		x = 10
 		y = 1
 
@@ -634,7 +634,7 @@
 	
 	focus = {
 		id = SOV_gorby_destroy_the_hardliners
-		icon = GFX_focus_SOV_prep_future
+		icon = GFX_SOV_destroy_the_hardliners
 		x = 12
 		y = 14
 
@@ -666,7 +666,7 @@
 	
 	focus = {
 		id = SOV_gorby_decentralize_the_governance
-		icon = GFX_focus_SOV_prep_future
+		icon = GFX_SOV_decentralize_the_governance
 		x = 8
 		y = 14
 
@@ -701,7 +701,7 @@
 	
 	focus = {
 		id = SOV_gorby_re_sign_the_new_union_treaty
-		icon = GFX_focus_SOV_prep_future
+		icon = GFX_SOV_new_union_treaty
 		x = 10
 		y = 15
 
@@ -729,7 +729,7 @@
 	
 	focus = {
 		id = SOV_gorby_soviet_foreign_policy
-		icon = GFX_focus_SOV_prep_future
+		icon = GFX_SOV_Soviet_Foreign_Policy
 		x = 10
 		y = 16
 
@@ -756,7 +756,7 @@
 	
 	focus = {
 		id = SOV_gorby_new_way
-		icon = GFX_focus_SOV_prep_future
+		icon = GFX_SOV_new_way
 		x = 10
 		y = 18
 
@@ -929,7 +929,7 @@
 
 	focus = {
 		id = SOV_gorby_spark_the_flame
-		icon = GFX_focus_SOV_prep_future
+		icon = GFX_SOV_spark_the_flame
 		x = 8
 		y = 20
 
@@ -983,7 +983,7 @@
 	
 	focus = {
 		id = SOV_gorby_back_to_the_union
-		icon = GFX_focus_SOV_prep_future
+		icon = GFX_SOV_back_to_the_union
 		x = 10
 		y = 21
 
@@ -1026,7 +1026,7 @@
 	
 	focus = {
 		id = SOV_gorby_union_reborn
-		icon = GFX_focus_SOV_prep_future
+		icon = GFX_focus_SOV_super_power
 		x = 10
 		y = 22
 
@@ -1522,7 +1522,7 @@
 		
 		mutually_exclusive = { }
 		
-		cost = 4.9
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}

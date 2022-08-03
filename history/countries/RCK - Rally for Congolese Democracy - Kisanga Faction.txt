@@ -1,6 +1,6 @@
 ﻿capital = 718
 
-#oob = "COG_1936"
+oob = "RCK_2000"
 
 set_convoys = 5
 
@@ -13,6 +13,9 @@ add_ideas = war_economy
 
 add_ideas = usa_aligned_nation
 
+set_technology = {
+	towed_artillery_1960 = 1
+}
 declare_war_on = {
 	target = COG
 	type = topple_government

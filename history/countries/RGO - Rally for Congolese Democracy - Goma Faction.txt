@@ -1,6 +1,6 @@
 ﻿capital = 859
 
-#oob = "COG_1936"
+oob = "RGO_2000"
 
 set_convoys = 5
 
@@ -17,6 +17,10 @@ RGO = { set_province_controller = 12907 }
 RGO = { set_province_controller = 2024 }
 RGO = { set_province_controller = 8016 }
 RGO = { set_province_controller = 7219 }
+
+set_technology = {
+	towed_artillery_1960 = 1
+}
 
 declare_war_on = {
 	target = COG

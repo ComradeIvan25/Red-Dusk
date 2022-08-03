@@ -39,7 +39,7 @@ units = {
 		}
 		location = 10071
 		division_template = "Soldats de la Défense du Congo"
-		start_experience_factor = 0.2
+		start_experience_factor = -0.2
 		start_equipment_factor = 0.3
 
 	}
@@ -54,7 +54,7 @@ units = {
 		}
 		location = 1817
 		division_template = "Soldats de la Défense du Congo"
-		start_experience_factor = 0.1
+		start_experience_factor = -0.2
 		start_equipment_factor = 0.2
 
 	}
@@ -100,7 +100,7 @@ units = {
 		}
 		location = 1516
 		division_template = "Soldats de la Défense du Congo"
-		start_experience_factor = 0.1
+		start_experience_factor = -0.1
 		start_equipment_factor = 0.5
 
 	}

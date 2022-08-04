@@ -1129,10 +1129,11 @@ country_event = {
 	##yes##
 	option = {
 		name = ussr_foreign_policy.2.a
+		set_global_flag = influencing_north_korea
 		ai_chance = {
 		base = 100
 		}
-		set_global_flag = influencing_north_korea
+
 	}
 
 }

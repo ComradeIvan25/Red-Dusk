@@ -202,6 +202,10 @@ recruit_character = USA_thomas_fargo
 recruit_character = USA_frank_bowman
 recruit_character = USA_dennis_blair
 recruit_character = USA_william_fallon
+recruit_character = USA_richard_mies
+recruit_character = USA_james_ellis
+recruit_character = USA_vernon_clark
+recruit_character = USA_robert_natter
 
 create_faction = "NATO"
 USA = {

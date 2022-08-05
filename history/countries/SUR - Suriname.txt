@@ -4,6 +4,8 @@
 
 set_convoys = 5
 
+recruit_character = SUR_jules_wijdenbosch
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1996.9.15"

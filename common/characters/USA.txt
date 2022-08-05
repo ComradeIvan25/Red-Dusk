@@ -273,5 +273,73 @@ characters = {
 			legacy_id=-1
 		}
 	}
+	USA_richard_mies = {
+		name = "Richard Willard Mies"
+		portraits = {
+			army = {
+				large = "gfx/leaders/USA/Richard_Mies.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	USA_james_ellis = {
+		name = "James Oren Ellis Jr."
+		portraits = {
+			army = {
+				large = "gfx/leaders/USA/James_Ellis.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	USA_vernon_clark = {
+		name = "Vernon Eugene Clark"
+		portraits = {
+			army = {
+				large = "gfx/leaders/USA/Vernon_Clark.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	USA_robert_natter = {
+		name = "Robert Joseph Natter"
+		portraits = {
+			army = {
+				large = "gfx/leaders/USA/Robert_Natter.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
 
 }

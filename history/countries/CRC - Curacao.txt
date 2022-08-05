@@ -4,6 +4,8 @@
 
 set_convoys = 5
 
+recruit_character = CRC_miguel_pourier
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1999.11.8"

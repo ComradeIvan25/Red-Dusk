@@ -216,9 +216,9 @@ sov_influencing_north_korea = {
 			factor = 0
 		}
 		complete_effect = { 
-			subtract_from_variable { sov_influence_points = 25 }
+			subtract_from_variable = { sov_influence_points = 25 }
 			custom_effect_tooltip = sov_adds_15_influence
-			add_to_variable { sov_influence_on_north_korea = 15 }
+			add_to_variable = { sov_influence_on_north_korea = 15 }
 		}
 	}
 	
@@ -249,9 +249,9 @@ sov_influencing_north_korea = {
 			factor = 0
 		}
 		complete_effect = { 
-			subtract_from_variable { sov_influence_points = 20 }
+			subtract_from_variable = { sov_influence_points = 20 }
 			custom_effect_tooltip = sov_adds_10_influence
-			add_to_variable { sov_influence_on_north_korea = 10 }
+			add_to_variable = { sov_influence_on_north_korea = 10 }
 		}
 	}
 	
@@ -282,9 +282,9 @@ sov_influencing_north_korea = {
 			factor = 0
 		}
 		complete_effect = { 
-			subtract_from_variable { sov_influence_points = 15 }
+			subtract_from_variable = { sov_influence_points = 15 }
 			custom_effect_tooltip = sov_adds_5_influence
-			add_to_variable { sov_influence_on_north_korea = 5 }
+			add_to_variable = { sov_influence_on_north_korea = 5 }
 		}
 	}
 	

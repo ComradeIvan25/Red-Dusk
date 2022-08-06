@@ -437,6 +437,7 @@
 		release_puppet_on_controlled = LIT
 		LIT = {
 		set_cosmetic_tag = LIT_com_puppet
+		add_ideas = ussr_aligned_nation
 		}
 			add_popularity = {
 				ideology = reformed_communism
@@ -500,6 +501,7 @@
 			release_puppet_on_controlled = UKR
 			UKR = {
 			set_cosmetic_tag = UKR_com_puppet
+			add_ideas = ussr_aligned_nation
 			}
 			add_popularity = {
 				ideology = reformed_communism

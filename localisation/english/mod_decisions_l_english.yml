@@ -69,12 +69,39 @@
  sov_rallying_support_for_gorby_timeclock:0 "The Anti-Gorbachev Movement Is Getting Power..."
  
  sov_reinteg_decisions_via_peace:0 "Re-Integration referendums"
- sov_reinteg_decisions_via_peace_desc:0 "Gorbachev has surprisingly decided to re-integrate the breakaway states with §Gfair and free referendums§W§  that will decide the union's future.\n\n§RHowever§W§  we still have a long way to go as the insane §gmilitarists§W§  had committed hideous acts against the breakaway states back in '91 we need to win the trust of the people if we want a truly equal Union.\n\n§C>Support for rejoining the Union in ;\n\n>>Azerbaijan is [?azr_ref_support]%\n\n>>Armenia is [?arm_ref_support]%\n\n>>Latvia is [?lat_ref_support]%\n\n>>Estonia is [?est_ref_support]%§W§\n\n\nWe need over 50 percent support to win the referendums."
+ sov_reinteg_decisions_via_peace_desc:0 "Gorbachev has surprisingly decided to re-integrate the breakaway states with §Gfair and free referendums§!  that will decide the union's future.\n\n§RHowever§!  we still have a long way to go as the insane §gmilitarists§!  had committed hideous acts against the breakaway states back in '91 we need to win the trust of the people if we want a truly equal Union.\n\n§C>Support for rejoining the Union in ;\n\n>>Azerbaijan is [?azr_ref_support]%\n\n>>Armenia is [?arm_ref_support]%\n\n>>Latvia is [?lat_ref_support]%\n\n>>Estonia is [?est_ref_support]%§W§\n\n\nWe need over 50 percent support to win the referendums."
  sov_ref_apolagize_for_militarist_crimes:0 "Apologize For Militarist Crimes"
  sov_ref_compansate_victims:0 "Compensate Military Crackdown Victims"
  sov_ref_rally_communists:0 "Rally Communist Supporters"
  sov_referandums_timeclock:0 "End of Campaigns"
  
+ sov_influencing_north_korea:0 "Influencing North Korea"
+ sov_influencing_north_korea_desc:0 "Our overall £influence_decision  §RInfluence§! with the nation will determine whatever if they align with us or our opponent, [PRC.GetNameWithFlag].\nBy using £influence_point_decision  §GInfluence Points§! we can increase the \n£influence_decision  §Rinfluence§! in [KOR.GetNameWithFlag].\n\nYou can get more £influence_point_decision  §GInfluence Points§! by doing certain decisions.\n\nAfter getting £influence_decision  §R 100 influence§! in [KOR.GetNameWithFlag] we can secure our influence and get them on our sphere of influence.\n\nWe have £influence_decision  §R[?sov_influence_on_north_korea] influence§! in [KOR.GetNameWithFlag]\n\nWe Have £influence_point_decision  §G[?sov_influence_points] Influence Points§!.\n\n--------- [PRC.GetNameWithFlag]---------\n\nHas £influence_decision_prc  §R[?prc_influence_on_north_korea] influence§! in [KOR.GetNameWithFlag]\n\nHas £influence_point_decision  §G[?prc_influence_points] Influence Points§!."
+ sov_secure_our_influence_in_north_korea:0 "§RSecure Our Influence In North Korea §!"
+ sov_incrase_relations_15:0 "Increase £influence_decision  §RInfluence§! By 15"
+ sov_incrase_relations_10:0 "Increase £influence_decision  §RInfluence§! By 10"
+ sov_incrase_relations_5:0 "Increase £influence_decision  §RInfluence§! By 5"
+ sov_turn_the_focus_to_north_korea:0 "Turn Our Focus to North Korea"
+ sov_provide_arms_to_north_korea:0 "Provide Arms to North Korea"
+ sov_invite_kim_jong_il_to_moscow:0 "Invite Kim Jong Il to Moscow"
+ sov_build_up_north_koreas_industry:0 "Build Up North Korea's Industry"
+ sov_fund_the_north_korean_army:0 "Fund the North Korean Army"
+ sov_sabotage_chinese_interests:0 "Sabotage Chinese Interests"
+ 
+ ### PRC ###
+ 
+ prc_influencing_north_korea:0 "Influencing North Korea"
+ prc_influencing_north_korea_desc:0 "Our overall £influence_decision_prc  §RInfluence§! with the nation will determine whatever if they align with us or our opponent, [SOV.GetNameWithFlag].\nBy using £influence_point_decision  §GInfluence Points§! we can increase the \n£influence_decision_prc  §Rinfluence§! in [KOR.GetNameWithFlag].\n\nYou can get more £influence_point_decision  §GInfluence Points§! by doing certain decisions\n\nAfter getting £influence_decision_prc  §R 100 influence§! in [KOR.GetNameWithFlag] we can secure our influence and get them on our sphere of influence.\n\nWe have £influence_decision_prc  §R[?prc_influence_on_north_korea] influence§! in [KOR.GetNameWithFlag]\n\nWe Have £influence_point_decision  §G[?prc_influence_points] Influence Points§!.\n\n--------- [SOV.GetNameWithFlag]---------\n\nHas £influence_decision  §R[?sov_influence_on_north_korea] influence§! in [KOR.GetNameWithFlag]\n\nHas £influence_point_decision  §G[?sov_influence_points] Influence Points§!."
+ prc_secure_our_influence_in_north_korea:0 "§RSecure Our Influence In North Korea §!"
+ prc_incrase_relations_15:0 "Increase £influence_decision_prc  §RInfluence§! By 15"
+ prc_incrase_relations_10:0 "Increase £influence_decision_prc  §RInfluence§! By 10"
+ prc_incrase_relations_5:0 "Increase £influence_decision_prc  §RInfluence§! By 5"
+ prc_turn_the_focus_to_north_korea:0 "Turn Our Focus to North Korea"
+ prc_provide_arms_to_north_korea:0 "Provide Arms to North Korea"
+ prc_invite_kim_jong_il_to_beijing:0 "Invite Kim Jong Il to Beijing"
+ prc_build_up_north_koreas_industry:0 "Build Up North Korea's Industry"
+ prc_fund_the_north_korean_army:0 "Fund the North Korean Army"
+ prc_sabotage_soviet_interests:0 "Sabotage Soviet Interests"
  
  ##IRAQ##
  
@@ -148,7 +175,7 @@
  ##SOUTH AFRICA###
 
  saf_deal_with_insurgents:0 "Dealing With the Insurgents"
- saf_deal_with_insurgents_desc:0 "At last, we turned the government focus back to dealing with the radical §RANC insurgents§W§ .These §Rinsurgents§W§  have caused the deaths of multiple civilians, army officials, and many more politicians in our government. But now by using multiple strategies we have learned over the years we are finally going to put an end to this organization and §Gsecure our country once and for all.§W§ \n\n§REstimated ANC fighting strength is [?anc_fight_strength]§W§\n\n"
+ saf_deal_with_insurgents_desc:0 "At last, we turned the government focus back to dealing with the radical §RANC insurgents§! .These §Rinsurgents§!  have caused the deaths of multiple civilians, army officials, and many more politicians in our government. But now by using multiple strategies we have learned over the years we are finally going to put an end to this organization and §Gsecure our country once and for all.§W§ \n\n§REstimated ANC fighting strength is [?anc_fight_strength]§W§\n\n"
  saf_timer_clock_end_of_operations:0 "End of Operations..."
  saf_continue_forced_removels:0 "Continue Forced Removals"
  saf_deploy_the_police_force:0 "Deploy the Police Force"

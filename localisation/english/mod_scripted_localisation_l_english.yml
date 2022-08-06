@@ -113,7 +113,10 @@
  incrase_var_stab_15:0 "§GIncreases §CStability § §GBy 15 Percent\n\n§!"
  incrase_var_stab_20:0 "§GIncreases §CStability § §GBy 20 Percent\n\n§!"
  
- sov_req_55_stab:0 "§YRequires At Least §C55 Percent Stability § §YTo take Action\n\n§!"
+ 
+ sov_55_stab_required:0 "§C55 Stability§!"
+ sov_55_stab_required_blocked:0 "§C55 Stability§!"
+ sov_55_stab_required_tooltip:0 "§YRequires At Least §C55 Percent Stability §YTo take This Action\n\n§!"
  
  decrase_var_res_5:0 "§Gdecreases §RResistance § §GBy 5 Percent\n\n§!"
  decrase_var_res_10:0 "§Gdecreases §RResistance § §GBy 10 Percent\n\n§!"
@@ -126,6 +129,52 @@
  incrase_var_res_15:0 "§RIncreases §RResistance § §RBy 15 Percent\n\n§!"
  incrase_var_res_25:0 "§RIncreases §RResistance § §RBy 25 Percent\n\n§!"
  
+ ### INFLUENCE ###
+ influencing_north_korea:0 "Influencing North Korea"
+ 
+ sov_25_influence_points_required:0 "£influence_point_decision  §G25 Influence Points§!"
+ sov_25_influence_points_required_blocked:0 "£influence_point_decision_blocked  §g25 Influence Points§!"
+ sov_25_influence_points_required_tooltip:0 "§YRequires At Least £influence_point_decision  §G25 Influence Points§! §YTo take This Action\n\n§!"
+ sov_20_influence_points_required:0 "£influence_point_decision  §G20 Influence Points§!"
+ sov_20_influence_points_required_blocked:0 "£influence_point_decision_blocked  §g20 Influence Points§!"
+ sov_20_influence_points_required_tooltip:0 "§YRequires At Least £influence_point_decision  §G20 Influence Points§! §YTo take This Action\n\n§!"
+ sov_15_influence_points_required:0 "£influence_point_decision  §G15 Influence Points§!"
+ sov_15_influence_points_required_blocked:0 "£influence_point_decision_blocked  §g15 Influence Points§!"
+ sov_15_influence_points_required_tooltip:0 "§YRequires At Least £influence_point_decision  §G15 Influence Points§! §YTo take This Action\n\n§!"
+ 
+ needs_15_command_power_for_decision:0 "£command_power 15"
+ needs_15_command_power_for_decision_blocked:0 "£command_power 15"
+ needs_15_command_power_for_decision_tooltip:0 "§YRequires At Least§! £command_power 15 command power §YTo take This Action\n\n§!"
+ needs_25_command_power_for_decision:0 "£command_power 25"
+ needs_25_command_power_for_decision_blocked:0 "£command_power 25"
+ needs_25_command_power_for_decision_tooltip:0 "§YRequires At Least§! £command_power 25 command power §YTo take This Action\n\n§!"
+ needs_35_command_power_for_decision:0 "£command_power 35"
+ needs_35_command_power_for_decision_blocked:0 "£command_power 35"
+ needs_35_command_power_for_decision_tooltip:0 "§YRequires At Least§! £command_power 35 command power §YTo take This Action\n\n§!"
+  
+ sov_adds_15_influence:0 "Increases £influence_decision  §Rinfluence§! by 15\n\n"
+ sov_adds_10_influence:0 "Increases £influence_decision  §Rinfluence§! by 10\n\n"
+ sov_adds_5_influence:0 "Increases £influence_decision  §Rinfluence§! by 5\n\n"
+ 
+ sov_adds_35_influence_points:0 "Adds 35 £influence_point_decision  §Ginfluence points§!\n\n"
+ sov_adds_15_influence_points:0 "Adds 15 £influence_point_decision  §Ginfluence points§!\n\n"
+ sov_adds_20_influence_points:0 "Adds 20 £influence_point_decision  §Ginfluence points§!\n\n"
+  
+ prc_subtracts_10_influence:0 "Subtracts 10 £influence_decision_prc  §Rinfluence§! from [PRC.GetNameWithFlag]\n\n"
+ prc_subtracts_10_influence_points:0 "Subtracts 10 £influence_point_decision  §Ginfluence points§! from [PRC.GetNameWithFlag]\n\n" 
+ 
+ sov_subtracts_10_influence:0 "Subtracts 10 £influence_decision  §Rinfluence§! from [SOV.GetNameWithFlag]\n\n"
+ sov_subtracts_10_influence_points:0 "Subtracts 10 £influence_point_decision  §Ginfluence points§! from [SOV.GetNameWithFlag]\n\n" 
+ 
+ sov_99_influence_on_nk_points_required:0 "£influence_decision  §R100 Influence§!"
+ sov_99_influence_on_nk_points_required_blocked:0 "£influence_decision_blocked  §g100 Influence§!"
+ sov_99_influence_on_nk_points_required_tooltip:0 "§YRequires At Least £influence_decision  §R100 Influence§! §YTo take This Action\n\n§!"
+ nk_enters_ussr_sphere:0 "[KOR.GetNameWithFlag] Will Enter the §R[SOV.GetNameWithFlag]'s Sphere of Influence.\n\n§!"
+ 
+ prc_99_influence_on_nk_points_required:0 "£influence_decision_prc  §R100 Influence§!"
+ prc_99_influence_on_nk_points_required_blocked:0 "£influence_decision_prc_blocked  §g100 Influence§!"
+ prc_99_influence_on_nk_points_required_tooltip:0 "§YRequires At Least £influence_decision_prc  §R100 Influence§! §YTo take This Action\n\n§!"
+ nk_enters_china_sphere:0 "[KOR.GetNameWithFlag] Will Enter the §t[PRC.GetNameWithFlag]'s Sphere of Influence.\n\n§!"
  ####GORBACHEV######
 
  sov_gorby_support_incrase_by_15:0 "§GIncreases §tSupport For Gorbachev §GBy §C15 §GPercent\n\n§!"

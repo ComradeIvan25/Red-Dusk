@@ -4,7 +4,7 @@ oob = "RGO_2000"
 
 set_convoys = 5
 
-recruit_character = RGO_Emile_Ilunga
+recruit_character = RGO_Azarias_Ruberwa_Manywa
 
 add_ideas = COG_africas_world_war
 add_ideas = RCD_tensions

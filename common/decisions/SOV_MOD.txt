@@ -150,14 +150,50 @@ sov_purging = {
 	}
 }
 
-sov_prc_influencing_north_korea = {
-
-	sov_idk_lol = {
-		icon = GFX_decision_generic_factory
+sov_influencing_north_korea = {
+	
+		
+	sov_secure_our_influence_in_north_korea = {
+		icon = GFX_decision_red_flag_holding_hand
 
 		allowed = {
 			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
 			has_global_flag = influencing_north_korea
+		}
+		visible = {
+			original_tag = SOV
+			has_global_flag = influencing_north_korea
+		}
+		
+		cost = 0
+		fire_only_once = no
+		
+		custom_cost_trigger = {
+			check_variable = { sov_influence_on_north_korea > 99 }
+		}
+		custom_cost_text = sov_99_influence_on_nk_points_required
+		
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			clr_global_flag = influencing_north_korea
+			add_political_power = 50
+			custom_effect_tooltip = nk_enters_ussr_sphere
+			hidden_effect = {
+			KOR = {add_ideas = ussr_aligned_nation}
+			}
+		}
+	}
+	
+	sov_incrase_relations_15 = {
+		icon = GFX_decision_red_flag_holding_hand
+
+		allowed = {
+			original_tag = SOV
 		}
 		available = {
 			original_tag = SOV
@@ -169,21 +205,333 @@ sov_prc_influencing_north_korea = {
 		}
 		
 		cost = 5
-		fire_only_once = yes
+		fire_only_once = no
+		
+		custom_cost_trigger = {
+			check_variable = { sov_influence_points > 24 }
+		}
+		custom_cost_text = sov_25_influence_points_required
+		
 		ai_will_do = {
 			factor = 0
 		}
 		complete_effect = { 
-			573 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
+			subtract_from_variable { sov_influence_points = 25 }
+			custom_effect_tooltip = sov_adds_15_influence
+			add_to_variable { sov_influence_on_north_korea = 15 }
+		}
+	}
+	
+	sov_incrase_relations_10 = {
+		icon = GFX_decision_red_flag_holding_hand
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+			has_global_flag = influencing_north_korea
+		}
+		visible = {
+			original_tag = SOV
+			has_global_flag = influencing_north_korea
+		}
+		
+		cost = 5
+		fire_only_once = no
+		
+		custom_cost_trigger = {
+			check_variable = { sov_influence_points > 19 }
+		}
+		custom_cost_text = sov_20_influence_points_required
+		
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			subtract_from_variable { sov_influence_points = 20 }
+			custom_effect_tooltip = sov_adds_10_influence
+			add_to_variable { sov_influence_on_north_korea = 10 }
+		}
+	}
+	
+	sov_incrase_relations_5 = {
+		icon = GFX_decision_red_flag_holding_hand
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+			has_global_flag = influencing_north_korea
+		}
+		visible = {
+			original_tag = SOV
+			has_global_flag = influencing_north_korea
+		}
+		
+		cost = 5
+		fire_only_once = no
+		
+		custom_cost_trigger = {
+			check_variable = { sov_influence_points > 14 }
+		}
+		custom_cost_text = sov_15_influence_points_required
+		
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			subtract_from_variable { sov_influence_points = 15 }
+			custom_effect_tooltip = sov_adds_5_influence
+			add_to_variable { sov_influence_on_north_korea = 5 }
+		}
+	}
+	
+	sov_turn_the_focus_to_north_korea = {
+		icon = GFX_decision_eng_trade_unions_support
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+			has_global_flag = influencing_north_korea
+		}
+		visible = {
+			original_tag = SOV
+			has_global_flag = influencing_north_korea
+		}
+		
+		cost = 50
+		fire_only_once = no
+		
+		days_remove = 50
+		modifier {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.15
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			add_command_power = 100
+		}
+	}
+	
+	sov_provide_arms_to_north_korea = {
+		icon = GFX_decision_generic_prepare_civil_war
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+			has_global_flag = influencing_north_korea
+		}
+		visible = {
+			original_tag = SOV
+			has_global_flag = influencing_north_korea
+		}
+		
+		cost = 0
+		fire_only_once = no
+		days_remove = 3
+		modifier {
+			consumer_goods_factor = 0.025
+		}
+		
+		custom_cost_trigger = {
+			command_power > 25
+		}
+		custom_cost_text = needs_25_command_power_for_decision
+		
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			add_to_variable = { sov_influence_points = 15 }
+			custom_effect_tooltip = sov_adds_15_influence_points
+			add_command_power = -25
+			send_equipment = {
+				equipment = infantry_weapons
+				amount = 1500
+				target = KOR
+			}
+			
+			KOR = {
+			add_war_support = 0.10
 			}
 		}
 	}
+	
+	sov_invite_kim_jong_il_to_moscow = {
+		icon = GFX_decision_generic_political_discourse
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+			has_global_flag = influencing_north_korea
+		}
+		visible = {
+			original_tag = SOV
+			has_global_flag = influencing_north_korea
+		}
+		
+		cost = 0
+		fire_only_once = yes
+		
+		custom_cost_trigger = {
+			command_power > 14
+		}
+		custom_cost_text = needs_15_command_power_for_decision
+		
+		days_remove = 7
+		modifier {
+			political_power_cost = 0.50
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			add_to_variable = { sov_influence_points = 35 }
+			custom_effect_tooltip = sov_adds_35_influence_points
+			add_command_power = -15
+		}
+	}
+	
+	sov_build_up_north_koreas_industry = {
+		icon = GFX_decision_generic_factory
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+			has_global_flag = influencing_north_korea
+		}
+		visible = {
+			original_tag = SOV
+			has_global_flag = influencing_north_korea
+		}
+		
+		cost = 0
+		fire_only_once = no
+		
+		custom_cost_trigger = {
+			command_power > 34
+		}
+		custom_cost_text = needs_35_command_power_for_decision
+		
+		days_remove = 25
+		modifier {
+			consumer_goods_factor = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			
+			add_to_variable = { sov_influence_points = 20 }
+			custom_effect_tooltip = sov_adds_20_influence_points
+			add_command_power = -35
+			
+			KOR = {
+				add_offsite_building = { type = industrial_complex level = 1 }
+			}
+		}
+	}
+	
+	sov_fund_the_north_korean_army = {
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+			has_global_flag = influencing_north_korea
+		}
+		visible = {
+			original_tag = SOV
+			has_global_flag = influencing_north_korea
+		}
+		
+		cost = 0
+		fire_only_once = no
+		
+		custom_cost_trigger = {
+			command_power > 24
+		}
+		custom_cost_text = needs_25_command_power_for_decision
+		
+		days_remove = 15
+		modifier {
+			consumer_goods_factor = 0.025
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			
+			add_to_variable = { sov_influence_points = 20 }
+			custom_effect_tooltip = sov_adds_20_influence_points
+			add_command_power = -35
+			KOR = {
+				army_experience = 50
+				air_experience = 50
+				navy_experience = 50
+			}
+		}
+	}
+	
+	sov_sabotage_chinese_interests = {
+		icon = GFX_decision_broken_tank
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+			has_global_flag = influencing_north_korea
+		}
+		visible = {
+			original_tag = SOV
+			has_global_flag = influencing_north_korea
+		}
+		
+		cost = 0
+		fire_only_once = no
+		
+		custom_cost_trigger = {
+			command_power > 34
+		}
+		custom_cost_text = needs_35_command_power_for_decision
+		
+		days_remove = 15
+		modifier {
+			political_power_cost = 0.25
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			subtract_from_variable = { prc_influence_on_north_korea = 10 }
+			custom_effect_tooltip = prc_subtracts_10_influence
+			subtract_from_variable = { prc_influence_points = 10 }
+			custom_effect_tooltip = prc_subtracts_10_influence_points
+			
+
+		}
+	}
+	
 }
 
 sov_building_industry_ural = {
@@ -800,7 +1148,6 @@ sov_crackdown_lithuenia = {
 			original_tag = SOV
 			has_country_flag = crackdown_lithuenia
 			check_variable = { lit_stab_level > 54 }
-			has_country_flag = sov_req_55_stab
 		}
 		visible = {
 			original_tag = SOV
@@ -819,6 +1166,12 @@ sov_crackdown_lithuenia = {
 		}
 		
 		cost = 5
+		
+		custom_cost_trigger = {
+			check_variable = { lit_stab_level > 54 }
+		}
+		custom_cost_text = sov_55_stab_required
+		
 		fire_only_once = yes
 		ai_will_do = {
 			factor = 0

@@ -42,4 +42,47 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_spy.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_decision_prc_vs_sov"
+		texturefile = "gfx/interface/decisions/decision_prc_vs_sov.dds"
+	}
+
+	### text icon ###
+	
+	spriteType = {
+		name = "GFX_influence_decision"
+		texturefile = "gfx/texticons/influence_decision.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_influence_decision_blocked"
+		texturefile = "gfx/texticons/influence_decision_blocked.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_influence_decision_prc"
+		texturefile = "gfx/texticons/influence_decision_prc.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_influence_decision_prc_blocked"
+		texturefile = "gfx/texticons/influence_decision_prc_blocked.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_influence_point_decision"
+		texturefile = "gfx/texticons/influence_point_decision.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_influence_point_decision_blocked"
+		texturefile = "gfx/texticons/influence_point_decision_blocked.dds"
+		legacy_lazy_load = no
+	}
+	
 }

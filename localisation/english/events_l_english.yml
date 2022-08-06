@@ -163,7 +163,9 @@
  ussr_foreign_policy.1.d:0 "After taking control again in Czechia and Slovakia a proposal of Reunifying the both countries into Czechoslovakia has came up.\n\nWhat should we do ?"
  ussr_foreign_policy.1.a:0 "Re-Establish Czechoslovakia"
  ussr_foreign_policy.1.b:0 "Its fine as it is right now"
- 
+ ussr_foreign_policy.2.t:0 "Influencing North Korea"
+ ussr_foreign_policy.2.d:0 "With the election of the new premier we have decided to improve our ties with the North Koreans and eventually get them on our sphere.\n\nHowever, this wont be a easy task and we will need to direct a good amount of resources to combat chinese influence and expend our ties."
+ ussr_foreign_policy.2.a:0 "North Korea Will Be Aligned With Us"
  #USA# i used \n\n to make paragraphs -durango#
  
  usa.1.t:0 "The State of the Union"

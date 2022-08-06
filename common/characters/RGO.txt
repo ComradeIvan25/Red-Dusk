@@ -1,10 +1,10 @@
 characters = {
 
-	RGO_Emile_Ilunga = {
-		name = "Emile Ilunga"
+	RGO_Azarias_Ruberwa_Manywa = {
+		name = "Azarias Ruberwa Manywa"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/RGO/Emile_Ilunga.dds"
+				large = "gfx/leaders/RGO/Azarias_Ruberwa_Manywa.dds"
 			}
 		}
 		country_leader = {

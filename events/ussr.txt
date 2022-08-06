@@ -180,6 +180,10 @@ country_event = {
 		load_focus_tree = ussr_yazov_focus
 		news_event = { id = old_times_news.3 days = 1 }
 		
+			SOV = {
+				country_event = { id = ussr_foreign_policy.2 days = 5 }
+			}
+		
 		ai_chance = {
 		factor = 55
 			modifier = {
@@ -197,6 +201,10 @@ country_event = {
 		retire_country_leader = yes
 		promote_character = SOV_boris_pugo
 		news_event = { id = old_times_news.4 days = 1 }
+		
+			SOV = {
+				country_event = { id = ussr_foreign_policy.2 days = 5 }
+			}
 		
 		ai_chance = {
 		factor = 50
@@ -258,6 +266,10 @@ country_event = {
 		load_focus_tree = ussr_putin_focus
 		news_event = { id = old_times_news.6 days = 1 }
 		
+			SOV = {
+				country_event = { id = ussr_foreign_policy.2 days = 5 }
+			}
+		
 		ai_chance = {
 			factor = 50
 				modifier = {
@@ -278,6 +290,10 @@ country_event = {
 		promote_character = SOV_mikhail_gorbachev
 		load_focus_tree = ussr_gorby_focus
 		news_event = { id = old_times_news.5 days = 1 }
+		
+			SOV = {
+				country_event = { id = ussr_foreign_policy.2 days = 5 }
+			}
 		
 		ai_chance = {
 			factor = 50
@@ -468,12 +484,20 @@ country_event = {
 		ai_chance = {
 		base = 100
 		}
-		add_ideas = Soviet_mil_advisors
+		SOV = {
+			add_to_faction = YUG
+		}
 	}
 	
 	#no#
 	option = {
-	
+		SOV = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = ROOT
+			}
+		
+		}
 		ai_chance = {
 		base = 0
 		}
@@ -1130,6 +1154,11 @@ country_event = {
 	option = {
 		name = ussr_foreign_policy.2.a
 		set_global_flag = influencing_north_korea
+		set_variable = { sov_influence_on_north_korea = 20}
+		set_variable = { sov_influence_points = 15}
+		set_variable = { prc_influence_on_north_korea = 15}
+		set_variable = { prc_influence_points = 10}
+		
 		ai_chance = {
 		base = 100
 		}
@@ -1137,53 +1166,5 @@ country_event = {
 	}
 
 }
-	
-
-#EVENTS FOR VARIABLES FOR REBEL DECISIONS#
-
-#i used this becuase custom effect tooltip isnt allowed in the avalieble secction#
-
-country_event = {
-	id = ussr_hidden.1
-	title = ussr_hidden.1.t
-	desc = ussr_hidden.1.d
-	picture = GFX_report_event_SOV_the_meeting_con
-	hidden = yes
-	
-	trigger = { check_variable = { lit_stab_level > 54 } }
-	
-	is_triggered_only = no
-	
-		##ok##
-	option = {
-		name = ussr_rebel.2.a
-		
-		set_country_flag = sov_req_55_stab
-		
-	}
-
-}
-
-country_event = {
-	id = ussr_hidden.2
-	title = ussr_hidden.2.t
-	desc = ussr_hidden.2.d
-	picture = GFX_report_event_SOV_the_meeting_con
-	hidden = yes
-	
-	trigger = { check_variable = { lit_stab_level < 54 } }
-	
-	is_triggered_only = no
-	
-		##ok##
-	option = {
-		name = ussr_rebel.2.a
-		
-		clr_country_flag = sov_req_55_stab
-		
-	}
-
-}
-
 
 

@@ -145,16 +145,12 @@ sov_reinteg_decisions_via_peace = {
 
 ### INFLUENCE NORTH KOREA ###
 
-sov_prc_influencing_north_korea = {
-	icon = GFX_soviet_flag_with_fists_under_it
+sov_influencing_north_korea = {
+	icon = GFX_decision_prc_vs_sov
 	
 	
 	allowed = {
-		OR = {
 		original_tag = SOV
-		original_tag = PRC
-		}
-		has_global_flag = influencing_north_korea
 	}
 	
 	visible = {

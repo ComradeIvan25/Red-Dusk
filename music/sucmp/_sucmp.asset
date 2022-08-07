@@ -23,6 +23,10 @@ music = {
 	file = "Battle_Hymn_Of_The_Republic.ogg"
 }
 music = {
+	name = "Back_Hole_Sun"
+	file = "Black_Hole_Sun.ogg"
+}
+music = {
 	name = "Campaign_Brief"
 	file = "Campaign_Brief.ogg"
 }

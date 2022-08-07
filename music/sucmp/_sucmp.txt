@@ -44,6 +44,14 @@ music = {
 	}
 }
 music = {
+	song = "Black_Hole_Sun"
+	chance = {
+		modifier = {
+			factor =1
+		}
+	}
+}
+music = {
 	song = "Campaign_Brief"
 	chance = {
 		modifier = {

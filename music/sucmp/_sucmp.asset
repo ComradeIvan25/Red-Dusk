@@ -1,11 +1,11 @@
 ##### NEED TO BE IN ALPHABETICAL ORDER#####
 
 
-# SUCMP:
-#music = {
-#	name = "American_Idiot"
-#	file = "American_Idiot.ogg"
-#}
+ SUCMP:
+music = {
+	name = "American_Idiot"
+	file = "American_Idiot.ogg"
+}
 music = {
 	name = "An_Escalation"
 	file = "An_Escalation.ogg"
@@ -59,21 +59,25 @@ music = {
 	file = "Gruppa_Krovi.ogg"
 }
 music = {
+	name = "Highwayman"
+	file = "Highwayman.ogg"
+}
+music = {
 	name = "Internationale"
 	file = "Internationale.ogg"
 }
-#music = {
-#	name = "Interstate_Love_Song"
-#	file = "Interstate_Love_Song.ogg"
-#}
+music = {
+	name = "Interstate_Love_Song"
+	file = "Interstate_Love_Song.ogg"
+}
 music = {
 	name = "Invincible_And_Legendary"
 	file = "Invincible_And_Legendary.ogg"
 }
-#music = {
-#	name = "It's_Our_Time_Our_Turn"
-#	file = "It's_Our_Time_Our_turn.ogg"
-#}
+music = {
+	name = "It's_Our_Time_Our_Turn"
+	file = "It's_Our_Time_Our_turn.ogg"
+}
 music = {
 	name = "Karavan"
 	file = "Karavan.ogg"
@@ -82,10 +86,14 @@ music = {
 	name = "Kerber-Ratne_Igre"
 	file = "Kerber-Ratne_Igre.ogg"
 }
-#music = {
-#	name = "Lenin_Is_Young_Again"
-#	file = "Lenin_is_Young_Again.ogg"
-#}
+music = {
+	name = "Lenin_Is_Young_Again"
+	file = "Lenin_is_Young_Again.ogg"
+}
+music = {
+	name = "Made_In_the_USSR"
+	file = "Made_In_the_USSR.ogg"
+}
 music = {
 	name = "Mr._Blue_Sky"
 	file = "Mr._Blue_Sky.ogg"
@@ -137,6 +145,10 @@ music = {
 music = {
 	name = "Smash_Mouth_All_Star"
 	file = "Smash_Mouth_All_Star.ogg"
+}
+music = {
+	name = "Someday_Never_Comes"
+	file = "Someday_Never_Comes.ogg"
 }
 music = {
 	name = "Soviet_Anthem_Pop_Version"

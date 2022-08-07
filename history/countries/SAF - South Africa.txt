@@ -14,6 +14,8 @@ recruit_character = SAF_johannes_geldenhuys
 recruit_character = SAF_roy_anderson
 recruit_character = SAF_parliament
 recruit_character = SAF_de_klerk
+recruit_character = SAF_robert_simpson-anderson
+recruit_character = SAF_john_retief
 
 add_ideas = SAF_apartheid_idea
 add_ideas = SAF_military_state_idea
@@ -34,4 +36,26 @@ set_popularities = {
 	fascism = 45
         neutrality = 30
 	communism = 15
+}
+
+# Naval Variants #
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_naval_oob = "SAF_2000_naval_mtg"
+
+	# Attack Submarines #
+	create_equipment_variant = {
+		name = "Maria Van Riebeeck Class"
+		type = attack_submarine_hull_1
+		#name_group = 
+		parent_version = 0
+		modules = {
+			fixed_ship_systems_slot = sub_electrical_systems_2
+			fixed_ship_engine_slot = sub_engine_diesel_1
+			fixed_ship_sonar_slot = sub_sonar_2
+			custom_ship_torpedo_slot = ship_torpedo_sub_2
+			custom_slot_1 = ship_torpedo_sub_2
+		}
+		obsolete = yes
+	}
 }

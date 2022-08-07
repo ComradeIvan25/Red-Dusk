@@ -1,0 +1,32 @@
+units = {
+	fleet = {
+		name = "Ham doi Viet Nam"
+		naval_base = 1185 # Haiphong #
+		task_force = {
+			name = "Ham doi Viet Nam"
+			location = 1185 # Haiphong #
+			ship = { name = "Pham Ngu Lao" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = VIN version_name = "Pham Ngu Lao Class" } } }
+
+			ship = { name = "HQ-09" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = VIN version_name = "HQ-09 Class" } } }
+			ship = { name = "HQ-11" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = VIN version_name = "HQ-09 Class" } } }
+			ship = { name = "HQ-13" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = VIN version_name = "HQ-13 Class" } } }
+			ship = { name = "HQ-15" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = VIN version_name = "HQ-13 Class" } } }
+			ship = { name = "HQ-17" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = VIN version_name = "HQ-13 Class" } } }
+		}
+	}
+}
+
+instant_effect = {
+	# Corvettes #
+	add_equipment_production = {
+		equipment = {
+			type = corvette_hull_3
+			creator = "VIN" 
+			version_name = "HQ-381 Class"
+		}
+		name = "HQ-381"
+		requested_factories = 1
+		progress = 0.35
+		amount = 1
+	}
+}

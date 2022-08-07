@@ -134,4 +134,41 @@ characters = {
 		}
 	}
 
+	## Admirals ##
+
+	SAF_robert_simpson-anderson = {
+		name = "Robert Simpson-Anderson"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAF/Robert_Simpson-Anderson.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	SAF_john_retief = {
+		name = "Johan Retief"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAF/Johan_Retief.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+
 }

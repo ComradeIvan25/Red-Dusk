@@ -10,7 +10,7 @@ focus_tree = {
 
 	focus = {
 		id = SAF_parliment_prevails
-		icon = x
+		icon = GFX_focus_SAF_the_republic_lives
 		x = 6
 		y = 1
 
@@ -31,7 +31,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SAF_solifify_our_powers
-		icon = x
+		icon = GFX_focus_SAF_solifify_our_power
 		relative_position_id = SAF_parliment_prevails
 		x = 0
 		y = 1
@@ -54,7 +54,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SAF_decrease_military_influence
-		icon = x
+		icon = GFX_focus_SAF_decrease_military_influence
 		relative_position_id = SAF_solifify_our_powers
 		x = -1
 		y = 1
@@ -73,11 +73,11 @@ focus_tree = {
 			add_political_power = -20
 			add_stability = 0.02
 			add_war_support = -0.05
-                }
+        }
 	}
 	focus = {
 		id = SAF_initial_democracy
-		icon = x
+		icon = GFX_focus_SAF_initial_democracy
 		relative_position_id = SAF_solifify_our_powers
 		x = 1
 		y = 1
@@ -96,7 +96,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SAF_expand_parliments_power
-		icon = x
+		icon = GFX_focus_SAF_expand_parliments_power
 		relative_position_id = SAF_decrease_military_influence
 		x = 1
 		y = 1
@@ -116,7 +116,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SAF_choosing_our_path
-		icon = x
+		icon = GFX_focus_SAF_choosing_our_path
 		relative_position_id = SAF_expand_parliments_power
 		x = 0
 		y = 1
@@ -135,7 +135,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SAF_re-elected_de_klerk
-		icon = x
+		icon = GFX_focus_SAF_re_elected_de_klerk
 		relative_position_id = SAF_choosing_our_path
 		x = 0
 		y = 1
@@ -160,7 +160,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SAF_new_reforms
-		icon = x
+		icon = GFX_focus_SAF_new_reforms
 		relative_position_id = SAF_re-elected_de_klerk
 		x = 0
 		y = 1

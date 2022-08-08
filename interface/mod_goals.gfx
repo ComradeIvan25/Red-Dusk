@@ -750,6 +750,39 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_SAF_meeting.png"
 	}
 
+	SpriteType = {
+		name = "GFX_focus_SAF_the_republic_lives"
+		texturefile = "gfx/interface/goals/focus_SAF_the_republic_lives.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_solifify_our_power"
+		texturefile = "gfx/interface/goals/focus_SAF_solifify_our_power.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_decrease_military_influence"
+		texturefile = "gfx/interface/goals/focus_SAF_decrease_military_influence.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_initial_democracy"
+		texturefile = "gfx/interface/goals/focus_SAF_initial_democracy.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_expand_parliments_power"
+		texturefile = "gfx/interface/goals/focus_SAF_expand_parliments_power.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_choosing_our_path"
+		texturefile = "gfx/interface/goals/focus_SAF_choosing_our_path.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_re_elected_de_klerk"
+		texturefile = "gfx/interface/goals/focus_SAF_re_elected_de_klerk.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_new_reforms"
+		texturefile = "gfx/interface/goals/focus_SAF_new_reforms.png"
+	}
+	
    ###VIN###
     SpriteType = {
 		name = "VIN_new_vietnam"

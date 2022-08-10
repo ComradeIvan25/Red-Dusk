@@ -88,6 +88,13 @@
  sov_fund_the_north_korean_army:0 "Fund the North Korean Army"
  sov_sabotage_chinese_interests:0 "Sabotage Chinese Interests"
  
+ sov_mining_resources_in_north_korea:0 "Mining Resources In North Korea"
+ sov_mining_resources_in_north_korea_desc:0 "With our influence secured in [KOR.getnamewithflag], we can mine the rich resources of the country to benefit both nations' industrial development."
+ sov_north_korea_start_mining_operations:0 "Start Mining Operations"
+ sov_north_korea_mine_tungsten:0 "Mine Tungsten"
+ sov_north_korea_mine_iron:0 "Mine Iron"
+ sov_north_korea_mine_turn_iron_into_steel:0 "Convert Iron Resources Into Steel"
+ 
  ### PRC ###
  
  prc_influencing_north_korea:0 "Influencing North Korea"

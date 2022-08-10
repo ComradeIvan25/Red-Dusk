@@ -15,6 +15,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_cat_south_africa_army_photo.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_decision_cat_north_korea_and_ussr_propaganda"
+		texturefile = "gfx/interface/decisions/decision_cat_north_korea_and_ussr_propaganda.dds"
+	}
+	
 	### decision icon stuff ###
 	
 	spriteType = {
@@ -46,7 +51,32 @@ spriteTypes = {
 		name = "GFX_decision_prc_vs_sov"
 		texturefile = "gfx/interface/decisions/decision_prc_vs_sov.dds"
 	}
-
+	
+	spriteType = {
+		name = "GFX_decision_mining_operations"
+		texturefile = "gfx/interface/decisions/decision_mining_operations.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_mining_tungsten"
+		texturefile = "gfx/interface/decisions/decision_mining_tungsten.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_mining_iron"
+		texturefile = "gfx/interface/decisions/decision_mining_iron.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_convert_into_steel"
+		texturefile = "gfx/interface/decisions/decision_convert_into_steel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_north_korea_and_soviets"
+		texturefile = "gfx/interface/decisions/decision_north_korea_and_soviets.dds"
+	}
+	
 	### text icon ###
 	
 	spriteType = {

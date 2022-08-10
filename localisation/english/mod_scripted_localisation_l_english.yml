@@ -143,13 +143,13 @@
  sov_15_influence_points_required_tooltip:0 "§YRequires At Least £influence_point_decision  §G15 Influence Points§! §YTo take This Action\n\n§!"
  
  needs_15_command_power_for_decision:0 "£command_power 15"
- needs_15_command_power_for_decision_blocked:0 "£command_power 15"
+ needs_15_command_power_for_decision_blocked:0 "§Rcommand_power 15§!"
  needs_15_command_power_for_decision_tooltip:0 "§YRequires At Least§! £command_power 15 command power §YTo take This Action\n\n§!"
  needs_25_command_power_for_decision:0 "£command_power 25"
- needs_25_command_power_for_decision_blocked:0 "£command_power 25"
+ needs_25_command_power_for_decision_blocked:0 "§R£command_power 25§!"
  needs_25_command_power_for_decision_tooltip:0 "§YRequires At Least§! £command_power 25 command power §YTo take This Action\n\n§!"
  needs_35_command_power_for_decision:0 "£command_power 35"
- needs_35_command_power_for_decision_blocked:0 "£command_power 35"
+ needs_35_command_power_for_decision_blocked:0 "§R£command_power 35§!"
  needs_35_command_power_for_decision_tooltip:0 "§YRequires At Least§! £command_power 35 command power §YTo take This Action\n\n§!"
   
  sov_adds_15_influence:0 "Increases £influence_decision  §Rinfluence§! by 15\n\n"
@@ -169,12 +169,20 @@
  sov_99_influence_on_nk_points_required:0 "£influence_decision  §R100 Influence§!"
  sov_99_influence_on_nk_points_required_blocked:0 "£influence_decision_blocked  §g100 Influence§!"
  sov_99_influence_on_nk_points_required_tooltip:0 "§YRequires At Least £influence_decision  §R100 Influence§! §YTo take This Action\n\n§!"
- nk_enters_ussr_sphere:0 "[KOR.GetNameWithFlag] Will Enter the §R[SOV.GetNameWithFlag]'s Sphere of Influence.\n\n§!"
+ nk_enters_ussr_sphere:0 "[KOR.GetNameWithFlag] Will Enter §R[SOV.GetNameWithFlag]'s Sphere of Influence.\n\n§!"
+ soviets_won_north_korea:0 "[KOR.GetNameWithFlag] is in §R[SOV.GetNameWithFlag]'s Sphere§!"
+ sov_mined_iron_for_north_korea:0 "§YHas Mined Iron§!"
  
  prc_99_influence_on_nk_points_required:0 "£influence_decision_prc  §R100 Influence§!"
  prc_99_influence_on_nk_points_required_blocked:0 "£influence_decision_prc_blocked  §g100 Influence§!"
  prc_99_influence_on_nk_points_required_tooltip:0 "§YRequires At Least £influence_decision_prc  §R100 Influence§! §YTo take This Action\n\n§!"
- nk_enters_china_sphere:0 "[KOR.GetNameWithFlag] Will Enter the §t[PRC.GetNameWithFlag]'s Sphere of Influence.\n\n§!"
+ nk_enters_china_sphere:0 "[KOR.GetNameWithFlag] Will Enter §t[PRC.GetNameWithFlag]'s Sphere of Influence.\n\n§!"
+ 
+ ### MINING NORTH KOREA ###
+ 
+ sov_mined_iron_for_north_korea:0 "§YHas mined Iron that can be converted§!"
+ sov_mined_iron_for_north_korea_tt:0 "§GWe will be able to convert the iron sources into steel§!"
+ 
  ####GORBACHEV######
 
  sov_gorby_support_incrase_by_15:0 "§GIncreases §tSupport For Gorbachev §GBy §C15 §GPercent\n\n§!"

@@ -186,6 +186,7 @@ sov_influencing_north_korea = {
 			hidden_effect = {
 			KOR = {add_ideas = ussr_aligned_nation}
 			}
+			set_country_flag = soviets_won_north_korea
 		}
 	}
 	
@@ -529,6 +530,265 @@ sov_influencing_north_korea = {
 			custom_effect_tooltip = prc_subtracts_10_influence_points
 			
 
+		}
+	}
+	
+}
+
+sov_mining_resources_in_north_korea = {
+
+	sov_north_korea_start_mining_operations = {
+
+		icon = GFX_decision_mining_operations
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+			has_global_flag = soviets_won_north_korea
+		}
+		visible = {
+			original_tag = SOV
+			has_global_flag = soviets_won_north_korea
+		}
+		days_remove = 50
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 527
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		custom_cost_trigger = {
+			command_power > 24
+		}
+		custom_cost_text = needs_25_command_power_for_decision
+		
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+		give_resource_rights = { receiver = SOV state = 527 }
+		KOR = { add_ideas = KOR_north_korean_resource_benefits_1 }
+		}
+	}
+	
+	sov_north_korea_mine_tungsten = {
+
+		icon = GFX_decision_mining_tungsten
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+			has_global_flag = soviets_won_north_korea
+		}
+		visible = {
+			original_tag = SOV
+			has_global_flag = soviets_won_north_korea
+		}
+		days_remove = 75
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 527
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 25
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_resource = {
+				type = tungsten
+				amount = 25
+				state = 527
+			}
+			if = {
+				limit = {
+				KOR = { has_idea = KOR_north_korean_resource_benefits_1 }
+				}
+				KOR = {
+					swap_ideas = { 
+					remove_idea = KOR_north_korean_resource_benefits_1 
+					add_idea = KOR_north_korean_resource_benefits_2
+					}
+				}
+			}
+			else_if = {
+				limit = {
+				KOR = { has_idea = KOR_north_korean_resource_benefits_2 }
+				}
+				KOR = {
+					swap_ideas = { 
+					remove_idea = KOR_north_korean_resource_benefits_2 
+					add_idea = KOR_north_korean_resource_benefits_3
+					}
+				}
+			}
+			else = {
+				limit = {
+				KOR = { has_idea = KOR_north_korean_resource_benefits_3 }
+				}
+				KOR = {
+					swap_ideas = { 
+					remove_idea = KOR_north_korean_resource_benefits_3 
+					add_idea = KOR_north_korean_resource_benefits_final
+					}
+				}
+			}
+		}
+	}
+	
+	sov_north_korea_mine_iron = {
+
+		icon = GFX_decision_mining_iron
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+			has_global_flag = soviets_won_north_korea
+		}
+		visible = {
+			original_tag = SOV
+			has_global_flag = soviets_won_north_korea
+		}
+		days_remove = 50
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 527
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+		set_country_flag = sov_mined_iron_for_north_korea
+		custom_effect_tooltip = sov_mined_iron_for_north_korea_tt
+			if = {
+				limit = {
+				KOR = { has_idea = KOR_north_korean_resource_benefits_1 }
+				}
+				KOR = {
+					swap_ideas = { 
+					remove_idea = KOR_north_korean_resource_benefits_1 
+					add_idea = KOR_north_korean_resource_benefits_2
+					}
+				}
+			}
+			else_if = {
+				limit = {
+				KOR = { has_idea = KOR_north_korean_resource_benefits_2 }
+				}
+				KOR = {
+					swap_ideas = { 
+					remove_idea = KOR_north_korean_resource_benefits_2 
+					add_idea = KOR_north_korean_resource_benefits_3
+					}
+				}
+			}
+			else = {
+				limit = {
+				KOR = { has_idea = KOR_north_korean_resource_benefits_3 }
+				}
+				KOR = {
+					swap_ideas = { 
+					remove_idea = KOR_north_korean_resource_benefits_3 
+					add_idea = KOR_north_korean_resource_benefits_final
+					}
+				}
+			}
+		}
+	}
+	
+	sov_north_korea_mine_turn_iron_into_steel = {
+
+		icon = GFX_decision_convert_into_steel
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+			has_global_flag = soviets_won_north_korea
+			has_country_flag = sov_mined_iron_for_north_korea
+		}
+		visible = {
+			original_tag = SOV
+			has_global_flag = soviets_won_north_korea
+		}
+		days_remove = 25
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 527
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 35
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_resource = {
+				type = steel
+				amount = 20
+				state = 527
+			}
+			
+			if = {
+				limit = {
+				KOR = { has_idea = KOR_north_korean_resource_benefits_1 }
+				}
+				KOR = {
+					swap_ideas = { 
+					remove_idea = KOR_north_korean_resource_benefits_1 
+					add_idea = KOR_north_korean_resource_benefits_2
+					}
+				}
+			}
+			else_if = {
+				limit = {
+				KOR = { has_idea = KOR_north_korean_resource_benefits_2 }
+				}
+				KOR = {
+					swap_ideas = { 
+					remove_idea = KOR_north_korean_resource_benefits_2 
+					add_idea = KOR_north_korean_resource_benefits_3
+					}
+				}
+			}
+			else = {
+				limit = {
+				KOR = { has_idea = KOR_north_korean_resource_benefits_3 }
+				}
+				KOR = {
+					swap_ideas = { 
+					remove_idea = KOR_north_korean_resource_benefits_3 
+					add_idea = KOR_north_korean_resource_benefits_final
+					}
+				}
+			}
 		}
 	}
 	

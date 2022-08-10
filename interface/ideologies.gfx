@@ -8,4 +8,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/reform_socialism_group.dds"	
 }
 
+	SpriteType = {
+		name = "GFX_ideology_conservatism"
+		texturefile = "gfx/interface/ideologies/conservatism.dds"	
+}
+
+	SpriteType = {
+		name = "GFX_ideology_juche"
+		texturefile = "gfx/interface/ideologies/juche.dds"	
+}
+
 

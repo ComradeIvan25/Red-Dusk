@@ -161,4 +161,22 @@ sov_influencing_north_korea = {
 
 }
 
+sov_mining_resources_in_north_korea = {
+	icon = GFX_decision_north_korea_and_soviets
+	
+	picture = GFX_decision_cat_north_korea_and_ussr_propaganda
+	
+	allowed = {
+		original_tag = SOV
+	}
+	
+	visible = {
+		has_global_flag = soviets_won_north_korea
+	}
+
+	priority = 150
+
+}
+
+
 

@@ -24,7 +24,7 @@ prc_influencing_north_korea = {
 		custom_cost_text = prc_99_influence_on_nk_points_required
 		
 		ai_will_do = {
-			factor = 0
+			factor = 75
 		}
 		complete_effect = { 
 			clr_global_flag = influencing_north_korea
@@ -60,7 +60,7 @@ prc_influencing_north_korea = {
 		custom_cost_text = sov_25_influence_points_required
 		
 		ai_will_do = {
-			factor = 0
+			factor = 75
 		}
 		complete_effect = { 
 			subtract_from_variable = { prc_influence_points = 25 }
@@ -93,7 +93,7 @@ prc_influencing_north_korea = {
 		custom_cost_text = sov_20_influence_points_required
 		
 		ai_will_do = {
-			factor = 0
+			factor = 75
 		}
 		complete_effect = { 
 			subtract_from_variable = { prc_influence_points = 20 }
@@ -126,7 +126,7 @@ prc_influencing_north_korea = {
 		custom_cost_text = sov_15_influence_points_required
 		
 		ai_will_do = {
-			factor = 0
+			factor = 75
 		}
 		complete_effect = { 
 			subtract_from_variable = { prc_influence_points = 15 }
@@ -160,7 +160,7 @@ prc_influencing_north_korea = {
 		}
 		
 		ai_will_do = {
-			factor = 0
+			factor = 75
 		}
 		complete_effect = { 
 			add_command_power = 100
@@ -195,7 +195,7 @@ prc_influencing_north_korea = {
 		custom_cost_text = needs_25_command_power_for_decision
 		
 		ai_will_do = {
-			factor = 0
+			factor = 75
 		}
 		complete_effect = { 
 			add_to_variable = { prc_influence_points = 15 }
@@ -242,7 +242,7 @@ prc_influencing_north_korea = {
 		}
 		
 		ai_will_do = {
-			factor = 0
+			factor = 75
 		}
 		complete_effect = { 
 			add_to_variable = { prc_influence_points = 35 }
@@ -280,7 +280,7 @@ prc_influencing_north_korea = {
 		}
 		
 		ai_will_do = {
-			factor = 0
+			factor = 75
 		}
 		complete_effect = { 
 			
@@ -323,7 +323,7 @@ prc_influencing_north_korea = {
 		}
 		
 		ai_will_do = {
-			factor = 0
+			factor = 75
 		}
 		complete_effect = { 
 			
@@ -367,7 +367,7 @@ prc_influencing_north_korea = {
 		}
 		
 		ai_will_do = {
-			factor = 0
+			factor = 75
 		}
 		complete_effect = { 
 			subtract_from_variable = { sov_influence_on_north_korea = 10 }

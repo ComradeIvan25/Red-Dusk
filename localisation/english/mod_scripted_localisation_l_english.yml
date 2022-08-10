@@ -182,6 +182,7 @@
  
  sov_mined_iron_for_north_korea:0 "§YHas mined Iron that can be converted§!"
  sov_mined_iron_for_north_korea_tt:0 "§GWe will be able to convert the iron sources into steel§!"
+ sov_has_started_mining_operations:0 "§YStated Mining Operations§!"
  
  ####GORBACHEV######
 

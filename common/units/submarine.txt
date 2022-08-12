@@ -1,6 +1,6 @@
 sub_units = {
 	attack_submarine = {
-		sprite = submarine
+		sprite = attack_submarine
 		map_icon_category = ship
 		priority = 2
 		active = yes
@@ -9,7 +9,7 @@ sub_units = {
 		need = { attack_submarine_hull = 1 }
 	}
 	cruise_submarine = {
-		sprite = submarine
+		sprite = cruise_submarine
 		map_icon_category = ship
 		priority = 2
 		active = yes
@@ -18,7 +18,7 @@ sub_units = {
 		need = { cruise_submarine_hull = 1 }
 	}
 	ballistic_submarine = {
-		sprite = submarine
+		sprite = ballistic_submarine
 		map_icon_category = ship
 		priority = 2
 		active = yes

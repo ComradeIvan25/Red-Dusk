@@ -301,4 +301,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/RCD_war.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_CRO_aftermath_of_the_krajina_war_icon"
+		texturefile = "gfx/interface/ideas/CRO_aftermath_of_the_krajina_war.dds"
+	}
+	
 }

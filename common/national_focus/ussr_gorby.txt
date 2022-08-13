@@ -2,10 +2,10 @@
 	id = ussr_gorby_focus
 	country = {
 		factor = 0
-		#modifier = {
-		#tag = SOV
-		#add = 55
-		#}
+		modifier = {
+		tag = SOV
+		add = 55
+		}
 	}
 	
 	continuous_focus_position = { x = 10 y = 9999 }
@@ -797,7 +797,7 @@
 	
 	focus = {
 		id = SOV_gorby_promise_higher_autonomy
-		icon = GFX_focus_SOV_prep_future
+		icon = GFX_SOV_focus_promise_higher_autonomy
 		x = 12
 		y = 19
 
@@ -828,7 +828,7 @@
 		
 	focus = {
 		id = SOV_gorby_promise_local_governance
-		icon = GFX_focus_SOV_prep_future
+		icon = GFX_SOV_focus_promise_local_govern
 		x = 12
 		y = 20
 
@@ -859,7 +859,7 @@
 
 	focus = {
 		id = SOV_gorby_industrial_programs
-		icon = GFX_focus_SOV_prep_future
+		icon = GFX_focus_SOV_ind_city
 		x = 8
 		y = 19
 

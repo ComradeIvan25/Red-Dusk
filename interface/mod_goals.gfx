@@ -1167,6 +1167,14 @@ spriteTypes = {
 		name = "GFX_SOV_back_to_the_union"
 		texturefile = "gfx/interface/goals/SOV_back_to_the_union.dds"
 	}
+	SpriteType = {
+		name = "GFX_SOV_focus_promise_higher_autonomy"
+		texturefile = "gfx/interface/goals/SOV_focus_promise_higher_autonomy.png"
+	}
+	SpriteType = {
+		name = "GFX_SOV_focus_promise_local_govern"
+		texturefile = "gfx/interface/goals/focus_SOV_promise_local_govern.png"
+	}
 	
 	###USA###
 	

@@ -8,6 +8,8 @@ set_convoys = 5
 
 recruit_character = CRO_stjepan_mjesić
 
+add_ideas = CRO_aftermath_of_the_krajina_war
+
 add_ideas = usa_aligned_nation
 
 set_politics = {

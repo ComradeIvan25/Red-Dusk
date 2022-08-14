@@ -1,3 +1,406 @@
+sov_culture_war = {
+
+	sov_culture_war_con_supress_the_smuggling_of_western_tv_media = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+		}
+		days_remove = 30
+
+		cost = 5
+		fire_only_once = no
+		ai_will_do = {
+			factor = 75
+		}
+		complete_effect = { 
+			add_political_power = -10
+			add_stability = 0.02 
+			custom_effect_tooltip = sov_culture_war_increase_small_conservative
+			add_to_variable = {sov_culture_war_variable = 0.25}
+			clamp_variable = {
+				var = sov_culture_war_variable
+				min = -5
+				max = 5
+			}
+		}
+	}
+	
+	sov_culture_war_lib_allow_more_western_tv_media_import = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+		}
+		days_remove = 30
+
+		cost = 10
+		fire_only_once = no
+		ai_will_do = {
+			factor = 75
+		}
+		complete_effect = { 
+			add_political_power = 10
+			add_stability = -0.02 
+			custom_effect_tooltip = sov_culture_war_increase_small_liberal
+			add_to_variable = {sov_culture_war_variable = -0.25}
+			clamp_variable = {
+				var = sov_culture_war_variable
+				min = -5
+				max = 5
+			}
+		}
+	}
+	
+	sov_culture_war_con_finance_domestic_cloth_brands = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+		}
+		days_remove = 30
+
+		cost = 10
+		fire_only_once = no
+		ai_will_do = {
+			factor = 75
+		}
+		complete_effect = { 
+			add_political_power = 10
+			add_stability = 0.03
+			custom_effect_tooltip = sov_culture_war_increase_small_conservative
+			add_to_variable = {sov_culture_war_variable = 0.25}
+			clamp_variable = {
+				var = sov_culture_war_variable
+				min = -5
+				max = 5
+			}
+		}
+	}
+	
+	sov_culture_war_lib_bring_more_fashion_brands_into_ussr = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+		}
+		days_remove = 30
+
+		cost = 15
+		fire_only_once = no
+		ai_will_do = {
+			factor = 75
+		}
+		complete_effect = { 
+			add_political_power = 20
+			add_stability = -0.04
+			custom_effect_tooltip = sov_culture_war_increase_small_liberal
+			add_to_variable = {sov_culture_war_variable = -0.25}
+			clamp_variable = {
+				var = sov_culture_war_variable
+				min = -5
+				max = 5
+			}
+		}
+	}
+	
+	sov_culture_war_con_promote_local_bands_and_military_orchestras = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+		}
+		days_remove = 30
+
+		cost = 20
+		fire_only_once = no
+		ai_will_do = {
+			factor = 75
+		}
+		complete_effect = { 
+			add_political_power = -25
+			add_stability = 0.02
+			add_war_support = 0.03
+			custom_effect_tooltip = sov_culture_war_increase_small_conservative
+			add_to_variable = {sov_culture_war_variable = 0.25}
+			clamp_variable = {
+				var = sov_culture_war_variable
+				min = -5
+				max = 5
+			}
+		}
+	}
+	
+	sov_culture_war_lib_permit_foreign_bands_to_play_at_soviet_festivals = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+		}
+		days_remove = 30
+
+		cost = 25
+		fire_only_once = no
+		ai_will_do = {
+			factor = 75
+		}
+		complete_effect = { 
+			add_political_power = 25
+			add_stability = 0.05
+			add_war_support = -0.03
+			custom_effect_tooltip = sov_culture_war_increase_small_liberal
+			add_to_variable = {sov_culture_war_variable = -0.25}
+			clamp_variable = {
+				var = sov_culture_war_variable
+				min = -5
+				max = 5
+			}
+		}
+	}
+	
+	sov_culture_war_con_stricker_dress_codes_in_schools = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+		}
+		days_remove = 30
+
+		cost = 40
+		fire_only_once = no
+		ai_will_do = {
+			factor = 75
+		}
+		complete_effect = { 
+			add_political_power = -40
+			add_stability = 0.05
+			custom_effect_tooltip = sov_culture_war_increase_mid_conservative
+			add_to_variable = {sov_culture_war_variable = 0.50}
+			clamp_variable = {
+				var = sov_culture_war_variable
+				min = -5
+				max = 5
+			}
+		}
+	}
+	
+	sov_culture_war_lib_liberalise_the_school_dress_codes = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+		}
+		days_remove = 30
+
+		cost = 30
+		fire_only_once = no
+		ai_will_do = {
+			factor = 75
+		}
+		complete_effect = { 
+			add_political_power = 30
+			add_stability = -0.04
+			custom_effect_tooltip = sov_culture_war_increase_mid_liberal
+			add_to_variable = {sov_culture_war_variable = -0.50}
+			clamp_variable = {
+				var = sov_culture_war_variable
+				min = -5
+				max = 5
+			}
+		}
+	}
+		
+	sov_culture_war_con_promote_quality_of_domestic_food_productions = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+		}
+		days_remove = 30
+
+		cost = 10
+		fire_only_once = no
+		ai_will_do = {
+			factor = 75
+		}
+		complete_effect = { 
+			add_political_power = -30
+			add_stability = 0.04
+			custom_effect_tooltip = sov_culture_war_increase_large_conservative
+			add_to_variable = {sov_culture_war_variable = 0.75}
+			clamp_variable = {
+				var = sov_culture_war_variable
+				min = -5
+				max = 5
+			}
+		}
+	}
+		
+	sov_culture_war_lib_invite_foreign_food_chains_into_the_union = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+		}
+		days_remove = 30
+
+		cost = 15
+		fire_only_once = no
+		ai_will_do = {
+			factor = 75
+		}
+		complete_effect = { 
+			add_political_power = 20
+			add_stability = -0.03
+			custom_effect_tooltip = sov_culture_war_increase_large_liberal
+			add_to_variable = {sov_culture_war_variable = -0.75}
+			clamp_variable = {
+				var = sov_culture_war_variable
+				min = -5
+				max = 5
+			}
+		}
+	}
+	
+	sov_culture_war_con_create_new_domestic_goods = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+		}
+		days_remove = 30
+
+		cost = 5
+		fire_only_once = no
+		ai_will_do = {
+			factor = 75
+		}
+		complete_effect = { 
+			add_political_power = -20
+			add_stability = 0.03
+			custom_effect_tooltip = sov_culture_war_increase_mid_conservative
+			add_to_variable = {sov_culture_war_variable = 0.50}
+			clamp_variable = {
+				var = sov_culture_war_variable
+				min = -5
+				max = 5
+			}
+		}
+	}
+	
+	sov_culture_war_lib_import_more_foreign_goods = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+		}
+		days_remove = 30
+
+		cost = 2
+		fire_only_once = no
+		ai_will_do = {
+			factor = 75
+		}
+		complete_effect = { 
+			add_political_power = 15
+			add_stability = -0.02
+			custom_effect_tooltip = sov_culture_war_increase_mid_liberal
+			add_to_variable = {sov_culture_war_variable = -0.50}
+			clamp_variable = {
+				var = sov_culture_war_variable
+				min = -5
+				max = 5
+			}
+		}
+	}
+
+}
+
+
 sov_purging = {
 
 	#sov_reset_purges = {

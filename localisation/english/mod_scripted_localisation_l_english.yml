@@ -86,6 +86,24 @@
  yug_won_over_yugoslavia_milosevic_communist:0 "§GAt last we have won aganist reactionaries that threathened to end our Unitery Socialist Republic back in 91' and reunified Yugoslavia \n\nBrotherhood and Unity forever! \n\nGains Cores On All of Yugoslavia\n\n§!"
  yug_won_over_yugoslavia_milosevic_nationalist:0 "§RAt last we have won aganist the pesky Croats, Bosniaks, Albanians, Slovenians that threathened to end our Serbian State back in 91' and reunified Serbia to its natural borders \n\Nživela Srbija! \n\nGains Cores On All of Greater Serbia\n\n§!"
  
+ ###CULTURE WAR###
+ 
+ culture_war_leaning_balanced:0 "§gBalanced§!"
+ culture_war_leaning_slightly_conservative:0 "§CSlightly Conservative§!"
+ culture_war_leaning_conservative:0 "§2Conservative§!"
+ culture_war_leaning_extremely_conservative:0 "§BExtremely Conservative§!"
+ culture_war_leaning_slightly_liberal:0 "§LSlightly Liberal§!"
+ culture_war_leaning_liberal:0 "§YSlightly Liberal§!"
+ culture_war_leaning_extremely_liberal:0 "§8Extremely Liberal§!"
+ 
+ sov_culture_war_increase_small_conservative:0 "§2This will make the leaning more Conservative by a small amount§!"
+ sov_culture_war_increase_mid_conservative:0 "§2This will make the leaning more Conservative by a medium amount§!"
+ sov_culture_war_increase_large_conservative:0 "§2This will make the leaning more Conservative by a large amount§!"
+ 
+ sov_culture_war_increase_small_liberal:0 "§YThis will make the leaning more Liberal by a small amount§!"
+ sov_culture_war_increase_mid_liberal:0 "§YThis will make the leaning more Liberal by a medium amount§!"
+ sov_culture_war_increase_large_liberal:0 "§YThis will make the leaning more Liberal by a large amount§!"
+ 
  ###GORBACHEV THAW GUI#####
  
  YUG_amogus_level:0 "[YUG_amogus_level_text]"

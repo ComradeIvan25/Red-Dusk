@@ -20,6 +20,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_cat_north_korea_and_ussr_propaganda.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_decision_cat_culture_war"
+		texturefile = "gfx/interface/decisions/decision_cat_culture_war.dds"
+	}
+	
 	### decision icon stuff ###
 	
 	spriteType = {

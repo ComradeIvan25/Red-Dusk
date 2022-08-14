@@ -1,3 +1,16 @@
+sov_culture_war = {
+	icon = generic_communism
+	picture = GFX_decision_cat_culture_war
+	allowed = {
+		original_tag = SOV
+	}
+	
+	visible = {
+		original_tag = SOV
+	}
+	priority = 1000
+}
+
 sov_purging = {
 	icon = generic_communism
 	allowed = {

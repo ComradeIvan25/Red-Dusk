@@ -43,6 +43,10 @@ music = {
 	file = "Defcon_3.ogg"
 }
 music = {
+	name = "Enjoy_The_Silence"
+	file = "Enjoy_The_Silence.ogg"
+}
+music = {
 	name = "Eto_Govorim_My"
 	file = "Eto_Govorim_My.ogg"
 }
@@ -173,6 +177,10 @@ music = {
 music = {
 	name = "Swallowing_Dust"
 	file = "Swallowing_Dust.ogg"
+}
+music = {
+	name = "The_Internationale_2000-Maxx_Klaxon"
+	file = "The_Internationale_2000-Maxx_Klaxon.ogg"
 }
 music = {
 	name = "To_Serve_Russia"

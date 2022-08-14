@@ -92,6 +92,14 @@ music = {
 	}
 }
 music = {
+	song = "Enjoy_The_Silence"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
 	song = "Eto_Govorim_My"
 	chance = {
 		modifier = {
@@ -323,9 +331,17 @@ music = {
 	}
 }
 music = {
+	song = "The_Internationale_2000-Maxx_Klaxon"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
 	song = "To_Serve_Russia"
 	chance = {
-		modifier {
+		modifier = {
 			factor = 1
 		}
 	}

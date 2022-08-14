@@ -195,4 +195,24 @@ characters = {
 		}
 	}
 
+	## Admirals ##
+
+	YUG_miodrag_jokic = {
+		name = "Miodrag Jokić"
+		portraits = {
+			army = {
+				large = "gfx/leaders/YUG/Miodrag_Jokic.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+
 }

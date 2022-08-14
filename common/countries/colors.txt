@@ -874,3 +874,11 @@ BHR = {
 	color = rgb { 214 208 180 }
 	color_ui = rgb { 201 195 165 }
 }
+BRU = {
+	color = rgb { 115 47 204 }
+	color_ui = rgb { 111 44 199 }
+}
+GRN = {
+	color = rgb { 215 227 245 }
+	color_ui = rgb { 204 216 235 }
+}

@@ -4,7 +4,7 @@
 
 set_convoys = 20
 
-recruit_character = PAK_muhammad_rafiq
+recruit_character = PAK_pervez_musharraf
 
 add_ideas = usa_aligned_nation
 

@@ -1,10 +1,10 @@
 characters = {
 
-	PAK_muhammad_rafiq = {
-		name = "Muhammad Rafiq Tarar"
+	PAK_pervez_musharraf = {
+		name = "Pervez Musharraf"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/PAK/Muhammad_Rafiq_Tarar.dds"
+				large = "gfx/leaders/PAK/Pervez_Musharraf.dds"
 			}
 		}
 		country_leader = {

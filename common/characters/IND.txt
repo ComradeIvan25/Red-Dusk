@@ -1,10 +1,10 @@
 characters = {
 
-	RAJ_kocheril_raman = {
-		name = "Kocheril Raman Narayanan"
+	RAJ_atal_vajpayee = {
+		name = "Atal Bihari Vajpayee"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/RAJ/Kocheril_Raman_Narayanan.dds"
+				large = "gfx/leaders/RAJ/Atal_Vajpayee.dds"
 			}
 		}
 		country_leader = {

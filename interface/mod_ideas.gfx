@@ -77,6 +77,10 @@ spriteTypes = {
 		name = "GFX_idea_PRC_legacy_xiaoping_reform_icon"
 		texturefile = "gfx/interface/ideas/PRC_legacy_xiaoping_reform.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_PRC_CHI_third_taiwan_strait_icon"
+		texturefile = "gfx/interface/ideas/PRC_CHI_third_taiwan_strait.png"
+	}
 
 	#USA#
 
@@ -300,7 +304,7 @@ spriteTypes = {
 		name = "GFX_idea_RCD_war_icon"
 		texturefile = "gfx/interface/ideas/RCD_war.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_idea_CRO_aftermath_of_the_krajina_war_icon"
 		texturefile = "gfx/interface/ideas/CRO_aftermath_of_the_krajina_war.dds"

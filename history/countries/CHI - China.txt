@@ -15,8 +15,6 @@ set_convoys = 40
 
 recruit_character = CHI_lee_teng
 
-add_ideas = usa_aligned_nation
-
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"
@@ -28,3 +26,7 @@ set_popularities = {
 	democratic = 70
 	communism = 30
 }
+
+add_ideas = CHI_third_taiwan_strait_crisis
+
+add_ideas = usa_aligned_nation

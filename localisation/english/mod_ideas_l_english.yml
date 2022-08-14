@@ -90,6 +90,11 @@
  
  PRC_legacy_xiaoping_reform_name:0 "Legacy of Deng Xiaoping's Reforms"
  PRC_legacy_xiaoping_reform_name_desc:0 ""
+ PRC_third_taiwan_strait_crisis_idea_name:0 "Third Taiwan Strait Crisis"
+ PRC_third_taiwan_strait_crisis_idea_name_desc:0 "The crisis over the Taiwan Strait has revealed severe deficiencies in our military and command structure, with several traitorous officers being executed as a result. However, we must accept that reforms are needed if we want to successfully assert dominance in the region."
+
+ CHI_third_taiwan_strait_crisis_idea_name:0 "Third Taiwan Strait Crisis"
+ CHI_third_taiwan_strait_crisis_idea_name_desc:0 "Despite multiple serious provications from the People's Republic of China, our government has held firm and withstood their threats. Furthermore, the United States has reasserted its commitment to us, something which should reassure even the most nervous Taiwanese citizen."
  
  oil_producers_name:0 "Oil Producers"
 

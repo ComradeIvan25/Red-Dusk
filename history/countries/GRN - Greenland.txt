@@ -1,0 +1,26 @@
+﻿capital = 101
+
+#oob = ""
+
+set_convoys = 5
+
+recruit_character = GRN_jonathan_motzfeldt
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1999.2.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 74
+	communism = 7
+	reformed_communism = 8
+	islamism = 0
+	fascism = 0
+	neutrality = 11
+}
+
+add_ideas = GER_eu
+
+add_ideas = usa_aligned_nation

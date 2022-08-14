@@ -15,6 +15,7 @@ recruit_character = YUG_joska
 recruit_character = YUG_ubased
 recruit_character = YUG_đinđiću_pederu
 recruit_character = YUG_ratko_mladic
+recruit_character = YUG_miodrag_jokic
 
 set_politics = {
 	ruling_party = reformed_communism

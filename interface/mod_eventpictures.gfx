@@ -262,4 +262,8 @@ spriteTypes = {
 		name = "GFX_news_yugo_wars"
 		texturefile = "gfx/event_pictures/news_yugo_wars.dds"
 	}
+	spriteType = {
+		name = "GFX_news_indian_ocean_tsunami"
+		texturefile = "gfx/event_pictures/news_indian_ocean_tsunami.dds"
+	}
 }

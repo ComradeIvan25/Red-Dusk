@@ -21,6 +21,26 @@ ideas = {
 			}
 		}
 
+		PRC_third_taiwan_strait_crisis = {
+			name = PRC_third_taiwan_strait_crisis_idea_name
+
+			removal_cost = -1
+
+			picture = PRC_CHI_third_taiwan_strait_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_cost = 0.1
+				airforce_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				naval_invasion_penalty = 0.15
+			}
+		}
+
 	}
 	
 	hidden_ideas = {

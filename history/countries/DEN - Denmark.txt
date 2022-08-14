@@ -25,6 +25,10 @@ set_popularities = {
 	communism = 2
 }
 
+DEN = {
+	puppet = GRN
+}
+
 recruit_character = DEN_poul_nyrup
 
 add_ideas = GER_eu

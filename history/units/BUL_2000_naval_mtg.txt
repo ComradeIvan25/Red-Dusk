@@ -1,0 +1,27 @@
+units = {
+	fleet = {
+		name = "Bŭlgarski Flot"
+		naval_base = 9783 # Varna #
+		task_force = {
+			name = "Bŭlgarski Flot"
+			location = 9783 # Varna #
+			ship = { name = "BNG Smeli" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = BUL version_name = "Smeli Class" } } }
+
+			ship = { name = "BNS Reshitelni" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = BUL version_name = "Reshitelni Class" } } }
+			ship = { name = "BNS Bodri" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = BUL version_name = "Reshitelni Class" } } }
+			ship = { name = "BNS PLK-33" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = BUL version_name = "PLK-33 Class" } } }
+			ship = { name = "BNS PLK-35" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = BUL version_name = "PLK-33 Class" } } }
+			ship = { name = "BNS PLK-41" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = BUL version_name = "PLK-33 Class" } } }
+			ship = { name = "BNS PLK-42" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = BUL version_name = "PLK-33 Class" } } }
+		}
+		task_force = {
+			name = "Bŭlgarski Podvoden Flot"
+			location = 9783 # Varna #
+			ship = { name = "BNS Slava" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = BUL version_name = "Slava Class" } } }
+			ship = { name = "BNS Nadezhda" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = BUL version_name = "Slava Class" } } }
+		}
+	}
+}
+
+instant_effect = {
+}

@@ -13,7 +13,7 @@
  sov_culture_war_lib_invite_foreign_food_chains_into_the_union:0 "Invite Foreign Food Chains Into the Union"
  sov_culture_war_con_create_new_domestic_goods:0 "Create New Domestic Goods"
  sov_culture_war_lib_import_more_foreign_goods:0 "Import More Foreign Goods"
- 
+
  sov_purging:0 "Purging The Enemies Of Our Union"
  sov_purging_desc:0 ""
  sov_purge_vladimir_kryuchkov:0 "Purge Vladimir Kryuchkov"
@@ -203,3 +203,24 @@
  saf_deploy_the_police_force:0 "Deploy the Police Force"
  saf_deploy_the_army:0 "Deploy the Army"
  
+## Indian Ocean Tsunami ##
+
+ indian_tsunami_category_request_aid:0 "Indian Ocean Tsunami"
+ indian_tsunami_category_request_aid_desc:0 "With our coastlines devastated, and thousands of casualties, we must now begin the long and expensive process of rebuilding. While doing this ourselves is feasible, receiving aid from other countries will certainly increase the pace of rebuilding, albeit making us indebted to these foreign nations."
+ indian_tsunami_decision_request_aid_minor:0 "Request minor aid"
+ indian_tsunami_decision_request_aid_major:0 "Request major aid"
+
+ indian_tsunami_category_provide_aid:0 "Indian Ocean Tsunami"
+ indian_tsunami_category_provide_aid_desc:0 "Being one of the most devastating natural disasters of the last century, the countries affected are desperate for any sort of foreign aid. Providing some sort of support will boost our political standing both at home and abroad, however we must be mindful of the economic burden that will be placed upon us."
+ indian_tsunami_decision_provide_aid_economic_minor:0 "Provide minor economic aid"
+ indian_tsunami_decision_provide_aid_economic_major:0 "Provide significant economic aid"
+ indian_tsunami_decision_provide_aid_relief_supplies:0 "Provide relief supplies"
+ indian_tsunami_decision_provide_aid_naval_visit:0 "Naval humanitarian aid"
+ indian_tsunami_decision_provide_aid_send_army:0 "Provide troops"
+ indian_tsunami_decision_provide_aid_domestic_bases:0 "Set up domestic camps"
+ indian_tsunami_decision_provide_aid_eu_funding:0 "Leverage EU funding"
+
+ INDTSU_aid_header:0 "§YSupported Nations§!"
+ INDTSU_aid_header_description:0 "While all impacted countries need our help, we must prioritise our relief efforts in specific areas at any one time."
+ INDTSU_aid_current_support:0 "We are currently supporting:\n§Y[INDTSU_current_support]§!"
+ INDTSU_aid_country_list:0 "[RAJ.GetName]\n\n[INS.GetName]\n\n[BRM.GetName]\n\n[SIA.GetName]\n\n[MLD.GetName]"

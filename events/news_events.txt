@@ -474,25 +474,25 @@ news_event = {
 			426 = {
 				damage_building = {
 					type = infrastructure
-					damage = 2
+					damage = 1.5
 				}
 			}
 			431 = {
 				damage_building = {
 					type = infrastructure
-					damage = 1.5
+					damage = 1
 				}
 			}
 			430 = {
 				damage_building = {
 					type = infrastructure
-					damage = 1.5
+					damage = 0.5
 				}
 			}
 			288 = {
 				damage_building = {
 					type = infrastructure
-					damage = 2
+					damage = 1.5
 				}
 			}
 			733 = {
@@ -584,6 +584,38 @@ news_event = {
 					type = infrastructure
 					damage = 0.5
 				}
+			}
+
+			RAJ = {
+				set_country_flag = indian_tsunami_victim
+			}
+			MLD = {
+				set_country_flag = indian_tsunami_victim
+			}
+			BRM = {
+				set_country_flag = indian_tsunami_victim
+			}
+			SIA = {
+				set_country_flag = indian_tsunami_victim
+			}
+			INS = {
+				set_country_flag = indian_tsunami_victim
+			}
+
+			USA = {
+				set_country_flag = indian_tsunami_helper
+			}
+			SOV = {
+				set_country_flag = indian_tsunami_helper
+			}
+			PRC = {
+				set_country_flag = indian_tsunami_helper
+			}
+			GER = {
+				set_country_flag = indian_tsunami_helper
+			}
+			AST = {
+				set_country_flag = indian_tsunami_helper
 			}
 		}
 	}

@@ -22,6 +22,16 @@ categories =  {
 		is_water = yes
 		sound_type = sea
 	}
+
+	reef = {
+		color = { 129 222 186 }
+		movement_cost = 1.8
+		combat_width = 68
+		combat_support_width = 20
+		ai_terrain_importance_factor = 10.0
+		match_value = 6.5
+		sound_type = sea
+	}
 	
 	forest = {
 		color = { 89 199 85 }

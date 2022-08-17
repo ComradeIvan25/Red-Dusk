@@ -2,8 +2,12 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_kurd_resistance_bar"
-		texturefile = "gfx/interface/test_bar.dds"
+		texturefile = "gfx/interface/scripted_gui/test_bar.dds"
 		noOfFrames = 5
+	}
+	SpriteType = {
+		name = "GFX_scripted_decision_button"
+		texturefile = "gfx/interface/scripted_gui/decision_button.dds"
 	}
 
 }

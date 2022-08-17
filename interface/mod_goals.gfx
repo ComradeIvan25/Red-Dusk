@@ -34,6 +34,26 @@ spriteTypes = {
 		name = "generic_soc_market"
 		texturefile = "gfx/interface/goals/generic_soc_market.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_SOV_talk_krychkov"
+		texturefile = "gfx/interface/goals/focus_SOV_talk_krychkov.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_calm_party_factionalism"
+		texturefile = "gfx/interface/goals/focus_SOV_calm_party_factionalism.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_morning_in_moscow"
+		texturefile = "gfx/interface/goals/focus_SOV_morning_in_moscow.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_address_the_party"
+		texturefile = "gfx/interface/goals/focus_SOV_address_the_party.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_spectre_of_militarism"
+		texturefile = "gfx/interface/goals/focus_SOV_spectre_of_militarism.png"
+	}
 	
 	###YAZOV###
 	

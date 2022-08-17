@@ -1,6 +1,6 @@
 ﻿focus_tree = {
 	id = ussr_focus
-	
+	continuous_focus_position = { x = 1400 y = 100 } 
 	country = {
 		factor = 0
 		
@@ -11,14 +11,38 @@
 	}
 	
 	default = no
+
+	focus = {
+		id = SOV_morning_in_moscow
+		icon = GFX_focus_SOV_morning_in_moscow
+		x = 6
+		y = 0
+
+		prerequisite = { }
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+
 	focus = {
 		id = SOV_status_of_the_union
 		icon = GFX_focus_SOV_status_of_union
-		x = 9
-		y = 0
+		x = 0
+		y = 1
 
-		prerequisite = {}
+		prerequisite = {focus = SOV_morning_in_moscow}
 		mutually_exclusive = { }
+		relative_position_id = SOV_morning_in_moscow
 		
 		cost = 1
 		ai_will_do = {
@@ -38,8 +62,31 @@
 	}
 	
 	focus = {
-		id = SOV_economy_report
-		icon = GFX_focus_SOV_economy_report
+		id = SOV_spectre_of_militarism
+		icon = GFX_focus_SOV_spectre_of_militarism
+		x = -2
+		y = 1
+
+		prerequisite = {focus = SOV_status_of_the_union}
+		mutually_exclusive = { }
+		relative_position_id = SOV_status_of_the_union
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SOV_stagnating_economy
+		#icon = 
 		x = 0
 		y = 1
 
@@ -47,19 +94,39 @@
 		mutually_exclusive = { }
 		relative_position_id = SOV_status_of_the_union
 		
-		cost = 3
+		cost = 1
 		ai_will_do = {
 			factor = 1
 		}
-		
+
 		bypass = {
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			SOV = {
-				country_event = { id = ussr.3 }
-			}
+		}
+	}
+
+	focus = {
+		id = SOV_rising_dissidence
+		#icon = 
+		x = 2
+		y = 1
+
+		prerequisite = {focus = SOV_status_of_the_union}
+		mutually_exclusive = { }
+		relative_position_id = SOV_status_of_the_union
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
 		}
 	}
 	
@@ -67,11 +134,13 @@
 		id = SOV_yanayev_final_weeks
 		icon = GFX_focus_SOV_yanayev_final_weeks
 		x = 0
-		y = 3
+		y = 1
 
-		prerequisite = {focus = SOV_economy_report}
+		prerequisite = {focus = SOV_spectre_of_militarism}
+		prerequisite = {focus = SOV_stagnating_economy}
+		prerequisite = {focus = SOV_rising_dissidence}
 		mutually_exclusive = { }
-		relative_position_id = SOV_status_of_the_union
+		relative_position_id = SOV_stagnating_economy
 		
 		cost = 5
 		ai_will_do = {
@@ -87,17 +156,89 @@
 			add_stability = -0.05
 		}
 	}
+
+	focus = {
+		id = SOV_economic_reforms
+		#icon = 
+		x = -3
+		y = 1
+
+		prerequisite = {focus = SOV_yanayev_final_weeks}
+		mutually_exclusive = { }
+		relative_position_id = SOV_yanayev_final_weeks
+		
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			swap_ideas = {
+				add_idea = SOV_stagnating_economy_1
+				remove_idea = SOV_stagnating_economy
+			}
+		}
+	}
+
+	focus = {
+		id = SOV_decrease_commodity_production
+		#icon = 
+		x = -2
+		y = 1
+
+		prerequisite = {focus = SOV_economic_reforms}
+		mutually_exclusive = { }
+		relative_position_id = SOV_economic_reforms
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SOV_working_around_clock
+		#icon = 
+		x = 0
+		y = 1
+
+		prerequisite = {focus = SOV_economic_reforms}
+		mutually_exclusive = { }
+		relative_position_id = SOV_economic_reforms
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
 	
 	focus = {
 		id = SOV_defund_the_military
 		icon = GFX_focus_SOV_defund_military
-		x = -1
-		y = 4
+		x = 2
+		y = 1
 
-		prerequisite = {focus = SOV_yanayev_final_weeks}
+		prerequisite = {focus = SOV_economic_reforms}
 		mutually_exclusive = { }
-		relative_position_id = SOV_status_of_the_union
-		available = {has_completed_focus = SOV_minor_economic_reforms}
+		relative_position_id = SOV_economic_reforms
 		
 		cost = 3
 		ai_will_do = {
@@ -118,20 +259,22 @@
 			}
 		}
 	}
-	
-	focus = {
-		id = SOV_minor_economic_reforms
-		icon = GFX_focus_SOV_economic_reforms
-		x = 1
-		y = 4
 
-		prerequisite = {focus = SOV_yanayev_final_weeks}
+	focus = {
+		id = SOV_quantity_over_quality
+		#icon = 
+		x = 0
+		y = 1
+
+		prerequisite = {focus = SOV_decrease_commodity_production}
+		prerequisite = {focus = SOV_working_around_clock}
+		prerequisite = {focus = SOV_defund_the_military}
 		mutually_exclusive = { }
-		relative_position_id = SOV_status_of_the_union
+		relative_position_id = SOV_working_around_clock
 		
-		cost = 8
+		cost = 1
 		ai_will_do = {
-			factor = 10
+			factor = 1
 		}
 
 		bypass = {
@@ -139,10 +282,147 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			swap_ideas = {
-				add_idea = SOV_stagnating_economy_1
-				remove_idea = SOV_stagnating_economy
-			}
+		}
+	}
+
+	focus = {
+		id = SOV_administrative_reforms
+		#icon = 
+		x = 3
+		y = 1
+
+		prerequisite = {focus = SOV_yanayev_final_weeks}
+		mutually_exclusive = { }
+		relative_position_id = SOV_yanayev_final_weeks
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SOV_calm_party_factionalism
+		icon = GFX_focus_SOV_calm_party_factionalism
+		x = -2
+		y = 1
+
+		prerequisite = {focus = SOV_administrative_reforms}
+		mutually_exclusive = { }
+		relative_position_id = SOV_administrative_reforms
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SOV_talk_krychkov
+		icon = GFX_focus_SOV_talk_krychkov
+		x = 0
+		y = 1
+
+		prerequisite = {focus = SOV_administrative_reforms}
+		mutually_exclusive = { }
+		relative_position_id = SOV_administrative_reforms
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SOV_make_concessions
+		#icon = 
+		x = 2
+		y = 1
+
+		prerequisite = {focus = SOV_administrative_reforms}
+		mutually_exclusive = { }
+		relative_position_id = SOV_administrative_reforms
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SOV_address_the_party
+		icon = GFX_focus_SOV_address_the_party
+		x = 0
+		y = 1
+
+		prerequisite = {focus = SOV_calm_party_factionalism}
+		prerequisite = {focus = SOV_talk_krychkov}
+		prerequisite = {focus = SOV_make_concessions}
+		mutually_exclusive = { }
+		relative_position_id = SOV_talk_krychkov
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SOV_this_isnt_working
+		#icon = 
+		x = 3
+		y = 1
+
+		prerequisite = {focus = SOV_quantity_over_quality}
+		prerequisite = {focus = SOV_address_the_party}
+		mutually_exclusive = { }
+		relative_position_id = SOV_quantity_over_quality
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
 		}
 	}
 
@@ -150,10 +430,9 @@
         	id = SOV_yanayev's_resignation
         	icon = GFX_focus_SOV_yanayevs_resignation
         	x = 0
-        	y = 5
-		prerequisite = {focus = SOV_minor_economic_reforms}
-		prerequisite = {focus = SOV_defund_the_military}
-		relative_position_id = SOV_status_of_the_union
+        	y = 1
+		prerequisite = {focus = SOV_this_isnt_working}
+		relative_position_id = SOV_this_isnt_working
                
 		cost=3
 		ai_will_do = {
@@ -176,11 +455,11 @@
 		id = SOV_party_meeting
 		icon = GFX_focus_SOV_party_meeting
 		x = 0
-		y = 6
+		y = 1
 
 		prerequisite = {focus = SOV_yanayev's_resignation}
 		mutually_exclusive = { }
-		relative_position_id = SOV_status_of_the_union
+		relative_position_id = SOV_yanayev's_resignation
 		
 		cost = 5
 		ai_will_do = {

@@ -103,7 +103,7 @@
  sov_culture_war_increase_small_liberal:0 "§YThis will make the leaning more Liberal by a small amount§!"
  sov_culture_war_increase_mid_liberal:0 "§YThis will make the leaning more Liberal by a medium amount§!"
  sov_culture_war_increase_large_liberal:0 "§YThis will make the leaning more Liberal by a large amount§!"
- 
+
  ###GORBACHEV THAW GUI#####
  
  YUG_amogus_level:0 "[YUG_amogus_level_text]"
@@ -252,3 +252,21 @@
  saf_started_to_deal_with_insurgents:0 "§OStarted Operations Aganist the Insurgents§\n\n"
  saf_end_of_operations_reached:0 "§OThe Deadline For The Operations Have Been Reached§\n\n"
  SAF_breaking_point_cool_tooltip:0 "§RSouth Africa Is Nearing Its Breaking Point§\n\n"
+
+ ## GENERIC ##
+
+ decision_cost_CP_10_PP_60:0 "£command_power  §Y10§! £political_power  §Y60§!"
+ decision_cost_CP_10_PP_60_blocked:0 "£command_power  §R10§! £political_power  §R60§!"
+ decision_cost_CP_10_PP_60_tooltip:0 "It costs £command_power  §Y10§! and £political_power  §Y60§! to take the decision"
+ decision_cost_CP_15_PP_50:0 "£command_power  §Y15§! £political_power  §Y50§!"
+ decision_cost_CP_15_PP_50_blocked:0 "£command_power  §R15§! £political_power  §R50§!"
+ decision_cost_CP_15_PP_50_tooltip:0 "It costs £command_power  §Y15§! and £political_power  §Y50§! to take the decision"
+
+ ## Indian Tsunami ##
+
+ INDTSU_loc_key_country_0:0 "Nobody"
+ INDTSU_loc_key_country_1:0 "[RAJ.GetName]"
+ INDTSU_loc_key_country_2:0 "[INS.GetName]"
+ INDTSU_loc_key_country_3:0 "[BRM.GetName]"
+ INDTSU_loc_key_country_4:0 "[SIA.GetName]"
+ INDTSU_loc_key_country_5:0 "[MLD.GetName]"

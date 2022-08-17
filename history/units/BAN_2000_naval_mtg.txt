@@ -5,7 +5,7 @@ units = {
 		task_force = {
 			name = "Banladesa Naubahara"
 			location = 11968 # Dhaka #
-			ship = { name = "BNS Osman" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = BAN version_name = "Osman Class" } } }
+			ship = { name = "BNS Osman" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = BAN version_name = "Osman Class" } } }
 			ship = { name = "BNS Ali Haider" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = BAN version_name = "Ali Haider Class" } } }
 			ship = { name = "BNS Abu Bakr" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = BAN version_name = "Ali Haider Class" } } }
 			ship = { name = "BNS Umar Farooq" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = BAN version_name = "Umar Farooq Class" } } }

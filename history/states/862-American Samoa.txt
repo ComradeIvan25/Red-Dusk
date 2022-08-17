@@ -1,0 +1,18 @@
+state={
+	id=862
+	name="STATE_862"
+	manpower=57816
+	state_category = tiny_island
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		13080 
+	}
+
+	local_supplies=0.0 
+}

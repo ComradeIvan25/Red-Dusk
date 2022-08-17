@@ -1,0 +1,36 @@
+defined_text = {
+	name = INDTSU_current_support
+	text = {
+		trigger = {
+			has_country_flag = INDTSU_support_country_1
+		}
+		localization_key = INDTSU_loc_key_country_1
+	}
+	text = {
+		trigger = {
+			has_country_flag = INDTSU_support_country_2
+		}
+		localization_key = INDTSU_loc_key_country_2
+	}
+	text = {
+		trigger = {
+			has_country_flag = INDTSU_support_country_3
+		}
+		localization_key = INDTSU_loc_key_country_3
+	}
+	text = {
+		trigger = {
+			has_country_flag = INDTSU_support_country_4
+		}
+		localization_key = INDTSU_loc_key_country_4
+	}
+	text = {
+		trigger = {
+			has_country_flag = INDTSU_support_country_5
+		}
+		localization_key = INDTSU_loc_key_country_5
+	}
+	text = {
+		localization_key = INDTSU_loc_key_country_0
+	}
+}

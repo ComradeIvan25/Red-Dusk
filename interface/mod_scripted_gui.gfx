@@ -9,5 +9,9 @@ spriteTypes = {
 		name = "GFX_scripted_decision_button"
 		texturefile = "gfx/interface/scripted_gui/decision_button.dds"
 	}
+	SpriteType = {
+		name = "GFX_indian_tsunami_influence_table"
+		texturefile = "gfx/interface/scripted_gui/indian_tsunami_influence_table.dds"
+	}
 
 }

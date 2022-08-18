@@ -172,6 +172,22 @@ news_event = {
 	}
 }
 
+#Soviets invade Latvia, Estonia etc.
+news_event = {
+	id = old_times_news.24
+	title = old_times_news.24.t
+	desc = old_times_news.24.d
+	picture = GFX_news_reclamations
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.24.a
+	}
+}
+
 #anti - kaliba allaince collapses#
 news_event = {
 	id = old_times_news.20

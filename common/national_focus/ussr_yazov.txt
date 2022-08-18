@@ -564,6 +564,8 @@
             type = annex_everything
             target = LAT
             }
+
+		news_event = { id = old_times_news.24 days = 1 }
 							
 		}
 	}

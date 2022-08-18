@@ -208,6 +208,57 @@ on_actions = {
 	
 	on_capitulation = {
 		effect = {	
+					## COLD WAR ALIGNMENT CHANGES ##
+					
+					## USSR ALIGNMENT ##
+					if = {   
+						limit = {
+							FROM = {
+								has_idea = ussr_aligned_nation
+							}
+							ROOT = {
+							}
+						}
+
+						ROOT = {
+							replace_alignment_to_SOV = yes
+						}
+					 
+					}
+					
+					## USA ALIGNMENT ##
+					if = {   
+						limit = {
+							FROM = {
+								has_idea = usa_aligned_nation
+							}
+							ROOT = {
+							}
+						}
+
+						ROOT = {
+							replace_alignment_to_USA = yes
+						}
+					 
+					}
+					
+					## CHINA ALIGNMENT ##
+					if = {   
+						limit = {
+							FROM = {
+								has_idea = china_aligned_nation
+							}
+							ROOT = {
+							}
+						}
+
+						ROOT = {
+							replace_alignment_to_PRC = yes
+						}
+					 
+					}
+		
+		
 					## IRAQ WARS ##
 					
 					## IRAQ VS KUWAIT - IRAQ WINS OVER KUWAIT ##
@@ -2067,25 +2118,27 @@ on_actions = {
 						}
 	
 						TAM = {
-							annex_country = {
-							target = SRL
-							transfer_troops = no
-							}
 							set_cosmetic_tag = TAM_won
+							puppet = SRL
 						}
+						
 						
 						SRL = {
 							set_politics = {
-								ruling_party = fascism
+								ruling_party = communism
 								last_election = "1936.1.1"
 								election_frequency = 48
 								elections_allowed = yes
 							}
+							set_cosmetic_tag = SRL_lost
 							set_popularities = {
 								democratic = 0
-								fascism = 50
-								communism = 25
-								neutrality = 25
+								fascism = 30
+								communism = 70
+								neutrality = 0
+							}
+							swap_ideas = {
+							
 							}
 						}
 						

@@ -6,6 +6,7 @@ set_convoys = 5
 
 recruit_character = SRL_Chandrika_Kumaratunga
 recruit_character = SRL_Dingiri_Banda_Wijetunga
+recruit_character = SRL_Premakumar_Gunaratnam
 
 add_ideas = usa_aligned_nation
 

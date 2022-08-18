@@ -148,7 +148,7 @@
  
  ##YUGOSLAVIA##
  yug_deal_with_uprisings:0 "Dealing with Terrorism"
- yug_deal_with_uprisings_desc:0 "Internal seperatism and terrosim is destroying our nation. Now that we have dealt with other issues we are going to deal with this one too. However, because of our limited resources we can only focus and concentrate on one of the regions. \n\n§L>Figthing Strength Of The Rebels In Bosnia Is §R[?bosnia_fight_strength]§W§  §Lpercent§W§.\n\n§W§\n\n§L>Figthing Strength Of The Rebels In Kosovo Is §R[?albania_fight_strength]§W§\n\n"
+ yug_deal_with_uprisings_desc:0 "Internal seperatism and terrosim is destroying our nation. Now that we have dealt with other issues we are going to deal with this one too. However, because of our limited resources we can only focus and concentrate on one of the regions. \n\n§L>Figthing Strength Of The Rebels In Bosnia Is §R[?bosnia_fight_strength]%§!\n\n§!\n\n§L>Figthing Strength Of The Rebels In Kosovo Is §R[?albania_fight_strength]%§!\n\n"
  yug_focus_on_bosnian_rebels:0 "Focus On Bosnian Rebels"
  yug_focus_on_albanian_rebels:0 "Focus On Kosovo Rebels"
  yug_timer_clock_bosnia:0 "Incoming Uprising"
@@ -164,7 +164,7 @@
  
  yug_uprising:0 "Dealing With Uprisings"
  yug_uprising_desc:0 "Our great country of Yugoslavia is falling apart around us as the separatists we thought was dealt with advances further and further...\n\nHomever the war is far from over. If we use reorganize our military force correctly we will be able to defeat the separatists once again, restoring unity back into its place in Yugoslavia."
- yug_timer_clock_uprising:0 "§RDevolving Situation§"
+ yug_timer_clock_uprising:0 "§RDevolving Situation§!"
  
  yug_rebuilding_our_industry:0 "Rebuilding Our Industry"
  yug_rebuilding_our_industry_desc:0 "With most of our industry being destroyed following the mass uprisings in '91, it's understandable that we have decided to repair and rebuild those factories that had been abandoned long ago." 

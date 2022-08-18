@@ -31,6 +31,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+		country_event = {id = ussr.1}
 		}
 	}
 
@@ -86,7 +87,7 @@
 
 	focus = {
 		id = SOV_stagnating_economy
-		#icon = 
+		icon = GFX_focus_SOV_economy_report
 		x = 0
 		y = 1
 
@@ -109,7 +110,7 @@
 
 	focus = {
 		id = SOV_rising_dissidence
-		#icon = 
+		icon = GFX_focus_SOV_rising_dissidence
 		x = 2
 		y = 1
 
@@ -159,7 +160,7 @@
 
 	focus = {
 		id = SOV_economic_reforms
-		#icon = 
+		icon = GFX_focus_SOV_economic_reforms
 		x = -3
 		y = 1
 
@@ -186,7 +187,7 @@
 
 	focus = {
 		id = SOV_decrease_commodity_production
-		#icon = 
+		icon = GFX_focus_SOV_decrease_commodities
 		x = -2
 		y = 1
 
@@ -209,7 +210,7 @@
 
 	focus = {
 		id = SOV_working_around_clock
-		#icon = 
+		icon = GFX_focus_SOV_work_around_the_clock
 		x = 0
 		y = 1
 
@@ -262,7 +263,7 @@
 
 	focus = {
 		id = SOV_quantity_over_quality
-		#icon = 
+		icon = GFX_focus_SOV_quantity_over_quality
 		x = 0
 		y = 1
 
@@ -287,7 +288,7 @@
 
 	focus = {
 		id = SOV_administrative_reforms
-		#icon = 
+		icon = GFX_focus_SOV_administrative_reforms
 		x = 3
 		y = 1
 
@@ -356,7 +357,7 @@
 
 	focus = {
 		id = SOV_make_concessions
-		#icon = 
+		icon = GFX_focus_SOV_make_concessions
 		x = 2
 		y = 1
 
@@ -404,7 +405,7 @@
 
 	focus = {
 		id = SOV_this_isnt_working
-		#icon = 
+		icon = GFX_focus_SOV_this_isnt_working
 		x = 3
 		y = 1
 

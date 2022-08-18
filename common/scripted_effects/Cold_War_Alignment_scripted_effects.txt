@@ -1,0 +1,100 @@
+replace_alignment_to_SOV = {
+	
+	if = {
+		limit = {
+		has_idea = usa_aligned_nation
+		}
+		swap_ideas = {
+			remove_idea = usa_aligned_nation
+			add_idea = ussr_aligned_nation
+		}
+	}
+	else = {
+		limit = {
+		has_idea = china_aligned_nation
+		}
+		swap_ideas = {
+			remove_idea = china_aligned_nation
+			add_idea = ussr_aligned_nation
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				OR = {
+				has_idea = china_aligned_nation
+				has_idea = usa_aligned_nation
+				}
+			}
+		}
+		add_ideas = ussr_aligned_nation
+	}
+
+}
+
+replace_alignment_to_USA = {
+	
+	if = {
+		limit = {
+		has_idea = ussr_aligned_nation
+		}
+		swap_ideas = {
+			remove_idea = ussr_aligned_nation
+			add_idea = usa_aligned_nation
+		}
+	}
+	else = {
+		limit = {
+		has_idea = china_aligned_nation
+		}
+		swap_ideas = {
+			remove_idea = china_aligned_nation
+			add_idea = usa_aligned_nation
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				OR = {
+				has_idea = china_aligned_nation
+				has_idea = ussr_aligned_nation
+				}
+			}
+		}
+		add_ideas = usa_aligned_nation
+	}
+
+}
+
+replace_alignment_to_PRC = {
+	
+	if = {
+		limit = {
+		has_idea = ussr_aligned_nation
+		}
+		swap_ideas = {
+			remove_idea = ussr_aligned_nation
+			add_idea = china_aligned_nation
+		}
+	}
+	else = {
+		limit = {
+		has_idea = usa_aligned_nation
+		}
+		swap_ideas = {
+			remove_idea = usa_aligned_nation
+			add_idea = china_aligned_nation
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				OR = {
+				has_idea = ussr_aligned_nation
+				has_idea = usa_aligned_nation
+				}
+			}
+		}
+		add_ideas = china_aligned_nation
+	}
+}

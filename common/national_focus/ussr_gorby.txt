@@ -1009,18 +1009,22 @@
 		puppet = AZR
 		AZR = {
 		set_cosmetic_tag = AZR_com_puppet
+		add_ideas = ussr_aligned_nation
 		}
 		puppet = ARM
 		ARM = {
 		set_cosmetic_tag = ARM_com_puppet
+		add_ideas = ussr_aligned_nation
 		}
 		puppet = LAT
 		LAT = {
 		set_cosmetic_tag = LAT_com_puppet
+		add_ideas = ussr_aligned_nation
 		}
 		puppet = EST
 		EST = {
 		set_cosmetic_tag = EST_com_puppet
+		add_ideas = ussr_aligned_nation
 		}
 		
 		}

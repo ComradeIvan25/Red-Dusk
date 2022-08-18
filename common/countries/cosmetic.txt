@@ -196,3 +196,7 @@ TAM_won = {
 	color = rgb { 211 10 30 }
 	color_ui = rgb { 193 80 0 }
 }
+SRL_lost = {
+	color = rgb { 178 10 30 }
+	color_ui = rgb { 193 80 0 }
+}

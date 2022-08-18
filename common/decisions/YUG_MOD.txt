@@ -480,11 +480,16 @@ yug_uprising = {
 		selectable_mission = no
 		days_mission_timeout = 250            
 		timeout_effect = {
-			country_event = { id = yug_rebel.8 } 
+			country_event = { id = yug_rebel.8 }
+			set_country_flag = yug_wars_reached_conclusion
+			remove_mission = yug_timer_clock_uprising			
 		}
 		
         complete_effect = {
-			country_event = { id = yug_rebel.7 } 
+			country_event = { id = yug_rebel.7 }
+			set_country_flag = yug_wars_reached_conclusion
+			remove_mission = yug_timer_clock_uprising
+
         }
 	}
 

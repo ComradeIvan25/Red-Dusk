@@ -30,5 +30,19 @@ characters = {
 		}
 	}
 	
+	SRL_Premakumar_Gunaratnam = {
+		name = "Premakumar Gunaratnam"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SRL/Premakumar_Gunaratnam.dds"
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
 
 }

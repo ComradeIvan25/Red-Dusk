@@ -849,6 +849,11 @@
  VIN_increase_budget_of_the_veterans_association_desc:0 "WIP"
  VIN_the_greatest_generation:0 "The Greatest Generation"
  VIN_the_greatest_generation_desc:0 "WIP"
+ VIN_army:0 "The People's Army"
+ VIN_army_reform:0 "Lauch Modernization Campaign"
+ VIN_ground_force:0 "Our Redoubled Steps Resound on the Road"
+ VIN_navy:0 "Our Homeland is the Sea"
+ VIN_air_force:0 "Dreams of Mastering Fatherland’s Skies"
 
 ## IRQ ##
 

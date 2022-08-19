@@ -892,6 +892,26 @@ spriteTypes = {
 		name = "VIN_greatest_generation"
 		texturefile = "gfx/interface/goals/VIN/VIN_greatest_generation.png"
 	}
+	SpriteType = {
+		name = "VIN_PAVN"
+		texturefile = "gfx/interface/goals/VIN/VIN_PAVN.png"
+	}
+	SpriteType = {
+		name = "VIN_luc_quan"
+		texturefile = "gfx/interface/goals/VIN/VIN_luc_quan.png"
+	}
+	SpriteType = {
+		name = "VIN_khong_quan"
+		texturefile = "gfx/interface/goals/VIN/VIN_khong_quan.png"
+	}
+	SpriteType = {
+		name = "VIN_hai_quan"
+		texturefile = "gfx/interface/goals/VIN/VIN_hai_quan.png"
+	}
+	SpriteType = {
+		name = "VIN_army_modernization"
+		texturefile = "gfx/interface/goals/VIN/VIN_army_modernization.png"
+	}
 
 	## Gorbachev ##
 

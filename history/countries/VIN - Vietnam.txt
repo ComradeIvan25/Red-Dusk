@@ -7,6 +7,7 @@ set_research_slots = 3
 add_ideas = VIN_fifty_years_resistance
 add_ideas = VIN_doi_moi
 add_ideas = VIN_patriotic_tradition
+add_ideas = extensive_conscription
 
 add_ideas = ussr_aligned_nation
 

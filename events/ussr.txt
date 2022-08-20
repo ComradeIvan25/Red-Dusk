@@ -161,6 +161,36 @@ country_event = {
 	}
 }
 
+#letter#
+country_event = {
+	id = ussr.33
+	title = ussr.33.t
+	desc = ussr.33.d
+	picture = GFX_report_event_yannayevs_burden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr.33.a
+		add_political_power = -15
+	}
+}
+
+#spech#
+country_event = {
+	id = ussr.34
+	title = ussr.34.t
+	desc = ussr.34.d
+	picture = GFX_report_event_yanayev_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr.34.a
+		add_political_power = 10
+	}
+}
+
 #resignment#
 country_event = {
 	id = ussr.5
@@ -172,7 +202,8 @@ country_event = {
 	
 	option = {
 		name = ussr.5.a
-		add_political_power = -5
+		add_political_power = -20
+		add_stability = -0.05
 		retire_country_leader = yes
 		promote_character = SOV_party
 

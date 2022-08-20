@@ -830,6 +830,34 @@ spriteTypes = {
 		name = "GFX_focus_SAF_new_reforms"
 		texturefile = "gfx/interface/goals/focus_SAF_new_reforms.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_SAF_factions"
+		texturefile = "gfx/interface/goals/focus_SAF_factions.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_help"
+		texturefile = "gfx/interface/goals/focus_SAF_help.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_mobilisation"
+		texturefile = "gfx/interface/goals/focus_SAF_mobilisation.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_snd"
+		texturefile = "gfx/interface/goals/focus_SAF_snd.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_garrison"
+		texturefile = "gfx/interface/goals/focus_SAF_garrison.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_increase1"
+		texturefile = "gfx/interface/goals/focus_SAF_increase1.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_late"
+		texturefile = "gfx/interface/goals/focus_SAF_late.png"
+	}
 	
    ###VIN###
     SpriteType = {
@@ -1248,7 +1276,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_USA_focus_aftermath_of_uneasy_90s"
-		texturefile = "gfx/interface/goals/USA_focus_aftermath_of_uneasy_90s.dds"
+		texturefile = "gfx/interface/goals/USA_focus_aftermath_of_uneasy_90s.png"
 	}
 	
 	SpriteType = {

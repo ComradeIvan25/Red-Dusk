@@ -74,7 +74,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SAF_factions
-		icon = x
+		icon = GFX_focus_SAF_factions
 		x = 12
 		y = 11
 
@@ -138,7 +138,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SAF_budget_increase
-		icon = x
+		icon = GFX_focus_SAF_increase1
 		x = 11
 		y = 14
 
@@ -316,7 +316,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SAF_garrison
-		icon = x
+		icon = GFX_focus_SAF_garrison
 		x = 15.5
 		y = 13
 
@@ -361,7 +361,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SAF_bomb
-		icon = x
+		icon = GFX_focus_SAF_snd
 		x = 15.5
 		y = 15
 		prerequisite = {focus = SAF_air}
@@ -504,7 +504,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SAF_late
-		icon = x
+		icon = GFX_focus_SAF_late
 		x = 15
 		y = 17
 
@@ -559,7 +559,7 @@ focus_tree = {
 
 	focus = {
 		id = SAF_mobilize
-		icon = GFX_focus_SAF_morbilisation
+		icon = GFX_focus_SAF_mobilisation
 		x = 13
 		y = 19
 
@@ -602,7 +602,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SAF_help
-		icon = GFX_focus_SAF_ask_for_help
+		icon = GFX_focus_SAF_help
 		x = 15
 		y = 19
 

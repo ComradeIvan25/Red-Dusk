@@ -74,6 +74,10 @@ spriteTypes = {
 		name = "GFX_report_event_morning_in_moscow"
 		texturefile = "gfx/event_pictures/report_event_morning_in_moscow.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_yanayev_speech"
+		texturefile = "gfx/event_pictures/report_event_yanayev_speech.dds"
+	}
 	
 	##USA##
 	

@@ -15,7 +15,7 @@ country_event = {
 		
 		hidden_effect = {
 			VIN = {
-				country_event = { id = vin_intro.2 days = 121 }
+				country_event = { id = vin_intro.2 days = 117 }
 			}
 		}
 	}

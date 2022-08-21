@@ -205,6 +205,11 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VIN_our_place_in_the_world  }
+		completion_reward = {
+		add_opinion_modifier = { target = CAM modifier = medium_increase } 
+			add_opinion_modifier = { target = LAO modifier = medium_increase } 
+
+	}
 	}
 
 	#Improve relations with China
@@ -218,6 +223,10 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VIN_our_place_in_the_world  }
+		completion_reward = {
+		add_opinion_modifier = { target = PRC modifier = medium_increase } 
+
+	}
 	}
 
 	#Soviet Brother
@@ -231,6 +240,10 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VIN_our_place_in_the_world  }
+		completion_reward = {
+		add_opinion_modifier = { target = SOV modifier = medium_increase } 
+
+	}
 	}
 
 	#Mutual Defense Treaty
@@ -295,6 +308,12 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VIN_strengthen_economic_cooperation  } prerequisite = { focus = VIN_ask_for_aid  } prerequisite = { focus = VIN_mutual_defense_treaty  }
+		completion_reward = {
+		add_ideas = {
+	neutrality_idea
+	}
+	add_war_support = 0.05
+	}
 	}
 
 	#9th Party Congress
@@ -543,6 +562,21 @@ focus_tree = {
 	  }
 	  }
 	 #submarine
+	 focus = {
+		id = VIN_submarine
+		icon = VIN_hai_quan
+		x = 22
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_navy }
+        completion_reward = { 
+      
+	  }
+	  }
+    #submarine
 	 focus = {
 		id = VIN_submarine
 		icon = VIN_hai_quan

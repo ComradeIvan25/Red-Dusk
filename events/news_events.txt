@@ -177,7 +177,7 @@ news_event = {
 	id = old_times_news.24
 	title = old_times_news.24.t
 	desc = old_times_news.24.d
-	picture = GFX_news_reclamations
+	picture = GFX_news_reclamation
 	
 	major = yes
 	

@@ -78,6 +78,18 @@ spriteTypes = {
 		name = "GFX_report_event_yanayev_speech"
 		texturefile = "gfx/event_pictures/report_event_yanayev_speech.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_soviet_aid"
+		texturefile = "gfx/event_pictures/report_event_soviet_aid.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_SOV_form_czechoslovakia"
+		texturefile = "gfx/event_pictures/report_event_SOV_form_czechoslovakia.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_SOV_influence_north_korea"
+		texturefile = "gfx/event_pictures/report_event_SOV_influence_north_korea.dds"
+	}
 	
 	##USA##
 	
@@ -100,6 +112,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_report_event_USA_2000"
 		texturefile = "gfx/event_pictures/report_event_usa_2000.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_USA_request_aid"
+		texturefile = "gfx/event_pictures/report_event_USA_request_aid.dds"
 	}
 	
 	# YUG #
@@ -131,6 +147,26 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_report_event_YUG_hes_alive"
 		texturefile = "gfx/event_pictures/report_event_slobodans_broadcast.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_YUG_croatia_takes_land"
+		texturefile = "gfx/event_pictures/report_event_YUG_croatia_takes_land.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_YUG_rebellion"
+		texturefile = "gfx/event_pictures/report_event_YUG_rebellion.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_YUG_militia"
+		texturefile = "gfx/event_pictures/report_event_YUG_militia.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_YUG_yugoslavia_flag"
+		texturefile = "gfx/event_pictures/report_event_YUG_yugoslavia_flag.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_YUG_military_coup"
+		texturefile = "gfx/event_pictures/report_event_YUG_military_coup.dds"
 	}
 
 	# IRQ #
@@ -277,5 +313,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_news_indian_ocean_tsunami"
 		texturefile = "gfx/event_pictures/news_indian_ocean_tsunami.dds"
+	}
+	spriteType = {
+		name = "GFX_news_afghan_invasion"
+		texturefile = "gfx/event_pictures/news_afghan_invasion.dds"
 	}
 }

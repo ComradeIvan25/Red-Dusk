@@ -545,7 +545,7 @@ country_event = {
 	id = yug_rebel.2
 	title = yug_rebel.2.t
 	desc = yug_rebel.2.d
-	picture = GFX_report_event_YUG_depressed
+	picture = GFX_report_event_YUG_croatia_takes_land
 	
 	is_triggered_only = yes
 	
@@ -566,7 +566,7 @@ country_event = {
 	id = yug_rebel.3
 	title = yug_rebel.3.t
 	desc = yug_rebel.3.d
-	picture = GFX_report_event_YUG_depressed
+	picture = GFX_report_event_YUG_rebellion
 	
 	is_triggered_only = yes
 	
@@ -599,7 +599,7 @@ country_event = {
 	id = yug_rebel.4
 	title = yug_rebel.4.t
 	desc = yug_rebel.4.d
-	picture = GFX_report_event_YUG_depressed
+	picture = GFX_report_event_YUG_rebellion
 	
 	is_triggered_only = yes
 	
@@ -631,7 +631,7 @@ country_event = {
 	id = yug_rebel.5
 	title = yug_rebel.5.t
 	desc = yug_rebel.5.d
-	picture = GFX_report_event_YUG_bossnia
+	picture = GFX_report_event_YUG_militia
 	
 	is_triggered_only = yes
 	
@@ -651,7 +651,7 @@ country_event = {
 	id = yug_rebel.6
 	title = yug_rebel.6.t
 	desc = yug_rebel.6.d
-	picture = GFX_report_event_YUG_depressed
+	picture = GFX_report_event_YUG_rebellion
 	
 	is_triggered_only = yes
 	
@@ -686,7 +686,7 @@ country_event = {
 	id = yug_rebel.7
 	title = yug_rebel.7.t
 	desc = yug_rebel.7.d
-	picture = GFX_report_event_YUG_depressed
+	picture = GFX_report_event_YUG_yugoslavia_flag
 
 	is_triggered_only = yes
 	
@@ -734,7 +734,7 @@ country_event = {
 	id = yug_rebel.9
 	title = yug_rebel.9.t
 	desc = yug_rebel.9.d
-	picture = GFX_report_event_YUG_depressed
+	picture = GFX_report_event_YUG_military_coup
 	
 	is_triggered_only = yes
 	

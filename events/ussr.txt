@@ -1154,7 +1154,7 @@ country_event = {
 	id = ussr_foreign_policy.1
 	title = ussr_foreign_policy.1.t
 	desc = ussr_foreign_policy.1.d
-	picture = GFX_report_resistance
+	picture = GFX_report_event_SOV_form_czechoslovakia
 	
 	trigger = {
 	original_tag = SOV
@@ -1192,7 +1192,7 @@ country_event = {
 	id = ussr_foreign_policy.2
 	title = ussr_foreign_policy.2.t
 	desc = ussr_foreign_policy.2.d
-	picture = GFX_report_resistance
+	picture = GFX_report_event_SOV_influence_north_korea
 	
 	is_triggered_only = yes
 	

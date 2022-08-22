@@ -79,7 +79,7 @@ country_event = {
 	id = irq.6
 	title = irq.6.t
 	desc = irq.6.d
-	#picture = 
+	picture = GFX_report_event_soviet_aid
 	
 	is_triggered_only = yes
 	

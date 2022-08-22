@@ -100,7 +100,7 @@ country_event = {
 	id = anc.1
 	title = anc.1.t
 	desc = anc.1.d
-	#picture = 
+	picture = GFX_report_event_soviet_aid
 	
 	is_triggered_only = yes
 	

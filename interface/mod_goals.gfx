@@ -224,7 +224,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_legacy_of_warsaw_pact"
-		texturefile = "gfx/interface/goals/SOV_legacy_of_warsaw_pact.png"
+		texturefile = "gfx/interface/goals/focus_SOV_legacy_of_warsaw_pact.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_extreme_planning"
@@ -236,7 +236,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_rebirth_of_warsaw_pact"
-		texturefile = "gfx/interface/goals/SOV_rebirth_of_warsaw_pact.png"
+		texturefile = "gfx/interface/goals/focus_SOV_rebirth_of_warsaw_pact.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_super_power"
@@ -480,6 +480,34 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_focus_SOV_old_managment"
 		texturefile = "gfx/interface/goals/focus_SOV_under_new_managment2.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_favour"
+		texturefile = "gfx/interface/goals/focus_SOV_favour_the_russians.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_dugin"
+		texturefile = "gfx/interface/goals/focus_SOV_meet_dugin.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_pugo_fall"
+		texturefile = "gfx/interface/goals/focus_SOV_fall_of_puppetmaster.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_not_trust"
+		texturefile = "gfx/interface/goals/focus_SOV_men_we_cannot_trust.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_not_lift_ban"
+		texturefile = "gfx/interface/goals/focus_SOV_lift_ban.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_open_politics"
+		texturefile = "gfx/interface/goals/focus_SOV_open_politics.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_censored_not"
+		texturefile = "gfx/interface/goals/focus_SOV_remove_censored.png"
 	}
 
 	SpriteType = {
@@ -858,7 +886,7 @@ spriteTypes = {
 		name = "GFX_focus_SAF_late"
 		texturefile = "gfx/interface/goals/focus_SAF_late.png"
 	}
-	
+
    ###VIN###
     SpriteType = {
 		name = "VIN_new_vietnam"
@@ -1057,7 +1085,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_SOV_increase_ties_with_warsaw_pact"
-		texturefile = "gfx/interface/goals/SOV_increase_ties_with_warsaw_pact.png"
+		texturefile = "gfx/interface/goals/SOV_increase_ties_with_warsaw_pact.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_increase_warsaw_pact_spending"

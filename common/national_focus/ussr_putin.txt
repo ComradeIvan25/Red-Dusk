@@ -184,7 +184,7 @@
 
 	focus = {
 		id = SOV_put_trustno
-		icon = GFX_focus_SOV_marshal_yazov
+		icon = GFX_focus_SOV_not_trust
 		x = 11
 		y = 5
 
@@ -232,7 +232,7 @@
 
 	focus = {
 		id = SOV_put_puppet
-		icon = GFX_focus_SOV_marshal_yazov
+		icon = GFX_focus_SOV_pugo_fall
 		x = 8
 		y = 8
 
@@ -256,7 +256,7 @@
 
 	focus = {
 		id = SOV_put_army
-		icon = GFX_focus_SOV_marshal_yazov
+		icon = GFX_SOV_question_of_the_army
 		x = 12
 		y = 7
 
@@ -281,7 +281,7 @@
 
 	focus = {
 		id = SOV_put_connection
-		icon = GFX_focus_SOV_marshal_yazov
+		icon = GFX_SOV_loyal_men_in_high_position
 		x = 11
 		y = 8
 
@@ -305,7 +305,7 @@
 
 	focus = {
 		id = SOV_put_cut
-		icon = GFX_focus_SOV_marshal_yazov
+		icon = GFX_SOV_hear_no_evil
 		x = 13
 		y = 8
 
@@ -426,7 +426,7 @@
 
 	focus = {
 		id = SOV_put_politics
-		icon = GFX_focus_SOV_marshal_yazov
+		icon = GFX_focus_SOV_open_politics
 		x = 10
 		y = 12
 
@@ -451,7 +451,7 @@
 
 	focus = {
 		id = SOV_put_ban
-		icon = GFX_focus_SOV_marshal_yazov
+		icon = GFX_focus_SOV_not_lift_ban
 		x = 8
 		y = 13
 
@@ -473,7 +473,7 @@
 
 	focus = {
 		id = SOV_put_parties
-		icon = GFX_focus_SOV_marshal_yazov
+		icon = GFX_focus_SOV_favour
 		x = 10
 		y = 13
 
@@ -497,7 +497,7 @@
 
 	focus = {
 		id = SOV_put_press
-		icon = GFX_focus_SOV_marshal_yazov
+		icon = GFX_focus_SOV_censored_not
 		x = 12
 		y = 13
 
@@ -522,7 +522,7 @@
 
 	focus = {
 		id = SOV_put_dugin
-		icon = GFX_focus_SOV_marshal_yazov
+		icon = GFX_focus_SOV_dugin
 		x = 10
 		y = 14
 

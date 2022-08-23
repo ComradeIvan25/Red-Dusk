@@ -5264,10 +5264,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_USA_focus_aftermath_of_uneasy_90s_shine"
-		texturefile = "gfx/interface/goals/USA_focus_aftermath_of_uneasy_90s.dds"
+		texturefile = "gfx/interface/goals/USA_focus_aftermath_of_uneasy_90s.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/USA_focus_aftermath_of_uneasy_90s.dds"
+			animationmaskfile = "gfx/interface/goals/USA_focus_aftermath_of_uneasy_90s.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -5280,7 +5280,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/USA_focus_aftermath_of_uneasy_90s.dds"
+			animationmaskfile = "gfx/interface/goals/USA_focus_aftermath_of_uneasy_90s.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)

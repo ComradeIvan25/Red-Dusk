@@ -1,5 +1,16 @@
 on_actions = {
-
+	
+	on_monthly_SOV = {
+		effect = {
+			if = {
+				limit = {
+					has_country_flag = sov_new_pere_time
+				}
+				add_to_variable = { sov_gorby_modernization_status = sov_gorby_modernization_monthly }
+			}
+		}
+	}
+	
 	on_startup =  {
 
 		effect = {
@@ -214,7 +225,7 @@ on_actions = {
 					if = {   
 						limit = {
 							FROM = {
-								has_idea = ussr_aligned_nation
+								original_tag = SOV
 							}
 							ROOT = {
 							}
@@ -230,7 +241,7 @@ on_actions = {
 					if = {   
 						limit = {
 							FROM = {
-								has_idea = usa_aligned_nation
+								original_tag = USA
 							}
 							ROOT = {
 							}
@@ -246,7 +257,7 @@ on_actions = {
 					if = {   
 						limit = {
 							FROM = {
-								has_idea = china_aligned_nation
+								original_tag = PRC
 							}
 							ROOT = {
 							}
@@ -2022,6 +2033,10 @@ on_actions = {
 							}
 						}
 						
+						USA = {
+						proxy_war_won_by_USA = yes
+						}
+						
 					}
 					
 					### SOUTH AFRICA VS ANC - ANC WINS ###
@@ -2048,6 +2063,10 @@ on_actions = {
 							target = SAF
 							transfer_troops = no
 							}
+						}
+						
+						SOV = {
+						proxy_war_won_by_SOV = yes
 						}
 						
 					}
@@ -2137,11 +2156,12 @@ on_actions = {
 								communism = 70
 								neutrality = 0
 							}
-							swap_ideas = {
-							
-							}
+							replace_alignment_to_SOV = yes
 						}
 						
+						SOV = {
+						proxy_war_won_by_SOV = yes
+						}
 					}
 					
 					### LTTE VS SRI LANKA - SRI LANKA WINS ###
@@ -2164,6 +2184,10 @@ on_actions = {
 							target = TAM
 							transfer_troops = no
 							}
+						}
+						
+						USA = {
+						proxy_war_won_by_USA = yes
 						}
 						
 					}
@@ -2190,6 +2214,10 @@ on_actions = {
 							target = ERI
 							transfer_troops = no
 							}
+						}
+						
+						SOV = {
+						proxy_war_won_by_SOV = yes
 						}
 						
 					}
@@ -2274,10 +2302,11 @@ on_actions = {
 							}
 						}
 						
-						}
+						
 					}
 					
 					### RCD - G VS Congo - RCD - G WINS ###
+					
 					if = {   
 						limit = {
 							FROM = {

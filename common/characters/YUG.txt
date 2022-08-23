@@ -10,7 +10,7 @@ characters = {
 		country_leader = {
 			ideology = market_socialism
 			traits = {}
-			expire = "2050.3.1.1"
+			expire = "2050.3.1"
 			id = -1
 		}
 	}
@@ -25,7 +25,7 @@ characters = {
 		country_leader = {
 			ideology = fascism_ideology
 			traits = {}
-			expire = "2050.3.1.1"
+			expire = "2050.3.1"
 			id = -1
 		}
 	}
@@ -40,7 +40,7 @@ characters = {
 		country_leader = {
 			ideology = leninism
 			traits = {}
-			expire = "2050.3.1.1"
+			expire = "2050.3.1"
 			id = -1
 		}
 	}
@@ -55,7 +55,7 @@ characters = {
 		country_leader = {
 			ideology = fascism_ideology
 			traits = {}
-			expire = "2050.3.1.1"
+			expire = "2050.3.1"
 			id = -1
 		}
 	}
@@ -70,7 +70,7 @@ characters = {
 		country_leader = {
 			ideology = liberalism
 			traits = {}
-			expire = "2050.3.1.1"
+			expire = "2050.3.1"
 			id = -1
 		}
 	}
@@ -85,7 +85,7 @@ characters = {
 		country_leader = {
 			ideology = sunni_islamism
 			traits = {}
-			expire = "2050.3.1.1"
+			expire = "2050.3.1"
 			id = -1
 		}
 	}

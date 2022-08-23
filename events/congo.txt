@@ -178,6 +178,10 @@ country_event = {
 			name = congo.3.a
 			add_stability = 0.50
 			
+			SOV = {
+				proxy_war_won_by_SOV = yes
+			}
+			
 			news_event = {id = old_times_news.21}
 			
 			annex_country = {
@@ -321,6 +325,10 @@ country_event = {
 		option = {
 			name = congo.4.a
 			add_stability = 0.50
+			
+			USA = {
+				proxy_war_won_by_USA = yes
+			}
 			
 			news_event = {id = old_times_news.22}
 			
@@ -468,6 +476,11 @@ country_event = {
 		option = {
 			name = congo.5.a
 			add_stability = 0.50
+			
+			USA = {
+				proxy_war_won_by_USA = yes
+			}
+			
 			news_event = {id = old_times_news.23}
 			annex_country = {
 			target = RCK

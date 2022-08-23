@@ -184,6 +184,8 @@ add_ideas = USA_last_bastion
 
 add_ideas = usa_aligned_nation
 
+add_dynamic_modifier = { modifier = USA_cold_war}
+
 # leaders #
 recruit_character = USA_dan_quayle
 recruit_character = USA_george_bush

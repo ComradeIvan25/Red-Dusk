@@ -1,0 +1,46 @@
+
+# make ussr want to send stuff to the tamil tigers
+SOV_help_TAM_win_war = {
+	allowed = {
+		original_tag = SOV
+	}
+	enable = {
+		SRL = { has_war_with = TAM } 
+	}
+	abort = {
+		NOT = {	
+		SRL = { has_war_with = TAM } 
+		}
+	}
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = TAM
+		value = 50
+	}
+}
+
+# make ussr want to send stuff to the congo
+SOV_help_COG_win_war = {
+	allowed = {
+		original_tag = SOV
+	}
+	enable = {
+		COG = { has_war_with = RGO } 
+		COG = { has_war_with = RCK } 
+	}
+	abort = {
+		NOT = {	
+			OR = {
+				COG = { has_war_with = RGO } 
+				COG = { has_war_with = RCK } 
+			}
+		}
+	}
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = COG
+		value = 50
+	}
+}

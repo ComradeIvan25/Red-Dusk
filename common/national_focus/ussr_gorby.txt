@@ -2,10 +2,10 @@
 	id = ussr_gorby_focus
 	country = {
 		factor = 0
-		#modifier = {
-		#tag = SOV
-		#add = 55
-		#}
+		modifier = {
+		tag = SOV
+		add = 0
+		}
 	}
 	
 	continuous_focus_position = { x = 10 y = 9999 }
@@ -1056,13 +1056,15 @@
 		}
 	}
 	
+	### POLITICS ###
+	
 	focus = {
-		id = SOV_gorby_gorbachevs_new_foreign_policy
+		id = SOV_gorby_back_on_track
 		icon = GFX_focus_SOV_prep_future
-		x = 15
-		y = 23
+		x = 23
+		y = 10
 
-		prerequisite = {focus = SOV_gorby_union_reborn}
+		prerequisite = {}
 		mutually_exclusive = {}
 		
 		cost = 5
@@ -1078,7 +1080,7 @@
 		
 		completion_reward = {
 		add_stability = 0.10
-		add_political_power = 100
+		add_political_power = 25
 		}
 	}
 	
@@ -1090,7 +1092,7 @@
 		x = 11
 		y = 25
 
-		prerequisite = {focus = SOV_gorby_gorbachevs_new_foreign_policy}
+		prerequisite = {}
 		mutually_exclusive = {}
 		
 		cost = 5

@@ -185,6 +185,8 @@ add_ideas = SOV_party_infighting
 add_ideas = SOV_rising_separatism
 
 add_ideas = ussr_aligned_nation
+ 
+add_dynamic_modifier = { modifier = SOV_cold_war}
 
 ## leaders ##
 recruit_character = SOV_gennady_yanayev

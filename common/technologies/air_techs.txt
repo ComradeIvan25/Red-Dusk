@@ -1499,6 +1499,10 @@ technologies = {
 			heli_transport_equipment_0
 		}
 
+		enable_subunits = {
+			transport_heli_company
+		}
+
 		path = {
 			leads_to_tech = heli_transport_1970
 			research_cost_coeff = 1
@@ -1617,6 +1621,10 @@ technologies = {
 
 		enable_equipments = {
 			heli_attack_equipment_0
+		}
+
+		enable_subunits = {
+			attack_heli_company
 		}
 
 		path = {
@@ -1818,6 +1826,10 @@ technologies = {
 			drone_recon_equipment_0
 		}
 
+		enable_subunits = {
+			recon_drone_company
+		}
+
 		path = {
 			leads_to_tech = drone_recon_1990
 			research_cost_coeff = 1
@@ -1932,6 +1944,10 @@ technologies = {
 
 		enable_equipments = {
 			drone_attack_equipment_0
+		}
+
+		enable_subunits = {
+			attack_drone_company
 		}
 
 		path = {

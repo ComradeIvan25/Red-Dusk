@@ -2,6 +2,37 @@
 
 #oob = "VIN_1936"
 
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+
+	set_technology = {
+		corvette_hull_1960 = 1
+		corvette_hull_1980 = 1
+		corvette_hull_1990 = 1
+	}
+}
+set_technology = {
+	infantry_weapons_1960 = 1
+	support_weapons_1960 = 1
+	support_weapons_1980 = 1
+	night_vision_gen_1 = 1
+	infantry_anti_tank_weapons_1960 = 1
+	infantry_anti_tank_weapons_1980 = 1
+	infantry_anti_air_weapons_1960 = 1
+	infantry_anti_air_weapons_1980 = 1
+	marine_tech_1960 = 1
+	tech_support = 1
+	support_tech_engineers_1960 = 1
+	support_tech_militarypolice_1960 = 1
+	support_tech_hospital_1960 = 1
+	support_tech_maintenance_1960 = 1
+	support_tech_logistics_1960 = 1
+	tech_motorised_1960 = 1
+	tech_train_1960 = 1
+}
+
 set_research_slots = 3
 
 add_ideas = VIN_fifty_years_resistance

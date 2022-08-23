@@ -50,6 +50,7 @@ technologies = {
 	support_tech_engineers_1960 = {
 
 		enable_subunits = {
+			engineer
 		}
 
 		path = {
@@ -73,6 +74,23 @@ technologies = {
 
 	support_tech_engineers_1980 = {
 
+		engineer = {
+			entrenchment = 2
+
+			fort = {
+				defence = 0.04
+				attack = 0.04
+			}
+			river = {
+				attack = 0.04
+				defence = 0.04
+			}
+			urban = {
+				attack = 0.04
+				defence = 0.04
+			}
+		}
+
 		path = {
 			leads_to_tech = support_tech_engineers_2000
 			research_cost_coeff = 1
@@ -93,6 +111,23 @@ technologies = {
 	}
 
 	support_tech_engineers_2000 = {
+
+		engineer = {
+			entrenchment = 2
+
+			fort = {
+				defence = 0.04
+				attack = 0.04
+			}
+			river = {
+				attack = 0.04
+				defence = 0.04
+			}
+			urban = {
+				attack = 0.04
+				defence = 0.04
+			}
+		}
 
 		path = {
 			leads_to_tech = support_tech_engineers_2020
@@ -115,6 +150,23 @@ technologies = {
 
 	support_tech_engineers_2020 = {
 
+		engineer = {
+			entrenchment = 2
+
+			fort = {
+				defence = 0.04
+				attack = 0.04
+			}
+			river = {
+				attack = 0.04
+				defence = 0.04
+			}
+			urban = {
+				attack = 0.04
+				defence = 0.04
+			}
+		}
+
 		research_cost = 3
 		start_year = 2020
 		folder = {
@@ -132,6 +184,7 @@ technologies = {
 	support_tech_militarypolice_1960 = {
 
 		enable_subunits = {
+			military_police
 		}
 
 		path = {
@@ -155,6 +208,10 @@ technologies = {
 
 	support_tech_militarypolice_1980 = {
 
+		military_police = {
+			suppression_factor = 0.1
+		}
+
 		path = {
 			leads_to_tech = support_tech_militarypolice_2000
 			research_cost_coeff = 1
@@ -175,6 +232,10 @@ technologies = {
 	}
 
 	support_tech_militarypolice_2000 = {
+
+		military_police = {
+			suppression_factor = 0.1
+		}
 
 		path = {
 			leads_to_tech = support_tech_militarypolice_2020
@@ -197,6 +258,10 @@ technologies = {
 
 	support_tech_militarypolice_2020 = {
 
+		military_police = {
+			suppression_factor = 0.1
+		}
+
 		research_cost = 3
 		start_year = 2020
 		folder = {
@@ -214,6 +279,7 @@ technologies = {
 	support_tech_recon_1960 = {
 
 		enable_subunits = {
+			recon
 		}
 
 		path = {
@@ -237,6 +303,13 @@ technologies = {
 
 	support_tech_recon_1980 = {
 
+		recon = {
+			recon = 2
+		}
+		recon_vehicle_armor = {
+			recon = 2
+		}
+
 		path = {
 			leads_to_tech = support_tech_recon_2000
 			research_cost_coeff = 1
@@ -257,6 +330,13 @@ technologies = {
 	}
 
 	support_tech_recon_2000 = {
+
+		recon = {
+			recon = 2
+		}
+		recon_vehicle_armor = {
+			recon = 2
+		}
 
 		path = {
 			leads_to_tech = support_tech_recon_2020
@@ -279,6 +359,13 @@ technologies = {
 
 	support_tech_recon_2020 = {
 
+		recon = {
+			recon = 2
+		}
+		recon_vehicle_armor = {
+			recon = 2
+		}
+
 		research_cost = 3
 		start_year = 2020
 		folder = {
@@ -296,11 +383,16 @@ technologies = {
 	support_tech_hospital_1960 = {
 
 		enable_subunits = {
+			field_hospital
 		}
 
 		path = {
 			leads_to_tech = support_tech_hospital_1980
 			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			tech_motorised_1960 = 1
 		}
 
 		research_cost = 3
@@ -319,9 +411,18 @@ technologies = {
 
 	support_tech_hospital_1980 = {
 
+		field_hospital = {
+			casualty_trickleback = 0.10
+			experience_loss_factor = -0.10
+		}
+
 		path = {
 			leads_to_tech = support_tech_hospital_2000
 			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			tech_motorised_1960 = 1
 		}
 
 		research_cost = 3
@@ -340,9 +441,18 @@ technologies = {
 
 	support_tech_hospital_2000 = {
 
+		field_hospital = {
+			casualty_trickleback = 0.10
+			experience_loss_factor = -0.10
+		}
+
 		path = {
 			leads_to_tech = support_tech_hospital_2020
 			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			tech_motorised_1960 = 1
 		}
 
 		research_cost = 3
@@ -361,6 +471,15 @@ technologies = {
 
 	support_tech_hospital_2020 = {
 
+		field_hospital = {
+			casualty_trickleback = 0.10
+			experience_loss_factor = -0.10
+		}
+
+		dependencies = {
+			tech_motorised_1960 = 1
+		}
+
 		research_cost = 3
 		start_year = 2020
 		folder = {
@@ -378,11 +497,16 @@ technologies = {
 	support_tech_maintenance_1960 = {
 
 		enable_subunits = {
+			maintenance_company
 		}
 
 		path = {
 			leads_to_tech = support_tech_maintenance_1980
 			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			tech_motorised_1960 = 1
 		}
 
 		research_cost = 3
@@ -401,9 +525,18 @@ technologies = {
 
 	support_tech_maintenance_1980 = {
 
+		maintenance_company = {
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
+		}
+
 		path = {
 			leads_to_tech = support_tech_maintenance_2000
 			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			tech_motorised_1960 = 1
 		}
 
 		research_cost = 3
@@ -422,9 +555,18 @@ technologies = {
 
 	support_tech_maintenance_2000 = {
 
+		maintenance_company = {
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
+		}
+
 		path = {
 			leads_to_tech = support_tech_maintenance_2020
 			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			tech_motorised_1960 = 1
 		}
 
 		research_cost = 3
@@ -443,6 +585,15 @@ technologies = {
 
 	support_tech_maintenance_2020 = {
 
+		maintenance_company = {
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
+		}
+
+		dependencies = {
+			tech_motorised_1960 = 1
+		}
+
 		research_cost = 3
 		start_year = 2020
 		folder = {
@@ -460,11 +611,16 @@ technologies = {
 	support_tech_logistics_1960 = {
 
 		enable_subunits = {
+			logistics_company
 		}
 
 		path = {
 			leads_to_tech = support_tech_logistics_1980
 			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			tech_motorised_1960 = 1
 		}
 
 		research_cost = 3
@@ -483,9 +639,18 @@ technologies = {
 
 	support_tech_logistics_1980 = {
 
+		logistics_company = {
+			supply_consumption_factor = -0.1
+			fuel_consumption_factor = -0.05
+		}
+
 		path = {
 			leads_to_tech = support_tech_logistics_2000
 			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			tech_motorised_1960 = 1
 		}
 
 		research_cost = 3
@@ -504,9 +669,18 @@ technologies = {
 
 	support_tech_logistics_2000 = {
 
+		logistics_company = {
+			supply_consumption_factor = -0.1
+			fuel_consumption_factor = -0.05
+		}
+
 		path = {
 			leads_to_tech = support_tech_logistics_2020
 			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			tech_motorised_1960 = 1
 		}
 
 		research_cost = 3
@@ -524,6 +698,15 @@ technologies = {
 	}
 
 	support_tech_logistics_2020 = {
+
+		logistics_company = {
+			supply_consumption_factor = -0.1
+			fuel_consumption_factor = -0.05
+		}
+
+		dependencies = {
+			tech_motorised_1960 = 1
+		}
 
 		research_cost = 3
 		start_year = 2020

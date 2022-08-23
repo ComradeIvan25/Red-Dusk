@@ -71,6 +71,7 @@ sub_units = {
 			infantry_anti_tank_weapons = 50
 			infantry_anti_air_weapons = 50
 			apc_tank_equipment = 30
+			motorised_equipment = 12
 		}
 
 		manpower = 1200

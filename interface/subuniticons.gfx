@@ -263,6 +263,10 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_motorised_artillery_support_unit_icon_medium"				texturefile = "gfx/interface/counters/divisions_large/unit_motorised_artillery_support_unit_icon.dds"				noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_rocket_artillery_unit_icon_medium"				texturefile = "gfx/interface/counters/divisions_large/unit_rocket_artillery_unit_icon.dds"				noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_rocket_artillery_support_unit_icon_medium"				texturefile = "gfx/interface/counters/divisions_large/unit_rocket_artillery_support_unit_icon.dds"				noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_recon_drone_company_icon_medium"				texturefile = "gfx/interface/counters/divisions_large/unit_recon_drone_company_icon.dds"				noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_attack_drone_company_icon_medium"				texturefile = "gfx/interface/counters/divisions_large/unit_attack_drone_company_icon.dds"				noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_transport_heli_company_icon_medium"				texturefile = "gfx/interface/counters/divisions_large/unit_transport_heli_company_icon.dds"				noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_attack_heli_company_icon_medium"				texturefile = "gfx/interface/counters/divisions_large/unit_attack_heli_company_icon.dds"				noOfFrames = 2 }
 
 	spriteType = { name = "GFX_unit_infantry_unit_icon_medium_white"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_infantry_unit_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_heavy_infantry_unit_icon_medium_white"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_heavy_infantry_unit_icon.dds" noOfFrames = 2 }

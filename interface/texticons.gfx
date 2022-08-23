@@ -1653,7 +1653,31 @@ spriteTypes = {
 		name = "GFX_unit_towed_artillery_support_unit_icon_small"
 		texturefile = "gfx/texticons/unit_towed_artillery_support_unit_icon_small.dds"
 		legacy_lazy_load = no
-		noOfFrames = 2		
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_recon_drone_company_icon_small"
+		texturefile = "gfx/texticons/unit_recon_drone_company_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_attack_drone_company_icon_small"
+		texturefile = "gfx/texticons/unit_attack_drone_company_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_transport_heli_company_icon_small"
+		texturefile = "gfx/texticons/unit_transport_heli_company_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_attack_heli_company_icon_small"
+		texturefile = "gfx/texticons/unit_attack_heli_company_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
 	}
 
 	spriteType = {

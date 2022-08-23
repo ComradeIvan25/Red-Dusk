@@ -422,6 +422,18 @@ guiTypes = {
 				format = center
 				Orientation = "UPPER_LEFT"
 			}
+
+			containerWindowType = {
+				name = "tiled_research_bg"
+				position = { x = 15 y = 500 }
+				size = { width = 1580 height = 630 }
+				clipping = no
+			
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_research_bg"
+				}			
+			}
 				
 			gridboxtype = {
 				name = "tech_support_tree"

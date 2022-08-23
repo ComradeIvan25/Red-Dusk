@@ -2767,6 +2767,103 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_support_tech_engineers_1960_medium"
+		texturefile = "gfx/interface/technologies/engineers.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_tech_engineers_1980_medium"
+		texturefile = "gfx/interface/technologies/engineers2.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_tech_engineers_2000_medium"
+		texturefile = "gfx/interface/technologies/engineers3.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_tech_engineers_2020_medium"
+		texturefile = "gfx/interface/technologies/engineers4.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_tech_militarypolice_1960_medium"
+		texturefile = "gfx/interface/technologies/tech_military_police.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_tech_militarypolice_1980_medium"
+		texturefile = "gfx/interface/technologies/tech_military_police2.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_tech_militarypolice_2000_medium"
+		texturefile = "gfx/interface/technologies/tech_military_police3.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_tech_militarypolice_2020_medium"
+		texturefile = "gfx/interface/technologies/tech_military_police4.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_tech_recon_1960_medium"
+		texturefile = "gfx/interface/technologies/recon.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_tech_recon_1980_medium"
+		texturefile = "gfx/interface/technologies/recon2.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_tech_recon_2000_medium"
+		texturefile = "gfx/interface/technologies/recon3.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_tech_recon_2020_medium"
+		texturefile = "gfx/interface/technologies/recon4.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_tech_hospital_1960_medium"
+		texturefile = "gfx/interface/technologies/tech_field_hospital.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_tech_hospital_1980_medium"
+		texturefile = "gfx/interface/technologies/tech_field_hospital2.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_tech_hospital_2000_medium"
+		texturefile = "gfx/interface/technologies/tech_field_hospital3.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_tech_hospital_2020_medium"
+		texturefile = "gfx/interface/technologies/tech_field_hospital4.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_tech_maintenance_1960_medium"
+		texturefile = "gfx/interface/technologies/tech_maintenance_company.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_tech_maintenance_1980_medium"
+		texturefile = "gfx/interface/technologies/tech_maintenance_company2.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_tech_maintenance_2000_medium"
+		texturefile = "gfx/interface/technologies/tech_maintenance_company3.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_tech_maintenance_2020_medium"
+		texturefile = "gfx/interface/technologies/tech_maintenance_company4.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_tech_logistics_1960_medium"
+		texturefile = "gfx/interface/technologies/tech_logistics_company.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_tech_logistics_1980_medium"
+		texturefile = "gfx/interface/technologies/tech_logistics_company2.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_tech_logistics_2000_medium"
+		texturefile = "gfx/interface/technologies/tech_logistics_company3.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_tech_logistics_2020_medium"
+		texturefile = "gfx/interface/technologies/tech_logistics_company4.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_tech_motorised_1960_medium"
 		texturefile = "gfx/interface/technologies/generic_motorised_1.dds"
 	}

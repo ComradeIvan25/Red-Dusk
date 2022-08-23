@@ -2,6 +2,67 @@
 
 #oob = "SAF_1936"
 
+set_technology = {
+	infantry_weapons_1960 = 1
+	infantry_weapons_1980 = 1
+	support_weapons_1960 = 1
+	support_weapons_1980 = 1
+	support_weapons_1990 = 1
+	support_weapons_1995 = 1
+	infantry_anti_tank_weapons_1960 = 1
+	infantry_anti_tank_weapons_1980 = 1
+	paratrooper_tech_1960 = 1
+	marine_tech_1960 = 1
+	tech_support = 1
+	support_tech_engineers_1960 = 1
+	support_tech_militarypolice_1960 = 1
+	support_tech_recon_1960 = 1
+	tech_motorised_1960 = 1
+	tech_motorised_1980 = 1
+	tech_train_1960 = 1
+	mbt_tank_1960 = 1
+	mbt_tank_1970 = 1
+	mbt_tank_1980 = 1
+	tank_ammo_1960 = 1
+	tank_ammo_1970 = 1
+	ifv_tank_1970 = 1
+	ifv_anti_tank_missile_1 = 1
+	apc_tank_1960 = 1
+	apc_tank_1970 = 1
+	apc_tank_1980 = 1
+	towed_artillery_1960 = 1
+	motorised_artillery_1960 = 1
+	motorised_artillery_1970 = 1
+	motorised_artillery_1980 = 1
+	motorised_artillery_1990 = 1
+	rocket_artillery_1960 = 1
+	rocket_artillery_1970 = 1
+	rocket_artillery_1980 = 1
+	tech_air_burst_shells = 1
+	tech_manoeuvre_tactics = 1
+	tech_artillery_guidance_systems_1 = 1
+	fighter_1960 = 1
+	fighter_1970 = 1
+	fighter_1980 = 1
+	fighter_1990 = 1
+	attacker_1960 = 1
+	attacker_1970 = 1
+	heli_transport_1960 = 1
+	heli_transport_1970 = 1
+	heli_transport_1990 = 1
+	drone_recon_1980 = 1
+	drone_recon_1990 = 1
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		recon_vehicle_1960 = 1
+		recon_vehicle_1980 = 1
+	}
+}
+
 set_stability = 0.6
 set_war_support = 0.1
 set_convoys = 25

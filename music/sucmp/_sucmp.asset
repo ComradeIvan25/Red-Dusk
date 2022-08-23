@@ -93,7 +93,7 @@ music = {
 music = {
 	name = "Kerber-Ratne_Igre"
 	file = "Kerber-Ratne_Igre.ogg"
-}
+##}
 music = {
 	name = "Lenin_Is_Young_Again"
 	file = "Lenin_is_Young_Again.ogg"

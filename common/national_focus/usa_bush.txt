@@ -1,0 +1,925 @@
+﻿focus_tree = {
+	id = usa_bush_focus
+	continuous_focus_position = { x = 22222222222 y = 100 } 
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 99
+			tag = USA
+		}
+	}
+	
+	default = no
+	
+	focus = {
+		id = USA_bush_bush_in_office
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 10
+		y = 0
+
+		prerequisite = {}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = USA_bush_legacy_of_the_father
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 10
+		y = 1
+
+		prerequisite = { focus = USA_bush_bush_in_office}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = USA_bush_times_they_a_changin
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 10
+		y = 2
+
+		prerequisite = { focus = USA_bush_legacy_of_the_father}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+		}
+	}
+	
+	### social spending ###
+	
+	focus = {
+		id = USA_bush_social_spending
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 5
+		y = 3
+
+		prerequisite = { focus = USA_bush_times_they_a_changin}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = USA_bush_american_industry_american_jobs
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 3
+		y = 4
+
+		prerequisite = { focus = USA_bush_social_spending}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = USA_bush_tariff_time
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 3
+		y = 5
+
+		prerequisite = { focus = USA_bush_american_industry_american_jobs}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = USA_bush_kick_china_to_the_curb
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 3
+		y = 6
+
+		prerequisite = { focus = USA_bush_tariff_time}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = USA_bush_medicare_modernization
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 5
+		y = 4
+
+		prerequisite = { focus = USA_bush_social_spending}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = USA_bush_no_child_left_behind
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 5
+		y = 5
+
+		prerequisite = { focus = USA_bush_medicare_modernization}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = USA_bush_welfare_through_faith
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 5
+		y = 6
+
+		prerequisite = { focus = USA_bush_no_child_left_behind}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = USA_bush_no_new_taxes
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 7
+		y = 4
+
+		prerequisite = { focus = USA_bush_social_spending}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = USA_bush_business_will_boom
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 7
+		y = 5
+
+		prerequisite = { focus = USA_bush_no_new_taxes}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = USA_bush_subsidies_for_support
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 7
+		y = 6
+
+		prerequisite = { focus = USA_bush_business_will_boom}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = USA_bush_handle_the_inflation_crisis
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 5
+		y = 7
+
+		prerequisite = { focus = USA_bush_subsidies_for_support }
+		prerequisite = { focus = USA_bush_welfare_through_faith }
+		prerequisite = { focus = USA_bush_kick_china_to_the_curb }
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = USA_bush_the_economic_miracle
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 5
+		y = 8
+
+		prerequisite = { focus = USA_bush_handle_the_inflation_crisis }
+
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+		}
+	}
+	
+	#### ACTS ####
+	
+	focus = {
+		id = USA_bush_the_patriot_act
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 9
+		y = 3
+
+		prerequisite = { focus = USA_bush_times_they_a_changin }
+
+		mutually_exclusive = { focus = USA_bush_the_freedom_of_internet_privacy_act }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = USA_bush_the_cias_new_groove
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 9
+		y = 4
+
+		prerequisite = { focus = USA_bush_the_patriot_act }
+
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = USA_bush_a_new_age_new_threats
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 9
+		y = 5
+
+		prerequisite = { focus = USA_bush_the_cias_new_groove }
+
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = USA_bush_the_freedom_of_internet_privacy_act
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 11
+		y = 3
+
+		prerequisite = { focus = USA_bush_times_they_a_changin }
+
+		mutually_exclusive = { focus = USA_bush_the_patriot_act }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = USA_bush_no_internet_monopolies
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 11
+		y = 4
+
+		prerequisite = { focus = USA_bush_the_freedom_of_internet_privacy_act }
+
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = USA_bush_a_new_age_new_horizons
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 11
+		y = 5
+
+		prerequisite = { focus = USA_bush_no_internet_monopolies }
+
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = USA_bush_immigrant_questions
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 10
+		y = 6
+
+		prerequisite = { focus = USA_bush_a_new_age_new_threats focus = USA_bush_a_new_age_new_horizons }
+		
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = USA_bush_american_dreaming
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 9
+		y = 7
+
+		prerequisite = { focus = USA_bush_immigrant_questions }
+		
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = USA_bush_sideline_the_secondaries
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 11
+		y = 7
+
+		prerequisite = { focus = USA_bush_immigrant_questions }
+		
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = USA_bush_thirteen_dominant_decades
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 10
+		y = 8
+
+		prerequisite = { focus = USA_bush_american_dreaming }
+		prerequisite = { focus = USA_bush_sideline_the_secondaries }
+		
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+		}
+	}
+	
+	
+	### social soldiering ###
+	
+	focus = {
+		id = USA_bush_social_soldiering
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 15
+		y = 3
+
+		prerequisite = { focus = USA_bush_times_they_a_changin }
+		
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = USA_bush_partial_birth_abortion_ban_act
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 14
+		y = 4
+
+		prerequisite = { focus = USA_bush_social_soldiering }
+		
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = USA_bush_bastion_of_democracy
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 13
+		y = 5
+
+		prerequisite = { focus = USA_bush_partial_birth_abortion_ban_act }
+		
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = USA_bush_no_drugs_in_my_america
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 16
+		y = 4
+
+		prerequisite = { focus = USA_bush_social_soldiering }
+		
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = USA_bush_over_there
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 17
+		y = 5
+
+		prerequisite = { focus = USA_bush_no_drugs_in_my_america }
+		
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = USA_bush_tow_the_line
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 17
+		y = 6
+
+		prerequisite = { focus = USA_bush_over_there }
+		
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = USA_bush_calling_all_nato
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 17
+		y = 7
+
+		prerequisite = { focus = USA_bush_tow_the_line }
+		
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = USA_bush_bush_doctrine
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 17
+		y = 8
+
+		prerequisite = { focus = USA_bush_calling_all_nato }
+		
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = USA_bush_legacy_of_liberty
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 15
+		y = 5
+
+		prerequisite = { focus = USA_bush_no_drugs_in_my_america focus = USA_bush_partial_birth_abortion_ban_act }
+		
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = USA_bush_come_to_terms_on_common_sense
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 15
+		y = 6
+
+		prerequisite = { focus = USA_bush_legacy_of_liberty }
+		
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = USA_bush_bark_off_hippies
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 15
+		y = 7
+
+		prerequisite = { focus = USA_bush_come_to_terms_on_common_sense }
+		
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = USA_bush_a_culture_to_thrive
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 15
+		y = 8
+
+		prerequisite = { focus = USA_bush_bark_off_hippies }
+		
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = USA_bush_heir_to_a_legacy
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 10
+		y = 9
+
+		prerequisite = { focus = USA_bush_a_culture_to_thrive }
+		prerequisite = { focus = USA_bush_thirteen_dominant_decades }
+		prerequisite = { focus = USA_bush_the_economic_miracle }
+		
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	
+}

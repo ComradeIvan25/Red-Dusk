@@ -27,11 +27,9 @@
 #	will only updated daily, unless forced by force_update_dynamic_modifier effect
 
 SOV_cold_war = {
-	remove_trigger = { 
-		has_variable = sov_lost_cold_war
-	}
+	enable = { always = yes }
 	
-	icon = SOV_memories_of_perestroika_icon
+	icon = GFX_idea_cold_war
 	
 	command_power_gain_mult = amount_of_proxies_won_ussr
 	planning_speed = amount_of_proxies_won_ussr
@@ -40,11 +38,9 @@ SOV_cold_war = {
 }
 
 USA_cold_war = {
-	remove_trigger = { 
-		has_variable = usa_lost_cold_war
-	}
+	enable = { always = yes }
 	
-	icon = SOV_memories_of_perestroika_icon
+	icon = GFX_idea_cold_war
 	
 	command_power_gain_mult = amount_of_proxies_won_usa
 	planning_speed = amount_of_proxies_won_usa

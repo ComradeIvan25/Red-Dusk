@@ -131,6 +131,162 @@ country_event = { #Quayle's Qualms#
 	}
 }
 
+country_event = { #Quayle's Illness#
+	id = usa_quayle.4
+	title = usa_quayle.4.t
+	desc = usa_quayle.4.d
+	picture = GFX_report_event_USA_2000
+	
+	trigger = {
+	original_tag = USA
+	date > 2000.6.03
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = usa_quayle.4.a		
+	}
+}
+
+country_event = { #Independence Day... Celebration?#
+	id = usa_quayle.5
+	title = usa_quayle.5.t
+	desc = usa_quayle.5.d
+	picture = GFX_report_event_USA_2000
+	
+	trigger = {
+	original_tag = USA
+	date > 2000.7.03
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = usa_quayle.5.a		
+	}
+}
+
+country_event = { #The Republican Conventions Conclude#
+	id = usa_quayle.6
+	title = usa_quayle.6.t
+	desc = usa_quayle.6.d
+	picture = GFX_report_event_USA_2000
+	
+	trigger = {
+	original_tag = USA
+	date > 2000.8.29
+	}
+	
+	fire_only_once = yes
+	
+	#bush#
+	option = {
+		name = usa_quayle.6.a		
+		set_country_flag = bush_for_rep_candicate
+		custom_effect_tooltip = bush_will_be_rep_candicate
+		country_event = {id = usa_quayle.7 days = 3}
+	}
+	
+	#Mccain#
+	option = {
+		name = usa_quayle.6.b	
+		set_country_flag = mccain_for_rep_candicate
+		custom_effect_tooltip = mccain_will_be_rep_candicate
+		country_event = {id = usa_quayle.7 days = 3}
+	}
+}
+
+country_event = { #The Democrat Conventions Conclude#
+	id = usa_quayle.7
+	title = usa_quayle.7.t
+	desc = usa_quayle.7.d
+	picture = GFX_report_event_USA_2000
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_quayle.7.a
+		set_country_flag = gore_for_dem_candicate
+		custom_effect_tooltip = gore_will_be_dem_candicate
+		country_event = {id = usa_quayle.8 days = 3}
+	}
+}
+
+country_event = { #The Reform Conventions Conclude#
+	id = usa_quayle.8
+	title = usa_quayle.8.t
+	desc = usa_quayle.8.d
+	picture = GFX_report_event_USA_2000
+	
+	is_triggered_only = yes
+	
+	#trump#
+	option = {
+		name = usa_quayle.8.a
+		set_country_flag = trump_for_reform_candicate
+		custom_effect_tooltip = trump_will_be_reform_candicate
+	}
+	
+	#buchanan#
+	option = {
+		name = usa_quayle.8.b
+		set_country_flag = buchanan_for_reform_candicate
+		custom_effect_tooltip = buchanan_will_be_reform_candicate
+	}
+}
+
+country_event = { #Election Day...#
+	id = usa_quayle.9
+	title = usa_quayle.9.t
+	desc = usa_quayle.9.d
+	picture = GFX_report_event_USA_2000
+	
+	trigger = {
+	date > 2000.11.6
+	}
+	
+	fire_only_once = yes
+	
+	#republicans win#
+	option = {
+		name = usa_quayle.9.a
+		if = {
+		limit = {has_country_flag = bush_for_rep_candicate}
+		custom_effect_tooltip = rep_candicate_will_become_president_on_jan20
+		}
+		load_focus_tree = usa_bush_focus
+		else_if = {
+		limit = {has_country_flag = mccain_for_rep_candicate}
+		custom_effect_tooltip = rep_candicate_will_become_president_on_jan20
+		}
+	}
+	
+	#democrats win#
+	option = {
+		name = usa_quayle.9.b
+		if = {
+		limit = {has_country_flag = gore_for_dem_candicate}
+		custom_effect_tooltip = dem_candicate_will_become_president_on_jan20
+		}
+	}
+	
+	#reform win#
+	option = {
+		name = usa_quayle.9.c
+		if = {
+		limit = {has_country_flag = trump_for_reform_candicate}
+		custom_effect_tooltip = reform_candicate_will_become_president_on_jan20
+		}
+		
+		else_if = {
+		limit = {has_country_flag = buchanan_for_reform_candicate}
+		custom_effect_tooltip = reform_candicate_will_become_president_on_jan20
+		}
+	}
+}
+
+
  ###SAF NEEDS HELP###
 
 country_event = { 

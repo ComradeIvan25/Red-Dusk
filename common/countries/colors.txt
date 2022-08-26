@@ -882,3 +882,31 @@ GRN = {
 	color = rgb { 215 227 245 }
 	color_ui = rgb { 204 216 235 }
 }
+COM = {
+	color = rgb { 0 150 57 }
+	color_ui = rgb { 0 150 57 }
+}
+KIR = {
+	color = rgb { 248 208 0 }
+	color_ui = rgb { 248 208 0 }
+}
+MAU = {
+	color = rgb { 26 32 109 }
+	color_ui = rgb { 26 32 109 }
+}
+NAU = {
+	color = rgb { 0 43 127 }
+	color_ui = rgb { 0 43 127 }
+}
+SEY = {
+	color = rgb { 252 217 85 }
+	color_ui = rgb { 252 217 85 }
+}
+STP = {
+	color = rgb { 0 151 57 }
+	color_ui = rgb { 0 151 57 }
+}
+TUV = {
+	color = rgb { 0 156 222 }
+	color_ui = rgb { 0 156 222 }
+}

@@ -6,7 +6,11 @@ state={
 	state_category = small_island
 
 	history={
-		owner = ENG
+		owner = MAU
+		add_core_of = MAU
+		victory_points = {
+			13018 1 
+		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

@@ -743,6 +743,23 @@ spriteTypes = {
 		name = "GFX_focus_IRQ_saddam_win"
 		texturefile = "gfx/interface/goals/focus_IRQ_saddam_fortnite_win.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_kurdish_farmland"
+		texturefile = "gfx/interface/goals/focus_IRQ_kurdish_farmland.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_enter_negotiations"
+		texturefile = "gfx/interface/goals/focus_IRQ_enter_negotiations.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_exploit_internal_divisions"
+		texturefile = "gfx/interface/goals/focus_IRQ_exploit_internal_divisions.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_grant_partial_autonomy"
+		texturefile = "gfx/interface/goals/focus_IRQ_grant_partial_autonomy.png"
+	}
+
    ###SAF###
 
 	SpriteType = {

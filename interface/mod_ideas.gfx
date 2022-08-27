@@ -143,6 +143,10 @@ spriteTypes = {
 		name = "GFX_idea_IRQ_uranium_icon"
 		texturefile = "gfx/interface/ideas/IRQ_uranium.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_IRQ_no-fly_zones_icon"
+		texturefile = "gfx/interface/ideas/IRQ_no-fly_zones.dds"
+	}
 
 	#GENERIC MIDDLE EAST#
 

@@ -36,6 +36,8 @@ add_ideas = IRQ_western_embargo
 add_ideas = IRQ_kurdish_rebels
 add_ideas = IRQ_disorganized_army
 add_ideas = IRQ_oil_producers
+add_ideas = IRQ_strained_infrastructure
+add_ideas = IRQ_no-fly_zones
 
 recruit_character = IRQ_saddam_hussein
 recruit_character = IRQ_walter_withe

@@ -3,7 +3,7 @@ units = {
 		name = "Ham doi Viet Nam"
 		naval_base = 1185 # Haiphong #
 		task_force = {
-			name = "Ham doi Viet Nam"
+			name = "Ham Doi Tau Mat Nuoc"
 			location = 1185 # Haiphong #
 			ship = { name = "HQ-01" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = VIN version_name = "Barnegat Class" } } }
 
@@ -41,20 +41,6 @@ instant_effect = {
 				cost_factor = 0
 			}
 
-
-		}
-		else = {
-			add_equipment_production = { 
-				equipment = {
-					type = corvette_hull_1
-					version_name = "Petya Class (Pr. 159A)"
-					creator = SOV
-				}
-				requested_factories = 1
-				progress = 0.2
-				efficiency = 50
-				#amount = 2
-			}
 
 		}
 	}

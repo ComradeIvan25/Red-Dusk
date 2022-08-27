@@ -99,7 +99,7 @@ if = {
 			custom_slot_2 = ship_torpedo_surface_1
 			custom_slot_3 = mine_layer_1
 		}
-		obsolete = yes
+		obsolete = no
 	}
 	create_equipment_variant = {
 		name = "BPS-500 Class"
@@ -128,7 +128,6 @@ if = {
 		type = destroyer_hull_1
 		#name_group = 
 		parent_version = 0
-                creator = SOV
 		modules = {
 			fixed_ship_systems_slot = surface_electrical_systems_1
 			fixed_ship_engine_slot = small_surface_engine_diesel_1

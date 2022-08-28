@@ -191,6 +191,22 @@ spriteTypes = {
 		name = "GFX_report_event_IRQ_kuwait"
 		texturefile = "gfx/event_pictures/report_event_kuwait.png"
 	}
+	spriteType = {
+		name = "GFX_report_event_IRQ_aircraft"
+		texturefile = "gfx/event_pictures/report_event_IRQ_aircraft.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_IRQ_aircraft_parts"
+		texturefile = "gfx/event_pictures/report_event_IRQ_aircraft_parts.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_IRQ_aircraft_sand"
+		texturefile = "gfx/event_pictures/report_event_IRQ_aircraft_sand.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_IRQ_aircraft_yugo"
+		texturefile = "gfx/event_pictures/report_event_IRQ_aircraft_yugo.dds"
+	}
 	
 	# VIN #
 	spriteType = {

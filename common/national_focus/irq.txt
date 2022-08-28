@@ -873,6 +873,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_political_power = 25
 		}
 	}
 
@@ -891,6 +892,18 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			291 = {
+				add_resource = {
+					type = oil
+					amount = 2
+				}
+			}
+			871 = {
+				add_resource = {
+					type = oil
+					amount = 3
+				}
+			}
 		}
 	}
 
@@ -908,6 +921,13 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			870 = {
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -926,6 +946,20 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			291 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			871 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -1088,6 +1122,29 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			291 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			870 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			swap_ideas = {
+				remove_idea = IRQ_strained_infrastructure
+				add_idea = IRQ_strained_infrastructure_2
+			}
 		}
 	}
 
@@ -1105,6 +1162,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			remove_ideas = IRQ_strained_infrastructure_2
 		}
 	}
 
@@ -1122,6 +1180,15 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_political_power = 25
+			add_stability = 0.05
+			291 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -1140,6 +1207,15 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_political_power = 50
+			870 = {
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					instant_build = yes
+					province = 2089
+				}
+			}
 		}
 	}
 
@@ -1158,6 +1234,16 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_political_power = -50
+			add_stability = 0.05
+			870 = {
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					instant_build = yes
+					province = 2089
+				}
+			}
 		}
 	}
 
@@ -1165,7 +1251,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_the_kurdish_issue
-		#icon = 
+		icon = GFX_focus_IRQ_kurdish_issue
 		x = 17
 		y = 0
 
@@ -1336,8 +1422,19 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			if = {
+				limit = {
+					has_idea = IRQ_kurdish_rebels
+				}
+				remove_ideas = IRQ_kurdish_rebels
+			}
+			if = {
+				limit = {
+					has_idea = IRQ_kurdish_rebels_2
+				}
+				remove_ideas = IRQ_kurdish_rebels_2
+			}
 			set_country_flag = fixed_kurd
-			remove_ideas = IRQ_kurdish_rebels
 			set_country_flag = nothing
 			IRQ = {
 				country_event = { id = irq.5 }
@@ -1360,6 +1457,12 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_stability = 0.1
+			add_war_support = -0.1
+			swap_ideas = {
+				add_idea = IRQ_kurdish_rebels_2
+				remove_idea = IRQ_kurdish_rebels
+			}
 		}
 	}
 
@@ -1396,6 +1499,17 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			swap_ideas = {
+				add_idea = IRQ_kurdish_rebels_3
+				remove_idea = IRQ_kurdish_rebels_2
+			}
+			871 = {
+				add_core_of = IRQ
+				set_demilitarized_zone = no
+				add_dynamic_modifier = {
+					modifier = IRQ_kurdish_autonomy
+				}
+			}
 		}
 	}
 
@@ -1447,6 +1561,10 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_political_power = 20
+			army_experience = 10
+			navy_experience = 10
+			air_experience = 10
 		}
 	}
 
@@ -1464,6 +1582,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			navy_experience = 15
 		}
 	}
 
@@ -1483,6 +1602,13 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			870 = {
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -1535,6 +1661,20 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			291 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}
+			}
+			870 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -1552,6 +1692,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			YUG = {
+				country_event = irq.11
+			}
 		}
 	}
 
@@ -1569,6 +1712,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			PER = {
+				country_event = irq.7
+			}
 		}
 	}
 
@@ -1587,6 +1733,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			army_experience = 10
 		}
 	}
 
@@ -1622,6 +1769,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			army_experience = 10
 		}
 	}
 
@@ -1650,7 +1798,7 @@ focus_tree = {
 		y = 1
 
 		prerequisite = {focus = IRQ_lessons_from_desert_storm}
-		mutually_exclusive = {focus = IRQ_reform_iraqi_army}
+		mutually_exclusive = {focus = IRQ_request_foreign_aid}
 		relative_position_id = IRQ_lessons_from_desert_storm
 
 		cost = 8
@@ -1658,6 +1806,13 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			291 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -1675,6 +1830,11 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = mod_cat_rocket_artillery
+			}
 		}
 	}
 

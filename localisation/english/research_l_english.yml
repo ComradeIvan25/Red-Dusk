@@ -1268,7 +1268,7 @@
  damage_design_2010:0 "Reinforced Structures"
  damage_design_2010_desc:0 "Taking advantage of innovations in material science, our vessels can be built with stronger and better materials, reducing the risk of penetration by enemy weapons or shrapnel."
 
- # Air #
+ # Tech Categories #
  mod_cat_fighter:0 "Fighter models"
  mod_cat_attacker:0 "Close Air Support models"
  mod_cat_bomber:0 "Bomber models"
@@ -1277,7 +1277,9 @@
  mod_cat_interceptor:0 "Interceptor models"
  mod_cat_helicopter:0 "Helicopter models"
  mod_cat_uav:0 "UAV models"
+ mod_cat_rocket_artillery:0 "Rocket Artillery"
 
+ # Air #
  heli_naval_1970:0 "1970s Naval Helicopter"
  heli_naval_1970_short:0 "Naval Heli I"
  heli_naval_1970_desc:0 "By creating a landing deck and hangar onboard our ships, we can expand the vessel's capabilities, with naval helicopters able to provide everything from transport to rescue to anti-submarine warfare."

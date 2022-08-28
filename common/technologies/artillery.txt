@@ -512,6 +512,7 @@ technologies = {
 		}
 
 		categories = {
+			mod_cat_rocket_artillery
 		}
 
 	}
@@ -558,6 +559,7 @@ technologies = {
 		}
 
 		categories = {
+			mod_cat_rocket_artillery
 		}
 
 	}
@@ -600,6 +602,7 @@ technologies = {
 		}
 
 		categories = {
+			mod_cat_rocket_artillery
 		}
 
 	}
@@ -642,6 +645,7 @@ technologies = {
 		}
 
 		categories = {
+			mod_cat_rocket_artillery
 		}
 
 	}
@@ -684,6 +688,7 @@ technologies = {
 		}
 
 		categories = {
+			mod_cat_rocket_artillery
 		}
 
 	}
@@ -726,6 +731,7 @@ technologies = {
 		}
 
 		categories = {
+			mod_cat_rocket_artillery
 		}
 
 	}
@@ -763,6 +769,7 @@ technologies = {
 		}
 
 		categories = {
+			mod_cat_rocket_artillery
 		}
 
 	}

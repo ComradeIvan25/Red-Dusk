@@ -434,6 +434,20 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
+		name = "Romeo Class (Pr. 633)"
+		type = attack_submarine_hull_1
+		#name_group = 
+		parent_version = 0
+		modules = {
+			fixed_ship_systems_slot = sub_electrical_systems_1
+			fixed_ship_engine_slot = sub_engine_diesel_1
+			fixed_ship_sonar_slot = sub_sonar_1
+			custom_ship_torpedo_slot = ship_torpedo_sub_2
+			custom_slot_1 = ship_torpedo_sub_2
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
 		name = "Romeo Class (Pr. 633RV)"
 		type = attack_submarine_hull_1
 		#name_group = 
@@ -761,26 +775,6 @@ if = {
 
 	# Corvettes #
 	create_equipment_variant = {
-		name = "Bora Class (Pr. 1239)"
-		type = corvette_hull_3
-		#name_group = 
-		parent_version = 0
-		modules = {
-			fixed_ship_systems_slot = surface_electrical_systems_2
-			fixed_ship_engine_slot = small_surface_engine_diesel_3
-			fixed_ship_sonar_slot = empty
-			fixed_ship_radar_slot = ship_radar_3
-			fixed_ship_defensive_slot_1 = sam_missile_1
-			fixed_ship_defensive_slot_2 = ciws_1
-			fixed_ship_aviation_slot = empty
-			custom_ship_cannon_slot = naval_gun_2
-			custom_slot_1 = cruise_missile_2
-			custom_slot_2 = cruise_missile_2
-			custom_slot_3 = empty
-		}
-		obsolete = no
-	}
-	create_equipment_variant = {
 		name = "Petya Class (Pr. 159A)"
 		type = corvette_hull_1
 		#name_group = 
@@ -796,6 +790,44 @@ if = {
 			custom_slot_1 = aswrl_1
 			custom_slot_2 = ship_torpedo_surface_2
 			custom_slot_3 = mine_layer_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Petya Class (Pr. 159AE)"
+		type = corvette_hull_1
+		#name_group = 
+		parent_version = 0
+		modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = small_surface_engine_diesel_1
+			fixed_ship_sonar_slot = sub_sonar_1
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_defensive_slot_1 = empty
+			fixed_ship_defensive_slot_2 = empty
+			custom_ship_cannon_slot = naval_gun_1
+			custom_slot_1 = aswrl_1
+			custom_slot_2 = ship_torpedo_surface_1
+			custom_slot_3 = mine_layer_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Poti Class (Pr. 204)"
+		type = corvette_hull_1
+		#name_group = 
+		parent_version = 0
+		modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = small_surface_engine_diesel_1
+			fixed_ship_sonar_slot = sub_sonar_1
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_defensive_slot_1 = empty
+			fixed_ship_defensive_slot_2 = empty
+			custom_ship_cannon_slot = naval_gun_1
+			custom_slot_1 = aswrl_1
+			custom_slot_2 = ship_torpedo_surface_1
+			custom_slot_3 = aswrl_1
 		}
 		obsolete = yes
 	}
@@ -876,6 +908,25 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
+		name = "Nanuchka II Class (Pr. 1234E)"
+		type = corvette_hull_1
+		#name_group = 
+		parent_version = 0
+		modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = small_surface_engine_diesel_1
+			fixed_ship_sonar_slot = empty
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_defensive_slot_1 = sam_missile_1
+			fixed_ship_defensive_slot_2 = empty
+			custom_ship_cannon_slot = naval_gun_1
+			custom_slot_1 = cruise_missile_1
+			custom_slot_2 = empty
+			custom_slot_3 = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
 		name = "Nanuchka III Class (Pr. 12341)"
 		type = corvette_hull_1
 		#name_group = 
@@ -914,6 +965,26 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
+		name = "Pauk Class (Pr. 12412)"
+		type = corvette_hull_2
+		#name_group = 
+		parent_version = 0
+		modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_2
+			fixed_ship_engine_slot = small_surface_engine_diesel_1
+			fixed_ship_sonar_slot = sub_sonar_2
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_defensive_slot_1 = sam_missile_1
+			fixed_ship_defensive_slot_2 = ciws_1
+			fixed_ship_aviation_slot = empty
+			custom_ship_cannon_slot = naval_gun_2
+			custom_slot_1 = aswrl_1
+			custom_slot_2 = ship_torpedo_surface_1
+			custom_slot_3 = depth_charges_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
 		name = "Parchim Class (Pr. 1331M)"
 		type = corvette_hull_2
 		#name_group = 
@@ -932,6 +1003,26 @@ if = {
 			custom_slot_3 = depth_charges_1
 		}
 		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Bora Class (Pr. 1239)"
+		type = corvette_hull_3
+		#name_group = 
+		parent_version = 0
+		modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_2
+			fixed_ship_engine_slot = small_surface_engine_diesel_3
+			fixed_ship_sonar_slot = empty
+			fixed_ship_radar_slot = ship_radar_3
+			fixed_ship_defensive_slot_1 = sam_missile_1
+			fixed_ship_defensive_slot_2 = ciws_1
+			fixed_ship_aviation_slot = empty
+			custom_ship_cannon_slot = naval_gun_2
+			custom_slot_1 = cruise_missile_2
+			custom_slot_2 = cruise_missile_2
+			custom_slot_3 = empty
+		}
+		obsolete = no
 	}
 	create_equipment_variant = {
 		name = "Gepard Class (Pr. 11660)"
@@ -1077,6 +1168,50 @@ if = {
 			custom_slot_2 = ship_torpedo_surface_1
 			custom_slot_3 = cruise_missile_1
 			custom_slot_4 = mine_layer_1
+			custom_ship_rear_cannon_slot = naval_gun_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Koni I Class (Pr. 1159)"
+		type = destroyer_hull_1
+		#name_group = 
+		parent_version = 0
+		modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = small_surface_engine_diesel_1
+			fixed_ship_sonar_slot = sub_sonar_1
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_defensive_slot_1 = sam_missile_1
+			fixed_ship_defensive_slot_2 = anti_air_1
+			fixed_ship_aviation_slot = empty
+			custom_ship_cannon_slot = naval_gun_1
+			custom_slot_1 = aswrl_1
+			custom_slot_2 = empty
+			custom_slot_3 = empty
+			custom_slot_4 = mine_layer_1
+			custom_ship_rear_cannon_slot = naval_gun_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Koni II Class (Pr. 1159T)"
+		type = destroyer_hull_1
+		#name_group = 
+		parent_version = 0
+		modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = small_surface_engine_diesel_1
+			fixed_ship_sonar_slot = sub_sonar_1
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_defensive_slot_1 = sam_missile_1
+			fixed_ship_defensive_slot_2 = anti_air_1
+			fixed_ship_aviation_slot = empty
+			custom_ship_cannon_slot = naval_gun_1
+			custom_slot_1 = aswrl_1
+			custom_slot_2 = empty
+			custom_slot_3 = empty
+			custom_slot_4 = depth_charges_1
 			custom_ship_rear_cannon_slot = naval_gun_1
 		}
 		obsolete = yes

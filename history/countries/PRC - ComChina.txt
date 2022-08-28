@@ -213,7 +213,7 @@ if = {
 
 	# Frigates #
 	create_equipment_variant = {
-		name = "Changsha Class"
+		name = "Type 053H Class"
 		type = destroyer_hull_1
 		#name_group = 
 		parent_version = 0
@@ -235,7 +235,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Ningbo Class"
+		name = "Type 053H1 Class"
 		type = destroyer_hull_1
 		#name_group = 
 		parent_version = 0
@@ -257,7 +257,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Siping Class"
+		name = "Type 053H1Q Class"
 		type = destroyer_hull_1
 		#name_group = 
 		parent_version = 0
@@ -279,7 +279,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Huangshi Class"
+		name = "Type 053H2 Class"
 		type = destroyer_hull_1
 		#name_group = 
 		parent_version = 0
@@ -301,7 +301,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Zigong Class"
+		name = "Type 053H1G Class"
 		type = destroyer_hull_1
 		#name_group = 
 		parent_version = 0
@@ -323,7 +323,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Anqing Class"
+		name = "Type 053H2G Class"
 		type = destroyer_hull_3
 		#name_group = 
 		parent_version = 0
@@ -345,7 +345,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Lianyungang Class"
+		name = "Type 053H3 Class"
 		type = destroyer_hull_3
 		#name_group = 
 		parent_version = 0
@@ -369,7 +369,7 @@ if = {
 
 	# Destroyers #
 	create_equipment_variant = {
-		name = "Jinan Class"
+		name = "Type 051 Class"
 		type = destroyer_hull_1
 		#name_group = 
 		parent_version = 0
@@ -391,7 +391,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Zhanjiang Class"
+		name = "Type 051G Class"
 		type = destroyer_hull_1
 		#name_group = 
 		parent_version = 0
@@ -413,7 +413,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Zhuhai Class"
+		name = "Type 051GT Class"
 		type = destroyer_hull_1
 		#name_group = 
 		parent_version = 0
@@ -435,7 +435,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Harbin Class"
+		name = "Type 052 Class"
 		type = destroyer_hull_3
 		#name_group = 
 		parent_version = 0
@@ -457,7 +457,7 @@ if = {
 		obsolete = no
 	}
 	create_equipment_variant = {
-		name = "Shenzhen Class"
+		name = "Type 051B Class"
 		type = destroyer_hull_3
 		#name_group = 
 		parent_version = 0

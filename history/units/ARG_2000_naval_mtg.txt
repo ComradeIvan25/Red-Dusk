@@ -16,9 +16,9 @@ units = {
 			ship = { name = "ARA Rosales" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = ARG version_name = "Espora Class" } } }
 			ship = { name = "ARA Spiro" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = ARG version_name = "Espora Class" } } }
 			ship = { name = "ARA Parker" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = ARG version_name = "Espora Class" } } }
-			ship = { name = "ARA Durmmond" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = ARG version_name = "Durmmond Class" } } }
-			ship = { name = "ARA Guerrico" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = ARG version_name = "Durmmond Class" } } }
-			ship = { name = "ARA Granville" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = ARG version_name = "Durmmond Class" } } }
+			ship = { name = "ARA Durmmond" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = ARG creator = FRA version_name = "Durmmond Class" } } }
+			ship = { name = "ARA Guerrico" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = ARG creator = FRA version_name = "Durmmond Class" } } }
+			ship = { name = "ARA Granville" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = ARG creator = FRA version_name = "Durmmond Class" } } }
 			ship = { name = "ARA King" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = ARG version_name = "King Class" } } }
 			ship = { name = "ARA Murature" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = ARG version_name = "King Class" } } }
 		}
@@ -27,7 +27,7 @@ units = {
 			location = 1639 # Bahía Blanca #
 			ship = { name = "ARA Santa Cruz" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = ARG version_name = "Santa Cruz Class" } } }
 			ship = { name = "ARA San Juan" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = ARG version_name = "Santa Cruz Class" } } }
-			ship = { name = "ARA Salta" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = ARG version_name = "Salta Class" } } }
+			ship = { name = "ARA Salta" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = ARG creator = GER version_name = "Type 209/1200 Class" } } }
 		}
 	}
 }

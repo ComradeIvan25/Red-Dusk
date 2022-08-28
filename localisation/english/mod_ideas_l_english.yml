@@ -169,6 +169,8 @@
  IRQ_embargo_name_desc:0 "After our invasion of Kuwait and the subsequent defeat, western nations such as the USA, UK, and France have imposed an embargo on us. Thus plummeting the already destroyed Iraqi economy further into the ground."
  IRQ_kurds_name:0 "Kurdish Rebels"
  IRQ_kurds_name_desc:0 "In the northern regions of Iraq, Kurdish rebels have plagued the land for more than two decades with their resistance actions. After our defeats in both the Iran-Iraq War and the Gulf War, the rebels have increased in size and have started to undermine the central government in Baghdad more and more, day by day."
+ IRQ_kurds_name_3:0 "Kurdish Separatism"
+ IRQ_kurds_name_3_desc:0 "With partial autonomy finally granted, the number of Kurdish rebels has substantially decreased. While separtist sentiments will never be truly gone, we can at least stop worrying about them for the time being."
  IRQ_broken_army_name:0 "A Broken Army"
  IRQ_broken_army_name_desc:0 "During the Gulf War, most of the Iraqi military assets were destroyed by the Coalition bombs, this combined with our embarrassing defeat with high casualties has made the Iraqi Armed Forces extremely demoralized and ineffective. \n\nA drastic change must happen in the armed forces if we want our nation to survive.."
  IRQ_better_army_name:0 "Reorganized Army"
@@ -199,6 +201,8 @@
  IRQ_strained_infrastructure_name_desc:0 "Our infrastructure was never fully repaired after the bombing campaigns of the Gulf War, with power outages being frequent and equipment regularly breaking down. This is further worsened by regular looting and vandalism, especially in more rural areas out of reach of our police forces."
  IRQ_no-fly_zones_name:0 "No-fly Zones"
  IRQ_no-fly_zones_name_desc:0 "Despite not being officially at war, the United States and its allies continue to maintain no-fly zones in large sections of our territory, effectively limiting our air force to the Baghdad area. This allows for Kurdish rebels in the north to operate independently of our rule."
+ IRQ_kurdish_autonomy:0 "Kurdish Autonomy"
+ IRQ_kurdish_autonomy_desc:0 "By allowing the Kurdish factions to maintain control of their territory with government oversight, we can integrate them into the national economy while not having to deal with the headaches of insurgency."
 
  SIA_rama_ix_name:0 "Rama IX"
  SIA_rama_ix_name_desc:0 "Long Live His Majesty King Rama IX"

@@ -63,6 +63,13 @@ add_ideas = IRQ_walter_withe
 add_ideas = IRQ_sultan
 add_ideas = IRQ_tariq_aziz13
 
+871 = {
+	start_resistance = yes
+	set_compliance = 20
+	set_resistance = 15
+	set_garrison_strength = 1.0
+}
+
 set_politics = {
 	ruling_party = fascism
 	last_election = "1936.1.1"

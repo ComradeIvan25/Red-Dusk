@@ -22,4 +22,14 @@ opinion_modifiers = {
 		value = -25
 	}
 
+	IRQ_iran_aircraft_option_1 = {
+		value = 20
+	}
+	IRQ_iran_aircraft_option_2 = {
+		value = 10
+	}
+	IRQ_iran_aircraft_option_3 = {
+		value = -15
+	}
+
 }

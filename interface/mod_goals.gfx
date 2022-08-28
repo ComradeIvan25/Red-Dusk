@@ -759,6 +759,10 @@ spriteTypes = {
 		name = "GFX_focus_IRQ_grant_partial_autonomy"
 		texturefile = "gfx/interface/goals/focus_IRQ_grant_partial_autonomy.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_kurdish_issue"
+		texturefile = "gfx/interface/goals/focus_IRQ_kurdish_issue.png"
+	}
 
    ###SAF###
 

@@ -5,20 +5,20 @@ units = {
 		task_force = {
 			name = "Frota Brasileira"
 			location = 10980 # Rio de Janeiro #
-			ship = { name = "Minas Gerais" definition = carrier equipment = { carrier_hull_1 = { amount = 1 owner = BRA version_name = "Minas Gerais Class" } }
+			ship = { name = "Minas Gerais" definition = carrier equipment = { carrier_hull_1 = { amount = 1 owner = BRA creator = ENG version_name = "Colossus Class" } }
 				air_wings = {
 					carrier_attacker_equipment_0 = { owner = "USA" amount = 12 }
 				}
 			}
 
-			ship = { name = "Greenhalgh" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = BRA version_name = "Greenhalgh Class" } } }
-			ship = { name = "Dodsworth" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = BRA version_name = "Greenhalgh Class" } } }
-			ship = { name = "Bosísio" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = BRA version_name = "Greenhalgh Class" } } }
-			ship = { name = "Rademaker" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = BRA version_name = "Greenhalgh Class" } } }
-			ship = { name = "Pará" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = BRA version_name = "Pará Class" } } }
-			ship = { name = "Paraíba" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = BRA version_name = "Pará Class" } } }
-			ship = { name = "Paraná" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = BRA version_name = "Pará Class" } } }
-			ship = { name = "Pernmabuco" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = BRA version_name = "Pará Class" } } }
+			ship = { name = "Greenhalgh" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = BRA creator = ENG version_name = "Broadsword Batch 1 Class" } } }
+			ship = { name = "Dodsworth" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = BRA creator = ENG version_name = "Broadsword Batch 1 Class" } } }
+			ship = { name = "Bosísio" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = BRA creator = ENG version_name = "Broadsword Batch 1 Class" } } }
+			ship = { name = "Rademaker" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = BRA creator = ENG version_name = "Broadsword Batch 1 Class" } } }
+			ship = { name = "Pará" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = BRA creator = USA version_name = "Garcia Class" } } }
+			ship = { name = "Paraíba" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = BRA creator = USA version_name = "Garcia Class" } } }
+			ship = { name = "Paraná" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = BRA creator = USA version_name = "Garcia Class" } } }
+			ship = { name = "Pernmabuco" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = BRA creator = USA version_name = "Garcia Class" } } }
 			ship = { name = "Niterói" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = BRA version_name = "Niterói Class" } } }
 			ship = { name = "Defensora" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = BRA version_name = "Niterói Class" } } }
 			ship = { name = "Constituição" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = BRA version_name = "Niterói Class" } } }
@@ -28,15 +28,17 @@ units = {
 
 			ship = { name = "Inhaúma" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = BRA version_name = "Inhaúma Class" } } }
 			ship = { name = "Jaceguai" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = BRA version_name = "Inhaúma Class" } } }
+			ship = { name = "Júlio de Noronha" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = BRA version_name = "Inhaúma Class" } } }
+			ship = { name = "Frontin" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = BRA version_name = "Inhaúma Class" } } }
 		}
 		task_force = {
 			name = "Frota Submarina Brasileira"
 			location = 10980 # Rio de Janeiro #
-			ship = { name = "Tupi" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = BRA version_name = "Tupi Class" } } }
-			ship = { name = "Tamoio" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = BRA version_name = "Tupi Class" } } }
-			ship = { name = "Timbira" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = BRA version_name = "Tupi Class" } } }
-			ship = { name = "Tapajó" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = BRA version_name = "Tupi Class" } } }
-			ship = { name = "Tonelero" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = BRA version_name = "Humaitá Class" } } }
+			ship = { name = "Tupi" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = BRA creator = GER version_name = "Type 209/1400 Class" } } }
+			ship = { name = "Tamoio" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = BRA creator = GER version_name = "Type 209/1400 Class" } } }
+			ship = { name = "Timbira" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = BRA creator = GER version_name = "Type 209/1400 Class" } } }
+			ship = { name = "Tapajó" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = BRA creator = GER version_name = "Type 209/1400 Class" } } }
+			ship = { name = "Tonelero" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = BRA creator = ENG version_name = "Oberon Class" } } }
 		}
 	}
 }
@@ -58,9 +60,9 @@ instant_effect = {
 	# Attack Submarines #
 	add_equipment_production = {
 		equipment = {
-			type = attack_submarine_hull_4
+			type = attack_submarine_hull_1
 			creator = "BRA" 
-			version_name = "Tikuna Class"
+			version_name = "Type 209/1450 Class"
 		}
 		name = "Tikuna"
 		requested_factories = 1
@@ -69,13 +71,28 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = attack_submarine_hull_4
+			type = attack_submarine_hull_1
 			creator = "BRA" 
-			version_name = "Tikuna Class"
+			version_name = "Type 209/1450 Class"
 		}
 		name = "Tapuia"
 		requested_factories = 1
 		progress = 0.29
 		amount = 1
+	}
+
+	## Construction Agreements ##
+	if = {
+		limit = { has_dlc = "Death or Dishonor" }
+		GER = {
+			create_production_license = {
+				target = BRA
+				equipment = {
+					type = attack_submarine_hull_1
+					version_name = "Type 209/1400 Class"
+				}
+				cost_factor = 0
+			}
+		}
 	}
 }

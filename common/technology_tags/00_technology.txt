@@ -101,6 +101,7 @@ technology_categories = {
 	mod_cat_interceptor
 	mod_cat_helicopter
 	mod_cat_uav
+	mod_cat_rocket_artillery
 }
 
 technology_folders = {

@@ -25,42 +25,7 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_naval_oob = "ALG_2000_naval_mtg"
 
-	# Attack Submarines #
-	create_equipment_variant = {
-		name = "Rais Hadj Mubarek Class"
-		type = attack_submarine_hull_2
-		#name_group = 
-		parent_version = 0
-		modules = {
-			fixed_ship_systems_slot = sub_electrical_systems_2
-			fixed_ship_engine_slot = sub_engine_diesel_2
-			fixed_ship_sonar_slot = sub_sonar_2
-			custom_ship_torpedo_slot = ship_torpedo_sub_2
-			custom_slot_1 = empty
-		}
-		obsolete = no
-	}
-
 	# Corvettes #
-	create_equipment_variant = {
-		name = "Rais Hamidou Class"
-		type = corvette_hull_1
-		#name_group = 
-		parent_version = 0
-		modules = {
-			fixed_ship_systems_slot = surface_electrical_systems_1
-			fixed_ship_engine_slot = small_surface_engine_diesel_1
-			fixed_ship_sonar_slot = empty
-			fixed_ship_radar_slot = ship_radar_1
-			fixed_ship_defensive_slot_1 = sam_missile_1
-			fixed_ship_defensive_slot_2 = empty
-			custom_ship_cannon_slot = naval_gun_1
-			custom_slot_1 = cruise_missile_1
-			custom_slot_2 = empty
-			custom_slot_3 = empty
-		}
-		obsolete = yes
-	}
 	create_equipment_variant = {
 		name = "Djebel Chenoua Class"
 		type = corvette_hull_2
@@ -80,29 +45,5 @@ if = {
 			custom_slot_3 = empty
 		}
 		obsolete = no
-	}
-
-	# Frigates #
-	create_equipment_variant = {
-		name = "Mourad Rais Class"
-		type = destroyer_hull_1
-		#name_group = 
-		parent_version = 0
-		modules = {
-			fixed_ship_systems_slot = surface_electrical_systems_1
-			fixed_ship_engine_slot = small_surface_engine_diesel_1
-			fixed_ship_sonar_slot = sub_sonar_1
-			fixed_ship_radar_slot = ship_radar_1
-			fixed_ship_defensive_slot_1 = sam_missile_1
-			fixed_ship_defensive_slot_2 = anti_air_1
-			fixed_ship_aviation_slot = empty
-			custom_ship_cannon_slot = naval_gun_1
-			custom_slot_1 = aswrl_1
-			custom_slot_2 = empty
-			custom_slot_3 = empty
-			custom_slot_4 = depth_charges_1
-			custom_ship_rear_cannon_slot = naval_gun_1
-		}
-		obsolete = yes
 	}
 }

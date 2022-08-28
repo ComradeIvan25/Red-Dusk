@@ -5,21 +5,21 @@ units = {
 		task_force = {
 			name = "Flota Chilena"
 			location = 10000 # Qingdao #
-			ship = { name = "Harbin" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = PRC version_name = "Harbin Class" } } }
-			ship = { name = "Qingdao" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = PRC version_name = "Harbin Class" } } }
-			ship = { name = "Shenzhen" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = PRC version_name = "Shenzhen Class" } } }
-			ship = { name = "Jinan" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Jinan Class" } } }
-			ship = { name = "Xian" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Jinan Class" } } }
-			ship = { name = "Yinchuan" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Jinan Class" } } }
-			ship = { name = "Xining" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Jinan Class" } } }
-			ship = { name = "Kaifeng" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Jinan Class" } } }
-			ship = { name = "Dalian" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Jinan Class" } } }
-			ship = { name = "Zunyi" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Jinan Class" } } }
-			ship = { name = "Guilin" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Jinan Class" } } }
-			ship = { name = "Changzhi" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Changsha Class" } } }
-			ship = { name = "Dandong" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Ningbo Class" } } }
-			ship = { name = "Linfen" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Ningbo Class" } } }
-			ship = { name = "Siping" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Siping Class" } } }
+			ship = { name = "Harbin" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = PRC version_name = "Type 052 Class" } } }
+			ship = { name = "Qingdao" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = PRC version_name = "Type 052 Class" } } }
+			ship = { name = "Shenzhen" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = PRC version_name = "Type 051B Class" } } }
+			ship = { name = "Jinan" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 051 Class" } } }
+			ship = { name = "Xian" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 051 Class" } } }
+			ship = { name = "Yinchuan" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 051 Class" } } }
+			ship = { name = "Xining" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 051 Class" } } }
+			ship = { name = "Kaifeng" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 051 Class" } } }
+			ship = { name = "Dalian" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 051 Class" } } }
+			ship = { name = "Zunyi" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 051 Class" } } }
+			ship = { name = "Guilin" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 051 Class" } } }
+			ship = { name = "Changzhi" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H Class" } } }
+			ship = { name = "Dandong" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H1 Class" } } }
+			ship = { name = "Linfen" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H1 Class" } } }
+			ship = { name = "Siping" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H1Q Class" } } }
 		}
 		task_force = {
 			name = "Beihai Qianting Jiandui"
@@ -104,32 +104,32 @@ units = {
 		task_force = {
 			name = "Donghai Jiandui"
 			location = 9974 # Ningbo #
-			ship = { name = "Anqing" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = PRC version_name = "Anqing Class" } } }
-			ship = { name = "Huainan" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = PRC version_name = "Anqing Class" } } }
-			ship = { name = "Huaibei" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = PRC version_name = "Anqing Class" } } }
-			ship = { name = "Tongling" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = PRC version_name = "Anqing Class" } } }
-			ship = { name = "Lianyungang" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = PRC version_name = "Lianyungang Class" } } }
-			ship = { name = "Putian" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = PRC version_name = "Lianyungang Class" } } }
-			ship = { name = "Sanming" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = PRC version_name = "Lianyungang Class" } } }
-			ship = { name = "Yichang" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = PRC version_name = "Lianyungang Class" } } }
-			ship = { name = "Nanjing" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Jinan Class" } } }
-			ship = { name = "Hefei" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Jinan Class" } } }
-			ship = { name = "Chongqing" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Jinan Class" } } }
-			ship = { name = "Nantong" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Changsha Class" } } }
-			ship = { name = "Wuxi" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Changsha Class" } } }
-			ship = { name = "Huaiyin" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Changsha Class" } } }
-			ship = { name = "Zhenjiang" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Changsha Class" } } }
-			ship = { name = "Xiamen" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Changsha Class" } } }
-			ship = { name = "Jiujiang" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Changsha Class" } } }
-			ship = { name = "Nanping" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Changsha Class" } } }
-			ship = { name = "Ningbo" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Ningbo Class" } } }
-			ship = { name = "Jinhua" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Ningbo Class" } } }
-			ship = { name = "Jishou" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Ningbo Class" } } }
-			ship = { name = "Huangshi" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Huangshi Class" } } }
-			ship = { name = "Wuhu" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Huangshi Class" } } }
-			ship = { name = "Zhoushan" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Huangshi Class" } } }
-			ship = { name = "Zigong" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Zigong Class" } } }
-			ship = { name = "Foshan" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Zigong Class" } } }
+			ship = { name = "Anqing" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = PRC version_name = "Type 053H2G Class" } } }
+			ship = { name = "Huainan" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = PRC version_name = "Type 053H2G Class" } } }
+			ship = { name = "Huaibei" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = PRC version_name = "Type 053H2G Class" } } }
+			ship = { name = "Tongling" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = PRC version_name = "Type 053H2G Class" } } }
+			ship = { name = "Lianyungang" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = PRC version_name = "Type 053H3 Class" } } }
+			ship = { name = "Putian" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = PRC version_name = "Type 053H3 Class" } } }
+			ship = { name = "Sanming" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = PRC version_name = "Type 053H3 Class" } } }
+			ship = { name = "Yichang" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = PRC version_name = "Type 053H3 Class" } } }
+			ship = { name = "Nanjing" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 051 Class" } } }
+			ship = { name = "Hefei" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 051 Class" } } }
+			ship = { name = "Chongqing" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 051 Class" } } }
+			ship = { name = "Nantong" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H Class" } } }
+			ship = { name = "Wuxi" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H Class" } } }
+			ship = { name = "Huaiyin" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H Class" } } }
+			ship = { name = "Zhenjiang" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H Class" } } }
+			ship = { name = "Xiamen" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H Class" } } }
+			ship = { name = "Jiujiang" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H Class" } } }
+			ship = { name = "Nanping" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H Class" } } }
+			ship = { name = "Ningbo" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H1 Class" } } }
+			ship = { name = "Jinhua" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H1 Class" } } }
+			ship = { name = "Jishou" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H1 Class" } } }
+			ship = { name = "Huangshi" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H2 Class" } } }
+			ship = { name = "Wuhu" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H2 Class" } } }
+			ship = { name = "Zhoushan" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H2 Class" } } }
+			ship = { name = "Zigong" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H1G Class" } } }
+			ship = { name = "Foshan" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H1G Class" } } }
 		}
 		task_force = {
 			name = "Donghai Qianting Jiandui"
@@ -144,23 +144,23 @@ units = {
 		task_force = {
 			name = "Nanhai Jiandui"
 			location = 11981 # Zhanjiang #
-			ship = { name = "Changsha" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Jinan Class" } } }
-			ship = { name = "Nanning" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Jinan Class" } } }
-			ship = { name = "Nanchang" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Jinan Class" } } }
-			ship = { name = "Zhangjiang" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Zhanjiang Class" } } }
-			ship = { name = "Changde" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Changsha Class" } } }
-			ship = { name = "Shaoxing" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Changsha Class" } } }
-			ship = { name = "Ji'an" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Changsha Class" } } }
-			ship = { name = "Maoming" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Changsha Class" } } }
-			ship = { name = "Yibin" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Changsha Class" } } }
-			ship = { name = "Shaoguan" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Ningbo Class" } } }
-			ship = { name = "Anshun" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Ningbo Class" } } }
-			ship = { name = "Zhaotong" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Ningbo Class" } } }
-			ship = { name = "Zhuhai" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Zhuhai Class" } } }
-			ship = { name = "Dongguan" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Zigong Class" } } }
-			ship = { name = "Shantou" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Zigong Class" } } }
-			ship = { name = "Jiangmen" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Zigong Class" } } }
-			ship = { name = "Zhaoqing" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Zigong Class" } } }
+			ship = { name = "Changsha" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 051 Class" } } }
+			ship = { name = "Nanning" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 051 Class" } } }
+			ship = { name = "Nanchang" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 051 Class" } } }
+			ship = { name = "Zhangjiang" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 051G Class" } } }
+			ship = { name = "Changde" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H Class" } } }
+			ship = { name = "Shaoxing" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H Class" } } }
+			ship = { name = "Ji'an" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H Class" } } }
+			ship = { name = "Maoming" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H Class" } } }
+			ship = { name = "Yibin" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H Class" } } }
+			ship = { name = "Shaoguan" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H1 Class" } } }
+			ship = { name = "Anshun" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H1 Class" } } }
+			ship = { name = "Zhaotong" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H1 Class" } } }
+			ship = { name = "Zhuhai" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 051GT Class" } } }
+			ship = { name = "Dongguan" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H1G Class" } } }
+			ship = { name = "Shantou" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H1G Class" } } }
+			ship = { name = "Jiangmen" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H1G Class" } } }
+			ship = { name = "Zhaoqing" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = PRC version_name = "Type 053H1G Class" } } }
 		}
 		task_force = {
 			name = "Nanhai Qianting Jiandui"
@@ -213,7 +213,7 @@ instant_effect = {
 		equipment = {
 			type = destroyer_hull_3
 			creator = "PRC" 
-			version_name = "Lianyungang Class"
+			version_name = "Type 053H3 Class"
 		}
 		name = "Yichang"
 		requested_factories = 1
@@ -224,7 +224,7 @@ instant_effect = {
 		equipment = {
 			type = destroyer_hull_3
 			creator = "PRC" 
-			version_name = "Lianyungang Class"
+			version_name = "Type 053H3 Class"
 		}
 		name = "Yulin"
 		requested_factories = 1

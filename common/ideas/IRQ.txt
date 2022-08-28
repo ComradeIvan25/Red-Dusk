@@ -59,6 +59,43 @@ ideas = {
 				resistance_damage_to_garrison = 0.2
 			}
 		}
+
+		IRQ_kurdish_rebels_2 = {
+			name = IRQ_kurds_name
+
+			removal_cost = -1
+
+			picture = IRQ_kurdish_rebel_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_cost = 0.7
+				resistance_growth = 0.2
+				resistance_target = 0.25
+				resistance_damage_to_garrison = 0.1
+			}
+		}
+
+		IRQ_kurdish_rebels_3 = {
+			name = IRQ_kurds_name_3
+
+			removal_cost = -1
+
+			picture = IRQ_kurdish_rebel_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_cost = 0.5
+				resistance_growth = 0.1
+				resistance_target = 0.2
+			}
+		}
 		
 		IRQ_disorganized_army = {
 			name = IRQ_broken_army_name
@@ -250,12 +287,6 @@ ideas = {
 			}
 		}
 
-		IRQ_mil_ind = {
-		}
-
-		IRQ_civ_ind = {
-		}
-
 		IRQ_iraqi_army = {
 			name = IRQ_iraqi_army_name
 
@@ -385,6 +416,23 @@ ideas = {
 				industrial_capacity_dockyard = -0.05
 				production_speed_buildings_factor = -0.2
 				production_factory_max_efficiency_factor = -0.25
+			}
+		}
+
+		IRQ_strained_infrastructure_2 = {
+			name = IRQ_strained_infrastructure_name
+
+			removal_cost = -1
+
+			picture = LAO_undeveloped_infrastructure_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_buildings_factor = -0.1
+				production_factory_max_efficiency_factor = -0.2
 			}
 		}
 

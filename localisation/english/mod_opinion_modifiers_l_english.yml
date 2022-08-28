@@ -1,7 +1,12 @@
 ﻿l_english:
  USA_misdirected_foreign_policy_opinion:0 "Misdirected Foreign Policy"
+
  IRQ_alternate_trade_partner_opinion:0 "Trade Partner"
  IRQ_abandoned_dollar_opinion:0 "Abandoned the dollar"
  IRQ_improve_saudi_relations_opinion:0 "Improved Relations"
  IRQ_soviet_support_opinion:0 "Asked for support"
+ IRQ_iran_aircraft_option_1:0 "Returned our aircraft"
+ IRQ_iran_aircraft_option_2:0 "Returned our aircraft"
+ IRQ_iran_aircraft_option_3:0 "Impounded our aircraft"
+
  YUG_cut_contacts:0 "Cut Contacts"

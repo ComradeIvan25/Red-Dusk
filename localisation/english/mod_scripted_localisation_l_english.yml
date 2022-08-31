@@ -242,14 +242,27 @@
  USA_loc_key_ruling_party_democratic_reform:0 "§YDemocratic Party\nReform Party§!"
  USA_loc_key_ruling_party_all:0 "§YRepublican Party\nDemocratic Party\nReform Party§!"
  
- bush_will_be_rep_candicate:0 "§YBush becomes Republican Candidate for President§!"
- mccain_will_be_rep_candicate:0 "§YMcCain becomes Republican Candidate for President§!"
- gore_will_be_dem_candicate:0 "§YGore becomes Democrat Candidate for President§!"
- trump_will_be_reform_candicate:0 "§YTrump becomes Reform Candidate for President§!"
- buchanan_will_be_reform_candicate:0 "§YBuchanan becomes Reform Candidate for President§!"
- rep_candicate_will_become_president_on_jan20:0 "§GRepublican Candidate will become President on Jan 20§!"
- dem_candicate_will_become_president_on_jan20:0 "§Democrat Candidate will become President on Jan 20§!"
- reform_candicate_will_become_president_on_jan20:0 "§GReformist Candidate will become President on Jan 20§!"
+ bush_will_be_rep_candicate:0 "§YBush becomes Republican Candidate for President.§!"
+ mccain_will_be_rep_candicate:0 "§YMcCain becomes Republican Candidate for President.§!"
+ gore_will_be_dem_candicate:0 "§YGore becomes Democrat Candidate for President.§!"
+ trump_will_be_reform_candicate:0 "§YTrump becomes Reform Candidate for President.§!"
+ buchanan_will_be_reform_candicate:0 "§YBuchanan becomes Reform Candidate for President.§!"
+ rep_candicate_will_become_president_on_jan20:0 "§GRepublican Candidate will become President on Jan 20.§!"
+ dem_candicate_will_become_president_on_jan20:0 "§Democrat Candidate will become President on Jan 20.§!"
+ reform_candicate_will_become_president_on_jan20:0 "§GReformist Candidate will become President on Jan 20.§!"
+ 
+ reform_party_congress_attitude_changes_neutral:0 "The Reform Party will be §gNeutral§!"
+ 
+ will_improve_economic_stagnation_tooltip:0 "§GThis will improve the §Y"Economic Stagnation"§! §Gnational spirit.§!"
+ will_improve_bush_family_legacy_tooltip:0 "§GThis will improve the §Y"Bush Family Legacy"§! §Gnational spirit.§!"
+ 
+ rust_belt_completed_new_york_decision:0 "Completed the §Y"New York, New Steel"§! decision."
+ rust_belt_completed_ohio_decision:0 "Completed the §Y"Ohio, Automobile Central"§! decision."
+ rust_belt_completed_penny_decision:0 "Completed the §Y"Black Mountains of Pennsylvania"§! decision."
+ rust_belt_completed_indiana_decision:0 "Completed the §Y"Indiana Ingenuity"§! decision."
+ rust_belt_completed_michigan_decision:0 "Completed the §Y"Michigan Manufacturing"§! decision."
+ 
+ USA_revived_the_rust_belt:0 "§YRevived the Rust Belt§!"
  ## SOUTH AFRICA ##
  
  SAF_decrases_the_figthing_strength_of_rebels_by_5:0 "§GDecrases The Fighting Strength Of The Rebels by 5 percent§\n\n"

@@ -3,7 +3,13 @@ opinion_modifiers = {
 	USA_misdirected_foreign_policy_opinion = {
 		value = -20
 	}
-
+	USA_high_tariffs_opinion = {
+		value = -25
+	}
+	USA_ridiculous_tariffs_opinion = {
+		value = -50
+	}
+	
 	IRQ_alternate_trade_partner_opinion = {
 		trade = yes
 		value = 10

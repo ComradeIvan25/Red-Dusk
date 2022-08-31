@@ -246,6 +246,7 @@ country_event = {
 		name = ussr.6.b
 		retire_country_leader = yes
 		promote_character = SOV_boris_pugo
+		load_focus_tree = ussr_pugo_focus
 		news_event = { id = old_times_news.4 days = 1 }
 		
 			SOV = {

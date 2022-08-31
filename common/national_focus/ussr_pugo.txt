@@ -1,6 +1,13 @@
 ﻿focus_tree = {
 	id = ussr_pugo_focus
 	continuous_focus_position = { x = -800 y = 2000 }
+	country = {
+		factor = 0
+		modifier = {
+		tag = SOV
+		add = 0
+		}
+	}
 	
 	default = no
 	focus = {

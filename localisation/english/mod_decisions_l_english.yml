@@ -194,6 +194,14 @@
  USA_congress_government_type:0 "President\n§Y[USA.GetLeader]§!\n\nGovernment Type\n[USA_government_type]\n\nRuling Parties\n[USA_government_ruling_party]"
  USA_congress_party_attitudes_descriptions:0 "§CLoyal§! parties will offer their full support to pass any legislation, however, you will have to keep their interests in mind too.\n\n§GFriendly§! parties are receptive to supporting your ideas, however, you shouldn't rely on them to push through unpopular legislation.\n\n§gNeutral§! parties are neither for nor against you. Unless you're voting on a topic they feel strongly about, they can safely be ignored.\n\n§YUnfriendly§! parties are unlikely to support you, unless the proposed legislation is universally popular.\n\n§RHostile§! parties will never support you. Some radical members might even resort to violence against you and your allies."
  
+ USA_the_rust_belt:0 "The Rust Belt"
+ USA_rust_belt_new_york:0 "New York, New Steel"
+ USA_rust_belt_ohio:0 "Ohio, Automobile Central"
+ USA_rust_belt_pennsyvlania:0 "Black Mountains of Pennsylvania"
+ USA_rust_belt_indiana:0 "Indiana Ingenuity"
+ USA_rust_belt_michigan:0 "Michigan Manufacturing"
+ USA_rust_belt_revive:0 "Revive the Rust Belt"
+ 
  ##SOUTH AFRICA###
 
  saf_deal_with_insurgents:0 "Dealing With the Insurgents"

@@ -160,7 +160,281 @@ ideas = {
 				political_power_gain = -0.10
 			}
 		}
+		##ECONOMY IMPROVEMENT##
 		
+		USA_stagnating_economy_1 = {
+			name = USA_stagnating_economy_name
+
+			removal_cost = -1
+
+			picture = USA_stagnating_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_industrial_complex_factor = -0.05
+				production_speed_buildings_factor = -0.05
+				min_export = 0.1
+			}
+		}
+		
+		USA_stagnating_economy_2 = {
+			name = USA_stagnating_economy_name
+
+			removal_cost = -1
+
+			picture = USA_stagnating_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_industrial_complex_factor = -0.05
+				production_speed_buildings_factor = -0.05
+				min_export = 0.1
+				research_speed_factor = 0.05
+				
+			}
+		}
+		
+		USA_stagnating_economy_3 = {
+			name = USA_stagnating_economy_name
+
+			removal_cost = -1
+
+			picture = USA_stagnating_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_industrial_complex_factor = -0.05
+				min_export = 0.1
+				research_speed_factor = 0.05
+				
+			}
+		}
+		
+		USA_stagnating_economy_4 = {
+			name = USA_stagnating_economy_name
+
+			removal_cost = -1
+
+			picture = USA_stagnating_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				min_export = 0.1
+				research_speed_factor = 0.05
+			}
+		}
+		
+		USA_economic_miracle = {
+			name = USA_economic_miracle_name
+
+			removal_cost = -1
+
+			picture = USA_stagnating_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_buildings_factor = 0.10
+				research_speed_factor = 0.05
+				conversion_cost_civ_to_mil_factor = -0.2
+				conversion_cost_mil_to_civ_factor = -0.2
+				consumer_goods_factor = -0.15
+			}
+		}
+		
+		##BUSH##
+		
+		USA_republicans_and_the_internet = {
+			name = USA_republicans_and_the_internet_name
+
+			removal_cost = -1
+
+			#picture = 
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			research_speed_factor = -0.10
+			consumer_goods_factor = 0.1
+			}
+		}
+		
+		USA_bush_family_legacy = {
+			name = USA_bush_family_legacy_name
+
+			removal_cost = -1
+
+			#picture = 
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			political_power_factor = 0.10
+			stability_factor = -0.05
+			}
+		}
+		
+		USA_bush_family_legacy_1 = {
+			name = USA_bush_family_legacy_name
+
+			removal_cost = -1
+
+			#picture = 
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			political_power_factor = 0.10
+			stability_factor = -0.025
+			}
+		}
+
+		USA_bush_family_legacy_2 = {
+			name = USA_bush_family_legacy_name
+
+			removal_cost = -1
+
+			#picture = 
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			political_power_factor = 0.10
+			stability_factor = 0.075
+			}
+		}
+		
+		
+		USA_bush_family_legacy_3 = {
+			name = USA_bush_family_legacy_name
+
+			removal_cost = -1
+
+			#picture = 
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			political_power_factor = 0.15
+			stability_factor = 0.075
+			consumer_goods_factor = -0.05
+			}
+		}
+		
+		USA_bush_family_legacy_4 = {
+			name = USA_bush_family_legacy_name
+
+			removal_cost = -1
+
+			#picture = 
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			political_power_factor = 0.20
+			stability_factor = 0.075
+			consumer_goods_factor = -0.05
+			conscription_factor = 0.02
+			}
+		}
+		
+		USA_bush_family_legacy_final = {
+			name = USA_bush_family_legacy_name
+
+			removal_cost = -1
+
+			#picture = 
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			political_power_factor = 0.35
+			stability_factor = 0.01
+			consumer_goods_factor = -0.05
+			conscription_factor = 0.02
+			stability_weekly_factor = 0.01
+			}
+		}
+
+
+		USA_social_soldiering_1 = {
+			name = USA_social_soldiering_name
+
+			removal_cost = -1
+
+			#picture = 
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+
+			}
+		}
+		
+		USA_social_soldiering_2 = {
+			name = USA_social_soldiering_name
+
+			removal_cost = -1
+
+			#picture = 
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			stability_factor = 0.05
+			monthly_population = 0.1
+			}
+		}
+		
+		USA_social_soldiering_3 = {
+			name = USA_social_soldiering_name
+
+			removal_cost = -1
+
+			#picture = 
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			stability_factor = 0.1
+			monthly_population = 0.1
+			consumer_goods_factor = -0.05
+			}
+		}
 		
 	}
 	

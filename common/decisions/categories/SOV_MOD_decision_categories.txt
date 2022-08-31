@@ -1,3 +1,18 @@
+sov_debug = {
+	icon = generic_communism
+	picture = GFX_decision_cat_culture_war
+	allowed = {
+		original_tag = SOV
+		is_debug = yes
+	}
+	
+	visible = {
+		original_tag = SOV
+		is_debug = yes
+	}
+	priority = 9999
+}
+
 sov_culture_war = {
 	icon = generic_communism
 	picture = GFX_decision_cat_culture_war

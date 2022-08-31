@@ -1,5 +1,6 @@
 add_namespace = usa
 add_namespace = usa_quayle
+add_namespace = usa_bush
 add_namespace = usa_help
 
 country_event = { #The State of the Union#
@@ -255,7 +256,6 @@ country_event = { #Election Day...#
 		limit = {has_country_flag = bush_for_rep_candicate}
 		custom_effect_tooltip = rep_candicate_will_become_president_on_jan20
 		}
-		load_focus_tree = usa_bush_focus
 		else_if = {
 		limit = {has_country_flag = mccain_for_rep_candicate}
 		custom_effect_tooltip = rep_candicate_will_become_president_on_jan20
@@ -283,6 +283,99 @@ country_event = { #Election Day...#
 		limit = {has_country_flag = buchanan_for_reform_candicate}
 		custom_effect_tooltip = reform_candicate_will_become_president_on_jan20
 		}
+	}
+}
+
+
+country_event = { #Inauguration#
+	id = usa_quayle.10
+	title = usa_quayle.10.t
+	desc = usa_quayle.10.d
+	picture = GFX_report_event_USA_2000
+	
+	trigger = {
+	date > 2001.01.19
+	}
+	
+	fire_only_once = yes
+	
+	#mkay#
+	option = {
+		name = usa_quayle.10.a
+		if = {
+		limit = {has_country_flag = bush_for_rep_candicate}
+		}
+		load_focus_tree = usa_bush_focus
+		complete_national_focus = USA_bush_bush_in_office
+		retire_country_leader = yes
+		promote_character = USA_george_bush
+		else_if = {
+		limit = {has_country_flag = mccain_for_rep_candicate}
+
+		}
+		
+		else = {
+		limit = {has_country_flag = gore_for_dem_candicate}
+	
+		}
+		if = {
+		limit = {has_country_flag = trump_for_reform_candicate}
+
+		}
+		
+		else_if = {
+		limit = {has_country_flag = buchanan_for_reform_candicate}
+
+		}
+	}
+
+}
+
+#BUSH#
+
+
+country_event = { #Bush’s Inauguration#
+	id = usa_bush.1
+	title = usa_bush.1.t
+	desc = usa_bush.1.d
+	picture = GFX_report_event_USA_2000
+	
+	is_triggered_only = yes
+	
+	#k#
+	option = {
+		name = usa_bush.1.a
+		
+	}
+}
+
+country_event = { #United States v. Microsoft Corp#
+	id = usa_bush.2
+	title = usa_bush.2.t
+	desc = usa_bush.2.d
+	picture = GFX_report_event_USA_2000
+	
+	is_triggered_only = yes
+	
+	#k#
+	option = {
+		name = usa_bush.2.a
+		add_political_power = -1
+	}
+}
+
+country_event = { #Walk Down Wall Street#
+	id = usa_bush.3
+	title = usa_bush.3.t
+	desc = usa_bush.3.d
+	picture = GFX_report_event_USA_2000
+	
+	is_triggered_only = yes
+	
+	#k#
+	option = {
+		name = usa_bush.3.a
+
 	}
 }
 

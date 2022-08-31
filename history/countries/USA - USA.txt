@@ -200,6 +200,8 @@ set_popularities = {
 	communism = 1
 }
 
+add_ideas = free_trade
+
 add_ideas = USA_the_constitution
 add_ideas = USA_three_party_primacy
 add_ideas = USA_second_amendment

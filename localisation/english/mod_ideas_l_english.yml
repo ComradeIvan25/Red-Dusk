@@ -91,6 +91,16 @@
  USA_cold_war:0 "Cold War"
  USA_cold_war_desc:0 "This idea will get modified with each proxy wars we win"
  
+ USA_economic_miracle_name:0 "Economic Miracle"
+ USA_economic_miracle_name_desc:0 ""
+ 
+ USA_republicans_and_the_internet_name:0 "Republicans and the Internet"
+ USA_republicans_and_the_internet_name_desc:0 "The Internet is still a fairly new toy for the American people, and more so for the government; we’ve been harnessing it for decades, but only recently are we starting to see its true capabilities--though we’ve yet to seize on this chance. If we don’t get on the trolley soon, we may be behind the rest of the world..."
+ USA_bush_family_legacy_name:0 "Bush Family Legacy"
+ USA_bush_family_legacy_name_desc:0 "The Bush family has been a political dynasty dating back for quite some time, and have usually held some form of influence and sway over the Republican party in recent history. However, the recent failures of George Bush Sr, and the skepticism behind George Bush Jr., has left the family name somewhat tarnished. If we don’t clean our reputation soon, we may not see another Bush in office..."
+ USA_social_soldiering_name:0 "Social Soldiering"
+ USA_social_soldiering_name_desc:0 "The Republican party has always prided itself on being a party of social works; a party known for being strongly pro-American, pro-Freedom, and pro-Progress. What the Democrats and the Reformists call “progress” is a barbaric degradation of American values: we cannot tolerate this, and must progress America into retaking those good old fashioned values on which we used to rely!"
+ 
  PRC_legacy_xiaoping_reform_name:0 "Legacy of Deng Xiaoping's Reforms"
  PRC_legacy_xiaoping_reform_name_desc:0 ""
  PRC_third_taiwan_strait_crisis_idea_name:0 "Third Taiwan Strait Crisis"

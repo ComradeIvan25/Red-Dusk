@@ -19,3 +19,205 @@ category_USA_congress = {
 	}
 
 }
+
+USA_the_rust_belt = {
+	USA_rust_belt_new_york = {
+
+		icon = GFX_decision_generic_decision
+
+		priority = 7
+
+		fire_only_once = yes
+		
+		cost = 75
+		
+		visible = {
+			original_tag = USA
+		}
+
+		ai_will_do = {
+			factor = 75
+		}
+		
+		days_remove = 35
+		
+		remove_effect = {
+			add_resource = {
+				type = steel
+				amount = 50
+				state = 358
+			}
+			set_country_flag = rust_belt_completed_new_york_decision
+		}
+		
+	}
+	
+	USA_rust_belt_ohio = {
+
+		icon = GFX_decision_generic_decision
+
+		priority = 6
+
+		fire_only_once = yes
+		
+		cost = 50
+		
+		visible = {
+			original_tag = USA
+		}
+
+		ai_will_do = {
+			factor = 75
+		}
+		
+		days_remove = 35
+		
+		remove_effect = {
+			261 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			set_country_flag = rust_belt_completed_ohio_decision
+		}
+		
+	}
+	
+	USA_rust_belt_pennsyvlania = {
+
+		icon = GFX_decision_generic_decision
+
+		priority = 4
+
+		fire_only_once = yes
+		
+		cost = 75
+		
+		visible = {
+			original_tag = USA
+		}
+
+		ai_will_do = {
+			factor = 75
+		}
+		
+		days_remove = 42
+		
+		remove_effect = {
+			add_resource = {
+				type = oil
+				amount = 20
+				state = 360
+			}
+			set_country_flag = rust_belt_completed_penny_decision
+		}
+		
+	}
+	
+	USA_rust_belt_indiana = {
+
+		icon = GFX_decision_generic_decision
+
+		priority = 3
+
+		fire_only_once = yes
+		
+		cost = 25
+		
+		visible = {
+			original_tag = USA
+		}
+
+		ai_will_do = {
+			factor = 75
+		}
+		
+		days_remove = 35
+		
+		remove_effect = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 3
+				category = industrial_tech
+			}
+			set_country_flag = rust_belt_completed_indiana_decision
+		}
+		
+	}
+	
+	USA_rust_belt_michigan = {
+
+		icon = GFX_decision_generic_decision
+
+		priority = 2
+
+		fire_only_once = yes
+		
+		cost = 50
+		
+		visible = {
+			original_tag = USA
+		}
+
+		ai_will_do = {
+			factor = 75
+		}
+		
+		days_remove = 21
+		
+		remove_effect = {
+			393 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			set_country_flag = rust_belt_completed_michigan_decision
+		}
+		
+	}
+	
+	USA_rust_belt_revive = {
+
+		icon = GFX_decision_generic_decision
+
+		priority = 1
+
+		fire_only_once = yes
+		
+		cost = 50
+		
+		visible = {
+			original_tag = USA
+		}
+
+		available = {
+			has_country_flag = rust_belt_completed_new_york_decision
+			has_country_flag = rust_belt_completed_ohio_decision
+			has_country_flag = rust_belt_completed_penny_decision
+			has_country_flag = rust_belt_completed_indiana_decision
+			has_country_flag = rust_belt_completed_michigan_decision
+
+		}
+
+		ai_will_do = {
+			factor = 75
+		}
+		
+		days_remove = 0
+		
+		complete_effect = {
+			add_stability = 0.05
+			custom_effect_tooltip = will_improve_economic_stagnation_tooltip
+			USA_improve_economic_stagnation = yes
+			clr_country_flag = rust_belt_time
+			set_country_flag = USA_revived_the_rust_belt
+		}
+		
+	}
+}

@@ -1,3 +1,129 @@
+sov_debug = {
+
+	sov_yazov = {
+	
+		icon = generic_prepare_civil_war
+	
+		allowed = {
+			original_tag = SOV
+			is_debug = yes
+
+		}
+		available = {
+		original_tag = SOV
+			is_debug = yes
+
+		}
+		visible = {
+			original_tag = SOV
+			is_debug = yes
+		}
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+		retire_country_leader = yes
+		promote_character = SOV_dmitry_yazov
+		load_focus_tree = ussr_yazov_focus
+		news_event = { id = old_times_news.3 days = 1 }
+		}	
+	}
+	
+	sov_pugo = {
+	
+		icon = generic_prepare_civil_war
+	
+		allowed = {
+			original_tag = SOV
+			is_debug = yes
+
+		}
+		available = {
+		original_tag = SOV
+			is_debug = yes
+
+		}
+		visible = {
+			original_tag = SOV
+			is_debug = yes
+		}
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+		retire_country_leader = yes
+		promote_character = SOV_boris_pugo
+		load_focus_tree = ussr_pugo_focus
+		news_event = { id = old_times_news.4 days = 1 }
+		}	
+	}
+	
+	sov_putin = {
+	
+		icon = generic_prepare_civil_war
+	
+		allowed = {
+			original_tag = SOV
+			is_debug = yes
+
+		}
+		available = {
+		original_tag = SOV
+			is_debug = yes
+
+		}
+		visible = {
+			original_tag = SOV
+			is_debug = yes
+		}
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+		retire_country_leader = yes
+		promote_character = SOV_vladimir_putin
+		load_focus_tree = ussr_putin_focus
+		news_event = { id = old_times_news.6 days = 1 }
+		}	
+	}
+	
+	sov_gorbachev = {
+	
+		icon = generic_prepare_civil_war
+	
+		allowed = {
+			original_tag = SOV
+			is_debug = yes
+
+		}
+		available = {
+		original_tag = SOV
+			is_debug = yes
+
+		}
+		visible = {
+			original_tag = SOV
+			is_debug = yes
+		}
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+		retire_country_leader = yes
+		promote_character = SOV_mikhail_gorbachev
+		load_focus_tree = ussr_gorby_focus
+		news_event = { id = old_times_news.5 days = 1 }
+		}	
+	}
+}
 sov_culture_war = {
 
 	sov_culture_war_con_supress_the_smuggling_of_western_tv_media = {

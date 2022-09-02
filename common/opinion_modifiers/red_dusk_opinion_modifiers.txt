@@ -9,6 +9,9 @@ opinion_modifiers = {
 	USA_ridiculous_tariffs_opinion = {
 		value = -50
 	}
+	USA_call_to_arms_opinion = {
+		value = 20
+	}
 	
 	IRQ_alternate_trade_partner_opinion = {
 		trade = yes

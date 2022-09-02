@@ -195,12 +195,19 @@
  USA_congress_party_attitudes_descriptions:0 "§CLoyal§! parties will offer their full support to pass any legislation, however, you will have to keep their interests in mind too.\n\n§GFriendly§! parties are receptive to supporting your ideas, however, you shouldn't rely on them to push through unpopular legislation.\n\n§gNeutral§! parties are neither for nor against you. Unless you're voting on a topic they feel strongly about, they can safely be ignored.\n\n§YUnfriendly§! parties are unlikely to support you, unless the proposed legislation is universally popular.\n\n§RHostile§! parties will never support you. Some radical members might even resort to violence against you and your allies."
  
  USA_the_rust_belt:0 "The Rust Belt"
+ USA_the_rust_belt_desc:0 "The Rust Belt, once America’s industrial heartlands, has fallen recently on desperate times; the struggles for jobs, for resources, even for simply the capital to keep things running has turned the region from the center of American production into a shell of its former self, and so far, it’s dragging the rest of the country down with it. President Bush has decided the best way to deal with the issue is to start subsidizing the industries in the region, using tax-breaks and stimulus payments to revive the region’s wasted capacity to produce new goods. Rebuilding the factories means new jobs, new jobs need more workers, and more Americans working means the more we can get the economy rolling."
  USA_rust_belt_new_york:0 "New York, New Steel"
  USA_rust_belt_ohio:0 "Ohio, Automobile Central"
  USA_rust_belt_pennsyvlania:0 "Black Mountains of Pennsylvania"
  USA_rust_belt_indiana:0 "Indiana Ingenuity"
  USA_rust_belt_michigan:0 "Michigan Manufacturing"
  USA_rust_belt_revive:0 "Revive the Rust Belt"
+ 
+ USA_americanism_decisions:0 "§BAme§Wrica§Rnism§!"
+ USA_americanism_decisions_desc:0 "The American way of life is rooted in the belief of the power of the individual and their capabilities, in steadfast morality and social neighborliness, in the strength of the free market, of democracy, and most importantly, the American nation. Americanism and the belief in the greatness of our country is one of the most valuable aspirations a man could achieve, and we would be fools not to celebrate it: we should begin to hand out more awards, medals, scholarships, and government sponsorships for America’s people to go out and live by these standards, so we may prepare the next generation, and the next, and so on and so forth, to live the American way!"
+ USA_americanism_presidential_partiot_tour:0 "Presidential Patriot Tour"
+ USA_americanism_give_out_scholarships:0 "Give Out Scholarships"
+ USA_americanism_awards_for_the_workers:0 "Awards for the Workers"
  
  ##SOUTH AFRICA###
 

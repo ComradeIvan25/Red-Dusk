@@ -436,7 +436,149 @@ ideas = {
 			}
 		}
 		
+		USA_social_soldiering_4 = {
+			name = USA_social_soldiering_name
+
+			removal_cost = -1
+
+			#picture = 
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			stability_factor = 0.1
+			monthly_population = 0.1
+			production_speed_buildings_factor = 0.10
+			consumer_goods_factor = -0.05
+			}
+		}
+		
+		USA_social_soldiering_final = {
+			name = USA_social_soldiering_name
+
+			removal_cost = -1
+
+			#picture = 
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			stability_factor = 0.2
+			monthly_population = 0.1
+			production_speed_buildings_factor = 0.10
+			consumer_goods_factor = -0.05
+			political_power_factor = 0.05
+			democratic_drift = 0.25
+			communism_drift = -0.05
+			}
+		}
+		
+		USA_second_amendment_bush_buff = {
+			name = USA_second_amendment_name
+
+			removal_cost = -1
+
+			picture = USA_second_amendment_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				resistance_growth_on_our_occupied_states = 1.0
+				compliance_growth_on_our_occupied_states = -0.5
+				army_core_attack_factor = 0.25
+				army_core_defence_factor = 0.25
+				recruitable_population_factor = -0.15
+			}
+		}
+			
+		USA_research_reluctancy = {
+				name = USA_research_reluctancy_name
+
+				removal_cost = -1
+
+				#picture = 
+
+				allowed = {
+					always = no
+				}
+
+				research_bonus = {
+					infantry_weapons = -0.20
+					artillery = -0.20
+					motorized_equipment = -0.10
+					armor = -0.10
+					naval_equipment = -0.15
+					air_equipment = -0.15
+				}
+				
+				modifier = {
+				production_factory_efficiency_gain_factor = 0.20
+				}
+				
+		}
+		
+		USA_military_spending_2 = {
+			name = USA_military_spending_name
+
+			removal_cost = -1
+
+			picture = USA_military_spending_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				economy_cost_factor = 1.0
+				mobilization_laws_cost_factor = 1.5
+				military_leader_cost_factor = 1.5
+				production_speed_arms_factory_factor = 0.1
+			}
+		}
+		
+		USA_military_spending_3 = {
+			name = USA_military_spending_name
+
+			removal_cost = -1
+
+			picture = USA_military_spending_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				economy_cost_factor = 1.0
+				mobilization_laws_cost_factor = 1.5
+				military_leader_cost_factor = 1.25
+				production_speed_arms_factory_factor = 0.05
+			}
+		}
+		
+		USA_misdirected_foreign_policy_2 = {
+			name = USA_misdirected_foreign_policy_name
+
+			removal_cost = -1
+
+			picture = USA_misdirected_foreign_policy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				custom_modifier_tooltip = USA_misdirected_foreign_policy_tooltip_2
+			}
+
+		}
 	}
+
 	
 	hidden_ideas = {
 	

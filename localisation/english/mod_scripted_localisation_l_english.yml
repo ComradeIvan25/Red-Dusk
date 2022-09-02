@@ -1,5 +1,6 @@
 ﻿l_english:          
  USA_misdirected_foreign_policy_tooltip:0 "£trigger_no Can not declare war\n£trigger_no Can not send volunteers\n§RThis has an impact on our foreign relations§!"
+ USA_misdirected_foreign_policy_tooltip_2:0 "£trigger_no Can not declare war\n§RThis has an impact on our foreign relations§!"
  soviet_purge_tooltip:0 "§RUnlocks Decisions To Purge The Enemies Of Our Union§!"
  vlad_k_purged:0 "Has purged Vladimir Kryuchkov"
  vsp_purged:0 "Has purged Valentin Sergeyevich Pavlov"
@@ -221,9 +222,9 @@
  sov_refs_succeeds:0 "§GReferendums Have Succeeded\n\n§!"
  sov_referandums_happened:0 "§YReferendums Have Been Hold\n\n§!"
  SOV_referandums_decisions_start:0 "§YReferendums Have Been Organized\n\n§!"
- ###### BY ADDING "\n\n" AND ADDING "§!" RIGHT AFTER IT AT THE END OF THE LOC WILL MAKE IT LOOK MORE CLEAN WHEN USING COLOUR -durango#######
+ ###### BY ADDING "\n\n" AND ADDING "§!" RIGHT AFTER IT AT THE END OF THE LOC WILL (sometimes,mostly in decisions i think) MAKE IT LOOK MORE CLEAN WHEN USING COLOUR -durango#######
  
- ########     \n\n§       ######
+ ########     \n\n§!       ######
 
 ## USA ##
 
@@ -251,10 +252,13 @@
  dem_candicate_will_become_president_on_jan20:0 "§Democrat Candidate will become President on Jan 20.§!"
  reform_candicate_will_become_president_on_jan20:0 "§GReformist Candidate will become President on Jan 20.§!"
  
+ USA_unlocks_diplomacy:0 "§GUnlocks the Diplomatic Tree§!"
+ 
  reform_party_congress_attitude_changes_neutral:0 "The Reform Party will be §gNeutral§!"
  
- will_improve_economic_stagnation_tooltip:0 "§GThis will improve the §Y"Economic Stagnation"§! §Gnational spirit.§!"
- will_improve_bush_family_legacy_tooltip:0 "§GThis will improve the §Y"Bush Family Legacy"§! §Gnational spirit.§!"
+ will_improve_economic_stagnation_tooltip:0 "§GThis will improve the §Y"Economic Stagnation" §Gnational spirit.§!"
+ will_improve_bush_family_legacy_tooltip:0 "§GThis will improve the §Y"Bush Family Legacy" §Gnational spirit.§!"
+ will_improve_social_soldiering_tooltip:0 "§GThis will improve the §Y"Social Soldiering" §Gnational spirit.§!"
  
  rust_belt_completed_new_york_decision:0 "Completed the §Y"New York, New Steel"§! decision."
  rust_belt_completed_ohio_decision:0 "Completed the §Y"Ohio, Automobile Central"§! decision."
@@ -263,6 +267,8 @@
  rust_belt_completed_michigan_decision:0 "Completed the §Y"Michigan Manufacturing"§! decision."
  
  USA_revived_the_rust_belt:0 "§YRevived the Rust Belt§!"
+ 
+ USA_bush_dies_tooltip:0 "§RGeorge Bush dies§!"
  ## SOUTH AFRICA ##
  
  SAF_decrases_the_figthing_strength_of_rebels_by_5:0 "§GDecrases The Fighting Strength Of The Rebels by 5 percent§\n\n"

@@ -104,8 +104,8 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			custom_effect_tooltip = will_improve_bush_family_legacy_tooltip
 			USA_improve_bush_family_legacy = yes
+			custom_effect_tooltip = will_improve_bush_family_legacy_tooltip
 		}
 	}
 	
@@ -259,8 +259,8 @@
 		continue_if_invalid = no
 		completion_reward = {
 			add_political_power = 50
-			custom_effect_tooltip = will_improve_economic_stagnation_tooltip
 			USA_improve_economic_stagnation = yes
+			custom_effect_tooltip = will_improve_economic_stagnation_tooltip
 		}
 	}
 	
@@ -285,8 +285,8 @@
 		completion_reward = {
 			add_political_power = 50
 			add_stability = 0.05
-			custom_effect_tooltip = will_improve_bush_family_legacy_tooltip
 			USA_improve_bush_family_legacy = yes
+			custom_effect_tooltip = will_improve_bush_family_legacy_tooltip
 		}
 	}
 	
@@ -309,10 +309,10 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			custom_effect_tooltip = will_improve_bush_family_legacy_tooltip
 			USA_improve_bush_family_legacy = yes
-			custom_effect_tooltip = will_improve_economic_stagnation_tooltip
+			custom_effect_tooltip = will_improve_bush_family_legacy_tooltip
 			USA_improve_economic_stagnation = yes
+			custom_effect_tooltip = will_improve_economic_stagnation_tooltip
 		}
 	}
 	
@@ -335,8 +335,8 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			custom_effect_tooltip = will_improve_economic_stagnation_tooltip
 			USA_improve_economic_stagnation = yes
+			custom_effect_tooltip = will_improve_economic_stagnation_tooltip
 		}
 	}
 	
@@ -710,6 +710,7 @@
 		continue_if_invalid = no
 		completion_reward = {
 		add_ideas = USA_social_soldiering_1
+		
 		}
 	}
 	
@@ -733,20 +734,8 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			if = {
-			limit = {has_idea = USA_social_soldiering_1}
-				swap_ideas = {
-				remove_idea = USA_social_soldiering_1
-				add_idea = USA_social_soldiering_2
-				}
-			}
-			else_if = {
-			limit = {has_idea = USA_social_soldiering_4}
-				swap_ideas = {
-				remove_idea = USA_social_soldiering_4
-				add_idea = USA_social_soldiering_3
-				}
-			}	
+			USA_improve_social_soldiering = yes
+			custom_effect_tooltip = will_improve_social_soldiering_tooltip
 		}
 	}
 	
@@ -760,7 +749,7 @@
 		
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -770,7 +759,14 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-
+			add_timed_idea = {
+				idea = USA_research_reluctancy
+				days = 365
+			}
+			swap_ideas = {
+			remove_idea = USA_military_spending
+			add_idea = USA_military_spending_2
+			}
 		}
 	}
 	
@@ -794,20 +790,8 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			if = {
-			limit = {has_idea = USA_social_soldiering_1}
-				swap_ideas = {
-				remove_idea = USA_social_soldiering_1
-				add_idea = USA_social_soldiering_4
-				}
-			}
-			else_if = {
-			limit = {has_idea = USA_social_soldiering_2}
-				swap_ideas = {
-				remove_idea = USA_social_soldiering_2
-				add_idea = USA_social_soldiering_3
-				}
-			}
+			USA_improve_social_soldiering = yes
+			custom_effect_tooltip = will_improve_social_soldiering_tooltip
 		}
 	}
 	
@@ -818,6 +802,7 @@
 		y = 5
 
 		prerequisite = { focus = USA_bush_no_drugs_in_my_america }
+		available = {has_completed_focus = USA_bush_heir_to_a_legacy has_completed_focus = USA_bush_bastion_of_democracy}
 		
 		mutually_exclusive = { }
 		
@@ -831,7 +816,19 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_political_power = 50
+			every_country = {
+					limit = {
+						has_government = democratic
+					}
+					USA = {
+						add_opinion_modifier = { target = PREV modifier = USA_call_to_arms_opinion }
+					}
+			}
+			swap_ideas = {
+			remove_idea = USA_military_spending_2
+			add_idea = USA_military_spending_3
+			}
 		}
 	}
 	
@@ -842,6 +839,7 @@
 		y = 6
 
 		prerequisite = { focus = USA_bush_over_there }
+		available = {NOT = {has_idea = USA_research_reluctancy}}
 		
 		mutually_exclusive = { }
 		
@@ -855,7 +853,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			remove_ideas = USA_military_spending_3
 		}
 	}
 	
@@ -869,7 +867,7 @@
 		
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -879,7 +877,14 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_political_power = 200
+			swap_ideas = {
+			remove_idea = USA_misdirected_foreign_policy
+			add_idea = USA_misdirected_foreign_policy_2
+			}
+			set_rule = {
+				can_send_volunteers = yes
+			}
 		}
 	}
 	
@@ -903,7 +908,25 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			if = {
+				limit = {
+					OR = {
+						ARM = {is_subject = yes }
+						NOT = { country_exists = ARM }
+					}
+				}
+				custom_effect_tooltip = USA_unlocks_diplomacy
+			}
+			if = {
+				limit = {
+					OR = {
+						ARM = {is_subject = no }
+						country_exists = ARM
+					}
+				}
+				custom_effect_tooltip = USA_unlocks_diplomacy
+				country_event = {id = usa_bush.5}
+			}
 		}
 	}
 	
@@ -917,7 +940,7 @@
 		
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 2
 		ai_will_do = {
 			factor = 1
 		}
@@ -927,8 +950,8 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			custom_effect_tooltip = will_improve_bush_family_legacy_tooltip
 			USA_improve_bush_family_legacy = yes
+			custom_effect_tooltip = will_improve_bush_family_legacy_tooltip
 		}
 	}
 	
@@ -942,7 +965,7 @@
 		
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 2
 		ai_will_do = {
 			factor = 1
 		}
@@ -952,7 +975,10 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			swap_ideas = {
+			remove_idea = USA_second_amendment
+			add_idea = USA_second_amendment_bush_buff	
+			}
 		}
 	}
 	
@@ -966,7 +992,7 @@
 		
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -976,7 +1002,19 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			USA_improve_bush_family_legacy = yes
+			custom_effect_tooltip = will_improve_bush_family_legacy_tooltip
+			add_resource = {
+				type = oil
+				amount = 50
+				state = 375
+			}
+			add_resource = {
+				type = oil
+				amount = 50
+				state = 463
+			}
+			country_event = {id = usa_bush.4}
 		}
 	}
 	
@@ -990,7 +1028,7 @@
 		
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -1000,7 +1038,10 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			USA_improve_social_soldiering = yes
+			custom_effect_tooltip = will_improve_social_soldiering_tooltip
+			unlock_decision_category_tooltip = USA_americanism_decisions
+			set_country_flag = americanism_decisions_time
 		}
 	}
 	
@@ -1016,7 +1057,7 @@
 		
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}
@@ -1026,7 +1067,10 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_stability = 0.10
+			add_political_power = 250
+			USA_improve_bush_family_legacy = yes
+			custom_effect_tooltip = will_improve_bush_family_legacy_tooltip
 		}
 	}
 	

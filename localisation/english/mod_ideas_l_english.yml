@@ -101,6 +101,9 @@
  USA_social_soldiering_name:0 "Social Soldiering"
  USA_social_soldiering_name_desc:0 "The Republican party has always prided itself on being a party of social works; a party known for being strongly pro-American, pro-Freedom, and pro-Progress. What the Democrats and the Reformists call “progress” is a barbaric degradation of American values: we cannot tolerate this, and must progress America into retaking those good old fashioned values on which we used to rely!"
  
+ USA_research_reluctancy_name:0 "Research Reluctancy"
+ USA_research_reluctancy_name_desc:0 "Military spending is well and good and all, and it’s a wise policy to support our men overseas, but we cannot expect to prevail by inefficiently spending that budget; we need to start reapportioning funds, moving away from research grants and excess, and instead focusing on standardization and modernization."
+ 
  PRC_legacy_xiaoping_reform_name:0 "Legacy of Deng Xiaoping's Reforms"
  PRC_legacy_xiaoping_reform_name_desc:0 ""
  PRC_third_taiwan_strait_crisis_idea_name:0 "Third Taiwan Strait Crisis"

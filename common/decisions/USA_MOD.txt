@@ -221,3 +221,82 @@ USA_the_rust_belt = {
 		
 	}
 }
+
+USA_americanism_decisions = {
+
+	USA_americanism_presidential_partiot_tour = {
+
+		icon = GFX_decision_generic_decision
+
+		priority = 10
+
+		fire_only_once = no
+		
+		cost = 75
+		
+		visible = {
+			original_tag = USA
+		}
+		
+		modifier = {
+		political_power_factor = 0.20
+		}
+		
+		days_remove = 150
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+	
+	USA_americanism_give_out_scholarships = {
+
+		icon = GFX_decision_generic_decision
+
+		priority = 10
+
+		fire_only_once = no
+		
+		cost = 150
+		
+		visible = {
+			original_tag = USA
+		}
+		
+		modifier = {
+		research_speed_factor = 0.10
+		}
+		
+		days_remove = 300
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+	
+	USA_americanism_awards_for_the_workers = {
+
+		icon = GFX_decision_generic_decision
+
+		priority = 10
+
+		fire_only_once = no
+		
+		cost = 300
+		
+		visible = {
+			original_tag = USA
+		}
+		
+		modifier = {
+		production_speed_buildings_factor = 0.20
+		}
+		
+		days_remove = 300
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+}

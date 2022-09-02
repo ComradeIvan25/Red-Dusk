@@ -89,3 +89,45 @@ USA_improve_economic_stagnation = {
 
 
 }
+
+USA_improve_social_soldiering = {
+	
+	if = {
+		limit = {
+		has_idea = USA_social_soldiering_1
+		}
+		swap_ideas = {
+			remove_idea = USA_social_soldiering_1
+			add_idea = USA_social_soldiering_2
+		}
+	}
+	else = {
+		limit = {
+		has_idea = USA_social_soldiering_2
+		}
+		swap_ideas = {
+			remove_idea = USA_social_soldiering_2
+			add_idea = USA_social_soldiering_3
+		}
+	}
+	else_if = {
+		limit = {
+		has_idea = USA_social_soldiering_3
+		}
+		swap_ideas = {
+			remove_idea = USA_social_soldiering_3
+			add_idea = USA_social_soldiering_4
+		}
+	}
+	else_if = {
+		limit = {
+		has_idea = USA_social_soldiering_4
+		}
+		swap_ideas = {
+			remove_idea = USA_social_soldiering_4
+			add_idea = USA_social_soldiering_final
+		}
+	}
+
+
+}

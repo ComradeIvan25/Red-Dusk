@@ -162,3 +162,26 @@ defined_text = {
 		localization_key = USA_loc_key_ruling_party_all
 	}
 }
+
+defined_text = {
+	name = USA_bush_visiting_armenia_focus
+	text = {
+		trigger = {
+			OR = {
+				ARM = {is_subject = yes }
+				NOT = { country_exists = ARM }
+			}
+		}
+		localization_key = USA_bush_visiting_armenia_focus_armenia_ded_loc_key
+	}
+	text = {
+		trigger = {
+			OR = {
+				ARM = {is_subject = no }
+				country_exists = ARM
+			}
+		}
+		localization_key = USA_bush_visiting_armenia_focus_armenia_alive_loc_key
+	}
+
+}

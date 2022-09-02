@@ -379,6 +379,49 @@ country_event = { #Walk Down Wall Street#
 	}
 }
 
+country_event = { #Oil on the Risers#
+	id = usa_bush.4
+	title = usa_bush.4.t
+	desc = usa_bush.4.d
+	picture = GFX_report_event_USA_2000
+	
+	is_triggered_only = yes
+	
+	#k#
+	option = {
+		name = usa_bush.4.a
+
+	}
+}
+
+country_event = { #Terror in Yerevan#
+	id = usa_bush.5
+	title = usa_bush.5.t
+	desc = usa_bush.5.d
+	picture = GFX_report_event_USA_2000
+	
+	is_triggered_only = yes
+	
+	#bush survives#
+	option = {
+		name = usa_bush.5.a
+		add_political_power = -1
+	}
+	
+	#bush gets trolled by the grenade#
+	option = {
+		name = usa_bush.5.b
+		custom_effect_tooltip = USA_bush_dies_tooltip
+		hidden_effect = {
+		retire_country_leader = yes
+		}
+		promote_character = USA_dick_cheney
+		add_stability = -0.20
+		
+		
+	}
+}
+
 
  ###SAF NEEDS HELP###
 

@@ -254,7 +254,11 @@
  
  USA_unlocks_diplomacy:0 "§GUnlocks the Diplomatic Tree§!"
  
- reform_party_congress_attitude_changes_neutral:0 "The Reform Party will be §gNeutral§!"
+ reform_party_congress_attitude_changes_friendly:0 "The Reform Party will have a §GFriendly Attitude§!"
+ reform_party_congress_attitude_changes_neutral:0 "The Reform Party will have a §gNeutral Attitude§!"
+ reform_party_congress_attitude_is_neutral:0 "The Reform Party has a §gNeutral Attitude§!"
+ 
+ USA_new_ministers_will_be_available:0 "§GNew Ministers will be Available.§!"
  
  will_improve_economic_stagnation_tooltip:0 "§GThis will improve the §Y"Economic Stagnation" §Gnational spirit.§!"
  will_improve_bush_family_legacy_tooltip:0 "§GThis will improve the §Y"Bush Family Legacy" §Gnational spirit.§!"

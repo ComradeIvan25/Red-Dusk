@@ -910,3 +910,11 @@ TUV = {
 	color = rgb { 0 156 222 }
 	color_ui = rgb { 0 156 222 }
 }
+RCG = {
+	color = rgb { 255 55 48 }
+	color_ui = rgb { 255 55 48 }
+}
+CMR = {
+	color = rgb { 175  140  107 }
+	color_ui = rgb { 175  140  107 }
+}

@@ -275,6 +275,55 @@ ideas = {
 			}
 		}
 		
+		USA_republicans_and_the_internet_fre_buff = {
+			name = USA_republicans_and_the_internet_name
+
+			removal_cost = -1
+
+			#picture = 
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			research_speed_factor = -0.10
+			}
+		}
+		
+		USA_republicans_and_the_internet_pat_buff = {
+			name = USA_republicans_and_the_internet_name
+
+			removal_cost = -1
+
+			#picture = 
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			research_speed_factor = -0.05
+			consumer_goods_factor = 0.1
+			}
+		}
+		
+		USA_republicans_and_the_internet_pat_buff_2 = {
+			name = USA_republicans_and_the_internet_name
+
+			removal_cost = -1
+
+			#picture = 
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			consumer_goods_factor = 0.1
+			}
+		}
+		
 		USA_bush_family_legacy = {
 			name = USA_bush_family_legacy_name
 
@@ -364,6 +413,25 @@ ideas = {
 			}
 		}
 		
+		USA_bush_family_legacy_5 = {
+			name = USA_bush_family_legacy_name
+
+			removal_cost = -1
+
+			#picture = 
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			political_power_factor = 0.20
+			stability_factor = 0.0125
+			consumer_goods_factor = -0.05
+			conscription_factor = 0.02
+			}
+		}
+		
 		USA_bush_family_legacy_final = {
 			name = USA_bush_family_legacy_name
 
@@ -377,7 +445,7 @@ ideas = {
 
 			modifier = {
 			political_power_factor = 0.35
-			stability_factor = 0.01
+			stability_factor = 0.0175
 			consumer_goods_factor = -0.05
 			conscription_factor = 0.02
 			stability_weekly_factor = 0.01
@@ -576,6 +644,175 @@ ideas = {
 				custom_modifier_tooltip = USA_misdirected_foreign_policy_tooltip_2
 			}
 
+		}
+		
+		USA_patriot_act_lar = {
+			name = USA_patriot_act_name
+
+			removal_cost = -1
+
+			#picture = USA_misdirected_foreign_policy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				decryption = 2
+				operative_slot = 1
+			}
+
+		}
+		
+		USA_patriot_act_lar_2 = {
+			name = USA_patriot_act_name
+
+			removal_cost = -1
+
+			#picture = USA_misdirected_foreign_policy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				decryption = 2
+				encryption = 2
+				operative_slot = 1
+				agency_upgrade_time = 0.33
+			}
+
+		}
+		
+		USA_the_nsa_lar = {
+			name = USA_the_nsa_name
+
+			removal_cost = -1
+
+			#picture = USA_misdirected_foreign_policy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				decryption = 2
+				encryption = 2
+				operative_slot = 1
+				agency_upgrade_time = 0.33
+				political_power_factor = 0.05
+				stability_factor = -0.05
+			}
+
+		}
+		
+		USA_patriot_act = {
+			name = USA_patriot_act_name
+
+			removal_cost = -1
+
+			#picture = USA_misdirected_foreign_policy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				encryption_factor = 0.2
+				decryption_factor = 0.2
+				political_power_gain = 0.1
+			}
+
+		}
+		
+		USA_patriot_act_2 = {
+			name = USA_patriot_act_name
+
+			removal_cost = -1
+
+			#picture = USA_misdirected_foreign_policy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				encryption_factor = 0.35
+				decryption_factor = 0.35
+				political_power_gain = 0.15
+			}
+
+		}
+		
+		USA_the_nsa = {
+			name = USA_the_nsa_name
+
+			removal_cost = -1
+
+			#picture = USA_misdirected_foreign_policy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				encryption_factor = 0.35
+				decryption_factor = 0.35
+				political_power_gain = 0.15
+				political_power_factor = 0.05
+				stability_factor = -0.05
+			}
+
+		}
+		
+		USA_overhauled_border_security = {
+			name = USA_overhauled_border_security_name
+
+			removal_cost = -1
+
+			#picture = USA_misdirected_foreign_policy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_bunker_factor = 0.2
+			}
+
+		}
+		
+		USA_overhauled_immigration_laws = {
+			name = USA_overhauled_immigration_laws_name
+
+			removal_cost = -1
+
+			#picture = USA_misdirected_foreign_policy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				monthly_population = 0.2
+			}
+
+		}
+		
+		USA_three_party_primacy_2 = {
+			name = USA_three_party_primacy_name
+
+			removal_cost = -1
+
+			picture = USA_three_party_primacy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_gain = -0.05
+			}
 		}
 	}
 

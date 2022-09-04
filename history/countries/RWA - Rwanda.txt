@@ -3,6 +3,7 @@
 set_convoys = 0
 
 recruit_character = RWA_paul_kagame
+recruit_character = RWA_occupation_authority
 
 add_ideas = COG_africas_world_war
 

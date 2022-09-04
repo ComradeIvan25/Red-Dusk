@@ -14,5 +14,20 @@ characters = {
 			id = -1
 		}
 	}
+	
+	RWA_occupation_authority = {
+		name = "Occupation Authority"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/COG/occupation_authority.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
 
 }

@@ -61,7 +61,74 @@ characters = {
 			id = -1
 		}
 	}
+	
+	## Advisors ##
+	
+	## Bush ##
+		
+	USA_tom_ridge = {
+		name = "Tom Ridge"
+		portraits = {
+			civilian = {
+				small = "gfx/leaders/USA/tom_ridge.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = USA_tom_ridge
+			allowed = {
+				original_tag = USA
+				has_completed_focus = USA_bush_thirteen_dominant_decades
+			}
+			traits = {
+				secretary_of_homeland_security 
+			}
+		}
+	}	
 
+	USA_paul_o_neill = {
+		name = "Paul O’Neill"
+		portraits = {
+			civilian = {
+				small = "gfx/leaders/USA/paul_o_neill.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = USA_paul_o_neill
+			allowed = {
+				original_tag = USA
+				has_completed_focus = USA_bush_thirteen_dominant_decades
+			}
+			traits = {
+				secretary_of_treasury 
+			}
+		}
+	}	
+	
+	USA_colin_powell = {
+		name = "Colin Powell"
+		portraits = {
+			civilian = {
+				small = "gfx/leaders/USA/colin_powell.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = USA_colin_powell
+			allowed = {
+				original_tag = USA
+				has_completed_focus = USA_bush_thirteen_dominant_decades
+			}
+			traits = {
+				secretary_of_state 
+			}
+		}
+	}	
+	
 	## Generals ##
 
 	USA_william_kernan = {

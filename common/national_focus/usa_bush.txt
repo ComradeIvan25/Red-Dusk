@@ -455,7 +455,7 @@
 
 		mutually_exclusive = { focus = USA_bush_the_freedom_of_internet_privacy_act }
 		
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}
@@ -465,6 +465,19 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			swap_ideas = {
+			remove_idea = USA_republicans_and_the_internet
+			add_idea = USA_republicans_and_the_internet_pat_buff
+			}
+			if = { 
+			limit = { has_dlc = "La Resistance" }
+			add_ideas = USA_patriot_act_lar
+			}
+			
+			else_if = { 
+			limit = { NOT = {has_dlc = "La Resistance" }}
+			add_ideas = USA_patriot_act
+			}
 
 		}
 	}
@@ -479,7 +492,7 @@
 
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 4
 		ai_will_do = {
 			factor = 1
 		}
@@ -489,7 +502,21 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-
+			if = { 
+			limit = { has_dlc = "La Resistance" }
+				swap_ideas = {
+				remove_idea = USA_patriot_act_lar
+				add_idea = USA_patriot_act_lar_2
+				}
+			}
+			
+			else_if = { 
+			limit = { NOT = {has_dlc = "La Resistance" }}
+				swap_ideas = {
+				remove_idea = USA_patriot_act
+				add_idea = USA_patriot_act_2
+				}
+			}
 		}
 	}
 	
@@ -503,7 +530,7 @@
 
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}
@@ -513,7 +540,25 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-
+			swap_ideas = {
+			remove_idea = USA_republicans_and_the_internet_pat_buff
+			add_idea = USA_republicans_and_the_internet_pat_buff_2
+			}
+			if = {
+			limit = { has_dlc = "La Resistance" }
+				swap_ideas = {
+				remove_idea = USA_patriot_act_lar_2
+				add_idea = USA_the_nsa_lar
+				}
+			}
+			
+			else_if = { 
+			limit = { NOT = {has_dlc = "La Resistance" }}
+				swap_ideas = {
+				remove_idea = USA_patriot_act_2
+				add_idea = USA_the_nsa
+				}
+			}
 		}
 	}
 	
@@ -527,7 +572,7 @@
 
 		mutually_exclusive = { focus = USA_bush_the_patriot_act }
 		
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}
@@ -537,7 +582,14 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-
+			swap_ideas = {
+			remove_idea = USA_republicans_and_the_internet
+			add_idea = USA_republicans_and_the_internet_fre_buff
+			}
+			
+			USA_improve_bush_family_legacy = yes
+			custom_effect_tooltip = will_improve_bush_family_legacy_tooltip
+			
 		}
 	}
 	
@@ -551,7 +603,7 @@
 
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 4
 		ai_will_do = {
 			factor = 1
 		}
@@ -561,7 +613,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-
+		remove_ideas = USA_republicans_and_the_internet_fre_buff
 		}
 	}
 	
@@ -575,7 +627,7 @@
 
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}
@@ -585,7 +637,11 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-
+			add_tech_bonus = {
+				bonus = 2.0
+				uses = 10
+				category = electronics
+			}
 		}
 	}
 	
@@ -599,7 +655,7 @@
 		
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -609,7 +665,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-
+			country_event = {id = usa_bush.6}
 		}
 	}
 	
@@ -623,7 +679,7 @@
 		
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 2
 		ai_will_do = {
 			factor = 1
 		}
@@ -633,7 +689,38 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-
+			375 = {
+			add_manpower = 200000
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			378 = {
+			add_manpower = 200000
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			376 = {
+			add_manpower = 175000
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			377 = {
+			add_manpower = 175000
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -644,10 +731,15 @@
 		y = 7
 
 		prerequisite = { focus = USA_bush_immigrant_questions }
-		
+		available = {
+			custom_trigger_tooltip = {
+			tooltip = reform_party_congress_attitude_is_neutral
+			check_variable = {usa_reform_attitude_value = 0}
+			}
+		}
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 2
 		ai_will_do = {
 			factor = 1
 		}
@@ -657,7 +749,13 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-
+		custom_effect_tooltip = reform_party_congress_attitude_changes_friendly
+		set_variable = {usa_reform_attitude_value = 1}
+			swap_ideas = {
+			remove_idea = USA_three_party_primacy_1
+			add_idea = USA_three_party_primacy_2
+			}
+			country_event = {id = usa_bush.7}
 		}
 	}
 	
@@ -672,7 +770,7 @@
 		
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -682,7 +780,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-
+		custom_effect_tooltip = USA_new_ministers_will_be_available
 		}
 	}
 	

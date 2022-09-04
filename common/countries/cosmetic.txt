@@ -200,3 +200,16 @@ SRL_lost = {
 	color = rgb { 178 10 30 }
 	color_ui = rgb { 193 80 0 }
 }
+
+UGA_occupied = {
+	color = rgb { 106 111 145 }
+	color_ui = rgb { 116 111 145 }
+}
+RWA_occupied = {
+	color = rgb { 75 84 145 }
+	color_ui = rgb { 80 84 145 }
+}
+BRD_occupied = {
+	color = rgb { 75 84 113 }
+	color_ui = rgb { 80 84 113 }
+}

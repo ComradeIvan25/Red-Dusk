@@ -42,6 +42,15 @@ USA_improve_bush_family_legacy = {
 		}
 		swap_ideas = {
 			remove_idea = USA_bush_family_legacy_4
+			add_idea = USA_bush_family_legacy_5
+		}
+	}
+	else_if = {
+		limit = {
+		has_idea = USA_bush_family_legacy_5
+		}
+		swap_ideas = {
+			remove_idea = USA_bush_family_legacy_5
 			add_idea = USA_bush_family_legacy_final
 		}
 	}

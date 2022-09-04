@@ -2385,6 +2385,128 @@ on_actions = {
 						
 					}
 					
+					### Uganda VS Congo - Congo WINS ###
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = COG
+							}
+							ROOT = {
+								original_tag = UGA
+							}
+						}
+
+						COG = {
+							white_peace = ROOT
+						}
+	
+						COG = {
+							puppet = UGA
+						}
+						
+						UGA = {
+						retire_country_leader = yes
+						promote_character = UGA_occupation_authority
+							set_politics = {
+								ruling_party = neutrality
+								last_election = "1936.1.1"
+								election_frequency = 48
+								elections_allowed = yes
+							}
+							set_cosmetic_tag = UGA_occupied
+							set_popularities = {
+								democratic = 10
+								fascism = 30
+								communism = 0
+								neutrality = 60
+							}
+							replace_alignment_to_SOV = yes
+						
+						}
+					}
+					
+					### Rwanda VS Congo - Congo WINS ###
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = COG
+							}
+							ROOT = {
+								original_tag = RWA
+							}
+						}
+
+						COG = {
+							white_peace = ROOT
+						}
+	
+						COG = {
+							puppet = RWA
+						}
+						
+						RWA = {
+						retire_country_leader = yes
+						promote_character = RWA_occupation_authority
+							set_politics = {
+								ruling_party = neutrality
+								last_election = "1936.1.1"
+								election_frequency = 48
+								elections_allowed = yes
+							}
+							set_cosmetic_tag = RWA_occupied
+							set_popularities = {
+								democratic = 0
+								fascism = 20
+								communism = 24
+								neutrality = 56
+							}
+							replace_alignment_to_SOV = yes
+						
+						}
+						
+					}
+					
+					### Burundi VS Congo - Congo WINS ###
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = COG
+							}
+							ROOT = {
+								original_tag = BRD
+							}
+						}
+
+						COG = {
+							white_peace = ROOT
+						}
+	
+						COG = {
+							puppet = BRD
+						}
+						
+						BRD = {
+						retire_country_leader = yes
+						promote_character = BRD_occupation_authority
+							set_politics = {
+								ruling_party = neutrality
+								last_election = "1936.1.1"
+								election_frequency = 48
+								elections_allowed = yes
+							}
+							set_cosmetic_tag = BRD_occupied
+							set_popularities = {
+								democratic = 10
+								fascism = 10
+								communism = 20
+								neutrality = 60
+							}
+							replace_alignment_to_SOV = yes
+						
+						}
+						
+					}
+					
 					### RCD - K VS RCD - G - RCD - K WINS ###
 					if = {   
 						limit = {

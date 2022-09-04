@@ -422,6 +422,41 @@ country_event = { #Terror in Yerevan#
 	}
 }
 
+country_event = { #The Borders Between Freedom#
+	id = usa_bush.6
+	title = usa_bush.6.t
+	desc = usa_bush.6.d
+	picture = GFX_report_event_USA_2000
+	
+	is_triggered_only = yes
+	
+	#border security#
+	option = {
+		name = usa_bush.6.a
+		add_ideas = USA_overhauled_border_security
+	}
+	
+	#pop bonus#
+	option = {
+		name = usa_bush.6.b
+		add_ideas = USA_overhauled_immigration_laws
+	}
+}
+
+country_event = { #Reformation of the Reformists#
+	id = usa_bush.7
+	title = usa_bush.7.t
+	desc = usa_bush.7.d
+	picture = GFX_report_event_USA_2000
+	
+	is_triggered_only = yes
+	
+	#k#
+	option = {
+		name = usa_bush.6.a
+	}
+
+}
 
  ###SAF NEEDS HELP###
 

@@ -3,6 +3,7 @@
 set_convoys = 0
 
 recruit_character = BRD_pierre_buyoya
+recruit_character = BRD_occupation_authority
 
 add_ideas = COG_africas_world_war
 

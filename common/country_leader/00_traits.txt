@@ -159,6 +159,42 @@ leader_traits = {
 		}
 	}
 	
+	secretary_of_homeland_security = {
+	random = no
+		
+		political_power_factor = 0.01
+		drift_defence_factor = -1.0
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	secretary_of_treasury = {
+	random = no
+		
+		opinion_gain_monthly_factor = 0.01
+		consumer_goods_factor = -0.05
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	secretary_of_state = {
+	random = no
+		
+		war_support_factor = 0.01
+		political_power_factor = 0.05
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	#iraqi troller#
 	chemical_ali = {
 		random = no

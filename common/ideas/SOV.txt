@@ -1145,6 +1145,29 @@ ideas = {
 			}
 
 		}
+
+		        ######PUGO######
+                ######PUGO######
+                ######PUGO######
+
+		SOV_kgb_powerstruggle = {
+
+			name = SOV_pugo_kgb_name
+
+			removal_cost = -1
+
+			picture = SOV_KGB_divided_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_gain_factor = -0.1
+				stability_factor = -0.15
+			}
+
+		}
 		
 		####GORBHACHEV####
 		

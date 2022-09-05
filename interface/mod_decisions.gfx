@@ -25,6 +25,10 @@ spriteTypes = {
 		name = "GFX_decision_cat_picture_indian_tsunami"
 		texturefile = "gfx/interface/decisions/decision_cat_picture_indian_tsunami.dds"
 	}
+	spriteType = {
+		name = "GFX_decision_cat_iraq_rebuild_navy"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_iraq_rebuild_navy.dds"
+	}
 	
 	### decision icon stuff ###
 	

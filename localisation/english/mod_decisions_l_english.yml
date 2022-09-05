@@ -145,7 +145,14 @@
  irq_kurd_resistance_reinforce_border_guards:0 "Reinforce the Border Guards"
  irq_kurd_resistance_crackdown_the_underground_network:0 "Crackdown the Undergound Network"
  irq_kur_resistance_increase:0 "Resistance Increases..."
- 
+
+ irq_category_rebuild_navy:0 "Purchase Foreign Ships"
+ irq_category_rebuild_navy_desc:0 "Our shipbuilding industry is small, inexperienced, and vulnerable. If we want to quickly rebuild our navy, we must instead purchase ships from friendly foreign powers, which will have been proven in combat and of a higher quality than anything we could hope to produce ourselves."
+ IRQ_rebuild_navy_purchase_new_ship_decision:0 "Purchase Soviet Corvettes"
+ IRQ_rebuild_navy_purchase_old_ship_decision:0 "Purchase retired Soviet Corvettes"
+ IRQ_rebuild_navy_purchase_new_sub_decision:0 "Purchase Soviet Submarines"
+ IRQ_rebuild_navy_purchase_old_sub_decision:0 "Purchase retired Soviet Submarines"
+
  ##YUGOSLAVIA##
  yug_deal_with_uprisings:0 "Dealing with Terrorism"
  yug_deal_with_uprisings_desc:0 "Internal seperatism and terrosim is destroying our nation. Now that we have dealt with other issues we are going to deal with this one too. However, because of our limited resources we can only focus and concentrate on one of the regions. \n\n§L>Figthing Strength Of The Rebels In Bosnia Is §R[?bosnia_fight_strength]%§!\n\n§!\n\n§L>Figthing Strength Of The Rebels In Kosovo Is §R[?albania_fight_strength]%§!\n\n"
@@ -208,7 +215,7 @@
  USA_americanism_presidential_partiot_tour:0 "Presidential Patriot Tour"
  USA_americanism_give_out_scholarships:0 "Give Out Scholarships"
  USA_americanism_awards_for_the_workers:0 "Awards for the Workers"
- 
+
  ##SOUTH AFRICA###
 
  saf_deal_with_insurgents:0 "Dealing With the Insurgents"

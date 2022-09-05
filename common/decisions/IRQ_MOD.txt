@@ -528,3 +528,91 @@ irq_deal_with_kurds = {
 	}
 
 }
+
+irq_category_rebuild_navy = {
+
+	IRQ_rebuild_navy_purchase_new_ship_decision = {
+
+		icon = GFX_decision_generic_naval
+
+		priority = 10
+
+		fire_only_once = no
+		days_remove = 800
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		remove_effect = {
+		}
+
+		ai_will_do = {
+		}
+
+	}
+
+	IRQ_rebuild_navy_purchase_new_sub_decision = {
+
+		icon = GFX_decision_generic_naval
+
+		priority = 9
+
+		fire_only_once = no
+		days_remove = 350
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		remove_effect = {
+		}
+
+		ai_will_do = {
+		}
+
+	}
+
+	IRQ_rebuild_navy_purchase_old_ship_decision = {
+
+		icon = GFX_decision_generic_naval
+
+		priority = 8
+
+		fire_only_once = no
+		days_remove = 30
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		remove_effect = {
+		}
+
+		ai_will_do = {
+		}
+
+	}
+
+	IRQ_rebuild_navy_purchase_old_sub_decision = {
+
+		icon = GFX_decision_generic_naval
+
+		priority = 7
+
+		fire_only_once = no
+		days_remove = 30
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		remove_effect = {
+		}
+
+		ai_will_do = {
+		}
+
+	}
+
+}

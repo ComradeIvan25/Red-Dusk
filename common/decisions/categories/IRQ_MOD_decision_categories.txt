@@ -29,3 +29,20 @@ irq_deal_with_kurds = {
 		original_tag = IRQ
 	}
 }
+
+irq_category_rebuild_navy = {
+	icon = GFX_decision_category_generic_arms_trade
+	picture = GFX_decision_cat_iraq_rebuild_navy
+	
+	allowed = {
+		original_tag = IRQ
+	}
+	
+	visible = {
+		original_tag = IRQ
+		IRQ = {
+			has_completed_focus = IRQ_purchase_foreign_ships
+		}
+	}
+	priority = 5
+}

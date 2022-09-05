@@ -301,3 +301,7 @@
  INDTSU_loc_key_country_3:0 "[BRM.GetName]"
  INDTSU_loc_key_country_4:0 "[SIA.GetName]"
  INDTSU_loc_key_country_5:0 "[MLD.GetName]"
+
+ ## Custom Effect Tooltip ##
+
+ IRQ_tt_rebuild_navy:0 "§YDecisions to purchase foreign ships will become available§!"

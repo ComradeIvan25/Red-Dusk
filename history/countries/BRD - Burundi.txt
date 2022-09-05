@@ -6,21 +6,23 @@ recruit_character = BRD_pierre_buyoya
 recruit_character = BRD_occupation_authority
 
 add_ideas = COG_africas_world_war
+add_ideas = BRD_tutsi_dominance
+add_ideas = BRD_civil_war
 
 add_ideas = usa_aligned_nation
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 55
-	fascism = 15
-	communism = 5
-	neutrality = 25
+	democratic = 10
+	fascism = 56
+	communism = 0
+	neutrality = 34
 }
 
 declare_war_on = {

@@ -6,6 +6,7 @@ recruit_character = UGA_yoweri
 recruit_character = UGA_occupation_authority
 
 add_ideas = COG_africas_world_war
+add_ideas = UGA_increasing_authoritarianism
 
 add_ideas = usa_aligned_nation
 
@@ -27,14 +28,14 @@ declare_war_on = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "2000.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 55
-	fascism = 15
-	communism = 5
-	neutrality = 25
+	democratic = 36
+	fascism = 0
+	communism = 0
+	neutrality = 64
 }

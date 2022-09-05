@@ -6,6 +6,8 @@ recruit_character = RWA_paul_kagame
 recruit_character = RWA_occupation_authority
 
 add_ideas = COG_africas_world_war
+add_ideas = RWA_tutsi_dominance
+add_ideas = RWA_rwandan_genocide_scars
 
 add_ideas = usa_aligned_nation
 
@@ -16,10 +18,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
-	fascism = 20
-	communism = 5
-	neutrality = 50
+	democratic = 15
+	fascism = 10
+	communism = 0
+	neutrality = 75
 }
 
 

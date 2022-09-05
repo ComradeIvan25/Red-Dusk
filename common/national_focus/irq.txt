@@ -1409,7 +1409,11 @@ focus_tree = {
 
 		prerequisite = {focus = IRQ_use_air focus = IRQ_defang_resistance}
 		available = {
-			has_country_flag = IRQ_kurd_resistance_bar_is_100
+			custom_trigger_tooltip = {
+			tooltip = IRQ_kurd_resistance_bar_is_100
+			check_variable = {kurd_resistance_variable > 99}
+			}
+
 		}
 		relative_position_id = IRQ_use_air
 		

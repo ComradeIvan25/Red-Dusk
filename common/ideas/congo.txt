@@ -96,5 +96,121 @@ ideas = {
 				defense_bonus_against = 0.1
 			}
 		}
+		
+		##Uganda##
+		
+		UGA_increasing_authoritarianism = {
+			name = UGA_increasing_authoritarianism_name
+
+			removal_cost = -1
+			
+			cancel = {
+				is_puppet = yes
+			}
+			
+			#picture = RCD_war_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_gain = 0.50
+				neutrality_drift = 0.02
+			}
+			
+		}
+		
+		##Rwanda##
+		
+		RWA_tutsi_dominance = {
+			name = RWA_tutsi_dominance_name
+
+			removal_cost = -1
+			
+			cancel = {
+				is_puppet = yes
+			}
+			
+			#picture = RCD_war_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_gain = 0.75
+				war_support_factor = 0.20
+				stability_factor = -0.30
+			}
+			
+		}
+		
+		RWA_rwandan_genocide_scars = {
+			name = RWA_rwandan_genocide_scars_name
+
+			removal_cost = -1
+			
+			#picture = RCD_war_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_attack_factor = -0.05
+				monthly_population = -0.30
+				stability_factor = -0.35
+			}
+			
+		}
+		
+		##Burundi##
+		
+		BRD_tutsi_dominance = {
+			name = BRD_tutsi_dominance_name
+
+			removal_cost = -1
+			
+			cancel = {
+				is_puppet = yes
+			}
+			
+			#picture = RCD_war_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_gain = 0.75
+				war_support_factor = 0.20
+				stability_factor = -0.30
+			}
+			
+		}
+		
+		BRD_civil_war = {
+			name = BRD_civil_war_name
+
+			removal_cost = -1
+			
+			cancel = {
+				is_puppet = yes
+			}
+			
+			#picture = RCD_war_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_gain = -0.50
+				stability_factor = -0.50
+			}
+			
+		}
+		
 	}
 }

@@ -315,6 +315,10 @@ country_event = {
 
 		IRQ = {
 			country_event = irq.12
+			add_ideas = IRQ_yugo_aircraft_mechanics
+		}
+		YUG = {
+			add_ideas = IRQ_yugo_aircraft_mechanics_payments
 		}
 	}
 	option = {
@@ -329,7 +333,7 @@ country_event = {
 	}
 }
 
-#Yugoslavia Aircraft Event (Response 1)#
+#Yugoslavia Aircraft Event (Response 1 | Accept)#
 country_event = {
 	id = irq.12
 	title = irq.12.t
@@ -343,7 +347,7 @@ country_event = {
 	}
 }
 
-#Yugoslavia Aircraft Event (Response 2)#
+#Yugoslavia Aircraft Event (Response 2 | Refuse)#
 country_event = {
 	id = irq.13
 	title = irq.13.t

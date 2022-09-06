@@ -147,6 +147,14 @@ spriteTypes = {
 		name = "GFX_idea_IRQ_no-fly_zones_icon"
 		texturefile = "gfx/interface/ideas/IRQ_no-fly_zones.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_IRQ_destroyed_air_force_icon"
+		texturefile = "gfx/interface/ideas/IRQ_destroyed_air_force.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_IRQ_yugo_aircraft_mechanics_icon"
+		texturefile = "gfx/interface/ideas/IRQ_yugo_aircraft_mechanics.dds"
+	}
 
 	#GENERIC MIDDLE EAST#
 

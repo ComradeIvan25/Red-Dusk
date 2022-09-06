@@ -18,9 +18,9 @@ units = {
 		task_force = {
 			name = "Atlantic Submarine Fleet"
 			location = 7361 # Halifax #
-			ship = { name = "HMCS Ojibwa" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = CAN version_name = "Ojibwa Class" } } }
-			ship = { name = "HMCS Onondaga" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = CAN version_name = "Ojibwa Class" } } }
-			ship = { name = "HMCS Okanagan" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = CAN version_name = "Ojibwa Class" } } }
+			ship = { name = "HMCS Ojibwa" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = CAN creator = ENG version_name = "Oberon Class" } } }
+			ship = { name = "HMCS Onondaga" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = CAN creator = ENG version_name = "Oberon Class" } } }
+			ship = { name = "HMCS Okanagan" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = CAN creator = ENG version_name = "Oberon Class" } } }
 		}
 	}
 	fleet = {

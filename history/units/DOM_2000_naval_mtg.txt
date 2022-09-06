@@ -5,7 +5,7 @@ units = {
 		task_force = {
 			name = "Flota de República Dominicana"
 			location = 7660 # Peravia #
-			ship = { name = "Prestol Botello" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = DOM version_name = "Separación Class" } } }
+			ship = { name = "Prestol Botello" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = DOM creator = USA version_name = "Admirable Class" } } }
 		}
 	}
 }

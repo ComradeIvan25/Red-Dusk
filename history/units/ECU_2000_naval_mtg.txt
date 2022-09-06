@@ -5,8 +5,8 @@ units = {
 		task_force = {
 			name = "Flota Ecuatoriana"
 			location = 8252 # Guayaquil #
-			ship = { name = "BAE Presidente Eloy Alfaro" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = ECU version_name = "Presidente Eloy Alfaro Class" } } }
-			ship = { name = "BAE Morán Valverde" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = ECU version_name = "Presidente Eloy Alfaro Class" } } }
+			ship = { name = "BAE Presidente Eloy Alfaro" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = ECU creator = ENG version_name = "Leander Class" } } }
+			ship = { name = "BAE Morán Valverde" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = ECU creator = ENG version_name = "Leander Class" } } }
 
 			ship = { name = "BAE Esmeraldas" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = ECU version_name = "Esmeraldas Class" } } }
 			ship = { name = "BAE Manabí" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = ECU version_name = "Esmeraldas Class" } } }
@@ -18,8 +18,8 @@ units = {
 		task_force = {
 			name = "Flota de Submarinos de Ecuador"
 			location = 8252 # Guayaquil #
-			ship = { name = "BAE Shyri" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = ECU version_name = "Shyri Class" } } }
-			ship = { name = "BAE Huancavilca" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = ECU version_name = "Shyri Class" } } }
+			ship = { name = "BAE Shyri" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = ECU creator = GER version_name = "Type 209/1300 Class" } } }
+			ship = { name = "BAE Huancavilca" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = ECU creator = GER version_name = "Type 209/1300 Class" } } }
 		}
 	}
 }

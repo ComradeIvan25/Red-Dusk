@@ -5,22 +5,22 @@ units = {
 		task_force = {
 			name = "Al'ustul Almisriu"
 			location = 4076 # Alexandria #
-			ship = { name = "El Fateh" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = EGY version_name = "El Fateh Class" } } }
-			ship = { name = "El Najim Al Zafir" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = EGY version_name = "El Najim Al Zafir Class" } } }
-			ship = { name = "El Naser" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = EGY version_name = "El Najim Al Zafir Class" } } }
-			ship = { name = "Damyat" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = EGY version_name = "Damyat Class" } } }
-			ship = { name = "Rasheed" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = EGY version_name = "Damyat Class" } } }
+			ship = { name = "El Fateh" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = EGY creator = ENG version_name = "Z Class" } } }
+			ship = { name = "El Najim Al Zafir" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = EGY creator = PRC version_name = "Type 053H1 Class" } } }
+			ship = { name = "El Naser" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = EGY creator = PRC version_name = "Type 053H1 Class" } } }
+			ship = { name = "Damyat" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = EGY creator = USA version_name = "Knox Class" } } }
+			ship = { name = "Rasheed" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = EGY creator = USA version_name = "Knox Class" } } }
 
-			ship = { name = "El Suez" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = EGY version_name = "El Suez Class" } } }
-			ship = { name = "Aboukir" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = EGY version_name = "El Suez Class" } } }
+			ship = { name = "El Suez" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = EGY creator = SPR version_name = "Centinela Class" } } }
+			ship = { name = "Aboukir" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = EGY creator = SPR version_name = "Centinela Class" } } }
 		}
 		task_force = {
 			name = "'Ustul Alghawaasat Almisrii"
 			location = 4076 # Alexandria #
-			ship = { name = "No. 849" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = EGY version_name = "No. 849 Class" } } }
-			ship = { name = "No. 852" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = EGY version_name = "No. 849 Class" } } }
-			ship = { name = "No. 855" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = EGY version_name = "No. 849 Class" } } }
-			ship = { name = "No. 858" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = EGY version_name = "No. 849 Class" } } }
+			ship = { name = "No. 849" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = EGY creator = SOV version_name = "Romeo Class (Pr. 633)" } } }
+			ship = { name = "No. 852" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = EGY creator = SOV version_name = "Romeo Class (Pr. 633)" } } }
+			ship = { name = "No. 855" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = EGY creator = SOV version_name = "Romeo Class (Pr. 633)" } } }
+			ship = { name = "No. 858" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = EGY creator = SOV version_name = "Romeo Class (Pr. 633)" } } }
 		}
 	}
 }

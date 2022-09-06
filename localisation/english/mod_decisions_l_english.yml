@@ -150,8 +150,10 @@
  irq_category_rebuild_navy_desc:0 "Our shipbuilding industry is small, inexperienced, and vulnerable. If we want to quickly rebuild our navy, we must instead purchase ships from friendly foreign powers, which will have been proven in combat and of a higher quality than anything we could hope to produce ourselves."
  IRQ_rebuild_navy_purchase_new_ship_decision:0 "Purchase Soviet Corvettes"
  IRQ_rebuild_navy_purchase_old_ship_decision:0 "Purchase retired Soviet Corvettes"
- IRQ_rebuild_navy_purchase_new_sub_decision:0 "Purchase Soviet Submarines"
+ IRQ_rebuild_navy_purchase_new_sub_decision:0 "Purchase Soviet Submarine"
  IRQ_rebuild_navy_purchase_old_sub_decision:0 "Purchase retired Soviet Submarines"
+ IRQ_rebuild_navy_purchase_old_chinese_ship_decision:0 "Purchase Chinese Frigate"
+ IRQ_rebuild_navy_purchase_new_chinese_sub_decision:0 "Purchase Chinese Submarines"
 
  ##YUGOSLAVIA##
  yug_deal_with_uprisings:0 "Dealing with Terrorism"

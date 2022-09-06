@@ -537,14 +537,85 @@ irq_category_rebuild_navy = {
 
 		priority = 10
 
-		fire_only_once = no
+		fire_only_once = yes
 		days_remove = 800
 
 		visible = {
 			original_tag = IRQ
 		}
 
+		available = {
+			OR = {
+				country_exists = IRQ
+				country_exists = SOV
+				NOT = {
+					IRQ = {
+						has_war_with = SOV
+					}
+				}
+			}
+			NOT = {
+				OR = {
+					has_decision = IRQ_rebuild_navy_purchase_new_sub_decision
+					has_decision = IRQ_rebuild_navy_purchase_old_ship_decision
+					has_decision = IRQ_rebuild_navy_purchase_old_sub_decision
+					has_decision = IRQ_rebuild_navy_purchase_old_chinese_ship_decision
+					has_decision = IRQ_rebuild_navy_purchase_new_chinese_sub_decision
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = IRQ }
+				NOT = { country_exists = SOV }
+				IRQ = {
+					has_war_with = SOV
+				}
+			}
+		}
+
+		complete_effect = {
+			SOV = {
+				add_timed_idea = {
+					idea = IRQ_foreign_ship_payments
+					days = 800
+				}
+			}
+			IRQ = {
+				add_timed_idea = {
+					idea = IRQ_foreign_ship_payments_irq
+					days = 800
+				}
+			}
+		}
+
+		cancel_effect = {
+			SOV = {
+				remove_ideas = {
+					IRQ_foreign_ship_payments
+				}
+			}
+			IRQ = {
+				remove_ideas = {
+					IRQ_foreign_ship_payments_irq
+				}
+			}
+		}
+
 		remove_effect = {
+			create_ship = {
+				type = corvette_hull_3
+				equipment_variant = "Gepard Class (Pr. 11661K)"
+				creator = SOV
+				name = "Al Qadissiya"
+			}
+			create_ship = {
+				type = corvette_hull_3
+				equipment_variant = "Gepard Class (Pr. 11661K)"
+				creator = SOV
+				name = "Al Yarmouk"
+			}
 		}
 
 		ai_will_do = {
@@ -558,14 +629,77 @@ irq_category_rebuild_navy = {
 
 		priority = 9
 
-		fire_only_once = no
+		fire_only_once = yes
 		days_remove = 350
 
 		visible = {
 			original_tag = IRQ
 		}
 
+		available = {
+			OR = {
+				country_exists = IRQ
+				country_exists = SOV
+				IRQ = {
+					has_war_with = SOV
+				}
+			}
+			NOT = {
+				OR = {
+					has_decision = IRQ_rebuild_navy_purchase_new_ship_decision
+					has_decision = IRQ_rebuild_navy_purchase_old_ship_decision
+					has_decision = IRQ_rebuild_navy_purchase_old_sub_decision
+					has_decision = IRQ_rebuild_navy_purchase_old_chinese_ship_decision
+					has_decision = IRQ_rebuild_navy_purchase_new_chinese_sub_decision
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = IRQ }
+				NOT = { country_exists = SOV }
+				IRQ = {
+					has_war_with = SOV
+				}
+			}
+		}
+
+		complete_effect = {
+			SOV = {
+				add_timed_idea = {
+					idea = IRQ_foreign_ship_payments
+					days = 350
+				}
+			}
+			IRQ = {
+				add_timed_idea = {
+					idea = IRQ_foreign_ship_payments_irq
+					days = 350
+				}
+			}
+		}
+
+		cancel_effect = {
+			SOV = {
+				remove_ideas = {
+					IRQ_foreign_ship_payments
+				}
+			}
+			IRQ = {
+				remove_ideas = {
+					IRQ_foreign_ship_payments_irq
+				}
+			}
+		}
+
 		remove_effect = {
+			create_ship = {
+				type = attack_submarine_hull_2
+				equipment_variant = "Kilo Class (Pr. 877EKM)"
+				creator = SOV
+				name = "Al Adrisi"
+			}
 		}
 
 		ai_will_do = {
@@ -579,14 +713,97 @@ irq_category_rebuild_navy = {
 
 		priority = 8
 
-		fire_only_once = no
+		fire_only_once = yes
 		days_remove = 30
 
 		visible = {
 			original_tag = IRQ
 		}
 
+		available = {
+			OR = {
+				country_exists = IRQ
+				country_exists = SOV
+				NOT = {
+					IRQ = {
+						has_war_with = SOV
+					}
+				}
+			}
+			NOT = {
+				OR = {
+					has_decision = IRQ_rebuild_navy_purchase_new_sub_decision
+					has_decision = IRQ_rebuild_navy_purchase_new_ship_decision
+					has_decision = IRQ_rebuild_navy_purchase_old_sub_decision
+					has_decision = IRQ_rebuild_navy_purchase_old_chinese_ship_decision
+					has_decision = IRQ_rebuild_navy_purchase_new_chinese_sub_decision
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = IRQ }
+				NOT = { country_exists = SOV }
+				IRQ = {
+					has_war_with = SOV
+				}
+			}
+		}
+
+		complete_effect = {
+			SOV = {
+				add_timed_idea = {
+					idea = IRQ_foreign_ship_payments
+					days = 30
+				}
+			}
+			IRQ = {
+				add_timed_idea = {
+					idea = IRQ_foreign_ship_payments_irq
+					days = 30
+				}
+			}
+		}
+
+		cancel_effect = {
+			SOV = {
+				remove_ideas = {
+					IRQ_foreign_ship_payments
+				}
+			}
+			IRQ = {
+				remove_ideas = {
+					IRQ_foreign_ship_payments_irq
+				}
+			}
+		}
+
 		remove_effect = {
+			create_ship = {
+				type = corvette_hull_1
+				equipment_variant = "Poti Class (Pr. 204)"
+				creator = SOV
+				name = "Kanun Ath-Thani"
+			}
+			create_ship = {
+				type = corvette_hull_1
+				equipment_variant = "Poti Class (Pr. 204)"
+				creator = SOV
+				name = "Nisan"
+			}
+			create_ship = {
+				type = corvette_hull_1
+				equipment_variant = "Poti Class (Pr. 204)"
+				creator = SOV
+				name = "Hazirani"
+			}
+			create_ship = {
+				type = corvette_hull_1
+				equipment_variant = "Poti Class (Pr. 204)"
+				creator = SOV
+				name = "Tamuz"
+			}
 		}
 
 		ai_will_do = {
@@ -600,14 +817,267 @@ irq_category_rebuild_navy = {
 
 		priority = 7
 
-		fire_only_once = no
+		fire_only_once = yes
 		days_remove = 30
 
 		visible = {
 			original_tag = IRQ
 		}
 
+		available = {
+			OR = {
+				country_exists = IRQ
+				country_exists = SOV
+				NOT = {
+					IRQ = {
+						has_war_with = SOV
+					}
+				}
+			}
+			NOT = {
+				OR = {
+					has_decision = IRQ_rebuild_navy_purchase_new_sub_decision
+					has_decision = IRQ_rebuild_navy_purchase_old_ship_decision
+					has_decision = IRQ_rebuild_navy_purchase_new_ship_decision
+					has_decision = IRQ_rebuild_navy_purchase_old_chinese_ship_decision
+					has_decision = IRQ_rebuild_navy_purchase_new_chinese_sub_decision
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = IRQ }
+				NOT = { country_exists = SOV }
+				IRQ = {
+					has_war_with = SOV
+				}
+			}
+		}
+
+		complete_effect = {
+			SOV = {
+				add_timed_idea = {
+					idea = IRQ_foreign_ship_payments
+					days = 30
+				}
+			}
+			IRQ = {
+				add_timed_idea = {
+					idea = IRQ_foreign_ship_payments_irq
+					days = 30
+				}
+			}
+		}
+
+		cancel_effect = {
+			SOV = {
+				remove_ideas = {
+					IRQ_foreign_ship_payments
+				}
+			}
+			IRQ = {
+				remove_ideas = {
+					IRQ_foreign_ship_payments_irq
+				}
+			}
+		}
+
 		remove_effect = {
+			create_ship = {
+				type = attack_submarine_hull_1
+				equipment_variant = "Foxtrot Class (Pr. 641)"
+				creator = SOV
+				name = "Al Tami"
+			}
+			create_ship = {
+				type = attack_submarine_hull_1
+				equipment_variant = "Foxtrot Class (Pr. 641)"
+				creator = SOV
+				name = "Al Bahi"
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+
+	IRQ_rebuild_navy_purchase_old_chinese_ship_decision = {
+
+		icon = GFX_decision_generic_naval
+
+		priority = 6
+
+		fire_only_once = yes
+		days_remove = 50
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		available = {
+			OR = {
+				country_exists = IRQ
+				country_exists = PRC
+				NOT = {
+					IRQ = {
+						has_war_with = PRC
+					}
+				}
+			}
+			NOT = {
+				OR = {
+					has_decision = IRQ_rebuild_navy_purchase_new_sub_decision
+					has_decision = IRQ_rebuild_navy_purchase_old_ship_decision
+					has_decision = IRQ_rebuild_navy_purchase_old_sub_decision
+					has_decision = IRQ_rebuild_navy_purchase_new_ship_decision
+					has_decision = IRQ_rebuild_navy_purchase_new_chinese_sub_decision
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = IRQ }
+				NOT = { country_exists = PRC }
+				IRQ = {
+					has_war_with = PRC
+				}
+			}
+		}
+
+		complete_effect = {
+			PRC = {
+				add_timed_idea = {
+					idea = IRQ_foreign_ship_payments
+					days = 50
+				}
+			}
+			IRQ = {
+				add_timed_idea = {
+					idea = IRQ_foreign_ship_payments_irq
+					days = 50
+				}
+			}
+		}
+
+		cancel_effect = {
+			PRC = {
+				remove_ideas = {
+					IRQ_foreign_ship_payments
+				}
+			}
+			IRQ = {
+				remove_ideas = {
+					IRQ_foreign_ship_payments_irq
+				}
+			}
+		}
+
+		remove_effect = {
+			create_ship = {
+				type = destroyer_hull_1
+				equipment_variant = "Type 053H1G Class"
+				creator = PRC
+				name = "Sabhan"
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+
+	IRQ_rebuild_navy_purchase_new_chinese_sub_decision = {
+
+		icon = GFX_decision_generic_naval
+
+		priority = 5
+
+		fire_only_once = yes
+		days_remove = 450
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		available = {
+			OR = {
+				country_exists = IRQ
+				country_exists = PRC
+				IRQ = {
+					has_war_with = PRC
+				}
+			}
+			NOT = {
+				OR = {
+					has_decision = IRQ_rebuild_navy_purchase_new_sub_decision
+					has_decision = IRQ_rebuild_navy_purchase_old_ship_decision
+					has_decision = IRQ_rebuild_navy_purchase_old_sub_decision
+					has_decision = IRQ_rebuild_navy_purchase_old_chinese_ship_decision
+					has_decision = IRQ_rebuild_navy_purchase_new_ship_decision
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = IRQ }
+				NOT = { country_exists = PRC }
+				IRQ = {
+					has_war_with = PRC
+				}
+			}
+		}
+
+		complete_effect = {
+			PRC = {
+				add_timed_idea = {
+					idea = IRQ_foreign_ship_payments
+					days = 450
+				}
+			}
+			IRQ = {
+				add_timed_idea = {
+					idea = IRQ_foreign_ship_payments_irq
+					days = 450
+				}
+			}
+		}
+
+		cancel_effect = {
+			PRC = {
+				remove_ideas = {
+					IRQ_foreign_ship_payments
+				}
+			}
+			IRQ = {
+				remove_ideas = {
+					IRQ_foreign_ship_payments_irq
+				}
+			}
+		}
+
+		remove_effect = {
+			create_ship = {
+				type = attack_submarine_hull_1
+				equipment_variant = "Romeo Class (Pr. 633)"
+				creator = SOV
+				name = "Sa'd"
+			}
+			create_ship = {
+				type = attack_submarine_hull_1
+				equipment_variant = "Romeo Class (Pr. 633)"
+				creator = SOV
+				name = "Khalid Ibn"
+			}
+			create_ship = {
+				type = attack_submarine_hull_1
+				equipment_variant = "Romeo Class (Pr. 633)"
+				creator = SOV
+				name = "Al Walid"
+			}
 		}
 
 		ai_will_do = {

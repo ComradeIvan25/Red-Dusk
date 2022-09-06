@@ -225,6 +225,14 @@
  IRQ_no-fly_zones_name_desc:0 "Despite not being officially at war, the United States and its allies continue to maintain no-fly zones in large sections of our territory, effectively limiting our air force to the Baghdad area. This allows for Kurdish rebels in the north to operate independently of our rule."
  IRQ_kurdish_autonomy:0 "Kurdish Autonomy"
  IRQ_kurdish_autonomy_desc:0 "By allowing the Kurdish factions to maintain control of their territory with government oversight, we can integrate them into the national economy while not having to deal with the headaches of insurgency."
+ IRQ_destroyed_air_force_name:0 "Destroyed Air Force"
+ IRQ_destroyed_air_force_name_desc:0 "The Gulf War in the early 1990s destroyed the air force that we had carefully built up over the previous decades, with any surviving pilots often fleeing to Iran to escape what seemed like certain death over our skies. Those desperate days are long behind us, however our air force still suffers from the consequences, with the few aircraft that we have left often being unserviceable due to lack of maintenance."
+ IRQ_yugo_aircraft_mechanics_name:0 "Yugoslavian Maintenance"
+ IRQ_yugo_aircraft_mechanics_name_desc:0 "Despite the threat of sanctions, our friends in Yugoslavia have provided us with a constant supply of spare parts as well as regular visits from their mechanics, keeping our air force in good condition in exchange for monetary compensation."
+ IRQ_yugo_aircraft_mechanics_payments_name:0 "Iraqi Payments"
+ IRQ_yugo_aircraft_mechanics_payments_name_desc:0 "By providing Iraq with mechanics and spare parts for their air force, we are putting ourselves at risk of Western sanctions. To ease our concerns, the Iraqis have provided us with significant financial reward."
+ IRQ_foreign_ship_payments_irq_name:0 "Foreign Ship Purchases"
+ IRQ_foreign_ship_payments_name:0 "Iraqi Ship Purchases"
 
  SIA_rama_ix_name:0 "Rama IX"
  SIA_rama_ix_name_desc:0 "Long Live His Majesty King Rama IX"
@@ -292,7 +300,7 @@
  BRD_tutsi_dominance_name_desc:0 "After the overthrowal of Hutu President in a coup at 1993, Tutsi leadership constrols most of the Burundian nation.While the Tutsi president Pierre Buyoya is promising peace in the country by negotiating with the Hutu forces only time will tell if peace will come to Burundi."
  BRD_civil_war_name:0 "Burundian Civil War"
  BRD_civil_war_name_desc:0 "Starting in 1993 after the democraticly elected Hutu President Melchior Ndadaye got ousted in a coup by the Tutsi Military and was promptly executed, causing mass instability and violence across the country between the ethnic groups that quickly escalated to a civil war that contunies with no end in sight."
- 
+
  KOR_north_korean_resource_benefits_name:0 "North Korean Resource Benefits"
  KOR_north_korean_resource_benefits_name_desc:0 ""
  

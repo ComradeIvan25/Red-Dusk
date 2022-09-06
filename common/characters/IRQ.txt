@@ -1,5 +1,7 @@
 characters = {
 
+	## Leaders ##
+
 	IRQ_saddam_hussein = {
 		name = "Saddam Hussein"
 		portraits = {
@@ -14,7 +16,9 @@ characters = {
 			id = -1
 		}
 	}
-	
+
+	## Advisors ##
+
 	IRQ_khudair_al_sammarrai = {
 		name = "Ahmed Hussein Khudair Al-Samarrai"
 		portraits = {
@@ -35,7 +39,6 @@ characters = {
 			}
 		}
 	}
-	
 		
 	IRQ_fahad_salem_alshakra = {
 		name = "Fahad Salem Alshakra"
@@ -75,6 +78,27 @@ characters = {
 			
 			traits = {
 				minister_of_labour
+			}
+		}
+	}
+
+	IRQ_hikmat_mizban_ibrahim = {
+		name = "Hikmat Mizban Ibrahim"
+		portraits = {
+			civilian = {
+				small = "gfx/leaders/IRQ/Hikmat_Mizban_Ibrahim_small.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = IRQ_hikmat_mizban_ibrahim
+			allowed = {
+				original_tag = IRQ
+			}
+			
+			traits = {
+				minister_of_finance
 			}
 		}
 	}

@@ -42,36 +42,6 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_naval_oob = "DEN_2000_naval_mtg"
 
-	# Attack Submarines #
-	create_equipment_variant = {
-		name = "Narhvalen Class"
-		type = attack_submarine_hull_1
-		#name_group = 
-		parent_version = 0
-		modules = {
-			fixed_ship_systems_slot = sub_electrical_systems_2
-			fixed_ship_engine_slot = sub_engine_diesel_1
-			fixed_ship_sonar_slot = sub_sonar_2
-			custom_ship_torpedo_slot = ship_torpedo_sub_2
-			custom_slot_1 = ship_torpedo_sub_2
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "Tumleren Class"
-		type = attack_submarine_hull_1
-		#name_group = 
-		parent_version = 0
-		modules = {
-			fixed_ship_systems_slot = sub_electrical_systems_2
-			fixed_ship_engine_slot = sub_engine_diesel_1
-			fixed_ship_sonar_slot = sub_sonar_2
-			custom_ship_torpedo_slot = ship_torpedo_sub_2
-			custom_slot_1 = ship_torpedo_sub_2
-		}
-		obsolete = yes
-	}
-
 	# Corvettes #
 	create_equipment_variant = {
 		name = "Niels Juel Class"

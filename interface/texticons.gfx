@@ -1563,7 +1563,9 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
-	## MOD ##
+	### MOD ###
+
+	# Ground Units #
 
 	spriteType = {
 		name = "GFX_unit_main_battle_tank_armor_icon_small"
@@ -1679,6 +1681,8 @@ spriteTypes = {
 		legacy_lazy_load = no
 		noOfFrames = 2
 	}
+
+	# Naval Units #
 
 	spriteType = {
 		name = "GFX_ship_attack_submarine_icon_small"

@@ -51,7 +51,7 @@ USA_cold_war = {
 IRQ_kurdish_autonomy = {
 	enable = { always = yes }
 
-	icon = GFX_modifiers_tur_kurdish_separatism
+	icon = GFX_modifiers_kurdish_autonomy
 
 	army_speed_factor_for_controller = -0.1
 	disable_strategic_redeployment = 1

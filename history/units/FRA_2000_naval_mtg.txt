@@ -60,6 +60,11 @@ units = {
 				}
 			}
 
+			ship = { name = "La Fayette" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = FRA version_name = "La Fayette Class" } } }
+			ship = { name = "Surcouf" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = FRA version_name = "La Fayette Class" } } }
+			ship = { name = "Courbet" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = FRA version_name = "La Fayette Class" } } }
+			ship = { name = "Jauréguiberry" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = FRA version_name = "La Fayette Class" } } }
+			ship = { name = "Guépratte" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = FRA version_name = "La Fayette Class" } } }
 			ship = { name = "Cassard" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = FRA version_name = "Cassard Class" } } }
 			ship = { name = "Jean Bart" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = FRA version_name = "Cassard Class" } } }
 			ship = { name = "Suffren" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }

@@ -13,8 +13,8 @@ units = {
 		task_force = {
 			name = "Flota de Submarinos de Colombia"
 			location = 12790 # Cartagena #
-			ship = { name = "ARC Pijao" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = COL version_name = "Pijao Class" } } }
-			ship = { name = "ARC Tayrona" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = COL version_name = "Pijao Class" } } }
+			ship = { name = "ARC Pijao" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = COL creator = GER version_name = "Type 209/1200 Class" } } }
+			ship = { name = "ARC Tayrona" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = COL creator = GER version_name = "Type 209/1200 Class" } } }
 		}
 	}
 }

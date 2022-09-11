@@ -1089,6 +1089,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SOV_follow_the_stalin_plan.dds"
 	}
 	SpriteType = {
+		name = "GFX_SOV_pugo_reformists"
+		texturefile = "gfx/interface/goals/focus_SOV_supress_reformists.png"
+	}
+	SpriteType = {
 		name = "GFX_SOV_gensec_pugo"
 		texturefile = "gfx/interface/goals/SOV_gensec_pugo.dds"
 	}

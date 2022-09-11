@@ -2,14 +2,6 @@
 	id = ussr_pugo_focus
 	continuous_focus_position = { x = -800 y = 2000 }
 	
-	country = {
-		factor = 0
-		modifier = {
-		tag = SOV
-		add = 999
-		}
-	}
-	
 	default = no
 	focus = {
 		id = SOV_the_hardliner

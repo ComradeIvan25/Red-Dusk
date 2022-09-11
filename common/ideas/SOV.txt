@@ -36,7 +36,7 @@ ideas = {
 			}
 
 			modifier = {
-				political_power_factor = -0.05
+				political_power_factor = -0.07
 				stability_factor = -0.05
 			}
 
@@ -56,8 +56,8 @@ ideas = {
 
 			modifier = {
 				production_speed_buildings_factor = -0.3
-				consumer_goods_factor = 0.1
-				political_advisor_cost_factor = 0.1
+				consumer_goods_factor = 0.2
+				political_advisor_cost_factor = 0.15
 			}
 
 		}
@@ -78,7 +78,7 @@ ideas = {
 				production_speed_buildings_factor = -0.25
 				consumer_goods_factor = 0.1
 				political_advisor_cost_factor = 0.1
-				political_power_factor = -0.05
+				political_power_factor = -0.08
 			}
 
 		}
@@ -145,8 +145,8 @@ ideas = {
 			}
 
 			modifier = {
-				political_power_factor = -0.05
-				stability_factor = -0.05
+				political_power_factor = -0.08
+				stability_factor = -0.1
 			}
 
 		}
@@ -564,6 +564,31 @@ ideas = {
 
 		}
 
+
+
+                ######PUGO######
+                ######PUGO######
+                ######PUGO######
+
+		SOV_kgb_powerstruggle = {
+
+			name = SOV_pugo_kgb_name
+
+			removal_cost = -1
+
+			picture = SOV_KGB_divided_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_gain_factor = -0.1
+				stability_factor = -0.15
+			}
+
+		}
+
 		
 		#####YAZOV !!!!!!!!!!!!!!!!!#############
 		#####YAZOV !!!!!!!!!!!!!!!!!#############
@@ -624,9 +649,9 @@ ideas = {
 
 			modifier = {
 				stability_factor = 0.1
-				political_power_factor = 0.02
-				communism_drift = 0.07
-				war_support_factor = 0.03
+				political_power_factor = 0.1
+				communism_drift = 0.1
+				war_support_factor = 0.07
 
 			}
 
@@ -1142,29 +1167,6 @@ ideas = {
 				tag = PRC
 				attack_bonus_against = 0.15
 				defense_bonus_against = 0.15
-			}
-
-		}
-
-		        ######PUGO######
-                ######PUGO######
-                ######PUGO######
-
-		SOV_kgb_powerstruggle = {
-
-			name = SOV_pugo_kgb_name
-
-			removal_cost = -1
-
-			picture = SOV_KGB_divided_icon
-
-			allowed = {
-				always = no
-			}
-
-			modifier = {
-				political_power_gain_factor = -0.1
-				stability_factor = -0.15
 			}
 
 		}

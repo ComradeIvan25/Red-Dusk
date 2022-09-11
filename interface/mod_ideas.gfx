@@ -28,6 +28,10 @@ spriteTypes = {
 		name = "GFX_idea_SOV_rising_separatism_icon"
 		texturefile = "gfx/interface/ideas/SOV_rising_separatism.dds"
 	}
+	spriteType = {
+		name = "GFX_cold_war_icon"
+		texturefile = "gfx/interface/ideas/SOV_coldwar.dds"
+	}
 	
 	#YAZOV#
 	
@@ -62,6 +66,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_SOV_privatization_icon"
 		texturefile = "gfx/interface/ideas/SOV_privatization.dds"
+	}
+
+	#PUGO#
+	
+	spriteType = {
+		name = "GFX_idea_SOV_KGB_divided_icon"
+		texturefile = "gfx/interface/ideas/SOV_kgb_divided.dds"
 	}
 
         #EUROPE COMMON#

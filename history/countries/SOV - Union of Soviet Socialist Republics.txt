@@ -194,9 +194,11 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
-	fascism = 10
-	communism = 85
+	democratic = 10
+	fascism = 13
+	reformed_communism = 20
+	neutrality = 7
+	communism = 50
 }
 
 add_ideas = SOV_memories_of_perestroika

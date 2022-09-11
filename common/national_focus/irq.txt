@@ -64,7 +64,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = IRQ_problems
+		id = IRQ_the_propaganda_machine
 		icon = GFX_focus_IRQ_problems
 		x = 10
 		y = 4
@@ -82,21 +82,22 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = -20
-			add_stability = -0.03
+		unlock_decision_category_tooltip = irq_category_propaganda_machine
+		add_dynamic_modifier = { modifier = IRQ_the_propaganda_machine_modifier }
+		add_dynamic_modifier = { modifier = IRQ_the_propaganda_machine_costs_modifier }
 		}
 	}
 	
 	focus = {
-		id = IRQ_sanctions
-		icon = GFX_focus_IRQ_sanctions
-		x = 10
+		id = IRQ_dogs_of_the_west
+		icon = GFX_focus_IRQ_problems
+		x = 8
 		y = 5
 
-		prerequisite = {focus = IRQ_problems}
+		prerequisite = {focus = IRQ_the_propaganda_machine}
 		mutually_exclusive = { }
 		
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -106,25 +107,31 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 10
-			set_country_flag = IRQ_sanctions
-
+		add_political_power = 100
+		unlock_decision_tooltip = IRQ_propaganda_dogs_of_the_west
+			IRQ = {
+				add_opinion_modifier = { target = ISR modifier = IRQ_dogs_of_the_west_opinion }
+			}
+			IRQ = {
+				add_opinion_modifier = { target = USA modifier = IRQ_dogs_of_the_west_opinion }
+			}
+			IRQ = {
+				add_opinion_modifier = { target = KUW modifier = IRQ_dogs_of_the_west_opinion }
+			}
 		}
 	}
 	
 	focus = {
-		id = IRQ_kurds
-		icon = GFX_focus_IRQ_kurds
+		id = IRQ_swords_of_iraq
+		icon = GFX_focus_IRQ_problems
 		x = 10
-		y = 6
+		y = 5
 
-		prerequisite = {focus = IRQ_sanctions}
-		available = {
-                has_country_flag = IRQ_sanctions_done
-        }
+		prerequisite = {focus = IRQ_the_propaganda_machine}
+
 		mutually_exclusive = { }
 		
-		cost = 3
+		cost = 6
 		ai_will_do = {
 			factor = 10
 		}
@@ -134,12 +141,116 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 10
-			add_stability = -0.05
-			set_country_flag = IRQ_kurds
-			IRQ = {
-				country_event = { id = irq.1 }
-			}
+		add_war_support = 0.1
+		unlock_decision_tooltip = IRQ_propaganda_swords_of_iraq
+		}
+	}
+	
+	focus = {
+		id = IRQ_future_lies_in_the_military
+		icon = GFX_focus_IRQ_problems
+		x = 12
+		y = 5
+
+		prerequisite = {focus = IRQ_the_propaganda_machine}
+
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		add_manpower = 2500
+		unlock_decision_tooltip = IRQ_propaganda_future_lies_in_the_military
+
+		}
+	}
+	
+	focus = {
+		id = IRQ_dreams_of_a_greater_iraq
+		icon = GFX_focus_IRQ_problems
+		x = 9
+		y = 6
+
+		prerequisite = {focus = IRQ_dogs_of_the_west}
+
+		mutually_exclusive = { focus = IRQ_dreams_of_a_united_arab_nation
+		}
+		
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		army_experience = 25
+		add_ideas = IRQ_dreams_of_a_greater_iraq
+		unlock_decision_tooltip = IRQ_propaganda_aid_iraqs_future
+		}
+	}
+	
+	focus = {
+		id = IRQ_dreams_of_a_united_arab_nation
+		icon = GFX_focus_IRQ_problems
+		x = 11
+		y = 6
+
+		prerequisite = {focus = IRQ_future_lies_in_the_military}
+
+		mutually_exclusive = { focus = IRQ_dreams_of_a_greater_iraq }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		add_manpower = 5000
+		add_war_support = 0.10
+		add_ideas = IRQ_dreams_of_a_united_arab_nation
+		unlock_decision_tooltip = IRQ_propaganda_for_a_united_arabia
+		}
+	}
+	
+	focus = {
+		id = IRQ_saddams_cult_of_personality
+		icon = GFX_focus_IRQ_problems
+		x = 10
+		y = 7
+
+		prerequisite = {focus = IRQ_swords_of_iraq}
+		prerequisite = {focus = IRQ_dreams_of_a_greater_iraq focus = IRQ_dreams_of_a_united_arab_nation}
+
+		mutually_exclusive = { }
+		
+		cost = 6
+		ai_will_do = {
+			factor = 10
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		add_political_power = 25
+		add_ideas = IRQ_saddams_cult_of_personality
+		unlock_decision_tooltip = IRQ_propaganda_saddam_iraqs_saviour
+		unlock_decision_tooltip = IRQ_propaganda_saddam_an_example_for_the_youth
 		}
 	}
 
@@ -147,8 +258,8 @@ focus_tree = {
         	id = IRQ_army
         	icon = GFX_focus_IRQ_army
         	x = 10
-        	y = 7
-		prerequisite = {focus = IRQ_kurds}
+        	y = 8
+		prerequisite = {focus = IRQ_saddams_cult_of_personality}
 		available = {
                 has_country_flag = IRQ_kurds_done
                 }
@@ -1261,6 +1372,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			IRQ = {
+				country_event = { id = irq.1 }
+			}
 		}
 	}
 

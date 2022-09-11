@@ -29,7 +29,7 @@
 SOV_cold_war = {
 	enable = { always = yes }
 	
-	icon = GFX_idea_cold_war
+	icon = GFX_idea_cold_war_icon
 	
 	command_power_gain_mult = amount_of_proxies_won_ussr
 	planning_speed = amount_of_proxies_won_ussr
@@ -40,7 +40,7 @@ SOV_cold_war = {
 USA_cold_war = {
 	enable = { always = yes }
 	
-	icon = GFX_idea_cold_war
+	icon = GFX_idea_cold_war_icon
 	
 	command_power_gain_mult = amount_of_proxies_won_usa
 	planning_speed = amount_of_proxies_won_usa
@@ -58,4 +58,28 @@ IRQ_kurdish_autonomy = {
 	state_resources_factor = -0.25
 	recruitable_population_factor = -0.15
 	local_intel_to_enemies = 0.15
+}
+
+IRQ_the_propaganda_machine_modifier = {
+	enable = { always = yes }
+	
+	icon = GFX_idea_cold_war_icon
+	
+	drift_defence_factor = irq_propaganda_effect_political_var
+	political_power_factor = irq_propaganda_effect_political_var
+	army_morale_factor = irq_propaganda_effect_army_var	
+	army_attack_factor = irq_propaganda_effect_army_var
+	army_defence_factor = irq_propaganda_effect_army_var
+	production_speed_arms_factory_factor = irq_propaganda_effect_efficiency_var
+	war_support_factor = irq_propaganda_effect_efficiency_var
+	stability_factor = irq_propaganda_effect_efficiency_var
+}
+
+IRQ_the_propaganda_machine_costs_modifier = {
+	enable = { always = yes }
+	
+	icon = GFX_idea_cold_war_icon
+	
+	industrial_capacity_factory = irq_propaganda_effect_costs_var
+	consumer_goods_factor = irq_propaganda_effect_costs_consumer_goods_var
 }

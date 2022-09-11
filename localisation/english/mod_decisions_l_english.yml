@@ -154,7 +154,18 @@
  IRQ_rebuild_navy_purchase_old_sub_decision:0 "Purchase retired Soviet Submarines"
  IRQ_rebuild_navy_purchase_old_chinese_ship_decision:0 "Purchase Chinese Frigate"
  IRQ_rebuild_navy_purchase_new_chinese_sub_decision:0 "Purchase Chinese Submarines"
-
+ 
+ irq_category_propaganda_machine:0 "The Propaganda Machine"
+ irq_category_propaganda_machine_desc:0 "wip"
+ IRQ_propaganda_increase_propaganda_resources:0 "Increase Propaganda Resources"
+ IRQ_propaganda_dogs_of_the_west:0 "Dogs of the West"
+ IRQ_propaganda_swords_of_iraq:0 "Swords of Iraq"
+ IRQ_propaganda_future_lies_in_the_military:0 "Future Lies in the Military"
+ IRQ_propaganda_aid_iraqs_future:0 "Aid Iraq's Future!"
+ IRQ_propaganda_for_a_united_arabia:0 "For a United Arab World!"
+ IRQ_propaganda_saddam_iraqs_saviour:0 "Saddam, Iraq's Saviour"
+ IRQ_propaganda_saddam_an_example_for_the_youth:0 "Saddam, an Example for the Youth"
+ 
  ##YUGOSLAVIA##
  yug_deal_with_uprisings:0 "Dealing with Terrorism"
  yug_deal_with_uprisings_desc:0 "Internal seperatism and terrosim is destroying our nation. Now that we have dealt with other issues we are going to deal with this one too. However, because of our limited resources we can only focus and concentrate on one of the regions. \n\n§L>Figthing Strength Of The Rebels In Bosnia Is §R[?bosnia_fight_strength]%§!\n\n§!\n\n§L>Figthing Strength Of The Rebels In Kosovo Is §R[?albania_fight_strength]%§!\n\n"

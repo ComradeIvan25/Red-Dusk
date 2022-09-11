@@ -1086,3 +1086,361 @@ irq_category_rebuild_navy = {
 	}
 
 }
+
+irq_category_propaganda_machine = {
+	
+	#irq_propaganda_effect_political_var #pol gain , drift defence#
+	#irq_propaganda_effect_army_var	#recovery rate, attack and defence for army#
+	#irq_propaganda_effect_efficiency_var	#war support , stab support , military factory construction speed#
+	
+	#irq_propaganda_effect_costs_var #factory output (needs to be negative)#
+	#irq_propaganda_effect_costs_consumer_goods_var #consumer goods#
+	
+	IRQ_propaganda_increase_propaganda_resources = {
+
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			IRQ = {
+			has_completed_focus = IRQ_the_propaganda_machine
+			}
+			NOT = {has_country_flag = irq_running_propaganda}
+		}
+		visible = {
+			original_tag = IRQ
+		}
+		days_remove = 20
+		modifier {
+			political_power_cost = 0.10
+		}
+		cost = 20
+		fire_only_once = no
+		ai_will_do = {
+			factor = 10
+		}
+		days_re_enable = 70
+		
+		complete_effect = {
+			set_country_flag = irq_running_propaganda
+		}
+		
+		remove_effect = { 
+		add_to_variable = { irq_propaganda_effect_political_var = 0.050}
+		custom_effect_tooltip = irq_propaganda_political_buffed_by_5_per
+		add_to_variable = { irq_propaganda_effect_costs_var = -0.020}
+		custom_effect_tooltip = irq_propaganda_factory_output_costs_increase_by_2_per
+		add_to_variable = { irq_propaganda_effect_costs_consumer_goods_var = 0.020}
+		custom_effect_tooltip = irq_propaganda_consumer_good_costs_increase_by_2_per
+		
+		clr_country_flag = irq_running_propaganda
+		}
+	}
+	
+	IRQ_propaganda_dogs_of_the_west = {
+
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			IRQ = {
+			has_completed_focus = IRQ_dogs_of_the_west
+			}
+			NOT = {has_country_flag = irq_running_propaganda}
+		}
+		visible = {
+			original_tag = IRQ
+		}
+		days_remove = 50
+		days_re_enable = 15
+		modifier {
+			political_power_cost = 0.10
+			weekly_war_support = 0.0075
+		}
+		
+		complete_effect = {
+			set_country_flag = irq_running_propaganda
+		}
+		
+		cost = 15
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+		add_to_variable = { irq_propaganda_effect_army_var = 0.02 }
+		custom_effect_tooltip = irq_propaganda_army_buffed_by_2_per
+		add_to_variable = { irq_propaganda_effect_costs_consumer_goods_var = 0.020}
+		custom_effect_tooltip = irq_propaganda_consumer_good_costs_increase_by_2_per
+		
+		clr_country_flag = irq_running_propaganda
+		}
+	}
+	
+	IRQ_propaganda_swords_of_iraq = {
+
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			IRQ = {
+			has_completed_focus = IRQ_swords_of_iraq
+			}
+			NOT = {has_country_flag = irq_running_propaganda}	
+		}
+		visible = {
+			original_tag = IRQ
+		}
+		days_remove = 35
+		days_re_enable = 20
+		modifier {
+			political_power_cost = 0.25
+			army_attack_factor = 0.15
+			army_defence_factor = 0.15
+		}
+		
+		complete_effect = {
+			set_country_flag = irq_running_propaganda
+		}
+		
+		cost = 10
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+		add_to_variable = { irq_propaganda_effect_army_var = 0.05 }
+		custom_effect_tooltip = irq_propaganda_army_buffed_by_5_per
+		add_to_variable = { irq_propaganda_effect_costs_var = -0.020}
+		custom_effect_tooltip = irq_propaganda_factory_output_costs_increase_by_2_per
+		
+		clr_country_flag = irq_running_propaganda
+		}
+	}
+	
+	IRQ_propaganda_future_lies_in_the_military = {
+
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			IRQ = {
+			has_completed_focus = IRQ_future_lies_in_the_military
+			}
+			NOT = {has_country_flag = irq_running_propaganda}	
+		}
+		visible = {
+			original_tag = IRQ
+		}
+		days_remove = 40
+		days_re_enable = 50
+		modifier {
+			political_power_cost = 0.25
+			weekly_manpower = 1500
+		}
+		
+		complete_effect = {
+			set_country_flag = irq_running_propaganda
+		}
+		
+		cost = 35
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+		add_to_variable = { irq_propaganda_effect_army_var = 0.05 }
+		custom_effect_tooltip = irq_propaganda_army_buffed_by_5_per
+		add_to_variable = { irq_propaganda_effect_efficiency_var = 0.05 }
+		custom_effect_tooltip = irq_propaganda_efficiency_buffed_by_5_per
+		add_to_variable = { irq_propaganda_effect_costs_var = -0.020}
+		custom_effect_tooltip = irq_propaganda_factory_output_costs_increase_by_2_per
+		
+		clr_country_flag = irq_running_propaganda
+		}
+	}
+	
+	IRQ_propaganda_aid_iraqs_future = {
+
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			IRQ = {
+			has_completed_focus = IRQ_dreams_of_a_greater_iraq
+			}
+			NOT = {has_country_flag = irq_running_propaganda}	
+		}
+		visible = {
+			original_tag = IRQ
+		}
+		days_remove = 50
+		days_re_enable = 35
+		modifier {
+			political_power_cost = 0.10
+			industrial_capacity_factory = 0.20
+		}
+		
+		complete_effect = {
+			set_country_flag = irq_running_propaganda
+		}
+		
+		cost = 10
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+		add_to_variable = { irq_propaganda_effect_costs_consumer_goods_var = 0.010}
+		custom_effect_tooltip = irq_propaganda_consumer_good_costs_increase_by_1_per
+		
+		clr_country_flag = irq_running_propaganda
+		}
+	}
+	
+	IRQ_propaganda_for_a_united_arabia = {
+
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			IRQ = {
+			has_completed_focus = IRQ_dreams_of_a_united_arab_nation
+			}
+			NOT = {has_country_flag = irq_running_propaganda}	
+		}
+		visible = {
+			original_tag = IRQ
+		}
+		days_remove = 50
+		days_re_enable = 35
+		modifier {
+			political_power_cost = 0.10
+			army_morale_factor = 0.35
+			army_org_factor = 0.15
+		}
+		
+		complete_effect = {
+			set_country_flag = irq_running_propaganda
+		}
+		
+		cost = 10
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+		add_to_variable = { irq_propaganda_effect_costs_consumer_goods_var = 0.010}
+		custom_effect_tooltip = irq_propaganda_consumer_good_costs_increase_by_1_per
+		
+		clr_country_flag = irq_running_propaganda
+		}
+	}
+	
+	IRQ_propaganda_saddam_iraqs_saviour = {
+
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			IRQ = {
+			has_completed_focus = IRQ_saddams_cult_of_personality
+			}
+			NOT = {has_country_flag = irq_running_propaganda}	
+		}
+		visible = {
+			original_tag = IRQ
+		}
+		days_remove = 60
+		days_re_enable = 60
+		modifier {
+			political_power_cost = 0.10
+			political_power_factor = 0.35
+		}
+		
+		complete_effect = {
+			set_country_flag = irq_running_propaganda
+		}
+		
+		cost = 10
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+		add_to_variable = { irq_propaganda_effect_efficiency_var = 0.050}
+		custom_effect_tooltip = irq_propaganda_efficiency_buffed_by_5_per
+		add_to_variable = { irq_propaganda_effect_costs_consumer_goods_var = 0.020}
+		custom_effect_tooltip = irq_propaganda_consumer_good_costs_increase_by_2_per
+		
+		clr_country_flag = irq_running_propaganda
+		}
+	}
+	
+	IRQ_propaganda_saddam_an_example_for_the_youth = {
+
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			IRQ = {
+			has_completed_focus = IRQ_saddams_cult_of_personality
+			}
+			NOT = {has_country_flag = irq_running_propaganda}	
+		}
+		visible = {
+			original_tag = IRQ
+		}
+		days_remove = 75
+		days_re_enable = 60
+		modifier {
+			political_power_cost = 0.10
+			weekly_manpower = 1000
+			experience_gain_army_factor = 0.25
+			fascism_drift = 0.01
+		}
+		
+		complete_effect = {
+			set_country_flag = irq_running_propaganda
+		}
+		
+		cost = 35
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+		add_to_variable = { irq_propaganda_effect_political_var = 0.050}
+		custom_effect_tooltip = irq_propaganda_efficiency_buffed_by_5_per
+		add_to_variable = { irq_propaganda_effect_costs_var = -0.020}
+		custom_effect_tooltip = irq_propaganda_factory_output_costs_increase_by_2_per
+		
+		clr_country_flag = irq_running_propaganda
+		}
+	}
+
+}

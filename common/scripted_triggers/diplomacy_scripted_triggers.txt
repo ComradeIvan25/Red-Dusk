@@ -264,7 +264,7 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 				NOT = { tag = SPC }
 				FROM = {
 					tag = SPC
-					has_completed_focus = SPR_regional_defense_council_of_aragon
+					
 				}
 			}
 			custom_trigger_tooltip = {
@@ -288,7 +288,7 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 				NOT = { tag = SPC }
 				FROM = {
 					tag = SPC
-					has_completed_focus = SPR_regional_defense_council_of_aragon
+					
 				}
 			}
 			custom_trigger_tooltip = {
@@ -307,19 +307,19 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 				tooltip = RULE_VOLUNTEERS_PORTUGAL_SCW_TT
 				NOT = {
 					AND = {
-						has_completed_focus = POR_support_the_spanish_republic
+						
 						FROM = { NOT = { tag = SPD } }
 					}
 				}
 				NOT = {
 					AND = {
-						has_completed_focus = POR_support_the_spanish_nationalists
+						
 						FROM = { NOT = { tag = SPA } }
 					}
 				}
 				NOT = {
 					AND = {
-						has_completed_focus = POR_support_a_spanish_monarchy_in_the_war
+						
 						FROM = { NOT = { tag = SPB } }
 					}
 				}
@@ -338,13 +338,13 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 				tooltip = RULE_VOLUNTEERS_BULGARIA_SCW_TT
 				NOT = {
 					AND = {
-						has_completed_focus = BUL_the_spanish_struggle
+						
 						FROM = { NOT = { tag = SPD } }
 					}
 				}
 				NOT = {
 					AND = {
-						has_completed_focus = BUL_support_the_spanish_coup
+						
 						FROM = { NOT = { tag = SPA } }
 					}
 				}
@@ -365,7 +365,7 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 				tooltip = RULE_VOLUNTEERS_BULGARIA_SCW_TT
 				NOT = {
 					AND = {
-						has_completed_focus = BUL_the_spanish_struggle
+						
 						FROM = {
 							NOT = { has_government = communism }
 							NOT = { has_government = democratic }
@@ -374,7 +374,7 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 				}
 				NOT = {
 					AND = {
-						has_completed_focus = BUL_support_the_spanish_coup
+						
 						FROM = {
 							NOT = { has_government = fascism }
 							NOT = { has_government = neutrality }
@@ -392,25 +392,23 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 			custom_trigger_tooltip = {
 				tooltip = RULE_VOLUNTEERS_SOVIET_CHINA_SUPPORT_CHOSEN_ONE_TT
 				OR = {
-					has_completed_focus = SOV_the_gobi_gambit
-					has_completed_focus = SOV_two_red_flags
-					has_completed_focus = SOV_support_the_kuomintang
+
 				}
 				NOT = {
 					AND = {
-						has_completed_focus = SOV_the_gobi_gambit
+
 						FROM = { NOT = { tag = SIK } }
 					}
 				}
 				NOT = {
 					AND = {
-						has_completed_focus = SOV_two_red_flags
+
 						FROM = { NOT = { tag = PRC } }
 					}
 				}
 				NOT = {
 					AND = {
-						has_completed_focus = SOV_support_the_kuomintang
+
 						FROM = { NOT = { tag = CHI } }
 					}
 				}
@@ -443,9 +441,7 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 				}
 				FROM = { original_tag = SPR }
 				OR = {
-					NOT = { has_completed_focus = SOV_covert_support_for_spanish_poum }
 					AND = {
-						has_completed_focus = SOV_covert_support_for_spanish_poum
 						NOT = { has_global_flag = SPR_anarchist_uprising_flag }
 					}
 				}
@@ -476,10 +472,7 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 				original_tag = SOV
 				has_government = communism
 				FROM = { original_tag = SPR }
-				has_completed_focus = SOV_covert_support_for_spanish_poum
-				NOT = { has_completed_focus = SOV_coup_detat }
-				has_global_flag = SPR_anarchist_uprising_flag
-				SPC = { has_completed_focus = SPR_the_anti_fascist_workers_revolution }
+
 			}
 			custom_trigger_tooltip = {
 				tooltip = RULE_VOLUNTEERS_SOVIET_SCW_COVERT_POUM_TT
@@ -495,10 +488,7 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 				original_tag = SOV
 				has_government = communism
 				FROM = { original_tag = SPR }
-				has_completed_focus = SOV_covert_support_for_spanish_poum
-				has_completed_focus = SOV_coup_detat
-				has_global_flag = SPR_anarchist_uprising_flag
-				SPC = { has_completed_focus = SPR_the_anti_fascist_workers_revolution }
+
 			}
 			custom_trigger_tooltip = {
 				tooltip = RULE_VOLUNTEERS_SOVIET_SCW_POUM_TT
@@ -590,7 +580,7 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 				NOT = { tag = SPC }
 				FROM = {
 					tag = SPC
-					has_completed_focus = SPR_regional_defense_council_of_aragon
+
 	}
 			}
 			custom_trigger_tooltip = {

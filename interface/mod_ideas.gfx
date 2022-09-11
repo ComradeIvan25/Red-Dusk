@@ -335,7 +335,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_idea_cold_war_icon"
-		texturefile = "gfx/interface/ideas/_cold_war.dds"
+		texturefile = "gfx/interface/ideas/cold_war.png"
 	}
 	
 }

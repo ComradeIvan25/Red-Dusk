@@ -2,6 +2,14 @@
 	id = ussr_pugo_focus
 	continuous_focus_position = { x = -800 y = 2000 }
 	
+	country = {
+		factor = 0
+		modifier = {
+		tag = SOV
+		add = 999
+		}
+	}
+	
 	default = no
 	focus = {
 		id = SOV_the_hardliner
@@ -1412,7 +1420,7 @@
 		prerequisite = {
 			focus = SOV_pugo_the_vienna_summit
 		}
-		mutually_exclusive = { }
+		mutually_exclusive = {}
 		
 		cost = 1
 		ai_will_do = {
@@ -1534,6 +1542,209 @@
 
 		prerequisite = {
 			focus = SOV_pugo_the_budapest_agreement
+		}
+		mutually_exclusive = {}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+	focus = {
+		id = SOV_pugo_the_red_dragon_in_the_east
+		icon = GFX_SOV_the_red_dragon_in_the_east
+		x = 12
+		y = 23
+
+		prerequisite = {
+			focus = SOV_pugo_isolate_the_czech_republic
+		}
+		prerequisite = {
+			focus = SOV_pugo_our_power_secured
+		}
+		prerequisite = {focus = SOV_pugo_always_at_the_ready focus = SOV_pugo_ease_the_overmilitarisation}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_pugo_reinforce_mongolia
+		icon = GFX_SOV_reinforce_mongolia
+		x = 12
+		y = 24
+
+		prerequisite = {
+			focus = SOV_pugo_the_red_dragon_in_the_east
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_pugo_border_blockades
+		icon = GFX_SOV_border_blockades
+		x = 10
+		y = 25
+
+		prerequisite = {
+			focus = SOV_pugo_reinforce_mongolia
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_pugo_mobilize_the_industry
+		icon = GFX_SOV_mobilize_industry
+		x = 12
+		y = 25
+
+		prerequisite = {
+			focus = SOV_pugo_reinforce_mongolia
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_pugo_project_red_dusk
+		icon = GFX_SOV_project_red_dusk
+		x = 14
+		y = 25
+
+		prerequisite = {
+			focus = SOV_pugo_reinforce_mongolia
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_pugo_against_the_eastern_dragon
+		icon = GFX_SOV_against_the_eastern_dragon
+		x = 12
+		y = 26
+
+		prerequisite = {
+			focus = SOV_pugo_project_red_dusk
+		}
+		prerequisite = {
+			focus = SOV_pugo_mobilize_the_industry
+		}
+		prerequisite = {
+			focus = SOV_pugo_border_blockades
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_pugo_end_the_revisionists
+		icon = GFX_SOV_end_of_the_revisionists
+		x = 12
+		y = 27
+
+		prerequisite = {
+			focus = SOV_pugo_against_the_eastern_dragon
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_pugo_unto_the_new_dawn
+		icon = GFX_SOV_unto_a_new_dawn
+		x = 12
+		y = 28
+
+		prerequisite = {
+			focus = SOV_pugo_end_the_revisionists
 		}
 		mutually_exclusive = { }
 		

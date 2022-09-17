@@ -1,6 +1,15 @@
 ﻿capital = 459
 
-# Starting tech
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+
+	set_technology = {
+		destroyer_hull_1960 = 1
+		attack_submarine_hull_1960 = 1
+	}
+}
 
 set_convoys = 20
 
@@ -36,7 +45,7 @@ if = {
 			fixed_ship_engine_slot = small_surface_engine_diesel_1
 			fixed_ship_sonar_slot = empty
 			fixed_ship_radar_slot = ship_radar_1
-			fixed_ship_defensive_slot_1 = anti_air_1
+			fixed_ship_defensive_slot_1 = ciws_1
 			fixed_ship_defensive_slot_2 = empty
 			fixed_ship_aviation_slot = empty
 			custom_ship_cannon_slot = naval_gun_1

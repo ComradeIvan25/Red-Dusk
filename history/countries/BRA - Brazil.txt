@@ -2,6 +2,16 @@
 
 #oob = "BRA_1936"
 
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+
+	set_technology = {
+		carrier_hull_1960 = 1
+	}
+}
+
 recruit_character = BRA_fernando_henrique
 
 set_politics = {

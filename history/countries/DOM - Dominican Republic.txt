@@ -2,6 +2,16 @@
 
 #oob = "DOM_1936"
 
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+
+	set_technology = {
+		corvette_hull_1960 = 1
+	}
+}
+
 set_war_support = 0.1
 set_convoys = 5
 

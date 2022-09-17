@@ -1,5 +1,15 @@
 ﻿capital = 276
 
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+
+	set_technology = {
+		attack_submarine_hull_1960 = 1
+	}
+}
+
 set_research_slots = 3
 set_stability = 0.8
 set_war_support = 0.1

@@ -29,6 +29,20 @@
  Gorbachevs_economic_policies:0 "§GWe Can Now Fix The Economy\n\n§!"
  sov_dmitry_yazov_dies_cool_text:0 "§YDmitry Yazov §Rdies\n\n§!"
  sov_gorby_finally_do_what_we_couldnt:0 "§GWe Finally Have the Chance to Do What We Couldnt in 1991§!\n\n"
+ 
+ ##PUGO POWER STRUGGLE##
+ 
+ pugo_power_struggle_ended:0 "§GThe Power Struggle has reached a conclusion.§!"
+ pugo_power_struggle_ended_tt:0 "§GThe Power Struggle has reached a conclusion.§!"
+ pugo_needs_500_support_tt:0 "§RBoris Pugo§! §Yhas 500 power.§!"
+ pugo_gains_50_power_tt:0 "§RBoris Pugo§! §Ggains 50 power.§!"
+ pugo_gains_30_power_tt:0 "§RBoris Pugo§! §Ggains 30 power.§!"
+ pugo_gains_20_power_tt:0 "§RBoris Pugo§! §Ggains 20 power.§!"
+ pugo_gains_15_power_tt:0 "§RBoris Pugo§! §Ggains 15 power.§!"
+ pugo_gains_10_power_tt:0 "§RBoris Pugo§! §Ggains 10 power.§!"
+ 
+ putin_gains_15_power_tt:0 "§gVladimir Putin§! §Rgains 15 power§!"
+ putin_loses_25_power_tt:0 "§gVladimir Putin§! §Gloses 25 power§!"
  #IRAQ#
  
  fixed_army:0 "§YSolved The Army's Issues§!\n"

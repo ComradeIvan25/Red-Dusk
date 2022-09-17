@@ -1162,7 +1162,8 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
+			add_political_power = 20
+			unlock_decision_category_tooltip = sov_pugo_the_power_struggle
 		}
 	}
 	focus = {
@@ -1176,7 +1177,7 @@
 		}
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 2.9
 		ai_will_do = {
 			factor = 1
 		}
@@ -1186,8 +1187,11 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 20
-			add_stability = -0.1
+			add_political_power = 15
+			subtract_from_variable = {putin_power_support = 25}
+			custom_effect_tooltip = putin_loses_25_power_tt
+			add_stability = 0.10
+			country_event = {id = ussr.35}
 		}
 	}
 	focus = {
@@ -1201,7 +1205,7 @@
 		}
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 2.2
 		ai_will_do = {
 			factor = 1
 		}
@@ -1211,7 +1215,9 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 20
+			add_to_variable = {pugo_power_support = 15}
+			custom_effect_tooltip = pugo_gains_15_power_tt
+			army_experience = -5
 		}
 	}
 	focus = {
@@ -1224,7 +1230,7 @@
 		}
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 3.6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1234,7 +1240,10 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 30
+			add_to_variable = {pugo_power_support = 50}
+			custom_effect_tooltip = pugo_gains_50_power_tt
+			add_political_power = -25
+			add_stability = -0.10
 		}
 	}
 	focus = {
@@ -1245,10 +1254,18 @@
 		prerequisite = {focus = SOV_pugo_capture_the_radio_stations}
 		prerequisite = {focus = SOV_pugo_contact_the_army}
 		prerequisite = {focus = SOV_pugo_keep_your_friends_close}
-
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = pugo_needs_500_support_tt		
+				check_variable = {pugo_power_support > 499}
+			}
+		
+		}
+		
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 1.5
 		ai_will_do = {
 			factor = 1
 		}
@@ -1258,7 +1275,10 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 100
+			remove_ideas = SOV_kgb_powerstruggle
+			set_country_flag = pugo_power_struggle_ended
+			custom_effect_tooltip = pugo_power_struggle_ended_tt
+			country_event = {id = ussr.36}
 		}
 	}
 

@@ -6,7 +6,6 @@ sov_debug = {
 	
 		allowed = {
 			original_tag = SOV
-			is_debug = yes
 
 		}
 		available = {
@@ -37,7 +36,6 @@ sov_debug = {
 	
 		allowed = {
 			original_tag = SOV
-			is_debug = yes
 
 		}
 		available = {
@@ -68,7 +66,6 @@ sov_debug = {
 	
 		allowed = {
 			original_tag = SOV
-			is_debug = yes
 
 		}
 		available = {
@@ -99,7 +96,6 @@ sov_debug = {
 	
 		allowed = {
 			original_tag = SOV
-			is_debug = yes
 
 		}
 		available = {
@@ -3022,6 +3018,216 @@ sov_rally_support_for_gorby = {
 		complete_effect = { 
 			custom_effect_tooltip = gorby_has_70_support
 			set_country_flag = gorby_secured_support
+		}
+	}
+}
+
+sov_pugo_the_power_struggle = {
+
+		
+	sov_pugo_the_power_struggle_putin_is_getting_power = {
+
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+			has_country_flag = pugo_power_struggle_ended
+		}
+		visible = {
+			original_tag = SOV
+			NOT = {has_country_flag = pugo_power_struggle_ended}
+		}
+		
+		is_good = no
+		selectable_mission = no
+		days_mission_timeout = 2
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		
+		timeout_effect = { 
+			add_to_variable = { putin_power_support = 15 }
+			custom_effect_tooltip = putin_gains_15_power_tt
+		}
+	}	
+		
+	sov_pugo_the_power_struggle_gen_sec_speech = {
+
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+			NOT = {has_country_flag = pugo_power_struggle_ended}
+		}
+		
+		days_re_enable = 5
+		cost = 30
+		fire_only_once = no
+		ai_will_do = {
+			factor = 75
+		}
+		
+		complete_effect = { 
+			add_to_variable = { pugo_power_support = 20 }
+			custom_effect_tooltip = pugo_gains_20_power_tt
+		}
+	}
+	
+	sov_pugo_the_power_struggle_bribe_army_officials = {
+
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+			NOT = {has_country_flag = pugo_power_struggle_ended}
+		}
+		
+		days_re_enable = 5
+		cost = 15
+		fire_only_once = no
+		ai_will_do = {
+			factor = 75
+		}
+		
+		complete_effect = { 
+			add_to_variable = { pugo_power_support = 15 }
+			custom_effect_tooltip = pugo_gains_15_power_tt
+			add_stability = -0.02
+			army_experience = -10
+		}
+	}
+	
+	sov_pugo_the_power_struggle_influence_in_kgb = {
+
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+			NOT = {has_country_flag = pugo_power_struggle_ended}
+		}
+		
+		days_re_enable = 5
+		cost = 15
+		fire_only_once = no
+		ai_will_do = {
+			factor = 75
+		}
+		
+		complete_effect = { 
+			add_to_variable = { pugo_power_support = 20 }
+			custom_effect_tooltip = pugo_gains_20_power_tt
+			add_stability = -0.05
+		}
+	}
+	
+	sov_pugo_the_power_struggle_propaganda_campaign = {
+
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+			NOT = {has_country_flag = pugo_power_struggle_ended}
+		}
+		
+		days_re_enable = 5
+		cost = 10
+		fire_only_once = no
+		ai_will_do = {
+			factor = 75
+		}
+		
+		complete_effect = { 
+			add_to_variable = { pugo_power_support = 10 }
+			custom_effect_tooltip = pugo_gains_10_power_tt
+		}
+	}
+	
+	sov_pugo_the_power_struggle_purge_the_putinists = {
+
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+			NOT = {has_country_flag = pugo_power_struggle_ended}
+		}
+		
+		days_re_enable = 7
+		cost = 40
+		fire_only_once = no
+		ai_will_do = {
+			factor = 75
+		}
+		
+		complete_effect = { 
+			add_to_variable = { pugo_power_support = 50 }
+			custom_effect_tooltip = pugo_gains_50_power_tt
+			subtract_from_variable = { putin_power_support = 25 }
+			custom_effect_tooltip = putin_loses_25_power_tt
+			add_stability = -0.15
+		}
+	}
+	
+	sov_pugo_the_power_struggle_bribe_the_party_officials = {
+
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+			NOT = {has_country_flag = pugo_power_struggle_ended}
+		}
+		
+		days_re_enable = 7
+		cost = 20
+		fire_only_once = no
+		ai_will_do = {
+			factor = 75
+		}
+		
+		complete_effect = { 
+			add_to_variable = { pugo_power_support = 30 }
+			custom_effect_tooltip = pugo_gains_30_power_tt
+			add_political_power = -10
+			add_stability = -0.05
 		}
 	}
 }

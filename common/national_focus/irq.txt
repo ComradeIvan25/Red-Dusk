@@ -148,7 +148,7 @@ focus_tree = {
 	
 	focus = {
 		id = IRQ_future_lies_in_the_military
-		icon = GFX_focus_IRQ_problems
+		icon = GFX_focus_IRQ_future_lies_in_military
 		x = 12
 		y = 5
 
@@ -201,7 +201,7 @@ focus_tree = {
 	
 	focus = {
 		id = IRQ_dreams_of_a_united_arab_nation
-		icon = GFX_focus_IRQ_problems
+		icon = GFX_focus_IRQ_dreams_of_a_united_arab_nation
 		x = 11
 		y = 6
 

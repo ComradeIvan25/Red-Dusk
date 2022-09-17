@@ -103,6 +103,16 @@
  sov_fund_the_north_korean_army:0 "Fund the North Korean Army"
  sov_sabotage_chinese_interests:0 "Sabotage Chinese Interests"
  
+ sov_pugo_the_power_struggle:0 "The Power Struggle"
+ sov_pugo_the_power_struggle_desc:0 "Reaching 500 power will consadilate our power.However, if §gVladimir Putin§! reaches 500 power there will be drastic consequences...\n\n§RBoris Pugo§! has a total of §G[?pugo_power_support] power.§!\n\n§gVladimir Putin§! has a total of §G[?putin_power_support] power.§!"
+ sov_pugo_the_power_struggle_putin_is_getting_power:0 "§gVladimir Putin§! is §Rgetting power...§!"
+ sov_pugo_the_power_struggle_gen_sec_speech:0 "General Secretary's Speech"
+ sov_pugo_the_power_struggle_bribe_army_officials:0 "Bribe Army Officials"
+ sov_pugo_the_power_struggle_influence_in_kgb:0 "Influence In KGB"
+ sov_pugo_the_power_struggle_propaganda_campaign:0 "Propaganda Campaign"
+ sov_pugo_the_power_struggle_purge_the_putinists:0 "Purge the Putinists"
+ sov_pugo_the_power_struggle_bribe_the_party_officials:0 "Bribe the Party Officials"
+ 
  sov_mining_resources_in_north_korea:0 "Mining Resources In North Korea"
  sov_mining_resources_in_north_korea_desc:0 "With our influence secured in [KOR.getnamewithflag], we can mine the rich resources of the country to benefit both nations' industrial development."
  sov_north_korea_start_mining_operations:0 "Start Mining Operations"

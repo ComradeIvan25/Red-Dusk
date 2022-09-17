@@ -47,7 +47,9 @@
  old_times_news.24.t:0 "USSR begins invasion of former SSRs!"
  old_times_news.24.d:0 "A flood of reports has come in from Estonia, Latvia, Azerbaijan and Armenia, all claiming one thing: Soviet Invasion.\n\nAs of now, photos of large columns of Soviet tanks, APCs, trucks and troops can be seen coming from these countries, confirming the earlier reports of troop gatherings along their borders. It would seem that Kremlin has had enough and is keen on finishing the unfinished job from the 90s. As of now, while the Soviet Army advances deeper into these countries, no official statement has left the Soviet Union.\n\nMeanwhile, United States and other NATO and EU countries have already prepared sanctions against the Soviet Union. But as many political analysts believe, no amount of sanctions can stop hundreds of tanks."
  old_times_news.24.a:0 "Bear comes to get what's his."
-  
+ old_times_news.25.t:0 "Coup in the U.S.S.R"
+ old_times_news.25.d:0 ""
+ old_times_news.25.a:0 "What will the future bring?" 
 ## Flavour News Events ##
  #flavour_news.1.t:0 ##HIDDEN SCRIPTED EVENT##
  flavour_news.2.t:0 "Disaster in Paris!"

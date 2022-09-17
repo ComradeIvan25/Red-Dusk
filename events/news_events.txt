@@ -172,21 +172,6 @@ news_event = {
 	}
 }
 
-#Soviets invade Latvia, Estonia etc.
-news_event = {
-	id = old_times_news.24
-	title = old_times_news.24.t
-	desc = old_times_news.24.d
-	picture = GFX_news_reclamation
-	
-	major = yes
-	
-	is_triggered_only = yes
-	 
-	option ={
-		name = old_times_news.24.a
-	}
-}
 
 #anti - kaliba allaince collapses#
 news_event = {
@@ -252,6 +237,37 @@ news_event = {
 	}
 }
 
+#Soviets invade Latvia, Estonia etc.
+news_event = {
+	id = old_times_news.24
+	title = old_times_news.24.t
+	desc = old_times_news.24.d
+	picture = GFX_news_reclamation
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.24.a
+	}
+}
+
+#Soviet Coup
+news_event = {
+	id = old_times_news.25
+	title = old_times_news.25.t
+	desc = old_times_news.25.d
+	picture = GFX_news_reclamation
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.25.a
+	}
+}
 
 ### FLAVOUR NEWS EVENTS ###
 

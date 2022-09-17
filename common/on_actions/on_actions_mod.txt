@@ -338,7 +338,9 @@ on_actions = {
 							puppet = PER
 						}
 						
-						
+						PER = {
+							set_cosmetic_tag = PER_iraq_puppet
+						}
 						news_event = { id = old_times_news.16 }
 					}
 					

@@ -556,7 +556,9 @@ country_event = {
 	add_political_power = -25
 	add_war_support = -0.05
 	add_manpower = 1500
-		country_event = {days = 15 id = yug_rebel.4}
+		hidden_effect = {
+			country_event = {days = 15 id = yug_rebel.4}
+		}
 	}
 
 }
@@ -673,9 +675,6 @@ country_event = {
 	option = {
 	name = yug_rebel.6.a
 	add_stability = -0.05
-		hidden_effect ={
-		country_event = {days = 5 id = yug_rebel.4}
-		}
 
 	}
 
@@ -744,11 +743,10 @@ country_event = {
 		ai_chance = { 
 		base = 50
 		}
-		news_event = yug_news.4
 		YUG = {
 		add_political_power = -300
 		add_stability = -0.30
-		news_event = {id = yug_news.4}
+		news_event = { id = yug_news.4 }
 		remove_ideas = YUG_nationalism_supressed
 		remove_ideas = YUG_nationalist_rebirth
 			set_politics = {
@@ -785,11 +783,10 @@ country_event = {
 		ai_chance = { 
 		base = 35
 		}
-		news_event = yug_news.5
 		YUG = {
 		add_political_power = -300
 		add_stability = -0.30
-		news_event = {id = yug_news.5}
+		news_event = { id = yug_news.5 }
 		remove_ideas = YUG_nationalism_supressed
 		remove_ideas = YUG_nationalist_rebirth
 				set_politics = {
@@ -817,7 +814,9 @@ news_event = {
 	id = yug_news.1
 	title = yug_news.1.t
 	desc = yug_news.1.d
-	picture = GFX_
+	#picture = GFX_
+
+	major = yes
 	
 	is_triggered_only = yes
 	
@@ -833,7 +832,9 @@ news_event = {
 	#zamn#
 	option = {
 	name = yug_news.1.b
-		
+		trigger = {
+			NOT = { tag = yug }
+		}
 	}
 	
 
@@ -844,7 +845,9 @@ news_event = {
 	id = yug_news.2
 	title = yug_news.2.t
 	desc = yug_news.2.d
-	picture = GFX_
+	#picture = GFX_
+
+	major = yes
 	
 	is_triggered_only = yes
 	
@@ -862,8 +865,10 @@ news_event = {
 	id = yug_news.3
 	title = yug_news.3.t
 	desc = yug_news.3.d
-	picture = GFX_
+	#picture = GFX_
 	
+	major = yes
+
 	is_triggered_only = yes
 	
 	#rip#
@@ -880,7 +885,9 @@ news_event = {
 	id = yug_news.4
 	title = yug_news.4.t
 	desc = yug_news.4.d
-	picture = GFX_nothing
+	#picture = GFX_nothing
+	
+	major = yes
 	
 	is_triggered_only = yes
 	
@@ -898,7 +905,9 @@ news_event = {
 	id = yug_news.5
 	title = yug_news.5.t
 	desc = yug_news.5.d
-	picture = GFX_nothing
+	#picture = GFX_nothing
+	
+	major = yes
 	
 	is_triggered_only = yes
 	

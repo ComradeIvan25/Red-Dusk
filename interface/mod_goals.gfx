@@ -767,7 +767,15 @@ spriteTypes = {
 		name = "GFX_focus_IRQ_launch_special_operation"
 		texturefile = "gfx/interface/goals/focus_IRQ_launch_special_operation.png"
 	}
-
+	SpriteType = {
+		name = "GFX_focus_IRQ_future_lies_in_military"
+		texturefile = "gfx/interface/goals/focus_IRQ_future_lies_in_military.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_dreams_of_a_united_arab_nation"
+		texturefile = "gfx/interface/goals/focus_IRQ_dreams_of_a_united_arab_nation.png"
+	}
+	
    ###SAF###
 
 	SpriteType = {

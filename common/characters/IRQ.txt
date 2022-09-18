@@ -96,6 +96,9 @@ characters = {
 			allowed = {
 				original_tag = IRQ
 			}
+			available = {
+				has_completed_focus = IRQ_economic_restructuring
+			}
 			
 			traits = {
 				minister_of_finance
@@ -302,15 +305,6 @@ characters = {
 			army = {
 				large = "gfx/leaders/IRQ/Ali_Hussein_Ali.dds"
 			}
-		}
-		navy_leader={
-			traits={ }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
-			legacy_id=-1
 		}
 	}
 

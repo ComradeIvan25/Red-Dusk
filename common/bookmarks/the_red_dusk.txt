@@ -59,9 +59,9 @@ bookmarks = {
 				IRQ_disorganized_army
 			}
 			focuses = {
-				IRQ_problems
+				IRQ_done
+				IRQ_economic_restructuring
 				IRQ_saddam_rule
-				IRQ_kurds
 			}	
 		}
 		
@@ -93,10 +93,6 @@ bookmarks = {
 				SAF_parliment_prevails
 				SAF_end_segregation_for_good
 			}	
-		}
-
-		"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
 		}
 
 		effect = {

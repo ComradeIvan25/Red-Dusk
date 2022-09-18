@@ -29,7 +29,7 @@
  Gorbachevs_economic_policies:0 "§GWe Can Now Fix The Economy\n\n§!"
  sov_dmitry_yazov_dies_cool_text:0 "§YDmitry Yazov §Rdies\n\n§!"
  sov_gorby_finally_do_what_we_couldnt:0 "§GWe Finally Have the Chance to Do What We Couldnt in 1991§!\n\n"
- 
+
  ##PUGO POWER STRUGGLE##
  
  pugo_power_struggle_ended:0 "§GThe Power Struggle has reached a conclusion.§!"
@@ -88,6 +88,8 @@
  irq_propaganda_consumer_good_costs_increase_by_2_per:0 "§RThe Propaganda Costs Increase, Causing us to gain 2% consumer goods.§!"
  irq_propaganda_consumer_good_costs_increase_by_1_per:0 "§RThe Propaganda Costs Increase, Causing us to gain 1% consumer goods.§!"
  
+ hikmat_mizban_ibrahim:0 "§YHikmat Mizban Ibrahim§!"
+
  #YUGOSLAVIA#
  
  YUG_open_new_factories_flag:0 "§YHas Choosen to open new factories\n\n§!"
@@ -318,6 +320,8 @@
  decision_cost_CP_15_PP_50:0 "£command_power  §Y15§! £political_power  §Y50§!"
  decision_cost_CP_15_PP_50_blocked:0 "£command_power  §R15§! £political_power  §R50§!"
  decision_cost_CP_15_PP_50_tooltip:0 "It costs £command_power  §Y15§! and £political_power  §Y50§! to take the decision"
+
+ recruit_advisor_effect:0 "§GAvailable§! as §YPolitical Advisor§!:\n"
 
  ## Indian Tsunami ##
 

@@ -10,14 +10,14 @@ focus_tree = {
 		}
 	}
 
-	continuous_focus_position = { x = 2500 y = 2500 }
+	continuous_focus_position = { x = 2900 y = 900 }
 	
 	default = no
 	focus = {
 		id = IRQ_new_era
 		icon = GFX_focus_IRQ_iraq_future
-		x = 10
-		y = 2
+		x = 5
+		y = 0
 
 		prerequisite = {}
 		mutually_exclusive = { }
@@ -40,11 +40,12 @@ focus_tree = {
 	focus = {
 		id = IRQ_saddam_rule
 		icon = GFX_focus_IRQ_saddam 
-		x = 10
-		y = 3
+		x = 0
+		y = 1
 
 		prerequisite = {focus = IRQ_new_era}
 		mutually_exclusive = { }
+		relative_position_id = IRQ_new_era
 		
 		cost = 3
 		ai_will_do = {
@@ -66,11 +67,12 @@ focus_tree = {
 	focus = {
 		id = IRQ_the_propaganda_machine
 		icon = GFX_focus_IRQ_problems
-		x = 10
-		y = 4
+		x = 0
+		y = 1
 
 		prerequisite = {focus = IRQ_saddam_rule}
 		mutually_exclusive = { }
+		relative_position_id = IRQ_saddam_rule
 		
 		cost = 3
 		ai_will_do = {
@@ -91,11 +93,12 @@ focus_tree = {
 	focus = {
 		id = IRQ_dogs_of_the_west
 		icon = GFX_focus_IRQ_problems
-		x = 8
-		y = 5
+		x = -2
+		y = 1
 
 		prerequisite = {focus = IRQ_the_propaganda_machine}
 		mutually_exclusive = { }
+		relative_position_id = IRQ_the_propaganda_machine
 		
 		cost = 5
 		ai_will_do = {
@@ -124,12 +127,12 @@ focus_tree = {
 	focus = {
 		id = IRQ_swords_of_iraq
 		icon = GFX_focus_IRQ_problems
-		x = 10
-		y = 5
+		x = 0
+		y = 1
 
 		prerequisite = {focus = IRQ_the_propaganda_machine}
-
 		mutually_exclusive = { }
+		relative_position_id = IRQ_the_propaganda_machine
 		
 		cost = 6
 		ai_will_do = {
@@ -149,12 +152,12 @@ focus_tree = {
 	focus = {
 		id = IRQ_future_lies_in_the_military
 		icon = GFX_focus_IRQ_future_lies_in_military
-		x = 12
-		y = 5
+		x = 2
+		y = 1
 
 		prerequisite = {focus = IRQ_the_propaganda_machine}
-
 		mutually_exclusive = { }
+		relative_position_id = IRQ_the_propaganda_machine
 		
 		cost = 5
 		ai_will_do = {
@@ -175,13 +178,12 @@ focus_tree = {
 	focus = {
 		id = IRQ_dreams_of_a_greater_iraq
 		icon = GFX_focus_IRQ_problems
-		x = 9
-		y = 6
+		x = 1
+		y = 1
 
 		prerequisite = {focus = IRQ_dogs_of_the_west}
-
-		mutually_exclusive = { focus = IRQ_dreams_of_a_united_arab_nation
-		}
+		mutually_exclusive = { focus = IRQ_dreams_of_a_united_arab_nation }
+		relative_position_id = IRQ_dogs_of_the_west
 		
 		cost = 5
 		ai_will_do = {
@@ -202,12 +204,12 @@ focus_tree = {
 	focus = {
 		id = IRQ_dreams_of_a_united_arab_nation
 		icon = GFX_focus_IRQ_dreams_of_a_united_arab_nation
-		x = 11
-		y = 6
+		x = -1
+		y = 1
 
 		prerequisite = {focus = IRQ_future_lies_in_the_military}
-
 		mutually_exclusive = { focus = IRQ_dreams_of_a_greater_iraq }
+		relative_position_id = IRQ_future_lies_in_the_military
 		
 		cost = 5
 		ai_will_do = {
@@ -229,13 +231,13 @@ focus_tree = {
 	focus = {
 		id = IRQ_saddams_cult_of_personality
 		icon = GFX_focus_IRQ_problems
-		x = 10
-		y = 7
+		x = 0
+		y = 2
 
 		prerequisite = {focus = IRQ_swords_of_iraq}
 		prerequisite = {focus = IRQ_dreams_of_a_greater_iraq focus = IRQ_dreams_of_a_united_arab_nation}
-
 		mutually_exclusive = { }
+		relative_position_id = IRQ_swords_of_iraq
 		
 		cost = 6
 		ai_will_do = {
@@ -257,12 +259,13 @@ focus_tree = {
 	focus = {
         	id = IRQ_army
         	icon = GFX_focus_IRQ_army
-        	x = 10
-        	y = 8
+        	x = 0
+        	y = 1
 		prerequisite = {focus = IRQ_saddams_cult_of_personality}
 		available = {
                 has_country_flag = IRQ_kurds_done
                 }
+		relative_position_id = IRQ_saddams_cult_of_personality
                
 		cost = 2
 		ai_will_do = {
@@ -284,12 +287,12 @@ focus_tree = {
 	focus = {
 		id = IRQ_forbbiden_power
 		icon = GFX_focus_IRQ_forbidden_power 
-		x = 10
-		y = 11
+		x = -4
+		y = 1
 
 		prerequisite = {focus = IRQ_army}
-
 		mutually_exclusive = { }
+		relative_position_id = IRQ_army
 		
 		cost = 5
 		ai_will_do = {
@@ -311,12 +314,12 @@ focus_tree = {
 	focus = {
 		id = IRQ_atom
 		icon = GFX_focus_IRQ_atom 
-		x = 10
-		y = 12
+		x = 0
+		y = 1
 
 		prerequisite = {focus = IRQ_forbbiden_power}
-
 		mutually_exclusive = { }
+		relative_position_id = IRQ_forbbiden_power
 		
 		cost = 3
 		ai_will_do = {
@@ -340,12 +343,12 @@ focus_tree = {
 	focus = {
 		id = IRQ_uranium
 		icon = GFX_focus_IRQ_uranium
-		x = 8
-		y = 13
+		x = -1
+		y = 1
 
 		prerequisite = {focus = IRQ_atom}
-
 		mutually_exclusive = { }
+		relative_position_id = IRQ_atom
 		
 		cost = 3
 		ai_will_do = {
@@ -366,12 +369,12 @@ focus_tree = {
 	focus = {
 		id = IRQ_domestic
 		icon = GFX_focus_IRQ_facilities 
-		x = 12
-		y = 13
+		x = 1
+		y = 1
 
 		prerequisite = {focus = IRQ_atom}
-
 		mutually_exclusive = { }
+		relative_position_id = IRQ_atom
 		
 		cost = 5
 		ai_will_do = {
@@ -391,14 +394,13 @@ focus_tree = {
 	focus = {
 		id = IRQ_restart
 		icon = GFX_focus_IRQ_tuwaitha
-		x = 10
-		y = 14
+		x = 1
+		y = 1
 
 		prerequisite = {focus = IRQ_domestic}
 		prerequisite = {focus = IRQ_uranium}
-
-
 		mutually_exclusive = { }
+		relative_position_id = IRQ_uranium
 		
 		cost = 8
 		ai_will_do = {
@@ -422,12 +424,12 @@ focus_tree = {
 	focus = {
 		id = IRQ_wmd
 		icon = GFX_focus_SOV_Biological_Research 
-		x = 10
-		y = 15
+		x = 0
+		y = 1
 
 		prerequisite = {focus = IRQ_restart}
-
 		mutually_exclusive = { }
+		relative_position_id = IRQ_restart
 		
 		cost = 3
 		ai_will_do = {
@@ -450,12 +452,12 @@ focus_tree = {
 	focus = {
 		id = IRQ_syria
 		icon = GFX_focus_IRQ_republic
-		x = 14
-		y = 11
+		x = -1
+		y = 1
 
 		prerequisite = {focus = IRQ_army}
-
 		mutually_exclusive = { }
+		relative_position_id = IRQ_army
 		
 		cost = 3
 		ai_will_do = {
@@ -475,12 +477,12 @@ focus_tree = {
 	focus = {
 		id = IRQ_pan_iraq
 		icon = GFX_focus_IRQ_pan_iraq
-		x = 14
-		y = 12
+		x = 0
+		y = 2
 
 		prerequisite = {focus = IRQ_syria}
-
 		mutually_exclusive = { }
+		relative_position_id = IRQ_syria
 		
 		cost = 2
 		ai_will_do = {
@@ -503,12 +505,12 @@ focus_tree = {
 	focus = {
 		id = IRQ_army_ready
 		icon = GFX_focus_IRQ_army_ready 
-		x = 14
-		y = 13
+		x = 0
+		y = 1
 
 		prerequisite = {focus = IRQ_pan_iraq}
-
 		mutually_exclusive = { }
+		relative_position_id = IRQ_pan_iraq
 		
 		cost = 3
 		ai_will_do = {
@@ -540,12 +542,12 @@ focus_tree = {
 	focus = {
 		id = IRQ_strike_syria
 		icon = GFX_focus_IRQ_strike 
-		x = 14
-		y = 14
+		x = 0
+		y = 1
 
 		prerequisite = {focus = IRQ_army_ready}
-
 		mutually_exclusive = { }
+		relative_position_id = IRQ_army_ready
 		
 		cost = 1
 		ai_will_do = {
@@ -569,12 +571,12 @@ focus_tree = {
 	focus = {
 		id = IRQ_kuwait
 		icon = GFX_focus_IRQ_kuwait
-		x = 16
-		y = 11
+		x = 1
+		y = 1
 
 		prerequisite = {focus = IRQ_army}
-
 		mutually_exclusive = { }
+		relative_position_id = IRQ_army
 		
 		cost = 3
 		ai_will_do = {
@@ -593,12 +595,12 @@ focus_tree = {
 	focus = {
 		id = IRQ_america
 		icon = GFX_focus_IRQ_americans_not_see
-		x = 16
-		y = 12
+		x = 0
+		y = 2
 
 		prerequisite = {focus = IRQ_kuwait}
-
 		mutually_exclusive = { }
+		relative_position_id = IRQ_kuwait
 		
 		cost = 2
 		ai_will_do = {
@@ -630,12 +632,12 @@ focus_tree = {
 	focus = {
 		id = IRQ_run_over
 		icon = GFX_focus_IRQ_run_over 
-		x = 16
-		y = 13
+		x = 0
+		y = 2
 
 		prerequisite = {focus = IRQ_america}
-
 		mutually_exclusive = { }
+		relative_position_id = IRQ_america
 		
 		cost = 1
 		ai_will_do = {
@@ -663,12 +665,12 @@ focus_tree = {
 	focus = {
 		id = IRQ_saudi
 		icon = GFX_focus_IRQ_saudi 
-		x = 18
-		y = 11
+		x = 3
+		y = 1
 
 		prerequisite = {focus = IRQ_army}
-
 		mutually_exclusive = { }
+		relative_position_id = IRQ_army
 		
 		cost = 2
 		ai_will_do = {
@@ -689,12 +691,12 @@ focus_tree = {
 	focus = {
 		id = IRQ_backing
 		icon = GFX_focus_IRQ_backing 
-		x = 18
-		y = 12
+		x = 0
+		y = 2
 
 		prerequisite = {focus = IRQ_saudi}
-
 		mutually_exclusive = { }
+		relative_position_id = IRQ_saudi
 		
 		cost = 1
 		ai_will_do = {
@@ -715,12 +717,12 @@ focus_tree = {
 	focus = {
 		id = IRQ_oil
 		icon = GFX_focus_IRQ_oil 
-		x = 18
-		y = 13
+		x = 0
+		y = 2
 
 		prerequisite = {focus = IRQ_backing}
-
 		mutually_exclusive = { }
+		relative_position_id = IRQ_backing
 		
 		cost = 3
 		ai_will_do = {
@@ -746,15 +748,15 @@ focus_tree = {
 	focus = {
 		id = IRQ_old_wounds
 		icon = GFX_focus_IRQ_old_wounds
-		x = 15
-		y = 16
+		x = 4
+		y = 1
 
 		prerequisite = {focus = IRQ_wmd}
 		prerequisite = {focus = IRQ_strike_syria}
 		prerequisite = {focus = IRQ_run_over}
 		prerequisite = {focus = IRQ_oil}
-
 		mutually_exclusive = { }
+		relative_position_id = IRQ_wmd
 		
 		cost = 3
 		ai_will_do = {
@@ -774,12 +776,12 @@ focus_tree = {
 	focus = {
 		id = IRQ_ready1
 		icon = GFX_focus_IRQ_army_ready2 
-		x = 13
-		y = 17
+		x = -1
+		y = 1
 
 		prerequisite = {focus = IRQ_old_wounds}
-
 		mutually_exclusive = { }
+		relative_position_id = IRQ_old_wounds
 		
 		cost = 3
 		ai_will_do = {
@@ -803,12 +805,12 @@ focus_tree = {
 	focus = {
 		id = IRQ_soviet_support
 		icon = GFX_focus_IRQ_moscow 
-		x = 17
-		y = 17
+		x = 1
+		y = 1
 
 		prerequisite = {focus = IRQ_old_wounds}
-
 		mutually_exclusive = { }
+		relative_position_id = IRQ_old_wounds
 		
 		cost = 2
 		ai_will_do = {
@@ -849,13 +851,13 @@ focus_tree = {
 	focus = {
 		id = IRQ_the_plan
 		icon = GFX_focus_IRQ_old_plan_ready
-		x = 15
-		y = 18
+		x = 1
+		y = 1
 
 		prerequisite = {focus = IRQ_soviet_support}
 		prerequisite = {focus = IRQ_ready1}
-
 		mutually_exclusive = { }
+		relative_position_id = IRQ_ready1
 		
 		cost = 1
 		ai_will_do = {
@@ -880,12 +882,12 @@ focus_tree = {
 	focus = {
 		id = IRQ_88
 		icon = GFX_focus_IRQ_revenge 
-		x = 15
-		y = 19
+		x = 0
+		y = 1
 
 		prerequisite = {focus = IRQ_the_plan}
-
 		mutually_exclusive = { }
+		relative_position_id = IRQ_the_plan
 		
 		cost = 2
 		ai_will_do = {
@@ -910,8 +912,8 @@ focus_tree = {
 	focus = {
 		id = IRQ_saddam_epic_win
 		icon = GFX_focus_IRQ_saddam_win
-		x = 15
-		y = 20
+		x = 0
+		y = 1
 
 		prerequisite = {focus = IRQ_88}
 
@@ -923,6 +925,7 @@ focus_tree = {
 		}
 
 		mutually_exclusive = { }
+		relative_position_id = IRQ_88
 		
 		cost = 3
 		ai_will_do = {
@@ -943,13 +946,12 @@ focus_tree = {
 	focus = {
 		id = IRQ_greater_iraq
 		icon = GFX_focus_IRQ_great_iraq 
-		x = 15
-		y = 21
+		x = 0
+		y = 1
 
 		prerequisite = {focus = IRQ_saddam_epic_win}
-
-
 		mutually_exclusive = { }
+		relative_position_id = IRQ_saddam_epic_win
 		
 		cost = 1
 		ai_will_do = {
@@ -975,8 +977,8 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_economic_restructuring
-		#icon = 
-		x = 27
+		icon = GFX_focus_IRQ_economic_restructuring
+		x = 24
 		y = 0
 
 		cost = 3
@@ -985,13 +987,14 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 25
-			recruit_character = IRQ_hikmat_mizban_ibrahim
+			custom_effect_tooltip = recruit_advisor_effect
+			custom_effect_tooltip = hikmat_mizban_ibrahim
 		}
 	}
 
 	focus = {
 		id = IRQ_increase_oil_production
-		#icon =
+		icon = GFX_focus_IRQ_increase_oil_production
 		x = -3
 		y = 2
 
@@ -1176,7 +1179,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_support_iraqi_people
-		#icon =
+		icon = GFX_focus_IRQ_support_iraqi_people
 		x = 1
 		y = 1
 
@@ -1364,7 +1367,7 @@ focus_tree = {
 	focus = {
 		id = IRQ_the_kurdish_issue
 		icon = GFX_focus_IRQ_kurdish_issue
-		x = 17
+		x = 14
 		y = 0
 
 		cost = 3
@@ -1634,7 +1637,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_launch_special_operation
-		#icon = 
+		icon = GFX_focus_IRQ_special_operation_2
 		x = 0
 		y = 1
 
@@ -1672,7 +1675,7 @@ focus_tree = {
 	focus = {
 		id = IRQ_bolster_military
 		#icon = 
-		x = 38
+		x = 35
 		y = 2
 
 		cost = 4
@@ -1702,6 +1705,14 @@ focus_tree = {
 
 		completion_reward = {
 			navy_experience = 15
+			add_naval_commander_role = {
+				character = IRQ_ali_hussein_ali
+				skill=1
+				attack_skill=1
+				defense_skill=1
+				maneuvering_skill=1
+				coordination_skill=1
+			}
 		}
 	}
 

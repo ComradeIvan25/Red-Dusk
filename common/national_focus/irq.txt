@@ -1161,7 +1161,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_finance_regime
-		#icon =
+		icon = GFX_focus_IRQ_finance_regime
 		x = -1
 		y = 1
 

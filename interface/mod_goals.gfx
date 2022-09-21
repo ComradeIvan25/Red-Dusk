@@ -791,6 +791,10 @@ spriteTypes = {
 		name = "GFX_focus_IRQ_increase_oil_production"
 		texturefile = "gfx/interface/goals/focus_IRQ_increase_oil_production.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_finance_regime"
+		texturefile = "gfx/interface/goals/focus_IRQ_finance_regime.png"
+	}
 
    ###SAF###
 

@@ -1,6 +1,12 @@
 ﻿capital = 608
 
 #oob = "PRC_1936"
+
+set_technology = {
+	fighter_1960 = 1
+	strategic_bomber_1960 = 1
+}
+
 set_stability = 0.6
 set_war_support = 0.7
 

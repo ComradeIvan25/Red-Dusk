@@ -1,6 +1,7 @@
 ﻿capital = 16
 
 set_technology = {
+	fighter_1970 = 1
 	carrier_attacker_1960 = 1
 	carrier_attacker_1970 = 1
 }

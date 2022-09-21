@@ -1681,6 +1681,12 @@ spriteTypes = {
 		legacy_lazy_load = no
 		noOfFrames = 2
 	}
+	spriteType = {
+		name = "GFX_unit_armoured_recon_icon_small"
+		texturefile = "gfx/texticons/unit_recon_vehicle_support_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
 
 	# Naval Units #
 

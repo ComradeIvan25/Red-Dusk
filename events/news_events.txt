@@ -172,7 +172,6 @@ news_event = {
 	}
 }
 
-
 #anti - kaliba allaince collapses#
 news_event = {
 	id = old_times_news.20
@@ -268,6 +267,39 @@ news_event = {
 		name = old_times_news.25.a
 	}
 }
+
+#Eastern War#
+news_event = {
+	id = old_times_news.26
+	title = old_times_news.26.t
+	desc = old_times_news.26.d
+	picture = GFX_news_eastern_war
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.26.a
+	}
+}
+
+#Sino Soviet War#
+news_event = {
+	id = old_times_news.27
+	title = old_times_news.27.t
+	desc = old_times_news.27.d
+	picture = GFX_news_sino_soviet_war
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.27.a
+	}
+}
+
 
 ### FLAVOUR NEWS EVENTS ###
 

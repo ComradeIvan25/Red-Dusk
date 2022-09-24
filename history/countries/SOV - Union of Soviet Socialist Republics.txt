@@ -223,6 +223,7 @@ recruit_character = SOV_vladimir_putin
 recruit_character = SOV_party
 recruit_character = SOV_mikhail_kolesnikov
 recruit_character = SOV_vladimir_based
+recruit_character = SOV_alexei_navalny
 
 ## advisors ##
 recruit_character = SOV_yuri_maslyukov

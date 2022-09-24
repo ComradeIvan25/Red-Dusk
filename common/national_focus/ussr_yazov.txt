@@ -51,6 +51,7 @@
 		continue_if_invalid = no
 		completion_reward = {
 			add_political_power = 15
+			add_stability = 0.05
 			custom_effect_tooltip = soviet_purge_tooltip
 			hidden_effect = { unlock_decision_category_tooltip = sov_purging }
 		}
@@ -1449,6 +1450,7 @@
 			add_state_core = 610
 			add_state_core = 745
 			}
+		        news_event = { id = old_times_news.26 days = 1 }
 		}
 	}
 	

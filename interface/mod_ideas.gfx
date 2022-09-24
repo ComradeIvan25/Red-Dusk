@@ -74,6 +74,18 @@ spriteTypes = {
 		name = "GFX_idea_SOV_KGB_divided_icon"
 		texturefile = "gfx/interface/ideas/SOV_kgb_divided.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_SOV_army_purged"
+		texturefile = "gfx/interface/ideas/SOV_purged_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_kgb_order"
+		texturefile = "gfx/interface/ideas/SOV_kgb_order.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_ready"
+		texturefile = "gfx/interface/ideas/SOV_ready.dds"
+	}
 
         #EUROPE COMMON#
 	spriteType = {

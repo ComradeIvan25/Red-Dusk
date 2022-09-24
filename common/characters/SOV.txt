@@ -32,6 +32,20 @@ characters = {
 			expire = "2050.3.1.1"
 			id = -1
 		}
+	}
+	SOV_alexei_navalny = {
+		name = "Alexei_Navalny"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/Aleksandr_Korzhakov.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
 	}	
 	SOV_dmitry_yazov = {
 		name = "Dmitry Yazov"

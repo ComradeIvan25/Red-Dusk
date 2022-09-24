@@ -1883,6 +1883,16 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			291 = {
+				create_unit = {
+					division = "division_template = \"Firqat Alharas Aljumhurii\"start_experience_factor = 0.45 start_equipment_factor = 0.75"
+					owner = IRQ
+				}
+				create_unit = {
+					division = "division_template = \"Firqat Alharas Aljumhurii\"start_experience_factor = 0.45 start_equipment_factor = 0.75"
+					owner = IRQ
+				}
+			}
 		}
 	}
 

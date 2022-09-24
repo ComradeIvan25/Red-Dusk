@@ -2,6 +2,9 @@
 
 set_technology = {
 	carrier_fighter_1980 = 1
+	attacker_1970 = 1
+	attacker_1980 = 1
+	ifv_tank_1990 = 1
 }
 
 set_research_slots = 4

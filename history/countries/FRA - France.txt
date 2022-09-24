@@ -4,6 +4,7 @@ set_technology = {
 	fighter_1970 = 1
 	carrier_attacker_1960 = 1
 	carrier_attacker_1970 = 1
+	heli_attack_1970 = 1
 }
 
 set_research_slots = 3

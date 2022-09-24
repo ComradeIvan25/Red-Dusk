@@ -537,3 +537,4 @@
  attack_drone_company:0 "Attack Drone Company"
  attack_drone_company_desc:0 "While attack helicopters and aircraft continue to be effective forms of ground-force suppression, they are large and expensive, and therefore only used on high-value targets. Combat drones can perform identical support missions, but against lower-value targets such as small infantry groups or insurgents."
  armoured_recon:0 "Armoured Recon Company"
+ motorised_recon:0 "Motorised Recon Company"

@@ -59,9 +59,9 @@ bookmarks = {
 				IRQ_disorganized_army
 			}
 			focuses = {
-				IRQ_done
-				IRQ_economic_restructuring
+				IRQ_dreams_of_a_united_arab_nation
 				IRQ_saddam_rule
+				IRQ_atom
 			}	
 		}
 		

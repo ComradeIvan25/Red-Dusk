@@ -74,6 +74,20 @@
  old_times_news.32.d:0 ""
  old_times_news.32.a:0 "It's over."
   
+
+ old_times_news.33.t:0 "Saddam Proclaims Greater Iraq!"
+ old_times_news.33.d:0 "After Iraq's recent military victories against Kuwait, Syria, and Iran, Saddam Hussein declared the "eternal enemies of Iraq" dead and subsequently declared the new "Greater Iraq" state in front of a crowd in Baghdad.\n\nThe new ethnostate has been denounced by both the N.A.T.O and majority of West nations, declaring the new state illegal and a clear violation of human rights under the occupation of Saddam Hussein's regime.\n\nOnly time will tell if the new state will survive with resistance groups gaining momentum and posing a serious threat in the newly occupied areas."
+ old_times_news.33.a:0 "We'll see how long this lasts" 
+ old_times_news.34.t:0 "Camp David Summit Fails"
+ old_times_news.34.d:0 ""
+ old_times_news.34.a:0 ""
+ old_times_news.35.t:0 "Second Intifada"
+ old_times_news.35.d:0 ""
+ old_times_news.35.a:0 ""
+ old_times_news.36.t:0 "Bloodbath in Damascus!"
+ old_times_news.36.d:0 ""
+ old_times_news.36.a:0 "..."
+
 ## Flavour News Events ##
  #flavour_news.1.t:0 ##HIDDEN SCRIPTED EVENT##
  flavour_news.2.t:0 "Disaster in Paris!"

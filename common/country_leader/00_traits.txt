@@ -207,6 +207,18 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	
+	chemical_ali_2 = {
+		random = no
+		experience_gain_army = 0.10
+		experience_gain_air = 0.05
+		army_attack_factor = 0.05	
+		compliance_gain = -0.30
+		resistance_target = -0.25
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
 	minister_of_finance = {
 		random = no

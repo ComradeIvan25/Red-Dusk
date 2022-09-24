@@ -1,5 +1,4 @@
 add_namespace = irq
-add_namespace = irq_hidden
 
 #kurds#
 country_event = {
@@ -125,29 +124,6 @@ country_event = {
 				target = IRQ
 			}
 		}
-	}
-}
-
-#k dealt kurd progress 100 aka complete#
-country_event = {
-	id = irq_hidden.1
-	title = irq_hidden.1.t
-	desc = irq_hidden.1.d
-	picture = GFX_nothing
-	hidden = yes
-	
-   fire_only_once = yes
-
-	trigger = {
-		check_variable = {
-		kurd_resistance_variable > 4.9
-		}
-	}
-	
-	
-	option = {
-		name = irq_hidden.1.b
-		set_country_flag = IRQ_kurd_resistance_bar_is_100
 	}
 }
 
@@ -358,5 +334,106 @@ country_event = {
 	
 	option = {
 		name = irq.13.a
+	}
+}
+
+#Iranian States' Rename#
+country_event = {
+	id = irq.14
+	title = irq.14.t
+	desc = irq.14.d
+	picture = GFX_report_event_IRQ_aircraft_yugo
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq.14.a
+		add_war_support = 0.05
+		413 = {
+		set_state_name = "Arabistan"
+		}
+		421 = {
+		set_state_name = "Asad Babil"
+		}
+	}
+}
+
+#Renewed Resistance Against Saddam#
+country_event = {
+	id = irq.15
+	title = irq.15.t
+	desc = irq.15.d
+	picture = GFX_report_event_IRQ_aircraft_yugo
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq.15.a
+		add_stability = -0.15
+		add_ideas = IRQ_renewed_resistance
+		set_country_flag = irq_renewed_resistance
+		unlock_decision_category_tooltip = irq_category_renewed_resistance
+			remove_state_core = 656
+			remove_state_core = 421
+			remove_state_core = 677
+			remove_state_core = 554
+			remove_state_core = 680
+			remove_state_core = 413
+			
+			656 = {
+			add_resistance = 20
+			}
+			421 = {
+			add_resistance = 20			
+			}
+			677 = {
+			add_resistance = 20
+			}
+			554 = {
+			add_resistance = 20
+			}
+			680 = {
+			add_resistance = 20
+			}
+			413 = {
+			add_resistance = 20
+			}
+	}
+}
+
+#Damascus Situation Report#
+country_event = {
+	id = irq.16
+	title = irq.16.t
+	desc = irq.16.d
+	picture = GFX_report_event_iraq_chemical_weapons
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq.16.a
+			custom_effect_tooltip = irq_trait_modify_chem_ali
+			hidden_effect = {
+			remove_trait = {
+				 character = IRQ_ali_al-majid
+				 slot = army_chief
+				 trait = chemical_ali
+			}
+			add_trait = {
+				 character = IRQ_ali_al-majid
+				 slot = army_chief
+				 trait = chemical_ali_2
+			}
+			}
+			554 = {
+			add_manpower = -20421
+				add_building_construction = {
+					type = infrastructure
+					level = -2
+					instant_build = yes
+				}
+			
+			}
+			news_event = {id = old_times_news.36 days = 2}
 	}
 }

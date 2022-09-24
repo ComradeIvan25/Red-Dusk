@@ -41,6 +41,25 @@ ideas = {
 			}
 		}
 		
+		IRQ_western_embargo_3 = {
+			name = IRQ_embargo_name
+
+			removal_cost = -1
+
+			picture = IRQ_western_embargo_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.15
+				production_speed_industrial_complex_factor = -0.25
+				production_factory_start_efficiency_factor = 0.15
+			}
+		}
+		
 		IRQ_kurdish_rebels = {
 			name = IRQ_kurds_name
 
@@ -588,6 +607,150 @@ ideas = {
 				stability_weekly_factor = 0.001
 				industrial_capacity_factory = 0.10
 				consumer_goods_factor = -0.10
+			}
+		}
+		
+		IRQ_saddams_cult_of_personality_2 = {
+			name = IRQ_saddams_cult_of_personality_name
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_cost = 0.25
+				stability_weekly_factor = 0.002
+				industrial_capacity_factory = 0.10
+				consumer_goods_factor = -0.10
+			}
+		}
+		
+		IRQ_saddams_cult_of_personality_3 = {
+			name = IRQ_saddams_cult_of_personality_name
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_cost = 0.25
+				stability_weekly_factor = 0.002
+				industrial_capacity_factory = 0.10
+				consumer_goods_factor = -0.10
+				army_attack_factor = 0.05
+			}
+		}
+		
+		IRQ_renewed_resistance = {
+			name = IRQ_renewed_resistance_name
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				neutrality_drift = 0.30
+				stability_weekly_factor = -0.005
+				resistance_growth = 0.80
+			}
+		}
+		
+		IRQ_renewed_resistance_2 = {
+			name = IRQ_renewed_resistance_name
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				neutrality_drift = 0.25
+				stability_weekly_factor = -0.003
+				resistance_growth = 0.65
+			}
+		}
+		
+		IRQ_renewed_resistance_3 = {
+			name = IRQ_renewed_resistance_name
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				neutrality_drift = 0.20
+				stability_weekly_factor = -0.002
+				resistance_growth = 0.45
+			}
+		}
+		
+		IRQ_renewed_resistance_4 = {
+			name = IRQ_renewed_resistance_name
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				neutrality_drift = 0.15
+				stability_weekly_factor = -0.001
+				resistance_growth = 0.25
+			}
+		}
+		
+		IRQ_renewed_resistance_5 = {
+			name = IRQ_renewed_resistance_name
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				neutrality_drift = 0.07
+				resistance_growth = 0.10
+			}
+		}
+		
+		IRQ_increased_pacification_efforts = {
+			name = IRQ_increased_pacification_efforts_name
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				resistance_growth = -0.80
 			}
 		}
 	

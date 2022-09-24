@@ -6,6 +6,8 @@ recruit_character = PAL_jaser_arafat
 
 add_ideas = ussr_aligned_nation
 
+add_ideas = PAL_secret_build_up
+
 set_politics = {
 	ruling_party = fascism
 	last_election = "1936.1.1"
@@ -13,7 +15,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 40
-	fascism = 30
-	communism = 30
+	democratic = 0
+	fascism = 60
+	communism = 40
 }

@@ -776,6 +776,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_IRQ_dreams_of_a_united_arab_nation.png"
 	}
 	SpriteType = {
+		name = "GFX_focus_IRQ_dreams_of_greater_iraq"
+		texturefile = "gfx/interface/goals/focus_IRQ_dreams_of_greater_iraq.png"
+	}
+	SpriteType = {
 		name = "GFX_focus_IRQ_economic_restructuring"
 		texturefile = "gfx/interface/goals/focus_IRQ_economic_restructuring.png"
 	}

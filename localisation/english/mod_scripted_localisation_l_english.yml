@@ -78,15 +78,25 @@
  
  irq_running_propaganda:0 "§YCurrently Running a Propaganda§!."
  
- irq_propaganda_political_buffed_by_5_per:0 "§GThe Effects of political Power gain and drift defence will increase by 5%.§!"
- irq_propaganda_efficiency_buffed_by_5_per:0 "§GThe Effects of War Support , Stability Support and Military Factory construction speed will increase by 5%.§!"
- irq_propaganda_army_buffed_by_2_per:0 "§GThe Effects of Recovery Rate, Division Attack and Defence will increase by 2%.§!"
- irq_propaganda_army_buffed_by_5_per:0 "§GThe Effects of Recovery Rate, Division Attack and Defence will increase by 5%.§!"
+ irq_propaganda_political_buffed_by_5_per:0 "§GThe Effects of political Power gain and drift defence will increase by §Y5%§!."
+ irq_propaganda_efficiency_buffed_by_5_per:0 "§GThe Effects of War Support , Stability Support and Military Factory construction speed will increase by §Y5%§!."
+ irq_propaganda_army_buffed_by_2_per:0 "§GThe Effects of Recovery Rate, Division Attack and Defence will increase by §Y2%§!."
+ irq_propaganda_army_buffed_by_5_per:0 "§GThe Effects of Recovery Rate, Division Attack and Defence will increase by §Y5%§!."
  
- irq_propaganda_factory_output_costs_increase_by_2_per:0 "§RThe Propaganda Costs Increase, Causing us to lose 2% factory output.§!"
- irq_propaganda_factory_output_costs_increase_by_1_per:0 "§RThe Propaganda Costs Increase, Causing us to lose 1% factory output.§!"
- irq_propaganda_consumer_good_costs_increase_by_2_per:0 "§RThe Propaganda Costs Increase, Causing us to gain 2% consumer goods.§!"
- irq_propaganda_consumer_good_costs_increase_by_1_per:0 "§RThe Propaganda Costs Increase, Causing us to gain 1% consumer goods.§!"
+ irq_propaganda_political_nerfed_by_5_per:0 "§RThe Effects of political Power gain and drift defence will decrease by §Y5%§!."
+ irq_propaganda_efficiency_nerfed_by_5_per:0 "§RThe Effects of War Support , Stability Support and Military Factory construction speed will decrease by §Y5%§!."
+ irq_propaganda_army_nerfed_by_5_per:0 "§RThe Effects of Recovery Rate, Division Attack and Defence will decrease by §Y5%§!."
+ 
+ 
+ irq_propaganda_factory_output_costs_increase_by_2_per:0 "§RThe Propaganda Costs Increase, Causing us to lose §Y2%§! factory output.§!"
+ irq_propaganda_factory_output_costs_increase_by_1_per:0 "§RThe Propaganda Costs Increase, Causing us to lose §Y1%§! factory output.§!"
+ irq_propaganda_consumer_good_costs_increase_by_2_per:0 "§RThe Propaganda Costs Increase, Causing us to gain §Y2%§! consumer goods.§!"
+ irq_propaganda_consumer_good_costs_increase_by_1_per:0 "§RThe Propaganda Costs Increase, Causing us to gain §Y1%§! consumer goods.§!"
+ 
+ irq_propaganda_consumer_good_costs_decrease_by_5_per:0 "§GThe Propaganda Costs Decrease, Causing us to lose §Y5%§! consumer goods.§!"
+ irq_propaganda_factory_output_costs_decrease_by_5_per:0 "§GThe Propaganda Costs Decrease, Causing us to gain §Y5%§! factory output.§!"
+ 
+ irq_trait_modify_chem_ali:0 "Modifies the trait of §Y"Ali Hassan Al-Majid"§! by\n-Resistance Target: §G-15%§!\n-Daily Compliance Gain: §R-15%§!"
  
  hikmat_mizban_ibrahim:0 "§YHikmat Mizban Ibrahim§!"
 

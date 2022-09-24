@@ -257,7 +257,7 @@ news_event = {
 	id = old_times_news.25
 	title = old_times_news.25.t
 	desc = old_times_news.25.d
-	picture = GFX_news_reclamation
+	picture = GFX_news_coup
 	
 	major = yes
 	
@@ -285,6 +285,7 @@ news_event = {
 }
 
 #Sino Soviet War#
+
 news_event = {
 	id = old_times_news.27
 	title = old_times_news.27.t
@@ -300,6 +301,69 @@ news_event = {
 	}
 }
 
+#Saddam Declares Greater Iraq
+news_event = {
+	id = old_times_news.33
+	title = old_times_news.33.t
+	desc = old_times_news.33.d
+	picture = GFX_news_greater_iraq_declared
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.33.a
+	}
+}
+
+#Camp David Summit Fails!
+news_event = {
+	id = old_times_news.34
+	title = old_times_news.34.t
+	desc = old_times_news.34.d
+	picture = GFX_news_camp_david_fails
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.34.a
+	}
+}
+
+#Second Intifada
+news_event = {
+	id = old_times_news.35
+	title = old_times_news.35.t
+	desc = old_times_news.35.d
+	picture = GFX_news_second_intifada
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.35.a
+	}
+}
+
+#Chemical Bloodbath In Damascus
+news_event = {
+	id = old_times_news.36
+	title = old_times_news.36.t
+	desc = old_times_news.36.d
+	picture = GFX_news_chemical_attack_in_damascus
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.36.a
+	}
+}
 
 ### FLAVOUR NEWS EVENTS ###
 

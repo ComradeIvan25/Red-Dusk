@@ -15,3 +15,44 @@ IRQ_recalc_kurd_resistance_bar_frames = {
 	set_variable = { current_kurd_resistance_bar_frame = kurd_progress_temp } # frame will be whatever the temp variable is, e.g. if temp = 3, then game will load up the 3rd frame, i.e. 3rd image #
 
 }
+
+IRQ_decrease_the_renewed_resistance_idea = {
+
+	if = {
+		limit = {has_idea = IRQ_renewed_resistance}
+		swap_ideas = {
+		remove_idea = IRQ_renewed_resistance
+		add_idea = IRQ_renewed_resistance_2
+		}
+	}
+	
+	else = {
+		limit = {has_idea = IRQ_renewed_resistance_2}
+		swap_ideas = {
+		remove_idea = IRQ_renewed_resistance_2
+		add_idea = IRQ_renewed_resistance_3
+		}
+	}
+	
+	else_if = {
+		limit = {has_idea = IRQ_renewed_resistance_3}
+		swap_ideas = {
+		remove_idea = IRQ_renewed_resistance_3
+		add_idea = IRQ_renewed_resistance_4
+		}
+	}
+	
+	else_if = {
+		limit = {has_idea = IRQ_renewed_resistance_4}
+		swap_ideas = {
+		remove_idea = IRQ_renewed_resistance_4
+		add_idea = IRQ_renewed_resistance_5
+		}
+	}
+	
+	else_if = {
+		limit = {has_idea = IRQ_renewed_resistance_5}
+		remove_ideas = IRQ_renewed_resistance_5
+
+	}
+}

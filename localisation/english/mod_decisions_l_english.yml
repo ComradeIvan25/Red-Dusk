@@ -103,8 +103,8 @@
  sov_sabotage_chinese_interests:0 "Sabotage Chinese Interests"
  
  sov_pugo_the_power_struggle:0 "The Power Struggle"
- sov_pugo_the_power_struggle_desc:0 "Reaching 500 power will consadilate our power.However, if §gVladimir Putin§! reaches 500 power there will be drastic consequences...\n\n§RBoris Pugo§! has a total of §G[?pugo_power_support] power.§!\n\n§gVladimir Putin§! has a total of §G[?putin_power_support] power.§!"
- sov_pugo_the_power_struggle_putin_is_getting_power:0 "§gVladimir Putin§! is §Rgetting power...§!"
+ sov_pugo_the_power_struggle_desc:0 "Reaching 500 power will consadilate our power. However, if §gVladimir Putin§! reaches 500 power there will be drastic consequences...\n\n§RBoris Pugo§! has a total of §G[?pugo_power_support] power.§!\n\n§gVladimir Putin§! has a total of §G[?putin_power_support] power.§!"
+ sov_pugo_the_power_struggle_putin_is_getting_power:0 "§gVladimir Putin§! is §Rmaking moves...§!"
  sov_pugo_the_power_struggle_gen_sec_speech:0 "General Secretary's Speech"
  sov_pugo_the_power_struggle_bribe_army_officials:0 "Bribe Army Officials"
  sov_pugo_the_power_struggle_influence_in_kgb:0 "Influence In KGB"
@@ -168,6 +168,7 @@
  irq_category_propaganda_machine_desc:0 "wip"
  IRQ_propaganda_increase_propaganda_resources:0 "Increase Propaganda Resources"
  IRQ_propaganda_dogs_of_the_west:0 "Dogs of the West"
+ IRQ_propaganda_scum_of_the_earth:0 "Scum of the Earth"
  IRQ_propaganda_swords_of_iraq:0 "Swords of Iraq"
  IRQ_propaganda_future_lies_in_the_military:0 "Future Lies in the Military"
  IRQ_propaganda_aid_iraqs_future:0 "Aid Iraq's Future!"

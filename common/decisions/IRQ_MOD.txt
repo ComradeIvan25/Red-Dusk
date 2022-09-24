@@ -1164,13 +1164,57 @@ irq_category_propaganda_machine = {
 		}
 		
 		cost = 15
-		fire_only_once = yes
+		fire_only_once = no
 		ai_will_do = {
 			factor = 0
 		}
 		remove_effect = { 
 		add_to_variable = { irq_propaganda_effect_army_var = 0.02 }
 		custom_effect_tooltip = irq_propaganda_army_buffed_by_2_per
+		add_to_variable = { irq_propaganda_effect_costs_consumer_goods_var = 0.020}
+		custom_effect_tooltip = irq_propaganda_consumer_good_costs_increase_by_2_per
+		
+		clr_country_flag = irq_running_propaganda
+		}
+	}
+	
+	IRQ_propaganda_scum_of_the_earth = {
+
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			IRQ = {
+			has_completed_focus = IRQ_dogs_of_the_west
+			}
+			NOT = {has_country_flag = irq_running_propaganda}
+		}
+		visible = {
+			original_tag = IRQ
+		}
+		days_remove = 90
+		days_re_enable = 30
+		modifier {
+			political_power_cost = 0.25
+		}
+		targeted_modifier = {
+			tag = ISR
+			attack_bonus_against = 0.15
+		}
+		
+		complete_effect = {
+			set_country_flag = irq_running_propaganda
+		}
+		
+		cost = 15
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
 		add_to_variable = { irq_propaganda_effect_costs_consumer_goods_var = 0.020}
 		custom_effect_tooltip = irq_propaganda_consumer_good_costs_increase_by_2_per
 		
@@ -1208,7 +1252,7 @@ irq_category_propaganda_machine = {
 		}
 		
 		cost = 10
-		fire_only_once = yes
+		fire_only_once = no
 		ai_will_do = {
 			factor = 0
 		}
@@ -1251,7 +1295,7 @@ irq_category_propaganda_machine = {
 		}
 		
 		cost = 35
-		fire_only_once = yes
+		fire_only_once = no
 		ai_will_do = {
 			factor = 0
 		}
@@ -1296,7 +1340,7 @@ irq_category_propaganda_machine = {
 		}
 		
 		cost = 10
-		fire_only_once = yes
+		fire_only_once = no
 		ai_will_do = {
 			factor = 0
 		}
@@ -1338,7 +1382,7 @@ irq_category_propaganda_machine = {
 		}
 		
 		cost = 10
-		fire_only_once = yes
+		fire_only_once = no
 		ai_will_do = {
 			factor = 0
 		}
@@ -1379,7 +1423,7 @@ irq_category_propaganda_machine = {
 		}
 		
 		cost = 10
-		fire_only_once = yes
+		fire_only_once = no
 		ai_will_do = {
 			factor = 0
 		}
@@ -1424,7 +1468,7 @@ irq_category_propaganda_machine = {
 		}
 		
 		cost = 35
-		fire_only_once = yes
+		fire_only_once = no
 		ai_will_do = {
 			factor = 0
 		}
@@ -1438,4 +1482,439 @@ irq_category_propaganda_machine = {
 		}
 	}
 
+}
+
+irq_category_renewed_resistance = {
+	
+	IRQ_counter_insurgency_tactics = {
+
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+		}
+		days_remove = 30
+		days_re_enable = 10
+		modifier {
+			political_power_cost = 0.20
+			weekly_manpower = -1000
+			resistance_growth = -0.25
+		}
+		
+		cost = 30
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_stability = 0.05
+			
+		}
+	}
+	
+	IRQ_jail_potential_sympathyizers = {
+
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+		}
+		days_remove = 30
+		days_re_enable = 55
+		modifier {
+			political_power_gain = 0.25
+			weekly_manpower = -1000
+			neutrality_drift = -0.10
+			resistance_growth = 0.05
+		}
+		
+		cost = 30
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_political_power = 100
+			
+		}
+	}
+	
+	IRQ_move_in_the_army = {
+
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+		}
+		days_remove = 35
+		days_re_enable = 25
+		modifier {
+			weekly_manpower = -2500
+			neutrality_drift = -0.05
+			resistance_growth = -0.45
+		}
+		
+		cost = 30
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			army_experience = 50
+			
+		}
+	}
+	
+	IRQ_deport_iranians_from_arabistan = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+		}
+		days_remove = 35
+		days_re_enable = 25
+		modifier {
+			neutrality_drift = -0.15
+			resistance_growth = -0.15
+		}
+		
+		cost = 30
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			413 = {
+			add_manpower = -6372
+			}
+			PER = {
+			add_manpower = 5640
+			}
+		}
+	}
+	
+	IRQ_integrate_kuwait = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+			656 = {
+			resistance < 15
+			}
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+		}
+		days_remove = 35
+		modifier {
+		}
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 656
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_state_core = 656
+			IRQ_decrease_the_renewed_resistance_idea = yes
+		}
+	}
+	
+	IRQ_integrate_arabistan = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+			656 = {
+			resistance < 15
+			}
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+		}
+		days_remove = 35
+		modifier {
+		}
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 413
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_state_core = 413
+			IRQ_decrease_the_renewed_resistance_idea = yes
+		}
+	}
+	
+	IRQ_integrate_asad_babil = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+			656 = {
+			resistance < 15
+			}
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+		}
+		days_remove = 35
+		modifier {
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 421
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_state_core = 421
+			IRQ_decrease_the_renewed_resistance_idea = yes
+		}
+	}
+	
+	IRQ_integrate_al_hasakah = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+			869 = {
+			resistance < 15
+			}
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+		}
+		days_remove = 35
+		modifier {
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 869
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 25
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_state_core = 869
+			IRQ_decrease_the_renewed_resistance_idea = yes
+		}
+	}
+	
+	IRQ_integrate_deir_az_zur = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+			680 = {
+			resistance < 15
+			}
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+		}
+		days_remove = 35
+		modifier {
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 680
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 25
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_state_core = 680
+			IRQ_decrease_the_renewed_resistance_idea = yes
+		}
+	}
+	
+	IRQ_integrate_aleppo = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+			869 = {
+			resistance < 15
+			}
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+		}
+		days_remove = 35
+		modifier {
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 869
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_state_core = 869
+			IRQ_decrease_the_renewed_resistance_idea = yes
+		}
+	}
+	
+	IRQ_integrate_damascus = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+			554 = {
+			resistance < 15
+			}
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+		}
+		days_remove = 35
+		modifier {
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 554
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_state_core = 554
+			IRQ_decrease_the_renewed_resistance_idea = yes
+		}
+	}
 }

@@ -1000,7 +1000,31 @@
  IRQ_saddam_epic_win_desc:0 ""
  IRQ_greater_iraq:0 "§RProclaim§! §GGreater§! §YIraq§!"
  IRQ_greater_iraq_desc:0 "After the Triumph over our enemies, the moment has come that everyone has been waiting for since Saddam came to power... The Proclamation of the Great Iraq!No Iraqi has ever doubted Saddam and his ideas. Long live Saddam Hussein! Glory to Iraq!"
-
+ 
+ IRQ_seize_iran_wealth:0 "Seize Iranian Wealth"
+ IRQ_seize_iran_wealth_desc:0 ""
+ IRQ_divert_resources_to_pacification_efforts:0 "Divert Resources to Pacification Efforts"
+ IRQ_divert_resources_to_pacification_efforts_desc:0 "With rebels threathing very existince of our great country, its only sensible for us to divert resources that was mostly spent on propaganda to pacification efforts against the rebels."
+ IRQ_locate_the_rebel_hideouts:0 "Locate the Rebel Hideouts"
+ IRQ_locate_the_rebel_hideouts_desc:0 "With greater territory came greater problems, the rebels have spread across the country from Arabistan to Damascus , sabotaging and posing resistance in the day and hiding in different secret holdouts and bases during night.We can no longer tolerate this and will focus on finding these holdouts and destroying them one by one."
+ IRQ_heros_of_iraq_march_ever_forward:0 "Heroes of Iraq March Ever Forward"
+ IRQ_heros_of_iraq_march_ever_forward_desc:0 ""
+ IRQ_chemical_ali_visit_to_damascus:0 "§RChemical Ali's Visit To Damascus§!"
+ IRQ_chemical_ali_visit_to_damascus_desc:0 ""
+ IRQ_strengthen_our_hold:0 "Strengthening Our Hold"
+ IRQ_strengthen_our_hold_desc:0 ""
+ 
+ IRQ_reconstructing_the_economy:0 "Reconstruction of the Economy"
+ IRQ_reconstructing_the_economy_desc:0 ""
+ IRQ_a_sense_of_normalcy:0 "A Sense of Normalcy"
+ IRQ_a_sense_of_normalcy_desc:0 "With Iraq being under embargo for years our economy and daily life of our citizens mostly adjusted into this new normal, causing the effect of the embargoes to mostly wear off."
+ IRQ_benefits_of_a_planned_economy:0 "Benefits of Planned Economy"
+ IRQ_benefits_of_a_planned_economy_desc:0 ""
+ IRQ_domestic_goods_sector:0 "Domestic Goods Sector"
+ IRQ_domestic_goods_sector_desc:0 "We will establish a new sector on domestic goods that oversee food,clothing,farming production in the newly acquired states to use their potential to the fullest for the good of our country."
+ 
+ IRQ_the_next_step:0 "The Next Step"
+ 
  IRQ_economic_restructuring:0 "Economic Restructuring"
  IRQ_economic_restructuring_desc:0 "The last decade has been devastating for our economy, with infrastructure in disrepair and trade severely restricted. To get our country back on track, we must reorganise our economic sector, even if it means hiring previously dismissed advisors."
  IRQ_increase_oil_production:0 "Increase Oil Production"
@@ -1087,7 +1111,7 @@
  IRQ_expand_domestic_industry_desc:0 ""
  IRQ_play_to_our_strengths:0 "Play to our Strengths"
  IRQ_play_to_our_strengths_desc:0 ""
-
+ 
  ##KOREA##
 
  KOR_new_era:0 "New Dawn for Korea"

@@ -246,6 +246,9 @@
  IRQ_dreams_of_a_greater_iraq_name:0 "Dreams of a Greater Iraq"
  IRQ_dreams_of_a_united_arab_nation_name:0 "Dreams of a United Arab Nation"
  IRQ_saddams_cult_of_personality_name:0 "Saddam's Cult of Personality"
+ IRQ_renewed_resistance_name:0 "Renewed Resistance"
+ IRQ_increased_pacification_efforts_name:0 "Increased Pacification Efforts"
+ 
  
  SIA_rama_ix_name:0 "Rama IX"
  SIA_rama_ix_name_desc:0 "Long Live His Majesty King Rama IX"
@@ -319,3 +322,13 @@
  
  CRO_aftermath_of_the_krajina_war_name:0 "Aftermath of the Krajina War"
  CRO_aftermath_of_the_krajina_war_name_desc:0 ""
+ 
+ PAL_secret_build_up_name:0 "Secret Build-Up"
+ PAL_secret_build_up_name_desc:0 ""
+ PAL_second_intifada_name:0 "Second Intifada"
+ PAL_second_intifada_name_desc:0 ""
+ 
+ ISR_zionist_volunteers_name:0 "Zionist Volunteers"
+ ISR_zionist_volunteers_name_desc:0 ""
+ ISR_political_instability_name:0 "Political Instability"
+ ISR_political_instability_name_desc:0 ""

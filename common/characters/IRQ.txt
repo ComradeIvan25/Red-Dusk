@@ -156,7 +156,7 @@ characters = {
 		}
 	}
 	IRQ_ali_al-majid = {
-		name = "Ali al-Majid"
+		name = "Ali Hassan al-Majid"
 		portraits = {
 			army = {
 				large = "gfx/leaders/IRQ/Ali_al-Majid.dds"

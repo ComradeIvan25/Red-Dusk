@@ -2604,6 +2604,60 @@ on_actions = {
 						
 					}
 					
+						## SECOND INTIFADA ISRAEL VS PALESTINE ##
+						
+					## ISRAEL VS PALESTINE - PALESTINE WINS AGAINST ISRAEL ##
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = PAL
+							}
+							ROOT = {
+								original_tag = ISR
+							}
+						}
+
+						PAL = {
+							white_peace = ROOT
+						}
+
+						PAL = {
+							remove_ideas = PAL_secret_build_up
+							remove_ideas = PAL_second_intifada
+							annex_country = {
+							target = ISR
+							transfer_troops = no
+							}
+						}
+					 
+					}
+					
+					## ISRAEL VS PALESTINE - ISRAEL WINS AGAINST PALESTINE ##
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = ISR
+							}
+							ROOT = {
+								original_tag = PAL
+							}
+						}
+
+						ISR = {
+							white_peace = ROOT
+						}
+
+						ISR = {
+							remove_ideas = ISR_zionist_volunteers
+							annex_country = {
+							target = PAL
+							transfer_troops = no
+							}
+							remove_state_core = 840
+						}
+					 
+					}
+					
 		}
 
 	}

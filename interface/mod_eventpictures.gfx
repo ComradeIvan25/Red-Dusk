@@ -207,6 +207,10 @@ spriteTypes = {
 		name = "GFX_report_event_IRQ_aircraft_yugo"
 		texturefile = "gfx/event_pictures/report_event_IRQ_aircraft_yugo.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_iraq_chemical_weapons"
+		texturefile = "gfx/event_pictures/report_event_iraq_chemical_weapons.dds"
+	}
 	
 	# VIN #
 	spriteType = {
@@ -342,4 +346,26 @@ spriteTypes = {
 		name = "GFX_news_afghan_invasion"
 		texturefile = "gfx/event_pictures/news_afghan_invasion.dds"
 	}
+	spriteType = {
+		name = "GFX_news_coup"
+		texturefile = "gfx/event_pictures/news_coup.dds"
+	}
+	spriteType = {
+		name = "GFX_news_greater_iraq_declared"
+		texturefile = "gfx/event_pictures/news_greater_iraq_declared.dds"
+	}
+	spriteType = {
+		name = "GFX_news_camp_david_fails"
+		texturefile = "gfx/event_pictures/news_camp_david_fails.dds"
+	}
+	spriteType = {
+		name = "GFX_news_second_intifada"
+		texturefile = "gfx/event_pictures/news_second_intifada.dds"
+	}
+	spriteType = {
+		name = "GFX_news_chemical_attack_in_damascus"
+		texturefile = "gfx/event_pictures/news_chemical_attack_in_damascus.dds"
+	}
+	
+	
 }

@@ -3029,16 +3029,17 @@ sov_pugo_the_power_struggle = {
 
 		icon = GFX_decision_generic_tank
 
-		allowed = {
+
+		visible = {
+			SOV = {has_completed_focus = SOV_pugo_time_for_action}
+		}
+		activation = {
 			original_tag = SOV
+			SOV = {has_completed_focus = SOV_pugo_time_for_action}
 		}
 		available = {
 			original_tag = SOV
 			has_country_flag = pugo_power_struggle_ended
-		}
-		visible = {
-			original_tag = SOV
-			NOT = {has_country_flag = pugo_power_struggle_ended}
 		}
 		
 		is_good = no

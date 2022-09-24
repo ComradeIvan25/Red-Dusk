@@ -438,7 +438,16 @@
  irq.13.t:0 "Yugoslavia refuses our offer"
  irq.13.d:0 "Despite our previous partnerships in both the military and research sectors, Yugoslavia has refused our request for spare parts in exchange for monetary compensation. While no reason was officially provided, our diplomats suspect that they are weary of being sanctioned by Western governments, and our offer is simply too high-risk for them. It is now evident which foreign relations [YUG.GetLeader] is prioritising..."
  irq.13.a:0 "Our list of allies grows thin..."
-
+ irq.14.t:0 "Renaming of the Iranian Provinces"
+ irq.14.d:0 ""
+ irq.14.a:0 "Approved"
+ irq.15.t:0 "Renewed Resistance Against Saddam"
+ irq.15.d:0 ""
+ irq.15.a:0 "bruh"
+ irq.16.t:0 "Damascus Situation Report"
+ irq.16.d:0 "[GetDateText] TOP SECRET , EYES ONLY\n\nWith the war against Syria's forces ending and country's subsuquent capitulation, the resistance against the Iraqi authorities had been united under their mutual hatred for Saddam Hussein\n\nAfter engaging in multiple battles (see page 15) most of the rebel forces have been cornered into Damascus, this prompted a idea from the Head of the Anti-Resistance Activities; Ali Hassan al-Majid, a infamous man in the goverment getting the nickname "Chemical Ali" after using Chemical Weaponery against the Kurdish Rebels.Ali Hassan al-Majid proposes that by using Chlorine Gas concentrated in Damascus we can oblirate the rebels in the city while having minimal if not any casualties on our side.\n\nOf course while this plan might cause mass civilian casualties in the wastly populated city and international backlash, it will be the most cost-efficient plan to end the rebels and a fierce warning to the potential future rebels that dare ever pose a threat to us."
+ irq.16.a:0 "PLAN APPROVED"
+ 
  #SAF#
 
  saf.1.t:0 "When all is Lost..."

@@ -7,7 +7,7 @@ RCK_INF_01 =
 
 	can_use = { always = yes }
 
-	division_types = { "infantry" }
+	division_types = { "infantry_unit" }
 
 	fallback_name = "%s Rassemblement pour la démocratie congolaise Forces rebelles"
 
@@ -45,7 +45,7 @@ RCK_INF_02 =
 
 	can_use = { always = yes }
 
-	division_types = { "infantry" }
+	division_types = { "infantry_unit" }
 
 	fallback_name = "%s Rassemblement pour la Démocratie Congolaise Forces Rebelles - Division Artillerie"
 

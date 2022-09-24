@@ -38,7 +38,7 @@ IRQ_MBT_01 =
 
 	can_use = { always = yes }
 
-	division_types = { "medium_armor" }
+	division_types = { "main_battle_tank_armor" }
 
 	fallback_name = "%d Armoured Republican Guard Division"
 
@@ -74,7 +74,7 @@ IRQ_MBT_02 =
 
 	can_use = { always = yes }
 
-	division_types = { "medium_armor" }
+	division_types = { "main_battle_tank_armor" }
 
 	fallback_name = "%d Armoured Division"
 
@@ -110,7 +110,7 @@ IRQ_MEC_01 =
 
 	can_use = { always = yes }
 
-	division_types = { "mechanized" }
+	division_types = { "heavy_infantry_unit" }
 
 	fallback_name = "%d Mechanised Republican Guard Division"
 
@@ -146,7 +146,7 @@ IRQ_MEC_02 =
 
 	can_use = { always = yes }
 
-	division_types = { "mechanized" }
+	division_types = { "heavy_infantry_unit" }
 
 	fallback_name = "%d Mechanised Division"
 
@@ -183,7 +183,7 @@ IRQ_INF_01 =
 
 	can_use = { always = yes }
 
-	division_types = { "infantry" }
+	division_types = { "infantry_unit" }
 
 	fallback_name = "%d Republican Guard Division"
 
@@ -229,7 +229,7 @@ IRQ_INF_02 =
 
 	can_use = { always = yes }
 
-	division_types = { "infantry" }
+	division_types = { "infantry_unit" }
 
 	fallback_name = "%d Infantry Division"
 

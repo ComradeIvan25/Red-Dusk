@@ -38,7 +38,7 @@ COG_INF_01 =
 
 	can_use = { always = yes }
 
-	division_types = { "infantry" }
+	division_types = { "infantry_unit" }
 
 	fallback_name = "%s Soldats de la Défense du Congo"
 
@@ -67,30 +67,3 @@ COG_INF_01 =
 		20 = { "%s Soldats de la Défense du Congo" }		
 	}
 }
-
-COG_MOT_01 = 
-{
-	name = "Motorized Division"
-
-	for_countries = { COG }
-
-	can_use = { always = yes }
-
-	division_types = { "motorized" }
-
-	fallback_name = "%s Division motorisée congolaise"
-
-	ordered = {
-		1 = { "%s Division motorisée congolaise" }
-		2 = { "%s Division motorisée congolaise" }
-		3 = { "%s Division motorisée congolaise" }
-		4 = { "%s Division motorisée congolaise" }
-		5 = { "%s Division motorisée congolaise" }
-		6 = { "%s Division motorisée congolaise" }
-		7 = { "%s Division motorisée congolaise" }
-		8 = { "%s Division motorisée congolaise" }
-		9 = { "%s Division motorisée congolaise" }
-		10 = { "%s Division motorisée congolaise" }
-	}
-}
-

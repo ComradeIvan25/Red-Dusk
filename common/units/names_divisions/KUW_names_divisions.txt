@@ -38,7 +38,7 @@ KUW_MBT_01 =
 
 	can_use = { always = yes }
 
-	division_types = { "medium_armor" }
+	division_types = { "main_battle_tank_armor" }
 
 	fallback_name = "%d Armoured Division"
 

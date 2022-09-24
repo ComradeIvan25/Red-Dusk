@@ -1052,15 +1052,13 @@
 		
 		
 		completion_reward = {
-
-		create_wargoal = { type = puppet_wargoal_focus target = ROM }
-		create_wargoal = { type = puppet_wargoal_focus target = POL }
-		create_wargoal = { type = puppet_wargoal_focus target = SLO }
-		create_wargoal = { type = puppet_wargoal_focus target = HUN }
-		create_wargoal = { type = puppet_wargoal_focus target = ROM }
+			create_wargoal = { type = puppet_wargoal_focus target = ROM }
+			create_wargoal = { type = puppet_wargoal_focus target = POL }
+			create_wargoal = { type = puppet_wargoal_focus target = SLO }
+			create_wargoal = { type = puppet_wargoal_focus target = HUN }
+			create_wargoal = { type = puppet_wargoal_focus target = ROM }
+			news_event = { id = old_times_news.25 days = 1 }
 		}
-
-		news_event = { id = old_times_news.25 days = 1 }
 	}
 	
 	focus = {
@@ -1761,21 +1759,21 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {	
-          	                declare_war_on = {
-          	                type = puppet
-          	                target = PRC
-          	                }
-		                custom_effect_tooltip = sov_gain_core_on_manchuria
-			                hidden_effect = {
-			                add_state_core = 761
-			                add_state_core = 714
-			                add_state_core = 717
-			                add_state_core = 328
-			                add_state_core = 715
-			                add_state_core = 610
-			                add_state_core = 745
-			                }
-		                news_event = { id = old_times_news.26 days = 1 }
+			declare_war_on = {
+				target = PRC
+				type = puppet_wargoal_focus
+			}
+			custom_effect_tooltip = sov_gain_core_on_manchuria
+			hidden_effect = {
+				add_state_core = 761
+				add_state_core = 714
+				add_state_core = 717
+				add_state_core = 328
+				add_state_core = 715
+				add_state_core = 610
+				add_state_core = 745
+			}
+			news_event = { id = old_times_news.26 days = 1 }
 		}
 	}
 	focus = {

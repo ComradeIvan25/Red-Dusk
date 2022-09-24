@@ -8,9 +8,11 @@ country_event = {
 	picture = GFX_nothing
 	
 	trigger = {
-	original_tag = PHI
-	date > 2001.01.19
+		original_tag = PHI
+		date > 2001.01.19
 	}
+
+	fire_only_once = yes
 	
 	option = {
 		name = phi.1.a

@@ -1162,7 +1162,7 @@ sov_mining_resources_in_north_korea = {
 					}
 				}
 			}
-			else = {
+			else_if = {
 				limit = {
 				KOR = { has_idea = KOR_north_korean_resource_benefits_3 }
 				}
@@ -1232,7 +1232,7 @@ sov_mining_resources_in_north_korea = {
 					}
 				}
 			}
-			else = {
+			else_if = {
 				limit = {
 				KOR = { has_idea = KOR_north_korean_resource_benefits_3 }
 				}
@@ -1307,7 +1307,7 @@ sov_mining_resources_in_north_korea = {
 					}
 				}
 			}
-			else = {
+			else_if = {
 				limit = {
 				KOR = { has_idea = KOR_north_korean_resource_benefits_3 }
 				}

@@ -576,19 +576,4 @@ focus_tree = {
       
 	  }
 	  }
-    #submarine
-	 focus = {
-		id = VIN_submarine
-		icon = VIN_hai_quan
-		x = 22
-		y = 3
-		cost = 3
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = VIN_navy }
-        completion_reward = { 
-      
-	  }
-	  }
 }

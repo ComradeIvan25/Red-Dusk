@@ -218,7 +218,6 @@
  sov_99_influence_on_nk_points_required_tooltip:0 "§YRequires At Least £influence_decision  §R100 Influence§! §YTo take This Action\n\n§!"
  nk_enters_ussr_sphere:0 "[KOR.GetNameWithFlag] Will Enter §R[SOV.GetNameWithFlag]'s Sphere of Influence.\n\n§!"
  soviets_won_north_korea:0 "[KOR.GetNameWithFlag] is in §R[SOV.GetNameWithFlag]'s Sphere§!"
- sov_mined_iron_for_north_korea:0 "§YHas Mined Iron§!"
  
  prc_99_influence_on_nk_points_required:0 "£influence_decision_prc  §R100 Influence§!"
  prc_99_influence_on_nk_points_required_blocked:0 "£influence_decision_prc_blocked  §g100 Influence§!"

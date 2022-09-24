@@ -141,7 +141,7 @@ USA_the_rust_belt = {
 			add_tech_bonus = {
 				bonus = 0.5
 				uses = 3
-				category = industrial_tech
+				category = industry
 			}
 			set_country_flag = rust_belt_completed_indiana_decision
 		}

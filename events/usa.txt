@@ -302,30 +302,24 @@ country_event = { #Inauguration#
 	#mkay#
 	option = {
 		name = usa_quayle.10.a
-		if = {
-		limit = {has_country_flag = bush_for_rep_candicate}
-		}
 		load_focus_tree = usa_bush_focus
 		complete_national_focus = USA_bush_bush_in_office
 		retire_country_leader = yes
 		promote_character = USA_george_bush
-		else_if = {
-		limit = {has_country_flag = mccain_for_rep_candicate}
-
-		}
-		
-		else = {
-		limit = {has_country_flag = gore_for_dem_candicate}
-	
-		}
 		if = {
-		limit = {has_country_flag = trump_for_reform_candicate}
-
+			limit = {has_country_flag = bush_for_rep_candicate}
 		}
-		
 		else_if = {
-		limit = {has_country_flag = buchanan_for_reform_candicate}
-
+			limit = {has_country_flag = mccain_for_rep_candicate}
+		}		
+		else_if = {
+			limit = {has_country_flag = gore_for_dem_candicate}
+		}
+		else_if = {
+			limit = {has_country_flag = trump_for_reform_candicate}
+		}
+		else_if = {
+			limit = {has_country_flag = buchanan_for_reform_candicate}
 		}
 	}
 

@@ -9,7 +9,7 @@ USA_improve_bush_family_legacy = {
 			add_idea = USA_bush_family_legacy_1
 		}
 	}
-	else = {
+	else_if = {
 		limit = {
 		has_idea = USA_bush_family_legacy_1
 		}
@@ -68,7 +68,7 @@ USA_improve_economic_stagnation = {
 			add_idea = USA_stagnating_economy_1
 		}
 	}
-	else = {
+	else_if = {
 		limit = {
 		has_idea = USA_stagnating_economy_1
 		}
@@ -110,7 +110,7 @@ USA_improve_social_soldiering = {
 			add_idea = USA_social_soldiering_2
 		}
 	}
-	else = {
+	else_if = {
 		limit = {
 		has_idea = USA_social_soldiering_2
 		}

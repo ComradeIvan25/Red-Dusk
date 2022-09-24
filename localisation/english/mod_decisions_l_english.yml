@@ -55,17 +55,16 @@
  sov_shell_resistance_towns_yazov_cin:0 "Shell 'resistance' towns"
  sov_secure_the_capital_yazov_cin:0 "Secure the capital"
  sov_raid_houses_yazov_cin:0 "Raid houses"
- sov_raid_resistance_holdouts_yazov_cin:0 "Raid resistance holdouts"
  sov_anti_rebel_propaganda_yazov_cin:0 "Anti-rebel propaganda"
  sov_rebuild_destroyed_houses_yazov:0 "Re-build destroyed houses"
- 
+ sov_raid_resistance_holdouts_yazov_cin:0 "Raid resistance holdouts"
+
  sov_crackdown_ukraine:0 "Crackdown on resistance in Ukrainian SSR"
  sov_crackdown_ukraine_desc:0 "Ukrainian SSR, unlike the other regions we dealt with has minimal anti-Soviet and pro-nationalist rebels, however, we still need to make sure that the number of them is 0. We are going to need to crack down on the resistance before something bad happens in the region or the entire Union even... \n\n §R>Resistance level In Ukraine is [?ukr_resistance]§W§ \n\nHaving high resistance before the end of operations will cause unforeseen consequences. \n\n §C>Stability in Ukraine is [?ukr_stab_level]§W§ \n\nHaving low stability will cause resistance to rise up."
  sov_timer_clock_ukr:0 "End Of Operations In Ukrainian SSR"
  sov_shell_resistance_towns_yazov_ukr:0 "Shell 'resistance' towns"
  sov_secure_the_capital_yazov_ukr:0 "Secure the capital"
  sov_recruit_collabs_ukr:0 "Recruit local governers"
- sov_raid_resistance_holdouts_yazov_cin:0 "Raid resistance holdouts"
  sov_anti_rebel_propaganda_yazov_ukr:0 "Anti-rebel propaganda"
  
  sov_invade_china_decisions:0 "Project Red Dusk"

@@ -15,7 +15,6 @@ irq_fix_army = {
 			has_war = no
 		}
 		visible = {
-		has_completed_focus = IRQ_but_ok
 			NOT = {
 				has_country_flag = fixed_army
 			}
@@ -47,7 +46,6 @@ irq_fix_army = {
 			original_tag = IRQ
 		}
 		available = {
-			has_completed_focus = IRQ_but_ok
 			has_country_flag = irq_army_fix_1
 			NOT = {
 				has_country_flag = fixed_army
@@ -55,7 +53,6 @@ irq_fix_army = {
 			has_war = no
 		}
 		visible = {
-			has_completed_focus = IRQ_but_ok
 			NOT = {
 				has_country_flag = fixed_army
 			}
@@ -86,7 +83,6 @@ irq_fix_army = {
 			original_tag = IRQ
 		}
 		available = {
-			has_completed_focus = IRQ_but_ok
 			has_country_flag = irq_army_fix_2
 			NOT = {
 				has_country_flag = fixed_army
@@ -94,7 +90,6 @@ irq_fix_army = {
 			has_war = no
 		}
 		visible = {
-			has_completed_focus = IRQ_but_ok
 			NOT = {
 				has_country_flag = fixed_army
 			}
@@ -125,7 +120,7 @@ irq_fix_army = {
 			original_tag = IRQ
 		}
 		available = {
-			has_completed_focus = IRQ_but_ok
+			
 			has_country_flag = irq_army_fix_3
 			NOT = {
 				has_country_flag = fixed_army
@@ -133,7 +128,7 @@ irq_fix_army = {
 			has_war = no
 		}
 		visible = {
-			has_completed_focus = IRQ_but_ok
+			
 			NOT = {
 				has_country_flag = fixed_army
 			}
@@ -165,7 +160,7 @@ irq_fix_army = {
 			original_tag = IRQ
 		}
 		available = {
-			has_completed_focus = IRQ_but_ok
+			
 			has_country_flag = irq_army_fix_4
 			NOT = {
 				has_country_flag = fixed_army
@@ -173,7 +168,7 @@ irq_fix_army = {
 			has_war = no
 		}
 		visible = {
-			has_completed_focus = IRQ_but_ok
+			
 			NOT = {
 				has_country_flag = fixed_army
 			}
@@ -1161,7 +1156,7 @@ irq_category_propaganda_machine = {
 		days_re_enable = 15
 		modifier {
 			political_power_cost = 0.10
-			weekly_war_support = 0.0075
+			war_support_weekly = 0.0075
 		}
 		
 		complete_effect = {

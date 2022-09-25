@@ -16,7 +16,7 @@ ideas = {
 			modifier = {
 				industrial_capacity_factory = -0.15
 				industrial_capacity_dockyard = -0.15
-				production_factory_start_efficiency_factor = -0.15
+				#production_factory_start_efficiency_factor = -0.15
 				monthly_population = -0.2
 			}
 		}
@@ -36,7 +36,7 @@ ideas = {
 				industrial_capacity_factory = -0.15
 				industrial_capacity_dockyard = -0.15
 				production_speed_industrial_complex_factor = -0.15
-				production_factory_start_efficiency_factor = 0.05
+				#production_factory_start_efficiency_factor = 0.05
 				monthly_population = -0.2
 			}
 		}
@@ -56,7 +56,7 @@ ideas = {
 				industrial_capacity_factory = -0.05
 				industrial_capacity_dockyard = -0.15
 				production_speed_industrial_complex_factor = -0.25
-				production_factory_start_efficiency_factor = 0.15
+				#production_factory_start_efficiency_factor = 0.15
 			}
 		}
 		

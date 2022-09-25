@@ -1450,11 +1450,11 @@ focus_tree = {
 			}
 			mark_focus_tree_layout_dirty = yes
 			if = {
-				limit = {IRQ = has_completed_focus = IRQ_greater_iraq}
+				limit = { IRQ = { has_completed_focus = IRQ_greater_iraq } }
 				set_country_flag = irq_next_step_greater_iraq
 			}
 			#if_else = {
-			#	limit = {IRQ = has_completed_focus = IRQ_greater_iraq}
+			#	limit = { IRQ = { has_completed_focus = IRQ_greater_iraq } }
 			#	set_country_flag = irq_next_step_uar
 			#}
 		}
@@ -1675,7 +1675,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_finance_regime
-		#icon =
+		icon = GFX_focus_IRQ_finance_regime
 		x = -1
 		y = 1
 

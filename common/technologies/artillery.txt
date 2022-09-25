@@ -48,6 +48,7 @@ technologies = {
 		}
 
 		categories = {
+			mod_cat_towed_artillery
 		}
 
 	}
@@ -90,6 +91,7 @@ technologies = {
 		}
 
 		categories = {
+			mod_cat_towed_artillery
 		}
 
 	}
@@ -128,6 +130,7 @@ technologies = {
 		}
 
 		categories = {
+			mod_cat_towed_artillery
 		}
 
 	}
@@ -161,6 +164,7 @@ technologies = {
 		}
 
 		categories = {
+			mod_cat_towed_artillery
 		}
 
 	}
@@ -209,6 +213,7 @@ technologies = {
 		}
 
 		categories = {
+			mod_cat_motorised_artillery
 		}
 
 	}
@@ -255,6 +260,7 @@ technologies = {
 		}
 
 		categories = {
+			mod_cat_motorised_artillery
 		}
 
 	}
@@ -297,6 +303,7 @@ technologies = {
 		}
 
 		categories = {
+			mod_cat_motorised_artillery
 		}
 
 	}
@@ -343,6 +350,7 @@ technologies = {
 		}
 
 		categories = {
+			mod_cat_motorised_artillery
 		}
 
 	}
@@ -385,6 +393,7 @@ technologies = {
 		}
 
 		categories = {
+			mod_cat_motorised_artillery
 		}
 
 	}
@@ -427,6 +436,7 @@ technologies = {
 		}
 
 		categories = {
+			mod_cat_motorised_artillery
 		}
 
 	}
@@ -464,6 +474,7 @@ technologies = {
 		}
 
 		categories = {
+			mod_cat_motorised_artillery
 		}
 
 	}

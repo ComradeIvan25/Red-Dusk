@@ -23,3 +23,26 @@
  minister_of_finance:0 "Minister of Finance"
  
  railway_company:0 "Railway Company"
+
+ # Designers #
+
+ SOV_design_bureau_morozov_trait:0 ""
+ SOV_design_bureau_uralvagonzavod_trait:0 ""
+ SOV_design_bureau_kurganmashzavod_trait:0 ""
+ SOV_design_bureau_arzamas_trait:0 ""
+ SOV_design_bureau_kbp_trait:0 ""
+ SOV_design_bureau_black_sea_trait:0 ""
+ SOV_design_bureau_severnaya_verf_trait:0 ""
+ SOV_design_bureau_zelenodolsk_trait:0 ""
+ SOV_design_bureau_admiralty_trait:0 ""
+ SOV_design_bureau_amur_trait:0 ""
+ SOV_design_bureau_sevmash_trait:0 ""
+ SOV_design_bureau_ilyushin_trait:0 ""
+ SOV_design_bureau_mikoyan_trait:0 ""
+ SOV_design_bureau_sukhoi_trait:0 ""
+ SOV_design_bureau_tupolev_trait:0 ""
+ SOV_design_bureau_yakovlev_trait:0 ""
+ SOV_design_bureau_mil_trait:0 ""
+ SOV_design_bureau_uraltransmash_trait:0 ""
+ SOV_design_bureau_splav_trait:0 ""
+ SOV_design_bureau_izhevsk_trait:0 ""

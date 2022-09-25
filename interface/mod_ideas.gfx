@@ -349,5 +349,95 @@ spriteTypes = {
 		name = "GFX_idea_cold_war_icon"
 		texturefile = "gfx/interface/ideas/cold_war.png"
 	}
-	
+
+	# Designers #
+
+	spriteType = {
+		name = "GFX_idea_SOV_design_bureau_morozov_icon"
+		texturefile = "gfx/interface/ideas/designers/SOV_design_bureau_morozov_icon.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_design_bureau_uralvagonzavod_icon"
+		texturefile = "gfx/interface/ideas/designers/SOV_design_bureau_uralvagonzavod_icon.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_design_bureau_kurganmashzavod_icon"
+		texturefile = "gfx/interface/ideas/designers/SOV_design_bureau_kurganmashzavod_icon.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_design_bureau_arzamas_icon"
+		texturefile = "gfx/interface/ideas/designers/SOV_design_bureau_arzamas_icon.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_design_bureau_kbp_icon"
+		texturefile = "gfx/interface/ideas/designers/SOV_design_bureau_kbp_icon.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SOV_design_bureau_black_sea_icon"
+		texturefile = "gfx/interface/ideas/designers/SOV_design_bureau_black_sea_icon.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_design_bureau_severnaya_verf_icon"
+		texturefile = "gfx/interface/ideas/designers/SOV_design_bureau_severnaya_verf_icon.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_design_bureau_zelenodolsk_icon"
+		texturefile = "gfx/interface/ideas/designers/SOV_design_bureau_zelenodolsk_icon.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_design_bureau_admiralty_icon"
+		texturefile = "gfx/interface/ideas/designers/SOV_design_bureau_admiralty_icon.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_design_bureau_rubin_icon"
+		texturefile = "gfx/interface/ideas/designers/SOV_design_bureau_rubin_icon.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_design_bureau_amur_icon"
+		texturefile = "gfx/interface/ideas/designers/SOV_design_bureau_amur_icon.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_design_bureau_sevmash_icon"
+		texturefile = "gfx/interface/ideas/designers/SOV_design_bureau_sevmash_icon.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SOV_design_bureau_ilyushin_icon"
+		texturefile = "gfx/interface/ideas/designers/SOV_design_bureau_ilyushin_icon.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_design_bureau_mikoyan_icon"
+		texturefile = "gfx/interface/ideas/designers/SOV_design_bureau_mikoyan_icon.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_design_bureau_sukhoi_icon"
+		texturefile = "gfx/interface/ideas/designers/SOV_design_bureau_sukhoi_icon.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_design_bureau_tupolev_icon"
+		texturefile = "gfx/interface/ideas/designers/SOV_design_bureau_tupolev_icon.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_design_bureau_yakovlev_icon"
+		texturefile = "gfx/interface/ideas/designers/SOV_design_bureau_yakovlev_icon.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_design_bureau_mil_icon"
+		texturefile = "gfx/interface/ideas/designers/SOV_design_bureau_mil_icon.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SOV_design_bureau_uraltransmash_icon"
+		texturefile = "gfx/interface/ideas/designers/SOV_design_bureau_uraltransmash_icon.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_design_bureau_splav_icon"
+		texturefile = "gfx/interface/ideas/designers/SOV_design_bureau_splav_icon.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_design_bureau_izhevsk_icon"
+		texturefile = "gfx/interface/ideas/designers/SOV_design_bureau_izhevsk_icon.png"
+	}
+
 }

@@ -332,3 +332,32 @@
  ISR_zionist_volunteers_name_desc:0 ""
  ISR_political_instability_name:0 "Political Instability"
  ISR_political_instability_name_desc:0 ""
+
+ ## Designers ##
+
+ # SOV #
+
+ SOV_design_bureau_morozov:0 "Morozov Design Bureau"
+ SOV_design_bureau_uralvagonzavod:0 "UralVagonZavod"
+ SOV_design_bureau_kurganmashzavod:0 "Kurganmashzavod"
+ SOV_design_bureau_arzamas:0 "Arzamas Machine-Building Plant"
+ SOV_design_bureau_kbp:0 "KBP Instrument Design Bureau"
+
+ SOV_design_bureau_black_sea:0 "Black Sea Shipyard"
+ SOV_design_bureau_severnaya_verf:0 "Severnaya Verf"
+ SOV_design_bureau_zelenodolsk:0 "Zelenodolsk Shipyard"
+ SOV_design_bureau_admiralty:0 "Admiralty Shipyards"
+ SOV_design_bureau_rubin:0 "Rubin Design Bureau"
+ SOV_design_bureau_amur:0 "Amur Shipbuilding Plant"
+ SOV_design_bureau_sevmash:0 "Sevmash"
+
+ SOV_design_bureau_ilyushin:0 "Ilyushin Design Bureau"
+ SOV_design_bureau_mikoyan:0 "Mikoyan and Gurevich Design Bureau"
+ SOV_design_bureau_sukhoi:0 "Sukhoi Design Bureau"
+ SOV_design_bureau_tupolev:0 "Tupolev Design Bureau"
+ SOV_design_bureau_yakovlev:0 "Yakovlev Design Bureau"
+ SOV_design_bureau_mil:0 "Mil Design Bureau"
+
+ SOV_design_bureau_uraltransmash:0 "Uraltransmash"
+ SOV_design_bureau_splav:0 "NPO Splav"
+ SOV_design_bureau_izhevsk:0 "Izhmash Industrial Association"

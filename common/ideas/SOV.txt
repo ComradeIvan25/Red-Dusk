@@ -1457,6 +1457,393 @@ ideas = {
 
 	}
 
+	### Designers ###
+
+	tank_manufacturer = {
+
+		designer = yes
+
+		SOV_design_bureau_morozov = {
+
+			picture = SOV_design_bureau_morozov_icon
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			research_bonus = {
+				armor = 0.05
+			}
+
+			traits = {
+				SOV_design_bureau_morozov_trait
+			}
+
+		}
+
+		SOV_design_bureau_uralvagonzavod = {
+
+			picture = SOV_design_bureau_uralvagonzavod_icon
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			research_bonus = {
+				mod_cat_mbt = 0.1
+			}
+
+			traits = {
+				SOV_design_bureau_uralvagonzavod_trait
+			}
+
+		}
+
+		SOV_design_bureau_kurganmashzavod = {
+
+			picture = SOV_design_bureau_kurganmashzavod_icon
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			research_bonus = {
+				mod_cat_ifv = 0.1
+			}
+
+			traits = {
+				SOV_design_bureau_kurganmashzavod_trait
+			}
+
+		}
+
+		SOV_design_bureau_arzamas = {
+
+			picture = SOV_design_bureau_arzamas_icon
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			research_bonus = {
+				mod_cat_apc = 0.1
+			}
+
+			traits = {
+				SOV_design_bureau_arzamas_trait
+			}
+
+		}
+
+		SOV_design_bureau_kbp = {
+
+			picture = SOV_design_bureau_kbp_icon
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			research_bonus = {
+				mod_cat_spaa = 0.1
+				mod_cat_atgm = 0.1
+			}
+
+			traits = {
+				SOV_design_bureau_kbp_trait
+			}
+
+		}
+
+	}
+
+	naval_manufacturer = {
+
+		designer = yes
+
+		SOV_design_bureau_black_sea = {
+
+			picture = SOV_design_bureau_black_sea_icon
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			research_bonus = {
+				mod_cat_carrier = 0.1
+			}
+
+			traits = {
+				SOV_design_bureau_black_sea_trait
+			}
+
+		}
+
+		SOV_design_bureau_severnaya_verf = {
+
+			picture = SOV_design_bureau_severnaya_verf_icon
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			research_bonus = {
+				mod_cat_corvette = 0.05
+				mod_cat_destroyer = 0.05
+			}
+
+			traits = {
+				SOV_design_bureau_severnaya_verf_trait
+			}
+
+		}
+
+		SOV_design_bureau_zelenodolsk = {
+
+			picture = SOV_design_bureau_zelenodolsk_icon
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			research_bonus = {
+				mod_cat_corvette = 0.1
+			}
+
+			traits = {
+				SOV_design_bureau_zelenodolsk_trait
+			}
+
+		}
+
+		SOV_design_bureau_admiralty = {
+
+			picture = SOV_design_bureau_admiralty_icon
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			traits = {
+				SOV_design_bureau_admiralty_trait
+			}
+
+		}
+
+		SOV_design_bureau_rubin = {
+
+			picture = SOV_design_bureau_rubin_icon
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			research_bonus = {
+				mod_cat_submarine = 0.15
+			}
+
+		}
+
+		SOV_design_bureau_amur = {
+
+			picture = SOV_design_bureau_amur_icon
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			traits = {
+				SOV_design_bureau_amur_trait
+			}
+
+		}
+
+		SOV_design_bureau_sevmash = {
+
+			picture = SOV_design_bureau_sevmash_icon
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			traits = {
+				SOV_design_bureau_sevmash_trait
+			}
+
+		}
+
+	}
+
+	aircraft_manufacturer = {
+
+		designer = yes
+
+		SOV_design_bureau_ilyushin = {
+
+			picture = SOV_design_bureau_ilyushin_icon
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			traits = {
+				SOV_design_bureau_ilyushin_trait
+			}
+
+		}
+
+		SOV_design_bureau_mikoyan = {
+
+			picture = SOV_design_bureau_mikoyan_icon
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			research_bonus = {
+				mod_cat_fighter = 0.1
+				mod_cat_interceptor = 0.1
+			}
+
+			traits = {
+				SOV_design_bureau_mikoyan_trait
+			}
+
+		}
+
+		SOV_design_bureau_sukhoi = {
+
+			picture = SOV_design_bureau_sukhoi_icon
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			research_bonus = {
+				mod_cat_fighter = 0.1
+				mod_cat_attacker = 0.1
+			}
+
+			traits = {
+				SOV_design_bureau_sukhoi_trait
+			}
+
+		}
+
+		SOV_design_bureau_tupolev = {
+
+			picture = SOV_design_bureau_tupolev_icon
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			research_bonus = {
+				mod_cat_bomber = 0.1
+			}
+
+			traits = {
+				SOV_design_bureau_tupolev_trait
+			}
+
+		}
+
+		SOV_design_bureau_yakovlev = {
+
+			picture = SOV_design_bureau_yakovlev_icon
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			research_bonus = {
+				mod_cat_naval_aircraft = 0.15
+			}
+
+			traits = {
+				SOV_design_bureau_yakovlev_trait
+			}
+
+		}
+
+		SOV_design_bureau_mil = {
+
+			picture = SOV_design_bureau_mil_icon
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			research_bonus = {
+				mod_cat_helicopter = 0.1
+			}
+
+			traits = {
+				SOV_design_bureau_mil_trait
+			}
+
+		}
+
+	}
+
+	materiel_manufacturer = {
+
+		designer = yes
+
+		SOV_design_bureau_uraltransmash = {
+
+			picture = SOV_design_bureau_uraltransmash_icon
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			research_bonus = {
+				mod_cat_motorised_artillery = 0.1
+			}
+
+			traits = {
+				SOV_design_bureau_uraltransmash_trait
+			}
+
+		}
+
+		SOV_design_bureau_splav = {
+
+			picture = SOV_design_bureau_splav_icon
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			research_bonus = {
+				mod_cat_rocket_artillery = 0.1
+			}
+
+			traits = {
+				SOV_design_bureau_splav_trait
+			}
+
+		}
+
+		SOV_design_bureau_izhevsk = {
+
+			picture = SOV_design_bureau_izhevsk_icon
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			research_bonus = {
+				infantry_weapons = 0.1
+			}
+
+			traits = {
+				SOV_design_bureau_izhevsk_trait
+			}
+
+		}
+
+	}
 	
 	hidden_ideas = {
 	

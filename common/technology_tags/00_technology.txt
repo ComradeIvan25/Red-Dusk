@@ -93,6 +93,8 @@ technology_categories = {
 	cat_synth_rubber
 	cat_synth_oil
 
+	## MOD ##
+
 	mod_cat_fighter
 	mod_cat_attacker
 	mod_cat_bomber
@@ -101,7 +103,26 @@ technology_categories = {
 	mod_cat_interceptor
 	mod_cat_helicopter
 	mod_cat_uav
+
+	mod_cat_towed_artillery
+	mod_cat_motorised_artillery
 	mod_cat_rocket_artillery
+
+	mod_cat_mbt
+	mod_cat_ifv
+	mod_cat_apc
+	mod_cat_recon
+	mod_cat_spaa
+	mod_cat_atgm
+
+	mod_cat_corvette
+	mod_cat_destroyer
+	mod_cat_cruiser
+	mod_cat_carrier
+	mod_cat_submarine
+	mod_cat_attack_submarine
+	mod_cat_cruise_submarine
+	mod_cat_ballistic_submarine
 }
 
 technology_folders = {

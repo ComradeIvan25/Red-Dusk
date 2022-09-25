@@ -37,6 +37,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_mbt
 		}
 
 	}
@@ -76,6 +77,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_mbt
 		}
 
 	}
@@ -119,6 +121,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_mbt
 		}
 
 	}
@@ -162,6 +165,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_mbt
 		}
 
 	}
@@ -205,6 +209,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_mbt
 		}
 
 	}
@@ -244,6 +249,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_mbt
 		}
 
 	}
@@ -279,6 +285,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_mbt
 		}
 
 	}
@@ -771,6 +778,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_ifv
 		}
 
 	}
@@ -810,6 +818,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_ifv
 		}
 
 	}
@@ -849,6 +858,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_ifv
 		}
 
 	}
@@ -896,6 +906,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_ifv
 		}
 
 	}
@@ -935,6 +946,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_ifv
 		}
 
 	}
@@ -969,6 +981,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_ifv
 		}
 
 	}
@@ -1003,6 +1016,7 @@ technologies = {
 		}
 
 		categories = {
+			mod_cat_atgm
 		}
 
 	}
@@ -1037,6 +1051,7 @@ technologies = {
 		}
 
 		categories = {
+			mod_cat_atgm
 		}
 
 	}
@@ -1071,6 +1086,7 @@ technologies = {
 		}
 
 		categories = {
+			mod_cat_atgm
 		}
 
 	}
@@ -1105,6 +1121,7 @@ technologies = {
 		}
 
 		categories = {
+			mod_cat_atgm
 		}
 
 	}
@@ -1139,6 +1156,7 @@ technologies = {
 		}
 
 		categories = {
+			mod_cat_atgm
 		}
 
 	}
@@ -1168,6 +1186,7 @@ technologies = {
 		}
 
 		categories = {
+			mod_cat_atgm
 		}
 
 	}
@@ -1205,6 +1224,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_apc
 		}
 
 	}
@@ -1244,6 +1264,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_apc
 		}
 
 	}
@@ -1279,6 +1300,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_apc
 		}
 
 	}
@@ -1314,6 +1336,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_apc
 		}
 
 	}
@@ -1353,6 +1376,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_apc
 		}
 
 	}
@@ -1388,6 +1412,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_apc
 		}
 
 	}
@@ -1418,6 +1443,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_apc
 		}
 
 	}
@@ -1461,6 +1487,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_recon
 		}
 
 	}
@@ -1500,6 +1527,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_recon
 		}
 
 	}
@@ -1539,6 +1567,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_recon
 		}
 
 	}
@@ -1573,6 +1602,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_recon
 		}
 
 	}
@@ -1618,6 +1648,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_spaa
 		}
 
 	}
@@ -1661,6 +1692,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_spaa
 		}
 
 	}
@@ -1704,6 +1736,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_spaa
 		}
 
 	}
@@ -1742,6 +1775,7 @@ technologies = {
 
 		categories = {
 			armor
+			mod_cat_spaa
 		}
 
 	}

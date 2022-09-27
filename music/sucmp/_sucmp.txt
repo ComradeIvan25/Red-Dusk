@@ -28,6 +28,14 @@ music = {
 	}
 }
 music = {
+	song = "At_The_Dangerous_Line"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
 	song = "Auferstanden_Aus_Ruinen"
 	chance = {
 		modifier = {
@@ -178,7 +186,7 @@ music = {
 			factor = 1
 		}
 	}
-##}
+}
 music = {
 	song = "Lenin_is_Young_Again" 
 	chance = {
@@ -339,7 +347,23 @@ music = {
 	}
 }
 music = {
+	song = "Tie_A_Yellow_Ribbon_Round_The_Ole_Oak_Tree"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
 	song = "To_Serve_Russia"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Voices"
 	chance = {
 		modifier = {
 			factor = 1
@@ -354,7 +378,14 @@ music = {
 		}
 	}
 }
-
+music = {
+	song = "What_You_Wont_Do_For_Love"
+	chance = [
+		modifier = {
+			factor = 1
+		}
+	]
+}
 
 
 ######NEW IN 1.2######

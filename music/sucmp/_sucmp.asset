@@ -14,6 +14,10 @@ music = {
 	name = "Another_Life_(extended)"
 	file = "Another_life_(extended).ogg"
 }
+name = {
+	name = "At_The_Dangerous_Line"
+	file = "At_The_Dangerous_Line.ogg"
+}
 music ={
 	name = "Auferstanden_Aus_Ruinen"
 	file = "Auferstanden_Aus_Ruinen.ogg"
@@ -93,7 +97,7 @@ music = {
 music = {
 	name = "Kerber-Ratne_Igre"
 	file = "Kerber-Ratne_Igre.ogg"
-##}
+}
 music = {
 	name = "Lenin_Is_Young_Again"
 	file = "Lenin_is_Young_Again.ogg"
@@ -183,8 +187,16 @@ music = {
 	file = "The_Internationale_2000-Maxx_Klaxon.ogg"
 }
 music = {
+	name = "Tie_A_Yellow_River_Round_The_Ole_Oak_Tree"
+	file = "Tie_A_Yellow_River_Round_The_Ole_Oak_Tree.ogg"
+}
+music = {
 	name = "To_Serve_Russia"
 	file = "To_Serve_Russia.ogg"
+}
+music = {
+	name = "Voices"
+	file = "Voices.ogg"
 }
 music = {
 	name = "Warsaw_Pact"

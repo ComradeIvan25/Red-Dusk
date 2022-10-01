@@ -1918,3 +1918,499 @@ irq_category_renewed_resistance = {
 		}
 	}
 }
+
+irq_category_a_new_state = {
+	
+	IRQ_pan_arab_social_programs = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+		}
+		days_remove = 35
+		modifier {
+		compliance_gain = 0.10
+		}
+		
+		cost = 25
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+		}
+	}
+	
+		
+	IRQ_pan_arab_testing = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+		}
+		days_remove = 0
+		modifier {
+		compliance_gain = 0.10
+		}
+		
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+		add_to_variable = {irq_centralization_progress_variable = 1} 
+		}
+	}
+	
+	IRQ_pan_arab_modify_the_constitution = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			IRQ = {has_completed_focus = IRQ_invite_pan_arab_intellectuals}
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+		}
+		days_remove = 100
+		modifier {
+		compliance_gain = 0.15
+		
+		}
+		
+		cost = 15
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+		add_political_power = -100
+		}
+	}
+	
+	IRQ_pan_arab_anti_terrorist_operations = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+		}
+		days_remove = 50
+		modifier {
+		compliance_gain = 0.05
+		resistance_growth = -0.05
+		}
+		
+		cost = 25
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+		
+		}
+	}
+	
+	IRQ_pan_arab_integrate_kuwait = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			656 = {
+			compliance > 35
+			}
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+		}
+		days_remove = 35
+		modifier {
+		}
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 656
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_state_core = 656
+		}
+	}
+	
+	IRQ_pan_arab_integrate_arabistan = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			656 = {
+			compliance > 35
+			}
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+		}
+		days_remove = 35
+		modifier {
+		}
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 413
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_state_core = 413
+		}
+	}
+	
+	IRQ_pan_arab_integrate_asad_babil = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			656 = {
+			compliance > 35
+			}
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+		}
+		days_remove = 35
+		modifier {
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 421
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_state_core = 421
+		}
+	}
+	
+	IRQ_pan_arab_integrate_al_hasakah = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			869 = {
+			compliance > 35
+			}
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+		}
+		days_remove = 35
+		modifier {
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 869
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 25
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_state_core = 869
+		}
+	}
+	
+	IRQ_pan_arab_integrate_deir_az_zur = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			680 = {
+			compliance > 35
+			}
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+		}
+		days_remove = 35
+		modifier {
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 680
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 25
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_state_core = 680
+		}
+	}
+	
+	IRQ_pan_arab_integrate_aleppo = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			677 = {
+			compliance > 35
+			}
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+		}
+		days_remove = 35
+		modifier {
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 677
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_state_core = 677
+		}
+	}
+	
+	IRQ_pan_arab_integrate_damascus = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			554 = {
+			compliance > 35
+			}
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+		}
+		days_remove = 35
+		modifier {
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 554
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_state_core = 554
+		}
+	}
+	
+	IRQ_pan_arab_integrate_jordan = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			455 = {
+			compliance > 35
+			}
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			IRQ = {controls_state = 455}
+		}
+		days_remove = 35
+		modifier {
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 455
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_state_core = 455
+		}
+	}
+	
+	IRQ_pan_arab_integrate_lebanon = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			553 = {
+			compliance > 35
+			}
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			IRQ = {controls_state = 553}
+		}
+		days_remove = 35
+		modifier {
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 553
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_state_core = 553
+		}
+	}
+}

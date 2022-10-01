@@ -4,7 +4,15 @@
  IRQ_uar_cosmetic:0 "United Arab Republics"
  IRQ_uar_cosmetic_DEF:0 "The United Arab Republics"
  IRQ_uar_cosmetic_ADJ:0 "Arabian"
-  
+ PER_iraq_puppet_civ_gov:0 "Iran"
+ PAL_integration_zone:0 "Palestine Integration Zone" 
+ 
+ IRQ_iran_puppet:0 "Iraq"
+ IRQ_iran_puppet_DEF:0 "The Islamic Republic of Iraq"
+ KUR_islam_emirite:0 "Islamic Emirate of Byara"
+ SYR_iran_puppet:0 "Syria"
+ SYR_iran_puppet_DEF:0 "The Islamic Republic of Syria"
+ 
  PRC_com_puppet:0 "Soviet China"
  YUG_greater_serbia_cosmetic:0 "Greater Serbia"
  YUG_greater_serbia_cosmetic_DEF:0 "The Greater Serbian State"

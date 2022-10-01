@@ -799,7 +799,11 @@ spriteTypes = {
 		name = "GFX_focus_IRQ_finance_regime"
 		texturefile = "gfx/interface/goals/focus_IRQ_finance_regime.png"
 	}
-
+	SpriteType = {
+		name = "GFX_focus_IRQ_propaganda_machine"
+		texturefile = "gfx/interface/goals/focus_IRQ_propaganda_machine.png"
+	}
+	
    ###SAF###
 
 	SpriteType = {

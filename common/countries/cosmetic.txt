@@ -194,6 +194,27 @@ PER_iraq_puppet = {
 	color = rgb { 132 113 97 }
 	color_ui = rgb { 130 113 87 }
 }
+PER_iraq_puppet_civ_gov = {
+	color = rgb { 151 130 0 }
+	color_ui = rgb { 100 113 87 }
+}
+PAL_integration_zone = {
+	color = rgb { 178 130 30 }
+	color_ui = rgb { 143 130 30 }
+}
+
+IRQ_iran_puppet = {
+	color = rgb { 105 113 70 }
+	color_ui = rgb { 125 113 70 }
+}
+KUR_islam_emirite = {
+	color = rgb { 52 56 34 }
+	color_ui = rgb { 60 56 34 }
+}
+SYR_iran_puppet = {
+	color = rgb { 55 104 65 }
+	color_ui = rgb { 56 104 70 }
+}
 
 YUG_greater_serbia_cosmetic = {
 	color = rgb { 57 59 99 }

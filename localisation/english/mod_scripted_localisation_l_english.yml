@@ -70,6 +70,12 @@
  IRQ_loc_key_between_75_100:0 "Estimated Between 75% - 100%"
  IRQ_loc_key_100:0 "100%"
  
+ management_of_the_uar_loc:0 "Management of United Arab Republics"
+ 
+ IRQ_centralization_percantage_explanation:0 "Centralization Progress is [?irq_centralization_progress_variable]% complete"
+ 
+ irq_saddam_tooltip_tt:0 "The wah"
+ 
  IRQ_sanctions_done:0 "§YHas 'dealt' with our economic problems§!\n"
  IRQ_kurds_done:0 "§YHas dealt with the Kurdish rebels§!\n"
  IRQ_army_done:0 "§YHas dealt with our army problems§!\n"
@@ -79,17 +85,18 @@
  irq_running_propaganda:0 "§YCurrently Running a Propaganda§!."
  
  irq_propaganda_political_buffed_by_5_per:0 "§GThe Effects of political Power gain and drift defence will increase by §Y5%§!."
- irq_propaganda_efficiency_buffed_by_5_per:0 "§GThe Effects of War Support , Stability Support and Military Factory construction speed will increase by §Y5%§!."
+ irq_propaganda_efficiency_buffed_by_5_per:0 "§GThe Effects of War Support , Stability and Military Factory construction speed will increase by §Y5%§!."
  irq_propaganda_army_buffed_by_2_per:0 "§GThe Effects of Recovery Rate, Division Attack and Defence will increase by §Y2%§!."
  irq_propaganda_army_buffed_by_5_per:0 "§GThe Effects of Recovery Rate, Division Attack and Defence will increase by §Y5%§!."
  
  irq_propaganda_political_nerfed_by_5_per:0 "§RThe Effects of political Power gain and drift defence will decrease by §Y5%§!."
- irq_propaganda_efficiency_nerfed_by_5_per:0 "§RThe Effects of War Support , Stability Support and Military Factory construction speed will decrease by §Y5%§!."
+ irq_propaganda_efficiency_nerfed_by_5_per:0 "§RThe Effects of War Support , Stability and Military Factory construction speed will decrease by §Y5%§!."
  irq_propaganda_army_nerfed_by_5_per:0 "§RThe Effects of Recovery Rate, Division Attack and Defence will decrease by §Y5%§!."
  
- 
+ irq_propaganda_factory_output_costs_increase_by_5_per:0 "§RThe Propaganda Costs Increase, Causing us to lose §Y5%§! factory output.§!"
  irq_propaganda_factory_output_costs_increase_by_2_per:0 "§RThe Propaganda Costs Increase, Causing us to lose §Y2%§! factory output.§!"
  irq_propaganda_factory_output_costs_increase_by_1_per:0 "§RThe Propaganda Costs Increase, Causing us to lose §Y1%§! factory output.§!"
+ irq_propaganda_consumer_good_costs_increase_by_5_per:0 "§RThe Propaganda Costs Increase, Causing us to gain §Y5%§! consumer goods.§!"
  irq_propaganda_consumer_good_costs_increase_by_2_per:0 "§RThe Propaganda Costs Increase, Causing us to gain §Y2%§! consumer goods.§!"
  irq_propaganda_consumer_good_costs_increase_by_1_per:0 "§RThe Propaganda Costs Increase, Causing us to gain §Y1%§! consumer goods.§!"
  

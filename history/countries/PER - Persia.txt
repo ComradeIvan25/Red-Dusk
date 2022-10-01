@@ -8,6 +8,7 @@ add_ideas = PER_oil_producers
 
 recruit_character = PER_mohammad_khatami
 recruit_character = PER_tariq_aziz
+recruit_character = PER_massoud_rajavi
 
 set_politics = {
 	ruling_party = islamism

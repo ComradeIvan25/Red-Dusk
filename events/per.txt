@@ -1,0 +1,42 @@
+add_namespace = per
+
+#what to do with the borders of kurdistan#
+country_event = {
+	id = per.1
+	title = per.1.t
+	desc = per.1.d
+	picture = GFX_report_event_IRQ_kurds
+	
+	is_triggered_only = yes
+	
+	#big kurdistan#
+	option = {
+		name = per.1.a
+		KUR = {
+		transfer_state = 676
+		transfer_state = 869
+		}
+		ai_chance = {
+		factor = 55
+		}
+	}
+	
+	#give them the iraqi kurdistan#
+	option = {
+		name = per.1.b
+		KUR = {
+		transfer_state = 676
+		}
+		ai_chance = {
+		factor = 65
+		}
+	}
+	
+	#no changes #
+	option = {
+		name = per.1.c
+		ai_chance = {
+		factor = 45
+		}
+	}
+}

@@ -29,5 +29,20 @@ characters = {
 			id = -1
 		}
 	}
+	
+	SYR_iran_occupation_auth = {
+		name = "Iran Occupation Authority"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SYR/iran_occupation_auth.dds"
+			}
+		}
+		country_leader = {
+			ideology = shiite_islamism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
 
 }

@@ -13,6 +13,10 @@ ideas = {
 				always = no
 			}
 
+			cancel = {
+				is_puppet = yes
+			}
+
 			modifier = {
 				industrial_capacity_factory = -0.15
 				industrial_capacity_dockyard = -0.15
@@ -30,6 +34,10 @@ ideas = {
 
 			allowed = {
 				always = no
+			}
+
+			cancel = {
+				is_puppet = yes
 			}
 
 			modifier = {
@@ -52,6 +60,10 @@ ideas = {
 				always = no
 			}
 
+			cancel = {
+				is_puppet = yes
+			}
+
 			modifier = {
 				industrial_capacity_factory = -0.05
 				industrial_capacity_dockyard = -0.15
@@ -69,6 +81,10 @@ ideas = {
 
 			allowed = {
 				always = no
+			}
+
+			cancel = {
+				is_puppet = yes
 			}
 
 			modifier = {
@@ -90,6 +106,10 @@ ideas = {
 				always = no
 			}
 
+			cancel = {
+				is_puppet = yes
+			}
+
 			modifier = {
 				political_power_cost = 0.7
 				resistance_growth = 0.2
@@ -107,6 +127,10 @@ ideas = {
 
 			allowed = {
 				always = no
+			}
+
+			cancel = {
+				is_puppet = yes
 			}
 
 			modifier = {
@@ -127,6 +151,10 @@ ideas = {
 				always = no
 			}
 
+			cancel = {
+				is_puppet = yes
+			}
+
 			modifier = {
 				army_defence_factor	= -0.2
 				army_attack_factor	= -0.3
@@ -144,6 +172,10 @@ ideas = {
 
 			allowed = {
 				always = no
+			}
+
+			cancel = {
+				is_puppet = yes
 			}
 
 			modifier = {
@@ -171,6 +203,10 @@ ideas = {
 				always = no
 			}
 
+			cancel = {
+				is_puppet = yes
+			}
+			
 			modifier = {
 				army_defence_factor	= -0.05
 				army_attack_factor	= -0.20
@@ -195,6 +231,10 @@ ideas = {
 
 			allowed = {
 				always = no
+			}
+
+			cancel = {
+				is_puppet = yes
 			}
 
 			modifier = {
@@ -222,6 +262,10 @@ ideas = {
 
 			allowed = {
 				always = no
+			}
+
+			cancel = {
+				is_puppet = yes
 			}
 
 			modifier = {
@@ -268,6 +312,10 @@ ideas = {
 				always = no
 			}
 
+			cancel = {
+				is_puppet = yes
+			}
+
 			modifier = {
 				war_support_factor = -0.005
 				army_core_defence_factor = 0.1
@@ -283,6 +331,10 @@ ideas = {
 
 			allowed = {
 				always = no
+			}
+
+			cancel = {
+				is_puppet = yes
 			}
 
 			modifier = {
@@ -301,6 +353,10 @@ ideas = {
 				always = no
 			}
 
+			cancel = {
+				is_puppet = yes
+			}
+
 			modifier = {
 				production_speed_nuclear_reactor_factor = 0.1
 			}
@@ -315,6 +371,10 @@ ideas = {
 
 			allowed = {
 				always = no
+			}
+
+			cancel = {
+				is_puppet = yes
 			}
 
 			modifier = {
@@ -336,6 +396,10 @@ ideas = {
 				always = no
 			}
 
+			cancel = {
+				is_puppet = yes
+			}
+
 			targeted_modifier = {
 				tag = SYR
 				attack_bonus_against = 0.05
@@ -353,6 +417,10 @@ ideas = {
 				always = no
 			}
 
+			cancel = {
+				is_puppet = yes
+			}
+
 			targeted_modifier = {
 				tag = KUW
 				attack_bonus_against = 0.05
@@ -368,6 +436,10 @@ ideas = {
 
 			allowed = {
 				always = no
+			}
+
+			cancel = {
+				is_puppet = yes
 			}
 
 			targeted_modifier = {
@@ -391,6 +463,10 @@ ideas = {
 				always = no
 			}
 
+			cancel = {
+				is_puppet = yes
+			}
+
 			targeted_modifier = {
 				tag = PER
 				attack_bonus_against = 0.1
@@ -406,6 +482,10 @@ ideas = {
 
 			allowed = {
 				always = no
+			}
+
+			cancel = {
+				is_puppet = yes
 			}
 
 			modifier = {
@@ -430,6 +510,10 @@ ideas = {
 				always = no
 			}
 
+			cancel = {
+				is_puppet = yes
+			}
+
 			modifier = {
 				industrial_capacity_factory = -0.05
 				industrial_capacity_dockyard = -0.05
@@ -449,6 +533,10 @@ ideas = {
 				always = no
 			}
 
+			cancel = {
+				is_puppet = yes
+			}
+
 			modifier = {
 				production_speed_buildings_factor = -0.1
 				production_factory_max_efficiency_factor = -0.2
@@ -466,6 +554,10 @@ ideas = {
 				always = no
 			}
 
+			cancel = {
+				is_puppet = yes
+			}
+
 			modifier = {
 				air_mission_efficiency = -0.5
 				experience_gain_air = 0.01
@@ -481,6 +573,10 @@ ideas = {
 
 			allowed = {
 				always = no
+			}
+
+			cancel = {
+				is_puppet = yes
 			}
 
 			modifier = {
@@ -501,7 +597,11 @@ ideas = {
 			allowed = {
 				always = no
 			}
-
+			
+			cancel = {
+				is_puppet = yes
+			}
+			
 			modifier = {
 				air_accidents_factor = -0.2
 				consumer_goods_factor = 0.05
@@ -533,6 +633,10 @@ ideas = {
 
 			allowed = {
 				always = no
+			}
+
+			cancel = {
+				is_puppet = yes
 			}
 
 			modifier = {
@@ -567,6 +671,10 @@ ideas = {
 				always = no
 			}
 
+			cancel = {
+				is_puppet = yes
+			}
+
 			modifier = {
 				army_core_defence_factor = 0.10
 				dig_in_speed_factor = 0.30
@@ -584,12 +692,118 @@ ideas = {
 				always = no
 			}
 
+			cancel = {
+				is_puppet = yes
+			}
+
 			modifier = {
 				army_core_attack_factor = 0.05
 				army_morale_factor = 0.10
 				weekly_manpower = 750
 			}
 		}
+		
+		IRQ_an_united_arab_nation = {
+			name = IRQ_an_united_arab_nation_name
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			allowed = {
+				always = no
+			}
+
+			cancel = {
+				is_puppet = yes
+			}
+
+			modifier = {
+				political_power_factor = 0.05
+				army_core_attack_factor = 0.05
+				army_morale_factor = 0.10
+				weekly_manpower = 750
+			}
+		}
+		
+		IRQ_an_united_arab_nation_2 = {
+			name = IRQ_an_united_arab_nation_name
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			allowed = {
+				always = no
+			}
+
+			cancel = {
+				is_puppet = yes
+			}
+
+			modifier = {
+				political_power_factor = 0.05
+				army_core_attack_factor = 0.05
+				army_morale_factor = 0.15
+				research_speed_factor = 0.05
+				weekly_manpower = 750
+			}
+		}
+		
+		IRQ_an_united_arab_nation_3 = {
+			name = IRQ_an_united_arab_nation_name
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			allowed = {
+				always = no
+			}
+
+			cancel = {
+				is_puppet = yes
+			}
+
+			modifier = {
+				political_power_factor = 0.05
+				army_core_attack_factor = 0.05
+				army_morale_factor = 0.15
+				research_speed_factor = 0.05
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.05
+				weekly_manpower = 750
+			}
+		}
+		
+		IRQ_an_united_arab_nation_4 = {
+			name = IRQ_an_united_arab_nation_name
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			allowed = {
+				always = no
+			}
+
+			cancel = {
+				is_puppet = yes
+			}
+
+			modifier = {
+				political_power_factor = 0.05
+				army_core_attack_factor = 0.05
+				army_attack_factor = 0.05
+				army_morale_factor = 0.15
+				research_speed_factor = 0.05
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.05
+				conscription_factor = 0.15
+				weekly_manpower = 250
+			}
+		}
+		
 		
 		IRQ_saddams_cult_of_personality = {
 			name = IRQ_saddams_cult_of_personality_name
@@ -600,6 +814,10 @@ ideas = {
 
 			allowed = {
 				always = no
+			}
+
+			cancel = {
+				is_puppet = yes
 			}
 
 			modifier = {
@@ -621,6 +839,10 @@ ideas = {
 				always = no
 			}
 
+			cancel = {
+				is_puppet = yes
+			}
+
 			modifier = {
 				political_power_cost = 0.25
 				stability_weekly_factor = 0.002
@@ -640,12 +862,40 @@ ideas = {
 				always = no
 			}
 
+			cancel = {
+				is_puppet = yes
+			}
+
 			modifier = {
 				political_power_cost = 0.25
 				stability_weekly_factor = 0.002
 				industrial_capacity_factory = 0.10
 				consumer_goods_factor = -0.10
 				army_attack_factor = 0.05
+			}
+		}
+		
+		IRQ_saddams_cult_of_personality_4 = {
+			name = IRQ_saddams_cult_of_personality_name
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			allowed = {
+				always = no
+			}
+
+			cancel = {
+				is_puppet = yes
+			}
+
+			modifier = {
+				political_power_cost = 0.25
+				stability_weekly_factor = 0.002
+				industrial_capacity_factory = 0.10
+				consumer_goods_factor = -0.10
+				army_attack_factor = 0.1
 			}
 		}
 		
@@ -658,6 +908,10 @@ ideas = {
 
 			allowed = {
 				always = no
+			}
+
+			cancel = {
+				is_puppet = yes
 			}
 
 			modifier = {
@@ -677,6 +931,10 @@ ideas = {
 			allowed = {
 				always = no
 			}
+			
+			cancel = {
+				is_puppet = yes
+			}
 
 			modifier = {
 				neutrality_drift = 0.25
@@ -694,6 +952,10 @@ ideas = {
 
 			allowed = {
 				always = no
+			}
+			
+			cancel = {
+				is_puppet = yes
 			}
 
 			modifier = {
@@ -713,7 +975,11 @@ ideas = {
 			allowed = {
 				always = no
 			}
-
+			
+			cancel = {
+				is_puppet = yes
+			}
+			
 			modifier = {
 				neutrality_drift = 0.15
 				stability_weekly_factor = -0.001
@@ -731,7 +997,11 @@ ideas = {
 			allowed = {
 				always = no
 			}
-
+			
+			cancel = {
+				is_puppet = yes
+			}
+			
 			modifier = {
 				neutrality_drift = 0.07
 				resistance_growth = 0.10
@@ -748,12 +1018,32 @@ ideas = {
 			allowed = {
 				always = no
 			}
+			
+			cancel = {
+				is_puppet = yes
+			}
 
 			modifier = {
 				resistance_growth = -0.80
 			}
 		}
-	
+		
+		IRQ_bombed_supply_lines = {
+			name = IRQ_bombed_supply_lines_name
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			supply_consumption_factor = 0.35
+			supply_factor = -0.3
+			}
+		}
 	}
 
 

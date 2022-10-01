@@ -49,3 +49,4 @@ defined_text = {
 		localization_key = IRQ_loc_key_100
 	}
 }
+

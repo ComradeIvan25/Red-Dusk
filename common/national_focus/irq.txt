@@ -66,7 +66,7 @@ focus_tree = {
 	
 	focus = {
 		id = IRQ_the_propaganda_machine
-		icon = GFX_focus_IRQ_problems
+		icon = GFX_focus_IRQ_propaganda_machine
 		x = 0
 		y = 1
 
@@ -560,10 +560,10 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-       		          create_wargoal = {
-        		  	type = annex_everything
-         		  	target = SYR
-          		  }
+				declare_war_on = {
+					type = annex_everything
+					target = SYR
+				}
 		}
 	}
 
@@ -650,10 +650,10 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			create_wargoal = {
-				type = annex_everything
-				target = KUW
-			}
+				declare_war_on = {
+					type = annex_everything
+					target = KUW
+				}
 			IRQ = {
 				country_event = { id = irq.4 }
 			}
@@ -901,7 +901,7 @@ focus_tree = {
 		continue_if_invalid = no
 		completion_reward = {
 			IRQ = {
-				create_wargoal = {
+				declare_war_on = {
 					type = take_state_focus
 					target = PER
 					generator = { 421 413 } 
@@ -955,6 +955,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = IRQ_saddam_epic_win
 		prerequisite = {focus = IRQ_saddam_epic_win}
+		available = {has_completed_focus = IRQ_dreams_of_a_greater_iraq}
 		mutually_exclusive = { focus = IRQ_proclaim_uar }
 		relative_position_id = IRQ_saddam_epic_win
 		
@@ -1005,7 +1006,7 @@ focus_tree = {
 			PER = {
 			add_stability = -0.30
 			}
-			add_to_variable = {irq_propaganda_effect_costs_var = 0.05}
+			add_to_variable = {irq_propaganda_effect_costs_var = -0.05}
 			custom_effect_tooltip = irq_propaganda_consumer_good_costs_decrease_by_5_per
 			subtract_from_variable = {irq_propaganda_effect_costs_consumer_goods_var = 0.05}
 			custom_effect_tooltip = irq_propaganda_factory_output_costs_decrease_by_5_per
@@ -1063,7 +1064,7 @@ focus_tree = {
 			subtract_from_variable = {irq_propaganda_effect_army_var = 0.05}
 			custom_effect_tooltip = irq_propaganda_army_nerfed_by_5_per
 		
-			add_to_variable = {irq_propaganda_effect_costs_var = 0.05}
+			add_to_variable = {irq_propaganda_effect_costs_var = -0.05}
 			custom_effect_tooltip = irq_propaganda_consumer_good_costs_decrease_by_5_per
 			subtract_from_variable = {irq_propaganda_effect_costs_consumer_goods_var = 0.05}
 			custom_effect_tooltip = irq_propaganda_factory_output_costs_decrease_by_5_per
@@ -1143,8 +1144,8 @@ focus_tree = {
 			add_war_support = 0.10
 			add_to_variable = { irq_propaganda_effect_efficiency_var = 0.05 }
 			custom_effect_tooltip = irq_propaganda_efficiency_buffed_by_5_per
-			add_to_variable = { irq_propaganda_effect_costs_var = -0.020}
-			custom_effect_tooltip = irq_propaganda_factory_output_costs_increase_by_2_per
+			add_to_variable = { irq_propaganda_effect_costs_var = -0.050}
+			custom_effect_tooltip = irq_propaganda_factory_output_costs_increase_by_5_per
 		}
 	}
 	
@@ -1281,7 +1282,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = IRQ_reconstructing_the_economy
 		prerequisite = {focus = IRQ_reconstructing_the_economy}
-
+		available = {has_completed_focus = IRQ_no_debt}
 
 		mutually_exclusive = { }
 		
@@ -1352,7 +1353,7 @@ focus_tree = {
 
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 5
 		ai_will_do = {
 			factor = 100
 		}
@@ -1385,8 +1386,8 @@ focus_tree = {
 			}
 			add_to_variable = { irq_propaganda_effect_efficiency_var = 0.05 }
 			custom_effect_tooltip = irq_propaganda_efficiency_buffed_by_5_per
-			add_to_variable = { irq_propaganda_effect_costs_consumer_goods_var = 0.020}
-			custom_effect_tooltip = irq_propaganda_consumer_good_costs_increase_by_2_per
+			add_to_variable = { irq_propaganda_effect_costs_consumer_goods_var = 0.05 }
+			custom_effect_tooltip = irq_propaganda_consumer_good_costs_increase_by_5_per
 		}
 	}
 	
@@ -1398,6 +1399,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = IRQ_saddam_epic_win
 		prerequisite = {focus = IRQ_saddam_epic_win}
+		available = {has_completed_focus = IRQ_dreams_of_a_united_arab_nation}
 		mutually_exclusive = { focus = IRQ_greater_iraq }
 		relative_position_id = IRQ_saddam_epic_win
 		
@@ -1411,14 +1413,216 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_state_core = 656
-			add_state_core = 421
-			add_state_core = 677
-			add_state_core = 554
-			add_state_core = 680
-			add_state_core = 413
 			set_cosmetic_tag = IRQ_uar_cosmetic
+			swap_ideas = {
+			remove_idea = IRQ_dreams_of_a_united_arab_nation
+			add_idea = IRQ_an_united_arab_nation
+			}
+			unlock_decision_category_tooltip = irq_category_a_new_state
+			set_country_flag = irq_a_new_state
 			#news_event = {id = old_times_news.33}
+		}
+	}
+	
+	focus = {
+		id = IRQ_give_ncri_control_in_iran
+		icon = GFX_focus_IRQ_great_iraq 
+		x = -2
+		y = 1
+		relative_position_id = IRQ_proclaim_uar
+		prerequisite = {focus = IRQ_proclaim_uar}
+
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			PER = {
+			add_stability = 0.30
+			set_cosmetic_tag = PER_iraq_puppet_civ_gov
+				add_popularity = {
+					ideology = reformed_communism
+					popularity = 0.5
+				}
+				
+				set_politics = {
+					ruling_party = reformed_communism
+					last_election = "1932.5.1"
+					election_frequency = 48
+					elections_allowed = no
+				}
+			}
+			
+		}
+	}
+	
+	focus = {
+		id = IRQ_invite_pan_arab_intellectuals
+		icon = GFX_focus_IRQ_great_iraq 
+		x = 0
+		y = 1
+		relative_position_id = IRQ_proclaim_uar
+		prerequisite = {focus = IRQ_proclaim_uar}
+
+
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			swap_ideas = {
+			remove_idea = IRQ_an_united_arab_nation
+			add_idea = IRQ_an_united_arab_nation_2
+			}
+			unlock_decision_tooltip = IRQ_pan_arab_modify_the_constitution
+			add_popularity = {
+				ideology = communism
+				popularity = 0.35
+			}
+		}
+	}
+	
+	focus = {
+		id = IRQ_unified_arab_dinar
+		icon = GFX_focus_IRQ_great_iraq 
+		x = 2
+		y = 1
+		relative_position_id = IRQ_proclaim_uar
+		prerequisite = {focus = IRQ_proclaim_uar}
+		available = {has_completed_focus = IRQ_invite_pan_arab_intellectuals}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			swap_ideas = {
+			remove_idea = IRQ_an_united_arab_nation_2
+			add_idea = IRQ_an_united_arab_nation_3
+			}
+		}
+	}
+	
+	focus = {
+		id = IRQ_unified_arab_military
+		icon = GFX_focus_IRQ_great_iraq 
+		x = -1
+		y = 2
+		relative_position_id = IRQ_proclaim_uar
+		prerequisite = {focus = IRQ_give_ncri_control_in_iran}
+		prerequisite = {focus = IRQ_invite_pan_arab_intellectuals}
+
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			swap_ideas = {
+			remove_idea = IRQ_an_united_arab_nation_3
+			add_idea = IRQ_an_united_arab_nation_4
+			}
+		}
+	}
+	
+	focus = {
+		id = IRQ_erasing_assads_legacy
+		icon = GFX_focus_IRQ_great_iraq 
+		x = 1
+		y = 2
+		relative_position_id = IRQ_proclaim_uar
+		prerequisite = {focus = IRQ_invite_pan_arab_intellectuals}
+		prerequisite = {focus = IRQ_unified_arab_dinar}
+
+
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
+		add_to_variable = { irq_propaganda_effect_political_var = 0.050}
+		custom_effect_tooltip = irq_propaganda_political_buffed_by_5_per
+		add_to_variable = { irq_propaganda_effect_costs_var = -0.05 }
+		custom_effect_tooltip = irq_propaganda_factory_output_costs_increase_by_5_per
+		}
+	}
+	
+	focus = {
+		id = IRQ_wahda_hurriyah_ishtirakiyah
+		icon = GFX_focus_IRQ_great_iraq 
+		x = 0
+		y = 3
+		relative_position_id = IRQ_proclaim_uar
+		prerequisite = {focus = IRQ_unified_arab_military}
+		prerequisite = {focus = IRQ_erasing_assads_legacy}
+
+
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		add_political_power = 100
+			add_trait = {
+				 character = IRQ_saddam_hussein
+				 ideology = fascism_ideology
+				 trait = face_of_neo_baathism
+			}
+		add_to_variable = { irq_propaganda_effect_efficiency_var = 0.05 }
+		custom_effect_tooltip = irq_propaganda_efficiency_buffed_by_5_per
+		add_to_variable = { irq_propaganda_effect_political_var = 0.050}
+		custom_effect_tooltip = irq_propaganda_political_buffed_by_5_per
+		
+		add_to_variable = { irq_propaganda_effect_costs_consumer_goods_var = 0.05 }
+		custom_effect_tooltip = irq_propaganda_consumer_good_costs_increase_by_5_per
+		add_to_variable = { irq_propaganda_effect_costs_var = -0.05 }
+		custom_effect_tooltip = irq_propaganda_factory_output_costs_increase_by_5_per
 		}
 	}
 	
@@ -1428,13 +1632,13 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = IRQ_domestic_goods_sector
-		prerequisite = {focus = IRQ_strengthen_our_hold}
+		prerequisite = {focus = IRQ_strengthen_our_hold focus = IRQ_wahda_hurriyah_ishtirakiyah}
 		prerequisite = {focus = IRQ_domestic_goods_sector}
 
 
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 2
 		ai_will_do = {
 			factor = 100
 		}
@@ -1453,10 +1657,10 @@ focus_tree = {
 				limit = { IRQ = { has_completed_focus = IRQ_greater_iraq } }
 				set_country_flag = irq_next_step_greater_iraq
 			}
-			#if_else = {
-			#	limit = { IRQ = { has_completed_focus = IRQ_greater_iraq } }
-			#	set_country_flag = irq_next_step_uar
-			#}
+			else_if = {
+				limit = {IRQ = {has_completed_focus = IRQ_proclaim_uar} }
+				set_country_flag = irq_next_step_uar
+			}
 		}
 	}
 	
@@ -1466,13 +1670,18 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = IRQ_the_next_step
-		allow_branch = {has_country_flag = irq_next_step_greater_iraq}
+		#allow_branch = {
+		#	OR = {
+		#	has_country_flag = irq_next_step_greater_iraq
+		#	has_country_flag = irq_next_step_uar
+		#	}
+		#}
 		prerequisite = {focus = IRQ_the_next_step}
 
 
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 5
 		ai_will_do = {
 			factor = 100
 		}
@@ -1482,16 +1691,414 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			declare_war_on = {
+				type = annex_everything
+				target = JOR
+			}
+			unlock_decision_tooltip = IRQ_pan_arab_integrate_jordan
+		}
+	}
+	
+	focus = {
+		id = IRQ_push_lebanon_to_the_sea
+		icon = GFX_focus_IRQ_great_iraq 
+		x = 1
+		y = 1
+		relative_position_id = IRQ_the_next_step
+		#allow_branch = {
+		#	OR = {
+		#	has_country_flag = irq_next_step_greater_iraq
+		#	has_country_flag = irq_next_step_uar
+		#	}
+		#}
+		prerequisite = {focus = IRQ_the_next_step}
+
+
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			declare_war_on = {
+				type = annex_everything
+				target = LEB
+			}
+			unlock_decision_tooltip = IRQ_pan_arab_integrate_lebanon
+		}
+	}
+	
+	focus = {
+		id = IRQ_an_important_obstacle
+		icon = GFX_focus_IRQ_great_iraq 
+		x = 0
+		y = 2
+		relative_position_id = IRQ_the_next_step
+		prerequisite = {focus = IRQ_erase_the_hashemite_scum}
+		prerequisite = {focus = IRQ_push_lebanon_to_the_sea}
+
+
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			army_experience = 50
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+	
+	focus = {
+		id = IRQ_scum_of_the_earth
+		icon = GFX_focus_IRQ_great_iraq 
+		x = 0
+		y = 3
+		relative_position_id = IRQ_the_next_step
+		allow_branch = {
+			country_exists = ISR
+		}
+		prerequisite = {focus = IRQ_an_important_obstacle}
+
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_war_support = 0.15
+		}
+	}
+	
+	focus = {
+		id = IRQ_forced_draft
+		icon = GFX_focus_IRQ_great_iraq 
+		x = 2
+		y = 1
+		relative_position_id = IRQ_scum_of_the_earth
+		prerequisite = {focus = IRQ_scum_of_the_earth}
+
+
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = -0.15
+			add_manpower = 25000
+		}
+	}
+	
+	focus = {
+		id = IRQ_ready_the_airforce
+		icon = GFX_focus_IRQ_great_iraq 
+		x = 2
+		y = 2
+		relative_position_id = IRQ_scum_of_the_earth
+		prerequisite = {focus = IRQ_forced_draft}
+
+
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			air_experience = 100
+			add_equipment_to_stockpile = {
+				type = fighter_equipment_1
+				amount = 50
+				producer = SOV
+			}
+			add_equipment_to_stockpile = {
+				type = attacker_equipment_1
+				amount = 50
+				producer = SOV
+			}
+		}
+	}
+	
+	focus = {
+		id = IRQ_fund_the_resistance
+		icon = GFX_focus_IRQ_great_iraq 
+		x = 0
+		y = 1
+		relative_position_id = IRQ_scum_of_the_earth
+		prerequisite = {focus = IRQ_scum_of_the_earth}
+
+
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_weapons
+				amount = -1000
+			}
+			840 = {
+			add_resistance = 25
+			}
+		}
+	}
+	
+	focus = {
+		id = IRQ_suicide_bombing_tactics
+		icon = GFX_focus_IRQ_great_iraq 
+		x = 0
+		y = 2
+		relative_position_id = IRQ_scum_of_the_earth
+		prerequisite = {focus = IRQ_fund_the_resistance}
+
+
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			840 = {
+			add_resistance = 05
+			add_manpower = -402
+				damage_building = {
+					type = infrastructure
+					damage = 5
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = IRQ_connect_the_supply_lines
+		icon = GFX_focus_IRQ_great_iraq 
+		x = -2
+		y = 1
+		relative_position_id = IRQ_scum_of_the_earth
+		prerequisite = {focus = IRQ_scum_of_the_earth}
+
+
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			#TODO add 1 sup hub near the israel border and add a railway that connects it to baghdad
+			build_railway = {
+			  level = 2
+			  controller_priority = {
+				base = 1
+
+				modifier = {
+				  tag = IRQ
+				  add = 2
+				}
+			  }
+			  path = { 2097 12046 12839 12413 12316 10383 7184 4111 }
+			  start_province = 2097
+			  target_province = 4111
+			}
+		}
+	}
+	
+	focus = {
+		id = IRQ_just_incase
+		icon = GFX_focus_IRQ_great_iraq 
+		x = -2
+		y = 2
+		relative_position_id = IRQ_scum_of_the_earth
+		prerequisite = {focus = IRQ_scum_of_the_earth}
+
+
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			#TODO : this is gonna be about nukes#
 			
 		}
 	}
+	
+	focus = {
+		id = IRQ_death_to_israel
+		icon = GFX_focus_IRQ_great_iraq 
+		x = 0
+		y = 3
+		relative_position_id = IRQ_scum_of_the_earth
+		prerequisite = {focus = IRQ_just_incase}
+		prerequisite = {focus = IRQ_suicide_bombing_tactics}
+		prerequisite = {focus = IRQ_ready_the_airforce}
 
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			declare_war_on = {
+				type = annex_everything
+				target = ISR
+			}
+			#TODO adding a news event bout this#
+		}
+	}
+	
+	focus = {
+		id = IRQ_sabotage_behind_enemy_lines
+		icon = GFX_focus_IRQ_great_iraq 
+		x = -1
+		y = 1
+		relative_position_id = IRQ_death_to_israel
+		prerequisite = {focus = IRQ_death_to_israel}
+
+		bypass = {has_war = no}
+		
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+				454 = {
+					add_manpower = -354
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+		}
+	}
+	
+	focus = {
+		id = IRQ_bomb_the_supply_lines
+		icon = GFX_focus_IRQ_great_iraq 
+		x = 1
+		y = 1
+		relative_position_id = IRQ_death_to_israel
+		prerequisite = {focus = IRQ_death_to_israel}
+
+		bypass = {has_war = no}
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			ISR = {
+				add_timed_idea = {
+				idea = IRQ_bombed_supply_lines
+				days = 30
+				} 
+			}
+		}
+	}
+	
+	focus = {
+		id = IRQ_nasser_revenged
+		icon = GFX_focus_IRQ_great_iraq 
+		x = 0
+		y = 2
+		relative_position_id = IRQ_death_to_israel
+		prerequisite = {focus = IRQ_sabotage_behind_enemy_lines}
+		prerequisite = {focus = IRQ_bomb_the_supply_lines}
+		available = {NOT = {country_exists = ISR}}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			#TODO make focuses about the integration of the lands
+		}
+	}
 
 	### Economy Tree ###
 
 	focus = {
 		id = IRQ_economic_restructuring
-		icon = GFX_focus_IRQ_reforms
+		icon = GFX_focus_IRQ_economic_restructuring
 		x = 24
 		y = 0
 
@@ -1527,7 +2134,7 @@ focus_tree = {
 					amount = 2
 				}
 			}
-			925 = {
+			871 = {
 				add_resource = {
 					type = oil
 					amount = 3
@@ -1550,7 +2157,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			924 = {
+			870 = {
 				add_building_construction = {
 					type = synthetic_refinery
 					level = 1
@@ -1582,7 +2189,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			925 = {
+			871 = {
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
@@ -1763,7 +2370,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			924 = {
+			870 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -1837,7 +2444,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 50
-			924 = {
+			870 = {
 				add_building_construction = {
 					type = naval_base
 					level = 1
@@ -1865,7 +2472,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = -50
 			add_stability = 0.05
-			924 = {
+			870 = {
 				add_building_construction = {
 					type = naval_base
 					level = 1
@@ -2139,7 +2746,7 @@ focus_tree = {
 				add_idea = IRQ_kurdish_rebels_3
 				remove_idea = IRQ_kurdish_rebels_2
 			}
-			925 = {
+			871 = {
 				add_core_of = IRQ
 				set_demilitarized_zone = no
 				add_dynamic_modifier = {
@@ -2246,7 +2853,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			924 = {
+			870 = {
 				add_building_construction = {
 					type = dockyard
 					level = 2
@@ -2313,7 +2920,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			924 = {
+			870 = {
 				add_building_construction = {
 					type = anti_air_building
 					level = 1

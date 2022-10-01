@@ -29,8 +29,6 @@ ideas = {
 
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.015 group = mobilization_laws }
-				NOT = { has_idea = undisturbed_isolation }
-				NOT = { has_idea = isolation }
 			}
 
 			ai_will_do = {
@@ -60,8 +58,6 @@ ideas = {
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.025 group = mobilization_laws }
 				has_war_support > 0.1
-				NOT = { has_idea = undisturbed_isolation }
-				NOT = { has_idea = isolation }
 				if = {
 					limit = {
 						original_tag = RAJ

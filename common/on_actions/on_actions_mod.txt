@@ -344,6 +344,128 @@ on_actions = {
 						news_event = { id = old_times_news.16 }
 					}
 					
+					## IRAQ VS IRAN - IRAN WINS OVER IRAQ ##
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = PER
+							}
+							ROOT = {
+								original_tag = IRQ
+							}
+						}
+
+						PER = {
+							white_peace = ROOT
+						}
+						
+						KUR = { 
+						transfer_state = 871
+						set_cosmetic_tag = KUR_islam_emirite
+							set_politics = {
+								ruling_party = islamism
+								last_election = "1936.1.1"
+								election_frequency = 48
+								elections_allowed = no
+							}
+						}
+						
+						IRQ = {
+							set_cosmetic_tag = IRQ_iran_puppet
+							load_focus_tree = generic
+						}
+						
+						SYR = {
+							set_cosmetic_tag = SYR_iran_puppet
+							transfer_state = 869
+							transfer_state = 680
+							transfer_state = 677
+							transfer_state = 554
+						}
+						
+						PER = {
+							puppet = IRQ
+							puppet = KUR
+							puppet = SYR
+							country_event = {id = per.1}
+						}
+						
+
+					}
+					IRQ_iran_puppet_cosmetic
+					## IRAQ VS JORDAN - IRAQ WINS OVER JORDAN ##
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = IRQ
+							}
+							ROOT = {
+								original_tag = JOR
+							}
+						}
+						
+						IRQ = {
+							white_peace = ROOT
+
+						}
+						
+						IRQ = {
+							annex_country = {
+							target = JOR
+							transfer_troops = no
+							}
+						}
+					}
+					
+					## IRAQ VS LEBANON - IRAQ WINS OVER LEBANON ##
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = IRQ
+							}
+							ROOT = {
+								original_tag = LEB
+							}
+						}
+						
+						IRQ = {
+							white_peace = ROOT
+
+						}
+						
+						IRQ = {
+							annex_country = {
+							target = LEB
+							transfer_troops = no
+							}
+						}
+					}
+					
+					## IRAQ VS ISRAEL - IRAQ WINS OVER ISRAEL ##
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = IRQ
+							}
+							ROOT = {
+								original_tag = ISR
+							}
+						}
+						
+						IRQ = {
+							white_peace = ROOT
+							puppet = PAL
+						}
+						
+						PAL = {
+							set_cosmetic_tag = PAL_integration_zone
+							transfer_state = 840
+							transfer_state = 846
+							transfer_state = 454
+							transfer_state = 845
+						}
+					}
+					
 					### USSR WARS ###
 					
 					### USSR VS ESTONIA - USSR WINS ###

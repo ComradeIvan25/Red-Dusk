@@ -19,7 +19,7 @@ country_event = {
 		#yes#
 	option = {
 		name = palisr.1.a
-		news_event = {id = old_times_news.27}
+		news_event = {id = old_times_news.34}
 		PAL = {country_event = {id = palisr.2 days = 2}}
 		add_stability = -0.10
 		ai_chance = {
@@ -42,7 +42,7 @@ country_event = {
 		#yes#
 	option = {
 		name = palisr.2.a
-		news_event = {id = palisr.2 days = 1}
+		news_event = {id = old_times_news.35 days = 1}
 		add_ideas = PAL_second_intifada
 		PAL = {
 		    declare_war_on = {

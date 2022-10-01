@@ -5,6 +5,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/scripted_gui/test_bar.dds"
 		noOfFrames = 5
 	}
+	
+	SpriteType = {
+		name = "GFX_saddam_eagle"
+		texturefile = "gfx/interface/scripted_gui/saddam_eagle.dds"
+	}
+	SpriteType = {
+		name = "GFX_centralization_icon"
+		texturefile = "gfx/interface/scripted_gui/centralization_icon.dds"
+	}
+	SpriteType = {
+		name = "GFX_uar_stability_icon"
+		texturefile = "gfx/interface/scripted_gui/uar_stability_icon.dds"
+	}
+	
 	SpriteType = {
 		name = "GFX_scripted_decision_button"
 		texturefile = "gfx/interface/scripted_gui/decision_button.dds"

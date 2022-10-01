@@ -10,6 +10,8 @@ if = {
 	set_technology = {
 		corvette_hull_1960 = 1
 		destroyer_hull_1960 = 1
+		destroyer_hull_1980 = 1
+		destroyer_hull_1990 = 1
 		attack_submarine_hull_1960 = 1
 	}
 }

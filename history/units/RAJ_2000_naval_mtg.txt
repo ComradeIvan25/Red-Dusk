@@ -6,9 +6,6 @@ units = {
 			name = "Pashchimee Beda"
 			location = 1349 # Mumbai #
 			ship = { name = "INS Viraat" definition = carrier equipment = { carrier_hull_1 = { amount = 1 owner = RAJ creator = ENG version_name = "Centaur Class" } }
-				air_wings = {
-					carrier_fighter_equipment_2 = { owner = "ENG" amount = 12 }
-				}
 			}
 
 			ship = { name = "INS Mysore" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = RAJ version_name = "Delhi Class" } } }

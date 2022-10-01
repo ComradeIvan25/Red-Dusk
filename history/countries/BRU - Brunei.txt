@@ -1,6 +1,19 @@
-﻿capital = 861
+﻿capital = 935
 
 ##oob = ""
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+
+	set_technology = {
+		destroyer_hull_1960 = 1
+		destroyer_hull_1980 = 1
+		destroyer_hull_1990 = 1
+		destroyer_hull_2000 = 1
+	}
+}
 
 set_convoys = 5
 

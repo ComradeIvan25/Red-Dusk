@@ -1,6 +1,6 @@
 ﻿capital = 219
 
-set_oob = "SOV_2000"
+#set_oob = "SOV_2000"
 if = {
 	limit = {
 		has_dlc = "Man the Guns"

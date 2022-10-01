@@ -1,4 +1,4 @@
-﻿capital = 848 
+﻿capital = 922
 
 ##oob = "ANC_1936"
 

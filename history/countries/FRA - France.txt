@@ -1,5 +1,26 @@
 ﻿capital = 16
 
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+
+	set_technology = {
+		attack_submarine_hull_1960 = 1
+		attack_submarine_hull_1980 = 1
+		ballistic_submarine_hull_1960 = 1
+		ballistic_submarine_hull_1980 = 1
+		corvette_hull_1960 = 1
+		corvette_hull_1980 = 1
+		corvette_hull_1990 = 1
+		destroyer_hull_1960 = 1
+		destroyer_hull_1980 = 1
+		destroyer_hull_1990 = 1
+		cruiser_hull_1960 = 1
+		carrier_hull_1960 = 1
+		carrier_hull_1980 = 1
+	}
+}
 set_technology = {
 	fighter_1970 = 1
 	carrier_attacker_1960 = 1

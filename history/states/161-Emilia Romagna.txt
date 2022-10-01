@@ -12,14 +12,19 @@ state={
 
 	history={
 		owner = ITA
-		victory_points = {
-			6606 3 
+		victory_points = { #Bologna
+			6606 5
+		}
+		victory_points = { #Ferrara
+			6793 3
+		}
+		victory_points = { #Parma
+			9752 1
 		}
 		buildings = {
 			infrastructure = 4 #was: 7
-			industrial_complex = 4
+			industrial_complex = 1
 			air_base = 2
-			arms_factory = 1
 			782 = {
 				naval_base = 2
 			}

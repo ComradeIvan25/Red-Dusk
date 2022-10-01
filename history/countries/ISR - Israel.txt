@@ -1,5 +1,19 @@
 ﻿capital = 454
 
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		attack_submarine_hull_1960 = 1
+		attack_submarine_hull_1980 = 1
+		attack_submarine_hull_1990 = 1
+		corvette_hull_1960 = 1
+		corvette_hull_1980 = 1
+		corvette_hull_1990 = 1
+	}
+}
+
 set_convoys = 5
 
 recruit_character = ISR_ezer_weizman

@@ -71,14 +71,6 @@ country_event = {
 				set_temp_variable = { occupied_country = FROM }
 				set_temp_variable = { new_occupied_country = FROM }
 				
-				if = { #warsaw achievement
-					limit = {
-						var:occupied_country = { original_tag = POL }
-					}
-					set_global_flag = warsaw_liberated_self_flag
-				}
-				
-				
 				set_temp_variable = { civil_war_country_picked = 0 }
 				if = {
 					## pick an existing civil war country
@@ -125,8 +117,6 @@ country_event = {
 					limit = { 
 						var:occupied_country = {
 							#only change ideology if we are not creating a new country and old country is not existing
-							NOT = { original_tag = DNZ } #Danzig should usually always be fascist
-							NOT = { original_tag = SOV } #Soviet Union should always be communist
 							OR = {
 								exists = no
 								NOT = { tag = new_occupied_country }
@@ -292,6 +282,7 @@ country_event = {
 				# create war if necesarry
 				if = {
 					limit = { NOT = { has_war_with = new_occupied_country } }
+					
 					declare_war_on = { target = new_occupied_country type = annex_everything }
 				}
 				

@@ -1,4 +1,4 @@
-﻿capital = 842 #Hanoi
+﻿capital = 916 #Hanoi
 
 #oob = "VIN_1936"
 
@@ -11,6 +11,7 @@ if = {
 		corvette_hull_1960 = 1
 		corvette_hull_1980 = 1
 		corvette_hull_1990 = 1
+		destroyer_hull_1960 = 1
 	}
 }
 set_technology = {

@@ -11,15 +11,19 @@ state={
 		owner = SLV
 		add_core_of = SLV
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 1
+			dockyard = 1
+			arms_factory = 1
+			6626 = {
+				naval_base = 5
+			}
 		}
 	}
 
 	provinces={
-		599 11595 11735 
+		599 6626 11595 
 	}
-	manpower=823159
+	manpower=1038159
 	buildings_max_level_factor=1.000
 
 	local_supplies=0.0 

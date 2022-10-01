@@ -53,11 +53,6 @@ units = {
 			name = "Flotte Méditerranéenne"
 			location = 911 # Toulon #
 			ship = { name = "Foch" definition = carrier equipment = { carrier_hull_1 = { amount = 1 owner = FRA version_name = "Clemenceau Class" } }
-				air_wings = {
-					carrier_attacker_equipment_1 = { owner = "FRA" amount = 16 }
-					carrier_attacker_equipment_0 = { owner = "FRA" amount = 7 }
-					carrier_fighter_equipment_0 = { owner = "USA" amount = 10 }
-				}
 			}
 
 			ship = { name = "La Fayette" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = FRA version_name = "La Fayette Class" } } }

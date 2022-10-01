@@ -1,4 +1,4 @@
-﻿capital = 859
+﻿capital = 933
 
 oob = "RGO_2000"
 

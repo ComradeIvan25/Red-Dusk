@@ -26,7 +26,7 @@ IRQ_decrease_the_renewed_resistance_idea = {
 		}
 	}
 	
-	else = {
+	else_if = {
 		limit = {has_idea = IRQ_renewed_resistance_2}
 		swap_ideas = {
 		remove_idea = IRQ_renewed_resistance_2

@@ -1,0 +1,54 @@
+script_enum_equipment_bonus_type = {
+	## Air
+	fighter_equipment
+	interceptor_equipment
+	attacker_equipment
+	strike_bomber_equipment
+	strategic_bomber_equipment
+	carrier_fighter_equipment
+	carrier_attacker_equipment
+	transport_plane_equipment
+	stealth_fighter_equipment
+	carrier_stealth_fighter_equipment
+
+	## Land
+	mbt_tank_equipment
+	recon_vehicle_equipment
+	ifv_tank_equipment
+	apc_tank_equipment
+	spaa_tank_equipment
+	heli_transport_equipment
+	heli_attack_equipment
+	towed_artillery_equipment
+	motorised_artillery_equipment
+	rocket_artillery_equipment
+	infantry_weapons
+
+	## Sea
+	carrier_hull
+	cruiser_hull
+	corvette_hull
+	destroyer_hull
+	attack_submarine_hull
+	cruise_submarine_hull
+	ballistic_submarine_hull
+	convoy
+	floating_harbor_equipment
+}
+
+script_enum_operative_mission_type = {
+	build_intel_network
+	counter_intelligence
+	quiet_network
+	root_out_resistance
+	control_trade
+}
+
+script_enum_advisor_slot_type = {
+	theorist
+	high_command
+	army_chief
+	navy_chief
+	air_chief
+	political_advisor
+}

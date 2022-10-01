@@ -86,7 +86,7 @@ add_ideas = IRQ_walter_withe
 add_ideas = IRQ_sultan
 add_ideas = IRQ_tariq_aziz13
 
-871 = {
+925 = {
 	start_resistance = yes
 	set_compliance = 20
 	set_resistance = 15

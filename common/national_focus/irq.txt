@@ -1527,7 +1527,7 @@ focus_tree = {
 					amount = 2
 				}
 			}
-			871 = {
+			925 = {
 				add_resource = {
 					type = oil
 					amount = 3
@@ -1550,7 +1550,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			870 = {
+			924 = {
 				add_building_construction = {
 					type = synthetic_refinery
 					level = 1
@@ -1582,7 +1582,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			871 = {
+			925 = {
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
@@ -1763,7 +1763,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			870 = {
+			924 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -1837,7 +1837,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 50
-			870 = {
+			924 = {
 				add_building_construction = {
 					type = naval_base
 					level = 1
@@ -1865,7 +1865,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = -50
 			add_stability = 0.05
-			870 = {
+			924 = {
 				add_building_construction = {
 					type = naval_base
 					level = 1
@@ -2139,7 +2139,7 @@ focus_tree = {
 				add_idea = IRQ_kurdish_rebels_3
 				remove_idea = IRQ_kurdish_rebels_2
 			}
-			871 = {
+			925 = {
 				add_core_of = IRQ
 				set_demilitarized_zone = no
 				add_dynamic_modifier = {
@@ -2246,7 +2246,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			870 = {
+			924 = {
 				add_building_construction = {
 					type = dockyard
 					level = 2
@@ -2313,7 +2313,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			870 = {
+			924 = {
 				add_building_construction = {
 					type = anti_air_building
 					level = 1

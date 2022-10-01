@@ -6,9 +6,6 @@ units = {
 			name = "Frota Brasileira"
 			location = 10980 # Rio de Janeiro #
 			ship = { name = "Minas Gerais" definition = carrier equipment = { carrier_hull_1 = { amount = 1 owner = BRA creator = ENG version_name = "Colossus Class" } }
-				air_wings = {
-					carrier_attacker_equipment_0 = { owner = "USA" amount = 12 }
-				}
 			}
 
 			ship = { name = "Greenhalgh" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = BRA creator = ENG version_name = "Broadsword Batch 1 Class" } } }

@@ -1,5 +1,23 @@
 ﻿capital = 64
 
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+
+	set_technology = {
+		attack_submarine_hull_1960 = 1
+		attack_submarine_hull_1980 = 1
+		attack_submarine_hull_1990 = 1
+		attack_submarine_hull_2000 = 1
+		corvette_hull_1960 = 1
+		destroyer_hull_1960 = 1
+		destroyer_hull_1980 = 1
+		destroyer_hull_1990 = 1
+		destroyer_hull_2000 = 1
+	}
+}
+
 set_research_slots = 4
 set_convoys = 200
 set_stability = 0.75 

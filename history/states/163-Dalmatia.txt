@@ -8,9 +8,11 @@ state=
 	
 	history={
 		owner = CRO
+		victory_points = { #Zara/Zadar
+			3943 5 
+		}
 		buildings = {
 			infrastructure = 3 #was: 5
-			dockyard = 1
 			3943 = {
 				naval_base = 1
 			}

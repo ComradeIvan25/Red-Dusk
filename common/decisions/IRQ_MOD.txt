@@ -2176,7 +2176,7 @@ irq_category_a_new_state = {
 		available = {
 			original_tag = IRQ
 			has_country_flag = irq_a_new_state
-			869 = {
+			908 = {
 			compliance > 35
 			}
 		}
@@ -2191,7 +2191,7 @@ irq_category_a_new_state = {
 		
 		highlight_states = {
 			highlight_state_targets = {
-				state = 869
+				state = 908
 			}
 			highlight_color_while_active = 3
 			highlight_color_before_active = 2
@@ -2203,7 +2203,7 @@ irq_category_a_new_state = {
 			factor = 0
 		}
 		remove_effect = { 
-			add_state_core = 869
+			add_state_core = 908
 		}
 	}
 	

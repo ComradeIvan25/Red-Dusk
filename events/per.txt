@@ -14,7 +14,7 @@ country_event = {
 		name = per.1.a
 		KUR = {
 		transfer_state = 676
-		transfer_state = 869
+		transfer_state = 908
 		}
 		ai_chance = {
 		factor = 55

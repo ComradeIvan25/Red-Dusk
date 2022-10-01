@@ -74,7 +74,7 @@ saf_deal_with_insurgents = {
 		weekly_manpower = -500
 		}
 		cost = 15
-		days_remove = 141
+		days_remove = 25
 		fire_only_once = no
 		ai_will_do = {
 			factor = 0

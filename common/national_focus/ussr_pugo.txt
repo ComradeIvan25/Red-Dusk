@@ -114,7 +114,7 @@
 	}
 	focus = {
 		id = SOV_let_the_purges_begin
-		icon = GFX_SOV_let_the_purge_begin
+		icon = GFX_focus_SOV_the_last_purge
 		x = 10
 		y = 3
 
@@ -510,7 +510,7 @@
 	}
 	focus = {
 		id = SOV_the_army_purge
-		icon = GFX_SOV_army_purge
+		icon = GFX_focus_SOV_military_purge
 		x = 17
 		y = 8
 

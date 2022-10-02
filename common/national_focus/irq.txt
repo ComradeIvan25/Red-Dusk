@@ -2098,7 +2098,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_economic_restructuring
-		icon = GFX_focus_IRQ_economic_restructuring
+		icon = GFX_focus_IRQ_reforms
 		x = 24
 		y = 0
 

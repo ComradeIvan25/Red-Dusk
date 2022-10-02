@@ -2978,8 +2978,8 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-    SpriteType = {
-		name = "VIN_new_vietnam"
+    	SpriteType = {
+		name = "VIN_new_vietnam_shine"
 		texturefile = "gfx/interface/goals/VIN/VIN_new_vietnam.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {

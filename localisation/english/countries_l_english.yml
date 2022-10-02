@@ -855,6 +855,8 @@
  SAU_democratic_DEF:0 "the Arabian Republic"
  SAU_neutrality:0 "Saudi Arabia"
  SAU_neutrality_DEF:0 "Saudi Arabia"
+ SAU_islamism:0 "Saudi Arabia"
+ SAU_islamism_DEF:0 "Saudi Arabia"
  SAU_communism:0 "Republic of the Arabian Assembly"
  SAU_communism_DEF:0 "the Republic of the Arabian Assembly"
  SAU_fascism_ADJ:0 "Arabian"

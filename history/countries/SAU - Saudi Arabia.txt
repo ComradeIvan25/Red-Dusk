@@ -11,13 +11,18 @@ add_ideas = usa_aligned_nation
 recruit_character = SAU_fahd
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = islamism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	democratic = 4
+	communism = 0
+	reformed_communism = 0
+	islamism = 75
+	fascism = 9
+	neutrality = 12
 }
 
 diplomatic_relation = {

@@ -6,6 +6,7 @@ sub_units = {
 		type = { fighter }
 		need = { fighter_equipment = 1 }
 		categories = { category_fighter }
+		land_air_wing_size = 20
 	}
 
 	carrier_fighter = {
@@ -15,6 +16,8 @@ sub_units = {
 		type = { fighter }
 		need = { carrier_fighter_equipment = 1 }
 		categories = { category_fighter }
+		carrier_air_wing_size = 10
+		land_air_wing_size = 20
 	}
 
 	stealth_fighter = {
@@ -24,6 +27,7 @@ sub_units = {
 		type = { fighter }
 		need = { stealth_fighter_equipment = 1 }
 		categories = { category_fighter }
+		land_air_wing_size = 20
 	}
 
 	carrier_stealth_fighter = {
@@ -33,6 +37,8 @@ sub_units = {
 		type = { fighter }
 		need = { carrier_stealth_fighter_equipment = 1 }
 		categories = { category_fighter }
+		carrier_air_wing_size = 10
+		land_air_wing_size = 20
 	}
 	
 	interceptor = {
@@ -42,6 +48,7 @@ sub_units = {
 		type = { fighter }
 		need = { interceptor_equipment = 1 }
 		categories = { category_fighter }
+		land_air_wing_size = 20
 	}
 
 	attacker = {
@@ -51,6 +58,7 @@ sub_units = {
 		type = { cas }
 		need = { attacker_equipment = 1 }
 		categories = { category_attacker }
+		land_air_wing_size = 20
 	}
 
 	carrier_attacker = {
@@ -60,6 +68,8 @@ sub_units = {
 		type = { cas }
 		need = { carrier_attacker_equipment = 1 }
 		categories = { category_attacker }
+		carrier_air_wing_size = 10
+		land_air_wing_size = 20
 	}
 	
 	strike_bomber = {
@@ -69,6 +79,7 @@ sub_units = {
 		type = { tactical_bomber }
 		need = { strike_bomber_equipment = 1 }
 		categories = { category_bomber }
+		land_air_wing_size = 10
 	}
 	
 	strategic_bomber = {
@@ -78,6 +89,7 @@ sub_units = {
 		type = { strategic_bomber }
 		need = { strategic_bomber_equipment = 1 }
 		categories = { category_bomber }
+		land_air_wing_size = 10
 	}
 
 	stealth_bomber = {
@@ -87,6 +99,7 @@ sub_units = {
 		type = { tactical_bomber }
 		need = { stealth_bomber_equipment = 1 }
 		categories = { category_bomber }
+		land_air_wing_size = 10
 	}
 	
 	transport_plane = {
@@ -95,5 +108,6 @@ sub_units = {
 		active = yes
 		type = { air_transport }
 		need = { transport_plane_equipment = 1 }
+		land_air_wing_size = 10
 	}
 }

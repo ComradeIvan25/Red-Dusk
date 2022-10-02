@@ -7,15 +7,15 @@ recruit_character = KUR_mullah_krekar
 
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = democratic
 	last_election = "1935.2.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 25
-	communism = 25
-	fascism = 25
-	islamism = 25
+	democratic = 47
+	communism = 41
+	neutrality = 9
+	islamism = 3
 }

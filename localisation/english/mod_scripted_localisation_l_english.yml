@@ -73,8 +73,11 @@
  management_of_the_uar_loc:0 "Management of United Arab Republics"
  
  IRQ_centralization_percantage_explanation:0 "Centralization Progress is [?irq_centralization_progress_variable]% complete"
+ IRQ_uar_stability_percantage_explanation:0 "United Arab Republics' overall stability is [?irq_uar_stability_variable]%"
  
  irq_saddam_tooltip_tt:0 "The wah"
+ irq_uar_stability_tt:0 "This is an estimation of stability our unified arab state has.\n\nHaving low stability will cause terrorist attacks and higher resistance."
+ irq_uar_centralization_tt:0 "With unification of arab nations that have been disunited for so long we need to centralize the new state and connect it to Baghdad"
  
  IRQ_sanctions_done:0 "§YHas 'dealt' with our economic problems§!\n"
  IRQ_kurds_done:0 "§YHas dealt with the Kurdish rebels§!\n"

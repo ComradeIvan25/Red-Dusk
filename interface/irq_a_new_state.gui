@@ -3,11 +3,11 @@ guiTypes = {
 	containerWindowType = {
 		name = "irq_a_new_state_gui_window"
 		position = { x = 0 y = 0 }
-		size = { width = 100% height= 500 }
+		size = { width = 100% height= 600 }
 		
 		instantTextBoxType = {
 			name ="management_of_the_uar"
-			position = { x = 5 y = 55 }
+			position = { x = 5 y = 0 }
 			font = "hoi_30header"
 			text = "management_of_the_uar_loc"
 			format = center
@@ -17,7 +17,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name ="centralization_percantage_in_gui"
-			position = { x = 5 y = 400 }
+			position = { x = 20 y = 477 }
 			font = "hoi_18mbs"
 			text = "IRQ_centralization_percantage_explanation"
 			format = center
@@ -25,26 +25,35 @@ guiTypes = {
 			maxWidth = 500
 		}
 		
+		instantTextBoxType = {
+			name ="uar_stability_percantage_in_gui"
+			position = { x = 35 y = 400 }
+			font = "hoi_18mbs"
+			text = "IRQ_uar_stability_percantage_explanation"
+			format = center
+			maxHeight = 0
+			maxWidth = 500
+		}
 		iconType = {
 			name ="centralization_icon"
 			spriteType = "GFX_centralization_icon"
-			position = { x=55	 y=300 } 
-			pdx_tooltip = irq_saddam_tooltip_tt
+			position = { x=55	 y=450 } 
+			pdx_tooltip = irq_uar_centralization_tt
 
 		}
 		
 		iconType = {
 			name ="uar_stability_icon"
 			spriteType = "GFX_uar_stability_icon"
-			position = { x=385	 y=300 }
-			pdx_tooltip = irq_saddam_tooltip_tt
+			position = { x=45	 y=350 }
+			pdx_tooltip = irq_uar_stability_tt
 
 		}
 		
 		iconType = {
 			name ="saddam_eagle"
 			spriteType = "GFX_saddam_eagle"
-			position = { x=155	 y=100 }
+			position = { x=155	 y=90 }
 			pdx_tooltip = irq_saddam_tooltip_tt
 
 		}

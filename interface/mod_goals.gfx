@@ -803,6 +803,14 @@ spriteTypes = {
 		name = "GFX_focus_IRQ_propaganda_machine"
 		texturefile = "gfx/interface/goals/focus_IRQ_propaganda_machine.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_dogs_of_the_west"
+		texturefile = "gfx/interface/goals/focus_IRQ_dogs_of_the_west.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_swords_of_iraq"
+		texturefile = "gfx/interface/goals/focus_IRQ_swords_of_iraq.png"
+	}
 	
    ###SAF###
 

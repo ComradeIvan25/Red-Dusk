@@ -1,0 +1,26 @@
+# frames: Frame numbers for ribbon sprite layers.
+# colors: Tint colors (R G B A) for ribbon sprite layers
+
+ribbons = {
+
+	declared_greater_iraq_ribbon = {
+		name = "DECLARED_GREATER_IRAQ_NAME"
+		description = "DECLARED_GREATER_IRAQ_DESCRIPTION"
+		quote_text = "DECLARED_GREATER_IRAQ_QUOTE"
+		frames = { 1 1 1 1 }
+		colors = {
+			{ 192.0 66.0 66.0 1.0 }
+			{ 48.0 51.0 60.0 1.0 }
+			{ 238.0 189.0 96.0 1.0 } # yellow
+			{ 211.0 181.0 128.0 1.0 }
+		}
+		debug = { declared_greater_iraq_ribbon }
+
+		happened = {
+			IRQ = {has_country_flag = irq_greater_iraq_declared}
+			original_tag = IRQ
+			has_start_date < 2000.01.02
+		}
+	}
+
+}

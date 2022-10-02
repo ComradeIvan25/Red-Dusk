@@ -436,3 +436,24 @@ country_event = {
 		news_event = {id = old_times_news.36 days = 2}
 	}
 }
+
+#A Hero’s Welcome#
+country_event = {
+	id = irq.17
+	title = irq.17.t
+	desc = irq.17.d
+	picture = GFX_report_event_IRQ_saddam
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq.17.a
+		PER = {
+			add_popularity = {
+				ideology = reformed_communism
+				popularity = -0.15
+			}
+			add_manpower = -5
+		}
+	}
+}

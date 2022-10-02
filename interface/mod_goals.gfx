@@ -1169,10 +1169,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SOV_keep_your_friend_close.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_legacy_of_warsaw_pact"
-		texturefile = "gfx/interface/goals/SOV_legacy_of_warsaw_pact.dds"
-	}
-	SpriteType = {
 		name = "GFX_SOV_let_the_games_begin"
 		texturefile = "gfx/interface/goals/SOV_let_the_games_begin.dds"
 	}
@@ -1302,7 +1298,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_SOV_unto_a_new_dawn"
-		texturefile = "gfx/interface/goals/SOV_unto_a_new_dawn.dds"
+		texturefile = "gfx/interface/goals/SOV_unto_a_new_dawn.png"
 	}
 	SpriteType = {
 		name = "GFX_SOV_war_plan_stalin"

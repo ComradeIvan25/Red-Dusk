@@ -1585,7 +1585,7 @@
 	}
 	focus = {
 		id = SOV_pugo_always_at_the_ready
-		icon = GFX_SOV_always_at_the_ready
+		icon = GFX_focus_SOV_Invincible_and_Legendary
 		x = 21
 		y = 22
 

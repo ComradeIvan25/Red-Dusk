@@ -1,6 +1,11 @@
 ﻿capital = 439
 
 #oob = "RAJ_1936"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_naval_oob = "RAJ_2000_naval_mtg"
+}
+set_air_oob = "RAJ_2000_air"
 
 if = {
 	limit = {
@@ -43,7 +48,6 @@ set_popularities = {
 # Naval Variants #
 if = {
 	limit = { has_dlc = "Man the Guns" }
-	set_naval_oob = "RAJ_2000_naval_mtg"
 
 	# Corvettes #
 	create_equipment_variant = {

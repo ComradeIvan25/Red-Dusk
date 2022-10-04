@@ -1,0 +1,6 @@
+air_wings = {
+	# Carrier Wings #
+	"INS Viraat" = {
+		carrier_fighter_equipment_2 = { owner = "ENG" amount = 12 }
+	}
+}

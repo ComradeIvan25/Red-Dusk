@@ -1,6 +1,7 @@
 ﻿capital = 291
 
 oob = "IRQ_2000"
+set_air_oob = "IRQ_2000_air"
 
 set_technology = {
 	infantry_weapons_1960 = 1

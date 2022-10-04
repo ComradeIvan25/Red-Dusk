@@ -74,7 +74,7 @@ if = {
 		#set_naval_oob = ""
 	}
 }
-
+set_air_oob = "USA_2000_air"
 set_technology = {
 	fighter_1960 = 1
 	interceptor_1960 = 1

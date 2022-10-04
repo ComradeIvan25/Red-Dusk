@@ -1,6 +1,12 @@
 ﻿capital = 16
 
 if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_naval_oob = "FRA_2000_naval_mtg"
+}
+set_air_oob = "FRA_2000_air"
+
+if = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
@@ -58,7 +64,6 @@ FRA = {
 # Naval Variants #
 if = {
 	limit = { has_dlc = "Man the Guns" }
-	set_naval_oob = "FRA_2000_naval_mtg"
 
 	# Attack Submarines #
 	create_equipment_variant = {

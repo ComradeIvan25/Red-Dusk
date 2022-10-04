@@ -1807,6 +1807,7 @@ equipment_modules = {
 			build_cost_ic = 500
 		}
 		multiply_stats = {
+			carrier_size = -1.0
 		}
 		can_convert_from = {
 			module_category = ship_carrier_ramp
@@ -1821,7 +1822,7 @@ equipment_modules = {
 			build_cost_ic = 1200
 		}
 		multiply_stats = {
-			carrier_size = -0.1
+			carrier_size = -1.0
 		}
 		can_convert_from = {
 			module_category = ship_carrier_ramp
@@ -1896,7 +1897,7 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 1500
-			carrier_size = 30
+			carrier_size = 3
 		}
 		multiply_stats = {
 			naval_speed = -0.05

@@ -1,0 +1,26 @@
+air_wings = {
+	# Carrier Wings #
+	"Ulyanovsk" = {
+		carrier_fighter_equipment_3 = { owner = "SOV" amount = 10 }
+		carrier_fighter_equipment_3 = { owner = "SOV" amount = 10 }
+		carrier_fighter_equipment_3 = { owner = "SOV" amount = 10 }
+		carrier_fighter_equipment_3 = { owner = "SOV" amount = 6 }
+	}
+	"Murmansk" = {
+		carrier_fighter_equipment_3 = { owner = "SOV" amount = 10 }
+		carrier_fighter_equipment_3 = { owner = "SOV" amount = 6 }
+	}
+	"Baku" = {
+		carrier_fighter_equipment_2 = { owner = "SOV" amount = 2 }
+		carrier_fighter_equipment_1 = { owner = "SOV" amount = 9 }
+	}
+	"Vladivostok" = {
+		carrier_fighter_equipment_3 = { owner = "SOV" amount = 10 }
+		carrier_fighter_equipment_3 = { owner = "SOV" amount = 9 }
+	}
+	"Novorossiysk" = {
+		carrier_fighter_equipment_2 = { owner = "SOV" amount = 5 }
+		carrier_fighter_equipment_1 = { owner = "SOV" amount = 10 }
+		carrier_fighter_equipment_1 = { owner = "SOV" amount = 1 }
+	}
+}

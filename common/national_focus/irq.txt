@@ -1259,7 +1259,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			871 = {
+			925 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -1297,10 +1297,19 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			swap_ideas = {
-			remove_idea = IRQ_western_embargo_2
-			add_idea = IRQ_western_embargo_3
+			if = {
+				limit = {
+					has_idea = IRQ_western_embargo_6
+				}
+				remove_ideas = IRQ_western_embargo_6
 			}
+			else_if = {
+				limit = {
+					has_idea = IRQ_western_embargo_7
+				}
+				remove_ideas = IRQ_western_embargo_7
+			}
+			custom_effect_tooltip = IRQ_tt_no_embargo_idea
 		}
 	}
 	
@@ -1371,7 +1380,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			870 = {
+			924 = {
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
@@ -2136,7 +2145,7 @@ focus_tree = {
 					amount = 2
 				}
 			}
-			871 = {
+			925 = {
 				add_resource = {
 					type = oil
 					amount = 3
@@ -2159,7 +2168,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			870 = {
+			924 = {
 				add_building_construction = {
 					type = synthetic_refinery
 					level = 1
@@ -2191,7 +2200,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			871 = {
+			925 = {
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
@@ -2240,6 +2249,10 @@ focus_tree = {
 			IRQ = {
 				add_opinion_modifier = { target = PRC modifier = IRQ_alternate_trade_partner_opinion }
 			}
+			swap_ideas = {
+				remove_idea = IRQ_western_embargo_1
+				add_idea = IRQ_western_embargo_2
+			}
 		}
 	}
 
@@ -2279,6 +2292,10 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = IRQ_western_embargo_2
+				add_idea = IRQ_western_embargo_3
+			}
 		}
 	}
 
@@ -2297,6 +2314,10 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = IRQ_western_embargo_3
+				add_idea = IRQ_western_embargo_4
+			}
 		}
 	}
 
@@ -2315,6 +2336,10 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = IRQ_western_embargo_3
+				add_idea = IRQ_western_embargo_5
+			}
 		}
 	}
 
@@ -2339,10 +2364,24 @@ focus_tree = {
 			add_political_power = 10
 			add_stability = -0.07
 			set_country_flag = IRQ_sanctions_done
-			swap_ideas = {
-				remove_idea = IRQ_western_embargo
-				add_idea = IRQ_western_embargo_2
-			}			
+			if = {
+				limit = {
+					has_idea = IRQ_western_embargo_4
+				}
+				swap_ideas = {
+					remove_idea = IRQ_western_embargo_4
+					add_idea = IRQ_western_embargo_6
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = IRQ_western_embargo_5
+				}
+				swap_ideas = {
+					remove_idea = IRQ_western_embargo_5
+					add_idea = IRQ_western_embargo_7
+				}
+			}
 		}
 	}
 
@@ -2372,7 +2411,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			870 = {
+			924 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -2446,7 +2485,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 50
-			870 = {
+			924 = {
 				add_building_construction = {
 					type = naval_base
 					level = 1
@@ -2474,7 +2513,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = -50
 			add_stability = 0.05
-			870 = {
+			924 = {
 				add_building_construction = {
 					type = naval_base
 					level = 1
@@ -2748,7 +2787,7 @@ focus_tree = {
 				add_idea = IRQ_kurdish_rebels_3
 				remove_idea = IRQ_kurdish_rebels_2
 			}
-			871 = {
+			925 = {
 				add_core_of = IRQ
 				set_demilitarized_zone = no
 				add_dynamic_modifier = {
@@ -2855,12 +2894,17 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			870 = {
+			924 = {
 				add_building_construction = {
 					type = dockyard
 					level = 2
 					instant_build = yes
 				}
+			}
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = mod_cat_corvette
 			}
 		}
 	}
@@ -2922,7 +2966,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			870 = {
+			924 = {
 				add_building_construction = {
 					type = anti_air_building
 					level = 1

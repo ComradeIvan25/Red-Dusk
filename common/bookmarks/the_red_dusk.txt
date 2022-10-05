@@ -54,7 +54,7 @@ bookmarks = {
 			history = "IRQ_NDB_DESC_LOC"
 			ideology = fascism
 			ideas = {
-				IRQ_western_embargo
+				IRQ_western_embargo_1
 				IRQ_kurdish_rebels
 				IRQ_disorganized_army
 			}

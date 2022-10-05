@@ -139,5 +139,11 @@ spriteTypes = {
 		texturefile = "gfx/texticons/influence_point_decision_blocked.dds"
 		legacy_lazy_load = no
 	}
+
+	spriteType = {
+		name = "GFX_decision_gui_kurdish_sun"
+		texturefile = "gfx/interface/decisions/decision_gui_kurdish_sun.dds"
+		legacy_lazy_load = no
+	}
 	
 }

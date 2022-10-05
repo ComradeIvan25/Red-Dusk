@@ -1,6 +1,11 @@
 ﻿capital = 500
 
 #oob = "BRA_1936"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_naval_oob = "BRA_2000_naval_mtg"
+}
+set_air_oob = "BRA_2000_air"
 
 if = {
 	limit = {
@@ -35,7 +40,6 @@ set_convoys = 40
 # Naval Variants #
 if = {
 	limit = { has_dlc = "Man the Guns" }
-	set_naval_oob = "BRA_2000_naval_mtg"
 
 	# Attack Submarines #
 	create_equipment_variant = {

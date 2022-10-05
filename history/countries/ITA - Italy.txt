@@ -1,6 +1,12 @@
 ﻿capital = 2
 
 if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_naval_oob = "ITA_2000_naval_mtg"
+}
+set_air_oob = "ITA_2000_air"
+
+if = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
@@ -48,7 +54,6 @@ set_popularities = {
 # Naval Variants #
 if = {
 	limit = { has_dlc = "Man the Guns" }
-	set_naval_oob = "ITA_2000_naval_mtg"
 
 	# Attack Submarines #
 	create_equipment_variant = {

@@ -1,0 +1,106 @@
+air_wings = {
+	# Carrier Wings #
+	"USS Theodore Roosevelt" = {
+		carrier_fighter_equipment_3 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_3 = { owner = "USA" amount = 8 }
+		carrier_fighter_equipment_2 = { owner = "USA" amount = 6 }
+		carrier_attacker_equipment_1 = { owner = "USA" amount = 10 }
+		carrier_attacker_equipment_1 = { owner = "USA" amount = 8 }
+		carrier_attacker_equipment_0 = { owner = "USA" amount = 10 }
+	}
+	"USS George Washington" = {
+		carrier_fighter_equipment_3 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_3 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_3 = { owner = "USA" amount = 4 }
+		carrier_attacker_equipment_1 = { owner = "USA" amount = 10 }
+		carrier_attacker_equipment_1 = { owner = "USA" amount = 10 }
+		carrier_attacker_equipment_1 = { owner = "USA" amount = 4 }
+		carrier_attacker_equipment_0 = { owner = "USA" amount = 10 }
+	}
+	"USS John C. Stennis" = {
+		carrier_fighter_equipment_3 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_3 = { owner = "USA" amount = 8 }
+		carrier_fighter_equipment_2 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_2 = { owner = "USA" amount = 7 }
+		carrier_attacker_equipment_1 = { owner = "USA" amount = 7 }
+		carrier_attacker_equipment_0 = { owner = "USA" amount = 10 }
+	}
+	"USS Harry S. Truman" = {
+		carrier_fighter_equipment_3 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_3 = { owner = "USA" amount = 8 }
+		carrier_fighter_equipment_2 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_2 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_2 = { owner = "USA" amount = 4 }
+		carrier_attacker_equipment_0 = { owner = "USA" amount = 10 }
+	}
+	"USS Nimitz" = {
+		carrier_fighter_equipment_2 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_2 = { owner = "USA" amount = 5 }
+		carrier_fighter_equipment_1 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_1 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_1 = { owner = "USA" amount = 4 }
+		carrier_attacker_equipment_1 = { owner = "USA" amount = 9 }
+		carrier_attacker_equipment_0 = { owner = "USA" amount = 10 }
+	}
+	"USS Dwight D. Eisenhower" = {
+		carrier_fighter_equipment_3 = { owner = "USA" amount = 8 }
+		carrier_fighter_equipment_2 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_1 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_1 = { owner = "USA" amount = 6 }
+		carrier_attacker_equipment_1 = { owner = "USA" amount = 10 }
+		carrier_attacker_equipment_1 = { owner = "USA" amount = 4 }
+		carrier_attacker_equipment_0 = { owner = "USA" amount = 10 }
+	}
+	"USS Enterprise" = {
+		carrier_fighter_equipment_4 = { owner = "USA" amount = 5 }
+		carrier_fighter_equipment_3 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_2 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_2 = { owner = "USA" amount = 8 }
+	}
+	"USS America" = {
+		carrier_fighter_equipment_2 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_2 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_2 = { owner = "USA" amount = 4 }
+		carrier_fighter_equipment_1 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_1 = { owner = "USA" amount = 10 }
+		carrier_attacker_equipment_0 = { owner = "USA" amount = 10 }
+		carrier_attacker_equipment_0 = { owner = "USA" amount = 2 }
+	}
+	"USS Carl Vinson" = {
+		carrier_fighter_equipment_3 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_3 = { owner = "USA" amount = 4 }
+		carrier_fighter_equipment_2 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_2 = { owner = "USA" amount = 8 }
+		carrier_attacker_equipment_1 = { owner = "USA" amount = 10 }
+		carrier_attacker_equipment_1 = { owner = "USA" amount = 2 }
+		carrier_attacker_equipment_0 = { owner = "USA" amount = 10 }
+	}
+	"USS Constellation" = {
+		carrier_fighter_equipment_3 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_2 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_2 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_2 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_2 = { owner = "USA" amount = 6 }
+	}
+	"USS Abraham Lincoln" = {
+		carrier_fighter_equipment_2 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_2 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_2 = { owner = "USA" amount = 4 }
+		carrier_fighter_equipment_1 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_1 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_1 = { owner = "USA" amount = 4 }
+		carrier_attacker_equipment_0 = { owner = "USA" amount = 10 }
+	}
+	"USS John F. Kennedy" = {
+		carrier_fighter_equipment_2 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_2 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_2 = { owner = "USA" amount = 4 }
+		carrier_fighter_equipment_1 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_1 = { owner = "USA" amount = 10 }
+	}
+	"USS Kitty Hawk" = {
+		carrier_fighter_equipment_1 = { owner = "USA" amount = 10 }
+		carrier_fighter_equipment_1 = { owner = "USA" amount = 9 }
+		carrier_attacker_equipment_0 = { owner = "USA" amount = 7 }
+	}
+}

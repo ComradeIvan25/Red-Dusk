@@ -65,8 +65,8 @@ technologies = {
 		}
 
 		folder = {
-			name = mtgnavalfolder
-			position = { x = 11 y = 9 }
+			name = mtgnavalsupportfolder
+			position = { x = 0 y = 0 }
 		}
 		
 		ai_will_do = {

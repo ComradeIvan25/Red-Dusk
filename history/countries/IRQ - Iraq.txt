@@ -1,6 +1,7 @@
 ﻿capital = 291
 
 oob = "IRQ_2000"
+set_air_oob = "IRQ_2000_air"
 
 set_technology = {
 	infantry_weapons_1960 = 1
@@ -48,11 +49,11 @@ set_convoys = 0
 
 add_ideas = {
 	civilian_economy
-	export_focus
+	limited_exports
 	service_by_requirement
 }
 
-add_ideas = IRQ_western_embargo
+add_ideas = IRQ_western_embargo_1
 add_ideas = IRQ_kurdish_rebels
 add_ideas = IRQ_disorganized_army
 add_ideas = IRQ_destroyed_air_force

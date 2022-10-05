@@ -50,3 +50,334 @@ defined_text = {
 	}
 }
 
+# IRQ Faction Mechanics #
+defined_text = {
+	name = IRQ_faction_kdp_popularity
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kdp_popularity_value = 0 }
+		}
+		localization_key = IRQ_loc_key_power_very_low
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kdp_popularity_value = 1 }
+		}
+		localization_key = IRQ_loc_key_power_low
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kdp_popularity_value = 2 }
+		}
+		localization_key = IRQ_loc_key_power_medium
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kdp_popularity_value = 3 }
+		}
+		localization_key = IRQ_loc_key_power_high
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kdp_popularity_value = 4 }
+		}
+		localization_key = IRQ_loc_key_power_very_high
+	}
+}
+defined_text = {
+	name = IRQ_faction_kdp_political
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kdp_political_value = 0 }
+		}
+		localization_key = IRQ_loc_key_power_very_low
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kdp_political_value = 1 }
+		}
+		localization_key = IRQ_loc_key_power_low
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kdp_political_value = 2 }
+		}
+		localization_key = IRQ_loc_key_power_medium
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kdp_political_value = 3 }
+		}
+		localization_key = IRQ_loc_key_power_high
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kdp_political_value = 4 }
+		}
+		localization_key = IRQ_loc_key_power_very_high
+	}
+}
+defined_text = {
+	name = IRQ_faction_kdp_military
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kdp_military_value = 0 }
+		}
+		localization_key = IRQ_loc_key_power_very_low
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kdp_military_value = 1 }
+		}
+		localization_key = IRQ_loc_key_power_low
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kdp_military_value = 2 }
+		}
+		localization_key = IRQ_loc_key_power_medium
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kdp_military_value = 3 }
+		}
+		localization_key = IRQ_loc_key_power_high
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kdp_military_value = 4 }
+		}
+		localization_key = IRQ_loc_key_power_very_high
+	}
+}
+defined_text = {
+	name = IRQ_faction_puk_popularity
+	text = {
+		trigger = {
+			check_variable = { irq_faction_puk_popularity_value = 0 }
+		}
+		localization_key = IRQ_loc_key_power_very_low
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_puk_popularity_value = 1 }
+		}
+		localization_key = IRQ_loc_key_power_low
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_puk_popularity_value = 2 }
+		}
+		localization_key = IRQ_loc_key_power_medium
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_puk_popularity_value = 3 }
+		}
+		localization_key = IRQ_loc_key_power_high
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_puk_popularity_value = 4 }
+		}
+		localization_key = IRQ_loc_key_power_very_high
+	}
+}
+defined_text = {
+	name = IRQ_faction_puk_political
+	text = {
+		trigger = {
+			check_variable = { irq_faction_puk_political_value = 0 }
+		}
+		localization_key = IRQ_loc_key_power_very_low
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_puk_political_value = 1 }
+		}
+		localization_key = IRQ_loc_key_power_low
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_puk_political_value = 2 }
+		}
+		localization_key = IRQ_loc_key_power_medium
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_puk_political_value = 3 }
+		}
+		localization_key = IRQ_loc_key_power_high
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_puk_political_value = 4 }
+		}
+		localization_key = IRQ_loc_key_power_very_high
+	}
+}
+defined_text = {
+	name = IRQ_faction_puk_military
+	text = {
+		trigger = {
+			check_variable = { irq_faction_puk_military_value = 0 }
+		}
+		localization_key = IRQ_loc_key_power_very_low
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_puk_military_value = 1 }
+		}
+		localization_key = IRQ_loc_key_power_low
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_puk_military_value = 2 }
+		}
+		localization_key = IRQ_loc_key_power_medium
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_puk_military_value = 3 }
+		}
+		localization_key = IRQ_loc_key_power_high
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_puk_military_value = 4 }
+		}
+		localization_key = IRQ_loc_key_power_very_high
+	}
+}
+defined_text = {
+	name = IRQ_faction_kwp_popularity
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kwp_popularity_value = 0 }
+		}
+		localization_key = IRQ_loc_key_power_very_low
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kwp_popularity_value = 1 }
+		}
+		localization_key = IRQ_loc_key_power_low
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kwp_popularity_value = 2 }
+		}
+		localization_key = IRQ_loc_key_power_medium
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kwp_popularity_value = 3 }
+		}
+		localization_key = IRQ_loc_key_power_high
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kwp_popularity_value = 4 }
+		}
+		localization_key = IRQ_loc_key_power_very_high
+	}
+}
+defined_text = {
+	name = IRQ_faction_kwp_political
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kwp_political_value = 0 }
+		}
+		localization_key = IRQ_loc_key_power_very_low
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kwp_political_value = 1 }
+		}
+		localization_key = IRQ_loc_key_power_low
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kwp_political_value = 2 }
+		}
+		localization_key = IRQ_loc_key_power_medium
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kwp_political_value = 3 }
+		}
+		localization_key = IRQ_loc_key_power_high
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kwp_political_value = 4 }
+		}
+		localization_key = IRQ_loc_key_power_very_high
+	}
+}
+defined_text = {
+	name = IRQ_faction_kwp_military
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kwp_military_value = 0 }
+		}
+		localization_key = IRQ_loc_key_power_very_low
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kwp_military_value = 1 }
+		}
+		localization_key = IRQ_loc_key_power_low
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kwp_military_value = 2 }
+		}
+		localization_key = IRQ_loc_key_power_medium
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kwp_military_value = 3 }
+		}
+		localization_key = IRQ_loc_key_power_high
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kwp_military_value = 4 }
+		}
+		localization_key = IRQ_loc_key_power_very_high
+	}
+}
+defined_text = {
+	name = IRQ_faction_unity_loc
+	text = {
+		trigger = {
+			check_variable = { irq_faction_unity_value = 0 }
+		}
+		localization_key = IRQ_loc_key_power_very_low
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_unity_value = 1 }
+		}
+		localization_key = IRQ_loc_key_power_low
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_unity_value = 2 }
+		}
+		localization_key = IRQ_loc_key_power_medium
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_unity_value = 3 }
+		}
+		localization_key = IRQ_loc_key_power_high
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_unity_value = 4 }
+		}
+		localization_key = IRQ_loc_key_power_very_high
+	}
+}

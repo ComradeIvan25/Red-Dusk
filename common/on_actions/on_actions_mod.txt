@@ -210,6 +210,106 @@ on_actions = {
 				}
 			}
 		}
+
+		## IRQ Faction Mechanics ##
+
+		effect = {
+			IRQ = {
+				set_variable = {
+					var = irq_faction_kdp_popularity_value
+					value = 3
+				}
+				clamp_variable = {
+					var = irq_faction_kdp_popularity_value
+					min = 0
+					max = 4
+				}
+				set_variable = {
+					var = irq_faction_kdp_political_value
+					value = 3
+				}
+				clamp_variable = {
+					var = irq_faction_kdp_political_value
+					min = 0
+					max = 4
+				}
+				set_variable = {
+					var = irq_faction_kdp_military_value
+					value = 4
+				}
+				clamp_variable = {
+					var = irq_faction_kdp_military_value
+					min = 0
+					max = 4
+				}
+
+				set_variable = {
+					var = irq_faction_puk_popularity_value
+					value = 3
+				}
+				clamp_variable = {
+					var = irq_faction_puk_popularity_value
+					min = 0
+					max = 4
+				}
+				set_variable = {
+					var = irq_faction_puk_political_value
+					value = 2
+				}
+				clamp_variable = {
+					var = irq_faction_puk_political_value
+					min = 0
+					max = 4
+				}
+				set_variable = {
+					var = irq_faction_puk_military_value
+					value = 3
+				}
+				clamp_variable = {
+					var = irq_faction_puk_military_value
+					min = 0
+					max = 4
+				}
+
+				set_variable = {
+					var = irq_faction_kwp_popularity_value
+					value = 1
+				}
+				clamp_variable = {
+					var = irq_faction_kwp_popularity_value
+					min = 0
+					max = 4
+				}
+				set_variable = {
+					var = irq_faction_kwp_political_value
+					value = 2
+				}
+				clamp_variable = {
+					var = irq_faction_kwp_political_value
+					min = 0
+					max = 4
+				}
+				set_variable = {
+					var = irq_faction_kwp_military_value
+					value = 3
+				}
+				clamp_variable = {
+					var = irq_faction_kwp_military_value
+					min = 0
+					max = 4
+				}
+
+				set_variable = {
+					var = irq_faction_unity_value
+					value = 2
+				}
+				clamp_variable = {
+					var = irq_faction_unity_value
+					min = 0
+					max = 4
+				}
+			}
+		}
 	}
 	
 	### SCRIPTED PEACE DEALS ###

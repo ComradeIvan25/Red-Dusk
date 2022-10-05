@@ -110,6 +110,12 @@
  
  hikmat_mizban_ibrahim:0 "§YHikmat Mizban Ibrahim§!"
 
+ IRQ_loc_key_power_very_high:0 "§RVery High§!"
+ IRQ_loc_key_power_high:0 "§OHigh§!"
+ IRQ_loc_key_power_medium:0 "§YMedium§!"
+ IRQ_loc_key_power_low:0 "§GLow§!"
+ IRQ_loc_key_power_very_low:0 "§CVery Low§!"
+
  #YUGOSLAVIA#
  
  YUG_open_new_factories_flag:0 "§YHas Choosen to open new factories\n\n§!"
@@ -354,3 +360,4 @@
  ## Custom Effect Tooltip ##
 
  IRQ_tt_rebuild_navy:0 "§YDecisions to purchase foreign ships will become available§!"
+ IRQ_tt_no_embargo_idea:0 "§YFree Trade will become available§!"

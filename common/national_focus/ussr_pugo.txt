@@ -1510,7 +1510,7 @@
 	}
 	focus = {
 		id = SOV_pugo_increase_warsaw_pact_spending
-		icon = GFX_SOV_increase_warsaw_pact_spending
+		icon = GFX_focus_SOV_ready_warsaw_pact
 		x = 20
 		y = 20
 
@@ -1534,7 +1534,7 @@
 	}
 	focus = {
 		id = SOV_pugo_increase_military_presence
-		icon = GFX_SOV_increase_military_presence
+		icon = GFX_focus_SOV_ready_set
 		x = 22
 		y = 20
 
@@ -1585,7 +1585,7 @@
 	}
 	focus = {
 		id = SOV_pugo_always_at_the_ready
-		icon = GFX_focus_SOV_Invincible_and_Legendary
+		icon = GFX_SOV_always_at_the_ready
 		x = 21
 		y = 22
 
@@ -1638,7 +1638,7 @@
 	}
 	focus = {
 		id = SOV_pugo_reinforce_mongolia
-		icon = GFX_SOV_reinforce_mongolia
+		icon = GFX_focus_SOV_aid_mongolia
 		x = 12
 		y = 24
 

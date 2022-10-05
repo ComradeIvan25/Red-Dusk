@@ -216,19 +216,19 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_prepare_Invitable"
-		texturefile = "gfx/interface/goals/focus_SOV_prepare_Invitable.png"
+		texturefile = "gfx/interface/goals/SOV_prepare_Invitable.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_stalin_war_plan"
-		texturefile = "gfx/interface/goals/focus_SOV_stalin_war_plan.png"
+		texturefile = "gfx/interface/goals/SOV_stalin_war_plan.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_legacy_of_warsaw_pact"
-		texturefile = "gfx/interface/goals/focus_SOV_legacy_of_warsaw_pact.png"
+		texturefile = "gfx/interface/goals/SOV_legacy_of_warsaw_pact.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_extreme_planning"
-		texturefile = "gfx/interface/goals/focus_SOV_extreme_planning.png"
+		texturefile = "gfx/interface/goals/SOV_extreme_planning.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_Pressure_US"
@@ -236,7 +236,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_rebirth_of_warsaw_pact"
-		texturefile = "gfx/interface/goals/focus_SOV_rebirth_of_warsaw_pact.png"
+		texturefile = "gfx/interface/goals/SOV_rebirth_of_warsaw_pact.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_super_power"
@@ -244,7 +244,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_isolate_czech"
-		texturefile = "gfx/interface/goals/focus_SOV_isolate_czech.png"
+		texturefile = "gfx/interface/goals/SOV_isolate_czech.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_not_yet"
@@ -1050,7 +1050,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_SOV_always_at_the_ready"
-		texturefile = "gfx/interface/goals/SOV_always_at_the_ready.dds"
+		texturefile = "gfx/interface/goals/SOV_always_at_the_ready.png"
 	}
 	SpriteType = {
 		name = "GFX_SOV_army_kgb_cooperating"
@@ -1162,7 +1162,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_SOV_increase_ties_with_warsaw_pact"
-		texturefile = "gfx/interface/goals/SOV_increase_ties_with_warsaw_pact.dds"
+		texturefile = "gfx/interface/goals/SOV_increase_ties_with_warsaw_pact.png"
 	}
 	SpriteType = {
 		name = "GFX_SOV_increase_warsaw_pact_spending"
@@ -1290,7 +1290,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_SOV_the_vienna_summit"
-		texturefile = "gfx/interface/goals/SOV_the_vienna_summit.dds"
+		texturefile = "gfx/interface/goals/SOV_the_vienna_summit.png"
 	}
 	SpriteType = {
 		name = "GFX_SOV_time_for_action"

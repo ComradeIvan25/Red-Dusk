@@ -75,18 +75,21 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/SOV_kgb_divided.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_SOV_army_purged"
+		name = "GFX_idea_SOV_army_purged_icon"
 		texturefile = "gfx/interface/ideas/SOV_purged_army.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_SOV_kgb_order"
+		name = "GFX_idea_SOV_kgb_order_icon"
 		texturefile = "gfx/interface/ideas/SOV_kgb_order.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_SOV_ready"
+		name = "GFX_idea_SOV_ready_icon"
 		texturefile = "gfx/interface/ideas/SOV_ready.dds"
 	}
-
+	spriteType = {
+		name = "GFX_idea_SOV_army_puppeted_icon"
+		texturefile = "gfx/interface/ideas/SOV_army_puppeted.dds"
+	}
         #EUROPE COMMON#
 	spriteType = {
 		name = "GFX_idea_GER_eu_icon"
@@ -438,6 +441,5 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_SOV_design_bureau_izhevsk_icon"
 		texturefile = "gfx/interface/ideas/designers/SOV_design_bureau_izhevsk_icon.png"
-	}
-
+	}	
 }

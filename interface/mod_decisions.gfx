@@ -102,6 +102,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_eu_economy.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_decision_build_highway"
+		texturefile = "gfx/interface/decisions/decision_build_highway.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_iraq_eagle"
+		texturefile = "gfx/interface/decisions/decision_iraq_eagle.dds"
+	}
+	
 	### text icon ###
 	
 	spriteType = {

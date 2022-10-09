@@ -72,12 +72,28 @@
  
  management_of_the_uar_loc:0 "Management of United Arab Republics"
  
- IRQ_centralization_percantage_explanation:0 "Centralization Progress is [?irq_centralization_progress_variable]% complete"
- IRQ_uar_stability_percantage_explanation:0 "United Arab Republics' overall stability is [?irq_uar_stability_variable]%"
+ irq_a_new_state:0 "A New State"
  
- irq_saddam_tooltip_tt:0 "The wah"
- irq_uar_stability_tt:0 "This is an estimation of stability our unified arab state has.\n\nHaving low stability will cause terrorist attacks and higher resistance."
- irq_uar_centralization_tt:0 "With unification of arab nations that have been disunited for so long we need to centralize the new state and connect it to Baghdad"
+ IRQ_uar_stability_percantage_explanation:0 "United Arab Republics' §5Overall Stability§! is §Y[?irq_uar_stability_variable]%§!.\n\nOur §5Stability§! changes by §Y[?irq_uar_stability_monthly_variable]%§! every month."
+ IRQ_centralization_percantage_explanation:0 "§tCentralization Progress§! is §Y[?irq_centralization_progress_variable]%§! complete.\n\nOur Monthly §tProgress§! is §Y[?irq_centralization_progress_monthly_variable]%§!."
+ 
+ irq_uar_stability_tt:0 "This is an estimation of §5stability§! our states have at the moment, this might be influenced by different events.\n\nHaving §Rlow§! §5stability§! will cause terrorist attacks and higher resistance."
+ irq_uar_centralization_tt:0 "With unification of arab nations that had been disunited for so long we need to §tcentralize§! the new state and connect the new acquired states to Baghdad, which will improve the efficiency of our governance and unity of the state."
+ 
+ irq_stability_mission_tt:0 "Our §5Overall Stability§! changes by §Y[?irq_uar_stability_monthly_variable]%§!."
+ irq_centralization_mission_tt:0 "Our §tCentralization Progress§! changes by §Y[?irq_centralization_progress_monthly_variable]%§!."
+ 
+ irq_centralization_monthly_increased_by_05:0 "Our Monthly §tCentralization Progress§! increases by §Y0.5%§!." 
+ irq_centralization_monthly_increased_by_1:0 "Our Monthly §tCentralization Progress§! increases by §Y1%§!." 
+ irq_centralization_monthly_increased_by_2:0 "Our Monthly §tCentralization Progress§! increases by §Y2%§!." 
+ 
+ irq_centralization_monthly_decreased_by_5:0 "Our Monthly §tCentralization Progress§! decreases by §Y5%§!." 
+ 
+ irq_stability_monthly_increased_by_25:0 "Our Monthly §5Overall Stability§! increases by §Y2.5%§!." 
+ irq_stability_monthly_increased_by_5:0 "Our Monthly §5Overall Stability§! increases by §Y5%§!." 
+ 
+ irq_stability_monthly_decreased_by_5:0 "Our Monthly §5Overall Stability§! decreases by §Y5%§!." 
+ irq_stability_monthly_decreased_by_75:0 "Our Monthly §5Overall Stability§! decreases by §Y7.5%§!."
  
  IRQ_sanctions_done:0 "§YHas 'dealt' with our economic problems§!\n"
  IRQ_kurds_done:0 "§YHas dealt with the Kurdish rebels§!\n"
@@ -216,7 +232,7 @@
  sov_15_influence_points_required_tooltip:0 "§YRequires At Least £influence_point_decision  §G15 Influence Points§! §YTo take This Action\n\n§!"
  
  needs_15_command_power_for_decision:0 "£command_power 15"
- needs_15_command_power_for_decision_blocked:0 "§Rcommand_power 15§!"
+ needs_15_command_power_for_decision_blocked:0 "§R£command_power 15§!"
  needs_15_command_power_for_decision_tooltip:0 "§YRequires At Least§! £command_power 15 command power §YTo take This Action\n\n§!"
  needs_25_command_power_for_decision:0 "£command_power 25"
  needs_25_command_power_for_decision_blocked:0 "§R£command_power 25§!"

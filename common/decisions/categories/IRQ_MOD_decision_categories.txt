@@ -47,7 +47,7 @@ irq_category_renewed_resistance = {
 }
 
 irq_category_a_new_state = {
-	icon = GFX_decision_category_generic_arms_trade
+	icon = GFX_decision_iraq_eagle
 	
 	allowed = {
 		original_tag = IRQ

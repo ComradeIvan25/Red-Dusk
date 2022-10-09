@@ -1,6 +1,6 @@
 ﻿capital = 271
 
-#oob = "ETH_1936"
+oob = "ETH_2000"
 
 set_convoys = 5
 
@@ -8,8 +8,20 @@ recruit_character = ETH_negasso_gidada
 recruit_character = ETH_mengistu
 
 add_ideas = ETH_soviet
+add_timed_idea = {
+idea = ETH_operation_weridwali
+days = 145
+}
 
 add_ideas = ussr_aligned_nation
+
+ETH = { set_province_controller = 8043 }
+
+set_technology = {
+	infantry_weapons_1980 = 1
+	mbt_tank_1990 = 1
+	towed_artillery_1980 = 1
+}
 
 set_politics = {
 	ruling_party = communism

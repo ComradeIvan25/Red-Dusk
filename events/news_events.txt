@@ -365,6 +365,54 @@ news_event = {
 	}
 }
 
+#UAR proclaimed
+news_event = {
+	id = old_times_news.37
+	title = old_times_news.37.t
+	desc = old_times_news.37.d
+	picture = GFX_news_proclaim_uar
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.37.a
+	}
+}
+
+#hafez al assad passes away
+news_event = {
+	id = old_times_news.38
+	title = old_times_news.38.t
+	desc = old_times_news.38.d
+	picture = GFX_news_hafez_al_assad_death
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.38.a
+	}
+}
+
+#Ethiopia launches major offensive against EPLF
+news_event = {
+	id = old_times_news.39
+	title = old_times_news.39.t
+	desc = old_times_news.39.d
+	picture = GFX_news_ethiopian_offensive
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.39.a
+	}
+}
+
 ### FLAVOUR NEWS EVENTS ###
 
 ## Concorde Trigger (HIDDEN) ##

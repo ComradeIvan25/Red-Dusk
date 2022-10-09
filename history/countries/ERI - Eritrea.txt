@@ -4,17 +4,22 @@ set_convoys = 10
 
 recruit_character = ERI_isaias_afwerki
 
+add_ideas = ERI_a_generation_of_warriors
+
 add_ideas = usa_aligned_nation
 
+ERI = { set_province_controller = 13237 }
+
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1993.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 25
-	fascism = 15
-	communism = 5
-	neutrality = 55
+	democratic = 0
+	fascism = 100
+	communism = 0
+	neutrality = 0
 }

@@ -457,3 +457,24 @@ country_event = {
 		}
 	}
 }
+
+#Baghdad-Damascus highway project#
+country_event = {
+	id = irq.18
+	title = irq.18.t
+	desc = irq.18.d
+	picture = GFX_report_event_IRQ_saddam
+	
+	is_triggered_only = yes
+	
+	#we will go as planned#
+		name = irq.18.a
+	
+	}
+	
+	#direct funds to construction efforts#
+	option = {
+		name = irq.18.a
+		#TODO: ADD AN IDEA WITH INCREASED CONSTRUCTION#
+	}
+}

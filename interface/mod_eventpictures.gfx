@@ -366,6 +366,17 @@ spriteTypes = {
 		name = "GFX_news_chemical_attack_in_damascus"
 		texturefile = "gfx/event_pictures/news_chemical_attack_in_damascus.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_news_proclaim_uar"
+		texturefile = "gfx/event_pictures/news_proclaim_uar.dds"
+	}
+	spriteType = {
+		name = "GFX_news_hafez_al_assad_death"
+		texturefile = "gfx/event_pictures/news_hafez_al_assad_death.dds"
+	}
+	spriteType = {
+		name = "GFX_news_ethiopian_offensive"
+		texturefile = "gfx/event_pictures/news_ethiopian_offensive.dds"
+	}
 	
 }

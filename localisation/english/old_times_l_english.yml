@@ -76,8 +76,6 @@
  old_times_news.32.t:0 "American-Soviet Ceasefire"
  old_times_news.32.d:0 ""
  old_times_news.32.a:0 "It's over."
-  
-
  old_times_news.33.t:0 "Saddam Proclaims Greater Iraq!"
  old_times_news.33.d:0 "After Iraq's recent military victories against Kuwait, Syria, and Iran, Saddam Hussein declared the "eternal enemies of Iraq" dead and subsequently declared the new "Greater Iraq" state in front of a crowd in Baghdad.\n\nThe new ethnostate has been denounced by both the N.A.T.O and majority of West nations, declaring the new state illegal and a clear violation of human rights under the occupation of Saddam Hussein's regime.\n\nOnly time will tell if the new state will survive with resistance groups gaining momentum and posing a serious threat in the newly occupied areas."
  old_times_news.33.a:0 "We'll see how long this lasts." 
@@ -90,6 +88,15 @@
  old_times_news.36.t:0 "Bloodbath in Damascus!"
  old_times_news.36.d:0 ""
  old_times_news.36.a:0 "..."
+ old_times_news.37.t:0 "Saddam Proclaims United Arab Republics!"
+ old_times_news.37.d:0 "After Iraq's recent military victories against Kuwait, Syria, and Iran, Saddam Hussein declared the "eternal enemies of Arabs" dead and subsequently declared the new "United Arab Republics" state in front of a crowd in Baghdad.\n\nThe newly unified arab country has been congratulated by multiple pan-arab politicians and sympathetic people from arab countries.\n\nSoviet Union leader [SOV.getleadername] congratulated Saddam Hussein "for achieving an unitary arab state free from western imperialism", hinting closer relations between both countries\n\n.While has been denounced by N.A.T.O citing "almost nonexistent freedom in the country".\n\nSaddam Hussein in a later speech denounced certain Arab countries for "keeping arab people divided and justice would be later brought to them"."
+ old_times_news.37.a:0 "Will it be successfull this time?"
+ old_times_news.38.t:0 "Hafez Al-Assad Passes Away"
+ old_times_news.38.d:0 ""
+ old_times_news.38.a:0 "Rest in Peace"
+ old_times_news.39.t:0 "Ethiopia Launches Major Offensive Against EPLF"
+ old_times_news.39.d:0 "Today the Ethiopian President Mengistu Haile Mariam has ordered the Armed Forces of Ethiopia to launch a concentrated offensive against the EPLF forces to end the 38 year old conflict.\n\nEver since the supression of anti-communist rebels with major aid from the Soviet Union in 1993 Ethiopia has contunied to launch offensives against the EPLF to regain the norther part of the country with no avail.\n\nThis new major offensive, nicknamed "Operation Weridwali" plans to end the stalemate by using all of the Army sectors' resources combined with foreign volunteers to launch an offensive on all fronts.Military strategists predict a failure of such operation would be disasterous for Ethiopian Army which would be left with dwindling morale and equipment."
+ old_times_news.39.a:0 "An end to a 38 year old conflict?"
 
 ## Flavour News Events ##
  #flavour_news.1.t:0 ##HIDDEN SCRIPTED EVENT##

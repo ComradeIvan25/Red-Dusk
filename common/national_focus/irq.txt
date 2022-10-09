@@ -1123,7 +1123,7 @@ focus_tree = {
 	
 	focus = {
 		id = IRQ_heros_of_iraq_march_ever_forward
-		icon = GFX_focus_IRQ_great_iraq 
+		icon = GFX_focus_IRQ_heroes_of_iraq_march_ever_forward 
 		x = -1
 		y = 2
 		relative_position_id = IRQ_greater_iraq
@@ -1152,7 +1152,7 @@ focus_tree = {
 	
 	focus = {
 		id = IRQ_chemical_ali_visit_to_damascus
-		icon = GFX_focus_IRQ_great_iraq 
+		icon = GFX_focus_IRQ_chemical_ali
 		x = 1
 		y = 2
 		relative_position_id = IRQ_greater_iraq
@@ -1430,13 +1430,17 @@ focus_tree = {
 			}
 			unlock_decision_category_tooltip = irq_category_a_new_state
 			set_country_flag = irq_a_new_state
-			#news_event = {id = old_times_news.33}
+			news_event = {id = old_times_news.37}
+			set_variable = {irq_uar_stability_variable = 35}
+			set_variable = {irq_centralization_progress_variable = 5}
+			set_variable = {irq_uar_stability_monthly_variable = -5}
+			set_variable = {irq_centralization_progress_monthly_variable = 2.5}
 		}
 	}
 	
 	focus = {
 		id = IRQ_give_ncri_control_in_iran
-		icon = GFX_focus_IRQ_great_iraq 
+		icon = GFX_focus_IRQ_NCRI_control 
 		x = -2
 		y = 1
 		relative_position_id = IRQ_proclaim_uar
@@ -1510,7 +1514,7 @@ focus_tree = {
 	
 	focus = {
 		id = IRQ_unified_arab_dinar
-		icon = GFX_focus_IRQ_great_iraq 
+		icon = GFX_focus_IRQ_united_arab_dinar 
 		x = 2
 		y = 1
 		relative_position_id = IRQ_proclaim_uar

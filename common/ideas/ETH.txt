@@ -21,5 +21,25 @@ ideas = {
 				army_core_attack_factor = 0.05
 			}
 		}
+		
+		ETH_operation_weridwali = {
+			name = ETH_operation_weridwali_name
+
+			removal_cost = -1
+
+			picture = ETH_operation_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = 0.15
+				political_power_gain = -0.25
+				supply_consumption_factor = 0.50	
+				army_attack_factor = 0.15
+				
+			}
+		}
 	}
 }

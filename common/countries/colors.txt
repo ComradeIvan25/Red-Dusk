@@ -918,3 +918,7 @@ CMR = {
 	color = rgb { 175  140  107 }
 	color_ui = rgb { 175  140  107 }
 }
+ETV = {
+	color = rgb { 188  139  113 }
+	color_ui = rgb { 200  139  113 }
+}

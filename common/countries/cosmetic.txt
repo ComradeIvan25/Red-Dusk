@@ -216,6 +216,11 @@ SYR_iran_puppet = {
 	color_ui = rgb { 56 104 70 }
 }
 
+SYR_uar_cosmetic = {
+	color = rgb { 114 82 82 }
+	color_ui = rgb { 143 130 30 }
+}
+
 YUG_greater_serbia_cosmetic = {
 	color = rgb { 57 59 99 }
 	color_ui = rgb { 44 45 76 }

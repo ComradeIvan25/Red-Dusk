@@ -1,15 +1,5 @@
 on_actions = {
 	
-	on_monthly_SOV = {
-		effect = {
-			if = {
-				limit = {
-					has_country_flag = sov_new_pere_time
-				}
-				add_to_variable = { sov_gorby_modernization_status = sov_gorby_modernization_monthly }
-			}
-		}
-	}
 	
 	on_startup =  {
 
@@ -48,6 +38,12 @@ on_actions = {
 		effect = {
 			VIN = {	
 				country_event = {id = vin_intro.1}	
+			}
+		}
+		
+		effect = {
+			ETH = {
+			news_event = {id = old_times_news.39 days = 1}
 			}
 		}
 
@@ -417,6 +413,31 @@ on_actions = {
 						}
 					}
 					
+					## IRAQ VS SYRIA - SYRIA WINS OVER IRAQ ##
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = SYR
+							}
+							ROOT = {
+								original_tag = IRQ
+							}
+						}
+						
+						SYR = {
+							white_peace = ROOT
+
+						}
+						
+						SYR = {
+							annex_country = {
+							target = IRQ
+							transfer_troops = no
+							}
+							set_cosmetic_tag = SYR_uar_cosmetic
+						}
+					}
+					
 					## IRAQ VS IRAN - IRAQ WINS OVER IRAN ##
 					if = {   
 						limit = {
@@ -472,7 +493,7 @@ on_actions = {
 						
 						IRQ = {
 							set_cosmetic_tag = IRQ_iran_puppet
-							load_focus_tree = generic
+							load_focus_tree = generic_focus
 						}
 						
 						SYR = {
@@ -492,7 +513,7 @@ on_actions = {
 						
 
 					}
-					IRQ_iran_puppet_cosmetic
+					
 					## IRAQ VS JORDAN - IRAQ WINS OVER JORDAN ##
 					if = {   
 						limit = {
@@ -2883,3 +2904,5 @@ on_actions = {
 		}
 
 	}
+	
+}

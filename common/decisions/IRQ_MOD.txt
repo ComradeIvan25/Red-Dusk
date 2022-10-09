@@ -1733,10 +1733,42 @@ irq_category_renewed_resistance = {
 }
 
 irq_category_a_new_state = {
+		
+	IRQ_pan_arab_30_day_report = {
+		activation = {
+			has_country_flag = irq_a_new_state
+
+		}
+		available = {
+			always = no
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+		}
+		cancel_trigger = {
+		}
+		icon = GFX_decision_generic_decision     
+		is_good = yes
+		
+		days_mission_timeout = 30
+		selectable_mission = no
+		priority = 30
+		complete_effect = {
+		}
+		timeout_effect = {
+			add_to_variable = {irq_uar_stability_variable = irq_uar_stability_monthly_variable}
+			custom_effect_tooltip = irq_stability_mission_tt
+			add_to_variable = {irq_centralization_progress_variable = irq_centralization_progress_monthly_variable }
+			custom_effect_tooltip = irq_centralization_mission_tt
+			activate_mission = IRQ_pan_arab_30_day_report
+		}
+	}
+	
 	
 	IRQ_pan_arab_social_programs = {
 
-		icon = GFX_decision_infiltrate_state
+		icon = GFX_decision_generic_political_discourse
 
 		allowed = {
 			original_tag = IRQ
@@ -1749,24 +1781,127 @@ irq_category_a_new_state = {
 			original_tag = IRQ
 			has_country_flag = irq_a_new_state
 		}
-		days_remove = 35
+		days_remove = 15
 		modifier {
 		compliance_gain = 0.10
 		}
 		
-		cost = 25
+		cost = 50
 		fire_only_once = yes
 		ai_will_do = {
 			factor = 0
 		}
-		remove_effect = { 
+		remove_effect = {
+			add_to_variable = {irq_uar_stability_monthly_variable = 2.5}
+			custom_effect_tooltip = irq_stability_monthly_increased_by_25
 		}
 	}
 	
-		
-	IRQ_pan_arab_testing = {
+	IRQ_pan_arab_baghdad_damascus_highway_project = {
 
-		icon = GFX_decision_infiltrate_state
+		icon = GFX_decision_build_highway
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+		}
+		days_remove = 7
+		modifier {
+		production_speed_buildings_factor = -0.1 
+		}
+		
+		cost = 50
+		custom_cost_trigger = {
+			command_power > 34
+		}
+		custom_cost_text = needs_35_command_power_for_decision
+		
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			activate_mission = IRQ_pan_arab_baghdad_damascus_highway_project_mission
+			set_country_flag = irq_baghdad_damascus_started
+			country_event = {id = irq.18}
+			
+			hidden_effect = {
+			add_command_power = -35
+			}
+		}
+	}
+	
+	IRQ_pan_arab_baghdad_damascus_highway_project_mission = {
+		activation = {
+			has_country_flag = irq_baghdad_damascus_started
+
+		}
+		available = {
+			has_railway_connection = {
+				start_province = 2097
+				target_province = 4111
+			}
+			
+			has_railway_level = {
+					state = 291
+					level = 5
+			}
+
+			has_railway_level = {
+					state = 676
+					level = 5
+			}
+			
+			has_railway_level = {
+					state = 680
+					level = 5
+			}
+			
+			has_railway_level = {
+					state = 554
+					level = 5
+			}
+
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_country_flag = irq_baghdad_damascus_started
+			NOT = {has_country_flag = irq_baghdad_damascus_finished_or_failed}
+		}
+		cancel_trigger = {
+		}
+		icon = GFX_decision_generic_decision     
+		is_good = yes
+		priority = 15
+		days_mission_timeout = 30
+		selectable_mission = no
+		
+		complete_effect = {
+			add_to_variable = {irq_centralization_progress_monthly_variable = -5}
+			custom_effect_tooltip = irq_centralization_monthly_decreased_by_5
+			add_to_variable = {irq_uar_stability_monthly_variable = 7.5}
+			custom_effect_tooltip = irq_stability_monthly_decreased_by_75
+			set_country_flag = irq_baghdad_damascus_finished_or_failed
+		}
+		timeout_effect = {
+			add_to_variable = {irq_centralization_progress_monthly_variable = 2}
+			custom_effect_tooltip = irq_centralization_monthly_increased_by_2
+			add_stability = 0.05
+			set_country_flag = irq_baghdad_damascus_finished_or_failed
+		}
+	}
+	
+	IRQ_pan_arab_divert_resources_to_centralization_efforts = {
+
+		icon = GFX_decision_generic_industry
 
 		allowed = {
 			original_tag = IRQ
@@ -1780,24 +1915,35 @@ irq_category_a_new_state = {
 			original_tag = IRQ
 			has_country_flag = irq_a_new_state
 		}
-		days_remove = 0
+		days_remove = 30
 		modifier {
-		compliance_gain = 0.10
+		political_power_cost = 0.5
 		}
 		
-		cost = 0
+		custom_cost_trigger = {
+			command_power > 24
+		}
+		custom_cost_text = needs_25_command_power_for_decision
+		cost = 25
+		
 		fire_only_once = no
 		ai_will_do = {
 			factor = 0
 		}
 		complete_effect = { 
 		add_to_variable = {irq_centralization_progress_variable = 1} 
+		custom_effect_tooltip = irq_centralization_monthly_increased_by_1
+		add_to_variable = {irq_uar_stability_monthly_variable = -5} 	
+		custom_effect_tooltip = irq_stability_monthly_decreased_by_5
+			hidden_effect = {
+			add_command_power = -25
+			}
 		}
 	}
 	
 	IRQ_pan_arab_modify_the_constitution = {
 
-		icon = GFX_decision_infiltrate_state
+		icon = GFX_decision_eng_trade_unions_demand
 
 		allowed = {
 			original_tag = IRQ
@@ -1822,6 +1968,11 @@ irq_category_a_new_state = {
 		ai_will_do = {
 			factor = 0
 		}
+		complete_effect = {
+		add_to_variable = {irq_uar_stability_monthly_variable = 5} 	
+		custom_effect_tooltip = irq_stability_monthly_increased_by_5
+		
+		}
 		remove_effect = { 
 		add_political_power = -100
 		}
@@ -1829,7 +1980,7 @@ irq_category_a_new_state = {
 	
 	IRQ_pan_arab_anti_terrorist_operations = {
 
-		icon = GFX_decision_infiltrate_state
+		icon = GFX_decision_broken_tank
 
 		allowed = {
 			original_tag = IRQ
@@ -1849,12 +2000,21 @@ irq_category_a_new_state = {
 		}
 		
 		cost = 25
+		custom_cost_trigger = {
+			command_power > 14
+		}
+		custom_cost_text = needs_15_command_power_for_decision
+		
 		fire_only_once = yes
 		ai_will_do = {
 			factor = 0
 		}
 		remove_effect = { 
-		
+		add_to_variable = {irq_uar_stability_monthly_variable = 2.5} 	
+		custom_effect_tooltip = irq_stability_monthly_increased_by_25
+			hidden_effect = {
+			add_command_power = -15
+			}
 		}
 	}
 	

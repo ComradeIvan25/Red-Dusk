@@ -86,7 +86,6 @@ guiTypes = {
 			name ="saddam_eagle"
 			spriteType = "GFX_saddam_eagle"
 			position = { x=155	 y=90 }
-			pdx_tooltip = irq_saddam_tooltip_tt
 
 		}
 

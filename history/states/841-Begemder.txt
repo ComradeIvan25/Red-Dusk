@@ -1,7 +1,7 @@
 state = {
 	id = 841 # Begemder
 	name = "STATE_841"
-	manpower = 1100000
+	manpower = 1700000
 	resources = {
 	}
 	
@@ -9,7 +9,8 @@ state = {
 
 	history = {
 		buildings = {
-			# infrastructure = 1
+			infrastructure = 2
+			arms_factory = 2
 		}
 		
 		victory_points = { 

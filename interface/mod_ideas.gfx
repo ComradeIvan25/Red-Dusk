@@ -349,6 +349,16 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_idea_ETH_operation_icon"
+		texturefile = "gfx/interface/ideas/ETH_operation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ERI_warrior_generation_icon"
+		texturefile = "gfx/interface/ideas/ERI_warrior_generation.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_idea_cold_war_icon"
 		texturefile = "gfx/interface/ideas/cold_war.png"
 	}

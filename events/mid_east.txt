@@ -1,4 +1,5 @@
 add_namespace = palisr
+add_namespace = syria
 
 #Camp David Summmit fails#
 country_event = {
@@ -59,5 +60,28 @@ country_event = {
 		ai_chance = {
 		factor = 100
 		}
+	}
+}
+
+#hafez al assad passes away#
+country_event = {
+	id = syria.1
+	title = syria.1.t
+	desc = syria.1.d
+	picture = GFX_report_event_spark
+	
+	trigger = {
+	date > 2000.6.10
+	original_tag = SYR
+
+	}
+
+	fire_only_once = yes
+
+		#rip#
+	option = {
+		name = syria.1.a
+		news_event = {id = old_times_news.38}
+		retire_country_leader = yes
 	}
 }

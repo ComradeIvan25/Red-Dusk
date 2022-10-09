@@ -170,7 +170,11 @@
  
  irq_category_a_new_state:0 "A New State"
  irq_category_a_new_state_desc:0 ""
- IRQ_pan_arab_social_programs:0 "Social Programs"
+ IRQ_pan_arab_30_day_report:0 "30 Day Report"
+ IRQ_pan_arab_social_programs:0 "Expand the Social Programs"
+ IRQ_pan_arab_baghdad_damascus_highway_project:0 "Baghdad-Damascus highway project"
+ IRQ_pan_arab_baghdad_damascus_highway_project_mission:0 "Finishing the Baghdad-Damascus highway project"
+ IRQ_pan_arab_divert_resources_to_centralization_efforts:0 "Divert Resources to Centralization Efforts"
  IRQ_pan_arab_modify_the_constitution:0 "Modify the Constitution"
  IRQ_pan_arab_modify_the_constitution_desc:0 "We will modify the constitution with the help of other like minded intellectuals to fit better with our unified pan-arab state while still ensuring total loyalty."
  IRQ_pan_arab_anti_terrorist_operations:0 "Anti Terrorists Operations"

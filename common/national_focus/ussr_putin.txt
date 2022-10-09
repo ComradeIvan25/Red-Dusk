@@ -893,7 +893,7 @@
 
 	focus = {
 		id = SOV_put_bread
-		icon = GFX_focus_SOV_marshal_yazov
+		icon = GFX_focus_SOV_breadbasket
 		x = 18
 		y = 3
 		prerequisite = {focus = SOV_put_resource}  

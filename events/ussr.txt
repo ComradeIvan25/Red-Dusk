@@ -872,6 +872,27 @@ country_event = {
 
 ### PUGO ###
 
+#Get it done Vladimir#
+country_event = {
+	id = ussr.37
+	title = ussr.37.t
+	desc = ussr.37.d
+	picture = GFX_report_event_gorby_diplo
+	
+	is_triggered_only = yes
+	
+	
+    #bruh#
+	option = {
+		name = ussr.37.a
+			add_stability = 0.05
+			add_political_power = 15
+			custom_effect_tooltip = soviet_purge_tooltip
+			hidden_effect = { unlock_decision_category_tooltip = sov_purging }
+	}
+
+}
+
 #Hear no evil#
 country_event = {
 	id = ussr.35

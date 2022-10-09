@@ -604,8 +604,8 @@ ideas = {
 			modifier = {
 				army_org_factor = -0.15
 				max_dig_in_factor = -0.2
-				supply_consumption_factor = 0.2
-				land_doctrine_cost_factor = 0.4
+				supply_consumption_factor = 0.4
+				land_doctrine_cost_factor = 0.5
 			}
 
 		}
@@ -626,6 +626,27 @@ ideas = {
 				stability_factor = 0.1
 				political_power_factor = 0.15
 				communism_drift = 0.1
+			}
+
+		}
+
+		SOV_pugo_puppet_army = {
+
+			name = SOV_pugo_army_puppet_name
+
+			removal_cost = -1
+
+			picture = SOV_army_puppeted_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = -0.15
+				political_power_factor = -0.30
+				army_org_factor = 0.1
 			}
 
 		}

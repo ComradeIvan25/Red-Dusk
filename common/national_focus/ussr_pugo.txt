@@ -354,7 +354,7 @@
 	}
 	focus = {
 		id = SOV_army_kgb_cooperation
-		icon = GFX_SOV_army_kgb_cooperating
+		icon = GFX_SOV_keep_your_friend_close
 		x = 13
 		y = 7
 
@@ -458,7 +458,7 @@
 	}
 	focus = {
 		id = SOV_hear_no_evil
-		icon = GFX_SOV_hear_no_evil
+		icon = GFX_SOV_keep_your_friend_close
 		x = 16
 		y = 7
 
@@ -600,7 +600,7 @@
 	
 	focus = {
 		id = SOV_pugo_army
-		icon = GFX_SOV_the_military_question
+		icon = GFX_focus_SOV_army_might
 		x = 11
 		y = 10
 

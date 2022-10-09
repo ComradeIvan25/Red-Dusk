@@ -933,10 +933,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_focus_SOV_Military_Reinassence_shine"
-		texturefile = "gfx/interface/goals/focus_SOV_Military_Reinassence.png"
+		texturefile = "gfx/interface/goals/SOV_Military_Reinassence.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_SOV_Military_Reinassence.png"
+			animationmaskfile = "gfx/interface/goals/SOV_Military_Reinassence.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.png" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -949,7 +949,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_SOV_Military_Reinassence.png"
+			animationmaskfile = "gfx/interface/goals/SOV_Military_Reinassence.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)

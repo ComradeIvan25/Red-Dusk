@@ -128,11 +128,11 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_Military_Reinassence"
-		texturefile = "gfx/interface/goals/focus_SOV_Military_Reinassence.png"
+		texturefile = "gfx/interface/goals/SOV_Military_Reinassence.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_army_first"
-		texturefile = "gfx/interface/goals/focus_SOV_army_first.png"
+		texturefile = "gfx/interface/goals/SOV_army_first.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_expand_supply"
@@ -144,7 +144,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_military_cities"
-		texturefile = "gfx/interface/goals/focus_SOV_military_cities.png"
+		texturefile = "gfx/interface/goals/SOV_military_cities.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_reform_the_CPSU"
@@ -156,7 +156,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_old_tatic"
-		texturefile = "gfx/interface/goals/focus_SOV_old_tatic.png"
+		texturefile = "gfx/interface/goals/SOV_old_tatic.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_Ustinov_Legacy"
@@ -252,7 +252,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_blockade_sweden"
-		texturefile = "gfx/interface/goals/focus_SOV_blockade_sweden.png"
+		texturefile = "gfx/interface/goals/SOV_blockade_sweden.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_Da_Molotoff"
@@ -1246,7 +1246,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_SOV_question_of_the_army"
-		texturefile = "gfx/interface/goals/SOV_question_of_the_army.dds"
+		texturefile = "gfx/interface/goals/SOV_the_military_question.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_reinforce_mongolia"
@@ -1271,10 +1271,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_SOV_the_main_show"
 		texturefile = "gfx/interface/goals/SOV_the_main_show.dds"
-	}
-	SpriteType = {
-		name = "GFX_SOV_the_military_question"
-		texturefile = "gfx/interface/goals/SOV_the_military_question.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_the_red_dragon_in_the_east"

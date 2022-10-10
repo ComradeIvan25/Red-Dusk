@@ -4,6 +4,14 @@ music_station = "SUCMP"
 
 
 music = {
+	song = "A_Song_About_Yuri_Gagarin"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
 	song = "American_Idiot"
 	chance = {
 		modifier = {
@@ -56,6 +64,14 @@ music = {
 	chance = {
 		modifier = {
 			factor =1
+		}
+	}
+}
+music = {
+	song = "Boulevard_Of_Broken_Dreams"
+	chance = {
+		modifier = {
+			factor = 1
 		}
 	}
 }
@@ -141,6 +157,14 @@ music = {
 }
 music = {
 	song = "Highwayman"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "In_The_Room_Where_You_Sleep"
 	chance = {
 		modifier = {
 			factor = 1
@@ -379,6 +403,14 @@ music = {
 	}
 }
 music = {
+	song = "Wake_Me_Up_When_September_Ends"
+	chance = [
+		modifier = {
+			factor = 1
+		}
+	]
+}
+music = {
 	song = "What_You_Wont_Do_For_Love"
 	chance = [
 		modifier = {
@@ -386,6 +418,13 @@ music = {
 		}
 	]
 }
-
+music = {
+	song = "Where_Is The_Love"
+	chance = [
+		modifier = {
+			factor = 1
+		}
+	]
+}
 
 ######NEW IN 1.2######

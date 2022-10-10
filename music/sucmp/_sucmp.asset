@@ -2,7 +2,11 @@
 
 
  SUCMP:
-music = {
+ music = {
+	name = "A_Song_About_Yuri_Gagarin"
+	file = "A_Song_About_Yuri_Gagarin.ogg"
+ }
+ music = {
 	name = "American_Idiot"
 	file = "American_Idiot.ogg"
 }
@@ -31,6 +35,10 @@ music = {
 	file = "Black_Hole_Sun.ogg"
 }
 music = {
+	name = "Boulevard_Of_Broken_Dreams"
+	file = "Boulevard_Of_Broken_Dreams.ogg"
+}
+music = {
 	name = "Campaign_Brief"
 	file = "Campaign_Brief.ogg"
 }
@@ -45,6 +53,10 @@ music = {
 music = {
 	name = "Defcon_3"
 	file = "Defcon_3.ogg"
+}
+music = {
+	name = "Drops_Of_Jupiter"
+	file = "Drops_Of_Jupiter.ogg"
 }
 music = {
 	name = "Enjoy_The_Silence"
@@ -73,6 +85,10 @@ music = {
 music = {
 	name = "Highwayman"
 	file = "Highwayman.ogg"
+}
+music = {
+	name = "In_The_Room_Where_You_Sleep"
+	file = "In_The_Room_Where_You_Sleep.ogg"
 }
 music = {
 	name = "Internationale"
@@ -151,6 +167,10 @@ music = {
 	file = "Seven_Nation_Army.ogg"
 }
 music = {
+	name = "Short_Change_Hero"
+	file = "Short_Change_Hero.ogg"
+}
+music = {
 	name = "shotgun"
 	file = "Shotgun.ogg"
 }
@@ -183,8 +203,20 @@ music = {
 	file = "Swallowing_Dust.ogg"
 }
 music = {
+	name = "The_Battle_Is_Going_Again!"
+	file = "The_Battle_Is_Going_Again!.ogg"
+}
+music = {
+	name = "The_Downeaster_Alexa"
+	file = "The_Downeaster_Alexa.ogg"
+}
+music = {
 	name = "The_Internationale_2000-Maxx_Klaxon"
 	file = "The_Internationale_2000-Maxx_Klaxon.ogg"
+}
+music = {
+	name = "The_Road_Runs_Far_(There_Is_A_Lot_Of_Fun_Ahead)"
+	file = "The_Road_Runs_Far_(There_Is_A_Lot_Of_Fun_Ahead).ogg"
 }
 music = {
 	name = "Tie_A_Yellow_River_Round_The_Ole_Oak_Tree"
@@ -199,10 +231,18 @@ music = {
 	file = "Voices.ogg"
 }
 music = {
+	name = "Wake_Me_Up_When_September_Ends"
+	file = "Wake_Me_Up_When_September_Ends.ogg"
+}
+music = {
 	name = "Warsaw_Pact"
 	file = "Warsaw_Pact.ogg"
 }
 music = {
 	name = "What_You_Won't_Do_For_Love"
 	file = "What_You_Won't_Do_for_Love.ogg"
+}
+music = {
+	name = "Where_Is_The_Love"
+	file = "Where_Is_The_Love.ogg"
 }

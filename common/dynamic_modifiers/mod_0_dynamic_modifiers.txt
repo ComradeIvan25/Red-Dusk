@@ -62,8 +62,7 @@ IRQ_kurdish_autonomy = {
 
 IRQ_the_propaganda_machine_modifier = {
 	enable = { always = yes }
-	
-	icon = GFX_idea_cold_war_icon
+
 	
 	drift_defence_factor = irq_propaganda_effect_political_var
 	political_power_factor = irq_propaganda_effect_political_var
@@ -78,7 +77,6 @@ IRQ_the_propaganda_machine_modifier = {
 IRQ_the_propaganda_machine_costs_modifier = {
 	enable = { always = yes }
 	
-	icon = GFX_idea_cold_war_icon
 	
 	industrial_capacity_factory = irq_propaganda_effect_costs_var
 	consumer_goods_factor = irq_propaganda_effect_costs_consumer_goods_var

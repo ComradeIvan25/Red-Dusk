@@ -2,6 +2,8 @@
 
 set_convoys = 10
 
+#oob = "ERI_2000"
+
 recruit_character = ERI_isaias_afwerki
 
 add_ideas = ERI_a_generation_of_warriors
@@ -9,6 +11,11 @@ add_ideas = ERI_a_generation_of_warriors
 add_ideas = usa_aligned_nation
 
 ERI = { set_province_controller = 13237 }
+
+set_technology = {
+	infantry_weapons_1980 = 1
+	mbt_tank_1990 = 1
+}
 
 set_politics = {
 	ruling_party = fascism

@@ -1,7 +1,5 @@
 ﻿capital = 295
 
-oob = "COG_2000"
-
 set_convoys = 5
 
 recruit_character = COG_laurent

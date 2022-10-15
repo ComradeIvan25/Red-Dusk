@@ -851,6 +851,10 @@ spriteTypes = {
 		name = "GFX_focus_IRQ_united_arab_dinar"
 		texturefile = "gfx/interface/goals/focus_IRQ_united_arab_dinar.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_saddam_cult"
+		texturefile = "gfx/interface/goals/focus_IRQ_saddam_cult.png"
+	}
 	
    ###SAF###
 

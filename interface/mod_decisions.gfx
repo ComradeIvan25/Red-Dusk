@@ -29,6 +29,10 @@ spriteTypes = {
 		name = "GFX_decision_cat_iraq_rebuild_navy"
 		texturefile = "gfx/interface/decisions/decision_cat_picture_iraq_rebuild_navy.dds"
 	}
+	spriteType = {
+		name = "GFX_decision_cat_iraq_photo"
+		texturefile = "gfx/interface/decisions/decision_cat_iraq_photo.dds"
+	}
 	
 	### decision icon stuff ###
 	
@@ -110,6 +114,36 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_decision_iraq_eagle"
 		texturefile = "gfx/interface/decisions/decision_iraq_eagle.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_burning_flag"
+		texturefile = "gfx/interface/decisions/decision_burning_flag.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_skull_with_isral_flag"
+		texturefile = "gfx/interface/decisions/decision_skull_with_isral_flag.dds"
+	}
+	
+	spriteType = {
+	name = "GFX_decision_soldiers_carrying_iraq_flag"
+		texturefile = "gfx/interface/decisions/decision_soldiers_carrying_iraq_flag.dds"
+	}
+	
+	spriteType = {
+	name = "GFX_decision_for_a_pan_arab_country"
+		texturefile = "gfx/interface/decisions/decision_for_a_pan_arab_country.dds"
+	}
+	
+	spriteType = {
+	name = "GFX_decision_iraq_map_with_flag"
+		texturefile = "gfx/interface/decisions/decision_iraq_map_with_flag.dds"
+	}
+	
+	spriteType = {
+	name = "GFX_decision_cat_iraq_propaganda"
+		texturefile = "gfx/interface/decisions/decision_cat_iraq_propaganda.dds"
 	}
 	
 	### text icon ###

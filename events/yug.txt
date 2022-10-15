@@ -824,7 +824,7 @@ news_event = {
 	option = {
 	name = yug_news.1.a
 		trigger = {
-			tag = yug
+			original_tag = YUG
 		}
 		
 	}
@@ -833,7 +833,7 @@ news_event = {
 	option = {
 	name = yug_news.1.b
 		trigger = {
-			NOT = { tag = yug }
+			NOT = { original_tag = YUG }
 		}
 	}
 	

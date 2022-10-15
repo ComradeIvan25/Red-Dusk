@@ -1,10 +1,10 @@
-add_namespace = ethiopia
+add_namespace = ethiopia_mod
 
 #Operation Weridwali fails#
 country_event = {
-	id = ethiopia.1
-	title = ethiopia.1.t
-	desc = ethiopia.1.d
+	id = ethiopia_mod.1
+	title = ethiopia_mod.1.t
+	desc = ethiopia_mod.1.d
 	picture = GFX_report_event_spark
 	
 	trigger = {
@@ -17,10 +17,10 @@ country_event = {
 
 		#bruh#
 	option = {
-		name = ethiopia.1.a
+		name = ethiopia_mod.1.a
 		add_stability = -0.30
 		add_war_support = -0.50
-		country_event = {id = ethiopia.2}
+		country_event = {id = ethiopia_mod.2}
 		ai_chance = {
 		factor = 100
 		}
@@ -29,16 +29,16 @@ country_event = {
 
 #Civil war#
 country_event = {
-	id = ethiopia.2
-	title = ethiopia.2.t
-	desc = ethiopia.2.d
+	id = ethiopia_mod.2
+	title = ethiopia_mod.2.t
+	desc = ethiopia_mod.2.d
 	picture = GFX_report_event_spark
 	
 	is_triggered_only = yes
 
 		#bruh#
 	option = {
-		name = ethiopia.2.a
+		name = ethiopia_mod.2.a
 		ETV = {
 		transfer_state = 839
 		add_state_core = 839

@@ -1,7 +1,5 @@
 ﻿capital = 718
 
-oob = "RCK_2000"
-
 set_convoys = 5
 
 recruit_character = RCK_Ernest_Wamba_dia_Wamba

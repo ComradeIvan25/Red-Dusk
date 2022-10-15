@@ -95,8 +95,12 @@
  old_times_news.38.d:0 ""
  old_times_news.38.a:0 "Rest in Peace"
  old_times_news.39.t:0 "Ethiopia Launches Major Offensive Against EPLF"
- old_times_news.39.d:0 "Today the Ethiopian President Mengistu Haile Mariam has ordered the Armed Forces of Ethiopia to launch a concentrated offensive against the EPLF forces to end the 38 year old conflict.\n\nEver since the supression of anti-communist rebels with major aid from the Soviet Union in 1993 Ethiopia has contunied to launch offensives against the EPLF to regain the norther part of the country with no avail.\n\nThis new major offensive, nicknamed "Operation Weridwali" plans to end the stalemate by using all of the Army sectors' resources combined with foreign volunteers to launch an offensive on all fronts.Military strategists predict a failure of such operation would be disasterous for Ethiopian Army which would be left with dwindling morale and equipment."
+ old_times_news.39.d:0 "Today the Ethiopian President Mengistu Haile Mariam has ordered the Armed Forces of Ethiopia to launch a concentrated offensive against the EPLF forces to end the 38 year old conflict.\n\nEver since the supression of anti-communist rebels with major aid from the Soviet Union in 1993 Ethiopia has continued to launch offensives against the EPLF to regain the northern part of the country with no avail.\n\nThis new major offensive, nicknamed "Operation Weridwali" plans to end the stalemate by using all of the Army sectors' resources combined with foreign volunteers to launch an offensive on all fronts.Military strategists speculate a failure of such operation would be disasterous for Ethiopian Army which would be left with dwindling morale and equipment."
  old_times_news.39.a:0 "An end to a 38 year old conflict?"
+ old_times_news.40.t:0 "EPLF Forces Defeated"
+ old_times_news.40.d:0 "After years of fighting and multiple casualties from both sides EPLF has been finally defeated by the Ethiopian Army after the succes of Operation Weridwali.\n\nEthiopia's leader Mengistu Haile Mariam has thanked the Soviet Union and Cuba for their aid in the war, and held a victory parade in the northern city of Asmara.\n\nWith their military defeat, the remaining soldiers of EPLF escaped to Sudan and Saudi Arabia to avoid getting captured by the Ethiopian authorities. What happened to the EPLF's leader Iasis Afwerki is unknown."
+ old_times_news.40.a:0 "Hopefully this will bring stability to the region"
+ old_times_news.40.b:0 "Congrulations to our Ethiopian Allies!"
 
 ## Flavour News Events ##
  #flavour_news.1.t:0 ##HIDDEN SCRIPTED EVENT##

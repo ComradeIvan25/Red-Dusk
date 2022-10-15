@@ -1,6 +1,6 @@
 ﻿capital = 933
 
-oob = "RGO_2000"
+set_oob = "RGO_2000"
 
 set_convoys = 5
 

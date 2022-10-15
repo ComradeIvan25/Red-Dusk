@@ -536,26 +536,13 @@ SOV_paths_selection = {
 		allow_achievements = yes
 	}
 }
-
-SAF_paths_selection = {
-	name = "SAF_PATH"
+USA_paths_selection = {
+	name = "USA_PATH"
 	group = "RULE_GROUP_COUNTRY_PATHS"
 	default = {
 		name = DEFAULT
 		text = "RULE_OPTION_DEFAULT"
 		desc = "RULE_OPTION_DEFAULT_AI_DESC"
-	}
-	option = {
-		name = SAF_MILITARY_PATH_CHOSEN
-		text = "SAF_MILITARY_PATH_CHOSEN"
-		desc = "SAF_MILITARY_PATH_CHOSEN_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = SAF_PARLIMENT_PATH_CHOSEN
-		text = "SAF_PARLIMENT_PATH_CHOSEN"
-		desc = "SAF_PARLIMENT_PATH_CHOSEN_DESC"
-		allow_achievements = yes
 	}
 }
 YUG_paths_selection = {
@@ -585,15 +572,50 @@ YUG_paths_selection = {
 		allow_achievements = yes
 	}
 }
-USA_paths_selection = {
-	name = "USA_PATH"
+
+IRQ_paths_selection = {
+	name = "IRQ_PATH"
 	group = "RULE_GROUP_COUNTRY_PATHS"
 	default = {
 		name = DEFAULT
 		text = "RULE_OPTION_DEFAULT"
 		desc = "RULE_OPTION_DEFAULT_AI_DESC"
 	}
+	option = {
+		name = IRQ_UAR_PATH_CHOSEN
+		text = "IRQ_UAR_PATH_CHOSEN"
+		desc = "IRQ_UAR_PATH_CHOSEN_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = IRQ_GREATER_IRAQ_PATH_CHOSEN
+		text = "IRQ_GREATER_IRAQ_PATH_CHOSEN"
+		desc = "IRQ_GREATER_IRAQ_PATH_CHOSEN_DESC"
+		allow_achievements = yes
+	}
 }
+SAF_paths_selection = {
+	name = "SAF_PATH"
+	group = "RULE_GROUP_COUNTRY_PATHS"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+	}
+	option = {
+		name = SAF_MILITARY_PATH_CHOSEN
+		text = "SAF_MILITARY_PATH_CHOSEN"
+		desc = "SAF_MILITARY_PATH_CHOSEN_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = SAF_PARLIMENT_PATH_CHOSEN
+		text = "SAF_PARLIMENT_PATH_CHOSEN"
+		desc = "SAF_PARLIMENT_PATH_CHOSEN_DESC"
+		allow_achievements = yes
+	}
+}
+
 
 
  #     #  ###       #####   #######  #######  #######  ###  #     #   #####    #####  

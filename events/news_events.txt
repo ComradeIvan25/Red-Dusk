@@ -413,6 +413,81 @@ news_event = {
 	}
 }
 
+#EPLF Defeated
+news_event = {
+	id = old_times_news.40
+	title = old_times_news.40.t
+	desc = old_times_news.40.d
+	picture = GFX_news_ethiopian_win
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.40.a
+		trigger = {
+			NOT = { 
+				OR = {
+				original_tag = SOV 
+				original_tag = CUB
+				}
+			}
+		}
+	}
+	
+	option ={
+		name = old_times_news.40.b
+		trigger = { 
+			OR = {
+				original_tag = SOV 
+				original_tag = CUB
+			}
+		}
+	}
+	
+}
+
+#Iraqi troops enters Tel Aviv
+news_event = {
+	id = old_times_news.41
+	title = old_times_news.41.t
+	desc = old_times_news.41.d
+	picture = GFX_news_iraq_soldiers_marching
+	
+	major = yes
+	
+	trigger = {
+		10 = { is_controlled_by = IRQ }
+		10 = { is_owned_by = ISR }
+		IRQ = { has_war_with = ISR }
+	
+	}
+	 
+	option ={
+		name = old_times_news.41.a
+		trigger = {
+			NOT = { 
+				OR = {
+				original_tag = SOV 
+				original_tag = CUB
+				}
+			}
+		}
+	}
+	
+	option ={
+		name = old_times_news.41.b
+		trigger = { 
+			OR = {
+				original_tag = SOV 
+				original_tag = CUB
+			}
+		}
+	}
+	
+}
+
 ### FLAVOUR NEWS EVENTS ###
 
 ## Concorde Trigger (HIDDEN) ##

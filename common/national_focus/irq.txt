@@ -85,8 +85,14 @@ focus_tree = {
 		continue_if_invalid = no
 		completion_reward = {
 		unlock_decision_category_tooltip = irq_category_propaganda_machine
-		add_dynamic_modifier = { modifier = IRQ_the_propaganda_machine_modifier }
-		add_dynamic_modifier = { modifier = IRQ_the_propaganda_machine_costs_modifier }
+			hidden_effect = {
+			add_dynamic_modifier = { modifier = IRQ_the_propaganda_machine_modifier }
+			add_dynamic_modifier = { modifier = IRQ_the_propaganda_machine_costs_modifier }
+			set_variable = {irq_propaganda_effect_efficiency_var = 5}
+			set_variable = {irq_propaganda_effect_political_var = 1}
+			set_variable = {irq_propaganda_effect_army_var = 2.5}
+			set_variable = {irq_propaganda_effect_costs_consumer_goods_var = 5}
+			}
 		}
 	}
 	
@@ -189,6 +195,13 @@ focus_tree = {
 		cost = 5
 		ai_will_do = {
 			factor = 10
+			modifier = {
+				factor = 99999
+				has_game_rule = {
+				rule = IRQ_paths_selection
+				option = IRQ_GREATER_IRAQ_PATH_CHOSEN
+				}
+			}
 		}
 
 		bypass = {
@@ -215,6 +228,13 @@ focus_tree = {
 		cost = 5
 		ai_will_do = {
 			factor = 10
+			modifier = {
+				factor = 99999
+				has_game_rule = {
+				rule = IRQ_paths_selection
+				option = IRQ_UAR_PATH_CHOSEN
+				}
+			}
 		}
 
 		bypass = {
@@ -231,7 +251,7 @@ focus_tree = {
 	
 	focus = {
 		id = IRQ_saddams_cult_of_personality
-		icon = GFX_focus_IRQ_problems
+		icon = GFX_focus_IRQ_saddam_cult
 		x = 0
 		y = 2
 

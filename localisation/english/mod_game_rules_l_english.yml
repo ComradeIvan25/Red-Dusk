@@ -25,4 +25,10 @@
  YUG_JOSKA_BROZ_PATH_CHOSEN:0 "@YUG §RJoska Broz Tito§!'s Yugoslavia"
  YUG_JOSKA_BROZ_PATH_CHOSEN_DESC:0 ""
  
+ IRQ_PATH:0 "@IRQ Iraq's Future"
+ IRQ_UAR_PATH_CHOSEN:0 "@IRQ §LSaddam§! proclaims United §gArab§! §GRepublics§!"
+ IRQ_UAR_PATH_CHOSEN_DESC:0 "After winning against Iraq's enemies, §LSaddam Hussein§! will proclaim @IRQ United §gArab§! §GRepublics§!"
+ IRQ_GREATER_IRAQ_PATH_CHOSEN:0 "@IRQ §LSaddam§! proclaims §GGreater§! §YIraq§!"
+ IRQ_GREATER_IRAQ_PATH_CHOSEN_DESC:0 "After winning against Iraq's enemies, §LSaddam Hussein§! will proclaim @IRQ §RProclaim§! §GGreater§! §YIraq§!"
+
  USA_PATH:0 "@USA 2000 Election"

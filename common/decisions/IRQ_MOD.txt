@@ -906,7 +906,7 @@ irq_category_propaganda_machine = {
 	
 	IRQ_propaganda_increase_propaganda_resources = {
 
-		icon = GFX_decision_generic_tank
+		icon = GFX_decision_hol_attract_foreign_investors
 
 		allowed = {
 			original_tag = IRQ
@@ -950,7 +950,7 @@ irq_category_propaganda_machine = {
 	
 	IRQ_propaganda_dogs_of_the_west = {
 
-		icon = GFX_decision_generic_tank
+		icon = GFX_decision_burning_flag
 
 		allowed = {
 			original_tag = IRQ
@@ -993,7 +993,7 @@ irq_category_propaganda_machine = {
 	
 	IRQ_propaganda_scum_of_the_earth = {
 
-		icon = GFX_decision_generic_tank
+		icon = GFX_decision_skull_with_isral_flag
 
 		allowed = {
 			original_tag = IRQ
@@ -1037,7 +1037,7 @@ irq_category_propaganda_machine = {
 	
 	IRQ_propaganda_swords_of_iraq = {
 
-		icon = GFX_decision_generic_tank
+		icon = GFX_decision_generic_intelligence_operation
 
 		allowed = {
 			original_tag = IRQ
@@ -1081,7 +1081,7 @@ irq_category_propaganda_machine = {
 	
 	IRQ_propaganda_future_lies_in_the_military = {
 
-		icon = GFX_decision_generic_tank
+		icon = GFX_decision_soldiers_carrying_iraq_flag
 
 		allowed = {
 			original_tag = IRQ
@@ -1126,7 +1126,7 @@ irq_category_propaganda_machine = {
 	
 	IRQ_propaganda_aid_iraqs_future = {
 
-		icon = GFX_decision_generic_tank
+		icon = GFX_decision_generic_military
 
 		allowed = {
 			original_tag = IRQ
@@ -1167,7 +1167,7 @@ irq_category_propaganda_machine = {
 	
 	IRQ_propaganda_for_a_united_arabia = {
 
-		icon = GFX_decision_generic_tank
+		icon = GFX_decision_for_a_pan_arab_country
 
 		allowed = {
 			original_tag = IRQ
@@ -1209,7 +1209,7 @@ irq_category_propaganda_machine = {
 	
 	IRQ_propaganda_saddam_iraqs_saviour = {
 
-		icon = GFX_decision_generic_tank
+		icon = GFX_decision_iraq_map_with_flag
 
 		allowed = {
 			original_tag = IRQ
@@ -1252,7 +1252,7 @@ irq_category_propaganda_machine = {
 	
 	IRQ_propaganda_saddam_an_example_for_the_youth = {
 
-		icon = GFX_decision_generic_tank
+		icon = GFX_decision_generic_political_discourse
 
 		allowed = {
 			original_tag = IRQ

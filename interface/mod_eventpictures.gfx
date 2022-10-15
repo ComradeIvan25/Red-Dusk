@@ -378,5 +378,13 @@ spriteTypes = {
 		name = "GFX_news_ethiopian_offensive"
 		texturefile = "gfx/event_pictures/news_ethiopian_offensive.dds"
 	}
+	spriteType = {
+		name = "GFX_news_ethiopian_win"
+		texturefile = "gfx/event_pictures/news_ethiopian_win.dds"
+	}
+	spriteType = {
+		name = "GFX_news_iraq_soldiers_marching"
+		texturefile = "gfx/event_pictures/news_iraq_soldiers_marching.dds"
+	}
 	
 }

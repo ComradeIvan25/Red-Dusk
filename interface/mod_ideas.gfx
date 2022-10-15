@@ -90,6 +90,12 @@ spriteTypes = {
 		name = "GFX_idea_SOV_army_puppeted_icon"
 		texturefile = "gfx/interface/ideas/SOV_army_puppeted.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_SOV_computerization_icon"
+		texturefile = "gfx/interface/ideas/SOV_computerization.dds"
+	}
+
+
         #EUROPE COMMON#
 	spriteType = {
 		name = "GFX_idea_GER_eu_icon"

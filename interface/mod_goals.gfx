@@ -558,6 +558,30 @@ spriteTypes = {
 		name = "GFX_focus_SOV_steady_as"
 		texturefile = "gfx/interface/goals/focus_SOV_steady_as_she_goes.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_SOV_breadbasket"
+		texturefile = "gfx/interface/goals/focus_SOV_breadbasket.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_invest_in_cities"
+		texturefile = "gfx/interface/goals/focus_SOV_invest_in_cities1.png"
+	}
+	SpriteType = {
+		name = "GFX_SOV_focus_kgb_knows"
+		texturefile = "gfx/interface/goals/focus_SOV_KGB_knows_best.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_fight_mil_oligarchy"
+		texturefile = "gfx/interface/goals/focus_SOV_destroy_mil_oligarchy.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_decrease_prices"
+		texturefile = "gfx/interface/goals/focus_SOV_decresse_prices.png"
+	}
+	SpriteType = {
+		name = "GFX_SOV_georgian_resources"
+		texturefile = "gfx/interface/goals/focus_SOV_georgian_ssr_resources.png"
+	}
    ###IRQ###
 	SpriteType = {
 		name = "GFX_focus_IRQ_iraq_future"

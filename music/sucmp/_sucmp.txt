@@ -3,14 +3,22 @@
 music_station = "SUCMP"
 
 
-#music = {
-#	song = "American_Idiot"
-#	chance = {
-#		modifier = {
-#			factor = 1
-#		}
-#	}
-#}
+music = {
+	song = "A_Song_About_Yuri_Gagarin"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "American_Idiot"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
 music = {
 	song = "An_Escalation"
 	chance ={
@@ -28,6 +36,14 @@ music = {
 	}
 }
 music = {
+	song = "At_The_Dangerous_Line"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
 	song = "Auferstanden_Aus_Ruinen"
 	chance = {
 		modifier = {
@@ -35,14 +51,30 @@ music = {
 		}
 	}
 }
-#music = {
-#	song = "Battle_Hymn_Of_The_Republic"
-#	chance = {
-#		modifier = {
-#			factor = 1
-#		}
-#	}
-#}
+music = {
+	song = "Battle_Hymn_Of_The_Republic"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Black_Hole_Sun"
+	chance = {
+		modifier = {
+			factor =1
+		}
+	}
+}
+music = {
+	song = "Boulevard_Of_Broken_Dreams"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
 music = {
 	song = "Campaign_Brief"
 	chance = {
@@ -84,6 +116,14 @@ music = {
 	}
 }
 music = {
+	song = "Enjoy_The_Silence"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
 	song = "Eto_Govorim_My"
 	chance = {
 		modifier = {
@@ -116,6 +156,22 @@ music = {
 	}
 }
 music = {
+	song = "Highwayman"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "In_The_Room_Where_You_Sleep"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
 	song = "Internationale"
 	chance = {
 		modifier = {
@@ -123,14 +179,14 @@ music = {
 		}
 	}
 }
-#music = {
-#	song = "Interstate_Love_Song"
-#	chance = {
-#		modifier = {
-#			factor = 1
-#		}
-#	}
-#}
+music = {
+	song = "Interstate_Love_Song"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
 music = {
 	song = "Invincible_And_Legendary"
 	chance = {
@@ -155,14 +211,22 @@ music = {
 		}
 	}
 }
-#music = {
-#	song = "Lenin_is_Young_Again" 
-#	chance = {
-#		modifier = {
-#			factor = 1
-#		}
-#	}
-#}
+music = {
+	song = "Lenin_is_Young_Again" 
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Made_In_the_USSR"
+	chance = {
+		modifier = {
+			factor =1
+		}
+	}
+}
 music = {
 	song = "Modern_Talking-Who_Will_Save_The_World"
 	chance = {
@@ -203,12 +267,12 @@ music = {
 		}
 	}
 }
-#music = {
-#	song = "Owner_Of_A_Broken_Heart_Extended"
-#	chance = {
-#		factor = 1
-#	}
-#}
+music = {
+	song = "Owner_Of_A_Broken_Heart_Extended"
+	chance = {
+		factor = 1
+	}
+}
 
 music = {
 	song = "Plan_in_Motion"
@@ -258,14 +322,22 @@ music = {
 		}
 	}
 }
-#music = {
-#	song = "Soviet_Anthem_Pop_Version"
-#	chance = {
-#		modifier = {
-#			factor = 1
-#		}
-#	}
-#}
+music = {
+	song = "Someday_Never_comes"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Soviet_Anthem_Pop_Version"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
 music = {
 	song = "Space_Forces"
 	chance = {
@@ -291,9 +363,33 @@ music = {
 	}
 }
 music = {
+	song = "The_Internationale_2000-Maxx_Klaxon"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Tie_A_Yellow_Ribbon_Round_The_Ole_Oak_Tree"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
 	song = "To_Serve_Russia"
 	chance = {
-		modifier {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Voices"
+	chance = {
+		modifier = {
 			factor = 1
 		}
 	}
@@ -306,7 +402,29 @@ music = {
 		}
 	}
 }
-
-
+music = {
+	song = "Wake_Me_Up_When_September_Ends"
+	chance = [
+		modifier = {
+			factor = 1
+		}
+	]
+}
+music = {
+	song = "What_You_Wont_Do_For_Love"
+	chance = [
+		modifier = {
+			factor = 1
+		}
+	]
+}
+music = {
+	song = "Where_Is The_Love"
+	chance = [
+		modifier = {
+			factor = 1
+		}
+	]
+}
 
 ######NEW IN 1.2######

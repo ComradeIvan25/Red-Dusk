@@ -1,11 +1,15 @@
 ##### NEED TO BE IN ALPHABETICAL ORDER#####
 
 
-# SUCMP:
-#music = {
-#	name = "American_Idiot"
-#	file = "American_Idiot.ogg"
-#}
+ SUCMP:
+ music = {
+	name = "A_Song_About_Yuri_Gagarin"
+	file = "A_Song_About_Yuri_Gagarin.ogg"
+ }
+ music = {
+	name = "American_Idiot"
+	file = "American_Idiot.ogg"
+}
 music = {
 	name = "An_Escalation"
 	file = "An_Escalation.ogg"
@@ -14,6 +18,10 @@ music = {
 	name = "Another_Life_(extended)"
 	file = "Another_life_(extended).ogg"
 }
+name = {
+	name = "At_The_Dangerous_Line"
+	file = "At_The_Dangerous_Line.ogg"
+}
 music ={
 	name = "Auferstanden_Aus_Ruinen"
 	file = "Auferstanden_Aus_Ruinen.ogg"
@@ -21,6 +29,14 @@ music ={
 music = {
 	name = "Battle_Hymn_Of_The_Republic"
 	file = "Battle_Hymn_Of_The_Republic.ogg"
+}
+music = {
+	name = "Back_Hole_Sun"
+	file = "Black_Hole_Sun.ogg"
+}
+music = {
+	name = "Boulevard_Of_Broken_Dreams"
+	file = "Boulevard_Of_Broken_Dreams.ogg"
 }
 music = {
 	name = "Campaign_Brief"
@@ -37,6 +53,14 @@ music = {
 music = {
 	name = "Defcon_3"
 	file = "Defcon_3.ogg"
+}
+music = {
+	name = "Drops_Of_Jupiter"
+	file = "Drops_Of_Jupiter.ogg"
+}
+music = {
+	name = "Enjoy_The_Silence"
+	file = "Enjoy_The_Silence.ogg"
 }
 music = {
 	name = "Eto_Govorim_My"
@@ -59,21 +83,29 @@ music = {
 	file = "Gruppa_Krovi.ogg"
 }
 music = {
+	name = "Highwayman"
+	file = "Highwayman.ogg"
+}
+music = {
+	name = "In_The_Room_Where_You_Sleep"
+	file = "In_The_Room_Where_You_Sleep.ogg"
+}
+music = {
 	name = "Internationale"
 	file = "Internationale.ogg"
 }
-#music = {
-#	name = "Interstate_Love_Song"
-#	file = "Interstate_Love_Song.ogg"
-#}
+music = {
+	name = "Interstate_Love_Song"
+	file = "Interstate_Love_Song.ogg"
+}
 music = {
 	name = "Invincible_And_Legendary"
 	file = "Invincible_And_Legendary.ogg"
 }
-#music = {
-#	name = "It's_Our_Time_Our_Turn"
-#	file = "It's_Our_Time_Our_turn.ogg"
-#}
+music = {
+	name = "It's_Our_Time_Our_Turn"
+	file = "It's_Our_Time_Our_turn.ogg"
+}
 music = {
 	name = "Karavan"
 	file = "Karavan.ogg"
@@ -82,10 +114,14 @@ music = {
 	name = "Kerber-Ratne_Igre"
 	file = "Kerber-Ratne_Igre.ogg"
 }
-#music = {
-#	name = "Lenin_Is_Young_Again"
-#	file = "Lenin_is_Young_Again.ogg"
-#}
+music = {
+	name = "Lenin_Is_Young_Again"
+	file = "Lenin_is_Young_Again.ogg"
+}
+music = {
+	name = "Made_In_the_USSR"
+	file = "Made_In_the_USSR.ogg"
+}
 music = {
 	name = "Mr._Blue_Sky"
 	file = "Mr._Blue_Sky.ogg"
@@ -131,12 +167,20 @@ music = {
 	file = "Seven_Nation_Army.ogg"
 }
 music = {
+	name = "Short_Change_Hero"
+	file = "Short_Change_Hero.ogg"
+}
+music = {
 	name = "shotgun"
 	file = "Shotgun.ogg"
 }
 music = {
 	name = "Smash_Mouth_All_Star"
 	file = "Smash_Mouth_All_Star.ogg"
+}
+music = {
+	name = "Someday_Never_Comes"
+	file = "Someday_Never_Comes.ogg"
 }
 music = {
 	name = "Soviet_Anthem_Pop_Version"
@@ -159,8 +203,36 @@ music = {
 	file = "Swallowing_Dust.ogg"
 }
 music = {
+	name = "The_Battle_Is_Going_Again!"
+	file = "The_Battle_Is_Going_Again!.ogg"
+}
+music = {
+	name = "The_Downeaster_Alexa"
+	file = "The_Downeaster_Alexa.ogg"
+}
+music = {
+	name = "The_Internationale_2000-Maxx_Klaxon"
+	file = "The_Internationale_2000-Maxx_Klaxon.ogg"
+}
+music = {
+	name = "The_Road_Runs_Far_(There_Is_A_Lot_Of_Fun_Ahead)"
+	file = "The_Road_Runs_Far_(There_Is_A_Lot_Of_Fun_Ahead).ogg"
+}
+music = {
+	name = "Tie_A_Yellow_River_Round_The_Ole_Oak_Tree"
+	file = "Tie_A_Yellow_River_Round_The_Ole_Oak_Tree.ogg"
+}
+music = {
 	name = "To_Serve_Russia"
 	file = "To_Serve_Russia.ogg"
+}
+music = {
+	name = "Voices"
+	file = "Voices.ogg"
+}
+music = {
+	name = "Wake_Me_Up_When_September_Ends"
+	file = "Wake_Me_Up_When_September_Ends.ogg"
 }
 music = {
 	name = "Warsaw_Pact"
@@ -169,4 +241,8 @@ music = {
 music = {
 	name = "What_You_Won't_Do_For_Love"
 	file = "What_You_Won't_Do_for_Love.ogg"
+}
+music = {
+	name = "Where_Is_The_Love"
+	file = "Where_Is_The_Love.ogg"
 }

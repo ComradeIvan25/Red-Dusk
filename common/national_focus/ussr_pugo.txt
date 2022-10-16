@@ -252,7 +252,7 @@
 	}
 	focus = {
 		id = SOV_pugo_kgb_knows
-		icon = GFX_SOV_focus_kgb_knows
+		icon = GFX_focus_SOV_KGB_ensure
 		x = 7
 		y = 7
 

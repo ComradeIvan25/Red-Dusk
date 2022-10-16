@@ -43,6 +43,9 @@ add_ideas = extensive_conscription
 
 add_ideas = ussr_aligned_nation
 
+set_war_support = 0.5
+set_stability = 0.72
+
 diplomatic_relation = {
 	country = LAO
 	relation = non_aggression_pact

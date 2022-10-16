@@ -350,7 +350,10 @@
  ISR_zionist_volunteers_name_desc:0 ""
  ISR_political_instability_name:0 "Political Instability"
  ISR_political_instability_name_desc:0 ""
-
+ 
+ NEP_communist_insurgency_idea_name:0 "Communist Insurgency"
+ NEP_royal_autocracy_idea_name:0 "Rising Royal Autocracy"
+ 
  ## Designers ##
 
  # SOV #

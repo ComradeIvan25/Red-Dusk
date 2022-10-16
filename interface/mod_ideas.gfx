@@ -457,5 +457,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_SOV_design_bureau_izhevsk_icon"
 		texturefile = "gfx/interface/ideas/designers/SOV_design_bureau_izhevsk_icon.png"
-	}	
+	}
+    #	 NEPAL
+	spriteType = {
+		name = "GFX_idea_NEP_communist_insurgency"
+		texturefile = "gfx/interface/ideas/NEP_communist_insurgency.png"
+	}
 }

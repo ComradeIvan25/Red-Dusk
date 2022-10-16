@@ -20,6 +20,8 @@ ideas = {
 				war_support_weekly_factor = -0.05
 				industrial_capacity_factory = -1.00
 				industrial_capacity_dockyard = -1.00
+                                conscription_factor = -1.00
+                                production_speed_buildings_factor = -1.00
 			}
 		}
 

@@ -368,7 +368,12 @@ spriteTypes = {
 		name = "GFX_idea_cold_war_icon"
 		texturefile = "gfx/interface/ideas/cold_war.png"
 	}
-
+	
+	spriteType = {
+		name = "GFX_idea_SOM_somalian_anarchy_icon"
+		texturefile = "gfx/interface/ideas/SOM_somalian_anarchy.dds"
+	}
+	
 	# Designers #
 
 	spriteType = {

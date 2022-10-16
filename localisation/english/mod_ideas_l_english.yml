@@ -351,9 +351,14 @@
  ISR_political_instability_name:0 "Political Instability"
  ISR_political_instability_name_desc:0 ""
  
+<<<<<<< HEAD
  NEP_communist_insurgency_idea_name:0 "Communist Insurgency"
  NEP_royal_autocracy_idea_name:0 "Rising Royal Autocracy"
  
+=======
+ SOM_somalian_civil_war_name:0 "Somalian Anarchy"
+ SOM_somalian_civil_war_name_desc:0 "Somalia has been in a state of anarchy, civil war, and violance after the collapse of the Barre's forces, rebel groups differences with each other made it unable for a central government to unify the nation.\n\nThis caused Somalia to devolce into a lawless anarchistic state with hundreds of rebel groups fighting each other with no end in sight. \n\n§RPeace has become a long forgotten word in the lawless lands of Somalia.§!"
+>>>>>>> 13b9778864bc504484c29cdfd9765e556199ef45
  ## Designers ##
 
  # SOV #

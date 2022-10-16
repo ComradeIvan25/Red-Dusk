@@ -2,7 +2,10 @@
 
 set_convoys = 10
 
+recruit_character = SOM_collapsed_authority
 recruit_character = SOM_abdiqasim
+
+add_ideas = SOM_somalian_civil_war
 
 set_politics = {
 	ruling_party = neutrality
@@ -11,8 +14,9 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
-	fascism = 20
-	communism = 5
-	neutrality = 50
+	democratic = 5
+	fascism = 50
+	communism = 0
+	islamism = 45
+	neutrality = 0
 }

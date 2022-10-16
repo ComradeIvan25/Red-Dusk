@@ -311,6 +311,9 @@ ideologies = {
 			
 			centrism = {
 			}
+			
+			collapsed_state = {
+			}
 		}
 
 		dynamic_faction_names = {

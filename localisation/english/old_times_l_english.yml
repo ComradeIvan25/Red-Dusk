@@ -101,7 +101,14 @@
  old_times_news.40.d:0 "After years of fighting and multiple casualties from both sides EPLF has been finally defeated by the Ethiopian Army after the succes of Operation Weridwali.\n\nEthiopia's leader Mengistu Haile Mariam has thanked the Soviet Union and Cuba for their aid in the war, and held a victory parade in the northern city of Asmara.\n\nWith their military defeat, the remaining soldiers of EPLF escaped to Sudan and Saudi Arabia to avoid getting captured by the Ethiopian authorities. What happened to the EPLF's leader Iasis Afwerki is unknown."
  old_times_news.40.a:0 "Hopefully this will bring stability to the region"
  old_times_news.40.b:0 "Congrulations to our Ethiopian Allies!"
-
+ old_times_news.41.t:0 "[IRQ.getname] forces enter Tel-Aviv"
+ old_times_news.41.d:0 "After much urban fighting between [IRQ.GetAdjective] and [ISR.GetAdjective]	forces, the jewel of Israel has fallen."
+ old_times_news.41.a:0 "What will the future bring for the region?"
+ old_times_news.41.b:0 "After so long, we have succeeded."
+ old_times_news.42.t:0 "[IRQ.getname] tests nuclear bomb"
+ old_times_news.42.d:0 ""
+ old_times_news.42.a:0 "Another nuclear power enters the stage."
+ 
 ## Flavour News Events ##
  #flavour_news.1.t:0 ##HIDDEN SCRIPTED EVENT##
  flavour_news.2.t:0 "Disaster in Paris!"

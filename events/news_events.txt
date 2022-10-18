@@ -458,8 +458,8 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		10 = { is_controlled_by = IRQ }
-		10 = { is_owned_by = ISR }
+		454 = { is_controlled_by = IRQ }
+		454 = { is_owned_by = ISR }
 		IRQ = { has_war_with = ISR }
 	
 	}
@@ -469,8 +469,7 @@ news_event = {
 		trigger = {
 			NOT = { 
 				OR = {
-				original_tag = SOV 
-				original_tag = CUB
+				original_tag = IRQ 
 				}
 			}
 		}
@@ -480,10 +479,26 @@ news_event = {
 		name = old_times_news.41.b
 		trigger = { 
 			OR = {
-				original_tag = SOV 
-				original_tag = CUB
+				original_tag = IRQ
 			}
 		}
+	}
+	
+}
+
+#Iraq tests nuclear bomb
+news_event = {
+	id = old_times_news.42
+	title = old_times_news.42.t
+	desc = old_times_news.42.d
+	picture = GFX_news_nuke
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.42.a
 	}
 	
 }

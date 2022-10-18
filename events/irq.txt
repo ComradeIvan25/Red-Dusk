@@ -468,6 +468,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	#we will go as planned#
+	option = {
 		name = irq.18.a
 	
 	}
@@ -475,6 +476,23 @@ country_event = {
 	#direct funds to construction efforts#
 	option = {
 		name = irq.18.a
-		#TODO: ADD AN IDEA WITH INCREASED CONSTRUCTION#
+		add_ideas = IRQ_increased_construction
+	}
+}
+
+#Greater Iraq solidified#
+country_event = {
+	id = irq.19
+	title = irq.19.t
+	desc = irq.19.d
+	picture = GFX_report_event_IRQ_saddam
+	
+	is_triggered_only = yes
+	
+	#we will go as planned#
+	option = {
+		name = irq.19.a
+		add_political_power = 50
+		custom_effect_tooltip = IRQ_greater_iraq_ty_for_playing
 	}
 }

@@ -1687,15 +1687,6 @@ focus_tree = {
 			remove_idea = IRQ_saddams_cult_of_personality_2
 			add_idea = IRQ_saddams_cult_of_personality_3
 			}
-			mark_focus_tree_layout_dirty = yes
-			if = {
-				limit = { IRQ = { has_completed_focus = IRQ_greater_iraq } }
-				set_country_flag = irq_next_step_greater_iraq
-			}
-			else_if = {
-				limit = {IRQ = {has_completed_focus = IRQ_proclaim_uar} }
-				set_country_flag = irq_next_step_uar
-			}
 		}
 	}
 	
@@ -1705,12 +1696,6 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = IRQ_the_next_step
-		#allow_branch = {
-		#	OR = {
-		#	has_country_flag = irq_next_step_greater_iraq
-		#	has_country_flag = irq_next_step_uar
-		#	}
-		#}
 		prerequisite = {focus = IRQ_the_next_step}
 
 
@@ -1740,12 +1725,6 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = IRQ_the_next_step
-		#allow_branch = {
-		#	OR = {
-		#	has_country_flag = irq_next_step_greater_iraq
-		#	has_country_flag = irq_next_step_uar
-		#	}
-		#}
 		prerequisite = {focus = IRQ_the_next_step}
 
 
@@ -1916,38 +1895,6 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = IRQ_suicide_bombing_tactics
-		icon = GFX_focus_IRQ_great_iraq 
-		x = 0
-		y = 2
-		relative_position_id = IRQ_scum_of_the_earth
-		prerequisite = {focus = IRQ_fund_the_resistance}
-
-
-		mutually_exclusive = { }
-		
-		cost = 5
-		ai_will_do = {
-			factor = 100
-		}
-
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		completion_reward = {
-			840 = {
-			add_resistance = 05
-			add_manpower = -402
-				damage_building = {
-					type = infrastructure
-					damage = 5
-				}
-			}
-		}
-	}
-	
-	focus = {
 		id = IRQ_connect_the_supply_lines
 		icon = GFX_focus_IRQ_great_iraq 
 		x = -2
@@ -1968,7 +1915,6 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			#TODO add 1 sup hub near the israel border and add a railway that connects it to baghdad
 			build_railway = {
 			  level = 2
 			  controller_priority = {
@@ -1992,7 +1938,7 @@ focus_tree = {
 		x = -2
 		y = 2
 		relative_position_id = IRQ_scum_of_the_earth
-		prerequisite = {focus = IRQ_scum_of_the_earth}
+		prerequisite = {focus = IRQ_connect_the_supply_lines}
 
 
 		mutually_exclusive = { }
@@ -2007,8 +1953,14 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			#TODO : this is gonna be about nukes#
-			
+		custom_effect_tooltip = irq_nuke
+			hidden_effect = {
+			news_event = {id = old_times_news.42}
+				launch_nuke = {
+					province = 4603
+				}
+				goto_province = 4603
+			}
 		}
 	}
 	
@@ -2019,7 +1971,6 @@ focus_tree = {
 		y = 3
 		relative_position_id = IRQ_scum_of_the_earth
 		prerequisite = {focus = IRQ_just_incase}
-		prerequisite = {focus = IRQ_suicide_bombing_tactics}
 		prerequisite = {focus = IRQ_ready_the_airforce}
 
 		mutually_exclusive = { }
@@ -2115,7 +2066,7 @@ focus_tree = {
 		available = {NOT = {country_exists = ISR}}
 		mutually_exclusive = { }
 		
-		cost = 5
+		cost = 1
 		ai_will_do = {
 			factor = 100
 		}
@@ -2125,7 +2076,18 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			#TODO make focuses about the integration of the lands
+			mark_focus_tree_layout_dirty = yes
+			if = {
+			limit = {has_completed_focus = IRQ_dreams_of_a_greater_iraq}
+			event = {id = irq.19}
+			}
+			add_political_power = 50
+			else_if = {
+			limit = {has_completed_focus = IRQ_dreams_of_a_united_arab_nation}
+			set_country_flag = uar_invade_sauds
+			}
+			
+			#TODO Uar will get more focuses involving invading saudis, yemen, oman, qatar , bahrain , UAE and yemen
 		}
 	}
 

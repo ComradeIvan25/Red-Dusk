@@ -1137,6 +1137,23 @@ ideas = {
 			supply_factor = -0.3
 			}
 		}
+		
+		IRQ_increased_construction = {
+			name = IRQ_increased_construction_name
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			consumer_goods_factor = 0.05
+			production_speed_buildings_factor = 0.25
+			}
+		}
 	}
 
 

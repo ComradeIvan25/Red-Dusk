@@ -5,16 +5,17 @@
 set_convoys = 5
 
 recruit_character = BRM_aung_san
+recruit_character = BRM_than_shwe
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 72
+	democratic = 12
 	fascism = 2
 	communism = 14
-	neutrality = 12
+	neutrality = 72
 }

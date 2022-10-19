@@ -7,10 +7,11 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = INS
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
+		owner = TIM
+		add_core_of = TIM
+		buildings = { #indonesia did a lot of trolling
+			infrastructure = 0
+			industrial_complex = 0
 			12190 ={
 				naval_base = 1
 			}

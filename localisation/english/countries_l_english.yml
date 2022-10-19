@@ -3858,3 +3858,7 @@
  TUV:0 "Tuvalu"
  TUV_DEF:0 "Tuvalu"
  TUV_ADJ:0 "Tuvaluan"
+ TIM_democratic:0 "United Nations Administered East Timor"
+ TIM_democratic_DEF:0 "the United Nations Administered East Timor"
+ TIM_democratic_ADJ:0 "Tetum"
+ 

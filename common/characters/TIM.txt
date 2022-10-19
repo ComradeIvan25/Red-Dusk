@@ -1,0 +1,18 @@
+characters = {
+
+	TIM_UN_admin = {
+		name = "United Nations Administration"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TIM/UN_admin.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

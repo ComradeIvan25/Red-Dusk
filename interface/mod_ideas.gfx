@@ -477,4 +477,13 @@ spriteTypes = {
 		name = "GFX_idea_NEP_communist_insurgency"
 		texturefile = "gfx/interface/ideas/NEP_communist_insurgency.png"
 	}
+	spriteType = {
+		name = "GFX_idea_NEP_royal_autocracy"
+		texturefile = "gfx/interface/ideas/NEP_royal_dictatorship.png"
+	}
+	#BURMA
+	spriteType = {
+		name = "GFX_idea_BUR_internal_conflict"
+		texturefile = "gfx/interface/ideas/BUR_civil_conflict.png"
+	}
 }

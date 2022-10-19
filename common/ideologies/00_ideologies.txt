@@ -314,6 +314,9 @@ ideologies = {
 			
 			collapsed_state = {
 			}
+			
+			military_junta = {
+			}
 		}
 
 		dynamic_faction_names = {

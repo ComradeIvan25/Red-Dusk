@@ -1,0 +1,19 @@
+﻿capital = 939
+
+#set_oob = ""
+
+#recruit_character = AFG_mullah_omar
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 0
+	communism = 0
+	islamism = 25
+	neutrality = 75
+}

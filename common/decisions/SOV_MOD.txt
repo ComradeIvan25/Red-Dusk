@@ -3053,6 +3053,10 @@ sov_pugo_the_power_struggle = {
 		timeout_effect = { 
 			add_to_variable = { putin_power_support = 15 }
 			custom_effect_tooltip = putin_gains_15_power_tt
+			add_power_balance_modifier = {
+				id = SOV_kgb_balance
+				modifier = SOV_gensec_speech
+			}
 		}
 	}	
 		

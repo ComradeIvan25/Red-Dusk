@@ -930,3 +930,7 @@ TIM = {
 	color = rgb { 163 218 255 }
 	color_ui = rgb { 145 218 255 }
 }
+NRO = {
+	color = rgb { 139  255  94 }
+	color_ui = rgb { 132  251  92 }
+}

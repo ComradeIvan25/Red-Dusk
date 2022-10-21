@@ -2,7 +2,7 @@
 
 set_convoys = 10
 
-#oob = "ERI_2000"
+#set_oob = "ERI_2000"
 
 recruit_character = ERI_isaias_afwerki
 

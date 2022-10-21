@@ -183,8 +183,7 @@ sov_pugo_the_power_struggle = {
 	}
 	
 	visible = {
-		SOV = {has_completed_focus = SOV_pugo_time_for_action}
-		NOT = {has_country_flag = pugo_power_struggle_ended}
+
 	}
 
 	priority = 200

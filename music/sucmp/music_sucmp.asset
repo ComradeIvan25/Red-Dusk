@@ -1,28 +1,22 @@
 ##### NEED TO BE IN ALPHABETICAL ORDER#####
 
-
- SUCMP:
- music = {
+music = {
 	name = "A_Song_About_Yuri_Gagarin"
 	file = "A_Song_About_Yuri_Gagarin.ogg"
- }
- music = {
-	name = "American_Idiot"
-	file = "American_Idiot.ogg"
 }
 music = {
 	name = "An_Escalation"
 	file = "An_Escalation.ogg"
 }
 music = {
-	name = "Another_Life_(extended)"
+	name = "Another_Life_Extended"
 	file = "Another_life_(extended).ogg"
 }
-name = {
+music = {
 	name = "At_The_Dangerous_Line"
 	file = "At_The_Dangerous_Line.ogg"
 }
-music ={
+music = {
 	name = "Auferstanden_Aus_Ruinen"
 	file = "Auferstanden_Aus_Ruinen.ogg"
 }
@@ -75,7 +69,7 @@ music = {
 	file = "Freestyle_Goodbye_Forever.ogg"
 }
 music = {
-	name = "Going_Back_To_My_Roots_(12'Version)"
+	name = "Going_Back_To_My_Roots_12Version"
 	file = "Going_Back_To_My_Roots_(12' Version).ogg"
 }
 music = {
@@ -113,10 +107,6 @@ music = {
 music = {
 	name = "Kerber-Ratne_Igre"
 	file = "Kerber-Ratne_Igre.ogg"
-}
-music = {
-	name = "Lenin_Is_Young_Again"
-	file = "Lenin_is_Young_Again.ogg"
 }
 music = {
 	name = "Made_In_the_USSR"
@@ -203,7 +193,7 @@ music = {
 	file = "Swallowing_Dust.ogg"
 }
 music = {
-	name = "The_Battle_Is_Going_Again!"
+	name = "The_Battle_Is_Going_Again"
 	file = "The_Battle_Is_Going_Again!.ogg"
 }
 music = {
@@ -215,7 +205,7 @@ music = {
 	file = "The_Internationale_2000-Maxx_Klaxon.ogg"
 }
 music = {
-	name = "The_Road_Runs_Far_(There_Is_A_Lot_Of_Fun_Ahead)"
+	name = "The_Road_Runs_Far_There_Is_A_Lot_Of_Fun_Ahead"
 	file = "The_Road_Runs_Far_(There_Is_A_Lot_Of_Fun_Ahead).ogg"
 }
 music = {

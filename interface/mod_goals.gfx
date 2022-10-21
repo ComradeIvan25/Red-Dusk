@@ -131,20 +131,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SOV_Military_Reinassence.png"
 	}
 	SpriteType = {
-		name = "GFX_focus_SOV_army_first"
-		texturefile = "gfx/interface/goals/SOV_army_first.png"
-	}
-	SpriteType = {
 		name = "GFX_focus_SOV_expand_supply"
 		texturefile = "gfx/interface/goals/focus_SOV_expand_supply.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_fix_gorby_mess"
 		texturefile = "gfx/interface/goals/focus_SOV_fix_gorby_mess.png"
-	}
-	SpriteType = {
-		name = "GFX_focus_SOV_military_cities"
-		texturefile = "gfx/interface/goals/SOV_military_cities.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_reform_the_CPSU"
@@ -155,32 +147,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_SOV_army_might.png"
 	}
 	SpriteType = {
-		name = "GFX_focus_SOV_old_tatic"
-		texturefile = "gfx/interface/goals/SOV_old_tatic.png"
-	}
-	SpriteType = {
-		name = "GFX_focus_SOV_Ustinov_Legacy"
-		texturefile = "gfx/interface/goals/focus_SOV_Ustinov_Legacy.png"
-	}
-	SpriteType = {
 		name = "GFX_focus_SOV_Armoured_Giant"
 		texturefile = "gfx/interface/goals/focus_SOV_Armoured_Giant.png"
 	}
 	SpriteType = {
-		name = "GFX_focus_SOV_new_military_idea"
-		texturefile = "gfx/interface/goals/focus_SOV_new_military_idea.png"
-	}
-	SpriteType = {
 		name = "GFX_focus_SOV_Shoigu_New_Staff"
 		texturefile = "gfx/interface/goals/focus_SOV_Shoigu_New_Staff.png"
-	}
-	SpriteType = {
-		name = "GFX_focus_SOV_army_reform"
-		texturefile = "gfx/interface/goals/focus_SOV_army_reform.png"
-	}
-	SpriteType = {
-		name = "GFX_focus_SOV_Invincible_and_Legendary"
-		texturefile = "gfx/interface/goals/focus_SOV_Invincible_and_Legendary.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_keep_old_guard"
@@ -207,28 +179,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_SOV_prep_future.png"
 	}
 	SpriteType = {
-		name = "GFX_focus_SOV_little_traitor"
-		texturefile = "gfx/interface/goals/focus_SOV_little_traitor.png"
-	}
-	SpriteType = {
 		name = "GFX_focus_SOV_Unification_talk"
 		texturefile = "gfx/interface/goals/focus_SOV_Unification_talk.png"
 	}
 	SpriteType = {
-		name = "GFX_focus_SOV_prepare_Invitable"
-		texturefile = "gfx/interface/goals/SOV_prepare_Invitable.png"
-	}
-	SpriteType = {
-		name = "GFX_focus_SOV_stalin_war_plan"
-		texturefile = "gfx/interface/goals/SOV_stalin_war_plan.png"
-	}
-	SpriteType = {
 		name = "GFX_focus_SOV_legacy_of_warsaw_pact"
 		texturefile = "gfx/interface/goals/SOV_legacy_of_warsaw_pact.png"
-	}
-	SpriteType = {
-		name = "GFX_focus_SOV_extreme_planning"
-		texturefile = "gfx/interface/goals/SOV_extreme_planning.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_Pressure_US"
@@ -243,16 +199,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_SOV_super_power.png"
 	}
 	SpriteType = {
-		name = "GFX_focus_SOV_isolate_czech"
-		texturefile = "gfx/interface/goals/SOV_isolate_czech.png"
-	}
-	SpriteType = {
 		name = "GFX_focus_SOV_not_yet"
 		texturefile = "gfx/interface/goals/focus_SOV_not_yet.png"
-	}
-	SpriteType = {
-		name = "GFX_focus_SOV_blockade_sweden"
-		texturefile = "gfx/interface/goals/SOV_blockade_sweden.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_Da_Molotoff"
@@ -289,10 +237,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_focus_SOV_unity_after_chaos"
 		texturefile = "gfx/interface/goals/focus_SOV_unity_after_chaos.png"
-	}
-	SpriteType = {
-		name = "GFX_focus_SOV_our_shining_union"
-		texturefile = "gfx/interface/goals/SOV_our_shinning_union.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_worker_red_army"
@@ -1093,16 +1037,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SOV_against_the_eastern_dragon.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_always_at_the_ready"
-		texturefile = "gfx/interface/goals/SOV_always_at_the_ready.png"
-	}
-	SpriteType = {
 		name = "GFX_SOV_army_kgb_cooperating"
 		texturefile = "gfx/interface/goals/SOV_army_kgb_cooperating.dds"
-	}
-	SpriteType = {
-		name = "GFX_SOV_army_purge"
-		texturefile = "gfx/interface/goals/SOV_army_purge.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_border_blockades"
@@ -1157,10 +1093,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SOV_expand_the_civilian_sector.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_extreme_planning"
-		texturefile = "gfx/interface/goals/SOV_extreme_planning.dds"
-	}
-	SpriteType = {
 		name = "GFX_SOV_fall_of_the_reformer"
 		texturefile = "gfx/interface/goals/SOV_fall_of_the_reformer.dds"
 	}
@@ -1201,10 +1133,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SOV_hear_no_evil.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_increase_military_presence"
-		texturefile = "gfx/interface/goals/SOV_increase_military_presence.dds"
-	}
-	SpriteType = {
 		name = "GFX_SOV_increase_ties_with_warsaw_pact"
 		texturefile = "gfx/interface/goals/SOV_increase_ties_with_warsaw_pact.png"
 	}
@@ -1213,20 +1141,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SOV_increase_warsaw_pact_spending.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_isolate_czech"
-		texturefile = "gfx/interface/goals/SOV_isolate_czech.dds"
-	}
-	SpriteType = {
 		name = "GFX_SOV_keep_your_friend_close"
 		texturefile = "gfx/interface/goals/SOV_keep_your_friend_close.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_let_the_games_begin"
 		texturefile = "gfx/interface/goals/SOV_let_the_games_begin.dds"
-	}
-	SpriteType = {
-		name = "GFX_SOV_let_the_purge_begin"
-		texturefile = "gfx/interface/goals/SOV_let_the_purge_begin.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_little_traitors"
@@ -1289,14 +1209,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SOV_project_red_dusk.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_question_of_the_army"
-		texturefile = "gfx/interface/goals/SOV_the_military_question.dds"
-	}
-	SpriteType = {
-		name = "GFX_SOV_reinforce_mongolia"
-		texturefile = "gfx/interface/goals/SOV_reinforce_mongolia.dds"
-	}
-	SpriteType = {
 		name = "GFX_SOV_return_to_planned_economy"
 		texturefile = "gfx/interface/goals/SOV_return_to_planned_economy.dds"
 	}
@@ -1349,60 +1261,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SOV_unto_a_new_dawn.png"
 	}
 	SpriteType = {
-		name = "GFX_SOV_war_plan_stalin"
-		texturefile = "gfx/interface/goals/SOV_war_plan_stalin.dds"
-	}
-	SpriteType = {
 		name = "GFX_SOV_warsaw_pact_reborn"
 		texturefile = "gfx/interface/goals/SOV_warsaw_pact_reborn.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_negotiate_with_rebels"
-		texturefile = "gfx/interface/goals/SOV_negotiate_with_rebels.dds"
-	}
-	SpriteType = {
-		name = "GFX_SOV_ukrainian_autonomy"
-		texturefile = "gfx/interface/goals/SOV_ukrainian_autonomy.dds"
-	}
-	SpriteType = {
-		name = "GFX_SOV_increase_chechen_autonomy"
-		texturefile = "gfx/interface/goals/SOV_increase_chechen_autonomy.dds"
-	}
-	SpriteType = {
-		name = "GFX_SOV_increase_lithuenian_autonomy"
-		texturefile = "gfx/interface/goals/SOV_increase_lithuenian_autonomy.dds"
-	}
-	SpriteType = {
-		name = "GFX_SOV_setting_ways_better_for_the_USSR"
-		texturefile = "gfx/interface/goals/SOV_setting_ways_better_for_the_USSR.dds"
-	}
-	SpriteType = {
 		name = "GFX_SOV_Soviet_Foreign_Policy"
 		texturefile = "gfx/interface/goals/SOV_Soviet_Foreign_Policy.dds"
-	}
-	SpriteType = {
-		name = "GFX_SOV_decentralize_the_governance"
-		texturefile = "gfx/interface/goals/SOV_decentralize_the_governance.dds"
-	}
-	SpriteType = {
-		name = "GFX_SOV_destroy_the_hardliners"
-		texturefile = "gfx/interface/goals/SOV_destroy_the_hardliners.dds"
-	}
-	SpriteType = {
-		name = "GFX_SOV_new_union_treaty"
-		texturefile = "gfx/interface/goals/SOV_new_union_treaty.dds"
-	}
-	SpriteType = {
-		name = "GFX_SOV_new_way"
-		texturefile = "gfx/interface/goals/SOV_new_way.dds"
-	}
-	SpriteType = {
-		name = "GFX_SOV_spark_the_flame"
-		texturefile = "gfx/interface/goals/SOV_spark_the_flame.dds"
-	}
-	SpriteType = {
-		name = "GFX_SOV_back_to_the_union"
-		texturefile = "gfx/interface/goals/SOV_back_to_the_union.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_focus_promise_higher_autonomy"

@@ -12,14 +12,6 @@ music = {
 	}
 }
 music = {
-	song = "American_Idiot"
-	chance = {
-		modifier = {
-			factor = 1
-		}
-	}
-}
-music = {
 	song = "An_Escalation"
 	chance ={
 		modifier = {
@@ -28,7 +20,7 @@ music = {
 	}
 }
 music = {
-	song = "Another_Life_(extended)"
+	song = "Another_Life_Extended"
 	chance = {
 		modifier = {
 			factor = 1
@@ -60,7 +52,7 @@ music = {
 	}
 }
 music = {
-	song = "Black_Hole_Sun"
+	song = "Back_Hole_Sun"
 	chance = {
 		modifier = {
 			factor =1
@@ -140,7 +132,7 @@ music = {
 	}
 }
 music = {
-	song = "Going_Back_To_My_Roots_(12'Version)"
+	song = "Going_Back_To_My_Roots_12Version"
 	chance = {
 		modifier = {
 			factor = 1
@@ -212,14 +204,6 @@ music = {
 	}
 }
 music = {
-	song = "Lenin_is_Young_Again" 
-	chance = {
-		modifier = {
-			factor = 1
-		}
-	}
-}
-music = {
 	song = "Made_In_the_USSR"
 	chance = {
 		modifier = {
@@ -268,7 +252,7 @@ music = {
 	}
 }
 music = {
-	song = "Owner_Of_A_Broken_Heart_Extended"
+	song = "Owner_Of_A_Lonely_Heart_Extended"
 	chance = {
 		factor = 1
 	}
@@ -323,7 +307,7 @@ music = {
 	}
 }
 music = {
-	song = "Someday_Never_comes"
+	song = "Someday_Never_Comes"
 	chance = {
 		modifier = {
 			factor = 1
@@ -371,7 +355,7 @@ music = {
 	}
 }
 music = {
-	song = "Tie_A_Yellow_Ribbon_Round_The_Ole_Oak_Tree"
+	song = "Tie_A_Yellow_River_Round_The_Ole_Oak_Tree"
 	chance = {
 		modifier = {
 			factor = 1
@@ -404,27 +388,27 @@ music = {
 }
 music = {
 	song = "Wake_Me_Up_When_September_Ends"
-	chance = [
+	chance = {
 		modifier = {
 			factor = 1
 		}
-	]
+	}
 }
 music = {
-	song = "What_You_Wont_Do_For_Love"
-	chance = [
+	song = "What_You_Won't_Do_For_Love"
+	chance = {
 		modifier = {
 			factor = 1
 		}
-	]
+	}
 }
 music = {
-	song = "Where_Is The_Love"
-	chance = [
+	song = "Where_Is_The_Love"
+	chance = {
 		modifier = {
 			factor = 1
 		}
-	]
+	}
 }
 
 ######NEW IN 1.2######

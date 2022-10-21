@@ -2078,14 +2078,14 @@ focus_tree = {
 		completion_reward = {
 			mark_focus_tree_layout_dirty = yes
 			if = {
-			limit = {has_completed_focus = IRQ_dreams_of_a_greater_iraq}
-			event = {id = irq.19}
+				limit = {has_completed_focus = IRQ_dreams_of_a_greater_iraq}
+				country_event = {id = irq.19}
+			}
+			else_if = {
+				limit = {has_completed_focus = IRQ_dreams_of_a_united_arab_nation}
+				set_country_flag = uar_invade_sauds
 			}
 			add_political_power = 50
-			else_if = {
-			limit = {has_completed_focus = IRQ_dreams_of_a_united_arab_nation}
-			set_country_flag = uar_invade_sauds
-			}
 			
 			#TODO Uar will get more focuses involving invading saudis, yemen, oman, qatar , bahrain , UAE and yemen
 		}

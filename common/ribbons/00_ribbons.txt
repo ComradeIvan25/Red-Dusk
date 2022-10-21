@@ -19,7 +19,6 @@ ribbons = {
 		possible = {
 			IRQ = {has_country_flag = irq_greater_iraq_declared}
 			original_tag = IRQ
-		
 		}
 		
 		happened = {

@@ -457,6 +457,8 @@ news_event = {
 	
 	major = yes
 	
+	fire_only_once = yes
+	
 	trigger = {
 		454 = { is_controlled_by = IRQ }
 		454 = { is_owned_by = ISR }

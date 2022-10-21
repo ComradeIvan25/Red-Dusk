@@ -47,15 +47,7 @@ d_add_fake_armies = {
 				has_country_flag = fake_intel_template_created
 			}
 		}
-		division_template = {
-			name = "Fake Intel Division"
-			
-			is_fake_intel_division = yes
-			is_locked = yes
-			regiments = {
-				fake_intel_unit = { x = 0 y = 0 }
-			}
-		}
+
 		set_country_flag = fake_intel_template_created
 	}
 	

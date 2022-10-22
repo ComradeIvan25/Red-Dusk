@@ -55,7 +55,7 @@
 		continue_if_invalid = no
 		completion_reward = {
 			SOV = {
-		        country_event = {id = ussr.37}
+		        country_event = {id = ussr.38}
 			}
 		}
 	}

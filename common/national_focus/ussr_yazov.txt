@@ -2140,7 +2140,7 @@
 		completion_reward = {
 		
 			custom_effect_tooltip = SOV_civs_on_ural_decision_tooltip
-			hidden_effect = {  unlock_decision_category_tooltip = sov_building_industry }
+			hidden_effect = {  unlock_decision_category_tooltip = sov_building_industry_ural }
 		}		
 	}
 	

@@ -381,3 +381,6 @@
 
  IRQ_tt_rebuild_navy:0 "§YDecisions to purchase foreign ships will become available§!"
  IRQ_tt_no_embargo_idea:0 "§YFree Trade will become available§!"
+ 
+ ##other countries##
+ cannot_do_shit_with_units:0 "§RCan not train, edit and disband units§!"

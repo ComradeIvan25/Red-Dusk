@@ -10,7 +10,11 @@ set_convoys = 400
 recruit_character = JAP_keizō_obuchi
 recruit_character = JAP_yoshiro_mori
 
+add_ideas = JAP_article_9
+
 add_ideas = usa_aligned_nation
+
+country_lock_all_division_template = yes
 
 set_politics = {
 	ruling_party = democratic

@@ -188,11 +188,6 @@ set_war_support = 0.2
 
 set_convoys = 200
 
-	set_power_balance = {
-		id = SOV_kgb_balance
-		set_default = yes  # whether or not to reset the power balance to the initial value, default = no
-	}
-
 set_politics = {
 	ruling_party = communism
 	last_election = "1991.7.1"

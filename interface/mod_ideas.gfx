@@ -375,6 +375,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/SOM_somalian_anarchy.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_JAP_article_9_icon"
+		texturefile = "gfx/interface/ideas/article_9.png"
+	}
+	
 	# Designers #
 
 	spriteType = {

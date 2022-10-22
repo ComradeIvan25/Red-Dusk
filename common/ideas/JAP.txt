@@ -1,0 +1,26 @@
+ideas = {
+
+	country = {
+		
+		JAP_article_9 = {
+			name = JAP_article_9_name
+
+			removal_cost = -1
+
+			picture = JAP_article_9_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = -0.9
+				custom_modifier_tooltip = cannot_do_shit_with_units
+			}
+
+		}
+		
+		
+	}
+
+}

@@ -2,6 +2,8 @@
 
 set_convoys = 5
 
+set_oob = "RCK_2000"
+
 recruit_character = RCK_Ernest_Wamba_dia_Wamba
 
 add_ideas = COG_africas_world_war

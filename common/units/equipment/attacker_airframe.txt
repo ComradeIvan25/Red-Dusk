@@ -48,6 +48,13 @@ equipments = {
 		archetype = attacker_equipment
 		priority = 5
 
+		allow_mission_type = {
+			cas
+			naval_bomber
+			port_strike
+			attack_logistics
+		}
+
 		air_range = 625
 		maximum_speed = 1800
 		air_agility = 42
@@ -176,6 +183,14 @@ equipments = {
 
 		archetype = carrier_attacker_equipment
 		priority = 5
+
+		allow_mission_type = {
+			cas
+			naval_bomber
+			port_strike
+			attack_logistics
+			naval_patrol
+		}
 
 		air_range = 625
 		maximum_speed = 1600

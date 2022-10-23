@@ -799,6 +799,22 @@ spriteTypes = {
 		name = "GFX_focus_IRQ_saddam_cult"
 		texturefile = "gfx/interface/goals/focus_IRQ_saddam_cult.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_defang_resistance"
+		texturefile = "gfx/interface/goals/focus_IRQ_defang_resistance.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_diversify_economy"
+		texturefile = "gfx/interface/goals/focus_IRQ_diversify_economy.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_construct_power_plants"
+		texturefile = "gfx/interface/goals/focus_IRQ_construct_power_plants.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_baghdad_metro"
+		texturefile = "gfx/interface/goals/focus_IRQ_baghdad_metro.png"
+	}
 	
    ###SAF###
 

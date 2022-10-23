@@ -11,12 +11,6 @@ script_enum_equipment_bonus_type = {
 	stealth_fighter_equipment
 	carrier_stealth_fighter_equipment
 
-	fighter
-	cas
-	tactical_bomber
-	strategic_bomber
-	air_transport
-
 	## Land
 	mbt_tank_equipment
 	recon_vehicle_equipment
@@ -30,14 +24,6 @@ script_enum_equipment_bonus_type = {
 	rocket_artillery_equipment
 	infantry_weapons
 
-	infantry
-	artillery
-	motorized
-	mechanized
-	support
-	armor
-	anti_air
-
 	## Sea
 	carrier_hull
 	cruiser_hull
@@ -47,16 +33,6 @@ script_enum_equipment_bonus_type = {
 	cruise_submarine_hull
 	ballistic_submarine_hull
 	floating_harbor_equipment
-
-	battlecruiser
-	battleship
-	cruiser
-	destroyer
-	corvette
-	carrier
-	attack_submarine
-	cruise_submarine
-	ballistic_submarine
 	convoy
 }
 

@@ -48,6 +48,16 @@ equipments = {
 		archetype = strike_bomber_equipment
 		priority = 5
 
+		allow_mission_type = {
+			cas
+			strategic_bomber
+			naval_bomber
+			port_strike
+			attack_logistics
+			naval_mines_planting
+			naval_mines_sweeping
+		}
+
 		air_range = 3200
 		maximum_speed = 1050
 		air_agility = 32
@@ -124,6 +134,11 @@ equipments = {
 		archetype = strategic_bomber_equipment
 		priority = 5
 
+		allow_mission_type = {
+			strategic_bomber
+			naval_mines_planting
+		}
+
 		air_range = 6500
 		maximum_speed = 890
 		air_agility = 25
@@ -192,6 +207,11 @@ equipments = {
 
 		archetype = stealth_bomber_equipment
 		priority = 20
+
+		allow_mission_type = {
+			strategic_bomber
+			port_strike
+		}
 
 		air_range = 5500
 		maximum_speed = 1000

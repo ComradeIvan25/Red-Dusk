@@ -2,6 +2,8 @@
 
 set_convoys = 5
 
+set_oob = "COG_2000"
+
 recruit_character = COG_laurent
 
 add_ideas = COG_africas_world_war

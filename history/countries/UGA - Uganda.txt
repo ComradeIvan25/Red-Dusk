@@ -1,5 +1,7 @@
 ﻿capital = 548
 
+set_oob = "UGA_2000"
+
 set_convoys = 0
 
 recruit_character = UGA_yoweri

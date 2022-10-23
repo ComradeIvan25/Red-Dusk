@@ -1,5 +1,6 @@
 ﻿capital = 291
 
+set_oob = "IRQ_2000"
 set_air_oob = "IRQ_2000_air"
 
 set_technology = {

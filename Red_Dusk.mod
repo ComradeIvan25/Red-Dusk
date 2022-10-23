@@ -1,4 +1,4 @@
-version="0.1.25i"
+version="0.1.26a"
 tags={
 	"Alternative History"
 	"Events"
@@ -51,6 +51,5 @@ replace_path="history/general"
 replace_path="history/states"
 replace_path="history/states"
 replace_path="history/units"
-replace_path="music"
 supported_version="1.12.*"
 path=""

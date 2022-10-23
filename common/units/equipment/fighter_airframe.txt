@@ -48,6 +48,11 @@ equipments = {
 		archetype = fighter_equipment
 		priority = 5
 
+		allow_mission_type = {
+			air_superiority
+			interception
+		}
+
 		air_range = 650
 		maximum_speed = 2000
 		air_agility = 50
@@ -203,6 +208,10 @@ equipments = {
 		archetype = interceptor_equipment
 		priority = 6
 
+		allow_mission_type = {
+			interception
+		}
+
 		air_range = 850
 		maximum_speed = 2200
 		air_agility = 38
@@ -287,6 +296,12 @@ equipments = {
 
 		archetype = carrier_fighter_equipment
 		priority = 5
+
+		allow_mission_type = {
+			air_superiority
+			interception
+			naval_patrol
+		}
 
 		air_range = 550
 		maximum_speed = 1800
@@ -443,6 +458,11 @@ equipments = {
 		archetype = stealth_fighter_equipment
 		priority = 40
 
+		allow_mission_type = {
+			air_superiority
+			interception
+		}
+
 		air_range = 1600
 		maximum_speed = 2200
 		air_agility = 72
@@ -525,6 +545,12 @@ equipments = {
 
 		archetype = carrier_stealth_fighter_equipment
 		priority = 45
+
+		allow_mission_type = {
+			air_superiority
+			interception
+			naval_patrol
+		}
 
 		air_range = 1800
 		maximum_speed = 2000

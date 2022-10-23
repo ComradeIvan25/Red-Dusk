@@ -144,7 +144,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_dismantle_faction_button"
 				#buttonFont = "hoi_16mbs"
 				#buttonText = "DIPLOMACY_DISMANTLE_FACTION_TITLE"
-			}
+			}		
 
 			containerWindowType = {
 				name = "power_balance_button"
@@ -155,6 +155,13 @@ guiTypes = {
 					name = "show_power_balance"
 					position = { x = 0 y = 0 }
 					quadTextureSprite = "GFX_show_power_balance_button"
+				}
+				
+				iconType = {
+					name = "show_power_balance_glow"
+					position = { x = 0 y = 0 }
+					quadTextureSprite = "GFX_bop_glow_effect"
+					alwaystransparent = yes
 				}
 
 				instantTextboxType = {
@@ -188,8 +195,7 @@ guiTypes = {
 					alwaystransparent = yes				
 					scale = 0.55
 				}
-			}
-			
+			}			
 		}
 						
 		containerWindowType = {

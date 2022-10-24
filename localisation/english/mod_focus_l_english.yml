@@ -456,6 +456,8 @@
  SOV_pugo_reformists_desc:0 ""
  SOV_pugo_kgb_knows:0 "KGB Knows The Best"
  SOV_pugo_kgb_knows_desc:0 ""
+ SOV_pugo_hardliner:0 "Hardliners Retain Dominance"
+ SOV_pugo_hardliner_desc:0 ""
  SOV_question_of_the_army:0 "Question of The Army"
  SOV_question_of_the_army_desc:0 ""
  SOV_marshal_on_our_side:0 "Marshal on Our Side"

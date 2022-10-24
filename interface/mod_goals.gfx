@@ -960,6 +960,17 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_SAF_late.png"
 	}
 
+   ###ANC###
+
+	SpriteType = {
+		name = "GFX_focus_ANC_militia"
+		texturefile = "gfx/interface/goals/focus_ANC_militia.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_ANC_spark"
+		texturefile = "gfx/interface/goals/focus_ANC_spark.png"
+	}
+
    ###VIN###
     SpriteType = {
 		name = "VIN_new_vietnam"

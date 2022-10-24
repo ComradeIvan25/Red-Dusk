@@ -279,6 +279,31 @@
 		}
 	}
 	focus = {
+		id = SOV_pugo_hardliner
+		icon = GFX_SOV_hardliners_retain_dominance
+		x = 7
+		y = 8
+
+		prerequisite = {
+			focus = SOV_pugo_kgb_knows
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = 0.15
+			add_political_power = 50
+		}
+	}
+	focus = {
 		id = SOV_question_of_the_army
 		icon = GFX_SOV_question_of_the_army
 		x = 15
@@ -587,7 +612,7 @@
 			focus = SOV_SUSpend_the_army_purge
 		}
 		prerequisite = {
-			focus = SOV_pugo_kgb_knows
+			focus = SOV_pugo_hardliner
 		}
 		mutually_exclusive = { 
 		}

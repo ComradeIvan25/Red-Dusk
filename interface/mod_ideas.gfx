@@ -326,7 +326,15 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_GER_economy_icon"
 		texturefile = "gfx/interface/ideas/GER_economy.dds"
-	}	
+	}
+	spriteType = {
+		name = "GFX_idea_GER_raf_icon"
+		texturefile = "gfx/interface/ideas/GER_raf.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_rev_cells_icon"
+		texturefile = "gfx/interface/ideas/GER_rev_cells.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_idea_ENG_queen_icon"

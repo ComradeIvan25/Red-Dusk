@@ -496,3 +496,33 @@ country_event = {
 		custom_effect_tooltip = IRQ_greater_iraq_ty_for_playing
 	}
 }
+
+#Terrorist Attack !#
+country_event = {
+	id = irq.20
+	title = irq.20.t
+	desc = irq.20.d
+	picture = GFX_report_event_IRQ_saddam
+	
+	is_triggered_only = yes
+	
+	#bruh#
+	option = {
+		name = irq.20.a
+		add_political_power = -50
+		add_stability = -0.10
+		
+		custom_effect_tooltip = irq_stability_monthly_decreased_by_25
+		
+		subtract_from_variable = { irq_uar_stability_monthly_variable = 2.5}
+		
+			random_owned_state = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+				add_resistance = 0.05
+			}
+		
+	}
+}

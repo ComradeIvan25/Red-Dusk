@@ -1762,6 +1762,13 @@ irq_category_a_new_state = {
 			add_to_variable = {irq_centralization_progress_variable = irq_centralization_progress_monthly_variable }
 			custom_effect_tooltip = irq_centralization_mission_tt
 			activate_mission = IRQ_pan_arab_30_day_report
+			
+			if = {
+				limit = {
+				check_variable = {irq_uar_stability_variable < 36}
+				}
+				country_event = {id = irq.20}
+			}
 		}
 	}
 	

@@ -6,6 +6,8 @@ set_convoys = 5
 
 recruit_character = KOR_kim_jong_il
 
+add_ideas = KOR_usa_embargo
+
 set_politics = {
 	ruling_party = communism
 	last_election = "1936.1.1"

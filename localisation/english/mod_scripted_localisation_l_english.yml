@@ -92,6 +92,7 @@
  irq_stability_monthly_increased_by_25:0 "Our Monthly §5Overall Stability§! increases by §Y2.5%§!." 
  irq_stability_monthly_increased_by_5:0 "Our Monthly §5Overall Stability§! increases by §Y5%§!." 
  
+ irq_stability_monthly_decreased_by_25:0 "Our Monthly §5Overall Stability§! decreases by §Y2.5%§!." 
  irq_stability_monthly_decreased_by_5:0 "Our Monthly §5Overall Stability§! decreases by §Y5%§!." 
  irq_stability_monthly_decreased_by_75:0 "Our Monthly §5Overall Stability§! decreases by §Y7.5%§!."
  

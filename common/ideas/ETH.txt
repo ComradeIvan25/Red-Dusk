@@ -35,9 +35,10 @@ ideas = {
 
 			modifier = {
 				war_support_factor = 0.15
-				political_power_gain = -0.25
+				political_power_gain = -0.55
 				supply_consumption_factor = 0.50	
-				army_attack_factor = 0.15
+				army_attack_factor = 0.50
+				ai_focus_aggressive_factor = 0.5
 				
 			}
 		}

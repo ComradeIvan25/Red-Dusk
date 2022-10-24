@@ -2452,6 +2452,9 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			IRQ = {
+				country_event = { id = irq.22 }
+			}
 		}
 	}
 
@@ -2478,6 +2481,9 @@ focus_tree = {
 					instant_build = yes
 					province = 2089
 				}
+			}
+			IRQ = {
+				country_event = { id = irq.23 }
 			}
 		}
 	}
@@ -2506,6 +2512,9 @@ focus_tree = {
 					instant_build = yes
 					province = 2089
 				}
+			}
+			IRQ = {
+				country_event = { id = irq.24 }
 			}
 		}
 	}
@@ -2798,6 +2807,9 @@ focus_tree = {
 		cancelable = no
 
 		completion_reward = {
+			IRQ = {
+				country_event = { id = irq.21 }
+			}
 		}
 	}
 

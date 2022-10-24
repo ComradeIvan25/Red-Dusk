@@ -526,3 +526,58 @@ country_event = {
 		
 	}
 }
+
+#Special Operation#
+country_event = {
+	id = irq.21
+	title = irq.21.t
+	desc = irq.21.d
+	picture = GFX_report_event_IRQ_army_2
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq.21.a
+	}
+}
+#Baghdad Metro#
+country_event = {
+	id = irq.22
+	title = irq.22.t
+	desc = irq.22.d
+	picture = GFX_report_event_IRQ_baghdad_metro
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq.22.a
+	}
+}
+#Basra Protest#
+country_event = {
+	id = irq.23
+	title = irq.23.t
+	desc = irq.23.d
+	picture = GFX_report_event_IRQ_protest
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq.23.a
+		add_stability = -0.05
+	}
+}
+#Basra Forgive#
+country_event = {
+	id = irq.24
+	title = irq.24.t
+	desc = irq.24.d
+	picture = GFX_report_event_IRQ_basra
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq.24.a
+		add_stability = 0.05
+	}
+}

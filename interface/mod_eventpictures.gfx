@@ -173,43 +173,59 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_report_event_IRQ_army"
-		texturefile = "gfx/event_pictures/report_event_irq_army.png"
+		texturefile = "gfx/event_pictures/IRQ/report_event_irq_army.png"
 	}
 	spriteType = {
 		name = "GFX_report_event_IRQ_kurds"
-		texturefile = "gfx/event_pictures/report_event_irq_kurds.png"
+		texturefile = "gfx/event_pictures/IRQ/report_event_irq_kurds.png"
 	}
 	spriteType = {
 		name = "GFX_report_event_IRQ_saddam"
-		texturefile = "gfx/event_pictures/report_event_saddam_mural.png"
+		texturefile = "gfx/event_pictures/IRQ/report_event_saddam_mural.png"
 	}
 	spriteType = {
 		name = "GFX_report_event_IRQ_kurds2"
-		texturefile = "gfx/event_pictures/report_event_rebelscrushed.png"
+		texturefile = "gfx/event_pictures/IRQ/report_event_rebelscrushed.png"
 	}
 	spriteType = {
 		name = "GFX_report_event_IRQ_kuwait"
-		texturefile = "gfx/event_pictures/report_event_kuwait.png"
+		texturefile = "gfx/event_pictures/IRQ/report_event_kuwait.png"
 	}
 	spriteType = {
 		name = "GFX_report_event_IRQ_aircraft"
-		texturefile = "gfx/event_pictures/report_event_IRQ_aircraft.dds"
+		texturefile = "gfx/event_pictures/IRQ/report_event_IRQ_aircraft.dds"
 	}
 	spriteType = {
 		name = "GFX_report_event_IRQ_aircraft_parts"
-		texturefile = "gfx/event_pictures/report_event_IRQ_aircraft_parts.dds"
+		texturefile = "gfx/event_pictures/IRQ/report_event_IRQ_aircraft_parts.dds"
 	}
 	spriteType = {
 		name = "GFX_report_event_IRQ_aircraft_sand"
-		texturefile = "gfx/event_pictures/report_event_IRQ_aircraft_sand.dds"
+		texturefile = "gfx/event_pictures/IRQ/report_event_IRQ_aircraft_sand.dds"
 	}
 	spriteType = {
 		name = "GFX_report_event_IRQ_aircraft_yugo"
-		texturefile = "gfx/event_pictures/report_event_IRQ_aircraft_yugo.dds"
+		texturefile = "gfx/event_pictures/IRQ/report_event_IRQ_aircraft_yugo.dds"
 	}
 	spriteType = {
 		name = "GFX_report_event_iraq_chemical_weapons"
-		texturefile = "gfx/event_pictures/report_event_iraq_chemical_weapons.dds"
+		texturefile = "gfx/event_pictures/IRQ/report_event_iraq_chemical_weapons.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_IRQ_army_2"
+		texturefile = "gfx/event_pictures/IRQ/report_event_IRQ_army_2.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_IRQ_baghdad_metro"
+		texturefile = "gfx/event_pictures/IRQ/report_event_IRQ_baghdad_metro.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_IRQ_protest"
+		texturefile = "gfx/event_pictures/IRQ/report_event_IRQ_protest.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_IRQ_basra"
+		texturefile = "gfx/event_pictures/IRQ/report_event_IRQ_basra.dds"
 	}
 	
 	# VIN #

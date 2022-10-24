@@ -21,6 +21,14 @@ if = {
 		carrier_hull_1960 = 1
 	}
 }
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		recon_vehicle_1960 = 1
+	}
+}
 
 recruit_character = BRA_fernando_henrique
 

@@ -12,6 +12,10 @@ equipments = {
 		sprite = medium_plane
 		air_map_icon_frame = 12
 
+		allow_mission_type = {
+			paradrop
+			air_supply
+		}
 		
 		interface_category = interface_category_air
 		

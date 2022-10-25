@@ -7,7 +7,7 @@ characters = {
 				large = "gfx/leaders/Africa/isaias_afwerki.dds"
 			}
 			army = {
-				large = "gfx/leaders/SOV/isaias_afwerki.dds"
+				large = "gfx/leaders/Africa/isaias_afwerki.dds"
 			}
 		}
 		country_leader = {

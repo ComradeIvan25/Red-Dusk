@@ -20,7 +20,8 @@ country_event = {
 		name = ethiopia_mod.1.a
 		add_stability = -0.30
 		add_war_support = -0.50
-		country_event = {id = ethiopia_mod.2}
+		country_event = {id = ethiopia_mod.2 days = 2}
+		
 		ai_chance = {
 		factor = 100
 		}
@@ -41,23 +42,40 @@ country_event = {
 		name = ethiopia_mod.2.a
 		ETV = {
 		transfer_state = 839
-		add_state_core = 839
-		transfer_state = 843
 		add_state_core = 843
-		transfer_state = 842
 		add_state_core = 842
 		transfer_state = 837
-		add_state_core = 837
-		transfer_state = 838
 		add_state_core = 838
-		
+			load_oob = ETV_rebellion
 			declare_war_on = {
 				target = ETH
-				type = topple_government
+				type = annex_everything
 			}
 		}
 		ai_chance = {
 		factor = 100
 		}
 	}
-}
+	
+			#rebel time#
+	option = {
+		name = ethiopia_mod.2.b
+		ETV = {
+		transfer_state = 839
+		add_state_core = 843
+		add_state_core = 842
+		transfer_state = 837
+		add_state_core = 838
+			load_oob = ETV_rebellion
+			declare_war_on = {
+				target = ETH
+				type = annex_everything
+			}
+			
+		}
+		ETV = {change_tag_from = ETH }
+		ai_chance = {
+		factor = 100
+		}
+	}
+}		

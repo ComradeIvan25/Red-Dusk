@@ -21,7 +21,6 @@ division_template = {
 	regiments = {
 		main_battle_tank_armor = { x = 0 y = 0 }
 		infantry_unit = { x = 1 y = 0 }
-		infantry_unit = { x = 1 y = 1 }
 
 	}
 	priority = 2
@@ -119,7 +118,7 @@ units = {
 			}
 			location = 13250
 			division_template = "Armored Division"		# Armored Division
-			start_experience_factor = 0.3
+			start_experience_factor = 0.2
 			start_equipment_factor = 0.5
 
 		}
@@ -131,7 +130,7 @@ units = {
 			}
 			location = 12766
 			division_template = "Armored Division"		# Armored Division
-			start_experience_factor = 0.3
+			start_experience_factor = 0.2
 			start_equipment_factor = 0.5
 
 		}

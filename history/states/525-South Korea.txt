@@ -8,6 +8,8 @@ state=
 	history=
 	{
 		owner = SKR
+		add_core_of = SKR
+        add_core_of = KOR
 		buildings = {
 			infrastructure = 2
 			air_base = 10
@@ -27,6 +29,7 @@ state=
 		}
 
 		add_core_of = SKR
+        add_core_of = KOR
 
 	}
 	provinces={

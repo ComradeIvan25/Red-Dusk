@@ -363,7 +363,8 @@
  
  JAP_article_9_name:0 "Article 9"
  
- KOR_usa_embargo_name:0 "USA embargo"
+ KOR_usa_embargo_name:0 "Embargo"
+ KOR_songun_name:0 "Songun"
  # SOV #
 
  SOV_design_bureau_morozov:0 "Morozov Design Bureau"

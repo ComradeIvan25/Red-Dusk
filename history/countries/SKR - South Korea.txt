@@ -6,6 +6,9 @@ set_convoys = 50
 
 recruit_character = SKR_kim_dae-jung
 
+set_war_support = 0.4
+set_stability = 0.8
+
 add_ideas = usa_aligned_nation
 
 set_politics = {

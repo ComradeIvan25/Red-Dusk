@@ -491,4 +491,9 @@ spriteTypes = {
 		name = "GFX_idea_BUR_internal_conflict"
 		texturefile = "gfx/interface/ideas/BUR_civil_conflict.png"
 	}
+	#DPRK
+	spriteType = {
+		name = "GFX_idea_KOR_songun"
+		texturefile = "gfx/interface/ideas/KOR_songun.png"
+	}
 }

@@ -58,6 +58,8 @@ diplomatic_relation = {
 	active = yes
 }
 
+set_convoys = 30
+
 recruit_character = VIN_le_kha_phieu
 recruit_character = VIN_le_kha_phieu_1
 recruit_character = VIN_phung_quang_thanh
@@ -74,10 +76,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
-	fascism = 0
-	communism = 90
-	neutrality = 5
+	democratic = 10
+	fascism = 5
+	communism = 85
+	neutrality = 0
 }
 
 # Naval Variants #

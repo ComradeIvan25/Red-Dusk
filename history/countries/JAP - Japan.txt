@@ -5,7 +5,7 @@ set_war_support = 0.8
 
 set_research_slots = 4
 
-set_convoys = 400
+set_convoys = 200
 
 recruit_character = JAP_keizō_obuchi
 recruit_character = JAP_yoshiro_mori
@@ -23,5 +23,8 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 100
+	democratic = 79
+        fascism = 18
+        neutrality = 3
+        
 }

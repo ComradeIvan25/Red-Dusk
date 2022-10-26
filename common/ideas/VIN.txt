@@ -137,9 +137,13 @@ ideas = {
 			}
 
 			modifier = {
-				army_core_defence_factor = 0.1
+				army_core_defence_factor = 0.12
 				defensive_war_stability_factor = 0.2
 				offensive_war_stability_factor = 0.2
+                                resistance_growth_on_our_occupied_states = 0.2
+                                out_of_supply_factor = -0.2
+                                compliance_growth_on_our_occupied_states = -0.2
+                                resistance_target_on_our_occupied_states = 0.2
 			}
 		}
 

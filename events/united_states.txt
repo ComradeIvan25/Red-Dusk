@@ -60,7 +60,7 @@ country_event = { #The Outcome of 1992#
 }
 
 country_event = { #The “Uneasy” ‘90s?#
-	id = usa.4
+	id = usa_intro.4
 	title = usa_intro.4.t
 	desc = usa_intro.4.d
 	picture = GFX_report_event_USA_90s

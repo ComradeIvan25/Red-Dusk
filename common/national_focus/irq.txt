@@ -10,7 +10,7 @@ focus_tree = {
 		}
 	}
 
-	continuous_focus_position = { x = 2900 y = 900 }
+	continuous_focus_position = { x = 2000 y = 1200 }
 	
 	default = no
 	focus = {
@@ -2215,6 +2215,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_ideas = IRQ_kurdish_agriculture_idea
 		}
 	}
 
@@ -2377,7 +2378,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_rebuild_destroyed_infrastructure
-		#icon = GFX_focus_IRQ_rebuild_destroyed_infra
+		icon = GFX_focus_IRQ_rebuild_destroyed_infra
 		x = 4
 		y = 1
 
@@ -2793,6 +2794,9 @@ focus_tree = {
 					modifier = IRQ_kurdish_autonomy
 				}
 			}
+			IRQ = {
+				country_event = irq.25
+			}
 		}
 	}
 
@@ -2839,7 +2843,7 @@ focus_tree = {
 	focus = {
 		id = IRQ_bolster_military
 		#icon = 
-		x = 35
+		x = 36
 		y = 2
 
 		cost = 4
@@ -2857,7 +2861,7 @@ focus_tree = {
 	focus = {
 		id = IRQ_rebuild_iraqi_navy
 		#icon = 
-		x = -4
+		x = -5
 		y = 2
 
 		prerequisite = {focus = IRQ_bolster_military}
@@ -2943,7 +2947,15 @@ focus_tree = {
 		ai_will_do = {
 		}
 
+		bypass = {
+			has_completed_focus = IRQ_grant_partial_autonomy
+		}
+
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = IRQ_no-fly_zones
+				add_idea = IRQ_no-fly_zones_2
+			}
 		}
 	}
 
@@ -2975,19 +2987,146 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			swap_ideas = {
+				remove_idea = IRQ_destroyed_air_force
+				add_idea = IRQ_destroyed_air_force_2
+			}
 		}
 	}
 
 	focus = {
-		id = IRQ_yugo_mechanics
+		id = IRQ_we_rule_skies
 		#icon = 
-		x = -1
+		x = -2
 		y = 1
 
 		prerequisite = {focus = IRQ_construct_air_defenses}
+		mutually_exclusive = {focus = IRQ_operations_in_shade}
 		relative_position_id = IRQ_construct_air_defenses
 
-		cost = 4
+		cost = 3
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = IRQ_destroyed_air_force_2
+				add_idea = IRQ_destroyed_air_force_rule_1
+			}
+		}
+	}
+
+	focus = {
+		id = IRQ_legacy_mohammed_rayyan
+		#icon = 
+		x = 0
+		y = 1
+
+		prerequisite = {focus = IRQ_we_rule_skies}
+		relative_position_id = IRQ_we_rule_skies
+
+		cost = 5
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = IRQ_destroyed_air_force_rule_1
+				add_idea = IRQ_destroyed_air_force_rule_2
+			}
+		}
+	}
+
+	focus = {
+		id = IRQ_regular_sorties
+		#icon = 
+		x = 0
+		y = 1
+
+		prerequisite = {focus = IRQ_legacy_mohammed_rayyan}
+		relative_position_id = IRQ_legacy_mohammed_rayyan
+
+		cost = 8
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			remove_ideas = IRQ_destroyed_air_force_rule_2
+		}
+	}
+
+	focus = {
+		id = IRQ_operations_in_shade
+		#icon = 
+		x = 2
+		y = 1
+
+		prerequisite = {focus = IRQ_construct_air_defenses}
+		mutually_exclusive = {focus = IRQ_we_rule_skies}
+		relative_position_id = IRQ_construct_air_defenses
+
+		cost = 3
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = IRQ_destroyed_air_force_2
+				add_idea = IRQ_destroyed_air_force_shade_1
+			}
+		}
+	}
+
+	focus = {
+		id = IRQ_soviet_training
+		#icon = 
+		x = 0
+		y = 1
+
+		prerequisite = {focus = IRQ_operations_in_shade}
+		relative_position_id = IRQ_operations_in_shade
+
+		cost = 8
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = IRQ_destroyed_air_force_shade_1
+				add_idea = IRQ_destroyed_air_force_shade_2
+			}
+			air_experience = 25
+		}
+	}
+
+	focus = {
+		id = IRQ_desert_camouflage
+		#icon = 
+		x = 1
+		y = 2
+
+		prerequisite = {focus = IRQ_operations_in_shade}
+		prerequisite = {focus = IRQ_lessons_from_desert_storm}
+		relative_position_id = IRQ_operations_in_shade
+
+		cost = 6
+		ai_will_do = {
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = IRQ_aircraft_acquisition
+		#icon = 
+		x = 2
+		y = 1
+
+		prerequisite = {focus = IRQ_we_rule_skies focus = IRQ_operations_in_shade}
+		relative_position_id = IRQ_we_rule_skies
+
+		cost = 8
 		ai_will_do = {
 		}
 
@@ -2995,23 +3134,6 @@ focus_tree = {
 			YUG = {
 				country_event = irq.11
 			}
-		}
-	}
-
-	focus = {
-		id = IRQ_pressure_iran
-		#icon = 
-		x = 1
-		y = 1
-
-		prerequisite = {focus = IRQ_construct_air_defenses}
-		relative_position_id = IRQ_construct_air_defenses
-
-		cost = 5
-		ai_will_do = {
-		}
-
-		completion_reward = {
 			PER = {
 				country_event = irq.7
 			}
@@ -3021,7 +3143,7 @@ focus_tree = {
 	focus = {
 		id = IRQ_reform_iraqi_army
 		#icon = 
-		x = 3
+		x = 4
 		y = 1
 
 		prerequisite = {focus = IRQ_bolster_military}
@@ -3038,9 +3160,26 @@ focus_tree = {
 	}
 
 	focus = {
+		id = IRQ_increase_monetary_incentives
+		#icon = 
+		x = 0
+		y = 1
+
+		prerequisite = {focus = IRQ_reform_iraqi_army}
+		relative_position_id = IRQ_reform_iraqi_army
+
+		cost = 5
+		ai_will_do = {
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
 		id = IRQ_prioritise_republican_guard
 		#icon = 
-		x = 5
+		x = 6
 		y = 1
 
 		prerequisite = {focus = IRQ_bolster_military}
@@ -3066,13 +3205,30 @@ focus_tree = {
 	}
 
 	focus = {
+		id = IRQ_loyal_army_of_saddam
+		#icon = 
+		x = 0
+		y = 1
+
+		prerequisite = {focus = IRQ_prioritise_republican_guard}
+		relative_position_id = IRQ_prioritise_republican_guard
+
+		cost = 5
+		ai_will_do = {
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
 		id = IRQ_lessons_from_desert_storm
 		#icon = 
 		x = 1
 		y = 1
 
-		prerequisite = {focus = IRQ_reform_iraqi_army focus = IRQ_prioritise_republican_guard}
-		relative_position_id = IRQ_reform_iraqi_army
+		prerequisite = {focus = IRQ_increase_monetary_incentives focus = IRQ_loyal_army_of_saddam}
+		relative_position_id = IRQ_increase_monetary_incentives
 
 		cost = 4
 		ai_will_do = {

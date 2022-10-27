@@ -581,3 +581,29 @@ country_event = {
 		add_stability = 0.05
 	}
 }
+#happy kurds = no no-fly zone#
+country_event = {
+	id = irq.25
+	title = irq.25.t
+	desc = irq.25.d
+	picture = GFX_report_event_IRQ_coalition_air_force
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq.25.a
+
+		if = {
+			limit = {
+				has_idea = IRQ_no-fly_zones
+			}
+			remove_ideas = IRQ_no-fly_zones
+		}
+		else_if = {
+			limit = {
+				has_idea = IRQ_no-fly_zones_2
+			}
+			remove_ideas = IRQ_no-fly_zones_2
+		}
+	}
+}

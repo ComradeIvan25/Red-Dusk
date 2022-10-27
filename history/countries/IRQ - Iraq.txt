@@ -55,7 +55,7 @@ add_ideas = {
 
 add_ideas = IRQ_western_embargo_1
 add_ideas = IRQ_kurdish_rebels
-add_ideas = IRQ_disorganized_army
+add_ideas = IRQ_broken_army_1
 add_ideas = IRQ_destroyed_air_force
 add_ideas = IRQ_no-fly_zones
 add_ideas = IRQ_strained_infrastructure

@@ -56,7 +56,7 @@ bookmarks = {
 			ideas = {
 				IRQ_western_embargo_1
 				IRQ_kurdish_rebels
-				IRQ_disorganized_army
+				IRQ_broken_army_1
 			}
 			focuses = {
 				IRQ_dreams_of_a_united_arab_nation

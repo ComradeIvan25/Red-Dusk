@@ -13,7 +13,6 @@ scripted_gui = {
 				has_global_flag = SAF_war
 			}
 		}
-		
 		triggers = {
 			Super_Event_Image_Yugo_War_visible = {
 				has_global_flag = YUG_War

@@ -227,6 +227,10 @@ spriteTypes = {
 		name = "GFX_report_event_IRQ_basra"
 		texturefile = "gfx/event_pictures/IRQ/report_event_IRQ_basra.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_IRQ_coalition_air_force"
+		texturefile = "gfx/event_pictures/IRQ/report_event_IRQ_coalition_air_force.dds"
+	}
 	
 	# VIN #
 	spriteType = {

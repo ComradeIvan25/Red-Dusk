@@ -1590,7 +1590,7 @@ focus_tree = {
 	
 	focus = {
 		id = IRQ_erasing_assads_legacy
-		icon = GFX_focus_IRQ_great_iraq 
+		icon = GFX_focus_IRQ_erasing_assads_legacy 
 		x = 1
 		y = 2
 		relative_position_id = IRQ_proclaim_uar
@@ -1799,6 +1799,9 @@ focus_tree = {
 		continue_if_invalid = no
 		completion_reward = {
 			add_war_support = 0.15
+			IRQ = {
+				add_opinion_modifier = { target = ISR modifier = nonexistant_relations_opinion }
+			}
 		}
 	}
 	
@@ -2083,11 +2086,12 @@ focus_tree = {
 			}
 			else_if = {
 				limit = {has_completed_focus = IRQ_dreams_of_a_united_arab_nation}
-				set_country_flag = uar_invade_sauds
+				
 			}
-			add_political_power = 50
+			add_war_support = 0.30
+			add_stability = 0.30
 			
-			#TODO Uar will get more focuses involving invading saudis, yemen, oman, qatar , bahrain , UAE and yemen
+			#TODO add ending event for UAR
 		}
 	}
 
@@ -2373,7 +2377,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_rebuild_destroyed_infrastructure
-		#icon =
+		#icon = GFX_focus_IRQ_rebuild_destroyed_infra
 		x = 4
 		y = 1
 

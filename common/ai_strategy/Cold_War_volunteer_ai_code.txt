@@ -44,3 +44,44 @@ SOV_help_COG_win_war = {
 		value = 50
 	}
 }
+
+# make ussr and cuba want to send stuff to the ethiopia
+SOV_help_ETH_win_war = {
+	allowed = {
+		original_tag = SOV
+	}
+	enable = {
+		ETH = { has_war_with = ERI } 	
+		}
+	abort = {
+		NOT = {	
+			ETH = { has_war_with = ERI } 
+		}
+	}
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = ETH
+		value = 50
+	}
+}
+ 
+CUB_help_ETH_win_war = {
+	allowed = {
+		original_tag = CUB
+	}
+	enable = {
+		ETH = { has_war_with = ERI } 	
+		}
+	abort = {
+		NOT = {	
+			ETH = { has_war_with = ERI } 
+		}
+	}
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = ETH
+		value = 50
+	}
+}

@@ -2468,6 +2468,83 @@ on_actions = {
 						
 					}
 					
+					### ETHIOPIA VS REBELS - ETHIOPIA WINS ###
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = ETH
+							}
+							ROOT = {
+								original_tag = ETV
+							}
+						}
+
+						ETH = {
+							white_peace = ROOT
+						}
+	
+						ETH = {
+							annex_country = {
+							target = ETV
+							transfer_troops = no
+							}
+							#news_event = {id = old_times_news.43}
+						}
+						
+					}
+					
+					### ETHIOPIA VS REBELS - REBELS WINS ###
+					if = {   
+						limit = {
+							FROM = {
+								OR = {
+								original_tag = ETV
+								original_tag = ERI
+								}
+							}
+							ROOT = {
+								original_tag = ETH
+							}
+						}
+
+						FROM = {
+							white_peace = ROOT
+						}
+	
+						ETV = {
+							annex_country = {
+							target = ETH
+							transfer_troops = no
+							}
+							#news_event = {id = old_times_news.40}
+							set_cosmetic_tag = ETV_transition_gov
+							
+							add_state_core = 839
+							add_state_core = 843
+							add_state_core = 842
+							add_state_core = 837
+							add_state_core = 838
+							add_state_core = 902
+							add_state_core = 841
+							add_state_core = 840
+							add_state_core = 271
+							add_state_core = 836
+							add_state_core = 835
+							
+
+							set_portraits = {
+								character = ETV_collective_leadership
+								civilian = { large ="gfx/leaders/Africa/ETV_collective_leadership_win.dds" }
+							}
+							
+						}
+						
+						USA = {
+						proxy_war_won_by_USA = yes
+						}
+						
+					}
+					
 					### SECOND CONGO WAR ###
 					
 					### RCD - K VS Congo - RCD - K  WINS ###

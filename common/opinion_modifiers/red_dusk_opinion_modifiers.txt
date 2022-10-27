@@ -43,4 +43,8 @@ opinion_modifiers = {
 	IRQ_dogs_of_the_west_opinion = {
 		value = -75
 	}
+	
+	nonexistant_relations_opinion = {
+		value = -100
+	}
 }

@@ -65,3 +65,6 @@
  RWA_occupied_DEF:0 "the Transitionally Occupied Government of Rwanda"
  BRD_occupied:0 "Occupied Burundi"
  BRD_occupied_DEF:0 "the Transitionally Occupied Government of Burundi" 
+ 
+ ETV_transition_gov:0 "Transitional Government of Ethiopia"
+ ETV_transition_gov_DEF:0 "the Transitional Government of Ethiopia"

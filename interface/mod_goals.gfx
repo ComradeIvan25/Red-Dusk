@@ -815,6 +815,14 @@ spriteTypes = {
 		name = "GFX_focus_IRQ_baghdad_metro"
 		texturefile = "gfx/interface/goals/focus_IRQ_baghdad_metro.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_rebuild_destroyed_infra"
+		texturefile = "gfx/interface/goals/focus_IRQ_rebuild_destroyed_infra.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_erasing_assads_legacy"
+		texturefile = "gfx/interface/goals/focus_IRQ_erasing_assads_legacy.png"
+	}
 	
    ###SAF###
 

@@ -247,3 +247,8 @@ BRD_occupied = {
 	color = rgb { 75 84 113 }
 	color_ui = rgb { 80 84 113 }
 }
+
+ETV_transition_gov = {
+	color = rgb { 168 138 136 }
+	color_ui = rgb { 148 132 116 }
+}

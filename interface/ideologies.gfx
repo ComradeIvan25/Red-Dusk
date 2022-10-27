@@ -28,4 +28,34 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/democratic_socialism.dds"	
 }
 
+	SpriteType = {
+		name = "GFX_ideology_monarchy"
+		texturefile = "gfx/interface/ideologies/monarchy.dds"	
+}
+
+	SpriteType = {
+		name = "GFX_ideology_military_junta"
+		texturefile = "gfx/interface/ideologies/military_junta.dds"	
+}
+
+	SpriteType = {
+		name = "GFX_ideology_social_democracy"
+		texturefile = "gfx/interface/ideologies/social_democracy.dds"	
+}
+
+	SpriteType = {
+		name = "GFX_ideology_anarchist_communism"
+		texturefile = "gfx/interface/ideologies/anarchist.dds"	
+}
+
+	SpriteType = {
+		name = "GFX_ideology_anarchism"
+		texturefile = "gfx/interface/ideologies/anarchist.dds"	
+}
+
+	SpriteType = {
+		name = "GFX_ideology_collapsed_state"
+		texturefile = "gfx/interface/ideologies/anarchist.dds"	
+}
+
 

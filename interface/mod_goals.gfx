@@ -823,6 +823,14 @@ spriteTypes = {
 		name = "GFX_focus_IRQ_erasing_assads_legacy"
 		texturefile = "gfx/interface/goals/focus_IRQ_erasing_assads_legacy.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_proclaim_united_arab_republic"
+		texturefile = "gfx/interface/goals/focus_IRQ_proclaim_united_arab_republic.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_proclaim_greater_iraq"
+		texturefile = "gfx/interface/goals/focus_IRQ_proclaim_greater_iraq.png"
+	}
 	
    ###SAF###
 

@@ -17,6 +17,11 @@ if = {
 
 recruit_character = AFG_mullah_omar
 
+declare_war_on = {
+	target = NRO
+	type = topple_government
+}
+
 set_politics = {
 	ruling_party = islamism
 	last_election = "1936.1.1"

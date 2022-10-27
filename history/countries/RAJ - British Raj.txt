@@ -33,16 +33,16 @@ recruit_character = RAJ_atal_vajpayee
 add_ideas = ussr_aligned_nation
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 17
+	democratic = 63
 	fascism = 2
 	communism = 1
-	neutrality = 80
+	neutrality = 35
 }
 
 # Naval Variants #

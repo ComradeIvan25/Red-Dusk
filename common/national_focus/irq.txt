@@ -967,7 +967,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_greater_iraq
-		icon = GFX_focus_IRQ_great_iraq 
+		icon = GFX_focus_IRQ_proclaim_greater_iraq 
 		x = 0
 		y = 1
 
@@ -1423,7 +1423,7 @@ focus_tree = {
 	
 	focus = {
 		id = IRQ_proclaim_uar
-		icon = GFX_focus_IRQ_great_iraq 
+		icon = GFX_focus_IRQ_proclaim_united_arab_republic 
 
 		x = 5
 		y = 1

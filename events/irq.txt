@@ -607,3 +607,39 @@ country_event = {
 		}
 	}
 }
+
+#A strong nation under saddam#
+country_event = {
+	id = irq.26
+	title = irq.26.t
+	desc = irq.26.d
+	picture = GFX_report_event_IRQ_saddam
+	
+	is_triggered_only = yes
+	
+	#bruh#
+	option = {
+		name = irq.26.a
+		add_political_power = 15
+		add_stability = 0.15
+		
+	}
+}
+
+#Start of the first All-Arab Congress#
+country_event = {
+	id = irq.27
+	title = irq.27.t
+	desc = irq.27.d
+	picture = GFX_report_event_IRQ_congress
+	
+	is_triggered_only = yes
+	
+	#bruh#
+	option = {
+		name = irq.27.a
+		add_political_power = 15
+		add_stability = 0.15
+		
+	}
+}

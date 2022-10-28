@@ -445,8 +445,8 @@
  irq.14.d:0 "After our victory against the Iranians, we have acquired and annexed the bordering states.To truly integrate the new states into the Iraqi culture  and distance them from their past we will rename the states to better fit the nation."
  irq.14.a:0 "Approved!"
  irq.15.t:0 "Renewed Resistance Against Saddam"
- irq.15.d:0 ""
- irq.15.a:0 "bruh"
+ irq.15.d:0 "Unfortunately within the first hours of our new nation, multiple bombs have exploded with a pack of rebels calling themselves "United Middle East Liberation Organization"have announced armed opposition.\n\nIts suspected to be funded by NATO by combining various rebel groups into one umbrella organization that is composed of multiple rebel fighters with one goal; deposing our regime."
+ irq.15.a:0 "They will be dealt with."
  irq.16.t:0 "Damascus Situation Report"
  irq.16.d:0 "[GetDateText] TOP SECRET , EYES ONLY\n\nWith the war against Syria's forces ending and country's subsuquent capitulation, the resistance against the Iraqi authorities had been united under their mutual hatred for Saddam Hussein\n\nAfter engaging in multiple battles (see page 15) most of the rebel forces have been cornered into Damascus, this prompted a idea from the Head of the Anti-Resistance Activities; Ali Hassan al-Majid, a infamous man in the goverment getting the nickname "Chemical Ali" after using Chemical Weaponery against the Kurdish Rebels.Ali Hassan al-Majid proposes that by using Chlorine Gas concentrated in Damascus we can oblirate the rebels in the city while having minimal if not any casualties on our side.\n\nOf course while this plan might cause mass civilian casualties in the wastly populated city and international backlash, it will be the most cost-efficient plan to end the rebels and a fierce warning to the potential future rebels that dare ever pose a threat to us."
  irq.16.a:0 "PLAN APPROVED"
@@ -478,7 +478,9 @@
  irq.25.t:0 "Quiet Skies"
  irq.25.d:0 "Since the early 1990s, our own skies have not been safe for our air force. Under the pretense of protecting ethnic minorities such as the Kurds, a coalition of western nations have been regularly conducting patrols and strikes over our territory, establishing an effective no-fly zone over large sections of Iraq that prevents any large-scale maneuvers against the Kurdish insurgency in the north.\n\nHowever, the western public has grown weary of this operation, and it seems that our recent reconciliatory actions towards the Kurds are the final nail in the coffin. Earlier today, several anonymous sources have revealed that the operation has effectively ended, with a large majority of coalition aircraft being quietly withdrawn back to their home bases. While there has been no official announcement from the United States or its allies, it is safe to say that their rule over our skies has now ended."
  irq.25.a:0 "Thank Allah for that..."
-
+ irq.26.t:0 "A strong nation under Saddam"
+ irq.26.d:0 "They called us a "monster state",a "genocidal ethno-state".\n\nThey unleashed their media, their massive never ending propaganda machine spanning across the globe using it to target us in every turn.\n\nThey funded the rebels that wanted get rid of any stability in the nation, they wanted to see people of Iraq suffer... they did everything to see the downfall of us...\n\n and yet, we survived.\n\nUnder the Saddam Hussein's efforts, the country thrived and slowly stabilized.The so called "liberators of Iraq" rebels faced defeats every day by the glorious All-Iraqi Army and collapsed.And at last the guns fell silent,for there was stability in the lands of Greater Iraq. Iraqi people will definitly never forget about Saddam Hussein."
+ irq.26.a:0 "Finally, some stability thanks to our great leader !"
  #SAF#
 
  saf.1.t:0 "When all is Lost..."

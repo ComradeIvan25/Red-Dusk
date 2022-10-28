@@ -1804,6 +1804,37 @@ irq_category_a_new_state = {
 		}
 	}
 	
+	IRQ_pan_arab_finish_monetary_reforms = {
+
+		icon = GFX_decision_generic_political_discourse
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			NOT = {has_idea = IRQ_monetary_reforms}
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+		}
+		days_remove = 15
+		
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = {
+			add_to_variable = {irq_uar_stability_monthly_variable = 5}
+			custom_effect_tooltip = irq_stability_monthly_increased_by_5
+			add_to_variable = {irq_centralization_progress_monthly_variable = 2}
+			custom_effect_tooltip = irq_centralization_monthly_increased_by_2
+		}
+	}
+	
 	IRQ_pan_arab_baghdad_damascus_highway_project = {
 
 		icon = GFX_decision_build_highway

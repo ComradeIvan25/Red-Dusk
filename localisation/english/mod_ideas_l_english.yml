@@ -260,6 +260,8 @@
  IRQ_increased_construction_name_desc:0 ""
  IRQ_kurdish_agriculture_idea_name:0 "Kurdish Agriculture"
  IRQ_kurdish_agriculture_idea_name_desc:0 "Kurdish territories contain valuable farmland, allowing us to feed large quantities of our population without relying on foreign imports, which can be easily swayed by politics."
+ IRQ_monetary_reforms_name:0 "Monetary Reforms"
+ IRQ_monetary_reforms_name_desc:0 "Transitioning the currency into the new Unified Arab Dinar will take time and resources."
  
  SIA_rama_ix_name:0 "Rama IX"
  SIA_rama_ix_name_desc:0 "Long Live His Majesty King Rama IX"

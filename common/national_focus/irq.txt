@@ -1221,7 +1221,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.10
 
-			
+			country_event = {id=irq.26}
 			swap_ideas = {
 			remove_idea = IRQ_saddams_cult_of_personality
 			add_idea = IRQ_saddams_cult_of_personality_2
@@ -1529,6 +1529,11 @@ focus_tree = {
 				ideology = communism
 				popularity = 0.35
 			}
+				set_party_name = {
+					ideology = communism
+					long_name = IRQ_communism_party_baath_long
+					name = IRQ_communism_party_baath
+				}
 		}
 	}
 	
@@ -1557,6 +1562,11 @@ focus_tree = {
 			remove_idea = IRQ_an_united_arab_nation_2
 			add_idea = IRQ_an_united_arab_nation_3
 			}
+			add_timed_idea = {
+			idea = IRQ_monetary_reforms
+			days = 100
+			}
+			unlock_decision_tooltip = IRQ_pan_arab_finish_monetary_reforms
 		}
 	}
 	
@@ -2551,8 +2561,7 @@ focus_tree = {
 
 		prerequisite = { focus = IRQ_the_kurdish_issue }
 		available = {
-			has_country_flag = IRQ_kurds
-                }
+        }
 		mutually_exclusive = { focus = IRQ_enter_negotiations }
 		relative_position_id = IRQ_the_kurdish_issue
 		
@@ -2689,11 +2698,13 @@ focus_tree = {
 
 		prerequisite = {focus = IRQ_use_air focus = IRQ_defang_resistance}
 		available = {
-			custom_trigger_tooltip = {
-			tooltip = IRQ_kurd_resistance_bar_is_100
-			check_variable = {kurd_resistance_variable > 99}
+			OR = {
+				custom_trigger_tooltip = {
+				tooltip = IRQ_kurd_resistance_bar_is_100
+				check_variable = {kurd_resistance_variable > 99}
+				}
+				has_completed_focus = IRQ_defang_resistance
 			}
-
 		}
 		relative_position_id = IRQ_use_air
 		
@@ -2718,7 +2729,7 @@ focus_tree = {
 				}
 				remove_ideas = IRQ_kurdish_rebels_2
 			}
-			set_country_flag = fixed_kurd
+			set_country_flag = IRQ_kurds_done
 			set_country_flag = nothing
 			IRQ = {
 				country_event = { id = irq.5 }
@@ -2794,6 +2805,7 @@ focus_tree = {
 					modifier = IRQ_kurdish_autonomy
 				}
 			}
+			set_country_flag = IRQ_kurds_done
 			IRQ = {
 				country_event = irq.25
 			}

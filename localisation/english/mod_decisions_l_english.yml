@@ -181,7 +181,9 @@
  IRQ_integrate_deir_az_zur:0 "Integrate Deir-Az-Zur"
  IRQ_integrate_aleppo:0 "Integrate Aleppo"
  IRQ_integrate_damascus:0 "Integrate Damascus"
- 
+ IRQ_integrate_jordan:0 "Integrate Jordan"
+ IRQ_integrate_lebanon:0 "Integrate Lebanon"
+ IRQ_integrate_palestine:0 "Integrate Palestine"
  
  irq_category_a_new_state:0 "A New State"
  irq_category_a_new_state_desc:0 ""
@@ -203,7 +205,8 @@
  IRQ_pan_arab_integrate_damascus:0 "Integrate Damascus"
  IRQ_pan_arab_integrate_jordan:0 "Integrate Jordan"
  IRQ_pan_arab_integrate_lebanon:0 "Integrate Lebanon"
-
+ IRQ_pan_arab_integrate_palestine:0 "Integrate Palestine"
+ 
  irq_category_kurdish_factions:0 "Kurdish Factions"
  IRQ_kurdish_factions_header:0 "§YKurdish Factions§!"
  IRQ_kurdish_factions_descriptions:0 "Although united in their opposition against us, the Kurdish separatist movement actually consists of multiple different parties, all with slightly different goals and ideologies. By sowing doubt and distrust between them, we can open cracks within their united front, allowing our own allies to begin preparation for our eventual return."

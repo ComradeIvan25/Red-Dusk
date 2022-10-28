@@ -626,7 +626,7 @@ country_event = {
 	}
 }
 
-#Start of the first All-Arab Congress#
+#A proud and unified arab nation#
 country_event = {
 	id = irq.27
 	title = irq.27.t
@@ -640,6 +640,7 @@ country_event = {
 		name = irq.27.a
 		add_political_power = 15
 		add_stability = 0.15
-		
+		custom_effect_tooltip = IRQ_uar_ty_for_playing
+
 	}
 }

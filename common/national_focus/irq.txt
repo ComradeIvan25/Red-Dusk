@@ -1721,11 +1721,25 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			declare_war_on = {
-				type = annex_everything
-				target = JOR
+			custom_effect_tooltip = irq_we_will_attack_jor
+			if = {
+			limit = {has_completed_focus = IRQ_greater_iraq}
+				declare_war_on = {
+					type = annex_everything
+					target = JOR
+				}
+				unlock_decision_tooltip = IRQ_integrate_jordan
 			}
-			unlock_decision_tooltip = IRQ_pan_arab_integrate_jordan
+		
+			else_if = {
+			limit = {has_completed_focus = IRQ_proclaim_uar}
+				declare_war_on = {
+					type = annex_everything
+					target = JOR
+				}
+				unlock_decision_tooltip = IRQ_pan_arab_integrate_jordan
+			}
+
 		}
 	}
 	
@@ -1750,11 +1764,25 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			declare_war_on = {
-				type = annex_everything
-				target = LEB
+			custom_effect_tooltip = irq_we_will_attack_leb
+			if = {
+			limit = {has_completed_focus = IRQ_greater_iraq}
+				declare_war_on = {
+					type = annex_everything
+					target = LEB
+				}
+				unlock_decision_tooltip = IRQ_integrate_lebanon
 			}
-			unlock_decision_tooltip = IRQ_pan_arab_integrate_lebanon
+		
+			else_if = {
+			limit = {has_completed_focus = IRQ_proclaim_uar}
+				declare_war_on = {
+					type = annex_everything
+					target = LEB
+				}
+				unlock_decision_tooltip = IRQ_pan_arab_integrate_lebanon
+			}
+
 		}
 	}
 	
@@ -2096,12 +2124,11 @@ focus_tree = {
 			}
 			else_if = {
 				limit = {has_completed_focus = IRQ_dreams_of_a_united_arab_nation}
-				
+				country_event = {id = irq.27}				
 			}
 			add_war_support = 0.30
 			add_stability = 0.30
-			
-			#TODO add ending event for UAR
+
 		}
 	}
 

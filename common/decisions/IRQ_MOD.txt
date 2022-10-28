@@ -1730,6 +1730,137 @@ irq_category_renewed_resistance = {
 			IRQ_decrease_the_renewed_resistance_idea = yes
 		}
 	}
+	
+	IRQ_integrate_jordan = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+			455 = {
+			resistance < 15
+			}
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+			IRQ = {controls_state = 455}
+		}
+		days_remove = 35
+		modifier {
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 455
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_state_core = 455
+		}
+	}
+	
+	IRQ_integrate_lebanon = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+			553 = {
+			resistance < 15
+			}
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+			IRQ = {controls_state = 553}
+		}
+		days_remove = 35
+		modifier {
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 553
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_state_core = 553
+		}
+	}
+	
+	IRQ_integrate_palestine = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+			PAL = {controls_state = 454}
+		}
+		days_remove = 155
+		modifier {
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 454
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 250
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			annex_country = {
+				target = PAL
+				transfer_troops = yes
+			}				
+			add_state_core = 454
+			add_state_core = 920
+			add_state_core = 914
+			add_state_core = 919
+		}
+	}
 }
 
 irq_category_a_new_state = {
@@ -2422,6 +2553,53 @@ irq_category_a_new_state = {
 		}
 		remove_effect = { 
 			add_state_core = 553
+		}
+	}
+	
+	IRQ_pan_arab_integrate_palestine = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			PAL = {controls_state = 454}
+		}
+		days_remove = 155
+		modifier {
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 454
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 250
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			annex_country = {
+				target = PAL
+				transfer_troops = yes
+			}				
+			add_state_core = 454
+			add_state_core = 920
+			add_state_core = 914
+			add_state_core = 919
 		}
 	}
 }

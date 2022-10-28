@@ -26,7 +26,7 @@ if = {
 set_stability = 0.6
 set_war_support = 0.1
 
-set_convoys = 20
+set_convoys = 300
 
 recruit_character = RAJ_atal_vajpayee
 
@@ -39,10 +39,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 63
-	fascism = 2
-	communism = 1
-	neutrality = 35
+	democratic = 53
+	fascism = 24
+	communism = 14
+	neutrality = 9
 }
 
 # Naval Variants #

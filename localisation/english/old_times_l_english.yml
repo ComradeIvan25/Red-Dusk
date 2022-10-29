@@ -108,6 +108,9 @@
  old_times_news.42.t:0 "[IRQ.getname] tests nuclear bomb"
  old_times_news.42.d:0 ""
  old_times_news.42.a:0 "Another nuclear power enters the stage."
+ old_times_news.43.t:0 "Death of Japanese Prime Minister Keizō Obuchi"
+ old_times_news.43.d:0 ""
+ old_times_news.43.a:0 "Rest in Peace."
  
 ## Flavour News Events ##
  #flavour_news.1.t:0 ##HIDDEN SCRIPTED EVENT##

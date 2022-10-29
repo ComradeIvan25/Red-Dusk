@@ -511,6 +511,23 @@ news_event = {
 	
 }
 
+#Death of Japanese prime minister
+news_event = {
+	id = old_times_news.43
+	title = old_times_news.43.t
+	desc = old_times_news.43.d
+	picture = GFX_death_of_japan_pm
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.43.a
+	}
+	
+}
+
 ### FLAVOUR NEWS EVENTS ###
 
 ## Concorde Trigger (HIDDEN) ##

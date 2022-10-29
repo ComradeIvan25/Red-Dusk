@@ -9,6 +9,7 @@ set_convoys = 200
 
 recruit_character = JAP_keizō_obuchi
 recruit_character = JAP_yoshiro_mori
+recruit_character = JAP_tetsuzo_fuwa
 
 add_ideas = JAP_article_9
 

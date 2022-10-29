@@ -414,5 +414,9 @@ spriteTypes = {
 		name = "GFX_news_nuke"
 		texturefile = "gfx/event_pictures/news_nuke.dds"
 	}
+	spriteType = {
+		name = "GFX_death_of_japan_pm"
+		texturefile = "gfx/event_pictures/news_death_of_obuchi.png"
+	}
 	
 }

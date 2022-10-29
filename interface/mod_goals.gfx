@@ -831,6 +831,18 @@ spriteTypes = {
 		name = "GFX_focus_IRQ_proclaim_greater_iraq"
 		texturefile = "gfx/interface/goals/focus_IRQ_proclaim_greater_iraq.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_prioritise_republican_guard"
+		texturefile = "gfx/interface/goals/focus_IRQ_prioritise_republican_guard.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_bolster_military"
+		texturefile = "gfx/interface/goals/focus_IRQ_bolster_military.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_oil_for_food"
+		texturefile = "gfx/interface/goals/focus_IRQ_oil_for_food.png"
+	}
 	
    ###SAF###
 

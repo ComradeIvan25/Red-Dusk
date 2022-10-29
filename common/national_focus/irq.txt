@@ -2308,7 +2308,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_exploit_oil-food_programme
-		#icon =
+		icon = GFX_focus_IRQ_oil_for_food
 		x = 0
 		y = 1
 
@@ -2468,6 +2468,9 @@ focus_tree = {
 
 		completion_reward = {
 			remove_ideas = IRQ_strained_infrastructure_2
+			IRQ = {
+				country_event = { id = irq.28 }
+			}
 		}
 	}
 
@@ -2881,7 +2884,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_bolster_military
-		#icon = 
+		icon = GFX_focus_IRQ_bolster_military
 		x = 36
 		y = 2
 
@@ -3043,6 +3046,10 @@ focus_tree = {
 		mutually_exclusive = {focus = IRQ_operations_in_shade}
 		relative_position_id = IRQ_construct_air_defenses
 
+		available = {
+			always = no ## Temporary, will be replaced with decision completion check
+		}
+
 		cost = 3
 		ai_will_do = {
 		}
@@ -3104,6 +3111,10 @@ focus_tree = {
 		mutually_exclusive = {focus = IRQ_we_rule_skies}
 		relative_position_id = IRQ_construct_air_defenses
 
+		available = {
+			always = no ## Temporary, will be replaced with decision completion check
+		}
+
 		cost = 3
 		ai_will_do = {
 		}
@@ -3148,11 +3159,12 @@ focus_tree = {
 		prerequisite = {focus = IRQ_lessons_from_desert_storm}
 		relative_position_id = IRQ_operations_in_shade
 
-		cost = 6
+		cost = 5
 		ai_will_do = {
 		}
 
 		completion_reward = {
+			add_ideas = IRQ_desert_camouflage_idea
 		}
 	}
 
@@ -3189,12 +3201,16 @@ focus_tree = {
 		mutually_exclusive = {focus = IRQ_prioritise_republican_guard}
 		relative_position_id = IRQ_bolster_military
 
-		cost = 5
+		cost = 6
 		ai_will_do = {
 		}
 
 		completion_reward = {
 			army_experience = 10
+			swap_ideas = {
+				remove_idea = IRQ_broken_army_1
+				add_idea = IRQ_broken_army_normal_1
+			}
 		}
 	}
 
@@ -3212,12 +3228,16 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = IRQ_broken_army_normal_1
+				add_idea = IRQ_broken_army_normal_2
+			}
 		}
 	}
 
 	focus = {
 		id = IRQ_prioritise_republican_guard
-		#icon = 
+		icon = GFX_focus_IRQ_prioritise_republican_guard
 		x = 6
 		y = 1
 
@@ -3225,7 +3245,7 @@ focus_tree = {
 		mutually_exclusive = {focus = IRQ_reform_iraqi_army}
 		relative_position_id = IRQ_bolster_military
 
-		cost = 5
+		cost = 6
 		ai_will_do = {
 		}
 
@@ -3239,6 +3259,10 @@ focus_tree = {
 					division = "division_template = \"Firqat Alharas Aljumhurii\"start_experience_factor = 0.45 start_equipment_factor = 0.75"
 					owner = IRQ
 				}
+			}
+			swap_ideas = {
+				remove_idea = IRQ_broken_army_1
+				add_idea = IRQ_broken_army_guard_1
 			}
 		}
 	}
@@ -3257,6 +3281,10 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = IRQ_broken_army_guard_1
+				add_idea = IRQ_broken_army_guard_2
+			}
 		}
 	}
 
@@ -3269,12 +3297,27 @@ focus_tree = {
 		prerequisite = {focus = IRQ_increase_monetary_incentives focus = IRQ_loyal_army_of_saddam}
 		relative_position_id = IRQ_increase_monetary_incentives
 
-		cost = 4
+		cost = 6
 		ai_will_do = {
 		}
 
 		completion_reward = {
 			army_experience = 10
+			if = {
+				limit = {
+					has_idea = IRQ_broken_army_normal_2
+				}
+				remove_ideas = IRQ_broken_army_normal_2
+			}
+			else_if = {
+				limit = {
+					has_idea = IRQ_broken_army_guard_2
+				}
+				swap_ideas = {
+					remove_idea = IRQ_broken_army_guard_2
+					add_idea = IRQ_broken_army_guard_final
+				}
+			}
 		}
 	}
 
@@ -3330,7 +3373,7 @@ focus_tree = {
 		prerequisite = {focus = IRQ_expand_domestic_industry}
 		relative_position_id = IRQ_expand_domestic_industry
 
-		cost = 5
+		cost = 6
 		ai_will_do = {
 		}
 

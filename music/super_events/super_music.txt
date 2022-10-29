@@ -5,6 +5,3 @@ music = {
 		factor = 0
 	}
 }
-
-
-

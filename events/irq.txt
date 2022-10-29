@@ -644,3 +644,16 @@ country_event = {
 
 	}
 }
+#The return of electricity#
+country_event = {
+	id = irq.28
+	title = irq.28.t
+	desc = irq.28.d
+	picture = GFX_report_event_IRQ_power_plants
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq.28.a
+	}
+}

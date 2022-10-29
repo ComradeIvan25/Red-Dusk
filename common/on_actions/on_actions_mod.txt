@@ -18,7 +18,7 @@ on_actions = {
 
 		effect = {
 			USA = {	
-				country_event = {id = usa.1}	
+				country_event = {id = usa_intro.1}
 			}
 		}
 

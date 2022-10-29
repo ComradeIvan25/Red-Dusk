@@ -211,8 +211,6 @@
  IRQ_kurds_name_desc:0 "In the northern regions of Iraq, Kurdish rebels have plagued the land for more than two decades with their resistance actions. After our defeats in both the Iran-Iraq War and the Gulf War, the rebels have increased in size and have started to undermine the central government in Baghdad more and more, day by day."
  IRQ_kurds_name_3:0 "Kurdish Separatism"
  IRQ_kurds_name_3_desc:0 "With partial autonomy finally granted, the number of Kurdish rebels has substantially decreased. While separtist sentiments will never be truly gone, we can at least stop worrying about them for the time being."
- IRQ_broken_army_name:0 "A Broken Army"
- IRQ_broken_army_name_desc:0 "During the Gulf War, most of our military assets were destroyed by coalition bombings. Ever since then, our ground forces have never fully recovered, lacking new equipment due to sanctions and being largely filled with demoralised conscripts."
  IRQ_land_of_madness_name:0 "A Land of Madness"
  IRQ_land_of_madness_name_desc:0 ""
  IRQ_uranium_production_1_name:0 "Uranium Production"
@@ -262,7 +260,13 @@
  IRQ_kurdish_agriculture_idea_name_desc:0 "Kurdish territories contain valuable farmland, allowing us to feed large quantities of our population without relying on foreign imports, which can be easily swayed by politics."
  IRQ_monetary_reforms_name:0 "Monetary Reforms"
  IRQ_monetary_reforms_name_desc:0 "Transitioning the currency into the new Unified Arab Dinar will take time and resources."
- 
+ IRQ_broken_army_name:0 "A Broken Army"
+ IRQ_broken_army_name_desc:0 "During the Gulf War, most of our military assets were destroyed by coalition bombings. Ever since then, our ground forces have never fully recovered, lacking new equipment due to sanctions and being largely filled with demoralised conscripts."
+ IRQ_broken_army_final_name:0 "Loyal Republican Guard"
+ IRQ_broken_army_final_name_desc:0 "Our army has largely been sidelined in favour of the Republican Guard, which we rely on to perform significant breakthrough maneuvers in any offensive operation."
+ IRQ_desert_camouflage_idea_name:0 "Camouflaged Ground Forces"
+ IRQ_desert_camouflage_idea_name_desc:0 "By utilising modern desert camouflage techniques, our ground forces are able to significantly reduce their visibility to enemy aircraft."
+
  SIA_rama_ix_name:0 "Rama IX"
  SIA_rama_ix_name_desc:0 "Long Live His Majesty King Rama IX"
  SIA_asean:0 "ASEAN"

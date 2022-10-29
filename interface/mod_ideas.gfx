@@ -187,6 +187,14 @@ spriteTypes = {
 		name = "GFX_idea_IRQ_yugo_aircraft_mechanics_icon"
 		texturefile = "gfx/interface/ideas/IRQ_yugo_aircraft_mechanics.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_IRQ_suppressed_air_force_icon"
+		texturefile = "gfx/interface/ideas/IRQ_suppressed_air_force.png"
+	}
+	spriteType = {
+		name = "GFX_idea_IRQ_kurdish_agriculture_idea_icon"
+		texturefile = "gfx/interface/ideas/IRQ_kurdish_agriculture_idea.png"
+	}
 
 	#GENERIC MIDDLE EAST#
 

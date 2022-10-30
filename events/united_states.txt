@@ -1,6 +1,7 @@
 ﻿add_namespace = usa_intro
 add_namespace = usa_quayle
 add_namespace = usa_bush
+add_namespace = usa_mccain
 add_namespace = usa_help
 
 country_event = { #The State of the Union#
@@ -252,6 +253,7 @@ country_event = { #Election Day...#
 	#republicans win#
 	option = {
 		name = usa_quayle.9.a
+		set_country_flag = rep_win
 		if = {
 		limit = {has_country_flag = bush_for_rep_candicate}
 		custom_effect_tooltip = rep_candicate_will_become_president_on_jan20
@@ -265,6 +267,7 @@ country_event = { #Election Day...#
 	#democrats win#
 	option = {
 		name = usa_quayle.9.b
+		set_country_flag = dem_win
 		if = {
 		limit = {has_country_flag = gore_for_dem_candicate}
 		custom_effect_tooltip = dem_candicate_will_become_president_on_jan20
@@ -274,6 +277,7 @@ country_event = { #Election Day...#
 	#reform win#
 	option = {
 		name = usa_quayle.9.c
+		set_country_flag = reform_win
 		if = {
 		limit = {has_country_flag = trump_for_reform_candicate}
 		custom_effect_tooltip = reform_candicate_will_become_president_on_jan20
@@ -302,15 +306,29 @@ country_event = { #Inauguration#
 	#mkay#
 	option = {
 		name = usa_quayle.10.a
-		load_focus_tree = usa_bush_focus
-		complete_national_focus = USA_bush_bush_in_office
-		retire_country_leader = yes
-		promote_character = USA_george_bush
 		if = {
-			limit = {has_country_flag = bush_for_rep_candicate}
+			limit = {
+				AND = {
+				has_country_flag = bush_for_rep_candicate
+				has_country_flag = rep_win
+				}
+			}
+			load_focus_tree = usa_bush_focus
+			complete_national_focus = USA_bush_bush_in_office
+			retire_country_leader = yes
+			promote_character = USA_george_bush
 		}
 		else_if = {
-			limit = {has_country_flag = mccain_for_rep_candicate}
+			limit = {
+				AND = {
+				has_country_flag = mccain_for_rep_candicate
+				has_country_flag = rep_win
+				}
+			}
+			load_focus_tree = usa_mccain_focus
+			complete_national_focus = USA_mccain_mccain_in_office
+			retire_country_leader = yes
+			promote_character = USA_john_mccain
 		}		
 		else_if = {
 			limit = {has_country_flag = gore_for_dem_candicate}
@@ -450,6 +468,23 @@ country_event = { #Reformation of the Reformists#
 		name = usa_bush.6.a
 	}
 
+}
+
+#MCCAIN#
+
+country_event = { #McCain’s Inauguration#
+	id = usa_mccain.1
+	title = usa_mccain.1.t
+	desc = usa_mccain.1.d
+	picture = GFX_report_event_USA_2000
+	
+	is_triggered_only = yes
+	
+	#k#
+	option = {
+		name = usa_mccain.1.a
+		
+	}
 }
 
  ###SAF NEEDS HELP###

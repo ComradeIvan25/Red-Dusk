@@ -11,7 +11,8 @@
 	}
 	
 	default = no
-	
+	shared_focus = USA_the_giant_wakes_again
+
 	focus = {
 		id = USA_bush_bush_in_office
 		icon = GFX_USA_focus_aftermath_of_uneasy_90s

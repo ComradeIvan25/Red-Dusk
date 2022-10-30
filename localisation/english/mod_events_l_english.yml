@@ -240,9 +240,8 @@
  usa_quayle.10.d:0 "With the date striking 20 january, the new President elected in the 2000 elections will formally take control over the presidency"
  usa_quayle.10.a:0 "We’ll see how this goes"
  
- #usa_bush.0.t:0 "this is a template"
- #usa_bush.0.d:0 "Bush’s Inauguration"
- #usa_bush.0.a:0 "Bush’s Inauguration"
+ ##BUSH##
+ 
  usa_bush.1.t:0 "Bush’s Inauguration"
  usa_bush.1.d:0 "The crowd was restless, the cheers and the cries of joy unrelenting as wave upon wave of Republican came to support their President in the aftermath of a resounding victory; it was hard fought, and there were many roads still to travel, but for the time being, it seemed jubilee was on the agenda rather than worries of the future. The elections were over, and the nation was chomping at the bit to get things swinging with the new President.\n\nIt was a warm enough day, even for January, and the buzzing of the crowd made it seem all that much warmer when George Bush stepped out of the Presidential Limo, Quayle trailing behind, walker in hand, ready to see his successor be sworn in. When they had arrived to the podium, the oath went by with haste, and the newly sworn in Commander in Chief gave his solemn and steadfast remarks on the tremendous occasion.\n\n“I am honored and humbled to stand here, where so many of America's leaders have come before me, and so many will follow. We have a place, all of us, in a long story--a story we continue, but whose end we will not see. It is the story of a new world that became a friend and liberator of the old, a story of a slave-holding society that became a servant of freedom, the story of a power that went into the world to protect but not possess, to defend but not to conquer...”"
  usa_bush.1.a:0 "It is the American story--a story of flawed and fallible people, united across the generations by grand and enduring ideals."
@@ -266,6 +265,13 @@
  usa_bush.7.t:0 "Reformation of the Reformists"
  usa_bush.7.d:0 "The Reform Party was once meant to be an ally of the Democrats, at least on paper once Ross Perot had stepped out of the spotlight; the Reform party would be the body that helped to champion in the new age of Welfare and Progressivism, and yet here they were now. While many in the party had made clear their stances to be fervently in line with Reform and Reform alone, the party had, seemingly become all but a vestige of the Republicans, an interventionist wing of the party that now held effectively a total monopoly on Senate and House support.\n\nWhile some had fled the party’s ranks before the end of the last Congress session, many still remained as part of this new, unofficial “coalition” of Red and Purple, of the Conservatives and the Patriots. Many in the Reform party knew exactly what their chair had signed them up for as part of the House Minority leadership; this was effectively risking the entire party’s existence, and meant that, maybe, they’d not make it past the next electoral cycle, for fear they were becoming part of the Republicans, hut as was said by one representative during an interview on Capitol Hill..."
  usa_bush.7.a:0 "“...But We’ll do what we must, to make Welfare Work!”"
+ 
+ ##MCCAIN##
+ 
+ usa_mccain.1.t:0 "McCain’s Inauguration"
+ usa_mccain.1.d:0 "The crowd was restless, the cheers and the cries of joy unrelenting as wave upon wave of Republican came to support their President in the aftermath of a resounding victory; it was hard fought, and there were many roads still to travel, but for the time being, it seemed jubilee was on the agenda rather than worries of the future. The elections were over, and the nation was chomping at the bit to get things swinging with the new President.\n\nIt was a warm enough day, even for January, and the buzzing of the crowd made it seem all that much warmer when John McCain stepped out of the Presidential Limo, Quayle trailing behind, walker in hand, ready to see his successor be sworn in. When they had arrived to the podium, the oath went by with haste, and the newly sworn in Commander in Chief gave his solemn and steadfast remarks on the tremendous occasion.\n\n“Today, we gather here, not as partisan entities, not as enemies, but as friends; as compatriots; as pieces within a much larger, much more time-worn machine. This machine is a machine that has faced many hardships, and sure enough to face many more, but no matter what she faces, the machine continues to turn, because we its many pieces, so unique in our purposes, keep it moving without abate. This machine is known for many things...”"
+ usa_mccain.1.a:0 "“Chief among them, this machine is known as the United States of America, Bastion of the Free World.”"
+ 
  #YUG# 
  
 

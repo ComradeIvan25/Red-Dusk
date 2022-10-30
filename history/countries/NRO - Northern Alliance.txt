@@ -2,7 +2,7 @@
 
 #set_oob = ""
 
-#recruit_character = AFG_mullah_omar
+recruit_character = NRO_northern_alliance
 
 set_politics = {
 	ruling_party = neutrality

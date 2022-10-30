@@ -1,15 +1,15 @@
-add_namespace = japan
+add_namespace = japan_mod
 
 #obuchi passes away#
 country_event = {
-	id = japan.1
-	title = japan.1.t
-	desc = japan.1.d
+	id = japan_mod.1
+	title = japan_mod.1.t
+	desc = japan_mod.1.d
 	picture = GFX_report_event_spark
 	
 	trigger = {
 	date > 2000.5.14
-	original_tag = SYR
+	original_tag = JAP
 
 	}
 
@@ -17,7 +17,7 @@ country_event = {
 
 		#rip#
 	option = {
-		name = japan.1.a
+		name = japan_mod.1.a
 		news_event = {id = old_times_news.43}
 		retire_country_leader = yes
 		promote_character = JAP_yoshiro_mori

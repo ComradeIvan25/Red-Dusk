@@ -43,5 +43,33 @@ characters = {
 			id = -1
 		}
 	}
+	JAP_junichiro_koizumi = {
+		name = "Junichiro Koizumi"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/Junichiro_Koizumi.png"
+			}
+		}
+		country_leader = { 
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+	JAP_takenori_kanzaki = {
+		name = "Takenori Kanzaki"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/Takenori_Kanzaki.png"
+			}
+		}
+		country_leader = { 
+			ideology = conservatism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
 
 }

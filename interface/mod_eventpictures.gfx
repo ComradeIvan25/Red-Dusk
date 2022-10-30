@@ -422,5 +422,17 @@ spriteTypes = {
 		name = "GFX_death_of_japan_pm"
 		texturefile = "gfx/event_pictures/news_death_of_obuchi.png"
 	}
+	spriteType = {
+		name = "GFX_ldp_win_election"
+		texturefile = "gfx/event_pictures/news_ldp_win.png"
+	}
+	spriteType = {
+		name = "GFX_komeito_win_election"
+		texturefile = "gfx/event_pictures/news_komeito_win.png"
+	}
+	spriteType = {
+		name = "GFX_jcp_win_election"
+		texturefile = "gfx/event_pictures/news_jcp_win.png"
+	}
 	
 }

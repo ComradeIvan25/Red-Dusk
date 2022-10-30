@@ -63,11 +63,14 @@ country_event = {
 		set_politics = {
 	ruling_party = reformed_communism
      }
-    ai_chance = { base = 5 }	 
-	}
+    ai_chance = { base = 5 }	
+    hidden_effect = {
 	set_political_party = {
     ideology = reformed_communism
     popularity = 30
     }
+}	
+	}
+
 	
 }

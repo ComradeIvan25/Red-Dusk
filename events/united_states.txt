@@ -188,6 +188,16 @@ country_event = { #The Republican Conventions Conclude#
 		set_country_flag = bush_for_rep_candicate
 		custom_effect_tooltip = bush_will_be_rep_candicate
 		country_event = {id = usa_quayle.7 days = 3}
+		ai_chance = {
+		factor = 55
+			modifier = {
+				factor = 99999
+				has_game_rule = {
+				rule = USA_rep_can_paths_selection
+				option = USA_BUSH_WINS_REP_CAN
+				}
+			}
+		}
 	}
 	
 	#Mccain#
@@ -196,6 +206,16 @@ country_event = { #The Republican Conventions Conclude#
 		set_country_flag = mccain_for_rep_candicate
 		custom_effect_tooltip = mccain_will_be_rep_candicate
 		country_event = {id = usa_quayle.7 days = 3}
+		ai_chance = {
+		factor = 45
+			modifier = {
+				factor = 99999
+				has_game_rule = {
+				rule = USA_rep_can_paths_selection
+				option = USA_MCCAIN_WINS_REP_CAN
+				}
+			}
+		}
 	}
 }
 
@@ -228,6 +248,16 @@ country_event = { #The Reform Conventions Conclude#
 		name = usa_quayle.8.a
 		set_country_flag = trump_for_reform_candicate
 		custom_effect_tooltip = trump_will_be_reform_candicate
+		ai_chance = {
+		factor = 50
+			modifier = {
+				factor = 99999
+				has_game_rule = {
+				rule = USA_paths_selection
+				option = USA_TRUMP_WINS_REF_CAN
+				}
+			}
+		}
 	}
 	
 	#buchanan#
@@ -235,6 +265,16 @@ country_event = { #The Reform Conventions Conclude#
 		name = usa_quayle.8.b
 		set_country_flag = buchanan_for_reform_candicate
 		custom_effect_tooltip = buchanan_will_be_reform_candicate
+		ai_chance = {
+		factor = 50
+			modifier = {
+				factor = 99999
+				has_game_rule = {
+				rule = USA_paths_selection
+				option = USA_BUCHANAN_WINS_REF_CAN
+				}
+			}
+		}
 	}
 }
 
@@ -262,6 +302,17 @@ country_event = { #Election Day...#
 		limit = {has_country_flag = mccain_for_rep_candicate}
 		custom_effect_tooltip = rep_candicate_will_become_president_on_jan20
 		}
+		
+		ai_chance = {
+		factor = 33
+			modifier = {
+				factor = 99999
+				has_game_rule = {
+				rule = USA_paths_selection
+				option = USA_REPS_WIN_2000
+				}
+			}
+		}
 	}
 	
 	#democrats win#
@@ -271,6 +322,17 @@ country_event = { #Election Day...#
 		if = {
 		limit = {has_country_flag = gore_for_dem_candicate}
 		custom_effect_tooltip = dem_candicate_will_become_president_on_jan20
+		}
+		
+		ai_chance = {
+		factor = 33
+			modifier = {
+				factor = 99999
+				has_game_rule = {
+				rule = USA_paths_selection
+				option = USA_DEMS_WIN_2000
+				}
+			}
 		}
 	}
 	
@@ -286,6 +348,17 @@ country_event = { #Election Day...#
 		else_if = {
 		limit = {has_country_flag = buchanan_for_reform_candicate}
 		custom_effect_tooltip = reform_candicate_will_become_president_on_jan20
+		}
+		
+		ai_chance = {
+		factor = 33
+			modifier = {
+				factor = 99999
+				has_game_rule = {
+				rule = USA_paths_selection
+				option = USA_REFS_WIN_2000
+				}
+			}
 		}
 	}
 }

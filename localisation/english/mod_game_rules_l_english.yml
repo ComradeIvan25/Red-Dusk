@@ -8,8 +8,8 @@
  SOV_PUGO_PATH_CHOSEN_DESC:0 "§RBoris Pugo§! will become the leader of the Soviet Union after Yanayev's resignation"
  SOV_PUTIN_PATH_CHOSEN:0 "@SOV §6Vladimir Putin§! Wins The Debates"
  SOV_PUTIN_PATH_CHOSEN_DESC:0 "§6Vladimir Putin§! will become the leader of the Soviet Union after Yanayev's resignation"
- SOV_GORBACHEV_PATH_CHOSEN:0 "@SOV §tMikhail Gorbachev§! Wins The Debates"
- SOV_GORBACHEV_PATH_CHOSEN_DESC:0 "§tMikhail Gorbachev§! will become the leader of the Soviet Union after Yanayev's resignation"
+ SOV_GORBACHEV_PATH_CHOSEN:0 "@SOV §tNikolai Ryzhkov§! Wins The Debates"
+ SOV_GORBACHEV_PATH_CHOSEN_DESC:0 "§ttNikolai Ryzhkov§! will become the leader of the Soviet Union after Yanayev's resignation"
  
  SAF_PATH:0 "@SAF Parliament Meeting"
  SAF_MILITARY_PATH_CHOSEN:0 "@SAF §gMilitary§! Continues Ruling"
@@ -30,5 +30,23 @@
  IRQ_UAR_PATH_CHOSEN_DESC:0 "After winning against Iraq's enemies, §LSaddam Hussein§! will proclaim @IRQ United §gArab§! §GRepublics§!"
  IRQ_GREATER_IRAQ_PATH_CHOSEN:0 "@IRQ §LSaddam§! proclaims §GGreater§! §YIraq§!"
  IRQ_GREATER_IRAQ_PATH_CHOSEN_DESC:0 "After winning against Iraq's enemies, §LSaddam Hussein§! will proclaim @IRQ §RProclaim§! §GGreater§! §YIraq§!"
-
- USA_PATH:0 "@USA 2000 Election"
+ 
+ USA_REP_CANS_PATH:0 "@USA 2000 §RRepublican§! Primaries"
+ USA_BUSH_WINS_REP_CAN:0 "@USA §RGeorge Bush§! wins"
+ USA_BUSH_WINS_REP_CAN_DESC:0 "@USA §RGeorge Bush§! wins the §RRepublican Primaries§!, and will run for the elections."
+ USA_MCCAIN_WINS_REP_CAN:0 "@USA §RJohn McCain§! wins"
+ USA_MCCAIN_WINS_REP_CAN_DESC:0 "@USA §RJohn McCain§! wins the §RRepublican Primaries§!, and will run for the elections."
+ 
+ USA_REF_CANS_PATH:0 "@USA 2000 §gReforms§! Primaries"
+ USA_TRUMP_WINS_REF_CAN:0 "@USA §gDonald Trump§! wins"
+ USA_TRUMP_WINS_REF_CAN_DESC:0 "@USA §gDonald Trump§! wins the §gReform Primaries§!, and will run for the elections."
+ USA_BUCHANAN_WINS_REF_CAN:0 "@USA §gPat Buchanan§! wins"
+ USA_BUCHANAN_WINS_REF_CAN_DESC:0 "@USA §gPat Buchanan§! wins the §gReform Primaries§!, and will run for the elections."
+ 
+ USA_2000_ELECTION_PATH:0 "@USA 2000 Election"
+ USA_REPS_WIN_2000:0 "@USA §RRepublican Victory§!"
+ USA_REPS_WIN_2000_DESC:0 "@USA §RRepublicans§! under the leader chosen before in the primaries will be elected, and sworn in as the President of the United States on January 20"
+ USA_DEMS_WIN_2000:0 "@USA §CDemocrat§! Victory§!"
+ USA_DEMS_WIN_2000_DESC:0 "@USA §CDemocrats§! under the leader chosen before in the primaries will be elected, and sworn in as the President of the United States on January 20."
+ USA_REFS_WIN_2000:0 "@USA §gReform§! Victory§!"
+ USA_REFS_WIN_2000_DESC:0 "@USA §gReformists§! under the leader chosen before in the primaries will be elected, and sworn in as the President of the United States on January 20."

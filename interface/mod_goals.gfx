@@ -1331,6 +1331,27 @@ spriteTypes = {
 		name = "GFX_SOV_focus_promise_local_govern"
 		texturefile = "gfx/interface/goals/focus_SOV_promise_local_govern.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_SOV_extreme_planning"
+		texturefile = "gfx/interface/goals/SOV_extreme_planning.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_isolate_czech"
+		texturefile = "gfx/interface/goals/SOV_isolate_czech.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_stalin_war_plan"
+		texturefile = "gfx/interface/goals/SOV_stalin_war_plan.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_question_of_the_army"
+		texturefile = "gfx/interface/goals/SOV_the_military_question.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_hardliners_retain_dominance"
+		texturefile = "gfx/interface/goals/focus_SOV_hardliners_retain_dominance.png"
+	}
+	
 	
 	###USA###
 	

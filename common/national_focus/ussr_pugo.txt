@@ -280,7 +280,7 @@
 	}
 	focus = {
 		id = SOV_pugo_hardliner
-		icon = GFX_SOV_hardliners_retain_dominance
+		icon = GFX_focus_SOV_hardliners_retain_dominance
 		x = 7
 		y = 8
 
@@ -305,7 +305,7 @@
 	}
 	focus = {
 		id = SOV_question_of_the_army
-		icon = GFX_SOV_question_of_the_army
+		icon = GFX_focus_SOV_question_of_the_army
 		x = 15
 		y = 4
 
@@ -848,7 +848,7 @@
 
 	focus = {
 		id = SOV_pugo_little_traitors
-		icon = GFX_focus_SOV_little_traitor
+		icon = GFX_SOV_little_traitors
 		x = 10
 		y = 14
 
@@ -1039,7 +1039,7 @@
 	
 	focus = {
 		id = SOV_pugo_preparing_for_the_inevitable
-		icon = GFX_focus_SOV_prepare_Invitable
+		icon = GFX_SOV_prepare_the_inevitable
 		x = 6
 		y = 18
 

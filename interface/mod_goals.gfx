@@ -403,7 +403,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_fate"
-		texturefile = "gfx/interface/goals/focu_SOV_their_fate.png"
+		texturefile = "gfx/interface/goals/focus_SOV_their_fate.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_foreign_policy"
@@ -1193,7 +1193,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_SOV_increase_warsaw_pact_spending"
-		texturefile = "gfx/interface/goals/SOV_increase_warsaw_pact_spending.dds"
+		texturefile = "gfx/interface/goals/SOV_increase_ties_with_warsaw_pact.png"
 	}
 	SpriteType = {
 		name = "GFX_SOV_keep_your_friend_close"
@@ -1205,7 +1205,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_SOV_little_traitors"
-		texturefile = "gfx/interface/goals/SOV_little_traitors.dds"
+		texturefile = "gfx/interface/goals/SOV_little_traitor.png"
 	}
 	SpriteType = {
 		name = "GFX_SOV_loyal_men_in_high_position"
@@ -1249,7 +1249,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_SOV_prepare_the_inevitable"
-		texturefile = "gfx/interface/goals/SOV_prepare_the_inevitable.dds"
+		texturefile = "gfx/interface/goals/SOV_prepare_Invitable.png"
 	}
 	SpriteType = {
 		name = "GFX_SOV_prepare_their_fate"
@@ -1317,7 +1317,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_SOV_warsaw_pact_reborn"
-		texturefile = "gfx/interface/goals/SOV_warsaw_pact_reborn.dds"
+		texturefile = "gfx/interface/goals/SOV_rebirth_of_warsaw_pact.png"
 	}
 	SpriteType = {
 		name = "GFX_SOV_Soviet_Foreign_Policy"

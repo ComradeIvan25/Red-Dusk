@@ -324,6 +324,7 @@
  bush_will_be_rep_candicate:0 "§YBush becomes Republican Candidate for President.§!"
  mccain_will_be_rep_candicate:0 "§YMcCain becomes Republican Candidate for President.§!"
  gore_will_be_dem_candicate:0 "§YGore becomes Democrat Candidate for President.§!"
+ biden_will_be_dem_candicate:0 "§YBiden becomes Democrat Candidate for President.§!"
  trump_will_be_reform_candicate:0 "§YTrump becomes Reform Candidate for President.§!"
  buchanan_will_be_reform_candicate:0 "§YBuchanan becomes Reform Candidate for President.§!"
  rep_candicate_will_become_president_on_jan20:0 "§GRepublican Candidate will become President on Jan 20.§!"

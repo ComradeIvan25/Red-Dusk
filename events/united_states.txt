@@ -2,6 +2,7 @@
 add_namespace = usa_quayle
 add_namespace = usa_bush
 add_namespace = usa_mccain
+add_namespace = usa_gore
 add_namespace = usa_help
 
 country_event = { #The State of the Union#
@@ -232,6 +233,33 @@ country_event = { #The Democrat Conventions Conclude#
 		set_country_flag = gore_for_dem_candicate
 		custom_effect_tooltip = gore_will_be_dem_candicate
 		country_event = {id = usa_quayle.8 days = 3}
+		ai_chance = {
+		factor = 65
+			modifier = {
+				factor = 99999
+				has_game_rule = {
+				rule = USA_dem_can_paths_selection
+				option = USA_GORE_WINS_DEM_CAN
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = usa_quayle.7.a
+		set_country_flag = biden_for_dem_candicate
+		custom_effect_tooltip = biden_will_be_dem_candicate
+		country_event = {id = usa_quayle.8 days = 3}
+		ai_chance = {
+		factor = 35
+			modifier = {
+				factor = 99999
+				has_game_rule = {
+				rule = USA_dem_can_paths_selection
+				option = USA_BIDEN_WINS_DEM_CAN
+				}
+			}
+		}
 	}
 }
 
@@ -253,7 +281,7 @@ country_event = { #The Reform Conventions Conclude#
 			modifier = {
 				factor = 99999
 				has_game_rule = {
-				rule = USA_paths_selection
+				rule = USA_ref_can_paths_selection
 				option = USA_TRUMP_WINS_REF_CAN
 				}
 			}
@@ -270,7 +298,7 @@ country_event = { #The Reform Conventions Conclude#
 			modifier = {
 				factor = 99999
 				has_game_rule = {
-				rule = USA_paths_selection
+				rule = USA_ref_can_paths_selection
 				option = USA_BUCHANAN_WINS_REF_CAN
 				}
 			}
@@ -308,7 +336,7 @@ country_event = { #Election Day...#
 			modifier = {
 				factor = 99999
 				has_game_rule = {
-				rule = USA_paths_selection
+				rule = USA_first_election_paths_selection
 				option = USA_REPS_WIN_2000
 				}
 			}
@@ -323,13 +351,17 @@ country_event = { #Election Day...#
 		limit = {has_country_flag = gore_for_dem_candicate}
 		custom_effect_tooltip = dem_candicate_will_become_president_on_jan20
 		}
+		else_if = {
+		limit = {has_country_flag = biden_for_dem_candicate}
+		custom_effect_tooltip = dem_candicate_will_become_president_on_jan20
+		}
 		
 		ai_chance = {
 		factor = 33
 			modifier = {
 				factor = 99999
 				has_game_rule = {
-				rule = USA_paths_selection
+				rule = USA_first_election_paths_selection
 				option = USA_DEMS_WIN_2000
 				}
 			}
@@ -355,7 +387,7 @@ country_event = { #Election Day...#
 			modifier = {
 				factor = 99999
 				has_game_rule = {
-				rule = USA_paths_selection
+				rule = USA_first_election_paths_selection
 				option = USA_REFS_WIN_2000
 				}
 			}
@@ -404,7 +436,19 @@ country_event = { #Inauguration#
 			promote_character = USA_john_mccain
 		}		
 		else_if = {
-			limit = {has_country_flag = gore_for_dem_candicate}
+			limit = {
+				AND = {
+				has_country_flag = gore_for_dem_candicate
+				has_country_flag = dem_win
+				}
+			}
+			load_focus_tree = usa_gore_focus
+			complete_national_focus = USA_gore_gore_in_office
+			retire_country_leader = yes
+			promote_character = USA_al_gore
+		}
+		else_if = {
+			limit = {has_country_flag = biden_for_dem_candicate}
 		}
 		else_if = {
 			limit = {has_country_flag = trump_for_reform_candicate}
@@ -556,6 +600,23 @@ country_event = { #McCain’s Inauguration#
 	#k#
 	option = {
 		name = usa_mccain.1.a
+		
+	}
+}
+
+#GORE#
+
+country_event = { #Gore’s Inauguration#
+	id = usa_gore.1
+	title = usa_gore.1.t
+	desc = usa_gore.1.d
+	picture = GFX_report_event_USA_2000
+	
+	is_triggered_only = yes
+	
+	#k#
+	option = {
+		name = usa_gore.1.a
 		
 	}
 }

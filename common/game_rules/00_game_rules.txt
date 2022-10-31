@@ -557,6 +557,27 @@ USA_rep_can_paths_selection = {
 		allow_achievements = yes
 	}
 }
+USA_dem_can_paths_selection = {
+	name = "USA_DEM_CANS_PATH"
+	group = "RULE_GROUP_COUNTRY_PATHS"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+	}
+	option = {
+		name = USA_GORE_WINS_DEM_CAN
+		text = "USA_GORE_WINS_DEM_CAN"
+		desc = "USA_GORE_WINS_DEM_CAN_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = USA_BIDEN_WINS_DEM_CAN
+		text = "USA_BIDEN_WINS_DEM_CAN"
+		desc = "USA_BIDEN_WINS_DEM_CAN_DESC"
+		allow_achievements = yes
+	}
+}
 USA_ref_can_paths_selection = {
 	name = "USA_REF_CANS_PATH"
 	group = "RULE_GROUP_COUNTRY_PATHS"

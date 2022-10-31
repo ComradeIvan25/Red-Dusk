@@ -9,7 +9,7 @@
  SOV_PUTIN_PATH_CHOSEN:0 "@SOV §6Vladimir Putin§! Wins The Debates"
  SOV_PUTIN_PATH_CHOSEN_DESC:0 "§6Vladimir Putin§! will become the leader of the Soviet Union after Yanayev's resignation"
  SOV_GORBACHEV_PATH_CHOSEN:0 "@SOV §tNikolai Ryzhkov§! Wins The Debates"
- SOV_GORBACHEV_PATH_CHOSEN_DESC:0 "§ttNikolai Ryzhkov§! will become the leader of the Soviet Union after Yanayev's resignation"
+ SOV_GORBACHEV_PATH_CHOSEN_DESC:0 "§tNikolai Ryzhkov§! will become the leader of the Soviet Union after Yanayev's resignation"
  
  SAF_PATH:0 "@SAF Parliament Meeting"
  SAF_MILITARY_PATH_CHOSEN:0 "@SAF §gMilitary§! Continues Ruling"
@@ -36,6 +36,12 @@
  USA_BUSH_WINS_REP_CAN_DESC:0 "@USA §RGeorge Bush§! wins the §RRepublican Primaries§!, and will run for the elections."
  USA_MCCAIN_WINS_REP_CAN:0 "@USA §RJohn McCain§! wins"
  USA_MCCAIN_WINS_REP_CAN_DESC:0 "@USA §RJohn McCain§! wins the §RRepublican Primaries§!, and will run for the elections."
+ 
+ USA_DEM_CANS_PATH:0 "@USA 2000 §CDemocrat§! Primaries"
+ USA_GORE_WINS_DEM_CAN:0 "@USA §CAl Gore§! wins"
+ USA_GORE_WINS_DEM_CAN_DESC:0 "@USA §CAl Gore§! wins the §CDemocrat Primaries§!, and will run for the elections."
+ USA_BIDEN_WINS_DEM_CAN:0 "@USA §CJoe Biden§! wins"
+ USA_BIDEN_WINS_DEM_CAN_DESC:0 "@USA §CJoe Biden§! wins the §CDemocrat Primaries§!, and will run for the elections."
  
  USA_REF_CANS_PATH:0 "@USA 2000 §gReforms§! Primaries"
  USA_TRUMP_WINS_REF_CAN:0 "@USA §gDonald Trump§! wins"

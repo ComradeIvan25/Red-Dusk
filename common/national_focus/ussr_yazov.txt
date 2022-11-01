@@ -1456,7 +1456,7 @@
 	
 	focus = {
 		id = SOV_yazov_red_dragons_demise
-		icon = GFX_focus_SOV_red_dragon_demise
+		icon = GFX_SOV_against_the_eastern_dragon
 		x = 21
 		y = 19
 

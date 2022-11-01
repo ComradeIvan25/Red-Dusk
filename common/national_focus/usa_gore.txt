@@ -37,7 +37,7 @@
 	}
 	
 	focus = {
-		id = USA_guess_whos_back
+		id = USA_gore_guess_whos_back
 		icon = GFX_USA_focus_aftermath_of_uneasy_90s
 		x = 0
 		y = 1
@@ -61,12 +61,12 @@
 	}
 	
 	focus = {
-		id = USA_what_the_hell_happened_to_us
+		id = USA_gore_what_the_hell_happened_to_us
 		icon = GFX_USA_focus_aftermath_of_uneasy_90s
 		x = 0
 		y = 2
 
-		prerequisite = {focus = USA_guess_whos_back}
+		prerequisite = {focus = USA_gore_guess_whos_back}
 		mutually_exclusive = { }
 		relative_position_id = USA_gore_gore_in_office
 		
@@ -84,4 +84,267 @@
 		}
 	}
 	
+	focus = {
+		id = USA_gore_democrat_values
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = -6
+		y = 1
+
+		prerequisite = {focus = USA_gore_what_the_hell_happened_to_us}
+		mutually_exclusive = { }
+		relative_position_id = USA_gore_what_the_hell_happened_to_us
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = USA_gore_a_new_modernity
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = -1
+		y = 1
+
+		prerequisite = {focus = USA_gore_democrat_values}
+		mutually_exclusive = {focus = USA_gore_make_amends_with_dixie}
+		relative_position_id = USA_gore_democrat_values
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = USA_gore_put_our_past_behind_us
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = -1
+		y = 2
+
+		prerequisite = {focus = USA_gore_a_new_modernity}
+		mutually_exclusive = { }
+		relative_position_id = USA_gore_democrat_values
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = USA_gore_lighter_hand_on_drugs
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = -2
+		y = 3
+
+		prerequisite = {focus = USA_gore_put_our_past_behind_us}
+		mutually_exclusive = { }
+		relative_position_id = USA_gore_democrat_values
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = USA_gore_fund_female_studies
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = -1
+		y = 4
+
+		prerequisite = {focus = USA_gore_lighter_hand_on_drugs}
+		mutually_exclusive = { }
+		relative_position_id = USA_gore_democrat_values
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		
+		}
+	}	
+	
+	focus = {
+		id = USA_gore_sweeping_gun_reform
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 0
+		y = 3
+
+		prerequisite = {focus = USA_gore_put_our_past_behind_us focus = USA_gore_christian_morality}
+		mutually_exclusive = { }
+		relative_position_id = USA_gore_democrat_values
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = USA_gore_make_amends_with_dixie
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 1
+		y = 1
+
+		prerequisite = {focus = USA_gore_democrat_values}
+		mutually_exclusive = {focus = USA_gore_a_new_modernity}
+		relative_position_id = USA_gore_democrat_values
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = USA_gore_christian_morality
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 1
+		y = 2
+
+		prerequisite = {focus = USA_gore_make_amends_with_dixie}
+		mutually_exclusive = { }
+		relative_position_id = USA_gore_democrat_values
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = USA_gore_working_class_benefits
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 2
+		y = 3
+
+		prerequisite = {focus = USA_gore_christian_morality}
+		mutually_exclusive = { }
+		relative_position_id = USA_gore_democrat_values
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		
+		}
+	}
+
+	focus = {
+		id = USA_gore_moderate_immigration_reform
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 1
+		y = 4
+
+		prerequisite = {focus = USA_gore_working_class_benefits}
+		mutually_exclusive = { }
+		relative_position_id = USA_gore_democrat_values
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		
+		}
+	}	
+	
+	focus = {
+		id = USA_gore_modern_men_modern_dem
+		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		x = 0
+		y = 5
+
+		prerequisite = {focus = USA_gore_moderate_immigration_reform focus = USA_gore_fund_female_studies}
+		mutually_exclusive = { }
+		relative_position_id = USA_gore_democrat_values
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		
+		}
+	}
 }

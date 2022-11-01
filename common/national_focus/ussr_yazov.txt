@@ -434,7 +434,7 @@
 	
 	focus = {
 		id = SOV_yazov_lil_traitors
-		icon = GFX_focus_SOV_little_traitor
+		icon = GFX_SOV_little_traitors
 		x = 10
 		y = 11
 
@@ -622,7 +622,7 @@
 	
 	focus = {
 		id = SOV_yazov_prep_inev
-		icon = GFX_focus_SOV_prepare_Invitable
+		icon = GFX_SOV_prepare_the_inevitable
 		x = 19
 		y = 7
 
@@ -1248,7 +1248,7 @@
 	
 	focus = {
 		id = SOV_yazov_our_shining_union
-		icon = GFX_focus_SOV_our_shining_union
+		icon = GFX_focus_SOV_our_shinning_union
 		x = 25
 		y = 14
 		
@@ -1837,7 +1837,7 @@
 	
 	focus = {
 		id = SOV_old_tactics_for_new_age
-		icon = GFX_focus_SOV_old_tatic
+		icon = GFX_focus_SOV_old_tactic
 		x = 29
 		y = 1
 		

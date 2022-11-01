@@ -1253,7 +1253,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_SOV_prepare_their_fate"
-		texturefile = "gfx/interface/goals/SOV_prepare_their_fate.dds"
+		texturefile = "gfx/interface/goals/SOV_prepare_their_fate.png"
 	}
 	SpriteType = {
 		name = "GFX_SOV_preparing_the_cards"
@@ -1351,7 +1351,42 @@ spriteTypes = {
 		name = "GFX_focus_SOV_hardliners_retain_dominance"
 		texturefile = "gfx/interface/goals/focus_SOV_hardliners_retain_dominance.png"
 	}
-	
+	SpriteType = {
+		name = "GFX_focus_SOV_blockade_sweden"
+		texturefile = "gfx/interface/goals/focus_SOV_blockade_sweden.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_our_shinning_union"
+		texturefile = "gfx/interface/goals/focus_SOV_our_shinning_union.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_military_cities"
+		texturefile = "gfx/interface/goals/focus_SOV_military_cities.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_army_first"
+		texturefile = "gfx/interface/goals/SOV_army_first.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_Invincible_and_Legendary"
+		texturefile = "gfx/interface/goals/SOV_Invincible_and_Legendary.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_army_reform"
+		texturefile = "gfx/interface/goals/SOV_army_reform.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_new_military_idea"
+		texturefile = "gfx/interface/goals/SOV_new_military_idea.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_Ustinov_Legacy"
+		texturefile = "gfx/interface/goals/SOV_Ustinov_Legacy.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_old_tactic"
+		texturefile = "gfx/interface/goals/SOV_old_tactic.png"
+	}
 	
 	###USA###
 	

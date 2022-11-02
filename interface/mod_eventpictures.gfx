@@ -253,6 +253,18 @@ spriteTypes = {
 		name = "GFX_report_event_VIN_intro2"
 		texturefile = "gfx/event_pictures/VIN/VIN.intro2.png"
 	}
+	spriteType = {
+		name = "GFX_report_event_VIN_trade_with_US"
+		texturefile = "gfx/event_pictures/VIN/vin.3.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_stock_market"
+		texturefile = "gfx/event_pictures/VIN/vin.2.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_economic_report"
+		texturefile = "gfx/event_pictures/VIN/vin.4.png"
+	}
 
         ##SAF##
 	spriteType = {

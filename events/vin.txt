@@ -49,3 +49,42 @@ country_event = {
 		name = vin.1.a
 	}
 }
+#stockmarket
+country_event = {
+	id = vin.2
+	title = vin.2.t
+	desc = vin.2.d
+	picture = GFX_report_event_stock_market
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vin.2.a
+	}
+}
+#trade with yankee
+country_event = {
+	id = vin.3
+	title = vin.3.t
+	desc = vin.3.d
+	picture = GFX_report_event_VIN_trade_with_US
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vin.3.a
+	}
+}
+#economic report
+country_event = {
+	id = vin.4
+	title = vin.4.t
+	desc = vin.4.d
+	picture = GFX_report_event_economic_report
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vin.4.a
+	}
+}

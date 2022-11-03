@@ -88,3 +88,42 @@ country_event = {
 		name = vin.4.a
 	}
 }
+#the story
+country_event = {
+	id = vin.5
+	title = vin.5.t
+	desc = vin.5.d
+	picture = GFX_report_event_old_memory
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vin.5.a
+	}
+}
+#the letter
+country_event = {
+	id = vin.6
+	title = vin.6.t
+	desc = vin.6.d
+	picture = GFX_report_event_the_letter
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vin.6.a
+	}
+}
+#the indochina treaty
+country_event = {
+	id = vin.7
+	title = vin.7.t
+	desc = vin.7.d
+	picture = GFX_report_event_the_treaty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vin.7.a
+	}
+}

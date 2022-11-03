@@ -243,6 +243,10 @@ spriteTypes = {
 		name = "GFX_idea_VIN_patriotic_tradition_icon"
 		texturefile = "gfx/interface/ideas/VIN_patriotic_tradition.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_VIN_corruption_in_goverment_icon"
+		texturefile = "gfx/interface/ideas/VIN_corruption_in_gov.png"
+	}
 	
 	#YUGOSLAVIA#
 	

@@ -46,6 +46,9 @@ focus_tree = {
 	     remove_idea = VIN_fifty_years_resistance
 		 add_idea = VIN_fifty_years_resistance_1
         }
+		VIN = {
+				country_event = { id = vin.5 }
+			}
 			}
 	}
 
@@ -74,6 +77,9 @@ focus_tree = {
 		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+		add_political_power = 50
 		}
 		prerequisite = { focus = VIN_newmillenniumnewvietnam  }
 	}
@@ -129,9 +135,22 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = VIN_status_of_the_economy  }
+		completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 2
+			category = industry
+       }
+	   add_stability = 0.04
+	   swap_ideas = {
+	   remove_idea = VIN_corruption_1
+	   add_idea = VIN_corruption_2
+       }
+	   }
+		prerequisite = { focus = VIN_status_of_the_economy }
 
 	}
+	
 
 	#Expand Collectivization
 	focus = {
@@ -144,6 +163,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VIN_support_stateowned_enterprise  }
+		completion_reward = {
+		add_ideas = VIN_agriculture_development_plan
+		}
 	}
 
 	#Socialist-oriented Market Economy
@@ -279,6 +301,9 @@ focus_tree = {
 	    relation = guarantee 
 	    active = yes
     }
+	VIN = {
+				country_event = { id = vin.7 }
+			}
 	}
 	}
 
@@ -293,6 +318,28 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VIN_soviet_brother  }
+		completion_reward = {
+		  add_equipment_to_stockpile = {
+				type = motorised_equipment
+				amount = 200
+				producer = SOV
+			}
+			add_equipment_to_stockpile = {
+				type = mbt_tank_equipment
+				amount = 100
+				producer = SOV
+			}
+			add_equipment_to_stockpile = {
+				type = attacker_equipment
+				amount = 20
+				producer = SOV
+			}
+			add_equipment_to_stockpile = {
+			   type = infantry_weapons
+			   amount = 5000
+			   producer = SOV
+			   }
+		}
 	}
 
 	#Strengthen Economic Cooperation
@@ -306,6 +353,11 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
             prerequisite = { focus = VIN_improve_relations_with_china  }
+	 completion_reward = {
+	 VIN = {
+				add_opinion_modifier = { target = PRC modifier = VIN_trade_with_China }
+			}
+	}
 	}
 
 	#Continue the Neutrality Policy
@@ -320,10 +372,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = VIN_strengthen_economic_cooperation  } prerequisite = { focus = VIN_ask_for_aid  } prerequisite = { focus = VIN_mutual_defense_treaty  }
 		completion_reward = {
-		add_ideas = {
-	neutrality_idea
-	}
-	add_war_support = 0.05
+		hidden_effect = { remove_ideas = ussr_aligned_nation }
+		custom_effect_tooltip = remove_ussr
+	    add_war_support = 0.05
 	}
 	}
 
@@ -375,6 +426,9 @@ focus_tree = {
 		remove_idea = VIN_fifty_years_resistance_3
 		add_idea = VIN_fifty_years_resistance_4
 	}
+	    VIN = {
+				country_event = { id = vin.6 }
+			}
 	}
 	}
 	

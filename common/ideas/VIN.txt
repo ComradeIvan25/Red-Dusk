@@ -146,6 +146,55 @@ ideas = {
                                 resistance_target_on_our_occupied_states = 0.2
 			}
 		}
+		VIN_agriculture_development_plan = {
+			name = VIN_agriculture_development_plan_name
+
+			removal_cost = -1
+
+			picture = gre_agricultural_communes
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.03
+				global_building_slots_factor = -0.05
+				monthly_population = 0.1
+			}
+		}
+		VIN_corruption_1 = {
+			name = VIN_corruption_name_1
+
+			removal_cost = -1
+
+			picture = VIN_corruption_in_goverment_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_buildings_factor = -0.05
+				stability_factor = -0.08
+			}
+		}
+		VIN_corruption_2 = {
+			name = VIN_corruption_name_2
+
+			removal_cost = -1
+
+			picture = = VIN_corruption_in_goverment_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_buildings_factor = -0.05
+				stability_factor = -0.1
+			}
+		}
 
 	}
 

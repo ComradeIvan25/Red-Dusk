@@ -121,6 +121,20 @@ sov_invade_china_decisions = {
 
 }
 
+sov_party_factionalism = {
+	icon = generic_communism
+	allowed = {
+		original_tag = SOV
+	}
+	
+	visible = {
+		original_tag = SOV
+		#has_country_flag = sov_party_factionalism_ongoing
+	}
+	
+	scripted_gui = sov_party_factionalism_gui
+	priority = 1000
+}
 ###GORBY####
 
 

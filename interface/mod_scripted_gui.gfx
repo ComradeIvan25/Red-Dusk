@@ -18,6 +18,39 @@ spriteTypes = {
 		name = "GFX_uar_stability_icon"
 		texturefile = "gfx/interface/scripted_gui/uar_stability_icon.dds"
 	}
+	SpriteType = {
+		name = "GFX_sov_hardliner_icon"
+		texturefile = "gfx/interface/scripted_gui/sov_hardliner_icon.dds"
+	}
+	SpriteType = {
+		name = "GFX_sov_army_icon"
+		texturefile = "gfx/interface/scripted_gui/sov_army_icon.dds"
+	}
+	SpriteType = {
+		name = "GFX_sov_kgb_icon"
+		texturefile = "gfx/interface/scripted_gui/sov_kgb_icon.dds"
+	}
+	SpriteType = {
+		name = "GFX_sov_reformist_icon"
+		texturefile = "gfx/interface/scripted_gui/sov_reformist_icon.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_sov_hardliner_ruler_hat_icon"
+		texturefile = "gfx/interface/scripted_gui/sov_ruler_hat.dds"
+	}
+	SpriteType = {
+		name = "GFX_sov_reformist_ruler_hat_icon"
+		texturefile = "gfx/interface/scripted_gui/sov_reformist_ruler_hat.dds"
+	}
+	SpriteType = {
+		name = "GFX_sov_military_ruler_hat_icon"
+		texturefile = "gfx/interface/scripted_gui/sov_military_ruler_hat.dds"
+	}
+	SpriteType = {
+		name = "GFX_sov_kgb_ruler_hat_icon"
+		texturefile = "gfx/interface/scripted_gui/sov_kgb_ruler_hat.dds"
+	}
 	
 	SpriteType = {
 		name = "GFX_scripted_decision_button"

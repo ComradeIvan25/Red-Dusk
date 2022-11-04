@@ -120,6 +120,440 @@ sov_debug = {
 		}	
 	}
 }
+
+sov_party_factionalism = {
+	
+	sov_factionalism_factions_getting_influence = {
+
+		icon = GFX_decision_generic_political_rally
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			has_country_flag = sov_party_factionalism_ongoing
+		}
+		activation = {                          
+			has_country_flag = sov_party_factionalism_ongoing
+		}
+		visible = {
+			original_tag = SOV
+			has_country_flag = sov_party_factionalism_ongoing
+		}
+		
+		fire_only_once = no
+		ai_will_do = {
+			factor = 75
+		}
+		is_good = no
+        selectable_mission = no
+        days_mission_timeout = 40      
+
+		timeout_effect = {
+			set_country_flag = sov_referandums_happened
+			if = {
+			limit = {has_country_flag = sov_hardliner_rules_nation_flag}
+			custom_effect_tooltip = sov_opposing_factions_gains_influence
+				random_list = {
+					15 = {
+						add_to_variable = {sov_reformist_influence_var = 10}
+						add_to_variable = {sov_militarist_influence_var = 10}
+						add_to_variable = {sov_kgb_influence_var = 10}
+					}
+					35 = {
+						add_to_variable = {sov_reformist_influence_var = 7}
+						add_to_variable = {sov_militarist_influence_var = 7}
+						add_to_variable = {sov_kgb_influence_var = 7}
+					}
+					30 = {
+						add_to_variable = {sov_reformist_influence_var = 8}
+						add_to_variable = {sov_militarist_influence_var = 8}
+						add_to_variable = {sov_kgb_influence_var = 8}
+					}
+					20 = {
+						add_to_variable = {sov_reformist_influence_var = 5}
+						add_to_variable = {sov_militarist_influence_var = 5}
+						add_to_variable = {sov_kgb_influence_var = 5}
+					}
+				}
+
+			}
+			
+			else_if = {
+			limit = {has_country_flag = sov_militarist_rules_nation_flag}
+			custom_effect_tooltip = sov_opposing_factions_gains_influence
+				random_list = {
+					15 = {
+						add_to_variable = {sov_reformist_influence_var = 10}
+						add_to_variable = {sov_hardliner_influence_var = 10}
+						add_to_variable = {sov_kgb_influence_var = 10}
+					}
+					35 = {
+						add_to_variable = {sov_reformist_influence_var = 7}
+						add_to_variable = {sov_hardliner_influence_var = 7}
+						add_to_variable = {sov_kgb_influence_var = 7}
+					}
+					30 = {
+						add_to_variable = {sov_reformist_influence_var = 8}
+						add_to_variable = {sov_hardliner_influence_var = 8}
+						add_to_variable = {sov_kgb_influence_var = 8}
+					}
+					20 = {
+						add_to_variable = {sov_reformist_influence_var = 5}
+						add_to_variable = {sov_hardliner_influence_var = 5}
+						add_to_variable = {sov_kgb_influence_var = 5}
+					}
+				}
+
+			}
+
+			else_if = {
+			limit = {has_country_flag = sov_reformist_rules_nation_flag}
+			custom_effect_tooltip = sov_opposing_factions_gains_influence
+				random_list = {
+					15 = {
+						add_to_variable = {sov_miliarist_influence_var = 10}
+						add_to_variable = {sov_hardliner_influence_var = 10}
+						add_to_variable = {sov_kgb_influence_var = 10}
+					}
+					35 = {
+						add_to_variable = {sov_miliarist_influence_var = 7}
+						add_to_variable = {sov_hardliner_influence_var = 7}
+						add_to_variable = {sov_kgb_influence_var = 7}
+					}
+					30 = {
+						add_to_variable = {sov_miliarist_influence_var = 8}
+						add_to_variable = {sov_hardliner_influence_var = 8}
+						add_to_variable = {sov_kgb_influence_var = 8}
+					}
+					20 = {
+						add_to_variable = {sov_miliarist_influence_var = 5}
+						add_to_variable = {sov_hardliner_influence_var = 5}
+						add_to_variable = {sov_kgb_influence_var = 5}
+					}
+				}
+
+			}
+			
+			else_if = {
+			limit = {has_country_flag = sov_kgb_rules_nation_flag}
+			custom_effect_tooltip = sov_opposing_factions_gains_influence
+				random_list = {
+					15 = {
+						add_to_variable = {sov_miliarist_influence_var = 10}
+						add_to_variable = {sov_hardliner_influence_var = 10}
+						add_to_variable = {sov_reformist_influence_var = 10}
+					}
+					35 = {
+						add_to_variable = {sov_miliarist_influence_var = 7}
+						add_to_variable = {sov_hardliner_influence_var = 7}
+						add_to_variable = {sov_reformist_influence_var = 7}
+					}
+					30 = {
+						add_to_variable = {sov_miliarist_influence_var = 8}
+						add_to_variable = {sov_hardliner_influence_var = 8}
+						add_to_variable = {sov_reformist_influence_var = 8}
+					}
+					20 = {
+						add_to_variable = {sov_miliarist_influence_var = 5}
+						add_to_variable = {sov_hardliner_influence_var = 5}
+						add_to_variable = {sov_reformist_influence_var = 5}
+					}
+				}
+
+			}
+			
+		}
+		complete_effect = { 
+		}
+	}
+	
+	sov_factionalism_bribe_party_members = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+			#has_country_flag = sov_party_factionalism_ongoing
+		}
+		days_re_enable = 5
+
+		cost = 20
+		fire_only_once = no
+		ai_will_do = {
+			factor = 75
+		}
+		complete_effect = { 
+			if = {
+				limit = {has_country_flag = sov_hardliner_rules_nation_flag}
+				add_to_variable = {sov_hardliner_influence_var = 5}
+				custom_effect_tooltip = hardliner_5_influence_increase
+			}
+			else_if = {
+				limit = {has_country_flag = sov_militarist_rules_nation_flag}
+				add_to_variable = {sov_militarist_influence_var = 5}
+				custom_effect_tooltip = army_5_influence_increase
+			}
+			else_if = {
+				limit = {has_country_flag = sov_reformist_rules_nation_flag}
+				add_to_variable = {sov_reformist_influence_var = 5}
+				custom_effect_tooltip = reformist_5_influence_increase
+			}
+			else_if = {
+				limit = {has_country_flag = sov_kgb_rules_nation_flag}
+				add_to_variable = {sov_kgb_influence_var = 5}
+				custom_effect_tooltip = kgb_5_influence_increase
+			}
+			
+		}
+	}
+	
+	sov_factionalism_falsify_evidence_on_the_opponents = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+			#has_country_flag = sov_party_factionalism_ongoing
+		}
+		days_re_enable = 10
+
+		cost = 40
+		fire_only_once = no
+		ai_will_do = {
+			factor = 75
+		}
+		complete_effect = { 
+			if = {
+				limit = {has_country_flag = sov_hardliner_rules_nation_flag}
+				add_to_variable = {sov_hardliner_influence_var = 5}
+				custom_effect_tooltip = hardliner_5_influence_increase
+				custom_effect_tooltip = sov_all_factions_lose_5_hardliner
+				subtract_from_variable = {sov_militarist_influence_var = 5}
+				subtract_from_variable = {sov_reformist_influence_var = 5}
+				subtract_from_variable = {sov_kgb_influence_var = 5}
+				
+			}
+			else_if = {
+				limit = {has_country_flag = sov_militarist_rules_nation_flag}
+				add_to_variable = {sov_militarist_influence_var = 5}
+				custom_effect_tooltip = army_5_influence_increase
+				custom_effect_tooltip = sov_all_factions_lose_5_militarist
+				subtract_from_variable = {sov_hardliner_influence_var = 5}
+				subtract_from_variable = {sov_reformist_influence_var = 5}
+				subtract_from_variable = {sov_kgb_influence_var = 5}
+			}
+			else_if = {
+				limit = {has_country_flag = sov_reformist_rules_nation_flag}
+				add_to_variable = {sov_reformist_influence_var = 5}
+				custom_effect_tooltip = reformist_5_influence_increase
+				custom_effect_tooltip = sov_all_factions_lose_5_reformist
+				subtract_from_variable = {sov_hardliner_influence_var = 5}
+				subtract_from_variable = {sov_militarist_influence_var = 5}
+				subtract_from_variable = {sov_kgb_influence_var = 5}
+			}
+			else_if = {
+				limit = {has_country_flag = sov_kgb_rules_nation_flag}
+				add_to_variable = {sov_kgb_influence_var = 5}
+				custom_effect_tooltip = kgb_5_influence_increase
+				custom_effect_tooltip = sov_all_factions_lose_5_kgb
+				subtract_from_variable = {sov_hardliner_influence_var = 5}
+				subtract_from_variable = {sov_militarist_influence_var = 5}
+				subtract_from_variable = {sov_reformist_influence_var = 5}				
+			}
+		}
+	}
+	
+	sov_factionalism_talk_with_party_representatives = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+			#has_country_flag = sov_party_factionalism_ongoing
+		}
+		days_re_enable = 15
+
+		cost = 40
+		fire_only_once = no
+		ai_will_do = {
+			factor = 75
+		}
+		complete_effect = { 
+			if = {
+				limit = {has_country_flag = sov_hardliner_rules_nation_flag}
+				add_to_variable = {sov_hardliner_influence_var = 10}
+				custom_effect_tooltip = hardliner_10_influence_increase
+			}
+			else_if = {
+				limit = {has_country_flag = sov_militarist_rules_nation_flag}
+				add_to_variable = {sov_militarist_influence_var = 10}
+				custom_effect_tooltip = army_10_influence_increase
+			}
+			else_if = {
+				limit = {has_country_flag = sov_reformist_rules_nation_flag}
+				add_to_variable = {sov_reformist_influence_var = 10}
+				custom_effect_tooltip = reformist_10_influence_increase
+			}
+			else_if = {
+				limit = {has_country_flag = sov_kgb_rules_nation_flag}
+				add_to_variable = {sov_kgb_influence_var = 10}
+				custom_effect_tooltip = kgb_10_influence_increase		
+			}
+		}
+	}
+	
+	sov_factionalism_contact_military_industrial_complexes = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+			#has_country_flag = sov_party_factionalism_ongoing
+		}
+		days_re_enable = 30
+
+		cost = 50
+		fire_only_once = no
+		ai_will_do = {
+			factor = 75
+		}
+		complete_effect = { 
+			if = {
+				limit = {has_country_flag = sov_hardliner_rules_nation_flag}
+				add_to_variable = {sov_hardliner_influence_var = 20}
+				custom_effect_tooltip = hardliner_20_influence_increase
+			}
+			else_if = {
+				limit = {has_country_flag = sov_militarist_rules_nation_flag}
+				add_to_variable = {sov_militarist_influence_var = 20}
+				custom_effect_tooltip = army_20_influence_increase
+			}
+			else_if = {
+				limit = {has_country_flag = sov_reformist_rules_nation_flag}
+				add_to_variable = {sov_reformist_influence_var = 20}
+				custom_effect_tooltip = reformist_20_influence_increase
+			}
+			else_if = {
+				limit = {has_country_flag = sov_kgb_rules_nation_flag}
+				add_to_variable = {sov_kgb_influence_var = 20}
+				custom_effect_tooltip = kgb_20_influence_increase		
+			}
+		}
+	}
+	
+	sov_factionalism_attack_militarist_influence = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+			#has_country_flag = sov_party_factionalism_ongoing
+		}
+		days_re_enable = 50
+
+		cost = 75
+		fire_only_once = no
+		ai_will_do = {
+			factor = 75
+		}
+		complete_effect = { 
+			subtract_from_variable = {sov_militarist_influence_var = 15}
+			custom_effect_tooltip = army_15_influence_decrease
+			add_stability = -0.05
+			add_war_support = -0.10
+		}
+	}
+	
+	sov_factionalism_attack_reformist_influence = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+			#has_country_flag = sov_party_factionalism_ongoing
+		}
+		days_re_enable = 50
+
+		cost = 75
+		fire_only_once = no
+		ai_will_do = {
+			factor = 75
+		}
+		complete_effect = { 
+			subtract_from_variable = {sov_reformist_influence_var = 15}
+			custom_effect_tooltip = reformist_15_influence_decrease
+			add_stability = -0.10
+		}
+	}
+	
+	sov_factionalism_organize_sabotage_actions = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+			#has_country_flag = sov_party_factionalism_ongoing
+		}
+		days_re_enable = 75
+
+		cost = 150
+		fire_only_once = no
+		ai_will_do = {
+			factor = 75
+		}
+		complete_effect = { 
+			subtract_from_variable = {sov_militarist_influence_var = 30}
+			subtract_from_variable = {sov_reformist_influence_var = 30}
+			custom_effect_tooltip = sov_militarists_and_reformists_lose_30
+			add_stability = -0.25
+		}
+	}
+	
+}
+
 sov_culture_war = {
 
 	sov_culture_war_con_supress_the_smuggling_of_western_tv_media = {

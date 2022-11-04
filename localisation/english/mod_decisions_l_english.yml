@@ -13,7 +13,16 @@
  sov_culture_war_lib_invite_foreign_food_chains_into_the_union:0 "Invite Foreign Food Chains Into the Union"
  sov_culture_war_con_create_new_domestic_goods:0 "Create New Domestic Goods"
  sov_culture_war_lib_import_more_foreign_goods:0 "Import More Foreign Goods"
-
+ 
+ sov_party_factionalism:0 "The Party Factionalism"
+ sov_factionalism_bribe_party_members:0 "Bribe party members"
+ sov_factionalism_falsify_evidence_on_the_opponents:0 "Falsify evidence on the opponents"
+ sov_factionalism_talk_with_party_representatives:0 "talk with party representatives"
+ sov_factionalism_contact_military_industrial_complexes:0 "Contact military industrial complexes"
+ sov_factionalism_attack_militarist_influence:0 "Attack Militarist influence"
+ sov_factionalism_attack_reformist_influence:0 "Attack Reformist influence"
+ sov_factionalism_organize_sabotage_actions:0 "Organize sabotage actions"
+ 
  sov_purging:0 "Purging The Enemies Of Our Union"
  sov_purging_desc:0 ""
  sov_purge_vladimir_kryuchkov:0 "Purge Vladimir Kryuchkov"

@@ -1,0 +1,30 @@
+scripted_gui = {
+
+	sov_party_factionalism_gui = {
+		window_name = "sov_party_factionalism_window"
+		context_type = decision_category
+
+		visible = {
+			original_tag = SOV
+		}
+		
+			triggers = {
+			 	sov_hardliner_hat_icon_visible = {
+			 		has_country_flag = sov_hardliner_rules_nation_flag
+			 	}
+			 	
+			 	sov_reformist_hat_icon_visible = {
+			 		has_country_flag = sov_reformist_rules_nation_flag
+			 	}
+			 	
+			 	sov_military_hat_icon_visible = {
+			 		has_country_flag = sov_military_rules_nation_flag
+			 	}
+		 	
+			 	sov_kgb_hat_icon_visible = {
+			 		has_country_flag = sov_kgb_rules_nation_flag
+			 	}
+			}
+	}
+	
+}

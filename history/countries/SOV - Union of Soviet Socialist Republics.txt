@@ -213,6 +213,15 @@ add_ideas = ussr_aligned_nation
  
 add_dynamic_modifier = { modifier = SOV_cold_war}
 
+set_country_flag = sov_hardliner_rules_nation_flag
+set_variable = {sov_hardliner_influence_var = 35}
+
+set_variable = {sov_militarist_influence_var = 33}
+
+set_variable = {sov_reformist_influence_var = 26}
+
+set_variable = {sov_kgb_influence_var = 29}
+
 ## leaders ##
 recruit_character = SOV_gennady_yanayev
 recruit_character = SOV_dmitry_yazov

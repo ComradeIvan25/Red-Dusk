@@ -564,10 +564,26 @@
  SOV_pugo_mobilize_the_industry_desc:0 ""
  SOV_pugo_project_red_dusk:0 "Project Red Dusk"
  SOV_pugo_project_red_dusk_desc:0 ""
- SOV_pugo_against_the_eastern_dragon:0 "Against the Eastern Dragon"
+ SOV_pugo_against_the_eastern_dragon:0 "Operation Eastern Storm"
  SOV_pugo_against_the_eastern_dragon_desc:0 ""
  SOV_pugo_end_the_revisionists:0 "End of the Revisionists"
  SOV_pugo_end_the_revisionists_desc:0 ""
+
+ ###PEACE###
+
+ SOV_pugo_reconciliation:0 "Begin the Reconciliation"
+ SOV_pugo_reconciliation_desc:0 ""
+ SOV_pugo_state_visit:0 "State Visit to China"
+ SOV_pugo_state_visit_desc:0 "Ever since Gorbachev's visit to the People's Republic of China there haven't been any major interactions with our comrades in the east, until now.\nAs a part of our new policy towards Beijing, state visits of important political figures are to be expected. That is why it has been decided that we shall make the first move and ensure to make a good impression on the Chinese officials by sending the General Secretary Pugo first. This bold move is a guaranteed success as it will prove our resolve to end the almost 40 year old standstill in our policies towards China and also serve as a lesson on how to modernise and improve a 21st century socialist country, while remaining true to the ideals of Marx and Lenin.\n\nHave a nice trip General Secretary."
+ SOV_pugo_mao_and_deng:0 "Re-Habilitate Mao and Deng"
+ SOV_pugo_mao_and_deng_desc:0 ""
+ SOV_pugo_trade_agreement:0 "Sign the Trade Agreement"
+ SOV_pugo_trade_agreement_desc:0 ""
+ SOV_pugo_sino_sov_coop:0 "The Sino-Soviet Cooperation Treaty"
+ SOV_pugo_sino_sov_coop_desc:0 ""
+ SOV_pugo_fix_khrushchev:0 "Fixing Khrushchev's Mistake"
+ SOV_pugo_fix_khrushchev_desc:0 ""
+
  SOV_pugo_unto_the_new_dawn:0 "Unto the New Dawn"
  SOV_pugo_unto_the_new_dawn_desc:0 ""
 
@@ -1075,7 +1091,7 @@
  IRQ_locate_the_rebel_hideouts_desc:0 "With greater territory came greater problems, the rebels have spread across the country from Arabistan to Damascus , sabotaging and posing resistance in the day and hiding in different secret holdouts and bases during night.We can no longer tolerate this and will focus on finding these holdouts and destroying them one by one."
  IRQ_heros_of_iraq_march_ever_forward:0 "Heroes of Iraq March Ever Forward"
  IRQ_heros_of_iraq_march_ever_forward_desc:0 ""
- IRQ_chemical_ali_visit_to_damascus:0 "§RChemical Ali's Visit To Damascus§!"
+ IRQ_chemical_ali_visit_to_damascus:0 "§RChemical Ali's Visit to Damascus§!"
  IRQ_chemical_ali_visit_to_damascus_desc:0 ""
  IRQ_strengthen_our_hold:0 "Strengthening Our Hold"
  IRQ_strengthen_our_hold_desc:0 ""
@@ -1092,7 +1108,7 @@
  IRQ_unified_arab_military_desc:0 ""
  IRQ_erasing_assads_legacy:0 "Erasing Assad's Legacy"
  IRQ_erasing_assads_legacy_desc:0 ""
- IRQ_wahda_hurriyah_ishtirakiyah:0 "Wahda,Hurriyah,Ishtirakiyah"
+ IRQ_wahda_hurriyah_ishtirakiyah:0 "Wahda, Hurriyah, Ishtirakiyah"
  IRQ_wahda_hurriyah_ishtirakiyah_desc:0 ""
  
  IRQ_reconstructing_the_economy:0 "Reconstruction of the Economy"
@@ -1131,7 +1147,7 @@
  IRQ_sabotage_behind_enemy_lines_desc:0 ""
  IRQ_bomb_the_supply_lines:0 "Bomb the Supply Lines"
  IRQ_bomb_the_supply_lines_desc:0 ""
- IRQ_nasser_revenged:0 "Nasser,Revenged"
+ IRQ_nasser_revenged:0 "Nasser, Avenged"
  IRQ_nasser_revenged_desc:0 ""
  
  IRQ_economic_restructuring:0 "Economic Restructuring"

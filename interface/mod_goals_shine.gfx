@@ -3790,10 +3790,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_SOV_prepare_the_inevitable_shine"
-		texturefile = "gfx/interface/goals/SOV_prepare_Invitable.png"
+		texturefile = "gfx/interface/goals/SOV_prepare_the_inevitable.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/SOV_prepare_Invitable.png"
+			animationmaskfile = "gfx/interface/goals/SOV_prepare_the_inevitable.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -3806,7 +3806,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/SOV_prepare_Invitable.png"
+			animationmaskfile = "gfx/interface/goals/SOV_prepare_the_inevitable.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -3819,7 +3819,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-	
+
 	SpriteType = {
 		name = "GFX_focus_SOV_extreme_planning_shine"
 		texturefile = "gfx/interface/goals/SOV_extreme_planning.png"
@@ -3979,7 +3979,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-	
+
 	SpriteType = {
 		name = "GFX_SOV_prepare_their_fate_shine"
 		texturefile = "gfx/interface/goals/SOV_prepare_their_fate.dds"
@@ -4267,7 +4267,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-	
+
 	SpriteType = {
 		name = "GFX_focus_SOV_blockade_sweden_shine"
 		texturefile = "gfx/interface/goals/focus_SOV_blockade_sweden.png"
@@ -5675,7 +5675,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-	
+
 	SpriteType = {
 		name = "GFX_focus_IRQ_rebuild_destroyed_infra_shine"
 		texturefile = "gfx/interface/goals/focus_IRQ_rebuild_destroyed_infra.png"
@@ -7237,6 +7237,38 @@ spriteTypes = {
 
 		animation = {
 			animationmaskfile = "gfx/interface/goals/focus_SOV_promise_local_govern.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_USA_focus_bush_in_office_shine"
+		texturefile = "gfx/interface/goals/focus_USA_bush_presidency.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/focus_USA_bush_presidency.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 2.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/focus_USA_bush_presidency.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)

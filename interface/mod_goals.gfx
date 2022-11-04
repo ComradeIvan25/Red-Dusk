@@ -455,50 +455,6 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_focus_YUG_slobos_11"
-		texturefile = "gfx/interface/goals/focus_YUG_slobo.png"
-	}
-	SpriteType = {
-		name = "GFX_focus_YUG_broken_nation"
-		texturefile = "gfx/interface/goals/focus_YUG_broken_nation.png"
-	}
-	SpriteType = {
-		name = "GFX_focus_YUG_national_report"
-		texturefile = "gfx/interface/goals/focus_YUG_report.png"
-	}
-	SpriteType = {
-		name = "GFX_focus_YUG_new_future"
-		texturefile = "gfx/interface/goals/focus_YUG_new_dawn.png"
-	}
-	SpriteType = {
-		name = "GFX_focus_YUG_antiterror"
-		texturefile = "gfx/interface/goals/focus_YUG_terror.png"
-	}
-	SpriteType = {
-		name = "GFX_focus_YUG_cities"
-		texturefile = "gfx/interface/goals/focus_YUG_cities.png"
-	}
-	SpriteType = {
-		name = "GFX_focus_YUG_skj"
-		texturefile = "gfx/interface/goals/focus_YUG_SKJ.png"
-	}
-	SpriteType = {
-		name = "GFX_focus_YUG_tito"
-		texturefile = "gfx/interface/goals/focus_YUG_titoslavia.png"
-	}
-	SpriteType = {
-		name = "GFX_focus_YUG_debt"
-		texturefile = "gfx/interface/goals/focus_YUG_debt.png"
-	}
-	SpriteType = {
-		name = "GFX_focus_YUG_tito_honour"
-		texturefile = "gfx/interface/goals/focus_YUG_tito_honour.png"
-	}
-	SpriteType = {
-		name = "GFX_focus_YUG_slobo_saviour"
-		texturefile = "gfx/interface/goals/focus_YUG_slobodan_our_savior.png"
-	}
-	SpriteType = {
 		name = "GFX_focus_SOV_steady_as"
 		texturefile = "gfx/interface/goals/focus_SOV_steady_as_she_goes.png"
 	}
@@ -525,6 +481,34 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_SOV_georgian_resources"
 		texturefile = "gfx/interface/goals/focus_SOV_georgian_ssr_resources.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_mao_deng"
+		texturefile = "gfx/interface/goals/focus_SOV_mao_and_deng_did_nothing_wrong.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_leningrad_oblast"
+		texturefile = "gfx/interface/goals/focus_SOV_leningrad_oblast.png"
+	}
+	SpriteType = {
+		name = "GFX_SOV_focus_fix_khrushchev"
+		texturefile = "gfx/interface/goals/focus_SOV_fix_khrushchev_mistake.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_reconciliation"
+		texturefile = "gfx/interface/goals/focus_SOV_reconciliation.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_sino_soviet_coop"
+		texturefile = "gfx/interface/goals/focus_SOV_sino_soviet_coop.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_state_visit_to_china"
+		texturefile = "gfx/interface/goals/focus_SOV_state_visit_to_china2.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_sino_sov_trade"
+		texturefile = "gfx/interface/goals/focus_SOV_sino_sov_trade.png"
 	}
    ###IRQ###
 	SpriteType = {
@@ -1172,6 +1156,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_SOV_supress_reformists.png"
 	}
 	SpriteType = {
+		name = "GFX_SOV_hardliners_retain_dominance"
+		texturefile = "gfx/interface/goals/focus_SOV_hardliners_retain_dominance.png"
+	}
+	SpriteType = {
 		name = "GFX_SOV_pugo_putin_my_man"
 		texturefile = "gfx/interface/goals/focus_SOV_out_man.png"
 	}
@@ -1193,7 +1181,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_SOV_increase_warsaw_pact_spending"
-		texturefile = "gfx/interface/goals/SOV_increase_ties_with_warsaw_pact.png"
+		texturefile = "gfx/interface/goals/SOV_increase_warsaw_pact_spending.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_keep_your_friend_close"
@@ -1205,7 +1193,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_SOV_little_traitors"
-		texturefile = "gfx/interface/goals/SOV_little_traitor.png"
+		texturefile = "gfx/interface/goals/SOV_little_traitors.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_loyal_men_in_high_position"
@@ -1249,11 +1237,11 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_SOV_prepare_the_inevitable"
-		texturefile = "gfx/interface/goals/SOV_prepare_Invitable.png"
+		texturefile = "gfx/interface/goals/SOV_prepare_the_inevitable.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_prepare_their_fate"
-		texturefile = "gfx/interface/goals/SOV_prepare_their_fate.png"
+		texturefile = "gfx/interface/goals/SOV_prepare_their_fate.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_preparing_the_cards"
@@ -1317,7 +1305,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_SOV_warsaw_pact_reborn"
-		texturefile = "gfx/interface/goals/SOV_rebirth_of_warsaw_pact.png"
+		texturefile = "gfx/interface/goals/SOV_warsaw_pact_reborn.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_Soviet_Foreign_Policy"
@@ -1428,6 +1416,111 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_USA_focus_the_winner_is"
 		texturefile = "gfx/interface/goals/USA_focus_the_winner_is.dds"
+	}
+
+
+###BUSH###
+
+	SpriteType = {
+		name = "GFX_USA_focus_bush_in_office"
+		texturefile = "gfx/interface/goals/focus_USA_bush_presidency.png"
+	}
+	SpriteType = {
+		name = "GFX_USA_focus_the_father"
+		texturefile = "gfx/interface/goals/focus_USA_legacy_of_the_father.png"
+	}
+	SpriteType = {
+		name = "GFX_USA_focus_times_are_changing"
+		texturefile = "gfx/interface/goals/focus_USA_times_are_changing.png"
+	}
+	SpriteType = {
+		name = "GFX_USA_focus_social_spendings"
+		texturefile = "gfx/interface/goals/focus_USA_spending_social.png"
+	}
+	SpriteType = {
+		name = "GFX_USA_focus_tariffs"
+		texturefile = "gfx/interface/goals/focus_USA_tariffs.png"
+	}
+	SpriteType = {
+		name = "GFX_USA_focus_kick_china"
+		texturefile = "gfx/interface/goals/focus_USA_kick_china_to_the_curb.png"
+	}
+	SpriteType = {
+		name = "GFX_USA_focus_medicare"
+		texturefile = "gfx/interface/goals/focus_USA_healthcare.png"
+	}
+	SpriteType = {
+		name = "GFX_USA_focus_no_child_left_behind"
+		texturefile = "gfx/interface/goals/focus_USA_no_child_left_behind.png"
+	}
+	SpriteType = {
+		name = "GFX_USA_focus_american_workers_and_jobs"
+		texturefile = "gfx/interface/goals/focus_USA_american_workers.png"
+	}
+	SpriteType = {
+		name = "GFX_USA_focus_welfare_trough_faith"
+		texturefile = "gfx/interface/goals/focus_USA_welfare_trough_faith.png"
+	}
+	SpriteType = {
+		name = "GFX_USA_focus_buisnisse_boom"
+		texturefile = "gfx/interface/goals/focus_USA_buisniss_bomming.png"
+	}
+	SpriteType = {
+		name = "GFX_USA_focus_no_taxes"
+		texturefile = "gfx/interface/goals/focus_USA_not_today_irs.png"
+	}
+	SpriteType = {
+		name = "GFX_USA_focus_substuties_for_support"
+		texturefile = "gfx/interface/goals/focus_USA_substuties_for_support.png"
+	}
+
+
+
+   ###YUG###
+
+	SpriteType = {
+		name = "GFX_focus_YUG_slobos_11"
+		texturefile = "gfx/interface/goals/focus_YUG_slobo.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_YUG_broken_nation"
+		texturefile = "gfx/interface/goals/focus_YUG_broken_nation.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_YUG_national_report"
+		texturefile = "gfx/interface/goals/focus_YUG_report.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_YUG_new_future"
+		texturefile = "gfx/interface/goals/focus_YUG_new_dawn.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_YUG_antiterror"
+		texturefile = "gfx/interface/goals/focus_YUG_terror.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_YUG_cities"
+		texturefile = "gfx/interface/goals/focus_YUG_cities.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_YUG_skj"
+		texturefile = "gfx/interface/goals/focus_YUG_SKJ.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_YUG_tito"
+		texturefile = "gfx/interface/goals/focus_YUG_titoslavia.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_YUG_debt"
+		texturefile = "gfx/interface/goals/focus_YUG_debt.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_YUG_tito_honour"
+		texturefile = "gfx/interface/goals/focus_YUG_tito_honour.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_YUG_slobo_saviour"
+		texturefile = "gfx/interface/goals/focus_YUG_slobodan_our_savior.png"
 	}
 	
 }

@@ -7,3 +7,12 @@ sp_event_South_Africa_War:0 "The South African Civil War"
 sp_event_South_Africa_War_QUOTE:0 "You cannot carry out a fundamental change without a certain ammount of madness. \n- Thomas Sankara"
 sp_event_South_Africa_War_REMARK:0 "Dark Continent Burns"
 
+sp_event_Sino_Sov_War:0 "The Sino-Soviet War"
+sp_event_Sino_Sov_War_QUOTE:0 "Who are our enemies? Who are our friends? This is a question of the first importance for the revolution." \n- Mao Tse Tung"
+sp_event_Sino_Sov_War_REMARK:0 "Two Starts, One Sky"
+
+sp_event_Soviet_Collapse:0 "The Fall of the Soviet Union"
+sp_event_Soviet_Collapse_QUOTE:0 ""
+sp_event_Soviet_Collapse_REMARK:0 "Goodnight Rodina..."
+
+

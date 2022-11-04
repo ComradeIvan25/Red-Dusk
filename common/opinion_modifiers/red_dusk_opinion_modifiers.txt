@@ -26,11 +26,6 @@ opinion_modifiers = {
 	IRQ_soviet_support_opinion = {
 		value = 10
 	}
-	
-	YUG_cut_contacts = {
-		value = -25
-	}
-
 	IRQ_iran_aircraft_option_1 = {
 		value = 20
 	}
@@ -43,13 +38,21 @@ opinion_modifiers = {
 	IRQ_dogs_of_the_west_opinion = {
 		value = -75
 	}
-	VIN_trade_with_China = { 
-	  trade = yes
+
+	SOV_pugo_visit_opinion = {
+		value = 25
+	}
+
+	YUG_cut_contacts = {
+		value = -25
+	}
+
+	VIN_trade_with_China = {
+		trade = yes
 		value = 15
 	}
-	
+
 	nonexistant_relations_opinion = {
 		value = -100
 	}
-	
 }

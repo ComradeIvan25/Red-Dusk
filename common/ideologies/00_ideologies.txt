@@ -12,7 +12,7 @@ ideologies = {
 		
 			socialism = {
 			}
-			
+
 			social_democracy = {
 			}
 		}
@@ -252,10 +252,10 @@ ideologies = {
 			fascism_ideology = { #this is nationalism#
 			}
 			
-			falangism = {
+			nazbolism = {
 			}
 			
-			rexism = {
+			nationalist_military_junta = {
 			}
 		}
 		

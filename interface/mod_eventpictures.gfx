@@ -3,6 +3,10 @@ spriteTypes = {
 	## MOD ##
 
 	spriteType = {
+		name = "GFX_report_event_SOV_generic"
+		texturefile = "gfx/event_pictures/report_event_generic_soviet.dds"
+	}
+	spriteType = {
 		name = "GFX_report_event_SOV_1991"
 		texturefile = "gfx/event_pictures/report_event_SOV_1991.dds"
 	}
@@ -439,10 +443,6 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news_iraq_soldiers_marching.dds"
 	}
 	spriteType = {
-		name = "GFX_news_nuke"
-		texturefile = "gfx/event_pictures/news_nuke.dds"
-	}
-	spriteType = {
 		name = "GFX_death_of_japan_pm"
 		texturefile = "gfx/event_pictures/news_death_of_obuchi.png"
 	}
@@ -457,6 +457,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_jcp_win_election"
 		texturefile = "gfx/event_pictures/news_jcp_win.png"
+	}
+	spriteType = {
+		name = "GFX_news_bush_elected"
+		texturefile = "gfx/event_pictures/news_bush_elected.dds"
+	}
+	spriteType = {
+		name = "GFX_news_nuke"
+		texturefile = "gfx/event_pictures/news_nuke.dds"
 	}
 	
 }

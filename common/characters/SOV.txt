@@ -126,15 +126,15 @@ characters = {
 			}
 		}
 	}
-	SOV_mikhail_gorbachev = {
-		name = "Mikhail Gorbachev"
+	SOV_nikolay_ryzhkov = {
+		name = "Nikolay Ryzhkov"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SOV/Mikhail_Gorbachev.dds"
+				large = "gfx/leaders/SOV/Nikolay_Ryzhkov.dds"
 			}
 		}
 		country_leader = {
-			ideology = leninism
+			ideology = market_socialism
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1

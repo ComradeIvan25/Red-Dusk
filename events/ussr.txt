@@ -330,11 +330,11 @@ country_event = {
 		
 	}
 
-	#gorbachev and pizza hut fans#
+	#ryzhkov the dentist#
 	option = {
 		name = ussr.7.b
 		retire_country_leader = yes
-		promote_character = SOV_mikhail_gorbachev
+		promote_character = SOV_nikolay_ryzhkov
 		load_focus_tree = ussr_gorby_focus
 		news_event = { id = old_times_news.5 days = 1 }
 		
@@ -890,6 +890,22 @@ country_event = {
 
 }
 
+#New Guard#
+country_event = {
+	id = ussr.39
+	title = ussr.39.t
+	desc = ussr.39.d
+	picture = GFX_report_event_guard
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr.39.a
+
+	}
+
+}
+
 #Final Judgement#
 country_event = {
 	id = ussr.36
@@ -948,7 +964,7 @@ country_event = {
 	id = ussr.38
 	title = ussr.38.t
 	desc = ussr.38.d
-	picture = GFX_report_event_gorby_diplo
+	picture = GFX_report_event_gorby_gone
 	
 	is_triggered_only = yes
 	

@@ -27,6 +27,14 @@ spriteTypes = {
 		name = "GFX_ideology_democratic_socialism"
 		texturefile = "gfx/interface/ideologies/democratic_socialism.dds"	
 }
+	SpriteType = {
+		name = "GFX_ideology_nationalist_military_junta"
+		texturefile = "gfx/interface/ideologies/nationalist_military_junta.dds"	
+}
+	SpriteType = {
+		name = "GFX_ideology_nazbolism"
+		texturefile = "gfx/interface/ideologies/nazbolism.dds"	
+}
 
 	SpriteType = {
 		name = "GFX_ideology_monarchy"
@@ -57,5 +65,3 @@ spriteTypes = {
 		name = "GFX_ideology_collapsed_state"
 		texturefile = "gfx/interface/ideologies/anarchist.dds"	
 }
-
-

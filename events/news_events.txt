@@ -110,6 +110,7 @@ news_event = {
 		name = old_times_news.7.a
 		set_global_flag = SAF_war
                 set_global_flag = Super_Event_Visible
+	        play_song = "super_sa_war"
 	}
 }
 
@@ -304,6 +305,8 @@ news_event = {
 	 
 	option ={
 		name = old_times_news.27.a
+		set_global_flag = SOV_Chinese_War
+                set_global_flag = Super_Event_Visible
 	}
 }
 
@@ -572,6 +575,23 @@ news_event = {
 	 
 	option ={
 		name = old_times_news.46.a
+	}
+	
+}
+
+#Bush Elected
+news_event = {
+	id = old_times_news.47
+	title = old_times_news.47.t
+	desc = old_times_news.47.d
+	picture = GFX_news_bush_elected
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.47.a
 	}
 	
 }

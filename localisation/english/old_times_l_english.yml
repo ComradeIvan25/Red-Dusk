@@ -47,7 +47,7 @@
  old_times_news.25.t:0 "Coup in the U.S.S.R"
  old_times_news.25.d:0 ""
  old_times_news.25.a:0 "What will the future bring?" 
- old_times_news.26.t:0 "September 11 Attacks"
+ old_times_news.26.t:0 "Attack on the World Trade Center!"
  old_times_news.26.d:0 "Today will be remembered as tragic day for the United States of America. In the early morning hours, two passenger planes flew into the World Trade Center.\n\nIt is believed that at least several hundreds of people have been killed in both the initial plane hits and subsequent collapse of the buildings. Meanwhile a third plane hit the Pentagon which sustained only a "minor damage". Even after the collapse of the Twin Towers, emergency services are still fighting to stabilise the situation.\n\nWhile the citizens of New York and the United States are still processing the shock of the first ever terrorist attack on US soil, the government of the United States has accused a radical Islamic terrorist group Al-Qaeda , and its leader Osama bin Laden for the attacks. Not much is known about this terrorist group or their motives but it is expected that they will be on the receiving end of the American Giant."
  old_times_news.26.a:0 "A tradic day." 
 ### SOVIET WARS###
@@ -105,7 +105,7 @@
  old_times_news.41.d:0 "After much urban fighting between [IRQ.GetAdjective] and [ISR.GetAdjective]	forces, the jewel of Israel has fallen."
  old_times_news.41.a:0 "What will the future bring for the region?"
  old_times_news.41.b:0 "After so long, we have succeeded."
- old_times_news.42.t:0 "[IRQ.getname] tests nuclear bomb"
+ old_times_news.42.t:0 "[IRQ.getname] Tests Nuclear Bomb"
  old_times_news.42.d:0 ""
  old_times_news.42.a:0 "Another nuclear power enters the stage."
  old_times_news.43.t:0 "Death of Japanese Prime Minister Keizō Obuchi"
@@ -120,7 +120,10 @@
  old_times_news.46.t:0 "Tetsuzo Fuwa Elected as new Japan's Prime Minister"
  old_times_news.46.d:0 ""
  old_times_news.46.a:0 "Unthinkable."
- 
+ old_times_news.47.t:0 "George Bush Elected President of United States"
+ old_times_news.47.d:0 "It would seem that with the newest outcome of the presidential elections in the United States, the old saying "Like a father, like a son" was proven to be true.\n\nGeorge W. Bush Junior, a former governor of Texas, prominent member of the Republican Party and the son of the former president George W. Bush Senior was elected the 43rd president of the United States of America. Narrowly winning the elections, Bush Junior seems to be on the way to repeat the controversies of his father as he had became the fourth American president to be elected without a popular vote.\n\nWhile the elections are still fresh in the minds of many Americans and the process of the ratifying its results is still ongoing, the reactions of the rest of the world have been rather lacking. While many believe this to be improvement of the US political situation, many more seem to think that it is nothing more than just continuation of the status quo."
+ old_times_news.47.a:0 "Can he fair better than his father?"
+
 ## Flavour News Events ##
  #flavour_news.1.t:0 ##HIDDEN SCRIPTED EVENT##
  flavour_news.2.t:0 "Disaster in Paris!"

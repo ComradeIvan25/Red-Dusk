@@ -341,6 +341,31 @@ diplomatic_relation = {
 	relation = military_access
 }
 
+diplomatic_relation = {
+	country = AST
+	relation = guarantee
+}
+diplomatic_relation = {
+	country = NZL
+	relation = guarantee
+}
+diplomatic_relation = {
+	country = JAP
+	relation = guarantee
+}
+diplomatic_relation = {
+	country = PHI
+	relation = guarantee
+}
+diplomatic_relation = {
+	country = SKR
+	relation = guarantee
+}
+diplomatic_relation = {
+	country = BRM
+	relation = guarantee
+}
+
 USA = {
 	if = {
 		limit = {

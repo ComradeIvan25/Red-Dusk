@@ -25,6 +25,12 @@ guiTypes = {
 			spriteType = "GFX_sp_event_Yugo_War"
 			position = {x = 0 y = 0}
 		}
+
+		iconType = {
+			name = "Super_Event_Image_Sino_Soviet_War"
+			spriteType = "GFX_sp_event_Sino_Soviet_War"
+			position = {x = 0 y = 0}
+		}
 		
 		###############
 		###INTERFACE###
@@ -32,7 +38,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "super_quote"
-			position = { x = 225 y = 336 }
+			position = { x = 225 y = 320 }
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "[get_super_event_quote]"
@@ -44,7 +50,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "super_title"
-			position = { x = -52 y = 40 }
+			position = { x = -52 y = 30 }
 			font = "hoi_24header"
 			format = center
 			borderSize = {x = 0 y = 0}

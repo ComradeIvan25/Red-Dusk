@@ -31,6 +31,9 @@
 		continue_if_invalid = no
 		completion_reward = {
 			add_political_power = 15
+			SOV = {
+		        country_event = {id = ussr.39}
+			}
 		}
 	}
 	focus = {
@@ -246,7 +249,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_stability = 0.08
+			add_stability = 0.05
 			add_political_power = 30
 		}
 	}
@@ -299,8 +302,11 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_stability = 0.15
-			add_political_power = 50
+                                add_popularity = {
+                                    ideology = communism
+                                    popularity = 0.1
+                                }
+			add_political_power = -35
 		}
 	}
 	focus = {
@@ -937,7 +943,7 @@
 		
 		completion_reward = {
 			army_experience = 20
-			add_war_support = 0.1
+			add_war_support = 0.2
 		}
 	}
 	
@@ -1702,18 +1708,185 @@
 			add_political_power = 15
 		}
 	}
+
+  ###PEACE###
+
 	focus = {
-		id = SOV_pugo_reinforce_mongolia
-		icon = GFX_focus_SOV_aid_mongolia
-		x = 12
+		id = SOV_pugo_reconciliation
+		icon = GFX_focus_SOV_reconciliation
+		x = 15
 		y = 24
 
 		prerequisite = {
 			focus = SOV_pugo_the_red_dragon_in_the_east
 		}
+		mutually_exclusive = { focus = SOV_pugo_reinforce_mongolia }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 20
+		}
+	}
+	focus = {
+		id = SOV_pugo_state_visit
+		icon = GFX_focus_SOV_state_visit_to_china
+		x = 13
+		y = 25
+
+		prerequisite = {
+			focus = SOV_pugo_reconciliation
+		}
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 30
+			add_opinion_modifier = {
+			target = PRC
+			modifier = SOV_pugo_visit_opinion
+			}
+
+			PRC = {
+			add_opinion_modifier = {
+			target = SOV
+			modifier = SOV_pugo_visit_opinion
+			}
+	            }
+		}
+	}
+	focus = {
+		id = SOV_pugo_mao_and_deng
+		icon = GFX_focus_SOV_mao_deng
+		x = 15
+		y = 25
+
+		prerequisite = {
+			focus = SOV_pugo_reconciliation
+		}
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_pugo_trade_agreement
+		icon = GFX_focus_SOV_sino_sov_trade
+		x = 17
+		y = 25
+
+		prerequisite = {
+			focus = SOV_pugo_reconciliation
+		}
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_pugo_sino_sov_coop
+		icon = GFX_focus_SOV_sino_soviet_coop
+		x = 15
+		y = 26
+
+		prerequisite = {
+			focus = SOV_pugo_trade_agreement
+		}
+		prerequisite = {
+			focus = SOV_pugo_mao_and_deng
+		}
+		prerequisite = {
+			focus = SOV_pugo_state_visit
+		}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {	
+		}
+	}
+	focus = {
+		id = SOV_pugo_fix_khrushchev
+		icon = GFX_SOV_focus_fix_khrushchev
+		x = 15
+		y = 27
+
+		prerequisite = {
+			focus = SOV_pugo_sino_sov_coop
+		}
+		mutually_exclusive = { }
+		
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+
+  ###WAR###
+
+	focus = {
+		id = SOV_pugo_reinforce_mongolia
+		icon = GFX_focus_SOV_aid_mongolia
+		x = 9
+		y = 24
+
+		prerequisite = {
+			focus = SOV_pugo_the_red_dragon_in_the_east
+		}
+		mutually_exclusive = { focus = SOV_pugo_reconciliation }
+		
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -1729,7 +1902,7 @@
 	focus = {
 		id = SOV_pugo_border_blockades
 		icon = GFX_SOV_border_blockades
-		x = 10
+		x = 7
 		y = 25
 
 		prerequisite = {
@@ -1737,7 +1910,7 @@
 		}
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -1753,7 +1926,7 @@
 	focus = {
 		id = SOV_pugo_mobilize_the_industry
 		icon = GFX_SOV_mobilize_industry
-		x = 12
+		x = 9
 		y = 25
 
 		prerequisite = {
@@ -1761,7 +1934,7 @@
 		}
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -1777,7 +1950,7 @@
 	focus = {
 		id = SOV_pugo_project_red_dusk
 		icon = GFX_SOV_project_red_dusk
-		x = 14
+		x = 11
 		y = 25
 
 		prerequisite = {
@@ -1785,7 +1958,7 @@
 		}
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -1801,7 +1974,7 @@
 	focus = {
 		id = SOV_pugo_against_the_eastern_dragon
 		icon = GFX_SOV_against_the_eastern_dragon
-		x = 12
+		x = 9
 		y = 26
 
 		prerequisite = {
@@ -1815,7 +1988,7 @@
 		}
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1845,7 +2018,7 @@
 	focus = {
 		id = SOV_pugo_end_the_revisionists
 		icon = GFX_SOV_end_of_the_revisionists
-		x = 12
+		x = 9
 		y = 27
 
 		prerequisite = {
@@ -1853,7 +2026,7 @@
 		}
 		mutually_exclusive = { }
 		
-		cost = 1
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -1873,7 +2046,7 @@
 		y = 28
 
 		prerequisite = {
-			focus = SOV_pugo_end_the_revisionists
+			focus = SOV_pugo_end_the_revisionists focus = SOV_pugo_fix_khrushchev
 		}
 		mutually_exclusive = { }
 		
@@ -1887,7 +2060,8 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
+			add_political_power = 250
+			add_stability = 0.15
 		}
 	}
 

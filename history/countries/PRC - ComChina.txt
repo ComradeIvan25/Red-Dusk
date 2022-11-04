@@ -23,12 +23,8 @@ set_technology = {
 	rocket_artillery_1960 = 1
 }
 
-set_stability = 0.75
+set_stability = 0.6
 set_war_support = 0.7
-
-set_research_slots = 4
-
-set_convoys = 250
 
 # leaders #
 recruit_character = PRC_jiang_zemin
@@ -56,6 +52,10 @@ add_ideas = PRC_third_taiwan_strait_crisis
 
 add_ideas = china_aligned_nation
 
+diplomatic_relation = {
+	country = KOR
+	relation = guarantee
+}
 
 # Naval Variants #
 if = {

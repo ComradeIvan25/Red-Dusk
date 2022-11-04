@@ -13,9 +13,16 @@ scripted_gui = {
 				has_global_flag = SAF_war
 			}
 		}
+		
 		triggers = {
 			Super_Event_Image_Yugo_War_visible = {
 				has_global_flag = YUG_War
+			}
+		}
+
+		triggers = {
+			Super_Event_Image_Sino_Soviet_War_visible = {
+				has_global_flag = SOV_Chinese_War
 			}
 		}
 		
@@ -39,6 +46,13 @@ scripted_gui = {
 						has_global_flag = YUG_War
 					}
 					clr_global_flag = YUG_War
+				}
+
+				if = {
+					limit = {
+						has_global_flag = SOV_Chinese_War
+					}
+					clr_global_flag = SOV_Chinese_War
 				}
 
 			}

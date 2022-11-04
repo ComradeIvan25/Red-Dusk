@@ -23,4 +23,9 @@ spriteTypes = {
 		textureFile = "gfx/super_events/Super_Event_Yugo_War.dds"
 	}
 
+	spriteType = {
+		name = "GFX_sp_event_Sino_Soviet_War"
+		textureFile = "gfx/super_events/Super_Event_Sino_Soviet_War.dds"
+	}
+
 }

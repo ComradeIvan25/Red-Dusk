@@ -13,17 +13,6 @@ characters = {
 			expire = "2050.3.1.1"
 			id = -1
 		}
-	}
- 
-    ##Generals##
-
-	ANC_thabo_mbeki_general = {
-		name = "Thabo Mbeki"
-		portraits = {
-			army = {
-				large = "gfx/leaders/SAF/thabo_mbeki.dds"
-			}
-		}
 		field_marshal={
 			traits={ }
 			skill=1
@@ -34,6 +23,8 @@ characters = {
 			legacy_id=-1
 		}
 	}
+ 
+    ##Generals##
 
 	ANC_siphiwe_nyanda = {
 		name = "Siphiwe Nyanda"
@@ -44,9 +35,9 @@ characters = {
 		}
 		corps_commander={
 			traits={ }
-			skill=1
-			attack_skill=1
-			defense_skill=1
+			skill=2
+			attack_skill=2
+			defense_skill=2
 			planning_skill=1
 			logistics_skill=1
 			legacy_id=-1
@@ -62,10 +53,10 @@ characters = {
 		}
 		corps_commander={
 			traits={ }
-			skill=1
-			attack_skill=1
+			skill=2
+			attack_skill=2
 			defense_skill=1
-			planning_skill=1
+			planning_skill=2
 			logistics_skill=1
 			legacy_id=-1
 		}
@@ -98,11 +89,11 @@ characters = {
 		}
 		corps_commander={
 			traits={ }
-			skill=1
-			attack_skill=1
+			skill=2
+			attack_skill=2
 			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=-1
 		}
 	}

@@ -5,7 +5,6 @@
 set_research_slots = 2
 
 recruit_character = ANC_thabo_mbeki
-recruit_character = ANC_thabo_mbeki_general
 recruit_character = ANC_siphiwe_nyanda
 recruit_character = ANC_solly_shoke
 recruit_character = ANC_lindile_yam

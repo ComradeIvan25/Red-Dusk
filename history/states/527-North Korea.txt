@@ -19,6 +19,9 @@ state={
 			industrial_complex = 10
 			arms_factory = 6
 			dockyard = 2
+			4052 = {
+				naval_base = 2
+			}
 		}
 		
 		victory_points = {
@@ -26,7 +29,7 @@ state={
 		}	
 
 		add_core_of = KOR
-        add_core_of = SKR
+        	add_core_of = SKR
 	}
 
 	provinces={

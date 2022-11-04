@@ -2648,7 +2648,7 @@
 
 	focus = {
 		id = SOV_pugo_leningrad
-		icon = GFX_focus_SOV_marshal_yazov
+		icon = GFX_focus_SOV_leningrad_oblast
 		x = 28
 		y = 3
 		prerequisite = {focus = SOV_pugo_investor}  

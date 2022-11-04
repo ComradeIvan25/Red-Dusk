@@ -18,7 +18,7 @@ ideas = {
 				conscription_factor = -0.1
 			}
 		}
-        VIN_fifty_years_resistance_1 = {
+		VIN_fifty_years_resistance_1 = {
 			name = VIN_fifty_years_resistance_1_name
 
 			removal_cost = -1
@@ -184,7 +184,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = = VIN_corruption_in_goverment_icon
+			picture = VIN_corruption_in_goverment_icon
 
 			allowed = {
 				always = no

@@ -136,7 +136,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_fix_gorby_mess"
-		texturefile = "gfx/interface/goals/focus_SOV_fix_gorby_mess.png"
+		texturefile = "gfx/interface/goals/SOV_fix_gorby_mess.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_reform_the_CPSU"
@@ -200,7 +200,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_not_yet"
-		texturefile = "gfx/interface/goals/focus_SOV_not_yet.png"
+		texturefile = "gfx/interface/goals/SOV_not_yet.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_Da_Molotoff"
@@ -1141,7 +1141,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_SOV_fix_gorbys_mess"
-		texturefile = "gfx/interface/goals/SOV_fix_gorbys_mess.dds"
+		texturefile = "gfx/interface/goals/SOV_fix_gorby_mess.png"
 	}
 	SpriteType = {
 		name = "GFX_SOV_follow_the_brezhnev_plan"
@@ -1193,7 +1193,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_SOV_little_traitors"
-		texturefile = "gfx/interface/goals/SOV_little_traitors.dds"
+		texturefile = "gfx/interface/goals/SOV_little_traitor.png"
 	}
 	SpriteType = {
 		name = "GFX_SOV_loyal_men_in_high_position"
@@ -1318,6 +1318,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_SOV_focus_promise_local_govern"
 		texturefile = "gfx/interface/goals/focus_SOV_promise_local_govern.png"
+	}
+	SpriteType = {
+		name = "GFX_SOV_always_at_the_ready"
+		texturefile = "gfx/interface/goals/SOV_always_at_the_ready.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_extreme_planning"

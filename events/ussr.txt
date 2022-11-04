@@ -333,24 +333,37 @@ country_event = {
 	#ryzhkov the dentist#
 	option = {
 		name = ussr.7.b
+
+		set_politics = {
+			ruling_party = reformed_communism
+			elections_allowed = no
+		}
+		set_popularities = {
+			democratic = 14
+			fascism = 11
+			reformed_communism = 40
+			neutrality = 7
+			communism = 28
+		}
+
 		retire_country_leader = yes
 		promote_character = SOV_nikolay_ryzhkov
 		load_focus_tree = ussr_gorby_focus
 		news_event = { id = old_times_news.5 days = 1 }
 		
-			SOV = {
-				country_event = { id = ussr_foreign_policy.2 days = 5 }
-			}
+		SOV = {
+			country_event = { id = ussr_foreign_policy.2 days = 5 }
+		}
 		
 		ai_chance = {
 			factor = 50
-				modifier = {
-					factor = 99999
-					has_game_rule = {
+			modifier = {
+				factor = 99999
+				has_game_rule = {
 					rule = SOV_paths_selection
 					option = SOV_GORBACHEV_PATH_CHOSEN
-					}
 				}
+			}
 		}
 	}
 }

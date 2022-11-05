@@ -62,6 +62,21 @@ characters = {
 		}
 	}
 	
+	USA_donald_trump = {
+		name = "Donald Trump"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Donald_Trump.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+	
 	USA_dick_cheney = {
 		name = "Dick Cheney"
 		portraits = {

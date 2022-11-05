@@ -3,6 +3,7 @@ add_namespace = usa_quayle
 add_namespace = usa_bush
 add_namespace = usa_mccain
 add_namespace = usa_gore
+add_namespace = usa_trump
 add_namespace = usa_help
 
 country_event = { #The State of the Union#
@@ -451,7 +452,16 @@ country_event = { #Inauguration#
 			limit = {has_country_flag = biden_for_dem_candicate}
 		}
 		else_if = {
-			limit = {has_country_flag = trump_for_reform_candicate}
+			limit = {
+				AND = {
+				has_country_flag = trump_for_reform_candicate 
+				has_country_flag = ref_win
+				}
+			}
+			load_focus_tree = usa_trump_focus
+			complete_national_focus = USA_gore_gore_in_office
+			retire_country_leader = yes
+			promote_character = USA_donald_trump
 		}
 		else_if = {
 			limit = {has_country_flag = buchanan_for_reform_candicate}
@@ -617,6 +627,23 @@ country_event = { #Gore’s Inauguration#
 	#k#
 	option = {
 		name = usa_gore.1.a
+		
+	}
+}
+
+#TRUMP#
+
+country_event = { #Trump’s Inauguration#
+	id = usa_trump.1
+	title = usa_trump.1.t
+	desc = usa_trump.1.d
+	picture = GFX_report_event_USA_2000
+	
+	is_triggered_only = yes
+	
+	#k#
+	option = {
+		name = usa_trump.1.a
 		
 	}
 }

@@ -2,7 +2,7 @@
 state={
 	id=454
 	name="STATE_454" #Israel
-	manpower = 5530200
+	manpower = 355000
 	
 	state_category = town
 

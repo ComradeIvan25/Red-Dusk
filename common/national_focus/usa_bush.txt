@@ -15,7 +15,7 @@
 
 	focus = {
 		id = USA_bush_bush_in_office
-		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		icon = GFX_USA_focus_bush_in_office
 		x = 10
 		y = 0
 
@@ -38,7 +38,7 @@
 	
 	focus = {
 		id = USA_bush_legacy_of_the_father
-		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		icon = GFX_USA_focus_the_father
 		x = 10
 		y = 1
 
@@ -63,7 +63,7 @@
 	
 	focus = {
 		id = USA_bush_times_they_a_changin
-		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		icon = GFX_USA_focus_times_are_changing
 		x = 10
 		y = 2
 
@@ -88,7 +88,7 @@
 	
 	focus = {
 		id = USA_bush_social_spending
-		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		icon = GFX_USA_focus_social_spendings
 		x = 5
 		y = 3
 
@@ -112,7 +112,7 @@
 	
 	focus = {
 		id = USA_bush_american_industry_american_jobs
-		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		icon = GFX_USA_focus_american_workers_and_jobs
 		x = 3
 		y = 4
 
@@ -136,7 +136,7 @@
 	
 	focus = {
 		id = USA_bush_tariff_time
-		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		icon = GFX_USA_focus_tariffs
 		x = 3
 		y = 5
 
@@ -174,7 +174,7 @@
 	
 	focus = {
 		id = USA_bush_kick_china_to_the_curb
-		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		icon = GFX_USA_focus_kick_china
 		x = 3
 		y = 6
 
@@ -212,7 +212,7 @@
 	
 	focus = {
 		id = USA_bush_medicare_modernization
-		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		icon = GFX_USA_focus_medicare
 		x = 5
 		y = 4
 
@@ -242,7 +242,7 @@
 	
 	focus = {
 		id = USA_bush_no_child_left_behind
-		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		icon = GFX_USA_focus_no_child_left_behind
 		x = 5
 		y = 5
 
@@ -267,7 +267,7 @@
 	
 	focus = {
 		id = USA_bush_welfare_through_faith
-		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		icon = GFX_USA_focus_welfare_trough_faith
 		x = 5
 		y = 6
 
@@ -293,7 +293,7 @@
 	
 	focus = {
 		id = USA_bush_no_new_taxes
-		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		icon = GFX_USA_focus_no_taxes
 		x = 7
 		y = 4
 
@@ -319,7 +319,7 @@
 	
 	focus = {
 		id = USA_bush_business_will_boom
-		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		icon = GFX_USA_focus_business_booming
 		x = 7
 		y = 5
 
@@ -343,7 +343,7 @@
 	
 	focus = {
 		id = USA_bush_subsidies_for_support
-		icon = GFX_USA_focus_aftermath_of_uneasy_90s
+		icon = GFX_USA_focus_substuties_for_support
 		x = 7
 		y = 6
 

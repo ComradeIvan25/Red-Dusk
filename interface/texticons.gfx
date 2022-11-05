@@ -1919,7 +1919,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_political_power_texticon"
+		name = "GFX_political_power"
 		texturefile = "gfx/texticons/political_power.dds"
 		legacy_lazy_load = no
 	}

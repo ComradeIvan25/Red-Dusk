@@ -5,3 +5,12 @@ music = {
 		factor = 0
 	}
 }
+music = {
+	song = "super_sa_war"
+	chance = {
+		factor = 0
+	}
+}
+
+
+

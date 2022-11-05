@@ -1442,7 +1442,7 @@
 
 		prerequisite = {focus = SOV_pugo_compromise_with_the_usa
 		}
-		mutually_exclusive = { }
+		mutually_exclusive = { focus = SOV_pugo_never_trust_a_yank }
 		
 		cost = 1
 		ai_will_do = {
@@ -1565,7 +1565,7 @@
 
 		prerequisite = { focus = SOV_pugo_compromise_with_the_usa
 		}
-		mutually_exclusive = { }
+		mutually_exclusive = { focus = SOV_pugo_old_enemies_new_partners }
 		
 		cost = 1
 		ai_will_do = {

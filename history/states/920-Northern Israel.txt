@@ -2,7 +2,7 @@
 state={
 	id=920
 	name="STATE_920" #Northern Israel
-	manpower = 2765100
+	manpower = 5637300
 	
 	state_category = town
 

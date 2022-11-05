@@ -2,9 +2,9 @@
 state={
 	id=914
 	name="STATE_914" #Palestine
-	manpower = 4803000
+	manpower = 2922000
 	
-	state_category = rural
+	state_category = town
 
 	history={
 		owner = PAL

@@ -50,7 +50,7 @@ set_convoys = 0
 add_ideas = {
 	civilian_economy
 	limited_exports
-	service_by_requirement
+	extensive_conscription
 }
 
 add_ideas = IRQ_western_embargo_1

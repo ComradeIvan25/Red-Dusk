@@ -52,8 +52,8 @@ equipments = {
 			custom_slot_1 = empty
 		}
 
-		surface_detection = 20
-		sub_visibility = 35
+		surface_visibility = 0.5
+		sub_visibility = 25
 
 		naval_speed = 20
 		reliability = 0.70
@@ -89,7 +89,7 @@ equipments = {
 
 		module_slots = inherit
 
-		sub_visibility = 25
+		sub_visibility = 21
 
 		reliability = 0.74
 		max_strength = 20
@@ -127,7 +127,7 @@ equipments = {
 			custom_slot_2 = empty
 		}
 
-		sub_visibility = 20
+		sub_visibility = 19
 
 		reliability = 0.76
 		max_strength = 25
@@ -165,7 +165,7 @@ equipments = {
 			custom_slot_2 = empty
 		}
 
-		sub_visibility = 15
+		sub_visibility = 17
 
 		reliability = 0.78
 		max_strength = 30
@@ -210,7 +210,7 @@ equipments = {
 			custom_slot_3 = empty
 		}
 
-		sub_visibility = 10
+		sub_visibility = 15
 
 		reliability = 0.80
 		max_strength = 35
@@ -255,7 +255,7 @@ equipments = {
 			custom_slot_3 = empty
 		}
 
-		sub_visibility = 5
+		sub_visibility = 13
 
 		reliability = 0.82
 		max_strength = 40
@@ -343,8 +343,8 @@ equipments = {
 			custom_sub_cruise_missile_slot_4 = empty
 		}
 
-		surface_detection = 20
-		sub_visibility = 45
+		surface_visibility = 1.0
+		sub_visibility = 30
 
 		naval_speed = 20
 		reliability = 0.74
@@ -380,7 +380,7 @@ equipments = {
 
 		module_slots = inherit
 
-		sub_visibility = 35
+		sub_visibility = 26
 
 		reliability = 0.78
 		max_strength = 30
@@ -397,7 +397,7 @@ equipments = {
 
 		module_slots = inherit
 
-		sub_visibility = 25
+		sub_visibility = 22
 
 		reliability = 0.82
 		max_strength = 40
@@ -414,7 +414,7 @@ equipments = {
 
 		module_slots = inherit
 
-		sub_visibility = 15
+		sub_visibility = 18
 
 		reliability = 0.86
 		max_strength = 50
@@ -509,8 +509,8 @@ equipments = {
 			custom_sub_ballistic_missile_slot_5 = empty
 		}
 		
-		surface_detection = 20
-		sub_visibility = 55
+		surface_visibility = 1.0
+		sub_visibility = 34
 
 		naval_speed = 20
 		reliability = 0.76
@@ -546,7 +546,7 @@ equipments = {
 
 		module_slots = inherit
 
-		sub_visibility = 45
+		sub_visibility = 30
 
 		reliability = 0.80
 		max_strength = 40
@@ -563,7 +563,7 @@ equipments = {
 
 		module_slots = inherit
 
-		sub_visibility = 35
+		sub_visibility = 26
 
 		reliability = 0.84
 		max_strength = 50
@@ -580,7 +580,7 @@ equipments = {
 
 		module_slots = inherit
 
-		sub_visibility = 25
+		sub_visibility = 22
 
 		reliability = 0.88
 		max_strength = 60

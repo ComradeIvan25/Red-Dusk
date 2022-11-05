@@ -16,7 +16,9 @@ state={
 			industrial_complex = 2
 			arms_factory = 1
 			air_base = 4
-
+			10087 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = SYR
 
@@ -25,7 +27,7 @@ state={
 	provinces={
 		1056 1072 1088 7140 7671 10087 12473 
 	}
-	manpower=1325594
+	manpower=10666500
 	buildings_max_level_factor=1.000
 	state_category=town
 

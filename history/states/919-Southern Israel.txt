@@ -2,7 +2,7 @@
 state={
 	id=919
 	name="STATE_919" #Southern Israel
-	manpower = 921700
+	manpower = 296700
 	
 	state_category = rural
 

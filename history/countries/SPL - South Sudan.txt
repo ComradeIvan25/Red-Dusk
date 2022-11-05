@@ -1,0 +1,27 @@
+﻿capital = 551
+
+set_convoys = 20
+
+#recruit_character = SUD_omar_al_bashir
+
+declare_war_on = {
+	target = SUD
+	type = topple_government
+}
+
+SPL = { set_province_controller = 12887 }
+SPL = { set_province_controller = 4918 }
+SPL = { set_province_controller = 10857 }
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 0
+	fascism = 50
+	communism = 0
+	neutrality = 50
+}

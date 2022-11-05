@@ -934,3 +934,7 @@ NRO = {
 	color = rgb { 139  255  94 }
 	color_ui = rgb { 132  251  92 }
 }
+SPL = {
+	color = rgb { 130 135 83 }
+	color_ui = rgb { 135 135 83 }
+}

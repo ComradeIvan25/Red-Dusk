@@ -4,6 +4,8 @@ capital = 725
 
 set_research_slots = 3
 
+recruit_character = NAU_rene_reynaldo_harris
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"

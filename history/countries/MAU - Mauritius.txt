@@ -4,6 +4,8 @@ capital = 707
 
 set_research_slots = 3
 
+recruit_character = MAU_cassam_uteem
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"

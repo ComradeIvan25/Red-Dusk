@@ -2,6 +2,8 @@
 
 ##oob = ""
 
+recruit_character = FIJ_ratu_sir_kamisese_mara
+
 set_convoys = 20
 
 set_politics = {

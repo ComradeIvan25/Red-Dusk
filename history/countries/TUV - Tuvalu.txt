@@ -4,6 +4,8 @@ capital = 643
 
 set_research_slots = 3
 
+recruit_character = TUV_iontana_iontana
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"

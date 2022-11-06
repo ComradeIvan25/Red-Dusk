@@ -115,7 +115,8 @@ characters = {
 		name = "Tom Ridge"
 		portraits = {
 			civilian = {
-				small = "gfx/leaders/USA/tom_ridge.dds"
+				large = "gfx/leaders/USA/tom_ridge.dds"
+				small = "gfx/leaders/USA/tom_ridge_small.dds"
 			}
 		}
 		advisor={
@@ -136,7 +137,8 @@ characters = {
 		name = "Paul O’Neill"
 		portraits = {
 			civilian = {
-				small = "gfx/leaders/USA/paul_o_neill.dds"
+				large = "gfx/leaders/USA/paul_o_neill.dds"
+				small = "gfx/leaders/USA/paul_o_neill_small.dds"
 			}
 		}
 		advisor={
@@ -157,7 +159,8 @@ characters = {
 		name = "Colin Powell"
 		portraits = {
 			civilian = {
-				small = "gfx/leaders/USA/colin_powell.dds"
+				large = "gfx/leaders/USA/colin_powell.dds"
+				small = "gfx/leaders/USA/colin_powell_small.dds"
 			}
 		}
 		advisor={

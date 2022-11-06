@@ -1,3 +1,20 @@
+USA_debug = {
+	icon = GFX_decision_category_usa_congress
+	#picture = 
+	
+	allowed = {
+		original_tag = USA
+		is_debug = yes
+	}
+	
+	visible = {
+		original_tag = USA
+		is_debug = yes
+	}
+	priority = 1000
+}
+
+
 category_USA_congress = {
 	icon = GFX_decision_category_usa_congress
 

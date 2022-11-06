@@ -1,3 +1,127 @@
+USA_debug = {
+
+	usa_bush = {
+	
+		icon = generic_prepare_civil_war
+	
+		allowed = {
+			original_tag = USA
+
+		}
+		available = {
+		original_tag = USA
+			is_debug = yes
+
+		}
+		visible = {
+			original_tag = USA
+			is_debug = yes
+		}
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			load_focus_tree = usa_bush_focus
+			complete_national_focus = USA_bush_bush_in_office
+			retire_country_leader = yes
+			promote_character = USA_george_bush
+			news_event = {id = old_times_news.47}
+		}	
+	}
+	
+	usa_mccain = {
+	
+		icon = generic_prepare_civil_war
+	
+		allowed = {
+			original_tag = USA
+
+		}
+		available = {
+		original_tag = USA
+			is_debug = yes
+
+		}
+		visible = {
+			original_tag = USA
+			is_debug = yes
+		}
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			load_focus_tree = usa_mccain_focus
+			complete_national_focus = USA_mccain_mccain_in_office
+			retire_country_leader = yes
+			promote_character = USA_john_mccain
+		}	
+	}
+	
+	usa_gore = {
+	
+		icon = generic_prepare_civil_war
+	
+		allowed = {
+			original_tag = USA
+
+		}
+		available = {
+		original_tag = USA
+			is_debug = yes
+
+		}
+		visible = {
+			original_tag = USA
+			is_debug = yes
+		}
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			load_focus_tree = usa_gore_focus
+			complete_national_focus = USA_gore_gore_in_office
+			retire_country_leader = yes
+			promote_character = USA_al_gore
+		}	
+	}
+	
+	usa_trump = {
+	
+		icon = generic_prepare_civil_war
+	
+		allowed = {
+			original_tag = USA
+
+		}
+		available = {
+		original_tag = USA
+			is_debug = yes
+
+		}
+		visible = {
+			original_tag = USA
+			is_debug = yes
+		}
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			load_focus_tree = usa_trump_focus
+			complete_national_focus = USA_trump_trump_in_office
+			retire_country_leader = yes
+			promote_character = USA_donald_trump
+		}	
+	}
+}
+
 category_USA_congress = {
 
 	USA_congress_test_decision = {

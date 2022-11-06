@@ -427,6 +427,7 @@ country_event = { #Inauguration#
 			complete_national_focus = USA_bush_bush_in_office
 			retire_country_leader = yes
 			promote_character = USA_george_bush
+			news_event = {id = old_times_news.47}
 		}
 		else_if = {
 			limit = {
@@ -463,7 +464,7 @@ country_event = { #Inauguration#
 				}
 			}
 			load_focus_tree = usa_trump_focus
-			complete_national_focus = USA_gore_gore_in_office
+			complete_national_focus = USA_trump_trump_in_office
 			retire_country_leader = yes
 			promote_character = USA_donald_trump
 		}

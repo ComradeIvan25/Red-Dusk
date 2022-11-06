@@ -366,8 +366,10 @@
  trump_will_be_reform_candicate:0 "§YTrump becomes Reform Candidate for President.§!"
  buchanan_will_be_reform_candicate:0 "§YBuchanan becomes Reform Candidate for President.§!"
  rep_candicate_will_become_president_on_jan20:0 "§GRepublican Candidate will become President on Jan 20.§!"
- dem_candicate_will_become_president_on_jan20:0 "§Democrat Candidate will become President on Jan 20.§!"
+ dem_candicate_will_become_president_on_jan20:0 "§GDemocrat Candidate will become President on Jan 20.§!"
  reform_candicate_will_become_president_on_jan20:0 "§GReformist Candidate will become President on Jan 20.§!"
+ 
+ usa_warning:0 "§R DO NOT CHOOSE THIS AS A CANDIDATE, THEY HAVE NO CONTENT FOR NOW. DO NOT CHOOSE THIS CANDIDATE§!"
  
  USA_unlocks_diplomacy:0 "§GUnlocks the Diplomatic Tree§!"
  

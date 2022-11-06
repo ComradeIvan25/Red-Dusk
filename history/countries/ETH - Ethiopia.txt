@@ -1,6 +1,7 @@
 ﻿capital = 271
 
 oob = "ETH_2000"
+set_air_oob = "ETH_2000_air"
 
 set_convoys = 5
 
@@ -22,6 +23,7 @@ set_technology = {
 	mbt_tank_1990 = 1
 	towed_artillery_1980 = 1
 	ifv_tank_1990 = 1
+	
 }
 
 set_politics = {

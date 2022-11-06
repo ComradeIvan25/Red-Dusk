@@ -1,0 +1,46 @@
+air_wings = {
+	
+	271 =  {
+		attacker_equipment_1 =  { 
+			owner = "ETH" 
+			creator = SOV
+			amount = 20
+		}
+		fighter_equipment_0 =  {
+			owner = "ETH" 
+			creator = SOV
+			amount = 20
+		}
+		attacker_equipment_1 =  { 
+			owner = "ETH" 
+			creator = SOV
+			amount = 20
+		}
+		fighter_equipment_0 =  {
+			owner = "ETH" 
+			creator = SOV
+			amount = 20
+		}
+		attacker_equipment_1 =  { 
+			owner = "ETH" 
+			creator = SOV
+			amount = 20
+		}
+		fighter_equipment_0 =  {
+			owner = "ETH" 
+			creator = SOV
+			amount = 20
+		}
+		attacker_equipment_1 =  { 
+			owner = "ETH" 
+			creator = SOV
+			amount = 20
+		}
+		fighter_equipment_0 =  {
+			owner = "ETH" 
+			creator = SOV
+			amount = 20
+		}
+		
+	}
+}

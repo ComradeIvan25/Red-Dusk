@@ -247,9 +247,10 @@ country_event = { #The Democrat Conventions Conclude#
 	}
 	
 	option = {
-		name = usa_quayle.7.a
+		name = usa_quayle.7.b
 		set_country_flag = biden_for_dem_candicate
 		custom_effect_tooltip = biden_will_be_dem_candicate
+		custom_effect_tooltip = usa_warning
 		country_event = {id = usa_quayle.8 days = 3}
 		ai_chance = {
 		factor = 35
@@ -294,6 +295,7 @@ country_event = { #The Reform Conventions Conclude#
 		name = usa_quayle.8.b
 		set_country_flag = buchanan_for_reform_candicate
 		custom_effect_tooltip = buchanan_will_be_reform_candicate
+		custom_effect_tooltip = usa_warning
 		ai_chance = {
 		factor = 50
 			modifier = {
@@ -315,6 +317,7 @@ country_event = { #Election Day...#
 	
 	trigger = {
 	date > 2000.11.6
+	original_tag = USA
 	}
 	
 	fire_only_once = yes

@@ -404,6 +404,7 @@ country_event = { #Inauguration#
 	picture = GFX_report_event_USA_2000
 	
 	trigger = {
+	original_tag = USA
 	date > 2001.01.19
 	}
 	

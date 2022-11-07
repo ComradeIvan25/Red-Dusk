@@ -369,6 +369,29 @@ spriteTypes = {
 		name = "GFX_idea_RCD_war_icon"
 		texturefile = "gfx/interface/ideas/RCD_war.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_UGA_increasing_auth_icon"
+		texturefile = "gfx/interface/ideas/UGA_increasing_auth.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_BRD_tutsi_dominance_icon"
+		texturefile = "gfx/interface/ideas/BRD_tutsi_dominance.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BRD_civil_war_icon"
+		texturefile = "gfx/interface/ideas/BRD_civil_war.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_RWA_tutsi_dominance_icon"
+		texturefile = "gfx/interface/ideas/RWA_tutsi_dominance.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RWA_scars_of_genocide_icon"
+		texturefile = "gfx/interface/ideas/RWA_scars_of_genocide.png"
+	}
 
 	spriteType = {
 		name = "GFX_idea_CRO_aftermath_of_the_krajina_war_icon"

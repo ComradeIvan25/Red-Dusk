@@ -108,7 +108,7 @@ ideas = {
 				is_puppet = yes
 			}
 			
-			#picture = RCD_war_icon
+			picture = UGA_increasing_auth_icon
 
 			allowed = {
 				always = no
@@ -132,7 +132,7 @@ ideas = {
 				is_puppet = yes
 			}
 			
-			#picture = RCD_war_icon
+			picture = RWA_tutsi_dominance_icon
 
 			allowed = {
 				always = no
@@ -151,7 +151,7 @@ ideas = {
 
 			removal_cost = -1
 			
-			#picture = RCD_war_icon
+			picture = RWA_scars_of_genocide_icon
 
 			allowed = {
 				always = no
@@ -176,7 +176,7 @@ ideas = {
 				is_puppet = yes
 			}
 			
-			#picture = RCD_war_icon
+			picture = BRD_tutsi_dominance_icon
 
 			allowed = {
 				always = no
@@ -199,7 +199,7 @@ ideas = {
 				is_puppet = yes
 			}
 			
-			#picture = RCD_war_icon
+			picture = BRD_civil_war_icon
 
 			allowed = {
 				always = no

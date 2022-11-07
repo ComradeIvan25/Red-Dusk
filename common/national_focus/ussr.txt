@@ -1,6 +1,5 @@
 ﻿focus_tree = {
 	id = ussr_focus
-	continuous_focus_position = { x = 1400 y = 100 } 
 	country = {
 		factor = 0
 		

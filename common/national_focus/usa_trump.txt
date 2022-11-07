@@ -1,6 +1,5 @@
 ﻿focus_tree = {
 	id = usa_trump_focus
-	continuous_focus_position = { x = 22222222222 y = 100 } 
 	country = {
 		factor = 0
 		

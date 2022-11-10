@@ -374,6 +374,9 @@
  
  KOR_usa_embargo_name:0 "Embargo"
  KOR_songun_name:0 "Songun"
+ 
+ AFG_hardened_fighters_name:0 "Hardened Fighters"
+ AFG_hardened_fighters_name_desc:0 ""
  # SOV #
 
  SOV_design_bureau_morozov:0 "Morozov Design Bureau"

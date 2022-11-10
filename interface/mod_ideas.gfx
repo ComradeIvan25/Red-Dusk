@@ -531,4 +531,10 @@ spriteTypes = {
 		name = "GFX_idea_KOR_songun"
 		texturefile = "gfx/interface/ideas/KOR_songun.png"
 	}
+	#AFGHANISTAN
+	spriteType = {
+		name = "GFX_idea_AFG_hardened_fighters_icon"
+		texturefile = "gfx/interface/ideas/AFG_hardened_fighters_icon.png"
+	}
+	
 }

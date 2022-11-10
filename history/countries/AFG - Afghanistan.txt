@@ -1,25 +1,26 @@
 ﻿capital = 267
 
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	#set_oob = "AFG_1936"
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	#set_oob = "AFG_1936_nsb"
-}
+oob = "AFG_2000"
 
 recruit_character = AFG_mullah_omar
+
+add_ideas = AFG_hardened_fighters
+
+add_ideas = war_economy
+add_ideas = extensive_conscription
 
 declare_war_on = {
 	target = NRO
 	type = topple_government
+}
+
+
+set_technology = {
+	infantry_weapons_1960 = 1
+	infantry_weapons_1980 = 1
+	mbt_tank_1990 = 1
+	towed_artillery_1980 = 1
+	ifv_tank_1990 = 1
 }
 
 set_politics = {

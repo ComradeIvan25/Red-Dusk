@@ -1,0 +1,16 @@
+state={
+	id=945
+	name="STATE_945"
+	history={
+		owner = KOR
+		add_core_of = KOR
+		add_core_of = SKR
+	}
+	provinces={
+		848 3981 6928 7171 10083 11770 
+	}
+	manpower=2424445
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=city
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=527
+	name="STATE_527"
+	resources={
+		steel=18.000
+		tungsten=28.000
+	}
+
+	history={
+		owner = KOR
+		add_core_of = KOR
+		add_core_of = SKR
+		buildings = {
+			infrastructure = 2
+			air_base = 10
+			industrial_complex = 10
+			arms_factory = 6
+			dockyard = 2
+			4052 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			4052 1 
+		}
+		add_core_of = KOR
+		add_core_of = SKR
+
+	}
+
+	provinces={
+		1003 4004 4052 4107 7070 7155 9981 10065 11915 11958 12040 
+	}
+	manpower=6774200
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

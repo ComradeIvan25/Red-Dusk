@@ -45,7 +45,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 10852
+		location = 10826
 		division_template = "Armored Division"		# Tank division
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -57,7 +57,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 			}
-			location = 12248
+			location = 10826
 			division_template = "Infantry Division"		# Regular Infantry
 			start_experience_factor = 0.2
 			start_equipment_factor = 0.7
@@ -69,7 +69,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 3
 			}
-			location = 12248
+			location = 10781
 			division_template = "Infantry Division"		# Regular Infantry
 			start_experience_factor = 0.2
 			start_equipment_factor = 0.7
@@ -81,7 +81,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 4
 			}
-			location = 10737
+			location = 10781
 			division_template = "Militia Division"		# Militia Infantry
 			start_experience_factor = 0.6
 			start_equipment_factor = 0.5
@@ -93,7 +93,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 5
 			}
-			location = 10737
+			location = 10781
 			division_template = "Militia Division"		# Militia Infantry
 			start_experience_factor = 0.6
 			start_equipment_factor = 0.5
@@ -105,7 +105,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 6
 			}
-			location = 12831
+			location = 12314
 			division_template = "Militia Division"		# Militia Infantry
 			start_experience_factor = 0.6
 			start_equipment_factor = 0.5
@@ -117,10 +117,10 @@ units = {
 				is_name_ordered = yes
 				name_order = 7
 			}
-			location = 5064
+			location = 12314
 			division_template = "Militia Division"		# Militia Infantry
 			start_experience_factor = 0.6
-			start_equipment_factor = 0.5
+			start_equipment_factor = 0.6
 
 		}
 		
@@ -129,10 +129,10 @@ units = {
 				is_name_ordered = yes
 				name_order = 8
 			}
-			location = 5064
+			location = 12314
 			division_template = "Militia Division"		# Militia Infantry
 			start_experience_factor = 0.6
-			start_equipment_factor = 0.5
+			start_equipment_factor = 0.6
 
 		}
 		
@@ -141,10 +141,10 @@ units = {
 				is_name_ordered = yes
 				name_order = 9
 			}
-			location = 4893
+			location = 10825
 			division_template = "Militia Division"		# Militia Infantry
 			start_experience_factor = 0.6
-			start_equipment_factor = 0.2
+			start_equipment_factor = 0.6
 
 		}
 		

@@ -252,3 +252,8 @@ ETV_transition_gov = {
 	color = rgb { 168 138 136 }
 	color_ui = rgb { 148 132 116 }
 }
+
+TIM_free = {
+	color = rgb { 122 52 48 }
+	color_ui = rgb { 132 52 48 }
+}

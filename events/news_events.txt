@@ -596,6 +596,23 @@ news_event = {
 	
 }
 
+#East timor escapes from UN control
+news_event = {
+	id = old_times_news.48
+	title = old_times_news.48.t
+	desc = old_times_news.48.d
+	picture = GFX_news_east_timor_independence
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.48.a
+	}
+	
+}
+
 ### FLAVOUR NEWS EVENTS ###
 
 ## Concorde Trigger (HIDDEN) ##

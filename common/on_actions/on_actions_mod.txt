@@ -2979,6 +2979,61 @@ on_actions = {
 					 
 					}
 					
+					## TALIBAN AFGHANISTAN VS NORTHERN ALLIANCE ##
+					
+					## TALIBAN AFGHANISTAN VS NORTHERN ALLIANCE - TALIBAN AFGHANISTAN WINS##
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = AFG
+							}
+							ROOT = {
+								original_tag = NRO
+							}
+						}
+
+						AFG = {
+							white_peace = ROOT
+						}
+
+						AFG = {
+							annex_country = {
+							target = NRO
+							transfer_troops = no
+							}
+						}
+					 
+					}
+					
+					## TALIBAN AFGHANISTAN VS NORTHERN ALLIANCE - NORTHERN ALLIANCE (WITHOUT USA HELP) WINS##
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = NRO
+							}
+							ROOT = {
+								original_tag = AFG
+							}
+						}
+
+						NRO = {
+							white_peace = ROOT
+						}
+
+						NRO = {
+							set_cosmetic_tag = NRO_afghanistan
+							annex_country = {
+							target = AFG
+							transfer_troops = no
+							}
+							add_state_core = 267
+							add_state_core = 415
+						}
+						
+						
+					 
+					}
+					
 		}
 
 	}

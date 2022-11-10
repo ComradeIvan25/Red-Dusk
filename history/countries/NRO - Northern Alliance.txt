@@ -11,6 +11,9 @@ set_technology = {
 	towed_artillery_1980 = 1
 }
 
+add_ideas = war_economy
+add_ideas = extensive_conscription
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"

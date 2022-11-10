@@ -257,3 +257,8 @@ TIM_free = {
 	color = rgb { 122 52 48 }
 	color_ui = rgb { 132 52 48 }
 }
+
+NRO_afghanistan = {
+	color = rgb { 76 135 0 }
+	color_ui = rgb { 79 130 0 }
+}

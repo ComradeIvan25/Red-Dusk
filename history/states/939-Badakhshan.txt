@@ -5,11 +5,12 @@ state={
 	history = {
 	owner = NRO
 	add_core_of = NRO
+	add_core_of = AFG
 	}
 	provinces={
 		12653 7519 10826 10781 12314
 	}
-	manpower=4323
+	manpower=6331233
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

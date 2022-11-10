@@ -71,3 +71,7 @@
  
  TIM_free:0 "East Timor"
  TIM_free_DEF:0 "the East Timor"
+ 
+ NRO_afghanistan:0 "Islamic Republic of Afghanistan"
+ NRO_afghanistan_DEF:0 "the Islamic Republic of Afghanistan"
+ 

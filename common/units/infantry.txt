@@ -206,4 +206,44 @@ sub_units = {
 			attack = 0.5
 		}
 	}
+
+	militia_unit = {
+		abbreviation = "MLT"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 200
+		ai_priority = 100
+		active = yes
+		
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+
+		combat_width = 1
+
+		need = {
+			infantry_weapons = 80
+		}
+
+		manpower = 600
+		
+		max_strength = 15
+		max_organisation = 40
+		default_morale = 0.2
+
+		training_time = 60
+		suppression = 1.0
+		weight = 0.35
+		
+		supply_consumption = 0.02
+	}
 }

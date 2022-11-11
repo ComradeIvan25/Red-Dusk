@@ -157,10 +157,9 @@ news_event = {
 	 
 	option ={
 		name = old_times_news.18.a
-
-        set_global_flag = Super_Event_Visible
-        set_global_flag = YUG_War
-	play_song = "super_yugo_war"
+		set_global_flag = Super_Event_Visible
+        	set_global_flag = YUG_War
+		play_song = "super_yugo_war"
 	}
 }
 

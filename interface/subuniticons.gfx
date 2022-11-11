@@ -256,6 +256,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_spaa_vehicle_armor_icon_medium"				texturefile = "gfx/interface/counters/divisions_large/unit_spaa_vehicle_icon.dds"				noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_spaa_vehicle_support_armor_icon_medium"				texturefile = "gfx/interface/counters/divisions_large/unit_spaa_vehicle_support_icon.dds"				noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_infantry_unit_icon_medium"				texturefile = "gfx/interface/counters/divisions_large/unit_infantry_unit_icon.dds"				noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_militia_unit_icon_medium"				texturefile = "gfx/interface/counters/divisions_large/unit_militia_unit_icon.dds"				noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_heavy_infantry_unit_icon_medium"				texturefile = "gfx/interface/counters/divisions_large/unit_heavy_infantry_unit_icon.dds"				noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_paratrooper_unit_icon_medium"				texturefile = "gfx/interface/counters/divisions_large/unit_paratrooper_unit_icon.dds"				noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_marine_unit_icon_medium"				texturefile = "gfx/interface/counters/divisions_large/unit_marine_unit_icon.dds"				noOfFrames = 2 }
@@ -271,6 +272,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_attack_heli_company_icon_medium"				texturefile = "gfx/interface/counters/divisions_large/unit_attack_heli_company_icon.dds"				noOfFrames = 2 }
 
 	spriteType = { name = "GFX_unit_infantry_unit_icon_medium_white"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_infantry_unit_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_militia_unit_icon_medium_white"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_militia_unit_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_heavy_infantry_unit_icon_medium_white"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_heavy_infantry_unit_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_infantry_fighting_vehicle_armor_icon_medium_white"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_infantry_fighting_vehicle_unit_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_main_battle_tank_armor_icon_medium_white"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_main_battle_tank_unit_icon.dds" noOfFrames = 2 }

@@ -195,6 +195,14 @@ spriteTypes = {
 		name = "GFX_idea_IRQ_kurdish_agriculture_idea_icon"
 		texturefile = "gfx/interface/ideas/IRQ_kurdish_agriculture_idea.png"
 	}
+	spriteType = {
+		name = "GFX_idea_IRQ_desert_camouflage_idea_icon"
+		texturefile = "gfx/interface/ideas/IRQ_desert_camouflage_idea.png"
+	}
+	spriteType = {
+		name = "GFX_idea_IRQ_broken_army_guard_final_icon"
+		texturefile = "gfx/interface/ideas/IRQ_broken_army_guard_final.png"
+	}
 
 	#GENERIC MIDDLE EAST#
 

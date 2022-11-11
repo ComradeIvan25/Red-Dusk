@@ -2225,7 +2225,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_modern_refineries
-		#icon =
+		icon = GFX_focus_IRQ_modern_refineries
 		x = 0
 		y = 1
 
@@ -2547,7 +2547,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_expand_umm_qasr_port
-		#icon =
+		icon = GFX_focus_IRQ_expand_umm_qasr_port
 		x = -1
 		y = 1
 
@@ -2577,7 +2577,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_forgive_basra_people
-		#icon =
+		icon = GFX_focus_IRQ_forgive_basra_people
 		x = 1
 		y = 1
 

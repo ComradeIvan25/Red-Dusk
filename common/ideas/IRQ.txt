@@ -1255,7 +1255,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = IRQ_Disorganised_Army_icon
+			picture = IRQ_broken_army_guard_final_icon
 
 			allowed = {
 				always = no
@@ -1274,7 +1274,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture =
+			picture = IRQ_desert_camouflage_idea_icon
 
 			allowed = {
 				always = no

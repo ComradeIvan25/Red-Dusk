@@ -1111,6 +1111,18 @@ spriteTypes = {
 		name = "GFX_focus_IRQ_oil_for_food"
 		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_oil_for_food.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_modern_refineries"
+		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_modern_refineries.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_expand_umm_qasr_port"
+		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_expand_umm_qasr_port.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_forgive_basra_people"
+		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_forgive_basra_people.png"
+	}
 	
    ###SAF###
 

@@ -497,6 +497,8 @@
  spaa_vehicle_support_armor_desc:0 "Designed to protect bases and ground forces from ground attack aicraft, self-propelled anti-aircraft guns create an area denial zone around friendly forces, protecting them from arial bombardment and providing air superiority."
  infantry_unit:0 "Infantry"
  infantry_unit_desc:0 "A basic battalion of soldiers. While only supplied with basic weapons, the lack of heavier equipment allows them to more easily traverse difficult terrain, and use up far less supply than other units."
+ militia_unit:0 "Militia"
+ militia_unit_desc:0 "Unlike traditional battalions, militias are made up of non-professional soldiers and armed civilians. These units are able to engage in suppression and guerilla warfare, but are no match against a trained professional army."
  heavy_infantry_unit:0 "Heavy Infantry"
  heavy_infantry_unit_desc:0 "Heavy infantry are a key component of most professional armies today. Armed with various weapon types and supplied with personnel carriers, these units can be deadly against lighter infantry, whilst also being a threat to armoured battalions."
  paratrooper_unit:0 "Paratroopers"

@@ -952,6 +952,7 @@ focus_tree = {
 		prerequisite = {focus = IRQ_the_plan}
 		mutually_exclusive = { }
 		relative_position_id = IRQ_the_plan
+		available = {has_war = no}
 		
 		cost = 2
 		ai_will_do = {

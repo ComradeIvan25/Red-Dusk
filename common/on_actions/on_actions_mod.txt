@@ -2834,10 +2834,17 @@ on_actions = {
 					if = {   
 						limit = {
 							FROM = {
-								original_tag = RCK
+								OR = {
+									original_tag = RCK
+									original_tag = UGA
+								}
 							}
 							ROOT = {
-								original_tag = RGO
+								OR = {
+									original_tag = RGO
+									original_tag = RWA
+									original_tag = BRD
+								}
 							}
 						}
 
@@ -2875,8 +2882,23 @@ on_actions = {
 								white_peace = RWA
 								white_peace = BRD
 							}
+							
+							RCK = {
+								white_peace = RGO
+								white_peace = RWA
+								white_peace = BRD
+							}
+							
+							UGA = {
+								white_peace = RGO
+								white_peace = RWA
+								white_peace = BRD
+							}
 						
-
+							RWA = {
+								dismantle_faction = yes
+							}
+							
 						
 					}
 					
@@ -2884,10 +2906,17 @@ on_actions = {
 					if = {   
 						limit = {
 							FROM = {
-								original_tag = RGO
+								OR = {
+									original_tag = RGO
+									original_tag = RWA
+									original_tag = BRD
+								}
 							}
 							ROOT = {
-								original_tag = RCK
+								OR = {
+									original_tag = RCK
+									original_tag = UGA
+								}
 							}
 						}
 
@@ -2920,6 +2949,20 @@ on_actions = {
 							ZIM = {
 								white_peace = RCK
 								white_peace = UGA
+							}
+							
+							RWA = {
+								white_peace = RCK
+								white_peace = UGA
+							}
+							
+							BRD = {
+								white_peace = RCK
+								white_peace = UGA
+							}
+							
+							UGA = {
+							dismantle_faction = yes
 							}
 							
 						

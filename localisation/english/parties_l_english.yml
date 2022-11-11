@@ -1026,5 +1026,7 @@
  BRM_neutrality_party_long:0 "State Peace and Development Council"
  NRO_neutrality_party:0 "UISNFSA"
  NRO_neutrality_party_long:0 "United Islamic National Front for the Salvation of Afghanistan"
+ NRO_reformed_communism_party:0 "PDPA"
+ NRO_reformed_communism_party_long:0 "People's Democratic Party of Afghanistan"
  NRO_islamism_party:0 "Taliban Resistance"
  NRO_islamism_party_long:0 ""

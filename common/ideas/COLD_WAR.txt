@@ -1,0 +1,23 @@
+ideas = {
+	
+	country = {
+		
+		cold_war_soviet_offensive = {
+			name = cold_war_soviet_offensive_name
+
+			removal_cost = -1
+
+			picture = cold_war_soviet_offensive_or_defensive_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_attack_factor = 0.075
+				ai_focus_aggressive_factor = 0.75
+				
+			}
+		}
+	}
+}

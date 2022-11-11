@@ -6,6 +6,16 @@ state={
 	owner = NRO
 	add_core_of = NRO
 	add_core_of = AFG
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 3
+
+		}
+		victory_points = {
+			12653 5 
+		}
 	}
 	provinces={
 		12653 7519 10826 10781 12314

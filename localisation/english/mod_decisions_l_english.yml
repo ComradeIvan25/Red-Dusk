@@ -295,6 +295,14 @@
  saf_deploy_the_police_force:0 "Deploy the Police Force"
  saf_deploy_the_army:0 "Deploy the Army"
  
+ ##cold war##
+ 
+ sov_cold_war_command:0 "Cold War Command"
+ sov_cold_war_order_an_offensive_in_ethiopia:0 "Order an Offensive in Ethiopia"
+ sov_cold_war_order_an_offensive_in_congo:0 "Order an Offensive in Congo"
+ sov_cold_war_order_an_offensive_in_sri_lanka:0 "Order an Offensive in Sri Lanka"
+
+ 
 ## Indian Ocean Tsunami ##
 
  indian_tsunami_category_request_aid:0 "Indian Ocean Tsunami"

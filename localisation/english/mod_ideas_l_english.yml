@@ -377,6 +377,11 @@
  
  AFG_hardened_fighters_name:0 "Hardened Fighters"
  AFG_hardened_fighters_name_desc:0 ""
+ 
+ ##cold war##
+ 
+ cold_war_soviet_offensive_name:0 "Soviet Offensive"
+ 
  # SOV #
 
  SOV_design_bureau_morozov:0 "Morozov Design Bureau"

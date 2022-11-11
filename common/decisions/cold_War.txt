@@ -1,0 +1,96 @@
+sov_cold_war_command = {
+	
+	sov_cold_war_order_an_offensive_in_ethiopia = {
+		icon = GFX_decision_red_flag_holding_hand
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+			ETH = {
+			has_war_with = ERI
+			}
+		}
+		
+		cost = 75
+		days_re_enable = 50
+		fire_only_once = no
+		
+		ai_will_do = {
+			factor = 75
+		}
+		complete_effect = { 
+			ETH = {
+			add_ideas = {cold_war_soviet_offensive}
+			}
+		}
+	}
+	
+	sov_cold_war_order_an_offensive_in_congo = {
+		icon = GFX_decision_red_flag_holding_hand
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+			COG = {
+				OR = {
+					has_war_with = RCK
+					has_war_with = RGO
+				}
+			}
+		}
+		
+		cost = 75
+		days_re_enable = 50
+		fire_only_once = no
+		
+		ai_will_do = {
+			factor = 75
+		}
+		complete_effect = { 
+			COG = {
+			add_ideas = {cold_war_soviet_offensive}
+			}
+		}
+	}
+	
+	sov_cold_war_order_an_offensive_in_sri_lanka = {
+		icon = GFX_decision_red_flag_holding_hand
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+		}
+		visible = {
+			original_tag = SOV
+			TAM = {
+				has_war_with = SRL
+			}
+		}
+		
+		cost = 75
+		days_re_enable = 50
+		fire_only_once = no
+		
+		ai_will_do = {
+			factor = 75
+		}
+		complete_effect = { 
+			TAM = {
+			add_ideas = {cold_war_soviet_offensive}
+			}
+		}
+	}
+	
+}

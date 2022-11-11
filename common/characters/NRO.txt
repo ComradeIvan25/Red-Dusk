@@ -14,5 +14,19 @@ characters = {
 			id = -1
 		}
 	}
-
+	
+	NRO_mohammad_najibullah = {
+		name = "Mohammad Najibullah"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NRO/Mohammad_Najibullah.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
 }

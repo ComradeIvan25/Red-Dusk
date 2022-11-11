@@ -12,6 +12,18 @@
 }
 
 division_template = {
+	name = "Kadogos"		
+	division_names_group = COG_INF_03
+
+	regiments = {
+		militia_unit = { x = 0 y = 0 }
+		militia_unit = { x = 0 y = 1 }
+		militia_unit = { x = 0 y = 2 }
+		militia_unit = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
 	name = "Rassemblement pour la Démocratie Congolaise Forces Rebelles - Division Artillerie"		
 	division_names_group = RCK_INF_02
 
@@ -41,7 +53,7 @@ units = {
 	division = { 
 		division_name = {
 			is_name_ordered = yes
-			name_order = 3
+			name_order = 2
 		}
 		location = 8048
 		division_template = "Rassemblement pour la démocratie congolaise Forces rebelles"
@@ -51,11 +63,41 @@ units = {
 	division = { 
 		division_name = {
 			is_name_ordered = yes
-			name_order = 2
+			name_order = 3
 		}
 		location = 1950
 		division_template = "Rassemblement pour la Démocratie Congolaise Forces Rebelles - Division Artillerie"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 988
+		division_template = "Kadogos"
+		start_experience_factor = -0.3
+		start_equipment_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 10766
+		division_template = "Kadogos"
+		start_experience_factor = -0.3
+		start_equipment_factor = 0.5
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 10951
+		division_template = "Kadogos"
+		start_experience_factor = -0.3
 		start_equipment_factor = 0.5
 	}
 }

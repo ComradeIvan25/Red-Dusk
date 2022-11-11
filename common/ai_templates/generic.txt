@@ -362,12 +362,14 @@ infantry_generic = {
 			
 			regiments = {
 				infantry_unit = 7
+				militia_unit = 1
 				towed_artillery_unit = 2
 			}
 		}
 		
 		allowed_types = {
 			infantry_unit
+			militia_unit
 			engineer
 			recon
 			field_hospital

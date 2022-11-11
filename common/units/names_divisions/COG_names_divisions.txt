@@ -67,3 +67,79 @@ COG_INF_01 =
 		20 = { "%s Soldats de la Défense du Congo" }		
 	}
 }
+
+COG_INF_02 = 
+{
+	name = "Milice de la DRC"
+
+	for_countries = { COG }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry_unit" }
+
+	fallback_name = "%s Milice de la DRC"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%s Milice de la DRC" }
+		2 = { "%s Milice de la DRC" }
+		3 = { "%s Milice de la DRC" }
+		4 = { "%s Milice de la DRC" }
+		5 = { "%s Milice de la DRC" }
+		6 = { "%s Milice de la DRC" }
+		7 = { "%s Milice de la DRC" }
+		8 = { "%s Milice de la DRC" }
+		9 = { "%s Milice de la DRC" }
+		10 = { "%s Milice de la DRC" }
+		11 = { "%s Milice de la DRC" }
+		12 = { "%s Milice de la DRC" }
+		13 = { "%s Milice de la DRC" }
+		14 = { "%s Milice de la DRC" }
+		15 = { "%s Milice de la DRC" }
+		16 = { "%s Milice de la DRC" }
+		17 = { "%s Milice de la DRC" }
+		18 = { "%s Milice de la DRC" }
+		19 = { "%s Milice de la DRC" }
+		20 = { "%s Milice de la DRC" }		
+	}
+}
+
+COG_INF_03 = 
+{
+	name = "Kadogos"
+
+	for_countries = { COG }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry_unit" }
+
+	fallback_name = "%s Kadogos"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%s Kadogos" }
+		2 = { "%s Kadogos" }
+		3 = { "%s Kadogos" }
+		4 = { "%s Kadogos" }
+		5 = { "%s Kadogos" }
+		6 = { "%s Kadogos" }
+		7 = { "%s Kadogos" }
+		8 = { "%s Kadogos" }
+		9 = { "%s Kadogos" }
+		10 = { "%s Kadogos" }
+		11 = { "%s Kadogos" }
+		12 = { "%s Kadogos" }
+		13 = { "%s Kadogos" }
+		14 = { "%s Kadogos" }
+		15 = { "%s Kadogos" }
+		16 = { "%s Kadogos" }
+		17 = { "%s Kadogos" }
+		18 = { "%s Kadogos" }
+		19 = { "%s Kadogos" }
+		20 = { "%s Kadogos" }		
+	}
+}

@@ -182,6 +182,10 @@ country_event = {
 				proxy_war_won_by_SOV = yes
 			}
 			
+			COG = {
+				dismantle_faction = yes  
+			}
+			
 			news_event = {id = old_times_news.21}
 			
 			annex_country = {

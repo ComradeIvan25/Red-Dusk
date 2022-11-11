@@ -144,7 +144,7 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = infantry_weapons_2
+			type = infantry_weapons_1
 			creator = "ERI"
 		}
 		requested_factories = 1
@@ -154,7 +154,7 @@ instant_effect = {
 	
 	add_equipment_production = {
 		equipment = {
-			type = mbt_tank_equipment_3
+			type = mbt_tank_equipment_0
 			creator = "ERI"
 		}
 		requested_factories = 1

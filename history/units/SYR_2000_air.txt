@@ -5,27 +5,17 @@ air_wings = {
 		fighter_equipment_1 =  { # MiG-23 #
 			owner = "SYR" 
 			creator = SOV
-			amount = 20
-		}
-		fighter_equipment_1 =  { # MiG-23 #
-			owner = "SYR" 
-			creator = SOV
-			amount = 7
+			amount = 27
 		}
 		fighter_equipment_0 =  { # MiG-21 #
 			owner = "SYR" 
 			creator = SOV
-			amount = 20
+			amount = 50
 		}
 		fighter_equipment_0 =  { # MiG-21 #
 			owner = "SYR" 
 			creator = SOV
-			amount = 20
-		}
-		fighter_equipment_0 =  { # MiG-21 #
-			owner = "SYR" 
-			creator = SOV
-			amount = 20
+			amount = 10
 		}
 
 		# Interceptors -- MiG-25
@@ -39,12 +29,7 @@ air_wings = {
 		attacker_equipment_1 =  { # Su-22, Su-24, MiG-23B #
 			owner = "SYR" 
 			creator = SOV
-			amount = 20
-		}
-		attacker_equipment_1 =  { # Su-22, Su-24, MiG-23B #
-			owner = "SYR" 
-			creator = SOV
-			amount = 19
+			amount = 39
 		}
 	}
 	680 = {
@@ -57,34 +42,24 @@ air_wings = {
 		fighter_equipment_0 =  { # MiG-21 #
 			owner = "SYR" 
 			creator = SOV
-			amount = 20
+			amount = 50
 		}
 		fighter_equipment_0 =  { # MiG-21 #
 			owner = "SYR" 
 			creator = SOV
-			amount = 20
-		}
-		fighter_equipment_0 =  { # MiG-21 #
-			owner = "SYR" 
-			creator = SOV
-			amount = 15
+			amount = 5
 		}
 
 		# Attackers -- Su-22, Su-24, MiG-23B
 		attacker_equipment_1 =  { # Su-22, Su-24, MiG-23B #
 			owner = "SYR" 
 			creator = SOV
-			amount = 20
+			amount = 50
 		}
 		attacker_equipment_1 =  { # Su-22, Su-24, MiG-23B #
 			owner = "SYR" 
 			creator = SOV
-			amount = 20
-		}
-		attacker_equipment_1 =  { # Su-22, Su-24, MiG-23B #
-			owner = "SYR" 
-			creator = SOV
-			amount = 18
+			amount = 8
 		}
 	}
 	554 = {
@@ -92,37 +67,22 @@ air_wings = {
 		fighter_equipment_2 =  { # MiG-29 #
 			owner = "SYR" 
 			creator = SOV
-			amount = 20
+			amount = 50
 		}
 		fighter_equipment_1 =  { # MiG-23 #
-			owner = "SYR" 
-			creator = SOV
-			amount = 20
-		}
-		fighter_equipment_1 =  { # MiG-23 #
-			owner = "SYR" 
-			creator = SOV
-			amount = 20
-		}
-		fighter_equipment_1 =  { # MiG-23 #
-			owner = "SYR" 
-			creator = SOV
-			amount = 5
-		}
-		fighter_equipment_0 =  { # MiG-21 #
-			owner = "SYR" 
-			creator = SOV
-			amount = 20
-		}
-		fighter_equipment_0 =  { # MiG-21 #
-			owner = "SYR" 
-			creator = SOV
-			amount = 20
-		}
-		fighter_equipment_0 =  { # MiG-21 #
 			owner = "SYR" 
 			creator = SOV
 			amount = 15
+		}
+		fighter_equipment_0 =  { # MiG-21 #
+			owner = "SYR" 
+			creator = SOV
+			amount = 50
+		}
+		fighter_equipment_0 =  { # MiG-21 #
+			owner = "SYR" 
+			creator = SOV
+			amount = 5
 		}
 
 		# Interceptors -- MiG-25
@@ -136,29 +96,19 @@ air_wings = {
 		attacker_equipment_1 =  { # Su-22, Su-24, MiG-23B #
 			owner = "SYR" 
 			creator = SOV
-			amount = 20
+			amount = 50
 		}
 		attacker_equipment_1 =  { # Su-22, Su-24, MiG-23B #
 			owner = "SYR" 
 			creator = SOV
-			amount = 20
-		}
-		attacker_equipment_1 =  { # Su-22, Su-24, MiG-23B #
-			owner = "SYR" 
-			creator = SOV
-			amount = 17
+			amount = 7
 		}
 
 		# Transports -- An-26, Il-76, Tu-134
 		transport_plane_equipment_1 =  {
 			owner = "SYR" 
 			creator = SOV
-			amount = 10
-		}
-		transport_plane_equipment_1 =  {
-			owner = "SYR" 
-			creator = SOV
-			amount = 5
+			amount = 15
 		}
 	}
 }

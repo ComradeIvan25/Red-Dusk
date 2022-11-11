@@ -770,6 +770,15 @@ focus_tree = {
 		x = 4
 		y = 1
 
+		available = {
+			NOT = {
+				OR = {
+					has_war_with = KUW
+					has_war_with = SYR
+				}
+			}
+		}
+
 		prerequisite = {focus = IRQ_wmd}
 		prerequisite = {focus = IRQ_strike_syria}
 		prerequisite = {focus = IRQ_run_over}
@@ -797,6 +806,15 @@ focus_tree = {
 		icon = GFX_focus_IRQ_army_ready2 
 		x = -1
 		y = 1
+
+		available = {
+			NOT = {
+				OR = {
+					has_war_with = KUW
+					has_war_with = SYR
+				}
+			}
+		}
 
 		prerequisite = {focus = IRQ_old_wounds}
 		mutually_exclusive = { }
@@ -826,6 +844,15 @@ focus_tree = {
 		icon = GFX_focus_IRQ_moscow 
 		x = 1
 		y = 1
+
+		available = {
+			NOT = {
+				OR = {
+					has_war_with = KUW
+					has_war_with = SYR
+				}
+			}
+		}
 
 		prerequisite = {focus = IRQ_old_wounds}
 		mutually_exclusive = { }
@@ -873,6 +900,15 @@ focus_tree = {
 		x = 1
 		y = 1
 
+		available = {
+			NOT = {
+				OR = {
+					has_war_with = KUW
+					has_war_with = SYR
+				}
+			}
+		}
+
 		prerequisite = {focus = IRQ_soviet_support}
 		prerequisite = {focus = IRQ_ready1}
 		mutually_exclusive = { }
@@ -903,6 +939,15 @@ focus_tree = {
 		icon = GFX_focus_IRQ_revenge 
 		x = 0
 		y = 1
+
+		available = {
+			NOT = {
+				OR = {
+					has_war_with = KUW
+					has_war_with = SYR
+				}
+			}
+		}
 
 		prerequisite = {focus = IRQ_the_plan}
 		mutually_exclusive = { }
@@ -940,7 +985,6 @@ focus_tree = {
 			PER = {is_puppet_of = IRQ}
 			KUW = { exists = no }
 			SYR = { exists = no }
-			
 		}
 
 		mutually_exclusive = { }

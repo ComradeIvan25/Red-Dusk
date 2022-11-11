@@ -10,47 +10,22 @@ air_wings = {
 		fighter_equipment_1 =  { # MiG-23 #
 			owner = "IRQ" 
 			creator = SOV
-			amount = 20
-		}
-		fighter_equipment_1 =  { # MiG-23 #
-			owner = "IRQ" 
-			creator = SOV
-			amount = 20
+			amount = 40
 		}
 		fighter_equipment_1 =  { # Mirage F-1EQ #
 			owner = "IRQ" 
 			creator = FRA
-			amount = 20
-		}
-		fighter_equipment_1 =  { # Mirage F-1EQ #
-			owner = "IRQ" 
-			creator = FRA
-			amount = 20
-		}
-		fighter_equipment_1 =  { # Mirage F-1EQ #
-			owner = "IRQ" 
-			creator = FRA
-			amount = 5
+			amount = 45
 		}
 		fighter_equipment_0 =  { # MiG-21 #
 			owner = "IRQ" 
 			creator = SOV
-			amount = 20
-		}
-		fighter_equipment_0 =  { # MiG-21 #
-			owner = "IRQ" 
-			creator = SOV
-			amount = 20
+			amount = 40
 		}
 		fighter_equipment_0 =  { # J-7 #
 			owner = "IRQ" 
 			creator = PRC
-			amount = 20
-		}
-		fighter_equipment_0 =  { # J-7 #
-			owner = "IRQ" 
-			creator = PRC
-			amount = 15
+			amount = 35
 		}
 		# Interceptors -- MiG-25
 		interceptor_equipment_1 =  { # MiG-25 #
@@ -85,12 +60,7 @@ air_wings = {
 		transport_plane_equipment_1 =  {
 			owner = "IRQ" 
 			creator = SOV
-			amount = 10
-		}
-		transport_plane_equipment_1 =  {
-			owner = "IRQ" 
-			creator = SOV
-			amount = 10
+			amount = 20
 		}
 		transport_plane_equipment_1 =  {
 			owner = "IRQ" 

@@ -20,11 +20,9 @@ ETH = { set_province_controller = 8043 }
 
 set_technology = {
 	infantry_weapons_1960 = 1
-	infantry_weapons_1980 = 1
-	mbt_tank_1990 = 1
-	towed_artillery_1980 = 1
-	ifv_tank_1990 = 1
-	
+	mbt_tank_1960 = 1
+	towed_artillery_1960 = 1
+	ifv_tank_1970 = 1
 }
 
 set_politics = {

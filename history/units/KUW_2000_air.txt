@@ -5,12 +5,7 @@ air_wings = {
 		carrier_fighter_equipment_2 =  { # F/A-18C/D #
 			owner = "KUW" 
 			creator = USA
-			amount = 20
-		}
-		carrier_fighter_equipment_2 =  { # F/A-18C/D #
-			owner = "KUW" 
-			creator = USA
-			amount = 20
+			amount = 40
 		}
 		fighter_equipment_1 =  { # Mirage F1-CK/BK #
 			owner = "KUW" 

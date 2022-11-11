@@ -13,8 +13,8 @@ add_ideas = usa_aligned_nation
 ERI = { set_province_controller = 13237 }
 
 set_technology = {
-	infantry_weapons_1980 = 1
-	mbt_tank_1990 = 1
+	infantry_weapons_1960 = 1
+	mbt_tank_1960 = 1
 }
 
 set_politics = {

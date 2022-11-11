@@ -41,12 +41,7 @@
 		transport_plane_equipment_1 =  {
 			owner = "PER" 
 			creator = USA
-			amount = 10
-		}
-		transport_plane_equipment_1 =  {
-			owner = "PER" 
-			creator = USA
-			amount = 10
+			amount = 20
 		}
 		transport_plane_equipment_1 =  {
 			owner = "PER" 
@@ -76,12 +71,7 @@
 		carrier_fighter_equipment_0 =  { # F-4 #
 			owner = "PER" 
 			creator = USA
-			amount = 20
-		}
-		carrier_fighter_equipment_0 =  { # F-4 #
-			owner = "PER" 
-			creator = USA
-			amount = 18
+			amount = 38
 		}
 
 		# Attackers -- Su-24
@@ -94,12 +84,7 @@
 		transport_plane_equipment_1 =  {
 			owner = "PER" 
 			creator = HOL
-			amount = 10
-		}
-		transport_plane_equipment_1 =  {
-			owner = "PER" 
-			creator = HOL
-			amount = 5
+			amount = 15
 		}
 	}
 	412 = {

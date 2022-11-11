@@ -263,7 +263,7 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = infantry_weapons_2
+			type = infantry_weapons_1
 			creator = "ETH"
 		}
 		requested_factories = 1
@@ -273,7 +273,7 @@ instant_effect = {
 	
 	add_equipment_production = {
 		equipment = {
-			type = mbt_tank_equipment_3
+			type = mbt_tank_equipment_0
 			creator = "ETH"
 		}
 		requested_factories = 1
@@ -283,7 +283,7 @@ instant_effect = {
 	
 	add_equipment_production = {
 		equipment = {
-			type = ifv_tank_equipment_2
+			type = ifv_tank_equipment_0
 			creator = "ETH"
 		}
 		requested_factories = 1
@@ -293,7 +293,7 @@ instant_effect = {
 	
 	add_equipment_production = {
 		equipment = {
-			type = towed_artillery_equipment_2
+			type = towed_artillery_equipment_1
 			creator = "ETH"
 		}
 		requested_factories = 1

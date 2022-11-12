@@ -108,7 +108,7 @@ news_event = {
 	 
 	option ={
 		name = old_times_news.7.a
-		set_global_flag = SAF_war
+		set_global_flag = SAF_war_super_event
                 set_global_flag = Super_Event_Visible
 	        play_song = "super_sa_war"
 	}
@@ -157,9 +157,10 @@ news_event = {
 	 
 	option ={
 		name = old_times_news.18.a
-		set_global_flag = Super_Event_Visible
-        	set_global_flag = YUG_War
-		play_song = "super_yugo_war"
+
+        set_global_flag = Super_Event_Visible
+        set_global_flag = YUG_War
+	play_song = "super_yugo_war"
 	}
 }
 
@@ -287,6 +288,9 @@ news_event = {
 	 
 	option ={
 		name = old_times_news.26.a
+		set_global_flag = Eastern_War
+                set_global_flag = Super_Event_Visible
+	        play_song = "super_eastern_war"
 	}
 }
 
@@ -591,6 +595,23 @@ news_event = {
 	 
 	option ={
 		name = old_times_news.47.a
+	}
+	
+}
+
+#Sino-Soviet Coop
+news_event = {
+	id = old_times_news.48
+	title = old_times_news.48.t
+	desc = old_times_news.48.d
+	picture = GFX_news_sino_sov_coop
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.48.a
 	}
 	
 }

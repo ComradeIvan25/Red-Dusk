@@ -633,3 +633,10 @@
  congo.5.t:0 "with the last of Pro-Kalibi and Kisangani faction forces surrendering the war has offically ended"
  congo.5.d:0 ""
  congo.5.a:0 "time for rebuilding"
+
+ ## PRC ##
+
+ prc.1.t:0 "The Soviets Approach Us"
+ prc.1.d:0 ""
+ prc.1.a:0 "accept"
+ prc.1.b:0 "refuse"

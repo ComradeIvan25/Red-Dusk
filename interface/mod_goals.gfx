@@ -804,6 +804,26 @@ spriteTypes = {
 		name = "GFX_focus_SOV_old_tactic"
 		texturefile = "gfx/interface/goals/SOV/SOV_old_tactic.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_SOV_computers"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_begin_computerization.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_ogas_station"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_project_molnya.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_molnya"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_ogas_in_mil.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_computerize_military_economy"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_computerize_military_economy.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_streamline_process"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_streamline_process.png"
+	}
 
    ###IRQ###
 

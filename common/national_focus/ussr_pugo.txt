@@ -1814,7 +1814,18 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
+			add_political_power = 20
+			add_opinion_modifier = {
+			target = PRC
+			modifier = SOV_pugo_trade_agreement_opinion
+			}
+
+			PRC = {
+			add_opinion_modifier = {
+			target = SOV
+			modifier = SOV_pugo_trade_agreement_opinion
+			}
+	            }
 		}
 	}
 	focus = {
@@ -1844,6 +1855,9 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {	
+			PRC = {
+		        country_event = {id = prc.1}
+			}
 		}
 	}
 	focus = {
@@ -1867,7 +1881,8 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
+			add_political_power = 35
+			add_stability = 0.1
 		}
 	}
 
@@ -1967,7 +1982,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
+			unlock_decision_category_tooltip = sov_invade_china_decisions
 		}
 	}
 	focus = {
@@ -2426,7 +2441,7 @@
 
 	focus = {
 		id = SOV_pugo_comodities
-		icon = GFX_focus_SOV_marshal_yazov
+		icon = GFX_focus_SOV_decrease_prices
 		x = 22
 		y = 5
 		prerequisite = {focus = SOV_pugo_increase}  
@@ -2547,7 +2562,7 @@
 
 	focus = {
 		id = SOV_pugo_production
-		icon = GFX_focus_SOV_expand_produciton
+		icon = GFX_focus_SOV_ural_industry
 		x = 20
 		y = 5
 		prerequisite = {focus = SOV_pugo_mil_cit}  
@@ -2620,7 +2635,7 @@
 
 	focus = {
 		id = SOV_pugo_investor
-		icon = GFX_goal_generic_positive_trade_relations
+		icon = GFX_focus_SOV_expand_produciton 
 		x = 28
 		y = 2
 		prerequisite = {focus = SOV_pugo_new}  
@@ -2708,7 +2723,7 @@
 
 	focus = {
 		id = SOV_pugo_ural
-		icon = GFX_focus_SOV_ural_industry
+		icon = GFX_focus_SOV_work_around_the_clock
 		x = 28
 		y = 5
 		prerequisite = {focus = SOV_pugo_cities}  
@@ -2733,7 +2748,7 @@
 
 	focus = {
 		id = SOV_pugo_private
-		icon = GFX_focus_SOV_marshal_yazov
+		icon = GFX_focus_SOV_computers
 		x = 30
 		y = 2
 		prerequisite = {focus = SOV_pugo_new}  
@@ -2757,7 +2772,7 @@
 
 	focus = {
 		id = SOV_pugo_mil
-		icon = GFX_focus_SOV_marshal_yazov
+		icon = GFX_focus_SOV_computerize_military_economy
 		x = 30
 		y = 3
 		prerequisite = {focus = SOV_pugo_private}  
@@ -2778,7 +2793,7 @@
 
 	focus = {
 		id = SOV_pugo_meet
-		icon = GFX_focus_SOV_marshal_yazov
+		icon = GFX_focus_SOV_streamline_process
 		x = 30
 		y = 4
 		prerequisite = {focus = SOV_pugo_mil}  
@@ -2803,7 +2818,7 @@
 
 	focus = {
 		id = SOV_pugo_corrupt
-		icon = GFX_focus_SOV_decrease_prices
+		icon = GFX_focus_SOV_molnya
 		x = 30
 		y = 5
 		prerequisite = {focus = SOV_pugo_meet}  
@@ -2851,7 +2866,7 @@
 
 	focus = {
 		id = SOV_pugo_imf
-		icon = GFX_focus_SOV_marshal_yazov
+		icon = GFX_focus_SOV_ogas_station
 		x = 32
 		y = 4
 		prerequisite = {focus = SOV_pugo_civ}  

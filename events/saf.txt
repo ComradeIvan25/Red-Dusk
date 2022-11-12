@@ -374,6 +374,7 @@ country_event = {
             type = annex_everything
             target = ANC
             }
+		news_event = { id = old_times_news.7 hours = 6 }	
 		
 	}
 
@@ -392,6 +393,7 @@ country_event = {
             type = annex_everything
             target = ANC
             }
+		news_event = { id = old_times_news.7 hours = 6 }	
             }
 	}
 }

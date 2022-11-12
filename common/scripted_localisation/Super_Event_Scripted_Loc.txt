@@ -4,7 +4,7 @@ defined_text = {
 	
     text = {
         trigger = {
-            has_global_flag = SAF_war
+            has_global_flag = SAF_war_super_event
         }
         localization_key = "sp_event_South_Africa_War"
     }
@@ -22,6 +22,20 @@ defined_text = {
         }
         localization_key = "sp_event_Sino_Sov_War"
     }
+
+    text = {
+        trigger = {
+            has_global_flag = Eastern_War
+        }
+        localization_key = "sp_event_Eastern_War"
+    }
+
+    text = {
+        trigger = {
+            has_global_flag = Red_Susk
+        }
+        localization_key = "sp_event_Red_Susk"
+    }
 	
 }
 
@@ -31,7 +45,7 @@ defined_text = {
     
     text = { 
         trigger = {
-            has_global_flag = SAF_war
+            has_global_flag = SAF_war_super_event
         }
         localization_key = "sp_event_South_Africa_War_REMARK"
     }
@@ -49,6 +63,20 @@ defined_text = {
         }
         localization_key = "sp_event_Sino_Sov_War_REMARK"
     }
+
+	text = {
+        trigger = {
+            has_global_flag = Eastern_War
+        }
+        localization_key = "sp_event_Eastern_War_REMARK"
+    }
+
+    text = {
+        trigger = {
+            has_global_flag = Red_Susk
+        }
+        localization_key = "sp_event_Red_Susk_REMARK"
+    }
 	
 }
 
@@ -58,7 +86,7 @@ defined_text = {
     
     text = {
         trigger = {
-            has_global_flag = SAF_war
+            has_global_flag = SAF_war_super_event
         }
         localization_key = "sp_event_South_Africa_War_QUOTE"
     }
@@ -75,6 +103,20 @@ defined_text = {
             has_global_flag = SOV_Chinese_War
         }
         localization_key = "sp_event_Sino_Sov_War_QUOTE"
+    }
+
+	text = {
+        trigger = {
+            has_global_flag = Eastern_War
+        }
+        localization_key = "sp_event_Eastern_War_QUOTE"
+    }
+
+    text = {
+        trigger = {
+            has_global_flag = Red_Susk
+        }
+        localization_key = "sp_event_Red_Susk_QUOTE"
     }
 	
 }

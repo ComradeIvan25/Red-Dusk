@@ -470,5 +470,9 @@ spriteTypes = {
 		name = "GFX_news_east_timor_independence"
 		texturefile = "gfx/event_pictures/news_east_timor_independence.png"
 	}
+	spriteType = {
+		name = "GFX_news_sino_sov_coop"
+		texturefile = "gfx/event_pictures/news_sino_sov_coop.dds"
+	}
 	
 }

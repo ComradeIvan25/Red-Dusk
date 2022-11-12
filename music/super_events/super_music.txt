@@ -6,11 +6,16 @@ music = {
 	}
 }
 music = {
+	song = "super_eastern_war"
+	chance = {
+		factor = 0
+	}
+}
+music = {
 	song = "super_sa_war"
 	chance = {
 		factor = 0
 	}
 }
-
 
 

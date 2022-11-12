@@ -1,0 +1,23 @@
+add_namespace = prc
+
+#Mandela#
+country_event = {
+	id = prc.1
+	title = prc.1.t
+	desc = prc.1.d
+	picture = GFX_report_event_SAF_mandela
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = prc.1.a	
+		news_event = { id = old_times_news.48 hours = 6 }	
+	}
+
+	option = {
+		name = prc.1.b		
+	}
+}
+
+

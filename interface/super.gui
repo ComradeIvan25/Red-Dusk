@@ -31,6 +31,18 @@ guiTypes = {
 			spriteType = "GFX_sp_event_Sino_Soviet_War"
 			position = {x = 0 y = 0}
 		}
+
+		iconType = {
+			name = "Super_Event_Image_Eastern_War"
+			spriteType = "GFX_sp_event_Eastern_War"
+			position = {x = 0 y = 0}
+		}
+
+		iconType = {
+			name = "Super_Event_Image_TT"
+			spriteType = "GFX_sp_event_The_Theory_That_Was_Toolboxed"
+			position = {x = 0 y = 0}
+		}
 		
 		###############
 		###INTERFACE###
@@ -38,7 +50,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "super_quote"
-			position = { x = 225 y = 320 }
+			position = { x = 225 y = 305 }
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "[get_super_event_quote]"

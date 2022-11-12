@@ -43,6 +43,10 @@ opinion_modifiers = {
 		value = 25
 	}
 
+	SOV_pugo_trade_agreement_opinion = {
+		value = 30
+	}
+
 	YUG_cut_contacts = {
 		value = -25
 	}

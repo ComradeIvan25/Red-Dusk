@@ -10,7 +10,7 @@ scripted_gui = {
 		
 		triggers = {
 			Super_Event_Image_South_African_War_visible = {
-				has_global_flag = SAF_war
+				has_global_flag = SAF_war_super_event
 			}
 		}
 		
@@ -25,6 +25,18 @@ scripted_gui = {
 				has_global_flag = SOV_Chinese_War
 			}
 		}
+
+		triggers = {
+			Super_Event_Image_Eastern_War_visible = {
+				has_global_flag = Eastern_War
+			}
+		}
+
+		triggers = {
+			Super_Event_Image_TT_visible = {
+				has_global_flag = Red_Susk
+			}
+		}
 		
 		############
 		###BUTTON###
@@ -36,9 +48,9 @@ scripted_gui = {
 
 				if = {
 					limit = {
-						has_global_flag = SAF_war
+						has_global_flag = SAF_war_super_event
 					}
-					clr_global_flag = SAF_war
+					clr_global_flag = SAF_war_super_event
 				}
 
 				if = {
@@ -53,6 +65,20 @@ scripted_gui = {
 						has_global_flag = SOV_Chinese_War
 					}
 					clr_global_flag = SOV_Chinese_War
+				}
+
+				if = {
+					limit = {
+						has_global_flag = Eastern_War
+					}
+					clr_global_flag = Eastern_War
+				}
+
+				if = {
+					limit = {
+						has_global_flag = Red_Susk
+					}
+					clr_global_flag = Red_Susk
 				}
 
 			}

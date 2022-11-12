@@ -352,8 +352,18 @@ XSM = {
 }
 
 LBA = {
-	color = rgb { 200 180 90 }
-	color_ui = rgb { 200 180 90 }
+	color = rgb { 139 165 0 }
+	color_ui = rgb { 135 165 0 }
+}
+
+ALG = {
+	color = rgb { 0 153 76 }
+	color_ui = rgb { 0 153 76 }
+}
+
+TUN = {
+	color = rgb { 204 0 0 }
+	color_ui = rgb { 204 0 0 }
 }
 
 EGY = {

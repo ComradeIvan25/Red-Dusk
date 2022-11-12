@@ -15,10 +15,32 @@ ideas = {
 
 			modifier = {
 				army_morale_factor = 0.15
+				no_supply_grace = 120
+				heat_attrition_factor = -0.5
+				out_of_supply_factor = -0.2
 				army_core_attack_factor = 0.20
 				army_core_defence_factor = 0.20
 				army_attack_against_major_factor = 0.30
 				army_defence_against_major_factor = 0.30
+			}
+		}
+		
+		AFG_islamic_fanaticism = {
+			name = AFG_islamic_fanaticism_name
+
+			removal_cost = -1
+
+			picture = AFG_islamic_fanaticism_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = 0.15
+				stability_factor = -0.30
+				army_morale_factor = 0.10
+				islamism_drift = 0.05
 			}
 		}
 

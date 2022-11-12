@@ -8,6 +8,7 @@ recruit_character = AFG_dadullah
 recruit_character = AFG_jalaluddin_haqqani
 
 add_ideas = AFG_hardened_fighters
+add_ideas = AFG_islamic_fanaticism
 
 add_ideas = war_economy
 add_ideas = extensive_conscription

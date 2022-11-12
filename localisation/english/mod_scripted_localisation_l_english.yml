@@ -433,3 +433,7 @@
  
  ##other countries##
  cannot_do_shit_with_units:0 "§RCan not train, edit and disband units§!"
+ 
+ ##leader descriptions##
+ 
+ nothern_alliance_DESC:0 "Northern Alliance is an alliance formed by anti-Taliban fighters after the overthrowal of the legitimate government by the Taliban Forces.\n\nThe group is unified with the goal of defeating the Taliban and retaking Afghanistan.\n\nIt consists of;\n-§gJamiat-e Islami, led by Ahmad Shah Massoud.§!\n§t-Junbish-i Milli led by Abdul Rashid Dostum with backing from Mohammad Najibullah.§!\n-§GHezb-e Wahdat led by Muhammad Mohaqiq.§!"

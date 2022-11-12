@@ -71,7 +71,9 @@
  shiite_islamism_desc:0 "Along with the spread of the Sunni Islamic ideology, the Shiite ideology was also developed. Shiite Islam believes that the true heir of Muhammad must be chosen by Allah, while the political figure who leads the nation is an Imām (Leader or Model) who must lead the nation and supervise that Muslims respect the Qu'ran."
  wahhabiten_islamism:0 "Wahhabiten Islamism"
  wahhabiten_islamism_desc:0 "Wahhabism is a variant of Islam practiced only by a few small groups of Muslims and it's another attempt to return to the purity of Islam. In politics, Wahhabism is an ideology in favor of the Islamic theological government, proposes an exoteric reading of the Sharia and a political system similar to the Sunni one.  Wahhabism is not very widespread in Islam and is crushed by the Sunni and Shiite majority."
-
+ shia_islamism:0 "Shia Islamism"
+ shia_islamism_desc:0 ""
+ 
  GER_fascism_party:0 "NPD"
  GER_fascism_party_long:0 "Nationaldemokratische Partei Deutschlands"
  GER_communism_party:0 "DKP"
@@ -1026,7 +1028,9 @@
  BRM_neutrality_party_long:0 "State Peace and Development Council"
  NRO_neutrality_party:0 "UISNFSA"
  NRO_neutrality_party_long:0 "United Islamic National Front for the Salvation of Afghanistan"
- NRO_reformed_communism_party:0 "PDPA"
- NRO_reformed_communism_party_long:0 "People's Democratic Party of Afghanistan"
- NRO_islamism_party:0 "Taliban Resistance"
- NRO_islamism_party_long:0 ""
+ #NRO_reformed_communism_party:0 "PDPA" gonna use these for later
+ #NRO_reformed_communism_party_long:0 "People's Democratic Party of Afghanistan"
+ NRO_reformed_communism_party:0 "Junbish-i Milli"
+ NRO_reformed_communism_party_long:0 "National Islamic Movement of Afghanistan"
+ NRO_islamism_party:0 "Hezb-e Wahdat"
+ NRO_islamism_party_long:0 "Islamic Unity Party of Afghanistan"

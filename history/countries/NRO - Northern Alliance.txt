@@ -3,6 +3,10 @@
 oob = "NRO_2000"
 
 recruit_character = NRO_northern_alliance
+recruit_character = NRO_muhammad_mohaqiq
+recruit_character = NRO_ahmad_shah_massoud
+recruit_character = NRO_abdul_rashid_dostum
+recruit_character = NRO_atta_muhammad_nur
 recruit_character = NRO_mohammad_najibullah
 
 set_technology = {

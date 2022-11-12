@@ -24,6 +24,10 @@ set_popularities = {
 	neutrality = 75
 }
 
+set_technology = {
+	infantry_weapons_1960 = 1
+	towed_artillery_1960 = 1
+}
 
 create_faction = "Anti Kabila Alliance"
 RWA = {

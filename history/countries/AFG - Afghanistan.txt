@@ -4,6 +4,9 @@ oob = "AFG_2000"
 
 recruit_character = AFG_mullah_omar
 
+recruit_character = AFG_dadullah
+recruit_character = AFG_jalaluddin_haqqani
+
 add_ideas = AFG_hardened_fighters
 
 add_ideas = war_economy

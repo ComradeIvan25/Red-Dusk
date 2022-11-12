@@ -54,5 +54,15 @@ KUW_MBT_01 =
 		7 = { "7th Armoured Division" }
 		8 = { "8th Armoured Division" }
 		9 = { "9th Armoured Division" }
+		10 = { "10th Armoured Division" }
+		11 = { "11th Armoured Division" }
+		12 = { "12th Armoured Division" }
+		13 = { "13th Armoured Division" }
+		14 = { "14th Armoured Division" }
+		15 = { "15th Armoured Division" }
+		16 = { "16th Armoured Division" }
+		17 = { "17th Armoured Division" }
+		18 = { "18th Armoured Division" }
+		19 = { "19th Armoured Division" }
 	}
 }

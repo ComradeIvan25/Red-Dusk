@@ -3046,7 +3046,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_construct_air_defenses
-		#icon = 
+		icon = GFX_focus_IRQ_construct_air_defenses
 		x = 0
 		y = 1
 
@@ -3172,7 +3172,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_soviet_training
-		#icon = 
+		icon = GFX_focus_IRQ_soviet_training
 		x = 0
 		y = 1
 

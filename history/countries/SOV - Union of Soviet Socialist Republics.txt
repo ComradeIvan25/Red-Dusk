@@ -1,6 +1,6 @@
 ﻿capital = 219
 
-#set_oob = "SOV_2000"
+set_oob = "SOV_2000"
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
@@ -187,6 +187,12 @@ set_stability = 0.7
 set_war_support = 0.2
 
 set_convoys = 200
+
+add_ideas = {
+	partial_economic_mobilisation
+	limited_exports
+	limited_conscription
+}
 
 set_politics = {
 	ruling_party = communism

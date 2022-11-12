@@ -140,6 +140,7 @@ SYR_INF_01 =
 		17 = { "17th Infantry Division" }
 		18 = { "18th Infantry Division" }
 		19 = { "19th Infantry Division" }
+		20 = { "20th Infantry Division" }
 		21 = { "21st Infantry Division" }
 		22 = { "22nd Infantry Division" }
 		23 = { "23rd Infantry Division" }

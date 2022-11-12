@@ -1961,6 +1961,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/SOV_ifv_tank_1990.dds"
 	}
 	SpriteType = {
+		name = "GFX_SOV_ifv_tank_2000_medium"
+		texturefile = "gfx/interface/technologies/SOV_ifv_tank_2000.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_ifv_tank_2010_medium"
+		texturefile = "gfx/interface/technologies/SOV_ifv_tank_2010.dds"
+	}
+	SpriteType = {
 		name = "GFX_SOV_ifv_tank_2020_medium"
 		texturefile = "gfx/interface/technologies/SOV_ifv_tank_2020.dds"
 	}
@@ -2044,6 +2052,10 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_USA_ifv_tank_1970_medium"
+		texturefile = "gfx/interface/technologies/USA_ifv_tank_1970.dds"
+	}
+	SpriteType = {
 		name = "GFX_USA_ifv_tank_1980_medium"
 		texturefile = "gfx/interface/technologies/USA_ifv_tank_1980.dds"
 	}
@@ -2072,7 +2084,15 @@ spriteTypes = {
 		name = "GFX_USA_apc_tank_2000_medium"
 		texturefile = "gfx/interface/technologies/USA_apc_tank_2000.dds"
 	}
+	SpriteType = {
+		name = "GFX_USA_apc_tank_2010_medium"
+		texturefile = "gfx/interface/technologies/USA_apc_tank_2010.dds"
+	}
 
+	SpriteType = {
+		name = "GFX_USA_recon_vehicle_1960_medium"
+		texturefile = "gfx/interface/technologies/USA_recon_vehicle_1960.dds"
+	}
 	SpriteType = {
 		name = "GFX_USA_recon_vehicle_1980_medium"
 		texturefile = "gfx/interface/technologies/USA_recon_vehicle_1980.dds"
@@ -2337,6 +2357,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/SOV_ifv_tank_1990.dds"
 	}
 	SpriteType = {
+		name = "GFX_SOV_ifv_tank_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_ifv_tank_2000.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_ifv_tank_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/SOV_ifv_tank_2010.dds"
+	}
+	SpriteType = {
 		name = "GFX_SOV_ifv_tank_equipment_5_medium"
 		texturefile = "gfx/interface/technologies/SOV_ifv_tank_2020.dds"
 	}
@@ -2424,6 +2452,10 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_USA_ifv_tank_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/USA_ifv_tank_1970.dds"
+	}
+	SpriteType = {
 		name = "GFX_USA_ifv_tank_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/USA_ifv_tank_1980.dds"
 	}
@@ -2452,7 +2484,15 @@ spriteTypes = {
 		name = "GFX_USA_apc_tank_equipment_4_medium"
 		texturefile = "gfx/interface/technologies/USA_apc_tank_2000.dds"
 	}
+	SpriteType = {
+		name = "GFX_USA_apc_tank_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/USA_apc_tank_2010.dds"
+	}
 
+	SpriteType = {
+		name = "GFX_USA_recon_vehicle_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/USA_recon_vehicle_1960.dds"
+	}
 	SpriteType = {
 		name = "GFX_USA_recon_vehicle_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/USA_recon_vehicle_1980.dds"

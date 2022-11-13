@@ -131,9 +131,7 @@ focus_tree = {
 		x = 8
 		y = 2
 		cost = 3
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
+          prerequisite = { focus = VIN_status_of_the_economy }
 		completion_reward = {
 		add_tech_bonus = {
 			bonus = 0.5
@@ -145,9 +143,17 @@ focus_tree = {
 	   remove_idea = VIN_corruption_1
 	   add_idea = VIN_corruption_2
        }
+	    916 = { 
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+	type = industrial_complex
+	level = 1
+	instant_build = yes
+		}
 	   }
 		prerequisite = { focus = VIN_status_of_the_economy }
 
+	}
 	}
 	
 
@@ -431,14 +437,14 @@ focus_tree = {
 	}
 	}
 	
-	#######
+	#######After the congress#####
     
 	#######MILITARY########
 	#PAVN
 	focus = {
 		id = VIN_army
 		icon = VIN_PAVN
-		x = 25
+		x = 27
 		y = 0
 		cost = 3
 		search_filters = {
@@ -456,7 +462,7 @@ focus_tree = {
 	focus = {
 		id = VIN_army_reform
 		icon = VIN_army_modernization
-		x = 25
+		x = 27
 		y = 1
 		cost = 3
 		search_filters = {
@@ -471,7 +477,7 @@ focus_tree = {
 	focus = {
 		id = VIN_ground_force
 		icon = VIN_luc_quan
-		x = 25
+		x = 27
 		y = 2
 		cost = 3
 		search_filters = {
@@ -486,7 +492,7 @@ focus_tree = {
 	 focus = {
 		id = VIN_navy
 		icon = VIN_hai_quan
-		x = 21
+		x = 23
 		y = 2
 		cost = 3
 		search_filters = {
@@ -501,7 +507,7 @@ focus_tree = {
 	 focus = {
 		id = VIN_air_force
 		icon = VIN_khong_quan
-		x = 29
+		x = 31
 		y = 2
 		cost = 3
 		search_filters = {
@@ -516,7 +522,7 @@ focus_tree = {
 	 focus = {
 		id = VIN_elite_army
 		icon = VIN_khong_quan
-		x = 24
+		x = 26
 		y = 3
 		cost = 3
 		search_filters = {
@@ -534,7 +540,7 @@ focus_tree = {
 	 focus = {
 		id = VIN_grand_army
 		icon = VIN_khong_quan
-		x = 26
+		x = 28
 		y = 3
 		cost = 3
 		search_filters = {
@@ -552,7 +558,7 @@ focus_tree = {
 	 focus = {
 		id = VIN_expand_reserve
 		icon = VIN_khong_quan
-		x = 26
+		x = 28
 		y = 4
 		cost = 3
 		search_filters = {
@@ -567,7 +573,7 @@ focus_tree = {
 	 focus = {
 		id = VIN_arms_production
 		icon = GFX_focus_SOV_quantity_over_quality
-		x = 26
+		x = 28
 		y = 5
 		cost = 3
 		search_filters = {
@@ -582,7 +588,7 @@ focus_tree = {
 	 focus = {
 		id = VIN_end_conscription
 		icon = VIN_khong_quan
-		x = 24
+		x = 26
 		y = 4
 		cost = 3
 		search_filters = {
@@ -598,7 +604,7 @@ focus_tree = {
 	 focus = {
 		id = VIN_mobile_force
 		icon = VIN_khong_quan
-		x = 24
+		x = 26
 		y = 5
 		cost = 3
 		search_filters = {
@@ -614,7 +620,7 @@ focus_tree = {
 	 focus = {
 		id = VIN_surface_fleet
 		icon = VIN_hai_quan
-		x = 20
+		x = 22
 		y = 3
 		cost = 3
 		search_filters = {
@@ -629,7 +635,7 @@ focus_tree = {
 	 focus = {
 		id = VIN_submarine
 		icon = VIN_hai_quan
-		x = 22
+		x = 24
 		y = 3
 		cost = 3
 		search_filters = {

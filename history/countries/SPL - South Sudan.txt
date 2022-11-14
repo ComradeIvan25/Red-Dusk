@@ -2,7 +2,7 @@
 
 set_convoys = 20
 
-#recruit_character = SUD_omar_al_bashir
+recruit_character = SPL_john_garang
 
 declare_war_on = {
 	target = SUD

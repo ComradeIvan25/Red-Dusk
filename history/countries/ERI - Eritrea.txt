@@ -10,6 +10,9 @@ add_ideas = ERI_a_generation_of_warriors
 
 add_ideas = usa_aligned_nation
 
+add_ideas = war_economy
+add_ideas = service_by_requirement
+
 ERI = { set_province_controller = 13237 }
 
 set_technology = {

@@ -40,6 +40,11 @@ country_event = {
 		#bruh#
 	option = {
 		name = ethiopia_mod.2.a
+			add_popularity = {
+				ideology = communism
+				popularity = 0.5
+			}
+
 		ETV = {
 		transfer_state = 839
 		add_state_core = 839
@@ -57,6 +62,17 @@ country_event = {
 				type = annex_everything
 			}
 		}
+					
+			ETH = {
+				transfer_units_fraction= {
+					target = ETV
+					size = 0.3
+					stockpile_ratio = 0.3
+					army_ratio = 0.3
+					navy_ratio = 0.5
+					air_ratio = 0.5
+				}
+			}
 		ai_chance = {
 		factor = 100
 		}
@@ -65,6 +81,11 @@ country_event = {
 			#rebel time#
 	option = {
 		name = ethiopia_mod.2.b
+			add_popularity = {
+				ideology = communism
+				popularity = 0.5
+			}
+
 		ETV = {
 		transfer_state = 839
 		add_state_core = 839
@@ -81,11 +102,20 @@ country_event = {
 				target = ETH
 				type = annex_everything
 			}
-			
+			ETH = {
+				transfer_units_fraction= {
+					target = ETV
+					size = 0.3
+					stockpile_ratio = 0.3
+					army_ratio = 0.3
+					navy_ratio = 0.5
+					air_ratio = 0.5
+				}
+			}
 		}
 		ETV = {change_tag_from = ETH }
 		ai_chance = {
-		factor = 100
+		factor = 0
 		}
 	}
 }		

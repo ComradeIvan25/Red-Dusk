@@ -16,6 +16,9 @@ days = 145
 
 add_ideas = ussr_aligned_nation
 
+add_ideas = war_economy
+add_ideas = limited_conscription
+
 ETH = { set_province_controller = 8043 }
 
 set_technology = {

@@ -19,7 +19,7 @@ if = {
 }
 set_technology = {
 	fighter_1960 = 1
-	strategic_bomber_1960 = 1
+	strike_bomber_1960 = 1
 	rocket_artillery_1960 = 1
 }
 

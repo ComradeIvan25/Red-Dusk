@@ -643,6 +643,61 @@
  SAF_recon_vehicle_equipment_1_short:0 "Rooikat"
  SAF_recon_vehicle_equipment_2:0 "RG-32 Recon"
  SAF_recon_vehicle_equipment_2_short:0 "RG-32"
+# PRC #
+ PRC_mbt_tank_equipment_0:0 "Type 59 MBT"
+ PRC_mbt_tank_equipment_0_short:0 "Type 59"
+ PRC_mbt_tank_equipment_1:0 "Type 69 MBT"
+ PRC_mbt_tank_equipment_1_short:0 "Type 69"
+ PRC_mbt_tank_equipment_2:0 "Type 69-II MBT"
+ PRC_mbt_tank_equipment_2_short:0 "Type 69-II"
+ PRC_mbt_tank_equipment_3:0 "Type 96 MBT"
+ PRC_mbt_tank_equipment_3_short:0 "Type 96"
+ PRC_mbt_tank_equipment_4:0 "Type 99 MBT"
+ PRC_mbt_tank_equipment_4_short:0 "Type 99"
+ PRC_mbt_tank_equipment_5:0 "Type 99A MBT"
+ PRC_mbt_tank_equipment_5_short:0 "Type 99A"
+
+ PRC_ifv_tank_equipment_0:0 "Type 86 IFV"
+ PRC_ifv_tank_equipment_0_short:0 "Type 86"
+ PRC_ifv_tank_equipment_3:0 "Type 04 IFV"
+ PRC_ifv_tank_equipment_3_short:0 "Type 04"
+ PRC_ifv_tank_equipment_4:0 "Type 08 IFV"
+ PRC_ifv_tank_equipment_4_short:0 "Type 08"
+
+ PRC_apc_tank_equipment_0:0 "Type 63 APC"
+ PRC_apc_tank_equipment_0_short:0 "Type 63"
+
+ PRC_spaa_tank_equipment_2:0 "Type 09 SPAAG"
+ PRC_spaa_tank_equipment_2_short:0 "Type 09"
+# GER #
+ GER_mbt_tank_equipment_0:0 "Leopard 1 MBT"
+ GER_mbt_tank_equipment_0_short:0 "Leopard 1"
+ GER_mbt_tank_equipment_1:0 "Leopard 1A1 MBT"
+ GER_mbt_tank_equipment_1_short:0 "Leopard 1A1"
+ GER_mbt_tank_equipment_2:0 "Leopard 2A4 MBT"
+ GER_mbt_tank_equipment_2_short:0 "Leopard 2A4"
+ GER_mbt_tank_equipment_3:0 "Leopard 2A5 MBT"
+ GER_mbt_tank_equipment_3_short:0 "Leopard 2A5"
+ GER_mbt_tank_equipment_5:0 "Leopard 2A6 MBT"
+ GER_mbt_tank_equipment_5_short:0 "Leopard 2A6"
+ GER_mbt_tank_equipment_6:0 "Leopard 2A7+ MBT"
+ GER_mbt_tank_equipment_6_short:0 "Leopard 2A7+"
+
+ GER_ifv_tank_equipment_0:0 "Marder 1A1 IFV"
+ GER_ifv_tank_equipment_0_short:0 "Marder 1A1"
+ GER_ifv_tank_equipment_1:0 "Marder 1A2 IFV"
+ GER_ifv_tank_equipment_1_short:0 "Marder 1A2"
+ GER_ifv_tank_equipment_4:0 "Puma IFV"
+ GER_ifv_tank_equipment_4_short:0 "Puma"
+
+ GER_apc_tank_equipment_5:0 "Boxer APC"
+ GER_apc_tank_equipment_5_short:0 "Boxer"
+
+ GER_spaa_tank_equipment_0:0 "Gepard SPAAG"
+ GER_spaa_tank_equipment_0_short:0 "Gepard"
+
+ GER_recon_vehicle_equipment_2:0 "Fennek Recon"
+ GER_recon_vehicle_equipment_2_short:0 "Fennek"
 
 ## Infantry Equipment ##
  infantry_weapons:0 "Infantry Weapons"

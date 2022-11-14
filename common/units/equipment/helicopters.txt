@@ -24,7 +24,7 @@ equipments = {
 		}
 
 		manpower = 30
-		fuel_consumption = 6
+		fuel_consumption = 0.23
 	}
 	heli_transport_equipment_0 = {
 		year = 1960
@@ -96,7 +96,7 @@ equipments = {
 		}
 
 		manpower = 36
-		fuel_consumption = 6
+		fuel_consumption = 0.23
 	}
 	heli_attack_equipment_0 = {
 		year = 1970

@@ -39,7 +39,7 @@ equipments = {
 		}
 
 		manpower = 70
-		fuel_consumption = 0.50
+		fuel_consumption = 0.46
 	}
 
 	strike_bomber_equipment_0 = {
@@ -125,7 +125,7 @@ equipments = {
 		}
 
 		manpower = 95
-		fuel_consumption = 0.58
+		fuel_consumption = 0.54
 	}
 
 	strategic_bomber_equipment_0 = {
@@ -199,7 +199,7 @@ equipments = {
 		}
 
 		manpower = 85
-		fuel_consumption = 0.50
+		fuel_consumption = 0.48
 	}
 
 	stealth_bomber_equipment_0 = {

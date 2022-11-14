@@ -1714,6 +1714,82 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/SAF_heli_attack_2010.dds"
 	}
 
+	# PRC #
+
+	SpriteType = {
+		name = "GFX_PRC_fighter_1960_medium"
+		texturefile = "gfx/interface/technologies/PRC_fighter_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRC_fighter_2000_medium"
+		texturefile = "gfx/interface/technologies/PRC_fighter_2000.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRC_fighter_2010_medium"
+		texturefile = "gfx/interface/technologies/PRC_fighter_2010.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRC_carrier_fighter_2010_medium"
+		texturefile = "gfx/interface/technologies/PRC_carrier_fighter_2010.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRC_interceptor_1970_medium"
+		texturefile = "gfx/interface/technologies/PRC_interceptor_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRC_stealth_fighter_2010_medium"
+		texturefile = "gfx/interface/technologies/PRC_stealth_fighter_2010.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRC_stealth_fighter_2020_medium"
+		texturefile = "gfx/interface/technologies/PRC_stealth_fighter_2020.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRC_attacker_1970_medium"
+		texturefile = "gfx/interface/technologies/PRC_attacker_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRC_strike_bomber_1960_medium"
+		texturefile = "gfx/interface/technologies/PRC_strike_bomber_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRC_transport_plane_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/PRC_transport_plane.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRC_heli_transport_1960_medium"
+		texturefile = "gfx/interface/technologies/PRC_heli_transport_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRC_heli_transport_1970_medium"
+		texturefile = "gfx/interface/technologies/PRC_heli_transport_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRC_heli_attack_2010_medium"
+		texturefile = "gfx/interface/technologies/PRC_heli_attack_2010.dds"
+	}
+
+	# GER #
+
+	SpriteType = {
+		name = "GFX_GER_fighter_2000_medium"
+		texturefile = "gfx/interface/technologies/GER_fighter_2000.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_attacker_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_attacker_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_attacker_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_attacker_1980.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_heli_transport_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_heli_transport_1970.dds"
+	}
+
 	## Tank Tech Tree Icons ##
 
 	SpriteType = {
@@ -2194,6 +2270,111 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/SAF_recon_vehicle_2000.dds"
 	}
 
+	# PRC #
+
+	SpriteType = {
+		name = "GFX_PRC_mbt_tank_1960_medium"
+		texturefile = "gfx/interface/technologies/PRC_mbt_tank_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRC_mbt_tank_1970_medium"
+		texturefile = "gfx/interface/technologies/PRC_mbt_tank_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRC_mbt_tank_1980_medium"
+		texturefile = "gfx/interface/technologies/PRC_mbt_tank_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRC_mbt_tank_1990_medium"
+		texturefile = "gfx/interface/technologies/PRC_mbt_tank_1990.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRC_mbt_tank_2000_medium"
+		texturefile = "gfx/interface/technologies/PRC_mbt_tank_2000.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRC_mbt_tank_2010_medium"
+		texturefile = "gfx/interface/technologies/PRC_mbt_tank_2010.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRC_ifv_tank_1970_medium"
+		texturefile = "gfx/interface/technologies/PRC_ifv_tank_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRC_ifv_tank_2000_medium"
+		texturefile = "gfx/interface/technologies/PRC_ifv_tank_2000.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRC_ifv_tank_2010_medium"
+		texturefile = "gfx/interface/technologies/PRC_ifv_tank_2010.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRC_apc_tank_1960_medium"
+		texturefile = "gfx/interface/technologies/PRC_apc_tank_1960.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRC_spaa_tank_2000_medium"
+		texturefile = "gfx/interface/technologies/PRC_spaa_tank_2000.dds"
+	}
+
+	# GER #
+
+	SpriteType = {
+		name = "GFX_GER_mbt_tank_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_mbt_tank_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mbt_tank_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_mbt_tank_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mbt_tank_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_mbt_tank_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mbt_tank_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_mbt_tank_1990.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mbt_tank_2010_medium"
+		texturefile = "gfx/interface/technologies/GER_mbt_tank_2010.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mbt_tank_2020_medium"
+		texturefile = "gfx/interface/technologies/GER_mbt_tank_2020.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_ifv_tank_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_ifv_tank_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_ifv_tank_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_ifv_tank_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_ifv_tank_2010_medium"
+		texturefile = "gfx/interface/technologies/GER_ifv_tank_2010.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_apc_tank_2010_medium"
+		texturefile = "gfx/interface/technologies/GER_apc_tank_2010.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_spaa_tank_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_spaa_tank_1960.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_recon_vehicle_2000_medium"
+		texturefile = "gfx/interface/technologies/GER_recon_vehicle_2000.dds"
+	}
+
 	## Generic Armour Equipment ##
 
 	SpriteType = {
@@ -2592,6 +2773,111 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_SAF_recon_vehicle_equipment_2_medium"
 		texturefile = "gfx/interface/technologies/SAF_recon_vehicle_2000.dds"
+	}
+
+	## PRC Armour Equipment ##
+
+	SpriteType = {
+		name = "GFX_PRC_mbt_tank_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/PRC_mbt_tank_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRC_mbt_tank_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/PRC_mbt_tank_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRC_mbt_tank_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/PRC_mbt_tank_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRC_mbt_tank_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/PRC_mbt_tank_1990.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRC_mbt_tank_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/PRC_mbt_tank_2000.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRC_mbt_tank_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/PRC_mbt_tank_2010.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRC_ifv_tank_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/PRC_ifv_tank_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRC_ifv_tank_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/PRC_ifv_tank_2000.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRC_ifv_tank_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/PRC_ifv_tank_2010.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRC_apc_tank_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/PRC_apc_tank_1960.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRC_spaa_tank_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/PRC_spaa_tank_2000.dds"
+	}
+
+	## GER Armour Equipment ##
+
+	SpriteType = {
+		name = "GFX_GER_mbt_tank_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/GER_mbt_tank_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mbt_tank_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/GER_mbt_tank_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mbt_tank_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/GER_mbt_tank_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mbt_tank_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/GER_mbt_tank_1990.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mbt_tank_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/GER_mbt_tank_2010.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mbt_tank_equipment_6_medium"
+		texturefile = "gfx/interface/technologies/GER_mbt_tank_2020.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_ifv_tank_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/GER_ifv_tank_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_ifv_tank_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/GER_ifv_tank_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_ifv_tank_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/GER_ifv_tank_2010.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_apc_tank_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/GER_apc_tank_2010.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_spaa_tank_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/GER_spaa_tank_1960.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_recon_vehicle_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/GER_recon_vehicle_2000.dds"
 	}
 
 	## Infantry Techs ##

@@ -35,7 +35,7 @@ units = {
 		division_template = "Firqat Mudaraea"
 		force_equipment_variants = {
 			mbt_tank_equipment_3 = { owner = "USA" }
-			ifv_tank_equipment_2 = { owner = "ENG" }
+			ifv_tank_equipment_1 = { owner = "ENG" }
 			apc_tank_equipment_0 = { owner = "USA" }
 			infantry_weapons_1 = { owner = "USA" }
 			infantry_anti_tank_weapons_1 = { owner = "SOV" }

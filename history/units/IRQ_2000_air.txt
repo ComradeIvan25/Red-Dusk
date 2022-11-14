@@ -44,14 +44,13 @@ air_wings = {
 			creator = SOV
 			amount = 16
 		}
-		# Strike Bombers -- Tu-22
+		# Strike Bombers -- Tu-22, H-6D
 		strike_bomber_equipment_0 =  { # Tu-22 #
 			owner = "IRQ" 
 			creator = SOV
 			amount = 4
 		}
-		# Strategic Bombers -- H-6D
-		strategic_bomber_equipment_0 =  { # H-6D #
+		strike_bomber_equipment_0 =  { # H-6D #
 			owner = "IRQ" 
 			creator = PRC
 			amount = 2

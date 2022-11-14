@@ -255,7 +255,7 @@ equipments = {
 			steel = 2
 		}
 
-		fuel_consumption = 0.14
+		fuel_consumption = 0.12
 	}
 	rocket_artillery_equipment_1 = {
 		year = 1960

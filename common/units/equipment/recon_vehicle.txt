@@ -44,7 +44,7 @@ equipments = {
 			chromium = 2
 		}
 		
-		fuel_consumption = 3
+		fuel_consumption = 2
 	}
 
 	recon_vehicle_equipment_0 = {

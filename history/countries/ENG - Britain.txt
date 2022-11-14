@@ -17,7 +17,7 @@ set_technology = {
 	attacker_1970 = 1
 	attacker_1980 = 1
 	mbt_tank_1970 = 1
-	ifv_tank_1990 = 1
+	ifv_tank_1980 = 1
 }
 if = {
 	limit = {

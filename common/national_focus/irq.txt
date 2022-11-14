@@ -3002,7 +3002,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_purchase_foreign_ships
-		#icon = 
+		icon = GFX_focus_IRQ_purchase_foreign_ships
 		x = 1
 		y = 1
 

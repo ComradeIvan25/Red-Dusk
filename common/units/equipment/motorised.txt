@@ -28,7 +28,7 @@ equipments = {
 			steel = 1
 		}
 		
-		fuel_consumption = 1.2
+		fuel_consumption = 1.0
 		supply_truck = yes
 	}
 

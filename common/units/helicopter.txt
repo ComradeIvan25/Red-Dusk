@@ -83,7 +83,7 @@ sub_units = {
 
 		#Misc Abilities
 		weight = 0.1
-		supply_consumption = 0.32
+		supply_consumption = 0.28
 		can_be_parachuted = yes
 		recon = 4
 		

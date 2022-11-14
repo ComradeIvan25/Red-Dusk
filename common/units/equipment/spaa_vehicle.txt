@@ -44,7 +44,7 @@ equipments = {
 			chromium = 3
 		}
 		
-		fuel_consumption = 4
+		fuel_consumption = 2
 	}
 
 	spaa_tank_equipment_0 = {

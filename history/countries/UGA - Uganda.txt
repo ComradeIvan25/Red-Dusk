@@ -6,6 +6,7 @@ set_convoys = 0
 
 recruit_character = UGA_yoweri
 recruit_character = UGA_occupation_authority
+recruit_character = UGA_kony
 
 add_ideas = COG_africas_world_war
 add_ideas = UGA_increasing_authoritarianism

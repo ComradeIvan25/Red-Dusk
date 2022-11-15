@@ -59,6 +59,8 @@
  TAM_won:0 "Tamil Eelam"
  TAM_won_ADJ:0 "Tamil"
  
+ RCD_won:0 "Republic of Congo"
+ RCD_won_DEF:0 "the Republic of Congo"
  UGA_occupied:0 "Occupied Uganda"
  UGA_occupied_DEF:0 "the Transitionally Occupied Government of Uganda"
  UGA_kony_trollface:0 "Lord's Holy Kingdom of Uganda"

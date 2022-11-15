@@ -126,7 +126,12 @@
  old_times_news.48.t:0 "Sino-Soviet Cooperation Treaty Signed"
  old_times_news.48.d:0 "Today at the Chinese-Soviet Cooperation Summit held in Beijing, it was announced that delegations of both nations have signed a Sino-Soviet Cooperation Treaty.\n\nAs it was stated, treaty's aim is to reinforce the cooperation between People's Republic of China and the Soviet Union in both economical and political way. With this agreement, the hot-cold relations between Moscow and Beijing seem to have finally stabilised with the aim of toppling American economic influence.\n\nIt is believed that this will be a new age of economic prosperity for not only the two signatory countries but also for all the other nations that are cooperating with the two super powers. White House hasn't issued any statements about the matter but it is believed that this will severely effect the economic balance of the world. "
  old_times_news.48.a:0 "A fresh new start for the communist super powers."
-
+ old_times_news.49.t:0 "East Timor gains indepedence"
+ old_times_news.49.d:0 ""
+ old_times_news.49.a:0 "Another natin enters the stage."
+ old_times_news.50.t:0 "Lord's Resistance Army seizies power in Uganda!"
+ old_times_news.50.d:0 "Terrifying news have arrived from Uganda as it appears the Government of Museveni wasnt able to survive the fallout of Uganda's recent loss in the Congo War, as multiple Lord's Resistance Army soldiers commanded by Joseph Kony enter the capital.\n\nLord's Resistance Army was founded by Joseph Kony, L.R.A aimed to overthrow the Museveni Government and establish a christian theocratic state centered around its leader. L.R.A engaged in multiple battles and lost against the government forces, causing them to retreat into northern jungles of Uganda, waging guerilla warfare while commiting heinous crimes against civilians in the region and kidnapping children.\n\nWith L.R.A controlling the entire country, Joseph Kony declared himself the eternal leader, starting a cult of personality around his image.The new regime begun mass killings across the country against perceived "traitors of the nation"."
+ old_times_news.50.a:0 "How can a war criminal rule a nation?" 
 ## Flavour News Events ##
  #flavour_news.1.t:0 ##HIDDEN SCRIPTED EVENT##
  flavour_news.2.t:0 "Disaster in Paris!"

@@ -1,4 +1,5 @@
 add_namespace = congo
+add_namespace = uganda
 
 #raid RCD - Goma ?#
 country_event = {
@@ -148,23 +149,23 @@ country_event = {
 			is_controlled_by = COG
 			}
 			
-			855 = {
+			932 = {
 			is_controlled_by = COG
 			}
 			
-			856 = {
+			929 = {
 			is_controlled_by = COG
 			}
 			
-			857 = {			
+			931 = {			
 			is_controlled_by = COG
 			}
 			
-			858 = {			
+			930 = {			
 			is_controlled_by = COG
 			}
 			
-			859 = {			
+			933 = {			
 			is_controlled_by = COG
 			}
 
@@ -202,41 +203,49 @@ country_event = {
 			295 = {
 			remove_core_of = RCK
 			remove_core_of = RGO
+			remove_core_of = COG
 			}
 		
 			538 = {
 			remove_core_of = RCK
 			remove_core_of = RGO
+			remove_core_of = COG
 			}
 			
 			718 = {
 			remove_core_of = RCK
 			remove_core_of = RGO
+			remove_core_of = COG
 			}
 			
-			855 = {
+			932 = {
 			remove_core_of = RCK
 			remove_core_of = RGO
+			remove_core_of = COG
 			}
 			
-			856 = {
+			929 = {
 			remove_core_of = RCK
 			remove_core_of = RGO
+			remove_core_of = COG
 			}
 			
-			857 = {			
+			931 = {			
 			remove_core_of = RCK
 			remove_core_of = RGO
+			remove_core_of = COG
 			}
 			
-			858 = {			
+			930 = {			
 			remove_core_of = RCK
 			remove_core_of = RGO
+			remove_core_of = COG
 			}
 			
-			859 = {			
+			933 = {			
 			remove_core_of = RCK
 			remove_core_of = RGO
+			remove_core_of = COG
 			}
 			
 
@@ -290,35 +299,35 @@ country_event = {
 		original_tag = RCK
 			has_war = no
 			295 = {
-			is_controlled_by = RCK
+			is_controlled_by = COG
 			}
 		
 			538 = {
-			is_controlled_by = RCK
+			is_controlled_by = COG
 			}
 			
 			718 = {
-			is_controlled_by = RCK
+			is_controlled_by = COG
 			}
 			
-			855 = {
-			is_controlled_by = RCK
+			932 = {
+			is_controlled_by = COG
 			}
 			
-			856 = {
-			is_controlled_by = RCK
+			929 = {
+			is_controlled_by = COG
 			}
 			
-			857 = {			
-			is_controlled_by = RCK
+			931 = {			
+			is_controlled_by = COG
 			}
 			
-			858 = {			
-			is_controlled_by = RCK
+			930 = {			
+			is_controlled_by = COG
 			}
 			
-			859 = {			
-			is_controlled_by = RCK
+			933 = {			
+			is_controlled_by = COG
 			}
 
 		}
@@ -329,6 +338,8 @@ country_event = {
 		option = {
 			name = congo.4.a
 			add_stability = 0.50
+			
+			set_cosmetic_tag = RCD_won
 			
 			USA = {
 				proxy_war_won_by_USA = yes
@@ -347,41 +358,49 @@ country_event = {
 			}
 			
 			295 = {
+			remove_core_of = RCK
 			remove_core_of = RGO
 			remove_core_of = COG
 			}
 		
 			538 = {
+			remove_core_of = RCK
 			remove_core_of = RGO
 			remove_core_of = COG
 			}
 			
 			718 = {
+			remove_core_of = RCK
 			remove_core_of = RGO
 			remove_core_of = COG
 			}
 			
-			855 = {
+			932 = {
+			remove_core_of = RCK
 			remove_core_of = RGO
 			remove_core_of = COG
 			}
 			
-			856 = {
+			929 = {
+			remove_core_of = RCK
 			remove_core_of = RGO
 			remove_core_of = COG
 			}
 			
-			857 = {			
+			931 = {			
+			remove_core_of = RCK
 			remove_core_of = RGO
 			remove_core_of = COG
 			}
 			
-			858 = {			
+			930 = {			
+			remove_core_of = RCK
 			remove_core_of = RGO
 			remove_core_of = COG
 			}
 			
-			859 = {			
+			933 = {			
+			remove_core_of = RCK
 			remove_core_of = RGO
 			remove_core_of = COG
 			}
@@ -441,35 +460,35 @@ country_event = {
 		original_tag = RGO
 			has_war = no
 			295 = {
-			is_controlled_by = RGO
+			is_controlled_by = COG
 			}
 		
 			538 = {
-			is_controlled_by = RGO
+			is_controlled_by = COG
 			}
 			
 			718 = {
-			is_controlled_by = RGO
+			is_controlled_by = COG
 			}
 			
-			855 = {
-			is_controlled_by = RGO
+			932 = {
+			is_controlled_by = COG
 			}
 			
-			856 = {
-			is_controlled_by = RGO
+			929 = {
+			is_controlled_by = COG
 			}
 			
-			857 = {			
-			is_controlled_by = RGO
+			931 = {			
+			is_controlled_by = COG
 			}
 			
-			858 = {			
-			is_controlled_by = RGO
+			930 = {			
+			is_controlled_by = COG
 			}
 			
-			859 = {			
-			is_controlled_by = RGO
+			933 = {			
+			is_controlled_by = COG
 			}
 			
 		}
@@ -480,6 +499,7 @@ country_event = {
 		option = {
 			name = congo.5.a
 			add_stability = 0.50
+			set_cosmetic_tag = RCD_won
 			
 			USA = {
 				proxy_war_won_by_USA = yes
@@ -498,41 +518,49 @@ country_event = {
 			
 			295 = {
 			remove_core_of = RCK
+			remove_core_of = RGO
 			remove_core_of = COG
 			}
 		
 			538 = {
 			remove_core_of = RCK
+			remove_core_of = RGO
 			remove_core_of = COG
 			}
 			
 			718 = {
 			remove_core_of = RCK
+			remove_core_of = RGO
 			remove_core_of = COG
 			}
 			
-			855 = {
+			932 = {
 			remove_core_of = RCK
+			remove_core_of = RGO
 			remove_core_of = COG
 			}
 			
-			856 = {
+			929 = {
 			remove_core_of = RCK
+			remove_core_of = RGO
 			remove_core_of = COG
 			}
 			
-			857 = {			
+			931 = {			
 			remove_core_of = RCK
+			remove_core_of = RGO
 			remove_core_of = COG
 			}
 			
-			858 = {			
+			930 = {			
 			remove_core_of = RCK
+			remove_core_of = RGO
 			remove_core_of = COG
 			}
 			
-			859 = {			
+			933 = {			
 			remove_core_of = RCK
+			remove_core_of = RGO
 			remove_core_of = COG
 			}
 			
@@ -579,3 +607,37 @@ country_event = {
 							
 		}
 	}
+	
+#kony trolls over the nation of Uganda, causing irreversible damage#
+country_event = {
+	id = uganda.1
+	title = uganda.1.t
+	desc = uganda.1.d
+	picture = GFX_report_event_spark
+	
+	is_triggered_only = yes
+
+	#yes#
+	option = {
+		name = uganda.1.a
+		add_stability = -0.05
+		news_event = {id = old_times_news.50 days = 2}
+		retire_country_leader = yes
+		promote_character = UGA_kony
+		set_cosmetic_tag = UGA_kony_trollface
+		swap_ideas = {
+			remove_idea = UGA_increasing_authoritarianism
+			add_idea = UGA_extreme_authoritarianism
+		}
+		set_party_name = {
+			ideology = neutrality
+			long_name = UGA_neutrality_party_kony_long
+			name = UGA_neutrality_party_kony
+		}
+		add_ideas = UGA_konys_cult
+		army_experience = 15
+		ai_chance = {
+		factor = 100
+		}
+	}
+}

@@ -235,9 +235,18 @@ SRL_lost = {
 	color_ui = rgb { 193 80 0 }
 }
 
+RCD_won = {
+	color = rgb { 0 116 209 }
+	color_ui = rgb { 0 116 209 }
+}
+
 UGA_occupied = {
 	color = rgb { 106 111 145 }
 	color_ui = rgb { 116 111 145 }
+}
+UGA_kony_trollface = {
+	color = rgb { 0 12 84 }
+	color_ui = rgb { 28 74 99 }
 }
 RWA_occupied = {
 	color = rgb { 75 84 145 }

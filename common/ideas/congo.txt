@@ -121,6 +121,51 @@ ideas = {
 			
 		}
 		
+		UGA_extreme_authoritarianism = {
+			name = UGA_extreme_authoritarianism_name
+
+			removal_cost = -1
+			
+			cancel = {
+				is_puppet = yes
+			}
+			
+			picture = UGA_increasing_auth_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_gain = -0.25
+				neutrality_drift = 0.15
+			}
+			
+		}
+		
+		UGA_konys_cult = {
+			name = UGA_konys_cult_name
+
+			removal_cost = -1
+			
+			cancel = {
+				is_puppet = yes
+			}
+			
+			picture = UGA_konys_cult_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.75
+				war_support_weekly = 0.05
+				research_speed_factor = -0.50
+			}
+			
+		}
+		
 		##Rwanda##
 		
 		RWA_tutsi_dominance = {

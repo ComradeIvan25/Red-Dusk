@@ -382,6 +382,10 @@ spriteTypes = {
 		name = "GFX_idea_UGA_increasing_auth_icon"
 		texturefile = "gfx/interface/ideas/UGA_increasing_auth.png"
 	}
+	spriteType = {
+		name = "GFX_idea_UGA_konys_cult_icon"
+		texturefile = "gfx/interface/ideas/UGA_konys_cult.png"
+	}
 	
 	spriteType = {
 		name = "GFX_idea_BRD_tutsi_dominance_icon"

@@ -1018,6 +1018,8 @@
  RGO_democratic_party_long:0 "Rally for Congolese Democracy - Goma Faction"
  UGA_neutrality_party:0 "National Resistance Movement"
  UGA_neutrality_party_long:0 "National Resistance Movement"
+ UGA_neutrality_party_kony:0 "Lord's Resistance Army"
+ UGA_neutrality_party_kony_long:0 "Lord's Resistance Army"
  RWA_neutrality_party:0 "Rwandan Patriotic Front"
  RWA_neutrality_party_long:0 "Rwandan Patriotic Front"
  BRD_fascism_party:0 "Union for National Progress"

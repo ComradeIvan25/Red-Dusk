@@ -61,6 +61,8 @@
  
  UGA_occupied:0 "Occupied Uganda"
  UGA_occupied_DEF:0 "the Transitionally Occupied Government of Uganda"
+ UGA_kony_trollface:0 "Lord's Holy Kingdom of Uganda"
+ UGA_kony_trollface_DEF:0 "the Lord's Holy Kingdom of Uganda"
  RWA_occupied:0 "Occupied Rwanda"
  RWA_occupied_DEF:0 "the Transitionally Occupied Government of Rwanda"
  BRD_occupied:0 "Occupied Burundi"

@@ -15,6 +15,21 @@ characters = {
 		}
 	}
 	
+	UGA_kony = {
+		name = "Joseph Kony"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UGA/Kony.png"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+	
 	UGA_occupation_authority = {
 		name = "Occupation Authority"
 		portraits = {

@@ -616,11 +616,11 @@ news_event = {
 	
 }
 
-#East timor escapes from UN control
+#East timor escapes from blue helmets UN
 news_event = {
-	id = old_times_news.48
-	title = old_times_news.48.t
-	desc = old_times_news.48.d
+	id = old_times_news.49
+	title = old_times_news.49.t
+	desc = old_times_news.49.d
 	picture = GFX_news_east_timor_independence
 	
 	major = yes
@@ -633,7 +633,7 @@ news_event = {
 	fire_only_once = yes
 	 
 	option ={
-		name = old_times_news.48.a
+		name = old_times_news.49.a
 		hidden_effect = {
 			TIM = {
 			set_cosmetic_tag = TIM_free
@@ -641,6 +641,23 @@ news_event = {
 			promote_character = TIM_xanana
 			}
 		}
+	}
+	
+}
+
+#Kony trolls Uganda
+news_event = {
+	id = old_times_news.50
+	title = old_times_news.50.t
+	desc = old_times_news.50.d
+	picture = GFX_news_kony
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.50.a
 	}
 	
 }

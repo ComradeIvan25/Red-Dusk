@@ -1,0 +1,32 @@
+﻿capital = 540
+
+#oob = "ANG_1936"
+
+# Starting tech
+
+set_convoys = 5
+
+recruit_character = UNI_jonas_savimbi
+
+add_ideas = COG_africas_world_war
+
+add_ideas = usa_aligned_nation
+
+declare_war_on = {
+	target = ANG
+	type = topple_government
+}
+
+UNI = { set_province_controller = 8219 }
+UNI = { set_province_controller = 12391 }
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 70
+        democratic = 30
+}

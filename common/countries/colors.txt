@@ -948,3 +948,7 @@ SPL = {
 	color = rgb { 130 135 83 }
 	color_ui = rgb { 135 135 83 }
 }
+UNI = {
+	color = rgb { 165 116 48 }
+	color_ui = rgb { 165 116 50 }
+}

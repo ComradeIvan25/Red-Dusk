@@ -9,12 +9,12 @@ state={
 	}
 
 	history={
-		owner = ANG
+		owner = UNI
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = ANG
-
+		add_core_of = UNI
 	}
 
 

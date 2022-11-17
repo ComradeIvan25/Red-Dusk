@@ -762,6 +762,11 @@
  USA_trump_trump_in_office:0 "Trump in Office!"
  USA_trump_trump_in_office_desc:0 "Perot’s spirit has won the day, give three cheers for the return of reform, three cheers for the rise of a third party! The Reformists have won the day, and now behind a successful leader, the party can safely say it’s centralized behind a cause to bring America into a new age, to embrace the spirit of greatness and to bring forth a dawn of a new American age! Donald Trump’s populism has won in the election; let’s see it win the war for revival!"
  
+ ##FOREIGN POLICY##
+ 
+ USA_operation_mcarthur:0 "Operation MacArthur"
+ USA_operation_mcarthur_desc:0 ""
+ 
  ##Yugoslavia##
 
  YUG_a_broken_nation:0 "A Broken Nation"

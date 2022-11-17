@@ -1659,7 +1659,7 @@ shared_focus = {
 	y = 5
 	prerequisite = {focus = USA_legacy_of_nixon}	
 
-	mutually_exclusive = {}
+	mutually_exclusive = {focus = USA_beijing_will_burn focus = USA_sit_on_status_quo}
 	relative_position_id = USA_protecting_the_pacific
 		
 	cost = 5
@@ -1755,7 +1755,7 @@ shared_focus = {
 	y = 5
 	prerequisite = {focus = USA_legacy_of_nixon focus = USA_no_quarter_for_china}	
 
-	mutually_exclusive = {}
+	mutually_exclusive = {focus = USA_beijing_will_burn focus = USA_towards_a_calm_ocean}
 	relative_position_id = USA_protecting_the_pacific
 		
 	cost = 5
@@ -1851,7 +1851,7 @@ shared_focus = {
 	y = 5
 	prerequisite = {focus = USA_no_quarter_for_china}	
 
-	mutually_exclusive = {}
+	mutually_exclusive = {focus = USA_sit_on_status_quo focus = USA_towards_a_calm_ocean}
 	relative_position_id = USA_protecting_the_pacific
 		
 	cost = 5

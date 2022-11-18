@@ -161,7 +161,6 @@ sov_party_factionalism = {
         days_mission_timeout = 40      
 
 		timeout_effect = {
-			set_country_flag = sov_referandums_happened
 			if = {
 			limit = {has_country_flag = sov_hardliner_rules_nation_flag}
 			custom_effect_tooltip = sov_opposing_factions_gains_influence
@@ -515,6 +514,7 @@ sov_party_factionalism = {
 		}
 		available = {
 			original_tag = SOV
+			NOT = {has_country_flag = sov_reformist_rules_nation_flag}
 		}
 		visible = {
 			original_tag = SOV
@@ -547,6 +547,9 @@ sov_party_factionalism = {
 		visible = {
 			original_tag = SOV
 			#has_country_flag = sov_party_factionalism_ongoing
+			NOT = {has_country_flag = sov_reformist_rules_nation_flag}
+			NOT = {has_country_flag = sov_militarist_rules_nation_flag}
+
 		}
 		days_re_enable = 75
 

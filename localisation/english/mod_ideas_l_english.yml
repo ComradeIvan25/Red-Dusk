@@ -15,6 +15,11 @@
  SOV_stagnating_economy_1_name_desc:0 "Ever since the Great Patriotic War, our nation's greatest problem is its own economy. 50 years of economic wars, blockades, failed reforms, and corruption, have crippled our economy. For the past 30 years it has been in a stagnation, and we fear that if it becomes worse, it might just collapse."
  SOV_stagnating_economy_2_name:0 "Stagnating Economy"
  SOV_stagnating_economy_2_name_desc:0 "Ever since the Great Patriotic War, our nation's greatest problem is its own economy. 50 years of economic wars, blockades, failed reforms, and corruption, have crippled our economy. For the past 30 years it has been in a stagnation, and we fear that if it becomes worse, it might just collapse."
+ SOV_decreased_commodity_production_name:0 "Decreased Commodity Production"
+ SOV_decreased_commodity_production_name_desc:0 ""
+ SOV_quantity_over_quality_name:0 "Quantity Over Quality"
+ SOV_quantity_over_quality_name_desc:0 ""
+ 
  SOV_Marshall_iron_order_name:0 "Marshal's Iron Order"
  SOV_Marshall_iron_order_name_desc:0 "With his Power secured Dmitry Yazov has been rulling the union with a iron fist"
  SOV_marshall_of_the_people_name:0 "Marshal of The People"

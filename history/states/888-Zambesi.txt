@@ -12,6 +12,7 @@ state={
 		owner = UNI
 		buildings = {
 			infrastructure = 1
+			arms_factory = 3
 		}
 		add_core_of = ANG
 		add_core_of = UNI

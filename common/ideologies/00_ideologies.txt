@@ -322,6 +322,9 @@ ideologies = {
 			
 			military_junta = {
 			}
+			
+			monarchism = {
+			}
 		}
 
 		dynamic_faction_names = {

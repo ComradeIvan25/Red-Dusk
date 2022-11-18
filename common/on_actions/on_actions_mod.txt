@@ -2972,6 +2972,72 @@ on_actions = {
 						
 					}
 					
+					### Angola VS UNITA - Angola WINS ###
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = ANG
+							}
+							ROOT = {
+								original_tag = UNI
+							}
+						}
+
+						ANG = {
+							white_peace = ROOT
+						}
+	
+						ANG = {
+							annex_country = {
+							target = UNI
+							transfer_troops = no
+							}
+						}
+						
+						SOV = {
+						proxy_war_won_by_SOV = yes
+						}
+						
+					}
+					
+					### Angola VS UNITA - UNITA WINS ###
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = UNI
+							}
+							ROOT = {
+								original_tag = ANG
+							}
+						}
+
+						UNI = {
+							white_peace = ROOT
+						}
+	
+						UNI = {
+							annex_country = {
+							target = ANG
+							transfer_troops = no
+							}
+						}
+						
+						
+						
+						UNI = {
+							white_peace = ZIM
+							white_peace = NMB
+							white_peace = COG
+							
+							set_cosmetic_tag = UNI_rep
+						}		
+						
+						USA = {
+						proxy_war_won_by_USA = yes
+						}
+						
+					}
+					
 						## SECOND INTIFADA ISRAEL VS PALESTINE ##
 						
 					## ISRAEL VS PALESTINE - PALESTINE WINS AGAINST ISRAEL ##

@@ -271,3 +271,7 @@ NRO_afghanistan = {
 	color = rgb { 76 135 0 }
 	color_ui = rgb { 79 130 0 }
 }
+UNI_rep = {
+	color = rgb { 109 116 48 }
+	color_ui = rgb { 109 116 50 }
+}

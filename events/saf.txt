@@ -208,8 +208,8 @@ country_event = {
 				transfer_state = 681
 		}
 		SNF = {
-				transfer_state = 849
-				transfer_state = 848
+				transfer_state = 9
+				transfer_state = 922
 		}
 		    declare_war_on = {
             type = annex_everything

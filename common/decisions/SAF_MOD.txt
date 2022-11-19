@@ -136,7 +136,7 @@ saf_deal_with_insurgents = {
 			has_country_flag = saf_end_of_operations_reached
 			}
 			divisions_in_state = {
-				state = 849	
+				state = 923	
 				size > 5
 			}
 		}

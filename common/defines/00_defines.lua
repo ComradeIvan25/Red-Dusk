@@ -783,9 +783,9 @@ NMilitary = {
 	LAND_COMBAT_COLLATERAL_INFRA_FACTOR = 0.0022,	-- Factor to scale collateral damage to infra with.
 	LAND_COMBAT_FORT_DAMAGE_CHANCE = 5,				-- chance to get a hit to damage on forts. (out of 100)
 	ATTRITION_DAMAGE_ORG = 0.08,					   -- damage from attrition to Organisation
-	ATTRITION_EQUIPMENT_LOSS_CHANCE = 0.1,		   -- Chance for loosing equipment when suffer attrition. Scaled up the stronger attrition is. Then scaled down by equipment reliability.
-	ATTRITION_EQUIPMENT_PER_TYPE_LOSS_CHANCE = 0.1, -- Chance for loosing equipment when suffer attrition. Scaled up the stronger attrition is. Then scaled down by equipment reliability.
-	ATTRITION_WHILE_MOVING_FACTOR = 1,
+	ATTRITION_EQUIPMENT_LOSS_CHANCE = 0.05,		   -- Chance for loosing equipment when suffer attrition. Scaled up the stronger attrition is. Then scaled down by equipment reliability.
+	ATTRITION_EQUIPMENT_PER_TYPE_LOSS_CHANCE = 0.05, -- Chance for loosing equipment when suffer attrition. Scaled up the stronger attrition is. Then scaled down by equipment reliability.
+	ATTRITION_WHILE_MOVING_FACTOR = 0.9,
 	RELIABILITY_ORG_REGAIN = -0.3,                 -- how much reliability affects org regain
 	RELIABILITY_ORG_MOVING = -1.0,                 -- how much reliability affects org loss on moving
 	RELIABILITY_WEATHER = 3.0,                     -- how much reliability is afffecting weather impact
@@ -869,8 +869,8 @@ NMilitary = {
 	SUPPLY_GRACE_MAX_REDUCE_PER_HOUR = 2,          -- supply grace is not decreased instantly when it is buffed temporarily and buff is removed
 	SUPPLY_ORG_MAX_CAP = 0.35,                     -- Max organization is factored by this if completely out of supply
 	MAX_OUT_OF_SUPPLY_DAYS = 30, 				   -- how many days of shitty supply until max penalty achieved
-	OUT_OF_SUPPLY_ATTRITION = 0.20,                 -- max attrition when out of supply
-	OUT_OF_SUPPLY_SPEED = -0.8,                    -- max speed reduction from supply
+	OUT_OF_SUPPLY_ATTRITION = 0.15,                 -- max attrition when out of supply
+	OUT_OF_SUPPLY_SPEED = -0.65,                    -- max speed reduction from supply
 	NON_CORE_SUPPLY_SPEED = -0.5,				   -- we are not running on our own VP supply so need to steal stuff along the way
 	NON_CORE_SUPPLY_AIR_SPEED = -0.25,			   -- we are not running on our own VP supply so need to steal stuff along the way, a bit less due to air supply
 	OUT_OF_SUPPLY_MORALE = -0.2,                   -- max org regain reduction from supply
@@ -3738,7 +3738,7 @@ NSupply = {
 	--defines to calculate the capitals supply. This will be also used for max supply of other nodes depending on how well they are connected to capital. Using the formula:
 	--CapitalSupply = CAPITAL_SUPPLY_BASE + (NumberOfCivilianFactories * CAPITAL_SUPPLY_CIVILIAN_FACTORIES) + (NumberOfMilitaryFactories * CAPITAL_SUPPLY_MILITARY_FACTORIES) + (NumberOfDockyards * CAPITAL_SUPPLY_DOCKYARDS)
 	CAPITAL_SUPPLY_BASE = 5.0, -- base supply for capital
-	CAPITAL_SUPPLY_CIVILIAN_FACTORIES = 0.3, -- supply from one civilian factory
+	CAPITAL_SUPPLY_CIVILIAN_FACTORIES = 0.5, -- supply from one civilian factory
 	CAPITAL_SUPPLY_MILITARY_FACTORIES = 0.6, -- supply from one military factory
 	CAPITAL_SUPPLY_DOCKYARDS = 0.4, --supply from one naval factory
 
@@ -3747,20 +3747,20 @@ NSupply = {
 	-- a supply reach >= 1.0 considered "perfect" and will be able to fully support units on that particular province (assuming you are not over capacity)
 	CAPITAL_INITIAL_SUPPLY_FLOW = 5.0, -- starting supply from
 	CAPITAL_STARTING_PENALTY_PER_PROVINCE = 0.5, -- starting penalty that will be added as supply moves away from its origin (modified by stuff like terrain)
-	CAPITAL_ADDED_PENALTY_PER_PROVINCE = 1.2, -- added penalty as we move away from origin
+	CAPITAL_ADDED_PENALTY_PER_PROVINCE = 1.0, -- added penalty as we move away from origin
 
 	-- defines that are used for supply reach for built nodes
-	NODE_INITIAL_SUPPLY_FLOW = 2.8,
+	NODE_INITIAL_SUPPLY_FLOW = 3.0,
 	NODE_STARTING_PENALTY_PER_PROVINCE = 0.50,
 	NODE_ADDED_PENALTY_PER_PROVINCE = 0.70,
 
 	-- defines that are used for supply reach for dockyards
-	NAVAL_BASE_INITIAL_SUPPLY_FLOW = 3.3,
+	NAVAL_BASE_INITIAL_SUPPLY_FLOW = 3.5,
 	NAVAL_BASE_STARTING_PENALTY_PER_PROVINCE = 0.84,
-	NAVAL_BASE_ADDED_PENALTY_PER_PROVINCE = 1.1,
+	NAVAL_BASE_ADDED_PENALTY_PER_PROVINCE = 1.0,
 
 	-- Node Flow (i.e. province caps) increase by this amount per railway level of the node's bottleneck
-	NODE_FLOW_BONUS_PER_RAIL_LEVEL = 0.34,
+	NODE_FLOW_BONUS_PER_RAIL_LEVEL = 0.35,
 
 	-- rivers will transfer in between nodes as if they were this level
 	RIVER_RAILWAY_LEVEL = 1,
@@ -3785,15 +3785,15 @@ NSupply = {
 	SUPPLY_FLOW_PENALTY_CROSSING_RIVERS = 0.20, -- crossing rivers introduces additional penalty
 
 	 -- node flow terrain falloff is scaled by logistics curve based on distance(d) (scalar / (1+e^(-k(d-midpoint))))
-	SUPPLY_FLOW_DIST_LOGISTICS_FALLOFF_K = 1.3, -- How steep the curve is
+	SUPPLY_FLOW_DIST_LOGISTICS_FALLOFF_K = 1.0, -- How steep the curve is
 	SUPPLY_FLOW_DIST_LOGISTICS_FALLOFF_MIDPOINT = 2.3, -- sigmoid inflection point
 	SUPPLY_FLOW_DIST_LOGISTICS_FALLOFF_SCALAR = 0.9, -- Max Penalty adjustment due to distance
 	SUPPLY_FLOW_DIST_LOGISTICS_FALLOFF_MIN_PENALTY_SCALE = 0.25, -- Logistics curve never reduces penalty facor below this limit
 
 	-- The range bonus added to a fully motorized hub. This supply is added on top of the XXX_INITIAL_SUPPLY_FLOW defined above.
-	SUPPLY_HUB_FULL_MOTORIZATION_BONUS = 2.2,
+	SUPPLY_HUB_FULL_MOTORIZATION_BONUS = 2.0,
 	-- How many trucks does it cost to fully motorize a hub
-	SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 80.0,
+	SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 50.0,
 	-- For each additional level of motorization on a hub (i.e. contry with set motoriazation) reduce max bonus for next level by this amount
 	SUPPLY_HUB_MOTORIZATION_MARGINAL_EFFECT_DECAY = 1.6,
 
@@ -3811,7 +3811,7 @@ NSupply = {
 
 	SUPPLY_NODE_MIN_SUPPLY_THRESHOLD = 1.0, -- if supply of a node is below this value it will be set to 0 -- Currently unused? This should happen when enough damage occurs
 
-	INFRA_TO_SUPPLY = 0.3,							-- each level of infra gives this many supply
+	INFRA_TO_SUPPLY = 0.40,							-- each level of infra gives this many supply
 	VP_TO_SUPPLY_BASE = 0.2,							-- Bonus to supply from a VP, no matter the level
 	VP_TO_SUPPLY_BONUS_CONVERSION = 0.05,			-- Bonus to supply local supplies from Victory Points, multiplied by this aspect and rounded to closest integer
 	SUPPLY_FROM_DAMAGED_INFRA = 0.15,                -- damaged infrastructure counts as this in supply calcs
@@ -3832,7 +3832,7 @@ NSupply = {
 	BASE_SUPPLY_MULT_FOR_TRUCK_MIN_BUFFER = 0.0, -- min and max values for buffer ratio
 	BASE_SUPPLY_MULT_FOR_TRUCK_MAX_BUFFER = 100.0,
 
-	TRUCK_ATTRITION = 0.003, -- base truck attrition
+	TRUCK_ATTRITION = 0.002, -- base truck attrition
 	TRUCK_ATTRITION_FACTOR = 0.65, --a scale on total truck attrition
 
 	BASE_TRUCK_HP = 100.0,

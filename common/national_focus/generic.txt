@@ -69,7 +69,7 @@ focus_tree = {
 				bonus = 1.0
 				uses = 1
 				category = infantry_weapons
-				category = artillery
+				category = mod_cat_towed_artillery
 			}
 		}
 	}
@@ -89,11 +89,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			#add_tech_bonus = {
-			#	name = motorized_bonus
-			#	bonus = 3.0
-			#	technology = motorised_infantry
-			#}
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 3.0
+				category = mod_cat_motorised_artillery
+			}
 		}
 	}
 
@@ -140,7 +140,7 @@ focus_tree = {
 				bonus = 1.0
 				uses = 1
 				category = infantry_weapons
-				category = artillery
+				category = mod_cat_towed_artillery
 			}
 		}
 	}
@@ -163,7 +163,7 @@ focus_tree = {
 				name = motorized_bonus
 				ahead_reduction = 2
 				uses = 1
-				category = motorized_equipment
+				category = mod_cat_apc
 			}
 		}
 	}
@@ -211,7 +211,7 @@ focus_tree = {
 				ahead_reduction = 2
 				uses = 1
 				category = infantry_weapons
-				category = artillery
+				category = mod_cat_towed_artillery
 			}
 		}
 	}
@@ -234,7 +234,7 @@ focus_tree = {
 				name = armor_bonus
 				bonus = 1.0
 				uses = 2
-				category = armor
+				category = mod_cat_mbt
 			}
 		}
 	}
@@ -255,18 +255,20 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			#add_ideas = special_forces
-			#add_tech_bonus = {
-			#	name = special_forces_bonus
-			#	bonus = 1.0
-			#	uses = 1
-			#	technology = paratroopers
-			#	technology = paratroopers2
-			#	technology = marines
-			#	technology = marines2
-			#	technology = tech_mountaineers
-			#	technology = tech_mountaineers2
-			#}
+			add_ideas = special_forces
+			add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 1.0
+				uses = 1
+				technology = paratrooper_tech_1960
+				technology = paratrooper_tech_1980
+				technology = paratrooper_tech_2000
+				technology = paratrooper_tech_2020
+				technology = marine_tech_1960
+				technology = marine_tech_1980
+				technology = marine_tech_2000
+				technology = marine_tech_2020
+			}
 		}
 	}
 

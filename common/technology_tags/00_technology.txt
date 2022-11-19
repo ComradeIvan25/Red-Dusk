@@ -13,7 +13,6 @@ technology_categories = {
 	cat_anti_tank
 	cat_anti_air
 	naval_air
-	infantry_weapons
 	motorized_equipment
 	cat_mechanized_equipment
 	naval_equipment
@@ -105,6 +104,8 @@ technology_categories = {
 	cat_air_bombs
 
 	## MOD ##
+
+	infantry_weapons
 
 	mod_cat_fighter
 	mod_cat_attacker

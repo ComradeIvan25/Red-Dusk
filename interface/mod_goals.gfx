@@ -828,10 +828,6 @@ spriteTypes = {
    ###IRQ###
 
 	SpriteType = {
-		name = "GFX_focus_IRQ_purchase_foreign_ships"
-		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_purchase_foreign_ships.png"
-	}
-	SpriteType = {
 		name = "GFX_focus_IRQ_iraq_future"
 		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_new_era.png"
 	}
@@ -1154,6 +1150,14 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_focus_IRQ_soviet_training"
 		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_soviet_training.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_purchase_foreign_ships"
+		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_purchase_foreign_ships.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_contest_no-fly_zone"
+		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_contest_no-fly_zone.png"
 	}
 	
    ###SAF###

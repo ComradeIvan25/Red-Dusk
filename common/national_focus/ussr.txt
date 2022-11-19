@@ -4,7 +4,7 @@
 		factor = 0
 		
 		modifier = {
-			add = 10
+			add = 999
 			tag = SOV
 		}
 	}
@@ -83,6 +83,9 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			add_to_variable = {sov_militarist_influence_var = 10}
+			custom_effect_tooltip = army_10_influence_increase
+			army_experience = 15
 		}
 	}
 
@@ -129,6 +132,13 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			subtract_from_variable = {sov_hardliner_influence_var = 15}
+			custom_effect_tooltip = hardliner_15_influence_decrease
+			add_popularity = {
+				ideology = communism
+				popularity = -0.05
+			} 
+			add_stability = -0.05
 		}
 	}
 	
@@ -206,6 +216,12 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			custom_effect_tooltip = reformist_5_influence_increase
+			add_to_variable = {sov_reformist_influence_var = 5}
+			add_timed_idea = {
+				idea = SOV_decreased_commodity_production
+				days = 100
+			}
 		}
 	}
 
@@ -259,6 +275,8 @@
 				add_idea = SOV_stagnating_economy_2
 				remove_idea = SOV_stagnating_economy_1
 			}
+			subtract_from_variable = {sov_militarist_influence_var = 5}
+			custom_effect_tooltip = army_5_influence_decrease
 		}
 	}
 
@@ -284,6 +302,10 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			add_timed_idea = {
+				idea = SOV_quantity_over_quality
+				days = 75
+			}
 		}
 	}
 
@@ -307,6 +329,8 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+		add_political_power = -100
+		add_stability = 0.10
 		}
 	}
 
@@ -360,6 +384,9 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			add_to_variable = {sov_kgb_influence_var = 5 }
+			custom_effect_tooltip = kgb_5_influence_increase
+			add_political_power = 15
 		}
 	}
 
@@ -387,7 +414,9 @@
 				remove_idea = SOV_party_infighting
 				add_idea = SOV_party_infighting_1
 			}
-          			add_political_power = 15
+          	add_political_power = 15
+			
+			
 		}
 	}
 
@@ -440,6 +469,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			add_stability = -0.05
 			SOV = {
 				country_event = { id = ussr.33 }
 			}

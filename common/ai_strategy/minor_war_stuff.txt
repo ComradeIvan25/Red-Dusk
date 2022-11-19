@@ -1,0 +1,49 @@
+ethiopia_invading_eritia_properly = {
+	allowed = {
+		original_tag = ETH 
+	}
+
+	enable = {
+		ETH = {has_war_with = ERI}
+	}
+	abort = {
+		NOT = {
+		ETH = {has_war_with = ERI}
+		}
+	}
+
+	ai_strategy = {
+		type = invade
+		id = ERI
+		value = 200
+	}
+
+}
+
+afghanistan_invading_northern_alliance_properly = {
+	allowed = {
+		original_tag = AFG 
+	}
+
+	enable = {
+		AFG = {has_war_with = NRO}
+	}
+	abort = {
+		NOT = {
+		AFG = {has_war_with = NRO}
+		}
+	}
+
+	ai_strategy = {
+		type = invade
+		id = NRO
+		value = 200
+	}
+	
+	ai_strategy = {
+		type = theatre_distribution_demand_increase
+		value = 200
+		id = 267
+	}
+
+}

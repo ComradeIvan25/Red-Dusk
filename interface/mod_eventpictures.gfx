@@ -478,5 +478,9 @@ spriteTypes = {
 		name = "GFX_news_kony"
 		texturefile = "gfx/event_pictures/news_kony.png"
 	}
+	spriteType = {
+		name = "GFX_siam_military_coup"
+		texturefile = "gfx/event_pictures/news_thai_military_coup.png"
+	}
 	
 }

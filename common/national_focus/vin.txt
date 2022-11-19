@@ -151,7 +151,7 @@ focus_tree = {
 	instant_build = yes
 		}
 	   }
-		prerequisite = { focus = VIN_status_of_the_economy }
+		
 
 	}
 	}
@@ -306,8 +306,13 @@ focus_tree = {
 	    relation = guarantee 
 	    active = yes
     }
-	VIN = {
+
 				country_event = { id = vin.7 }
+
+    hidden_effect = {
+	SIA = {
+				country_event = { id = thailand.1 days = 5 }  
+			}
 			}
 	}
 	}

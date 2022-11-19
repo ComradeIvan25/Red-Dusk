@@ -661,6 +661,22 @@ news_event = {
 	}
 	
 }
+#Thailand Military Coup
+news_event = {
+	id = old_times_news.51
+	title = old_times_news.51.t
+	desc = old_times_news.51.d
+	picture = GFX_siam_military_coup
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.51.a
+	}
+	
+}
 
 ### FLAVOUR NEWS EVENTS ###
 

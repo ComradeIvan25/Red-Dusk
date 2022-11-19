@@ -132,6 +132,9 @@
  old_times_news.50.t:0 "Lord's Resistance Army seizies power in Uganda!"
  old_times_news.50.d:0 "Terrifying news have arrived from Uganda as it appears the Government of Museveni wasnt able to survive the fallout of Uganda's recent loss in the Congo War, as multiple Lord's Resistance Army soldiers commanded by Joseph Kony enter the capital.\n\nLord's Resistance Army was founded by Joseph Kony, L.R.A aimed to overthrow the Museveni Government and establish a christian theocratic state centered around its leader. L.R.A engaged in multiple battles and lost against the government forces, causing them to retreat into northern jungles of Uganda, waging guerilla warfare while commiting heinous crimes against civilians in the region and kidnapping children.\n\nWith L.R.A controlling the entire country, Joseph Kony declared himself the eternal leader, starting a cult of personality around his image.The new regime begun mass killings across the country against perceived "traitors of the nation"."
  old_times_news.50.a:0 "How can a war criminal rule a nation?" 
+ old_times_news.51.t:0 "Thai Military Seizes Power"
+ old_times_news.51.d:0 ""
+ old_times_news.51.a:0 "The legacy of 1991 is haunting Thailand."
 ## Flavour News Events ##
  #flavour_news.1.t:0 ##HIDDEN SCRIPTED EVENT##
  flavour_news.2.t:0 "Disaster in Paris!"

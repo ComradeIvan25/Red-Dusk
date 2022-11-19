@@ -473,6 +473,8 @@
  GUA_democratic_party_long:0 "Progressive Liberal Party"
  SIA_neutrality_party:0 "Royalist"
  SIA_neutrality_party_long:0 "Royalist"
+ SIA_military_gov_long:0 "Council for National Security"
+ SIA_military_gov:0 "Council for National Security"
  SIA_democratic_party:0 "Democrat Party"
  URG_democratic_party:0 "Colorado"
  URG_democratic_party_long:0 "Partido Colorado"

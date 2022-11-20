@@ -20,3 +20,5 @@ set_popularities = {
 }
 
 add_ideas = ussr_aligned_nation
+
+add_opinion_modifier = { target = ISR modifier = HISTORIC_israel_hostile_40_opinion }

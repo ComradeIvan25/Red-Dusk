@@ -19,3 +19,5 @@ set_popularities = {
 	fascism = 60
 	communism = 40
 }
+
+add_opinion_modifier = { target = ISR modifier = HISTORIC_israel_palestine_opinion }

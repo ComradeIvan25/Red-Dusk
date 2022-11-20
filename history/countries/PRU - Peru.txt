@@ -23,3 +23,5 @@ set_popularities = {
 	communism = 49
 	fascism = 51
 }
+
+add_opinion_modifier = { target = ECU modifier = HISTORIC_cenepa_war_opinion }

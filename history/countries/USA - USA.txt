@@ -382,6 +382,9 @@ USA = {
 	}
 }
 
+add_opinion_modifier = { target = LBA modifier = HISTORIC_usa_libya_usa_opinion }
+add_opinion_modifier = { target = IRQ modifier = HISTORIC_gulf_war_coalition_opinion }
+
 # Naval Variants #
 if = {
 	limit = { has_dlc = "Man the Guns" }

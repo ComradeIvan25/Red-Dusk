@@ -48,3 +48,6 @@ set_politics = {
 set_popularities = {
 	islamism = 100
 }
+
+add_opinion_modifier = { target = IRQ modifier = HISTORIC_iran_iraq_war_opinion }
+add_opinion_modifier = { target = ISR modifier = HISTORIC_israel_hostile_40_opinion }

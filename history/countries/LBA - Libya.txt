@@ -16,3 +16,6 @@ set_popularities = {
 	communism = 5
 	neutrality = 0
 }
+
+add_opinion_modifier = { target = USA modifier = HISTORIC_usa_libya_lba_opinion }
+add_opinion_modifier = { target = ISR modifier = HISTORIC_israel_hostile_30_opinion }

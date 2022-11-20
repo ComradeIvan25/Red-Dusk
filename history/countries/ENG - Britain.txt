@@ -59,6 +59,9 @@ ENG = {
 	puppet = BAS
 }
 
+add_opinion_modifier = { target = ARG modifier = HISTORIC_falklands_war_eng_opinion }
+add_opinion_modifier = { target = IRQ modifier = HISTORIC_gulf_war_coalition_opinion }
+
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	#set_naval_oob = "ENG_2000_naval_mtg"

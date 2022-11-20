@@ -30,6 +30,8 @@ set_popularities = {
 	democratic = 100
 }
 
+add_opinion_modifier = { target = PRU modifier = HISTORIC_cenepa_war_opinion }
+
 # Naval Variants #
 if = {
 	limit = { has_dlc = "Man the Guns" }

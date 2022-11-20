@@ -104,3 +104,11 @@ set_popularities = {
 	fascism = 99
 	neutrality = 1
 }
+
+add_opinion_modifier = { target = PER modifier = HISTORIC_iran_iraq_war_opinion }
+add_opinion_modifier = { target = KUW modifier = HISTORIC_gulf_war_kuwait_opinion }
+add_opinion_modifier = { target = USA modifier = HISTORIC_gulf_war_irq_rest_opinion }
+add_opinion_modifier = { target = ENG modifier = HISTORIC_gulf_war_irq_rest_opinion }
+add_opinion_modifier = { target = FRA modifier = HISTORIC_gulf_war_irq_rest_opinion }
+add_opinion_modifier = { target = SAU modifier = HISTORIC_gulf_war_irq_rest_opinion }
+add_opinion_modifier = { target = ISR modifier = HISTORIC_israel_hostile_40_opinion }

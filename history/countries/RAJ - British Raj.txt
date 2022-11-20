@@ -45,6 +45,9 @@ set_popularities = {
 	neutrality = 9
 }
 
+add_opinion_modifier = { target = PAK modifier = HISTORIC_india_pakistan_opinion }
+add_opinion_modifier = { target = PRC modifier = HISTORIC_india_china_raj_opinion }
+
 # Naval Variants #
 if = {
 	limit = { has_dlc = "Man the Guns" }

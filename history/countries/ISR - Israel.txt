@@ -31,6 +31,20 @@ set_popularities = {
 	fascism = 20
 }
 
+add_opinion_modifier = { target = PAL modifier = HISTORIC_israel_palestine_opinion }
+add_opinion_modifier = { target = LEB modifier = HISTORIC_israel_hostile_40_opinion }
+add_opinion_modifier = { target = SYR modifier = HISTORIC_israel_hostile_40_opinion }
+add_opinion_modifier = { target = IRQ modifier = HISTORIC_israel_hostile_40_opinion }
+add_opinion_modifier = { target = PER modifier = HISTORIC_israel_hostile_40_opinion }
+add_opinion_modifier = { target = PAK modifier = HISTORIC_israel_hostile_40_opinion }
+add_opinion_modifier = { target = SAU modifier = HISTORIC_israel_hostile_40_opinion }
+add_opinion_modifier = { target = YEM modifier = HISTORIC_israel_hostile_40_opinion }
+add_opinion_modifier = { target = AFG modifier = HISTORIC_israel_hostile_30_opinion }
+add_opinion_modifier = { target = KUW modifier = HISTORIC_israel_hostile_30_opinion }
+add_opinion_modifier = { target = LBA modifier = HISTORIC_israel_hostile_30_opinion }
+add_opinion_modifier = { target = EGY modifier = HISTORIC_israel_hostile_20_opinion }
+add_opinion_modifier = { target = ALG modifier = HISTORIC_israel_hostile_20_opinion }
+
 # Naval Variants #
 if = {
 	limit = { has_dlc = "Man the Guns" }

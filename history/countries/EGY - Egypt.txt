@@ -31,6 +31,8 @@ set_popularities = {
 	neutrality = 0
 }
 
+add_opinion_modifier = { target = ISR modifier = HISTORIC_israel_hostile_20_opinion }
+
 # Naval Variants #
 if = {
 	limit = { has_dlc = "Man the Guns" }

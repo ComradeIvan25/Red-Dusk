@@ -38,3 +38,5 @@ set_popularities = {
 	communism = 10
 	islamism = 75
 }
+
+add_opinion_modifier = { target = ISR modifier = HISTORIC_israel_hostile_30_opinion }

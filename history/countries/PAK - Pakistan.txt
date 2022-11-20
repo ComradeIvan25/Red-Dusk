@@ -20,3 +20,6 @@ set_popularities = {
 	communism = 1
 	neutrality = 80
 }
+
+add_opinion_modifier = { target = RAJ modifier = HISTORIC_india_pakistan_opinion }
+add_opinion_modifier = { target = ISR modifier = HISTORIC_israel_hostile_40_opinion }

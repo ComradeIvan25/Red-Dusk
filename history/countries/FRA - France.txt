@@ -61,6 +61,8 @@ FRA = {
 	puppet = GDL
 }
 
+add_opinion_modifier = { target = IRQ modifier = HISTORIC_gulf_war_coalition_opinion }
+
 # Naval Variants #
 if = {
 	limit = { has_dlc = "Man the Guns" }

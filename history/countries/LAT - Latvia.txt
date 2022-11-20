@@ -1,12 +1,21 @@
 ﻿capital = 808
 
-#oob = "LAT_1936"
+set_oob = "LAT_2000"
+
+set_technology = {
+	towed_artillery_1960 = 1
+}
 if = {
-	limit = { has_dlc = "Man the Guns" }
-		#set_naval_oob = "LAT_1936_naval_mtg"
-	else = {
-		#set_naval_oob = "LAT_1936_naval_legacy"
+	limit = {
+		has_dlc = "La Resistance"
 	}
+	set_technology = {
+		recon_vehicle_1960 = 1
+	}
+}
+
+add_ideas = {
+	limited_conscription
 }
 
 set_research_slots = 3
@@ -27,3 +36,4 @@ set_popularities = {
 	communism = 15
 }
 
+add_opinion_modifier = { target = SOV modifier = HISTORIC_baltic_ussr_opinion }

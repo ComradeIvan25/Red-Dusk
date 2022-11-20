@@ -18,3 +18,5 @@ set_popularities = {
 	neutrality = 33
 	communism = 34
 }
+
+add_opinion_modifier = { target = YUG modifier = HISTORIC_yugoslavia_seperatists_opinion }

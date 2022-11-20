@@ -35,6 +35,8 @@ set_popularities = {
 
 add_ideas = usa_aligned_nation
 
+add_opinion_modifier = { target = ENG modifier = HISTORIC_falklands_war_arg_opinion }
+
 # Naval Variants #
 if = {
 	limit = { has_dlc = "Man the Guns" }

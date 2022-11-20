@@ -315,6 +315,11 @@ diplomatic_relation = {
 	relation = docking_rights
 }
 
+add_opinion_modifier = { target = EST modifier = HISTORIC_baltic_ussr_opinion }
+add_opinion_modifier = { target = LAT modifier = HISTORIC_baltic_ussr_opinion }
+add_opinion_modifier = { target = ARM modifier = HISTORIC_baltic_ussr_opinion }
+add_opinion_modifier = { target = AZR modifier = HISTORIC_baltic_ussr_opinion }
+
 # Naval Variants #
 if = {
 	limit = { has_dlc = "Man the Guns" }

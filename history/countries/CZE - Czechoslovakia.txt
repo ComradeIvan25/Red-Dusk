@@ -1,5 +1,9 @@
 ﻿capital = 9
 
+set_technology = {
+	towed_artillery_1960 = 1
+}
+
 set_research_slots = 3
 
 recruit_character = CZE_vaclav_havel

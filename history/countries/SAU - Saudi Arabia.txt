@@ -45,3 +45,6 @@ diplomatic_relation = {
 	country = UAE
 	relation = non_aggression_pact
 }
+
+add_opinion_modifier = { target = IRQ modifier = HISTORIC_gulf_war_coalition_opinion }
+add_opinion_modifier = { target = ISR modifier = HISTORIC_israel_hostile_40_opinion }

@@ -57,6 +57,8 @@ diplomatic_relation = {
 	relation = guarantee
 }
 
+add_opinion_modifier = { target = RAJ modifier = HISTORIC_india_china_prc_opinion }
+
 # Naval Variants #
 if = {
 	limit = { has_dlc = "Man the Guns" }

@@ -619,21 +619,40 @@
  ## CONGO ##
  
  congo.1.t:0 "Raid Goma Forces ?"
- congo.1.d:0 ""
- congo.1.a:0 "yes"
+ congo.1.d:0 "Should we raid the opposing faction for equipment?"
+ congo.1.a:0 "Of course"
  congo.2.t:0 "Border Skirmish With Kisangani Forces !"
- congo.2.d:0 ""
+ congo.2.d:0 "Today multiple soldiers from Kisangani Faction has attacked us and stolen multiple equipment."
  congo.2.a:0 "Enough is Enough, declare war"
  congo.3.t:0 "Rebels Defeated"
  congo.3.d:0 "with the last of rebel forces surrendering the war has offically ended"
  congo.3.a:0 "time for rebuilding"
- congo.4.t:0 "with the last of Pro-Kalibi and Goma faction forces surrendering the war has offically ended"
- congo.4.d:0 ""
+ congo.4.t:0 "Kalibi forces defeated"
+ congo.4.d:0 "with the last of Pro-Kalibi and Goma faction forces surrendering the war has offically ended"
  congo.4.a:0 "time for rebuilding"
- congo.5.t:0 "with the last of Pro-Kalibi and Kisangani faction forces surrendering the war has offically ended"
- congo.5.d:0 ""
+ congo.5.t:0 "Kalibi forces defeated"
+ congo.5.d:0 "with the last of Pro-Kalibi and Kisangani faction forces surrendering the war has offically ended"
  congo.5.a:0 "time for rebuilding"
-
+    
+ ## ETHIOPIA ##
+ 
+ ethiopia_mod.1.t:0 "Operations Weridwali Fails"
+ ethiopia_mod.1.d:0 "Unfortunately, despite our best efforts we were unable to defeat the EPLF in the operation's given time and lost lots of equipment and men."
+ ethiopia_mod.1.a:0 "Someone will get fired for this."
+ ethiopia_mod.2.t:0 "Anti-Government Uprising"
+ ethiopia_mod.2.d:0 "After mass defections in the army and lost ammunition , we have found out an uprising against our regime was being organized shortly after we had announced Operations Weridwali, these rebels calling themselves "United Ethiopian Liberation Front" chose this time of unrest to strike with multiple soldiers defecting to them."
+ ethiopia_mod.2.a:0 "Defeat the traitors, just like in 1993!"
+ ethiopia_mod.2.b:0 "Defeat the government, glory to UELF!"
+ 
+ ## AFGHANISTAN ##
+ 
+ northern_alliance.1.t:0 "[GetYear] Afghan Elections"
+ northern_alliance.1.d:0 "With the defeat of the Taliban forces we will be holding an election across Afghanistan with 3 candidates from each faction.\n\nAfter counting of the votes..."
+ northern_alliance.1.a:0 "Jamiat-e Islami wins the elections!"
+ northern_alliance.1.a:0 "Hezb-e Wahdat wins the elections!"
+ northern_alliance.1.a:0 "Junbish-i Milli wins the elections!"
+ 
+ 
  ## PRC ##
 
  prc.1.t:0 "The Soviets Approach Us"

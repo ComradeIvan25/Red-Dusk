@@ -482,5 +482,21 @@ spriteTypes = {
 		name = "GFX_siam_military_coup"
 		texturefile = "gfx/event_pictures/news_thai_military_coup.png"
 	}
+	spriteType = {
+		name = "GFX_news_taliban_win"
+		texturefile = "gfx/event_pictures/news_taliban_win.png"
+	}
+	spriteType = {
+		name = "GFX_news_northern_alliance_win"
+		texturefile = "gfx/event_pictures/news_northern_alliance_win.png"
+	}
+	spriteType = {
+		name = "GFX_news_ethiopia_rebellion"
+		texturefile = "gfx/event_pictures/news_ethiopia_rebellion.png"
+	}
+	spriteType = {
+		name = "GFX_news_ethiopia_rebellion_win"
+		texturefile = "gfx/event_pictures/news_ethiopia_rebellion_win.png"
+	}
 	
 }

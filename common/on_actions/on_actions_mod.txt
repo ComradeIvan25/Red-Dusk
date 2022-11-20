@@ -2533,7 +2533,7 @@ on_actions = {
 							add_state_core = 836
 							add_state_core = 835
 							
-
+							news_event = {id = old_times_news.55}
 							set_portraits = {
 								character = ETV_collective_leadership
 								civilian = { large ="gfx/leaders/Africa/ETV_collective_leadership_win.dds" }
@@ -3114,6 +3114,7 @@ on_actions = {
 							target = NRO
 							transfer_troops = no
 							}
+							news_event = {id = old_times_news.52 days = 1}
 						}
 					 
 					}
@@ -3141,8 +3142,9 @@ on_actions = {
 							}
 							add_state_core = 267
 							add_state_core = 415
+							country_event = {id = northern_alliance.1 days = 1}
+							news_event = {id = old_times_news.53 days = 1}
 						}
-						
 						
 					 
 					}

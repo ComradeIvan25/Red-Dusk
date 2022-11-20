@@ -677,6 +677,70 @@ news_event = {
 	}
 	
 }
+#Taliban wins against northern alliance
+news_event = {
+	id = old_times_news.52
+	title = old_times_news.52.t
+	desc = old_times_news.52.d
+	picture = GFX_news_taliban_win
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.52.a
+	}
+	
+}
+#Northern alliance wins against Taliban WITHOUT USA
+news_event = {
+	id = old_times_news.53
+	title = old_times_news.53.t
+	desc = old_times_news.53.d
+	picture = GFX_news_northern_alliance_win
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.53.a
+	}
+	
+}
+#Anti-Derg Rebellion in Ethiopia
+news_event = {
+	id = old_times_news.54
+	title = old_times_news.54.t
+	desc = old_times_news.54.d
+	picture = GFX_news_ethiopia_rebellion
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.54.a
+	}
+	
+}
+#Ethiopian Rebels win
+news_event = {
+	id = old_times_news.55
+	title = old_times_news.55.t
+	desc = old_times_news.55.d
+	picture = GFX_news_ethiopia_rebellion_win
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.55.a
+	}
+	
+}
 
 ### FLAVOUR NEWS EVENTS ###
 

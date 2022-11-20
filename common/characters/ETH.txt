@@ -1,19 +1,19 @@
 characters = {
 
-	ETH_negasso_gidada = {
-		name = "Negasso Gidada"
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/Africa/Negasso_Gidada.dds"
-			}
-		}
-		country_leader = {
-			ideology = despotism
-			traits = {}
-			expire = "2050.3.1.1"
-			id = -1
-		}
-	}
+	#ETH_negasso_gidada = {
+	#	name = "Negasso Gidada"
+	#	portraits = {
+	#		civilian = {
+	#			large = "gfx/leaders/Africa/Negasso_Gidada.dds"
+	#		}
+	#	}
+	#	country_leader = {
+	#		ideology = despotism
+	#		traits = {}
+	#		expire = "2050.3.1.1"
+	#		id = -1
+	#	}
+	#}
 
 	ETH_mengistu = {
 		name = "Mengistu Haile Mariam"
@@ -21,12 +21,24 @@ characters = {
 			civilian = {
 				large = "gfx/leaders/Africa/Mengistu_Haile_Mariam.dds"
 			}
+			army = {
+				large = "gfx/leaders/Africa/isaias_afwerki.dds"
+			}
 		}
 		country_leader = {
 			ideology = leninism
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1
+		}
+		field_marshal={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
 

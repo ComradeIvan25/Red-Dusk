@@ -1,0 +1,83 @@
+add_namespace = northern_alliance
+
+#ELECTIONS BOI#
+country_event = {
+	id = northern_alliance.1
+	title = northern_alliance.1.t
+	desc = northern_alliance.1.d
+	picture = GFX_report_event_spark
+	
+	is_triggered_only = yes
+
+		#Jamiat-e Islami#
+	option = {
+		name = northern_alliance.1.a
+			
+		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = yes
+			last_election = "2000.12.17"
+			election_frequency = 48
+			long_name = NRO_neutrality_ahmad_party_long
+			name = NRO_neutrality_ahmad_party
+		}
+			
+			set_popularities = {
+				democratic = 15
+				islamism = 30
+				neutrality = 35
+				reformed_communism = 20
+			}
+			
+		ai_chance = {
+		factor = 50
+		}
+	}
+	
+		#Hezb-e Wahdat#
+	option = {
+		name = northern_alliance.1.b
+			
+		set_politics = {
+			ruling_party = islamism
+			elections_allowed = yes
+			last_election = "2000.12.17"
+			election_frequency = 48
+		}
+		
+			set_popularities = {
+				democratic = 10
+				islamism = 30
+				neutrality = 30
+				reformed_communism = 20
+			}
+			
+		ai_chance = {
+		factor = 25
+		}
+	}
+	
+		#Junbish-i Milli#
+	option = {
+		name = northern_alliance.1.c
+			
+		set_politics = {
+			ruling_party = reformed_communism
+			elections_allowed = yes
+			last_election = "2000.12.17"
+			election_frequency = 48
+		}
+			
+			set_popularities = {
+				democratic = 10
+				islamism = 20
+				neutrality = 25
+				reformed_communism = 30
+				communism = 5
+			}
+			
+		ai_chance = {
+		factor = 25
+		}
+	}
+}

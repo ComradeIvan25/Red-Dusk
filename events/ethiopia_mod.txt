@@ -40,6 +40,7 @@ country_event = {
 		#bruh#
 	option = {
 		name = ethiopia_mod.2.a
+		news_event = {id = old_times_news.54}
 			add_popularity = {
 				ideology = communism
 				popularity = 0.5
@@ -81,6 +82,7 @@ country_event = {
 			#rebel time#
 	option = {
 		name = ethiopia_mod.2.b
+		news_event = {id = old_times_news.54}
 			add_popularity = {
 				ideology = communism
 				popularity = 0.5

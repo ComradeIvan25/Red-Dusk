@@ -5,7 +5,7 @@ set_air_oob = "ETH_2000_air"
 
 set_convoys = 5
 
-recruit_character = ETH_negasso_gidada
+#recruit_character = ETH_negasso_gidada
 recruit_character = ETH_mengistu
 
 add_ideas = ETH_soviet
@@ -35,8 +35,11 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 35
-        communism = 65
+	neutrality = 10
+	fascism = 10
+	democratic = 10
+	reformed_communism = 5
+    communism = 65
 }
 
 declare_war_on = {

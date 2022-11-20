@@ -172,7 +172,7 @@ units = {
 		location = 1822
 		division_template = "Firqat Mudaraea"
 		force_equipment_variants = {
-			mbt_tank_equipment_1 = { owner = "ENG" }
+			mbt_tank_equipment_0 = { owner = "ENG" }
 			apc_tank_equipment_0 = { owner = "USA" }
 			motorised_artillery_equipment_1 = { owner = "USA" }
 			rocket_artillery_equipment_1 = { owner = "PRC" }

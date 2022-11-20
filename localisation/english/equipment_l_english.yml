@@ -698,6 +698,48 @@
 
  GER_recon_vehicle_equipment_2:0 "Fennek Recon"
  GER_recon_vehicle_equipment_2_short:0 "Fennek"
+# FRA #
+ FRA_mbt_tank_equipment_0:0 "AMX-30 MBT"
+ FRA_mbt_tank_equipment_0_short:0 "AMX-30"
+ FRA_mbt_tank_equipment_3:0 "Leclerc MBT"
+ FRA_mbt_tank_equipment_3_short:0 "Leclerc"
+
+ FRA_ifv_tank_equipment_0:0 "AMX-10P IFV"
+ FRA_ifv_tank_equipment_0_short:0 "AMX-10P"
+ FRA_ifv_tank_equipment_3:0 "Véhicule Blindé de Combat d'Infanterie IFV"
+ FRA_ifv_tank_equipment_3_short:0 "VBCI"
+
+ FRA_apc_tank_equipment_0:0 "AMX-VCI APC"
+ FRA_apc_tank_equipment_0_short:0 "AMX-VCI"
+ FRA_apc_tank_equipment_1:0 "Véhicule de l'Avant Blindé APC"
+ FRA_apc_tank_equipment_1_short:0 "VAB"
+
+ FRA_recon_vehicle_equipment_0:0 "AML-90 Recon"
+ FRA_recon_vehicle_equipment_0_short:0 "AML-90"
+ FRA_recon_vehicle_equipment_1:0 "AMX-10 RC Recon"
+ FRA_recon_vehicle_equipment_1_short:0 "AMX-10 RC"
+# ENG #
+ ENG_mbt_tank_equipment_0:0 "Chieftain MBT"
+ ENG_mbt_tank_equipment_0_short:0 "Chieftain"
+ ENG_mbt_tank_equipment_2:0 "Challenger 1 MBT"
+ ENG_mbt_tank_equipment_2_short:0 "Challenger 1"
+ ENG_mbt_tank_equipment_4:0 "Challenger 2 MBT"
+ ENG_mbt_tank_equipment_4_short:0 "Challenger 2"
+
+ ENG_ifv_tank_equipment_1:0 "Warrior IFV"
+ ENG_ifv_tank_equipment_1_short:0 "Warrior"
+
+ ENG_apc_tank_equipment_0:0 "FV432 APC"
+ ENG_apc_tank_equipment_0_short:0 "FV432"
+ ENG_apc_tank_equipment_2:0 "FV103 Spartan APC"
+ ENG_apc_tank_equipment_2_short:0 "Spartan"
+ ENG_apc_tank_equipment_5:0 "Boxer APC"
+ ENG_apc_tank_equipment_5_short:0 "Boxer"
+
+ ENG_recon_vehicle_equipment_0:0 "FV601 Saladin Recon"
+ ENG_recon_vehicle_equipment_0_short:0 "Saladin"
+ ENG_recon_vehicle_equipment_1:0 "FV721 Fox Recon"
+ ENG_recon_vehicle_equipment_1_short:0 "Fox"
 
 ## Infantry Equipment ##
  infantry_weapons:0 "Infantry Weapons"

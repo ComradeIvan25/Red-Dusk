@@ -649,8 +649,8 @@
  northern_alliance.1.t:0 "[GetYear] Afghan Elections"
  northern_alliance.1.d:0 "With the defeat of the Taliban forces we will be holding an election across Afghanistan with 3 candidates from each faction.\n\nAfter counting of the votes..."
  northern_alliance.1.a:0 "Jamiat-e Islami wins the elections!"
- northern_alliance.1.a:0 "Hezb-e Wahdat wins the elections!"
- northern_alliance.1.a:0 "Junbish-i Milli wins the elections!"
+ northern_alliance.1.b:0 "Hezb-e Wahdat wins the elections!"
+ northern_alliance.1.c:0 "Junbish-i Milli wins the elections!"
  
  
  ## PRC ##

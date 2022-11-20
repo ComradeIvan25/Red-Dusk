@@ -47,9 +47,15 @@ country_event = {
 		
 			set_popularities = {
 				democratic = 10
-				islamism = 30
-				neutrality = 30
+				islamism = 35
+				neutrality = 35
 				reformed_communism = 20
+			}
+			
+			set_party_name = {
+				ideology = neutrality
+				long_name = NRO_neutrality_ahmad_party_long
+				name = NRO_neutrality_ahmad_party
 			}
 			
 		ai_chance = {
@@ -71,9 +77,15 @@ country_event = {
 			set_popularities = {
 				democratic = 10
 				islamism = 20
-				neutrality = 25
-				reformed_communism = 30
+				neutrality = 30
+				reformed_communism = 35
 				communism = 5
+			}
+
+			set_party_name = {
+				ideology = neutrality
+				long_name = NRO_neutrality_ahmad_party_long
+				name = NRO_neutrality_ahmad_party
 			}
 			
 		ai_chance = {

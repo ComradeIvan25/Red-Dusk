@@ -248,6 +248,11 @@ UGA_kony_trollface = {
 	color = rgb { 0 12 84 }
 	color_ui = rgb { 28 74 99 }
 }
+UGA_islam_time = {
+	color = rgb { 58 116 70 }
+	color_ui = rgb { 53 116 70 }
+}
+
 RWA_occupied = {
 	color = rgb { 75 84 145 }
 	color_ui = rgb { 80 84 145 }
@@ -260,6 +265,11 @@ BRD_occupied = {
 ETV_transition_gov = {
 	color = rgb { 168 138 136 }
 	color_ui = rgb { 148 132 116 }
+}
+
+ERI_won = {
+	color = rgb { 170 47 0 }
+	color_ui = rgb { 170 47 0 }
 }
 
 TIM_free = {

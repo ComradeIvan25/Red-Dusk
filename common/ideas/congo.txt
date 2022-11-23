@@ -143,6 +143,28 @@ ideas = {
 			
 		}
 		
+		UGA_extreme_authoritarianism_islamists = {
+			name = UGA_extreme_authoritarianism_name
+
+			removal_cost = -1
+			
+			cancel = {
+				is_puppet = yes
+			}
+			
+			picture = UGA_increasing_auth_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_gain = -0.50
+				islamism_drift = 0.15
+			}
+			
+		}
+		
 		UGA_konys_cult = {
 			name = UGA_konys_cult_name
 
@@ -165,6 +187,72 @@ ideas = {
 			}
 			
 		}
+		
+		UGA_forced_sharia = {
+			name = UGA_enforced_sharia_name
+
+			removal_cost = -1
+			
+			cancel = {
+				is_puppet = yes
+			}
+			
+			picture = UGA_konys_cult_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				research_speed_factor = -0.40
+			}
+			
+		}
+		
+		UGA_minority_rule = {
+			name = UGA_minority_rule_name
+
+			removal_cost = -1
+			
+			cancel = {
+				is_puppet = yes
+			}
+			
+			picture = UGA_konys_cult_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.85
+				political_power_cost = 1.00
+			}
+			
+		}
+		
+		UGA_an_army_of_criminals = {
+			name = UGA_an_army_of_criminals_name
+
+			removal_cost = -1
+			
+			cancel = {
+				is_puppet = yes
+			}
+			
+			picture = UGA_an_army_of_criminals_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
+			}
+			
+		}
+		
 		
 		##Rwanda##
 		

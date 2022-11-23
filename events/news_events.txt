@@ -741,6 +741,22 @@ news_event = {
 	}
 	
 }
+#ADF islamists takes over Uganda
+news_event = {
+	id = old_times_news.56
+	title = old_times_news.56.t
+	desc = old_times_news.56.d
+	picture = GFX_news_ADF
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.56.a
+	}
+	
+}
 
 ### FLAVOUR NEWS EVENTS ###
 

@@ -9,7 +9,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = despotism
-			traits = {}
+			traits = {guerilla_fighter}
 			desc = nothern_alliance_DESC
 			expire = "2050.3.1.1"
 			id = -1

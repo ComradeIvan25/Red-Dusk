@@ -608,7 +608,7 @@ country_event = {
 		}
 	}
 	
-#kony trolls over the nation of Uganda, causing irreversible damage#
+##fall of the regime
 country_event = {
 	id = uganda.1
 	title = uganda.1.t
@@ -617,9 +617,9 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	#yes#
+	#kony trolls over the nation of Uganda, causing irreversible damage#
 	option = {
-		name = uganda.1.a
+		name = uganda.1.a 
 		add_stability = -0.05
 		news_event = {id = old_times_news.50 days = 2}
 		retire_country_leader = yes
@@ -635,9 +635,43 @@ country_event = {
 			name = UGA_neutrality_party_kony
 		}
 		add_ideas = UGA_konys_cult
+		add_ideas = UGA_an_army_of_criminals
 		army_experience = 15
 		ai_chance = {
-		factor = 100
+		factor = 50
+		}
+	}
+	
+	#ISIS wannabes trolls over the nation of Uganda, causing irreversible damage#
+	option = {
+		name = uganda.1.b 
+		add_stability = -0.15
+		#news_event = {id = old_times_news.50 days = 2}
+		retire_country_leader = yes
+		promote_character = UGA_jamil_mukulu
+		set_cosmetic_tag = UGA_islam_time
+		swap_ideas = {
+			remove_idea = UGA_increasing_authoritarianism
+			add_idea = UGA_extreme_authoritarianism_islamists
+		}
+		set_politics = {
+			ruling_party = islamism
+			elections_allowed = yes
+			last_election = "2000.12.17"
+			election_frequency = 48
+		}
+		
+		set_popularities = {
+				islamism = 55
+				neutrality = 35
+				democratic = 10
+		}
+		add_ideas = UGA_forced_sharia
+		add_ideas = UGA_minority_rule
+		add_ideas = UGA_an_army_of_criminals
+		army_experience = 15
+		ai_chance = {
+		factor = 50
 		}
 	}
 }

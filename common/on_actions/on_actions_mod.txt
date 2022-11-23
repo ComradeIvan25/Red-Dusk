@@ -2512,6 +2512,7 @@ on_actions = {
 						
 						ERI = {
 							transfer_state = 842
+							set_cosmetic_tag = ERI_won
 						}
 						
 						ETV = {

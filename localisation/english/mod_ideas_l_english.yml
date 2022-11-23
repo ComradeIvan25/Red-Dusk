@@ -325,7 +325,7 @@
  ERI_a_generation_of_warriors_name_desc:0 "EPLF has been fighting the Ethiopians for 38 years, a whole generation was raised in a battlefield that is Eritia, not knowing peace these people grew up with war in mind and hatred against Ethiopians, ready to fight them at all costs to kick them out of Eritia."
  
  ETH_soviet_idea_name:0 "Soviet Support"
- ETH_soviet_idea_name_desc:0 ""
+ ETH_soviet_idea_name_desc:0 "Ethiopia, being a close ally of Soviet Union in Africa, receives industrial and military aid."
  ETH_operation_weridwali_name:0 "Operation Weridwali"
  ETH_operation_weridwali_name_desc:0 "Operation Weridwali is a plan to finish the conflict against EPLF upon the beginning of the new millenia.\n\nIt Plans on using all of the available resources to combine the forces of Ethiopian Land Forces with Volunteers from Soviet Union and Cuba to launch a major offensive to finally end the military stalemate.\n\nThe operation is planned to be finished before the start of the summer, §Ra failure§! to meet the deadline would cause disasterous consequences and might even change the future of Ethiopia."
  
@@ -346,6 +346,10 @@
  UGA_extreme_authoritarianism_name_desc:0 ""
  UGA_konys_cult_name:0 "Joseph Kony's cult of personality"
  UGA_konys_cult_name_desc:0 "Right after taking power, Joseph Kony wasted no time expending his cult of personality surroundering himself through the entire nation, giving himself the title of "Great Leader of Uganda".A portrait of Kony was required to be in classrooms, churches, government buildings, hospitals, workplaces.His beliefs were being entrenched in the nation's education system, going to churches were made to be required to expand christianity.\n\nWith people opposing these changes or not showing loyalty getting publicly executed day by day, nothing stands in the way of the new cult." 
+ UGA_forced_sharia_name:0 "Forced Sharia Law"
+ UGA_forced_sharia_name_desc:0 "Allied Democratic Forces, being an radical Islamist organization started enforcing the islamic law of sharia by force on the majority Christian country shortly after taking power."
+ UGA_minority_rule_name:0 "Minority Rule"
+ UGA_minority_rule_name_desc:0 "While the ADF was able to win the battle against Ugandan government forces, they still barely hold power over the nation with only 13% percent of the nation beliving in Islam, and even a lower amount of people fully beliving in Mukulu's new violent Radical Islamist policies that he is trying to enforce on the entire country's population.\nThe control of Uganda could easily slip from ADF's hands as the situation shows no signs of improving."
  RWA_tutsi_dominance_name:0 "Tutsi Dominance"
  RWA_tutsi_dominance_name_desc:0 "After the end of the Rwandan civil war with the defeat of Hutu forces, the Tutsi ethnic minority has total control over the Rwandan nation with wide government powers."
  RWA_rwandan_genocide_scars_name:0 "Rwandan Genocide Scars"
@@ -385,9 +389,9 @@
  KOR_songun_name:0 "Songun"
  
  AFG_hardened_fighters_name:0 "Hardened Fighters"
- AFG_hardened_fighters_name_desc:0 ""
+ AFG_hardened_fighters_name_desc:0 "TODO:add a desc for this"
  AFG_islamic_fanaticism_name:0 "Islamic Fanaticism"
- AFG_islamic_fanaticism_name_desc:0 ""
+ AFG_islamic_fanaticism_name_desc:0 "TODO:add a desc for this"
  ##cold war##
  
  cold_war_soviet_offensive_name:0 "Soviet Offensive"

@@ -498,5 +498,8 @@ spriteTypes = {
 		name = "GFX_news_ethiopia_rebellion_win"
 		texturefile = "gfx/event_pictures/news_ethiopia_rebellion_win.png"
 	}
-	
+	spriteType = {
+		name = "GFX_news_ADF"
+		texturefile = "gfx/event_pictures/news_ADF.png"
+	}
 }

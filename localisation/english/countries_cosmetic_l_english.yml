@@ -65,6 +65,8 @@
  UGA_occupied_DEF:0 "the Transitionally Occupied Government of Uganda"
  UGA_kony_trollface:0 "Lord's Holy Kingdom of Uganda"
  UGA_kony_trollface_DEF:0 "the Lord's Holy Kingdom of Uganda"
+ UGA_islam_time:0 "Islamic Emirate of Uganda"
+ UGA_islam_time_DEF:0 "the Islamic Emirate of Uganda" 
  RWA_occupied:0 "Occupied Rwanda"
  RWA_occupied_DEF:0 "the Transitionally Occupied Government of Rwanda"
  BRD_occupied:0 "Occupied Burundi"
@@ -72,6 +74,9 @@
  
  ETV_transition_gov:0 "Transitional Government of Ethiopia"
  ETV_transition_gov_DEF:0 "the Transitional Government of Ethiopia"
+ 
+ ERI_won:0 "Eritrea"
+ ERI_won_DEF:0 "the State of Eritrea" 
  
  TIM_free:0 "East Timor"
  TIM_free_DEF:0 "the East Timor"

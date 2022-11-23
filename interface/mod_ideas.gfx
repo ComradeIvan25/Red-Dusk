@@ -378,6 +378,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/RCD_war.dds"
 	}
 	
+	##UGANDA##
+	
 	spriteType = {
 		name = "GFX_idea_UGA_increasing_auth_icon"
 		texturefile = "gfx/interface/ideas/UGA_increasing_auth.png"
@@ -385,6 +387,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_UGA_konys_cult_icon"
 		texturefile = "gfx/interface/ideas/UGA_konys_cult.png"
+	}
+	spriteType = {
+		name = "GFX_idea_UGA_an_army_of_criminals_icon"
+		texturefile = "gfx/interface/ideas/UGA_an_army_of_criminals.png"
 	}
 	
 	spriteType = {

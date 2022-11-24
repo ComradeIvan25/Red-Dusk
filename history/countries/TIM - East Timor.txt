@@ -5,6 +5,7 @@
 set_convoys = 5
 
 recruit_character = TIM_UN_admin
+recruit_character = TIN_xanana
 
 set_politics = {
 	ruling_party = democratic

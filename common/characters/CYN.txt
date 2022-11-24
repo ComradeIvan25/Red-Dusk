@@ -1,0 +1,18 @@
+characters = {
+
+	CYN_rauf_denkas = {
+		name = "Rauf Denkas"
+		portraits = {
+			civilian = {
+				#large = "gfx/leaders/CYP/Glafkos_Clerides.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

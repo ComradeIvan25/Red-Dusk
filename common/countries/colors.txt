@@ -952,3 +952,7 @@ UNI = {
 	color = rgb { 165 116 48 }
 	color_ui = rgb { 165 116 50 }
 }
+CYN = {
+	color = rgb { 182 82 76 }
+	color_ui = rgb { 182 82 76 }
+}

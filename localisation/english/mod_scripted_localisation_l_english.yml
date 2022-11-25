@@ -141,7 +141,6 @@
  irq_we_will_attack_leb:0 "§RWe will attack Lebanon.§!"
  irq_we_will_attack_jor:0 "§RWe will attack Jordan.§!"
 
- 
  irq_nuke:0 "§RWe will test our first nuclear bomb§!"
  
  IRQ_greater_iraq_ty_for_playing:0 "§RGreater Iraq, after many struggles has prevailed and survived the new millenium.\n\nThanks for playing Iraq in Red Dusk!§!"
@@ -419,6 +418,9 @@
  decision_cost_CP_15_PP_50:0 "£command_power  §Y15§! £political_power  §Y50§!"
  decision_cost_CP_15_PP_50_blocked:0 "£command_power  §R15§! £political_power  §R50§!"
  decision_cost_CP_15_PP_50_tooltip:0 "It costs £command_power  §Y15§! and £political_power  §Y50§! to take the decision"
+ decision_cost_CP_20_PP_50:0 "£command_power  §Y20§! £political_power  §Y50§!"
+ decision_cost_CP_20_PP_50_blocked:0 "£command_power  §R20§! £political_power  §R50§!"
+ decision_cost_CP_20_PP_50_tooltip:0 "It costs £command_power  §Y20§! and £political_power  §Y50§! to take the decision"
 
  recruit_advisor_effect:0 "§GAvailable§! as §YPolitical Advisor§!:\n"
 

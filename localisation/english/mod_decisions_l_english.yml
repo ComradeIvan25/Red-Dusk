@@ -243,6 +243,14 @@
  IRQ_kurdish_factions_puk_weapons_decision_desc:0 "Although some might consider it unwise, supplying the Patriotic Union of Kurdistan with weapons would allow them to dominate the military sphere of the resistance, which could be used to our advantage."
  IRQ_kurdish_factions_kwp_weapons_decision:0 "Supply the KWP with weapons"
  IRQ_kurdish_factions_kwp_weapons_decision_desc:0 "Although some might consider it unwise, supplying the Kurdistan Workers' Party with weapons would allow them to dominate the military sphere of the resistance, which could be used to our advantage."
+ IRQ_kurdish_factions_provide_funding_decision:0 "Provide funding to Kurdish territories"
+ IRQ_kurdish_factions_provide_funding_decision_desc:0 "By providing funding and consumer goods to our often-neglected Kurdish region, we might be able to win over some of the population to our side."
+ IRQ_kurdish_factions_kdp_assassinate_decision:0 "Assassinate high-level KDP official"
+ IRQ_kurdish_factions_kdp_assassinate_decision_desc:0 "The most effective way to harm the resistance is to strike at the top, getting rid of individuals which can heavily influence and guide the movement."
+ IRQ_kurdish_factions_puk_assassinate_decision:0 "Assassinate high-level PUK official"
+ IRQ_kurdish_factions_puk_assassinate_decision_desc:0 "The most effective way to harm the resistance is to strike at the top, getting rid of individuals which can heavily influence and guide the movement."
+ IRQ_kurdish_factions_kwp_assassinate_decision:0 "Assassinate high-level KWP official"
+ IRQ_kurdish_factions_kwp_assassinate_decision_desc:0 "The most effective way to harm the resistance is to strike at the top, getting rid of individuals which can heavily influence and guide the movement."
 
  var_irq_faction_kdp_popularity_decrease:0 "§YKurdistan Democratic Party§! loses popularity"
  var_irq_faction_puk_popularity_decrease:0 "§YPatriotic Union of Kurdistan§! loses popularity"
@@ -274,9 +282,12 @@
  custom_effect_tt_irq_kurdish_1:0 "§YNegotiations fail§!"
  custom_effect_tt_irq_kurdish_2:0 "§YNegotiations succeed§!"
  custom_effect_tt_irq_kurdish_3:0 "§YNegotiations succeed, at a cost§!"
+ custom_effect_tt_irq_kurdish_10:0 "§YAssassination succeeds§!"
+ custom_effect_tt_irq_kurdish_11:0 "§YAssassination fails§!"
 
  custom_trigger_tt_irq_kurdish_talks:0 "Faction is not §RMilitant§! or §GConciliatory§!"
  custom_trigger_tt_irq_kurdish_weapons:0 "Faction is §GConciliatory§!"
+ custom_trigger_tt_irq_kurdish_assassination:0 "Faction is not §GConciliatory§!"
 
  ##YUGOSLAVIA##
  yug_deal_with_uprisings:0 "Dealing with Terrorism"

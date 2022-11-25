@@ -868,3 +868,27 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = irq_kurdish.10
+	title = irq_kurdish.10.t
+	desc = irq_kurdish.10.d
+	picture = GFX_report_event_IRQ_kurdish_assassination_success
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq_kurdish.10.a
+	}
+}
+country_event = {
+	id = irq_kurdish.11
+	title = irq_kurdish.11.t
+	desc = irq_kurdish.11.d
+	picture = GFX_report_event_IRQ_kurdish_assassination_failure
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq_kurdish.11.a
+	}
+}

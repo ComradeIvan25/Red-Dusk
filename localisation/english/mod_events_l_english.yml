@@ -558,6 +558,12 @@
  irq_kurdish.9.t:0 "Talks with the Kurdistan Workers' Party succeed"
  irq_kurdish.9.d:0 "Surprising even the most optimistic members of the government, we have managed to reach an agreement with the Kurdistan Workers' Party. In exchange for the reduction of our anti-Kurdish efforts against them, they will push forward a conciliatory stance within the Kurdish resistance, and seek to reduce any militant action or the possibility of armed conflict.\n\nUnfortunately news of this agreement has been leaked to the other factions, and the response has been one of unhappiness and anger, with some notable officials even going as far as calling the faction 'traitorous'. While the Kurdistan Workers' Party continues to have leverage within the movement, their popularity and political power has notably decreased."
  irq_kurdish.9.a:0 "They are still useful to us"
+ irq_kurdish.10.t:0 "Kurdish official assassinated"
+ irq_kurdish.10.d:0 "Our operation in Kurdistan has now borne fruit, with a prominent member of the Kurdish resistance being assassinated in a car bomb explosion early in the morning. With violence hardly being a rare event in our troublesome northern regions, it is unlikely that our government will be under any more scrutiny than usual. However, should the faction decide that we are responsible, they may take drastic action which we will need to prepare for."
+ irq_kurdish.10.a:0 "Good riddance"
+ irq_kurdish.11.t:0 "Assassination attempt fails"
+ irq_kurdish.11.d:0 "Despite the resources poured into the operation, our attempt at assassinating a prominent Kurdish official has failed. Details are currently sparse; perhaps one of our operatives was compromised, the bomb improperly placed, or just that the official decided to deviate from their regular schedule. What is certain is that they are still alive, and it will take several months if we wish to replicate the operation, hopefully successfully this time."
+ irq_kurdish.11.a:0 "Bastards!"
 
  #SAF#
 

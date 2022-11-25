@@ -1288,5 +1288,23 @@ ideas = {
 
 	}
 
+	hidden_ideas = {
+
+		IRQ_kurdish_decision_funding = {
+			name = IRQ_kurdish_decision_funding_name
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+
+	}
+
 
 }

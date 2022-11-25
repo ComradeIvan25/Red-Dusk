@@ -132,6 +132,11 @@
  IRQ_loc_key_power_medium:0 "§YMedium§!"
  IRQ_loc_key_power_low:0 "§GLow§!"
  IRQ_loc_key_power_very_low:0 "§CVery Low§!"
+
+ IRQ_loc_key_stance_0:0 "§gMilitant§!"
+ IRQ_loc_key_stance_1:0 "§gDemocratic§!"
+ IRQ_loc_key_stance_2:0 "§gProgressive§!"
+ IRQ_loc_key_stance_3:0 "§gConciliatory§!"
  
  irq_we_will_attack_leb:0 "§RWe will attack Lebanon.§!"
  irq_we_will_attack_jor:0 "§RWe will attack Jordan.§!"

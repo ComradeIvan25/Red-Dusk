@@ -151,6 +151,34 @@ defined_text = {
 	}
 }
 defined_text = {
+	name = IRQ_faction_kdp_stance
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kdp_stance_value = 0 }
+		}
+		localization_key = IRQ_loc_key_stance_0
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kdp_stance_value = 1 }
+		}
+		localization_key = IRQ_loc_key_stance_1
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kdp_stance_value = 2 }
+		}
+		localization_key = IRQ_loc_key_stance_2
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kdp_stance_value = 3 }
+		}
+		localization_key = IRQ_loc_key_stance_3
+	}
+}
+#
+defined_text = {
 	name = IRQ_faction_puk_popularity
 	text = {
 		trigger = {
@@ -250,6 +278,34 @@ defined_text = {
 	}
 }
 defined_text = {
+	name = IRQ_faction_puk_stance
+	text = {
+		trigger = {
+			check_variable = { irq_faction_puk_stance_value = 0 }
+		}
+		localization_key = IRQ_loc_key_stance_0
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_puk_stance_value = 1 }
+		}
+		localization_key = IRQ_loc_key_stance_1
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_puk_stance_value = 2 }
+		}
+		localization_key = IRQ_loc_key_stance_2
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_puk_stance_value = 3 }
+		}
+		localization_key = IRQ_loc_key_stance_3
+	}
+}
+#
+defined_text = {
 	name = IRQ_faction_kwp_popularity
 	text = {
 		trigger = {
@@ -348,6 +404,34 @@ defined_text = {
 		localization_key = IRQ_loc_key_power_very_high
 	}
 }
+defined_text = {
+	name = IRQ_faction_kwp_stance
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kwp_stance_value = 0 }
+		}
+		localization_key = IRQ_loc_key_stance_0
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kwp_stance_value = 1 }
+		}
+		localization_key = IRQ_loc_key_stance_1
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kwp_stance_value = 2 }
+		}
+		localization_key = IRQ_loc_key_stance_2
+	}
+	text = {
+		trigger = {
+			check_variable = { irq_faction_kwp_stance_value = 3 }
+		}
+		localization_key = IRQ_loc_key_stance_3
+	}
+}
+#
 defined_text = {
 	name = IRQ_faction_unity_loc
 	text = {

@@ -2606,33 +2606,769 @@ irq_category_a_new_state = {
 
 irq_category_kurdish_factions = {
 
-	IRQ_kurdish_factions_test_decision = {
+	### Propoganda ###
 
-		icon = GFX_decision_generic_naval
+	IRQ_kurdish_factions_government_propoganda_decision = {
 
-		priority = 10
+		icon = GFX_decision_eng_propaganda_campaigns
 
-		fire_only_once = yes
-		days_remove = 800
+		priority = 20
+
+		fire_only_once = no
+		days_remove = 90
+		days_re_enable = 30
 
 		visible = {
 			original_tag = IRQ
 		}
 
-		available = {
-		}
-
-		complete_effect = {
-		}
-
-		cancel_effect = {
-		}
+		cost = 25
 
 		remove_effect = {
+			random = {
+				chance = 50
+				subtract_from_variable = {
+					var = irq_faction_kdp_popularity_value
+					value = 1
+					tooltip = var_irq_faction_kdp_popularity_decrease
+				}
+				clamp_variable = {
+					var = irq_faction_kdp_popularity_value
+					min = 0
+				}
+			}
+			random = {
+				chance = 50
+				subtract_from_variable = {
+					var = irq_faction_puk_popularity_value
+					value = 1
+					tooltip = var_irq_faction_puk_popularity_decrease
+				}
+				clamp_variable = {
+					var = irq_faction_puk_popularity_value
+					min = 0
+				}
+			}
+			random = {
+				chance = 50
+				subtract_from_variable = {
+					var = irq_faction_kwp_popularity_value
+					value = 1
+					tooltip = var_irq_faction_kwp_popularity_decrease
+				}
+				clamp_variable = {
+					var = irq_faction_kwp_popularity_value
+					min = 0
+				}
+			}
 		}
 
 		ai_will_do = {
 		}
 
 	}
+
+	IRQ_kurdish_factions_anti-kdp_propoganda_decision = {
+
+		icon = GFX_decision_eng_propaganda_campaigns
+
+		priority = 15
+
+		fire_only_once = no
+		days_remove = 90
+		days_re_enable = 30
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		cost = 25
+
+		remove_effect = {
+			random_list = {
+				50 = {
+					subtract_from_variable = {
+						var = irq_faction_kdp_popularity_value
+						value = 2
+						tooltip = var_irq_faction_kdp_popularity_decrease
+					}
+					clamp_variable = {
+						var = irq_faction_kdp_popularity_value
+						min = 0
+					}
+
+					add_to_variable = {
+						var = irq_faction_puk_popularity_value
+						value = 1
+						tooltip = var_irq_faction_puk_popularity_increase
+					}
+					clamp_variable = {
+						var = irq_faction_puk_popularity_value
+						max = 4
+					}
+
+					add_to_variable = {
+						var = irq_faction_kwp_popularity_value
+						value = 1
+						tooltip = var_irq_faction_kwp_popularity_increase
+					}
+					clamp_variable = {
+						var = irq_faction_kwp_popularity_value
+						max = 4
+					}
+				}
+				40 = {
+					subtract_from_variable = {
+						var = irq_faction_kdp_popularity_value
+						value = 1
+						tooltip = var_irq_faction_kdp_popularity_decrease
+					}
+					clamp_variable = {
+						var = irq_faction_kdp_popularity_value
+						min = 0
+					}
+				}
+				10 = {
+					subtract_from_variable = {
+						var = irq_faction_kdp_popularity_value
+						value = 0
+						tooltip = var_irq_faction_kdp_popularity_unchanged
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+
+	IRQ_kurdish_factions_anti-puk_propoganda_decision = {
+
+		icon = GFX_decision_eng_propaganda_campaigns
+
+		priority = 15
+
+		fire_only_once = no
+		days_remove = 90
+		days_re_enable = 30
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		cost = 25
+
+		remove_effect = {
+			random_list = {
+				50 = {
+					subtract_from_variable = {
+						var = irq_faction_puk_popularity_value
+						value = 2
+						tooltip = var_irq_faction_puk_popularity_decrease
+					}
+					clamp_variable = {
+						var = irq_faction_puk_popularity_value
+						min = 0
+					}
+
+					add_to_variable = {
+						var = irq_faction_kdp_popularity_value
+						value = 1
+						tooltip = var_irq_faction_kdp_popularity_increase
+					}
+					clamp_variable = {
+						var = irq_faction_kdp_popularity_value
+						max = 4
+					}
+
+					add_to_variable = {
+						var = irq_faction_kwp_popularity_value
+						value = 1
+						tooltip = var_irq_faction_kwp_popularity_increase
+					}
+					clamp_variable = {
+						var = irq_faction_kwp_popularity_value
+						max = 4
+					}
+				}
+				40 = {
+					subtract_from_variable = {
+						var = irq_faction_puk_popularity_value
+						value = 1
+						tooltip = var_irq_faction_puk_popularity_decrease
+					}
+					clamp_variable = {
+						var = irq_faction_puk_popularity_value
+						min = 0
+					}
+				}
+				10 = {
+					subtract_from_variable = {
+						var = irq_faction_puk_popularity_value
+						value = 0
+						tooltip = var_irq_faction_puk_popularity_unchanged
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+
+	IRQ_kurdish_factions_anti-kwp_propoganda_decision = {
+
+		icon = GFX_decision_eng_propaganda_campaigns
+
+		priority = 15
+
+		fire_only_once = no
+		days_remove = 90
+		days_re_enable = 30
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		cost = 25
+
+		remove_effect = {
+			random_list = {
+				50 = {
+					subtract_from_variable = {
+						var = irq_faction_kwp_popularity_value
+						value = 2
+						tooltip = var_irq_faction_kwp_popularity_decrease
+					}
+					clamp_variable = {
+						var = irq_faction_kwp_popularity_value
+						min = 0
+					}
+
+					add_to_variable = {
+						var = irq_faction_puk_popularity_value
+						value = 1
+						tooltip = var_irq_faction_puk_popularity_increase
+					}
+					clamp_variable = {
+						var = irq_faction_puk_popularity_value
+						max = 4
+					}
+
+					add_to_variable = {
+						var = irq_faction_kdp_popularity_value
+						value = 1
+						tooltip = var_irq_faction_kdp_popularity_increase
+					}
+					clamp_variable = {
+						var = irq_faction_kdp_popularity_value
+						max = 4
+					}
+				}
+				40 = {
+					subtract_from_variable = {
+						var = irq_faction_kwp_popularity_value
+						value = 1
+						tooltip = var_irq_faction_kwp_popularity_decrease
+					}
+					clamp_variable = {
+						var = irq_faction_kwp_popularity_value
+						min = 0
+					}
+				}
+				10 = {
+					subtract_from_variable = {
+						var = irq_faction_kwp_popularity_value
+						value = 0
+						tooltip = var_irq_faction_kwp_popularity_unchanged
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+
+	### Talks ###
+
+	IRQ_kurdish_factions_kdp_talks_decision = {
+
+		icon = GFX_decision_generic_political_discourse
+
+		priority = 10
+
+		fire_only_once = no
+		days_remove = 90
+		days_re_enable = 180
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		cost = 75
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = custom_trigger_tt_irq_kurdish_talks
+
+				AND = {
+					NOT = { check_variable = { irq_faction_kdp_stance_value = 0 } }
+					NOT = { check_variable = { irq_faction_kdp_stance_value = 3 } }
+				}
+			}
+		}
+
+		remove_effect = {
+			random_list = {
+				50 = {
+					hidden_effect = {
+						country_event = irq_kurdish.1
+					}
+					custom_effect_tooltip = custom_effect_tt_irq_kurdish_1
+				}
+				20 = {
+					hidden_effect = {
+						country_event = irq_kurdish.2
+					}
+					custom_effect_tooltip = custom_effect_tt_irq_kurdish_2
+				}
+				30 = {
+					hidden_effect = {
+						country_event = irq_kurdish.3
+					}
+					custom_effect_tooltip = custom_effect_tt_irq_kurdish_3
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+
+	IRQ_kurdish_factions_puk_talks_decision = {
+
+		icon = GFX_decision_generic_political_discourse
+
+		priority = 10
+
+		fire_only_once = no
+		days_remove = 90
+		days_re_enable = 180
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		cost = 75
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = custom_trigger_tt_irq_kurdish_talks
+
+				AND = {
+					NOT = { check_variable = { irq_faction_puk_stance_value = 0 } }
+					NOT = { check_variable = { irq_faction_puk_stance_value = 3 } }
+				}
+			}
+		}
+
+		remove_effect = {
+			random_list = {
+				50 = {
+					hidden_effect = {
+						country_event = irq_kurdish.4
+					}
+					custom_effect_tooltip = custom_effect_tt_irq_kurdish_1
+				}
+				20 = {
+					hidden_effect = {
+						country_event = irq_kurdish.5
+					}
+					custom_effect_tooltip = custom_effect_tt_irq_kurdish_2
+				}
+				30 = {
+					hidden_effect = {
+						country_event = irq_kurdish.6
+					}
+					custom_effect_tooltip = custom_effect_tt_irq_kurdish_3
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+
+	IRQ_kurdish_factions_kwp_talks_decision = {
+
+		icon = GFX_decision_generic_political_discourse
+
+		priority = 10
+
+		fire_only_once = no
+		days_remove = 90
+		days_re_enable = 180
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		cost = 75
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = custom_trigger_tt_irq_kurdish_talks
+
+				AND = {
+					NOT = { check_variable = { irq_faction_kwp_stance_value = 0 } }
+					NOT = { check_variable = { irq_faction_kwp_stance_value = 3 } }
+				}
+			}
+		}
+
+		remove_effect = {
+			random_list = {
+				50 = {
+					hidden_effect = {
+						country_event = irq_kurdish.7
+					}
+					custom_effect_tooltip = custom_effect_tt_irq_kurdish_1
+				}
+				20 = {
+					hidden_effect = {
+						country_event = irq_kurdish.8
+					}
+					custom_effect_tooltip = custom_effect_tt_irq_kurdish_2
+				}
+				30 = {
+					hidden_effect = {
+						country_event = irq_kurdish.9
+					}
+					custom_effect_tooltip = custom_effect_tt_irq_kurdish_3
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+
+	### Weapons ###
+
+	IRQ_kurdish_factions_kdp_weapons_decision = {
+
+		icon = GFX_decision_ger_military_buildup
+
+		priority = 8
+
+		fire_only_once = no
+		days_remove = 45
+		days_re_enable = 180
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		cost = 100
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = custom_trigger_tt_irq_kurdish_weapons
+
+				check_variable = { irq_faction_kdp_stance_value = 3 }
+			}
+			has_equipment = {
+				infantry_weapons > 999
+			}
+		}
+
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_weapons
+				amount = -1000
+			}
+		}
+
+		remove_effect = {
+			random_list = {
+				40 = {
+					hidden_effect = {
+						add_to_variable = {
+							var = irq_faction_kdp_military_value
+							value = 1
+						}
+						clamp_variable = {
+							var = irq_faction_kdp_military_value
+							max = 4
+						}
+					}
+					custom_effect_tooltip = var_irq_faction_kdp_military_increase
+				}
+				30 = {
+					hidden_effect = {
+						add_to_variable = {
+							var = irq_faction_kdp_military_value
+							value = 1
+						}
+						clamp_variable = {
+							var = irq_faction_kdp_military_value
+							max = 4
+						}
+
+						subtract_from_variable = {
+							var = irq_faction_kdp_popularity_value
+							value = 1
+						}
+						clamp_variable = {
+							var = irq_faction_kdp_popularity_value
+							min = 0
+						}
+					}
+					custom_effect_tooltip = var_irq_faction_kdp_military_increase
+					custom_effect_tooltip = var_irq_faction_kdp_popularity_decrease
+				}
+				30 = {
+					hidden_effect = {
+						add_to_variable = {
+							var = irq_faction_kdp_military_value
+							value = 1
+						}
+						clamp_variable = {
+							var = irq_faction_kdp_military_value
+							max = 4
+						}
+
+						subtract_from_variable = {
+							var = irq_faction_kdp_military_value
+							value = 1
+						}
+						clamp_variable = {
+							var = irq_faction_kdp_military_value
+							min = 0
+						}
+					}
+					custom_effect_tooltip = var_irq_faction_kdp_military_increase
+					custom_effect_tooltip = var_irq_faction_kdp_political_decrease
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+
+	IRQ_kurdish_factions_puk_weapons_decision = {
+
+		icon = GFX_decision_ger_military_buildup
+
+		priority = 8
+
+		fire_only_once = no
+		days_remove = 45
+		days_re_enable = 180
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		cost = 100
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = custom_trigger_tt_irq_kurdish_weapons
+
+				check_variable = { irq_faction_puk_stance_value = 3 }
+			}
+			has_equipment = {
+				infantry_weapons > 999
+			}
+		}
+
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_weapons
+				amount = -1000
+			}
+		}
+
+		remove_effect = {
+			random_list = {
+				40 = {
+					hidden_effect = {
+						add_to_variable = {
+							var = irq_faction_puk_military_value
+							value = 1
+						}
+						clamp_variable = {
+							var = irq_faction_puk_military_value
+							max = 4
+						}
+					}
+					custom_effect_tooltip = var_irq_faction_puk_military_increase
+				}
+				30 = {
+					hidden_effect = {
+						add_to_variable = {
+							var = irq_faction_puk_military_value
+							value = 1
+						}
+						clamp_variable = {
+							var = irq_faction_puk_military_value
+							max = 4
+						}
+
+						subtract_from_variable = {
+							var = irq_faction_puk_popularity_value
+							value = 1
+						}
+						clamp_variable = {
+							var = irq_faction_puk_popularity_value
+							min = 0
+						}
+					}
+					custom_effect_tooltip = var_irq_faction_puk_military_increase
+					custom_effect_tooltip = var_irq_faction_puk_popularity_decrease
+				}
+				30 = {
+					hidden_effect = {
+						add_to_variable = {
+							var = irq_faction_puk_military_value
+							value = 1
+						}
+						clamp_variable = {
+							var = irq_faction_puk_military_value
+							max = 4
+						}
+
+						subtract_from_variable = {
+							var = irq_faction_puk_military_value
+							value = 1
+						}
+						clamp_variable = {
+							var = irq_faction_puk_military_value
+							min = 0
+						}
+					}
+					custom_effect_tooltip = var_irq_faction_puk_military_increase
+					custom_effect_tooltip = var_irq_faction_puk_political_decrease
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+
+	IRQ_kurdish_factions_kwp_weapons_decision = {
+
+		icon = GFX_decision_ger_military_buildup
+
+		priority = 8
+
+		fire_only_once = no
+		days_remove = 45
+		days_re_enable = 180
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		cost = 100
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = custom_trigger_tt_irq_kurdish_weapons
+
+				check_variable = { irq_faction_kwp_stance_value = 3 }
+			}
+			has_equipment = {
+				infantry_weapons > 999
+			}
+		}
+
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_weapons
+				amount = -1000
+			}
+		}
+
+		remove_effect = {
+			random_list = {
+				40 = {
+					hidden_effect = {
+						add_to_variable = {
+							var = irq_faction_kwp_military_value
+							value = 1
+						}
+						clamp_variable = {
+							var = irq_faction_kwp_military_value
+							max = 4
+						}
+					}
+					custom_effect_tooltip = var_irq_faction_kwp_military_increase
+				}
+				30 = {
+					hidden_effect = {
+						add_to_variable = {
+							var = irq_faction_kwp_military_value
+							value = 1
+						}
+						clamp_variable = {
+							var = irq_faction_kwp_military_value
+							max = 4
+						}
+
+						subtract_from_variable = {
+							var = irq_faction_kwp_popularity_value
+							value = 1
+						}
+						clamp_variable = {
+							var = irq_faction_kwp_popularity_value
+							min = 0
+						}
+					}
+					custom_effect_tooltip = var_irq_faction_kwp_military_increase
+					custom_effect_tooltip = var_irq_faction_kwp_popularity_decrease
+				}
+				30 = {
+					hidden_effect = {
+						add_to_variable = {
+							var = irq_faction_kwp_military_value
+							value = 1
+						}
+						clamp_variable = {
+							var = irq_faction_kwp_military_value
+							max = 4
+						}
+
+						subtract_from_variable = {
+							var = irq_faction_kwp_military_value
+							value = 1
+						}
+						clamp_variable = {
+							var = irq_faction_kwp_military_value
+							min = 0
+						}
+					}
+					custom_effect_tooltip = var_irq_faction_kwp_military_increase
+					custom_effect_tooltip = var_irq_faction_kwp_political_decrease
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+
 }

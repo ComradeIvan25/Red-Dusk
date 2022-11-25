@@ -1159,6 +1159,10 @@ spriteTypes = {
 		name = "GFX_focus_IRQ_contest_no-fly_zone"
 		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_contest_no-fly_zone.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_we_rule_skies"
+		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_we_rule_skies.png"
+	}
 	
    ###SAF###
 

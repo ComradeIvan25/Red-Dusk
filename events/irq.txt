@@ -1,4 +1,5 @@
 add_namespace = irq
+add_namespace = irq_kurdish
 
 #kurds#
 country_event = {
@@ -655,5 +656,215 @@ country_event = {
 	
 	option = {
 		name = irq.28.a
+	}
+}
+
+### KURDISH DECISION EVENTS ###
+
+#Hold talks with faction kdp#
+country_event = {
+	id = irq_kurdish.1
+	title = irq_kurdish.1.t
+	desc = irq_kurdish.1.d
+	picture = GFX_report_event_IRQ_kurdish_meeting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq_kurdish.1.a
+	}
+}
+country_event = {
+	id = irq_kurdish.2
+	title = irq_kurdish.2.t
+	desc = irq_kurdish.2.d
+	picture = GFX_report_event_IRQ_kurdish_meeting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq_kurdish.2.a
+
+		set_variable = {
+			var = irq_faction_kdp_stance_value
+			value = 3
+			tooltip = var_irq_faction_stance_value_3
+		}
+	}
+}
+country_event = {
+	id = irq_kurdish.3
+	title = irq_kurdish.3.t
+	desc = irq_kurdish.3.d
+	picture = GFX_report_event_IRQ_kurdish_meeting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq_kurdish.3.a
+
+		set_variable = {
+			var = irq_faction_kdp_stance_value
+			value = 3
+			tooltip = var_irq_faction_stance_value_3
+		}
+
+		subtract_from_variable = {
+			var = irq_faction_kdp_popularity_value
+			value = 1
+			tooltip = var_irq_faction_kdp_popularity_decrease
+		}
+		clamp_variable = {
+			var = irq_faction_kdp_popularity_value
+			min = 0
+		}
+
+		subtract_from_variable = {
+			var = irq_faction_kdp_political_value
+			value = 1
+			tooltip = var_irq_faction_kdp_political_decrease
+		}
+		clamp_variable = {
+			var = irq_faction_kdp_political_value
+			min = 0
+		}
+	}
+}
+#Hold talks with faction puk#
+country_event = {
+	id = irq_kurdish.4
+	title = irq_kurdish.4.t
+	desc = irq_kurdish.4.d
+	picture = GFX_report_event_IRQ_kurdish_meeting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq_kurdish.4.a
+	}
+}
+country_event = {
+	id = irq_kurdish.5
+	title = irq_kurdish.5.t
+	desc = irq_kurdish.5.d
+	picture = GFX_report_event_IRQ_kurdish_meeting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq_kurdish.5.a
+
+		set_variable = {
+			var = irq_faction_puk_stance_value
+			value = 3
+			tooltip = var_irq_faction_stance_value_3
+		}
+	}
+}
+country_event = {
+	id = irq_kurdish.6
+	title = irq_kurdish.6.t
+	desc = irq_kurdish.6.d
+	picture = GFX_report_event_IRQ_kurdish_meeting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq_kurdish.6.a
+
+		set_variable = {
+			var = irq_faction_puk_stance_value
+			value = 3
+			tooltip = var_irq_faction_stance_value_3
+		}
+
+		subtract_from_variable = {
+			var = irq_faction_puk_popularity_value
+			value = 1
+			tooltip = var_irq_faction_puk_popularity_decrease
+		}
+		clamp_variable = {
+			var = irq_faction_puk_popularity_value
+			min = 0
+		}
+
+		subtract_from_variable = {
+			var = irq_faction_puk_political_value
+			value = 1
+			tooltip = var_irq_faction_puk_political_decrease
+		}
+		clamp_variable = {
+			var = irq_faction_puk_political_value
+			min = 0
+		}
+	}
+}
+#Hold talks with faction kwp#
+country_event = {
+	id = irq_kurdish.7
+	title = irq_kurdish.7.t
+	desc = irq_kurdish.7.d
+	picture = GFX_report_event_IRQ_kurdish_meeting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq_kurdish.7.a
+	}
+}
+country_event = {
+	id = irq_kurdish.8
+	title = irq_kurdish.8.t
+	desc = irq_kurdish.8.d
+	picture = GFX_report_event_IRQ_kurdish_meeting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq_kurdish.8.a
+
+		set_variable = {
+			var = irq_faction_kwp_stance_value
+			value = 3
+			tooltip = var_irq_faction_stance_value_3
+		}
+	}
+}
+country_event = {
+	id = irq_kurdish.9
+	title = irq_kurdish.9.t
+	desc = irq_kurdish.9.d
+	picture = GFX_report_event_IRQ_kurdish_meeting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq_kurdish.9.a
+
+		set_variable = {
+			var = irq_faction_kwp_stance_value
+			value = 3
+			tooltip = var_irq_faction_stance_value_3
+		}
+
+		subtract_from_variable = {
+			var = irq_faction_kwp_popularity_value
+			value = 1
+			tooltip = var_irq_faction_kwp_popularity_decrease
+		}
+		clamp_variable = {
+			var = irq_faction_kwp_popularity_value
+			min = 0
+		}
+
+		subtract_from_variable = {
+			var = irq_faction_kwp_political_value
+			value = 1
+			tooltip = var_irq_faction_kwp_political_decrease
+		}
+		clamp_variable = {
+			var = irq_faction_kwp_political_value
+			min = 0
+		}
 	}
 }

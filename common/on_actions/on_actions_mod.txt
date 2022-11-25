@@ -2726,7 +2726,7 @@ on_actions = {
 						}
 
 						COG = {
-							white_peace = ROOT
+							white_peace = RWA
 						}
 	
 						COG = {
@@ -2767,7 +2767,7 @@ on_actions = {
 						}
 
 						COG = {
-							white_peace = ROOT
+							white_peace = BRD
 						}
 	
 						COG = {

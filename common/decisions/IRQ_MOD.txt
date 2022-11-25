@@ -1861,6 +1861,47 @@ irq_category_renewed_resistance = {
 			add_state_core = 919
 		}
 	}
+	
+	IRQ_integrate_golan_heights = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_renewed_resistance
+			controls_state = 947
+		}
+		days_remove = 75
+		modifier {
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 947
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 75
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_state_core = 947
+		}
+	}
+
 }
 
 irq_category_a_new_state = {
@@ -2553,6 +2594,48 @@ irq_category_a_new_state = {
 		}
 		remove_effect = { 
 			add_state_core = 553
+		}
+	}
+	
+	IRQ_pan_arab_integrate_golan_heights = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			controls_state = 947
+		}
+		days_remove = 50
+		modifier {
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 947
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+				
+			add_state_core = 947
+
 		}
 	}
 	

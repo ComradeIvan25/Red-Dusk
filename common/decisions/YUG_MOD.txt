@@ -26,7 +26,7 @@ yug_deal_with_uprisings = {
 		ai_will_do = {
 			factor = 0
 		}
-		remove_effect = { 
+		complete_effect = { 
 			custom_effect_tooltip = YUG_focus_on_bosnia_tt
 			set_country_flag = yug_focused_on_bosnia
 			#unlock_decision_category = yug_deal_with_bosnia_uprising
@@ -59,7 +59,7 @@ yug_deal_with_uprisings = {
 		ai_will_do = {
 			factor = 0
 		}
-		remove_effect = { 
+		complete_effect = { 
 			custom_effect_tooltip = YUG_focus_on_alban_tt
 			set_country_flag = yug_focused_on_albania
 		}

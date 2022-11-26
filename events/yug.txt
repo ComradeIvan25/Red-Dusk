@@ -527,7 +527,7 @@ country_event = {
 	add_political_power = 50
 	add_war_support = 0.05
 		CRO = {
-			transfer_state = 836
+			transfer_state = 910
 			
 		}
 		YUG = {

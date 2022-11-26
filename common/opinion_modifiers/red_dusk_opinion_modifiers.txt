@@ -44,7 +44,19 @@ opinion_modifiers = {
 	}
 
 	SOV_pugo_trade_agreement_opinion = {
-		value = 30
+		value = 20
+	}
+
+	SOV_pugo_cooperation_opinion = {
+		value = 40
+	}
+
+	SOV_treaty_success_opinion = {
+		value = 35
+	}
+
+	SOV_treaty_fail_opinion = {
+		value = -25
 	}
 
 	YUG_cut_contacts = {

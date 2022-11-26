@@ -746,6 +746,23 @@ news_event = {
 	
 }
 
+#Wienna Summit Success
+news_event = {
+	id = old_times_news.57
+	title = old_times_news.57.t
+	desc = old_times_news.57.d
+	picture = GFX_news_wienna_summit
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.57.a
+	}
+	
+}
+
 ### FLAVOUR NEWS EVENTS ###
 
 ## Concorde Trigger (HIDDEN) ##

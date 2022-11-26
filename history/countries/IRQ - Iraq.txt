@@ -15,6 +15,7 @@ set_technology = {
 	support_tech_militarypolice_1960 = 1
 	support_tech_hospital_1960 = 1
 	tech_motorised_1960 = 1
+	tech_train_1960 = 1
 	mbt_tank_1960 = 1
 	mbt_tank_1970 = 1
 	mbt_tank_1980 = 1

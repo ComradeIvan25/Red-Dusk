@@ -8,12 +8,13 @@ set_research_slots = 3
 recruit_character = CIN_Dzhokhar_Dudayev
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = islamism
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 30
-	fascism = 70
-	communism = 0
+	neutrality = 17
+	fascism = 33
+	communism = 3
+	islamism = 47
 }

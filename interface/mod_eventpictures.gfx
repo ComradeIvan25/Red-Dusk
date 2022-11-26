@@ -94,6 +94,10 @@ spriteTypes = {
 		name = "GFX_report_event_SOV_influence_north_korea"
 		texturefile = "gfx/event_pictures/report_event_SOV_influence_north_korea.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_SOV_pugo_speech"
+		texturefile = "gfx/event_pictures/report_event_pugo_speech.dds"
+	}
 	
 	##USA##
 	
@@ -341,6 +345,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_news_yanayev"
 		texturefile = "gfx/event_pictures/news_yanayev_gone.dds"
+	}
+	spriteType = {
+		name = "GFX_news_wienna_summit"
+		texturefile = "gfx/event_pictures/news_wienna_summit.dds"
 	}
 	spriteType = {
 		name = "GFX_news_2000_olympics"

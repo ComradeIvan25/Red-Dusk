@@ -18,6 +18,13 @@
  nonexistant_relations_opinion:0 "Nonexistant Relations"
 
  SOV_pugo_visit_opinion:0 "General Secretary's State Visit"
+ SOV_pugo_trade_agreement_opinion:0 "Sino-Soviet Trade Agreement"
+ SOV_pugo_cooperation_opinion:0 "Sino-Soviet Cooperation Treaty"
+
+###WIENNA SUMMIT###
+
+ SOV_treaty_success_opinion:0 "Mutual Trust Treaty Signed"
+ SOV_treaty_fail_opinion:0 "Mutual Trust Treaty Rejected"
 
  HISTORIC_iran_iraq_war_opinion:0 "Iran-Iraq War"
  HISTORIC_falklands_war_eng_opinion:0 "Falklands War"

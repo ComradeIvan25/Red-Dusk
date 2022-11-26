@@ -3,7 +3,7 @@
  SOV_status_of_the_union_desc:0 "We will have to reassess the state of the Soviet Union now that we are back in control. We will need a full report of all departments and the economy, including a report of where the enemies of the state now are."
  SOV_morning_in_moscow:0 "A Morning in Moscow"
  SOV_morning_in_moscow_desc:0 ""
- SOV_spectre_of_militarism:0 "The specter of Militarism"
+ SOV_spectre_of_militarism:0 "The spectre of Militarism"
  SOV_spectre_of_militarism_desc:0 ""
  SOV_stagnating_economy:0 "The Stagnating Economy"
  SOV_stagnating_economy_desc:0 ""
@@ -41,7 +41,7 @@
  ##YAZOV##
  
  SOV_chairman_yazov:0 "The Militarist"
- SOV_chairman_yazov_desc:0 "A specter is haunting the Union - the sceptre of militarism. All the powers of the union watches in anticipation: youth and elder, people and party. The spotlight of the world turns to the Union once again as Marshal Dmitry Timofeyevich Yazov, Minister of Defence, begins his inauguration into one of the most powerful seats on earth."
+ SOV_chairman_yazov_desc:0 "A spectre is haunting the Union - the sceptre of militarism. All the powers of the union watches in anticipation: youth and elder, people and party. The spotlight of the world turns to the Union once again as Marshal Dmitry Timofeyevich Yazov, Minister of Defence, begins his inauguration into one of the most powerful seats on earth."
  SOV_securing_the_chairman_position:0 "Securing The Chairmanship"
  SOV_securing_the_chairman_position_desc:0 "Marshal Yazov finds himself in charge of not only the armed wing of the revolution, but it's vanguard itself. Alas, the vanguard is a distant shadow of the one struck up by Lenin - years of complacency has breeded a degenerate culture of bribery, revision, and conspiracy - all of which serve major threats to the Chairman and the Union trusted unto him.\n\nThe Union will be purged of its problems, one-by-one and turned into the vanguard Lenin envisioned once again."
  SOV_purge_gorbachev:0 "Eliminate Gorbachev"
@@ -452,6 +452,8 @@
  SOV_men_we_can_trust_desc:0 ""
  SOV_pugo_our_man:0 "Our Man on The Job"
  SOV_pugo_our_man_desc:0 ""
+ SOV_andropov:0 "Legacy of Andropov"
+ SOV_andropov_desc:0 ""
  SOV_pugo_reformists:0 "Supress The Reformists"
  SOV_pugo_reformists_desc:0 ""
  SOV_pugo_kgb_knows:0 "KGB Knows The Best"
@@ -601,15 +603,15 @@
  SOV_pugo_cities_desc:0""
  SOV_pugo_ural:0 "Increase Work Time"
  SOV_pugo_ural_desc:0""
- SOV_pugo_private:0 "Begin Computerization of the Economy"
+ SOV_pugo_private:0 "Begin Computerisation of the Economy"
  SOV_pugo_private_desc:0""
- SOV_pugo_mil:0 "Computerize the Military Economy"
+ SOV_pugo_mil:0 "Computerise the Military Industry"
  SOV_pugo_mil_desc:0""
  SOV_pugo_meet:0 "Streamlining the Process"
  SOV_pugo_meet_desc:0""
  SOV_pugo_corrupt:0 "Project Molniya"
  SOV_pugo_corrupt_desc:0""
- SOV_pugo_civ:0 "Computerize the Civilian Industry"
+ SOV_pugo_civ:0 "Computerise the Civilian Industry"
  SOV_pugo_civ_desc:0""
  SOV_pugo_imf:0 "Expand the OGAS"
  SOV_pugo_imf_desc:0""
@@ -761,12 +763,12 @@
  
  USA_trump_trump_in_office:0 "Trump in Office!"
  USA_trump_trump_in_office_desc:0 "Perot’s spirit has won the day, give three cheers for the return of reform, three cheers for the rise of a third party! The Reformists have won the day, and now behind a successful leader, the party can safely say it’s centralized behind a cause to bring America into a new age, to embrace the spirit of greatness and to bring forth a dawn of a new American age! Donald Trump’s populism has won in the election; let’s see it win the war for revival!"
- 
+
  ##FOREIGN POLICY##
  
  USA_operation_mcarthur:0 "Operation MacArthur"
  USA_operation_mcarthur_desc:0 ""
- 
+
  ##Yugoslavia##
 
  YUG_a_broken_nation:0 "A Broken Nation"

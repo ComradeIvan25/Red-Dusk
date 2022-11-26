@@ -150,6 +150,10 @@
  old_times_news.56.t:0 "Allied Democratic Forces Seizes Power in Uganda!"
  old_times_news.56.d:0 ""
  old_times_news.56.a:0 "How is this democratic?"  
+ old_times_news.57.t:0 "Mutual Trust Treaty Signed in Vienna"
+ old_times_news.57.d:0 "After almost 20 years of constant tensions between the United States and the Soviet Union, it would seem that the leadership of two nations has finally chosen peace.\n\nWhile there were attempts of detnate between two nations during the 1970s and late 80s, this will probably be the most stable treaty of mutual understanding and coexistence so far. With both delegations agreeing on the Soviet proposal that would limit the use and manufacturing of ballistic and nuclear missiles, confirm and reinforce the neutral status of Sweden, Austria and Finland as well as establishing trade relations between two blocs, the treaty was signed thus marking what many believe to be the real end of the Cold War.\nMany nations have welcomed this new development as it also marks a new beginning in economies of many other countries."
+ old_times_news.57.a:0 "A beginning of a new era."
+
 ## Flavour News Events ##
  #flavour_news.1.t:0 ##HIDDEN SCRIPTED EVENT##
  flavour_news.2.t:0 "Disaster in Paris!"

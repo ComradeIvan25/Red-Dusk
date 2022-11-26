@@ -163,6 +163,7 @@
 			add_stability = -0.05
 			add_political_power = 15
 			add_manpower = -50
+		        remove_ideas = SOV_memories_of_august_coup
                                 add_popularity = {
                                     ideology = communism
                                     popularity = 0.2
@@ -196,7 +197,7 @@
 	focus = {
 		id = SOV_pugo_reformists
 		icon = GFX_SOV_pugo_reformists
-		x = 6
+		x = 5
 		y = 6
 
 		prerequisite = {
@@ -214,7 +215,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_stability = -0.05
+			add_stability = -0.15
 			add_political_power = 30
 			add_manpower = -100
                                 add_popularity = {
@@ -228,9 +229,33 @@
 		}
 	}
 	focus = {
+		id = SOV_andropov
+		icon = GFX_focus_SOV_legacy_of_andorpov
+		x = 7
+		y = 6
+
+		prerequisite = {
+			focus = SOV_pugo_our_man
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 20
+		}
+	}
+	focus = {
 		id = SOV_men_we_can_trust
 		icon = GFX_SOV_men_we_can_trust
-		x = 8
+		x = 9
 		y = 6
 
 		prerequisite = {
@@ -264,6 +289,9 @@
 		prerequisite = {
 			focus = SOV_pugo_reformists
 		}
+		prerequisite = {
+			focus = SOV_andropov
+		}
 		mutually_exclusive = { }
 		
 		cost = 1
@@ -276,8 +304,8 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_stability = 0.15
-			add_political_power = 50
+			add_ideas = SOV_pugo_order
+			add_political_power = 20
 		}
 	}
 	focus = {
@@ -301,11 +329,10 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-                                add_popularity = {
-                                    ideology = communism
-                                    popularity = 0.1
-                                }
-			add_political_power = -35
+			add_political_power = 35
+			SOV = {
+		        country_event = {id = ussr.40}
+			}
 		}
 	}
 	focus = {
@@ -634,9 +661,11 @@
 		completion_reward = {
 			add_stability = 0.3
 			add_political_power = 25
-		        remove_ideas = SOV_memories_of_august_coup
 		        remove_ideas = SOV_party_infighting
-		        add_ideas = SOV_pugo_order
+			swap_ideas = {
+				remove_idea = SOV_pugo_order
+				add_idea = SOV_pugo_order2
+			}
 		}
 	}
 	
@@ -1477,7 +1506,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
+			add_political_power = 10
 		}
 	}
 	focus = {
@@ -1529,6 +1558,9 @@
 		continue_if_invalid = no
 		completion_reward = {
 			add_political_power = 15
+			USA = {
+		        country_event = {id = usa_wienna.1}
+			}
 		}
 	}
 	focus = {
@@ -1911,6 +1943,9 @@
 		continue_if_invalid = no
 		completion_reward = {
 			add_political_power = 15
+			MON = {
+			add_ideas = Soviet_mil_advisors
+			}
 		}
 	}
 	focus = {
@@ -2026,7 +2061,7 @@
 				add_state_core = 610
 				add_state_core = 745
 			}
-			news_event = { id = old_times_news.26 days = 1 }
+			news_event = { id = old_times_news.27 days = 1 }
 		}
 	}
 	focus = {
@@ -2324,7 +2359,7 @@
 
 	focus = {
 		id = SOV_pugo_civ_inv
-		icon = GFX_focus_SOV_marshal_yazov
+		icon = GFX_focus_SOV_civ_sector
 		x = 22
 		y = 3
 		prerequisite = {focus = SOV_pugo_five}  
@@ -2788,6 +2823,8 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+				remove_idea = SOV_pugo_computer
+				add_idea = SOV_pugo_computer4
 		}
 	}
 
@@ -2810,8 +2847,8 @@
 		continue_if_invalid = no
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = SOV_pugo_computer
-				add_idea = SOV_pugo_computer4
+				remove_idea = SOV_pugo_computer4
+				add_idea = SOV_pugo_computer5
 			}
 		}
 	}
@@ -2837,15 +2874,15 @@
 			add_political_power = 50
 			add_stability = -0.03
 			swap_ideas = {
-				remove_idea = SOV_pugo_computer4
-				add_idea = SOV_pugo_computer5
+				remove_idea = SOV_pugo_computer5
+				add_idea = SOV_pugo_computer6
 			}
 		}
 	}
 
 	focus = {
 		id = SOV_pugo_civ
-		icon = GFX_focus_SOV_civ_sector
+		icon = GFX_focus_SOV_computerize_the_civs
 		x = 32
 		y = 3
 		prerequisite = {focus = SOV_pugo_private}  
@@ -2861,6 +2898,8 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+				remove_idea = SOV_pugo_computer
+				add_idea = SOV_pugo_computer2
 		}
 	}
 
@@ -2885,15 +2924,15 @@
 			add_political_power = -20
 			add_stability = -0.05
 			swap_ideas = {
-				remove_idea = SOV_pugo_computer
-				add_idea = SOV_pugo_computer2
+				remove_idea = SOV_pugo_computer2
+				add_idea = SOV_pugo_computer3
 			} 
 		}
 	}
 
 	focus = {
 		id = SOV_pugo_loan
-		icon = GFX_focus_SOV_work_around_the_clock
+		icon = GFX_focus_SOV_more_pc_more_efficency
 		x = 32
 		y = 5
 		prerequisite = {focus = SOV_pugo_imf}  
@@ -2910,8 +2949,8 @@
 		continue_if_invalid = no
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = SOV_pugo_computer2
-				add_idea = SOV_pugo_computer3
+				remove_idea = SOV_pugo_computer3
+				add_idea = SOV_pugo_computer7
 			} 
 		}
 	}

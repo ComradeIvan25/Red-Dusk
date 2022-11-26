@@ -272,6 +272,7 @@ recruit_character = SOV_anatoly_lukyanov
 
 ## generals ##
 recruit_character = SOV_aleksandr_korzhakov
+recruit_character = SOV_sergey_akhromeyev
 recruit_character = SOV_alexey_sorokin
 recruit_character = SOV_anatoly_kulikov
 recruit_character = SOV_anatoly_kvashnin

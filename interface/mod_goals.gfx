@@ -824,6 +824,18 @@ spriteTypes = {
 		name = "GFX_focus_SOV_streamline_process"
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_streamline_process.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_SOV_legacy_of_andorpov"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_honor_andropov.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_computerize_the_civs"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_computerize_civ.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_more_pc_more_efficency"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_more_efficency.png"
+	}
 
    ###IRQ###
 

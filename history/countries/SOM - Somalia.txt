@@ -8,15 +8,15 @@ recruit_character = SOM_abdiqasim
 add_ideas = SOM_somalian_civil_war
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = anarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	democratic = 5
-	fascism = 50
-	communism = 0
-	islamism = 45
-	neutrality = 0
+	fascism = 20
+	communism = 5
+	islamism = 30
+	anarchism = 40
 }

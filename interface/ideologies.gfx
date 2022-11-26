@@ -57,7 +57,7 @@ spriteTypes = {
 }
 
 	SpriteType = {
-		name = "GFX_ideology_anarchism"
+		name = "GFX_ideology_anarchism_group"
 		texturefile = "gfx/interface/ideologies/anarchist.dds"	
 }
 

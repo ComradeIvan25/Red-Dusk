@@ -192,7 +192,7 @@
  
  sov_current_state_of_factionalism_loc:0 "Current State of Factionalism"
  sov_current_gensec_loc:0 "§YCurrent General Secretary: [SOV.GetLeader]§!"
- sov_hardliner_localisation_tt:0 "The §RHardliner Faction§! is a group of politicians that wants to keep the old system and style of governing the Soviet Union.\n\nThe §RHardliner faction§! combined prominent likeminded leaders who feared Gorbachev's ineffectiveness would collapse U.S.S.R and ousted the §treformist§! leader Mikhail Gorbachev with a coup in 1991. "
+ sov_hardliner_localisation_tt:0 "The §RHardliner Faction§! is a group of politicians that wants to keep the old system and style of governing the Soviet Union.\n\nThe §RHardliner faction§! combining prominent leaders from other factions, ousted the §treformist§! leader Mikhail Gorbachev with a coup in 1991."
  sov_hardliner_text_loc:0 "§RHardliners§!"
  sov_hardliner_influance_text_loc:0 "§R[?sov_hardliner_influence_var]§!"
  sov_militarist_localisation_tt:0 "The §gMilitarist Faction§! is a group composed mostly of military members and some politicians that wants to expand the Soviet Union as a communist superpower through military power.\n\n§gMilitary§! provided massive support in the 91' coup, causing them to gain multiple political positions and favors in the government."
@@ -211,22 +211,19 @@
  
  hardliner_5_influence_increase:0 "The §R£sov_hardliner_faction_texticon Hardliner Faction§!'s influence increases by 5."
  army_5_influence_increase:0 "The §g£sov_army_faction_texticon Militarist Faction§!'s influence increases by 5."
- reformist_5_influence_increase:0 "The §t£sov_reformist_faction_texticon Reformist Faction§!'s influence increases by 5."
- kgb_5_influence_increase:0 "The §O£sov_kgb_faction_texticon KGB Faction§!'s influence increases by 5."
+ reformist_5_influence_increase:0 "The §t£sov_reformist_faction_texticon Militarist Faction§!'s influence increases by 5."
+ kgb_5_influence_increase:0 "The §O£sov_kgb_faction_texticon Militarist Faction§!'s influence increases by 5."
  hardliner_10_influence_increase:0 "The §R£sov_hardliner_faction_texticon Hardliner Faction§!'s influence increases by 10."
  army_10_influence_increase:0 "The §g£sov_army_faction_texticon Militarist Faction§!'s influence increases by 10."
- reformist_10_influence_increase:0 "The §t£sov_reformist_faction_texticon Reformist Faction§!'s influence increases by 10."
- kgb_10_influence_increase:0 "The §O£sov_kgb_faction_texticon KGB Faction§!'s influence increases by 10."
+ reformist_10_influence_increase:0 "The §t£sov_reformist_faction_texticon Militarist Faction§!'s influence increases by 10."
+ kgb_10_influence_increase:0 "The §O£sov_kgb_faction_texticon Militarist Faction§!'s influence increases by 10."
  hardliner_20_influence_increase:0 "The §R£sov_hardliner_faction_texticon Hardliner Faction§!'s influence increases by 20."
  army_20_influence_increase:0 "The §g£sov_army_faction_texticon Militarist Faction§!'s influence increases by 20."
- reformist_20_influence_increase:0 "The §t£sov_reformist_faction_texticon Reformist Faction§!'s influence increases by 20."
- kgb_20_influence_increase:0 "The §O£sov_kgb_faction_texticon KGB Faction§!'s influence increases by 20."
- 
- army_5_influence_decrease:0 "The §g£sov_army_faction_texticon Militarist Faction§!'s influence decreases by 5."
+ reformist_20_influence_increase:0 "The §t£sov_reformist_faction_texticon Militarist Faction§!'s influence increases by 20."
+ kgb_20_influence_increase:0 "The §O£sov_kgb_faction_texticon Militarist Faction§!'s influence increases by 20."
  
  sov_opposing_factions_gains_influence:0 "§RFactions that oppose us gains influence!§!"
  
- hardliner_15_influence_decrease:0 "The §R£sov_hardliner_faction_texticon Hardliner Faction§!'s influence decreases by 15."
  army_15_influence_decrease:0 "The §g£sov_army_faction_texticon Militarist Faction§!'s influence decreases by 15."
  reformist_15_influence_decrease:0 "The §t£sov_reformist_faction_texticon Reformist Faction§!'s influence decreases by 15."
  sov_militarists_and_reformists_lose_30: "The §g£sov_army_faction_texticon Militarist Faction§! and §t£sov_reformist_faction_texticon Reformist Faction§!'s influence decreases by 30."

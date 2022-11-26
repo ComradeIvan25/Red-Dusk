@@ -1,0 +1,26 @@
+add_namespace = usa_wienna
+
+#treaty#
+country_event = {
+	id = usa_wienna.1
+	title = usa_wienna.1.t
+	desc = usa_wienna.1.d
+	picture = GFX_report_event_SAF_mandela
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = usa_wienna.1.a
+			SOV = {
+		        country_event = {id = ussr_wienna.2}
+			}		
+	}
+
+	option = {
+		name = usa_wienna.1.b	
+			SOV = {
+		        country_event = {id = ussr_wienna.1}
+			}	
+	}
+}

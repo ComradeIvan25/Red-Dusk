@@ -1,0 +1,55 @@
+add_namespace = ussr_wienna
+
+#Wienna success#
+country_event = {
+	id = ussr_wienna.2
+	title = ussr_wienna.2.t
+	desc = ussr_wienna.2.d
+	picture = GFX_report_event_SOV_pugo_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr_wienna.2.a
+			add_opinion_modifier = {
+			target = USA
+			modifier = SOV_treaty_success_opinion
+			}
+
+			USA = {
+			add_opinion_modifier = {
+			target = SOV
+			modifier = SOV_treaty_success_opinion
+			}
+	            }	
+	}
+
+}
+
+#Wienna fail#
+country_event = {
+	id = ussr_wienna.1
+	title = ussr_wienna.1.t
+	desc = ussr_wienna.1.d
+	picture = GFX_report_event_SOV_pugo_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr_wienna.1.a
+			add_opinion_modifier = {
+			target = USA
+			modifier = SOV_treaty_fail_opinion
+			}
+
+			USA = {
+			add_opinion_modifier = {
+			target = SOV
+			modifier = SOV_treaty_fail_opinion
+			}
+	            }
+		news_event = { id = old_times_news.57 days = 1 }
+
+	}
+
+}

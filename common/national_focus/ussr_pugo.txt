@@ -5,7 +5,7 @@
 		factor = 0
 		modifier = {
 		tag = SOV
-		add = 999
+		add = 0
 		}
 	}
 	
@@ -399,7 +399,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 1
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -409,6 +409,10 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			subtract_from_variable = {sov_militarist_influence_var = 10}
+			custom_effect_tooltip = army_10_influence_decrease
+			add_to_variable = {sov_hardliner_influence_var = 5}
+			custom_effect_tooltip = hardliner_5_influence_increase
 			add_stability = 0.05
 			add_war_support = 0.05
 			army_experience = 20
@@ -427,7 +431,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 1
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -437,6 +441,8 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			add_to_variable = {sov_hardliner_influence_var = 5}
+			custom_effect_tooltip = hardliner_5_influence_increase
 			add_stability = 0.05
 			add_political_power = -50
 		}
@@ -452,7 +458,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 1
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -462,6 +468,12 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			subtract_from_variable = {sov_militarist_influence_var = 10}
+			custom_effect_tooltip = army_10_influence_decrease
+			add_to_variable = {sov_hardliner_influence_var = 10}
+			custom_effect_tooltip = hardliner_10_influence_increase
+			add_to_variable = {sov_kgb_influence_var = 5 }
+			custom_effect_tooltip = kgb_5_influence_increase
 			add_war_support = 0.05
 			add_political_power = 30
 		}
@@ -478,7 +490,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 1
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -488,6 +500,10 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			subtract_from_variable = {sov_militarist_influence_var = 15}
+			custom_effect_tooltip = army_15_influence_decrease
+			add_to_variable = {sov_hardliner_influence_var = 10}
+			custom_effect_tooltip = hardliner_10_influence_increase
 		        add_ideas = SOV_pugo_puppet_army
 			army_experience = 30
 			navy_experience = 30
@@ -533,7 +549,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 1
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -543,6 +559,10 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			subtract_from_variable = {sov_militarist_influence_var = 10}
+			custom_effect_tooltip = army_10_influence_decrease
+			add_to_variable = {sov_hardliner_influence_var = 10}
+			custom_effect_tooltip = hardliner_10_influence_increase
 			add_stability = -0.05
 			army_experience = 25
 		}
@@ -559,7 +579,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 1
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -569,6 +589,12 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			subtract_from_variable = {sov_militarist_influence_var = 10}
+			custom_effect_tooltip = army_10_influence_decrease
+			add_to_variable = {sov_hardliner_influence_var = 15}
+			custom_effect_tooltip = hardliner_15_influence_increase
+			add_to_variable = {sov_kgb_influence_var = 10 }
+			custom_effect_tooltip = kgb_10_influence_increase
 			add_war_support = -0.07
 			add_political_power = 30
 		}
@@ -585,7 +611,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 1
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -595,6 +621,8 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			add_to_variable = {sov_hardliner_influence_var = 10}
+			custom_effect_tooltip = hardliner_10_influence_increase
 			add_stability = 0.1
 			army_experience = -15
 			air_experience = -15
@@ -615,7 +643,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 1
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -625,12 +653,21 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-		add_ideas = SOV_army_purge
 			add_stability = 0.2
 			add_war_support = -0.1
 			add_manpower = 300
 			add_political_power = 50
 			add_ideas = SOV_army_purge
+			subtract_from_variable = {sov_militarist_influence_var = 10}
+			custom_effect_tooltip = army_10_influence_decrease
+			add_to_variable = {sov_hardliner_influence_var = 10}
+			custom_effect_tooltip = hardliner_10_influence_increase
+			add_to_variable = {sov_kgb_influence_var = 5 }
+			retire_character = SOV_dmitry_yazov
+			deactivate_advisor = SOV_dmitry_yazov
+			activate_advisor = SOV_sergey_shoigu
+
+
 		}
 	}
 	focus = {
@@ -2823,8 +2860,10 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-				remove_idea = SOV_pugo_computer
-				add_idea = SOV_pugo_computer4
+			swap_ideas = {
+					remove_idea = SOV_pugo_computer
+					add_idea = SOV_pugo_computer4
+			}
 		}
 	}
 

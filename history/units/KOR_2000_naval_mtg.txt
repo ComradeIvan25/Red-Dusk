@@ -8,6 +8,7 @@ units = {
 			ship = { name = "Soho No.1" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = KOR version_name = "Soho Class" } } }
 			ship = { name = "Najin No.1" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = KOR version_name = "Najin Class" } } }
 			ship = { name = "Najin No.2" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = KOR version_name = "Najin Class" } } }
+
 			ship = { name = "No.671" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = KOR creator = SOV version_name = "Fugas Class (Pr. 53)" } } }
 			ship = { name = "No.1003" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = KOR creator = SOV version_name = "Fugas Class (Pr. 53)" } } }
 			ship = { name = "Sariwon No.1" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = KOR version_name = "Sariwon Class" } } }

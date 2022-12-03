@@ -192,7 +192,6 @@
  ussr_foreign_policy.2.d:0 "With the election of the new premier we have decided to improve our ties with the North Koreans and eventually get them on our sphere.\n\nHowever, this wont be a easy task and we will need to direct a good amount of resources to combat chinese influence and expend our ties."
  ussr_foreign_policy.2.a:0 "North Korea Will Be Aligned With Us"
 
-
  #VIENNA SUMMIT#
 
  usa_wienna.1.t:0 "Soviets Propose Easing the Tensions"
@@ -584,6 +583,16 @@
  irq_kurdish.11.t:0 "Assassination attempt fails"
  irq_kurdish.11.d:0 "Despite the resources poured into the operation, our attempt at assassinating a prominent Kurdish official has failed. Details are currently sparse; perhaps one of our operatives was compromised, the bomb improperly placed, or just that the official decided to deviate from their regular schedule. What is certain is that they are still alive, and it will take several months if we wish to replicate the operation, hopefully successfully this time."
  irq_kurdish.11.a:0 "Bastards!"
+
+ irq_kurdish_random.1.t:0 "Attack on our forces!"
+ irq_kurdish_random.1.d:0 "We are receiving reports of minor combat on our border with the Kurdistan region. Taken by surprise, our soldiers have been scattered and sustained serious casualties. The attackers, believed to be a group of elite militants from the Kurdistan Democratic Party, have managed to strike and flee unharmed, utilising their small size and quick speed to disappear into the crowds of ordinary civilians."
+ irq_kurdish_random.1.a:0 "May Allah be with the fallen"
+ irq_kurdish_random.2.t:0 "Attack on our forces!"
+ irq_kurdish_random.2.d:0 "We are receiving reports of minor combat on our border with the Kurdistan region. Taken by surprise, our soldiers have been scattered and sustained serious casualties. The attackers, believed to be a group of elite militants from the Patriotic Union of Kurdistan, have managed to strike and flee unharmed, utilising their small size and quick speed to disappear into the crowds of ordinary civilians."
+ irq_kurdish_random.2.a:0 "May Allah be with the fallen"
+ irq_kurdish_random.3.t:0 "Attack on our forces!"
+ irq_kurdish_random.3.d:0 "We are receiving reports of minor combat on our border with the Kurdistan region. Taken by surprise, our soldiers have been scattered and sustained serious casualties. The attackers, believed to be a group of elite militants from the Kurdistan Workers' Party, have managed to strike and flee unharmed, utilising their small size and quick speed to disappear into the crowds of ordinary civilians."
+ irq_kurdish_random.3.a:0 "May Allah be with the fallen"
 
  #SAF#
 

@@ -23,34 +23,34 @@ units = {
 			ship = { name = "ROKS Gangwon" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SKR creator = USA version_name = "Gearing Class" } } }
 			ship = { name = "ROKS Jeju" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SKR creator = USA version_name = "Crosley Class" } } }
 
-			ship = { name = "ROKS Donghae" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Donghae Class" } } }
-			ship = { name = "ROKS Suwon" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Donghae Class" } } }
-			ship = { name = "ROKS Gangneung" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Donghae Class" } } }
-			ship = { name = "ROKS Anyang" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Donghae Class" } } }
-			ship = { name = "ROKS Pohang" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
-			ship = { name = "ROKS Gunsan" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
-			ship = { name = "ROKS Guengju" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
-			ship = { name = "ROKS Mokpo" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
-			ship = { name = "ROKS Gimcheon" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
-			ship = { name = "ROKS Chungju" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
-			ship = { name = "ROKS Jinju" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
-			ship = { name = "ROKS Yeosu" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
-			ship = { name = "ROKS Jinhae" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
-			ship = { name = "ROKS Suncheon" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
-			ship = { name = "ROKS Iksan" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
-			ship = { name = "ROKS Wonju" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
-			ship = { name = "ROKS Andong" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
-			ship = { name = "ROKS Cheonan" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
-			ship = { name = "ROKS Seongnam" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
-			ship = { name = "ROKS Bucheon" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
-			ship = { name = "ROKS Jecheon" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
-			ship = { name = "ROKS Daecheon" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
-			ship = { name = "ROKS Sokcho" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
-			ship = { name = "ROKS Yeongju" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
-			ship = { name = "ROKS Namwon" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
-			ship = { name = "ROKS Gwangmyeong" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
-			ship = { name = "ROKS Sinseong" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
-			ship = { name = "ROKS Gongju" definition = destroyer equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
+			ship = { name = "ROKS Donghae" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Donghae Class" } } }
+			ship = { name = "ROKS Suwon" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Donghae Class" } } }
+			ship = { name = "ROKS Gangneung" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Donghae Class" } } }
+			ship = { name = "ROKS Anyang" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Donghae Class" } } }
+			ship = { name = "ROKS Pohang" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
+			ship = { name = "ROKS Gunsan" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
+			ship = { name = "ROKS Guengju" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
+			ship = { name = "ROKS Mokpo" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
+			ship = { name = "ROKS Gimcheon" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
+			ship = { name = "ROKS Chungju" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
+			ship = { name = "ROKS Jinju" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
+			ship = { name = "ROKS Yeosu" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
+			ship = { name = "ROKS Jinhae" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
+			ship = { name = "ROKS Suncheon" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
+			ship = { name = "ROKS Iksan" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
+			ship = { name = "ROKS Wonju" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
+			ship = { name = "ROKS Andong" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
+			ship = { name = "ROKS Cheonan" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
+			ship = { name = "ROKS Seongnam" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
+			ship = { name = "ROKS Bucheon" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
+			ship = { name = "ROKS Jecheon" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
+			ship = { name = "ROKS Daecheon" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
+			ship = { name = "ROKS Sokcho" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
+			ship = { name = "ROKS Yeongju" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
+			ship = { name = "ROKS Namwon" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
+			ship = { name = "ROKS Gwangmyeong" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
+			ship = { name = "ROKS Sinseong" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
+			ship = { name = "ROKS Gongju" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SKR version_name = "Pohang Class" } } }
 		}
 		task_force = {
 			name = "Daehanmingug Jamsuhamhamdae"

@@ -1,5 +1,6 @@
 add_namespace = irq
 add_namespace = irq_kurdish
+add_namespace = irq_kurdish_random
 
 #kurds#
 country_event = {
@@ -890,5 +891,131 @@ country_event = {
 	
 	option = {
 		name = irq_kurdish.11.a
+	}
+}
+
+### KURDISH RANDOM DECISION EVENTS ###
+
+#Attack on iraqi forces - by kdp#
+country_event = {
+	id = irq_kurdish_random.1
+	title = irq_kurdish_random.1.t
+	desc = irq_kurdish_random.1.d
+	picture = GFX_report_event_IRQ_kurdish_militant_attack
+	
+	trigger = {
+		check_variable = { irq_faction_kdp_stance_value = 0 }
+	}
+
+	mean_time_to_happen = {
+		days = 300
+
+		modifier = {
+			factor = 0.7
+
+			OR = {
+				check_variable = { irq_faction_kdp_military_value = 2 }
+				check_variable = { irq_faction_kdp_military_value = 3 }
+			}
+		}
+		modifier = {
+			factor = 0.3
+
+			check_variable = { irq_faction_kdp_military_value > 3 }
+		}
+	}
+
+	option = {
+		name = irq_kurdish_random.1.a
+
+		add_manpower = -17
+		add_equipment_to_stockpile = {
+			type = infantry_weapons
+			amount = -29
+		}
+		add_stability = -0.02
+		add_political_power = -10
+	}
+}
+#Attack on iraqi forces - by puk#
+country_event = {
+	id = irq_kurdish_random.2
+	title = irq_kurdish_random.2.t
+	desc = irq_kurdish_random.2.d
+	picture = GFX_report_event_IRQ_kurdish_militant_attack
+	
+	trigger = {
+		check_variable = { irq_faction_puk_stance_value = 0 }
+	}
+
+	mean_time_to_happen = {
+		days = 300
+
+		modifier = {
+			factor = 0.7
+
+			OR = {
+				check_variable = { irq_faction_puk_military_value = 2 }
+				check_variable = { irq_faction_puk_military_value = 3 }
+			}
+		}
+		modifier = {
+			factor = 0.3
+
+			check_variable = { irq_faction_puk_military_value > 3 }
+		}
+	}
+
+	option = {
+		name = irq_kurdish_random.2.a
+
+		add_manpower = -17
+		add_equipment_to_stockpile = {
+			type = infantry_weapons
+			amount = -29
+		}
+		add_stability = -0.02
+		add_political_power = -10
+	}
+}
+#Attack on iraqi forces - by kwp#
+country_event = {
+	id = irq_kurdish_random.3
+	title = irq_kurdish_random.3.t
+	desc = irq_kurdish_random.3.d
+	picture = GFX_report_event_IRQ_kurdish_militant_attack
+	
+	trigger = {
+		check_variable = { irq_faction_kwp_stance_value = 0 }
+	}
+
+	mean_time_to_happen = {
+		days = 300
+
+		modifier = {
+			factor = 0.7
+
+			OR = {
+				check_variable = { irq_faction_kwp_military_value = 2 }
+				check_variable = { irq_faction_kwp_military_value = 3 }
+			}
+		}
+		modifier = {
+			factor = 0.3
+
+			check_variable = { irq_faction_kwp_military_value > 3 }
+		}
+	}
+
+	option = {
+		name = irq_kurdish_random.3.a
+
+		add_manpower = -17
+		add_equipment_to_stockpile = {
+			type = infantry_weapons
+			amount = -29
+		}
+		add_stability = -0.02
+		add_political_power = -10
 	}
 }

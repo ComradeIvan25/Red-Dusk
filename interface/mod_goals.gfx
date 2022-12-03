@@ -1175,6 +1175,14 @@ spriteTypes = {
 		name = "GFX_focus_IRQ_we_rule_skies"
 		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_we_rule_skies.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_operations_in_shade"
+		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_operations_in_shade.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_rebuild_iraqi_navy"
+		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_rebuild_iraqi_navy.png"
+	}
 	
    ###SAF###
 

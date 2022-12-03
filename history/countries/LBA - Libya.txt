@@ -1,5 +1,16 @@
 ﻿capital = 448
 
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+
+	set_technology = {
+		corvette_hull_1960 = 1
+		destroyer_hull_1960 = 1
+	}
+}
+
 set_convoys = 20
 
 recruit_character = LBA_muammar_gaddafi
@@ -19,3 +30,9 @@ set_popularities = {
 
 add_opinion_modifier = { target = USA modifier = HISTORIC_usa_libya_lba_opinion }
 add_opinion_modifier = { target = ISR modifier = HISTORIC_israel_hostile_30_opinion }
+
+# Naval Variants #
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_naval_oob = "LBA_2000_naval_mtg"
+}

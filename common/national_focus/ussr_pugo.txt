@@ -2937,8 +2937,10 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			swap_ideas = {
 				remove_idea = SOV_pugo_computer
 				add_idea = SOV_pugo_computer2
+			}
 		}
 	}
 

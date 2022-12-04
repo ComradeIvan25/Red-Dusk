@@ -6,6 +6,11 @@ state={
 	
 	state_category = town
 
+        resources={
+		tungsten=1
+                steel=5
+	}
+
 	history={
 		add_core_of = VIN
 		owner = VIN
@@ -13,7 +18,11 @@ state={
 			infrastructure = 3
 			industrial_complex = 1
 			arms_factory = 1
+			10309 = {
+				naval_base = 4
+			}
 		}
+             
 
 	}
 

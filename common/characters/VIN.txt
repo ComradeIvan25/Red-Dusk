@@ -29,6 +29,20 @@ characters = {
 			id = -1
 		}
 	}
+        VIN_nong_duc_manh = {
+		name = "Nong Duc Manh"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VIN/Nong_Duc_Manh.png"
+			}
+		}
+		country_leader = {
+			ideology = market_socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
 
   ### Generals ###
      VIN_phung_quang_thanh = {

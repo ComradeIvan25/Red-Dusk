@@ -443,6 +443,326 @@ focus_tree = {
 	}
 	
 	#######After the congress#####
+	#Draft New Constitution
+	focus = {
+		id = VIN_draft_new_constitution
+		icon = VIN_greatest_generation
+		x = 2
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = Chairman_Nong_Duc_Manh }
+		mutually_exclusive = { focus = VIN_Amendment_to_the_1992_Constitution }
+        completion_reward = { 
+	}
+	}
+	#Amendment to the 1992 Constitution
+	focus = {
+		id = VIN_Amendment_to_the_1992_Constitution
+		icon = VIN_greatest_generation
+		x = 4
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = Chairman_Nong_Duc_Manh }
+		mutually_exclusive = { focus = VIN_draft_new_constitution }
+        completion_reward = { 
+	}
+	}
+	#New Genenral Scretary
+	focus = {
+		id = Chairman_Nong_Duc_Manh
+		icon = VIN_greatest_generation
+		x = 7
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			always = no
+		}
+        completion_reward = {
+     add_political_power = 100		
+	}
+	}
+	#Amendment of the Labor Code
+	focus = {
+		id = Amendment_of_the_Labor_Code
+		icon = VIN_greatest_generation
+		x = 3
+		y = 8
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_draft_new_constitution  focus = VIN_Amendment_to_the_1992_Constitution}
+        completion_reward = {	
+	}
+	}
+	#The Path to Industrialization
+	focus = {
+		id = VIN_Path_to_Industrialization
+		icon = VIN_greatest_generation
+		x = 3
+		y = 9
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = Amendment_of_the_Labor_Code}
+        completion_reward = {	
+	}
+	}
+	#No time to waste
+	focus = {
+		id = VIN_No_time_to_waste
+		icon = VIN_greatest_generation
+		x = 2
+		y = 10
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = VIN_steady_forward}
+			prerequisite = { focus = VIN_Path_to_Industrialization}
+        completion_reward = {	
+	}
+	}
+	#Labour is glorious
+	focus = {
+		id = VIN_Labour_is_glorious
+		icon = VIN_greatest_generation
+		x = 2
+		y = 11
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_No_time_to_waste}
+        completion_reward = {	
+	}
+	}
+	#open more industrial zones
+	focus = {
+		id = VIN_open_more_industrial_zones
+		icon = VIN_greatest_generation
+		x = 0
+		y = 11
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_No_time_to_waste}
+        completion_reward = {	
+	}
+	}
+
+	#Steady Forward
+	focus = {
+		id = VIN_steady_forward
+		icon = VIN_greatest_generation
+		x = 4
+		y = 10
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_Path_to_Industrialization}
+		mutually_exclusive = { focus = VIN_No_time_to_waste }
+        completion_reward = {	
+	}
+	}
+	#Agriculture is the key to Industrialization
+	focus = {
+		id = VIN_Agriculture_is_the_key_to_Industrialization
+		icon = VIN_greatest_generation
+		x = 4
+		y = 11
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_steady_forward}
+        completion_reward = {	
+	}
+	}
+	#Focus on light industries
+	focus = {
+		id = VIN_Focus_on_light_industries_first
+		icon = VIN_greatest_generation
+		x = 6
+		y = 11
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_steady_forward}
+        completion_reward = {	
+	}
+	}
+	#State visit to Laos
+	focus = {
+		id = VIN_visit_Laos
+		icon = VIN_greatest_generation
+		x = 11
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = Chairman_Nong_Duc_Manh }
+        completion_reward = {	
+	}
+	}
+	#The Art of Diplomacy
+	focus = {
+		id = VIN_art_of_diplomacy
+		icon = VIN_greatest_generation
+		x = 11
+		y = 8
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_visit_Laos}
+        completion_reward = {	
+	}
+	}
+	#Focus on the socialist countries
+	focus = {
+		id = VIN_Focus_on_the_socialist_country
+		icon = VIN_greatest_generation
+		x = 9
+		y = 9
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_art_of_diplomacy}
+		mutually_exclusive = { focus = VIN_Look_to_capitalist_world }
+        completion_reward = {	
+	}
+	}
+	
+	#A message to China
+	focus = {
+		id = VIN_A_message_to_China
+		icon = VIN_greatest_generation
+		x = 8
+		y = 10
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_Focus_on_the_socialist_country}
+        completion_reward = {	
+	}
+	}
+
+	#A hand shake with Soviet Ambassador
+	focus = {
+		id = VIN_A_hand_shake_with_Soviet_Ambassador
+		icon = VIN_greatest_generation
+		x = 10
+		y = 10
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_Focus_on_the_socialist_country}
+        completion_reward = {	
+	}
+	}
+	#Flight to Pyongyang
+	focus = {
+		id = VIN_Flight_to_Pyongyang
+		icon = VIN_greatest_generation
+		x = 9
+		y = 11
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_A_hand_shake_with_Soviet_Ambassador}
+		prerequisite = { focus = VIN_A_message_to_China }
+        completion_reward = {	
+	}
+	}
+	#Look to capitalist world
+	focus = {
+		id = VIN_Look_to_capitalist_world
+		icon = VIN_greatest_generation
+		x = 13
+		y = 9
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_art_of_diplomacy}
+		mutually_exclusive = { focus = VIN_Focus_on_the_socialist_country }
+        completion_reward = {	
+	}
+	}
+	#ASEAN things
+	focus = {
+		id = VIN_appoarch_ASEAN_countries
+		icon = VIN_greatest_generation
+		x = 12
+		y = 10
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_Look_to_capitalist_world}
+        completion_reward = {	
+	}
+	}
+	#Visit Japan
+	focus = {
+		id = VIN_visit_Japan
+		icon = VIN_greatest_generation
+		x = 14
+		y = 10
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_Look_to_capitalist_world}
+        completion_reward = {	
+	}
+	}
+	#Negotiating with the EU
+	focus = {
+		id = VIN_Negotiating_with_EU
+		icon = VIN_greatest_generation
+		x = 13
+		y = 11
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_appoarch_ASEAN_countries}
+		prerequisite = { focus = VIN_visit_Japan }
+        completion_reward = {	
+	}
+	}
+	#2002 ELection
+	focus = {
+		id = VIN_2002_election
+		icon = VIN_greatest_generation
+		x = 7
+		y = 12
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	
     
 	#######MILITARY########
 	#PAVN
@@ -457,7 +777,7 @@ focus_tree = {
 		}
 		prerequisite = {  }
 		available = {
-        has_completed_focus = VIN_9th_party_congress
+        has_completed_focus = VIN_2002_election
         }
         completion_reward = { 
         army_experience = 50

@@ -98,7 +98,7 @@ set_politics = {
 	ruling_party = fascism
 	last_election = "1995.10.15"
 	election_frequency = 84
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {

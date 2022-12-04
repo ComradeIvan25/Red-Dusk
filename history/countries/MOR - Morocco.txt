@@ -1,5 +1,15 @@
 ﻿capital = 461
 
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+
+	set_technology = {
+		corvette_hull_1960 = 1
+	}
+}
+
 set_convoys = 20
 
 recruit_character = MOR_mohammed_vi
@@ -17,4 +27,14 @@ set_popularities = {
 	fascism = 20
 	communism = 5
 	neutrality = 50
+}
+
+MOR = {
+	puppet = WES
+}
+
+# Naval Variants #
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_naval_oob = "MOR_2000_naval_mtg"
 }

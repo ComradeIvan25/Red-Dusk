@@ -276,6 +276,9 @@
  var_irq_faction_puk_military_increase:0 "§YPatriotic Union of Kurdistan§! gains military power"
  var_irq_faction_kwp_military_increase:0 "§YKurdistan Workers' Party§! gains military power"
 
+ var_irq_faction_stance_decrease:0 "§YFaction Unity§! decreases"
+ var_irq_faction_stance_increase:0 "§YFaction Unity§! increases"
+
  var_irq_faction_stance_value_0:0 "Faction becomes §RMilitant§!"
  var_irq_faction_stance_value_3:0 "Faction becomes §GConciliatory§!"
 

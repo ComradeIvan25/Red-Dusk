@@ -8,19 +8,19 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			8245 = {
+			13286 = {
 				naval_base = 1
 			}
 		}
 		victory_points = {
-			8245 1 
+			13286 1 
 		}
 		add_core_of = MZB
 
 	}
 
 	provinces={
-		2193 5177 5212 8245 
+		2193 5177 5212 8245 13286 13287 13288 
 	}
 	manpower=1237500
 	buildings_max_level_factor=1.000

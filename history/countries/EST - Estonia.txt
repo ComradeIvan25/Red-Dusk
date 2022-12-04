@@ -4,6 +4,7 @@ set_oob = "EST_2000"
 
 set_technology = {
 	tech_support = 1
+	tech_train_1960 = 1
 	spaa_tank_1960 = 1
 }
 if = {

@@ -1,11 +1,14 @@
 ﻿capital = 277
 
 #oob = "MEX_1936"
+
 if = {
-	limit = { has_dlc = "Man the Guns" }
-		#set_naval_oob = "MEX_1936_naval_mtg"
-	else = {
-		#set_naval_oob = "MEX_1936_naval_legacy"
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+
+	set_technology = {
+		destroyer_hull_1960 = 1
 	}
 }
 
@@ -24,4 +27,10 @@ set_politics = {
 set_popularities = {
 	democratic = 90
 	fascism = 10
+}
+
+# Naval Variants #
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_naval_oob = "MEX_2000_naval_mtg"
 }

@@ -928,6 +928,7 @@ country_event = {
 	picture = GFX_report_event_IRQ_kurdish_militant_attack
 	
 	trigger = {
+		tag = IRQ
 		check_variable = { irq_faction_kdp_stance_value = 0 }
 	}
 
@@ -969,6 +970,7 @@ country_event = {
 	picture = GFX_report_event_IRQ_kurdish_militant_attack
 	
 	trigger = {
+		tag = IRQ
 		check_variable = { irq_faction_puk_stance_value = 0 }
 	}
 
@@ -1010,6 +1012,7 @@ country_event = {
 	picture = GFX_report_event_IRQ_kurdish_militant_attack
 	
 	trigger = {
+		tag = IRQ
 		check_variable = { irq_faction_kwp_stance_value = 0 }
 	}
 
@@ -1041,5 +1044,292 @@ country_event = {
 		}
 		add_stability = -0.02
 		add_political_power = -10
+	}
+}
+
+#Rallying Speech - by kdp#
+country_event = {
+	id = irq_kurdish_random.4
+	title = irq_kurdish_random.4.t
+	desc = irq_kurdish_random.4.d
+	picture = GFX_report_event_IRQ_kurdish_speech
+	
+	trigger = {
+		tag = IRQ
+		check_variable = { irq_faction_kdp_popularity_value < 4 }
+	}
+
+	mean_time_to_happen = {
+		days = 350
+	}
+
+	option = {
+		name = irq_kurdish_random.4.a
+
+		hidden_effect = {
+			add_to_variable = {
+				var = irq_faction_kdp_popularity_value
+				value = 1
+			}
+			clamp_variable = {
+				var = irq_faction_kdp_popularity_value
+				max = 4
+			}
+		}
+		custom_effect_tooltip = var_irq_faction_kdp_popularity_increase
+	}
+}
+#Rallying Speech - by puk#
+country_event = {
+	id = irq_kurdish_random.5
+	title = irq_kurdish_random.5.t
+	desc = irq_kurdish_random.5.d
+	picture = GFX_report_event_IRQ_kurdish_speech
+	
+	trigger = {
+		tag = IRQ
+		check_variable = { irq_faction_puk_popularity_value < 4 }
+	}
+
+	mean_time_to_happen = {
+		days = 350
+	}
+
+	option = {
+		name = irq_kurdish_random.5.a
+
+		hidden_effect = {
+			add_to_variable = {
+				var = irq_faction_puk_popularity_value
+				value = 1
+			}
+			clamp_variable = {
+				var = irq_faction_puk_popularity_value
+				max = 4
+			}
+		}
+		custom_effect_tooltip = var_irq_faction_puk_popularity_increase
+	}
+}
+#Rallying Speech - by kwp#
+country_event = {
+	id = irq_kurdish_random.6
+	title = irq_kurdish_random.6.t
+	desc = irq_kurdish_random.6.d
+	picture = GFX_report_event_IRQ_kurdish_speech
+	
+	trigger = {
+		tag = IRQ
+		check_variable = { irq_faction_kwp_popularity_value < 4 }
+	}
+
+	mean_time_to_happen = {
+		days = 350
+	}
+
+	option = {
+		name = irq_kurdish_random.6.a
+
+		hidden_effect = {
+			add_to_variable = {
+				var = irq_faction_kwp_popularity_value
+				value = 1
+			}
+			clamp_variable = {
+				var = irq_faction_kwp_popularity_value
+				max = 4
+			}
+		}
+		custom_effect_tooltip = var_irq_faction_kwp_popularity_increase
+	}
+}
+
+#Split in the resistance#
+country_event = {
+	id = irq_kurdish_random.7
+	title = irq_kurdish_random.7.t
+	desc = irq_kurdish_random.7.d
+	picture = GFX_report_event_IRQ_kurdish_meeting
+	
+	trigger = {
+		tag = IRQ
+
+		OR = {
+			# kdp vs kwp #
+			AND = {
+				NOT = { has_country_flag = IRQ_kurdish_faction_split_1 }
+
+				check_variable = { irq_faction_kdp_popularity_value > 2 }
+				check_variable = { irq_faction_kdp_political_value > 2 }
+				check_variable = { irq_faction_kdp_military_value > 2 }
+
+				check_variable = { irq_faction_kwp_popularity_value > 2 }
+				check_variable = { irq_faction_kwp_political_value > 2 }
+				check_variable = { irq_faction_kwp_military_value > 2 }
+
+				OR = {
+					AND = {
+						check_variable = { irq_faction_kdp_stance_value = 0 }
+						check_variable = { irq_faction_kwp_stance_value = 3 }
+					}
+					AND = {
+						check_variable = { irq_faction_kdp_stance_value = 3 }
+						check_variable = { irq_faction_kwp_stance_value = 0 }
+					}
+				}
+			}
+			# kdp vs puk #
+			AND = {
+				NOT = { has_country_flag = IRQ_kurdish_faction_split_2 }
+
+				check_variable = { irq_faction_kdp_popularity_value > 2 }
+				check_variable = { irq_faction_kdp_political_value > 2 }
+				check_variable = { irq_faction_kdp_military_value > 2 }
+
+				check_variable = { irq_faction_puk_popularity_value > 2 }
+				check_variable = { irq_faction_puk_political_value > 2 }
+				check_variable = { irq_faction_puk_military_value > 2 }
+
+				OR = {
+					AND = {
+						check_variable = { irq_faction_kdp_stance_value = 0 }
+						check_variable = { irq_faction_puk_stance_value = 3 }
+					}
+					AND = {
+						check_variable = { irq_faction_kdp_stance_value = 3 }
+						check_variable = { irq_faction_puk_stance_value = 0 }
+					}
+				}
+			}
+			# puk vs kwp #
+			AND = {
+				NOT = { has_country_flag = IRQ_kurdish_faction_split_3 }
+
+				check_variable = { irq_faction_puk_popularity_value > 2 }
+				check_variable = { irq_faction_puk_political_value > 2 }
+				check_variable = { irq_faction_puk_military_value > 2 }
+
+				check_variable = { irq_faction_kwp_popularity_value > 2 }
+				check_variable = { irq_faction_kwp_political_value > 2 }
+				check_variable = { irq_faction_kwp_military_value > 2 }
+
+				OR = {
+					AND = {
+						check_variable = { irq_faction_puk_stance_value = 0 }
+						check_variable = { irq_faction_kwp_stance_value = 3 }
+					}
+					AND = {
+						check_variable = { irq_faction_puk_stance_value = 3 }
+						check_variable = { irq_faction_kwp_stance_value = 0 }
+					}
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 100
+	}
+
+	option = {
+		name = irq_kurdish_random.7.a
+
+		subtract_from_variable = {
+			var = irq_faction_unity_value
+			value = 1
+			tooltip = var_irq_faction_stance_decrease
+		}
+		hidden_effect = {
+			clamp_variable = {
+				var = irq_faction_unity_value
+				min = 0
+			}
+
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							check_variable = { irq_faction_kdp_stance_value = 0 }
+							check_variable = { irq_faction_kwp_stance_value = 3 }
+						}
+						AND = {
+							check_variable = { irq_faction_kdp_stance_value = 3 }
+							check_variable = { irq_faction_kwp_stance_value = 0 }
+						}
+					}
+				}
+				set_country_flag = IRQ_kurdish_faction_split_1
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							check_variable = { irq_faction_kdp_stance_value = 0 }
+							check_variable = { irq_faction_puk_stance_value = 3 }
+						}
+						AND = {
+							check_variable = { irq_faction_kdp_stance_value = 3 }
+							check_variable = { irq_faction_puk_stance_value = 0 }
+						}
+					}
+				}
+				set_country_flag = IRQ_kurdish_faction_split_2
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							check_variable = { irq_faction_puk_stance_value = 0 }
+							check_variable = { irq_faction_kwp_stance_value = 3 }
+						}
+						AND = {
+							check_variable = { irq_faction_puk_stance_value = 3 }
+							check_variable = { irq_faction_kwp_stance_value = 0 }
+						}
+					}
+				}
+				set_country_flag = IRQ_kurdish_faction_split_3
+			}
+		}
+	}
+}
+
+#Appeal to common values#
+country_event = {
+	id = irq_kurdish_random.8
+	title = irq_kurdish_random.8.t
+	desc = irq_kurdish_random.8.d
+	picture = GFX_report_event_IRQ_kurdish_meeting
+	
+	trigger = {
+		tag = IRQ
+
+		AND = {
+			check_variable = { irq_faction_unity_value < 4 }
+
+			check_variable = { irq_faction_kdp_stance_value > 0 }
+			check_variable = { irq_faction_puk_stance_value > 0 }
+			check_variable = { irq_faction_kwp_stance_value > 0 }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 300
+	}
+
+	option = {
+		name = irq_kurdish_random.8.a
+
+		add_to_variable = {
+			var = irq_faction_unity_value
+			value = 1
+			tooltip = var_irq_faction_stance_increase
+		}
+		hidden_effect = {
+			clamp_variable = {
+				var = irq_faction_unity_value
+				max = 4
+			}
+		}
 	}
 }

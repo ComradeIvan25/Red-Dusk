@@ -3,6 +3,17 @@
 set_oob = "IRQ_2000"
 set_air_oob = "IRQ_2000_air"
 
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+
+	set_technology = {
+		corvette_hull_1960 = 1
+		corvette_hull_1980 = 1
+		naval_engine_diesel_1960 = 1
+	}
+}
 set_technology = {
 	infantry_weapons_1960 = 1
 	infantry_weapons_1980 = 1
@@ -113,3 +124,30 @@ add_opinion_modifier = { target = ENG modifier = HISTORIC_gulf_war_irq_rest_opin
 add_opinion_modifier = { target = FRA modifier = HISTORIC_gulf_war_irq_rest_opinion }
 add_opinion_modifier = { target = SAU modifier = HISTORIC_gulf_war_irq_rest_opinion }
 add_opinion_modifier = { target = ISR modifier = HISTORIC_israel_hostile_40_opinion }
+
+# Naval Variants #
+if = {
+	limit = { has_dlc = "Man the Guns" }
+
+	# Corvettes #
+	create_equipment_variant = {
+		name = "Assad Class"
+		type = corvette_hull_2
+		#name_group = 
+		parent_version = 0
+		modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_2
+			fixed_ship_engine_slot = small_surface_engine_diesel_1
+			fixed_ship_sonar_slot = sub_sonar_2
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_defensive_slot_1 = anti_air_1
+			fixed_ship_defensive_slot_2 = sam_missile_2
+			fixed_ship_aviation_slot = empty
+			custom_ship_cannon_slot = naval_gun_2
+			custom_slot_1 = cruise_missile_2
+			custom_slot_2 = ship_torpedo_surface_2
+			custom_slot_3 = empty
+		}
+		obsolete = no
+	}
+}

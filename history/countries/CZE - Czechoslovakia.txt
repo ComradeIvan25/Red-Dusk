@@ -2,6 +2,9 @@
 
 set_technology = {
 	towed_artillery_1960 = 1
+	motorised_artillery_1960 = 1
+	motorised_artillery_1970 = 1
+	motorised_artillery_1980 = 1
 }
 
 set_research_slots = 3

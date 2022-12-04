@@ -1,4 +1,120 @@
-﻿GENERIC_MEC_01 = 
+﻿GENERIC_MBT_01 = 
+{
+	name = "Armoured Divisions"
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	division_types = { "main_battle_tank_armor" }
+
+	fallback_name = "%d Armoured Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "1st Armoured Division" }
+		2 = { "2nd Armoured Division" }
+		3 = { "3rd Armoured Division" }
+		4 = { "4th Armoured Division" }
+		5 = { "5th Armoured Division" }
+		6 = { "6th Armoured Division" }
+		7 = { "7th Armoured Division" }
+		8 = { "8th Armoured Division" }
+		9 = { "9th Armoured Division" }
+		10 = { "10th Armoured Division" }
+		11 = { "11th Armoured Division" }
+		12 = { "12th Armoured Division" }
+		13 = { "13th Armoured Division" }
+		14 = { "14th Armoured Division" }
+		15 = { "15th Armoured Division" }
+		16 = { "16th Armoured Division" }
+		17 = { "17th Armoured Division" }
+		18 = { "18th Armoured Division" }
+		19 = { "19th Armoured Division" }
+		20 = { "20th Armoured Division" }
+		21 = { "21st Armoured Division" }
+		22 = { "22nd Armoured Division" }
+		23 = { "23rd Armoured Division" }
+		24 = { "24th Armoured Division" }
+		25 = { "25th Armoured Division" }
+		26 = { "26th Armoured Division" }
+		27 = { "27th Armoured Division" }
+		28 = { "28th Armoured Division" }
+		29 = { "29th Armoured Division" }
+		30 = { "30th Armoured Division" }
+		31 = { "31st Armoured Division" }
+		32 = { "32nd Armoured Division" }
+		33 = { "33rd Armoured Division" }
+		34 = { "34th Armoured Division" }
+		35 = { "35th Armoured Division" }
+		36 = { "36th Armoured Division" }
+		37 = { "37th Armoured Division" }
+		38 = { "38th Armoured Division" }
+		39 = { "39th Armoured Division" }
+		40 = { "40th Armoured Division" }
+		41 = { "41st Armoured Division" }
+		42 = { "42nd Armoured Division" }
+		43 = { "43rd Armoured Division" }
+		44 = { "44th Armoured Division" }
+		45 = { "45th Armoured Division" }
+		46 = { "46th Armoured Division" }
+		47 = { "47th Armoured Division" }
+		48 = { "48th Armoured Division" }
+		49 = { "49th Armoured Division" }
+		50 = { "50th Armoured Division" }
+		51 = { "51st Armoured Division" }
+		52 = { "52nd Armoured Division" }
+		53 = { "53rd Armoured Division" }
+		54 = { "54th Armoured Division" }
+		55 = { "55th Armoured Division" }
+		56 = { "56th Armoured Division" }
+		57 = { "57th Armoured Division" }
+		58 = { "58th Armoured Division" }
+		59 = { "59th Armoured Division" }
+		60 = { "60th Armoured Division" }
+		61 = { "61st Armoured Division" }
+		62 = { "62nd Armoured Division" }
+		63 = { "63rd Armoured Division" }
+		64 = { "64th Armoured Division" }
+		65 = { "65th Armoured Division" }
+		66 = { "66th Armoured Division" }
+		67 = { "67th Armoured Division" }
+		68 = { "68th Armoured Division" }
+		69 = { "69th Armoured Division" }
+		70 = { "70th Armoured Division" }
+		71 = { "71st Armoured Division" }
+		72 = { "72nd Armoured Division" }
+		73 = { "73rd Armoured Division" }
+		74 = { "74th Armoured Division" }
+		75 = { "75th Armoured Division" }
+		76 = { "76th Armoured Division" }
+		77 = { "77th Armoured Division" }
+		78 = { "78th Armoured Division" }
+		79 = { "79th Armoured Division" }
+		80 = { "80th Armoured Division" }
+		81 = { "81st Armoured Division" }
+		82 = { "82nd Armoured Division" }
+		83 = { "83rd Armoured Division" }
+		84 = { "84th Armoured Division" }
+		85 = { "85th Armoured Division" }
+		86 = { "86th Armoured Division" }
+		87 = { "87th Armoured Division" }
+		88 = { "88th Armoured Division" }
+		89 = { "89th Armoured Division" }
+		90 = { "90th Armoured Division" }
+		91 = { "91st Armoured Division" }
+		92 = { "92nd Armoured Division" }
+		93 = { "93rd Armoured Division" }
+		94 = { "94th Armoured Division" }
+		95 = { "95th Armoured Division" }
+		96 = { "96th Armoured Division" }
+		97 = { "97th Armoured Division" }
+		98 = { "98th Armoured Division" }
+		99 = { "99th Armoured Division" }
+	}
+}
+GENERIC_MEC_01 = 
 {
 	name = "Mechanised Divisions"
 

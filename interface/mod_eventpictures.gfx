@@ -263,6 +263,10 @@ spriteTypes = {
 		name = "GFX_report_event_IRQ_kurdish_militant_attack"
 		texturefile = "gfx/event_pictures/IRQ/report_event_IRQ_kurdish_militant_attack.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_IRQ_saddam_election"
+		texturefile = "gfx/event_pictures/IRQ/report_event_IRQ_saddam_election.png"
+	}
 	
 	# VIN #
 	spriteType = {

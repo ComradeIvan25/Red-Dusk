@@ -5,7 +5,7 @@
 		factor = 0
 		modifier = {
 		tag = SOV
-		add = 0
+		add = 999
 		}
 	}
 	
@@ -168,6 +168,13 @@
                                     ideology = communism
                                     popularity = 0.2
                                 }
+			add_to_variable = {sov_hardliner_influence_var = 10}
+			custom_effect_tooltip = hardliner_10_influence_increase
+			subtract_from_variable = {sov_militarist_influence_var = 5}
+			custom_effect_tooltip = army_5_influence_decrease
+			subtract_from_variable = {sov_reformist_influence_var = 5 }
+			custom_effect_tooltip = reformist_5_influence_decrease
+			
 		}
 	}
 	focus = {
@@ -192,6 +199,10 @@
 		continue_if_invalid = no
 		completion_reward = {
 			add_political_power = 20
+			add_to_variable = {sov_hardliner_influence_var = 5}
+			custom_effect_tooltip = hardliner_5_influence_increase
+			add_to_variable = {sov_kgb_influence_var = 5 }
+			custom_effect_tooltip = kgb_5_influence_increase
 		}
 	}
 	focus = {
@@ -226,6 +237,10 @@
                                     ideology = communism
                                     popularity = 0.07
                                 }
+			add_to_variable = {sov_hardliner_influence_var = 5}
+			custom_effect_tooltip = hardliner_5_influence_increase
+			subtract_from_variable = {sov_reformist_influence_var = 10 }
+			custom_effect_tooltip = reformist_10_influence_decrease
 		}
 	}
 	focus = {
@@ -250,6 +265,10 @@
 		continue_if_invalid = no
 		completion_reward = {
 			add_political_power = 20
+			add_to_variable = {sov_hardliner_influence_var = 5}
+			custom_effect_tooltip = hardliner_5_influence_increase
+			add_to_variable = {sov_kgb_influence_var = 5 }
+			custom_effect_tooltip = kgb_5_influence_increase
 		}
 	}
 	focus = {
@@ -275,6 +294,8 @@
 		completion_reward = {
 			add_stability = 0.05
 			add_political_power = 30
+			add_to_variable = {sov_hardliner_influence_var = 10}
+			custom_effect_tooltip = hardliner_10_influence_increase
 		}
 	}
 	focus = {
@@ -306,6 +327,10 @@
 		completion_reward = {
 			add_ideas = SOV_pugo_order
 			add_political_power = 20
+			add_to_variable = {sov_hardliner_influence_var = 10}
+			custom_effect_tooltip = hardliner_10_influence_increase
+			add_to_variable = {sov_kgb_influence_var = 10 }
+			custom_effect_tooltip = kgb_10_influence_increase
 		}
 	}
 	focus = {

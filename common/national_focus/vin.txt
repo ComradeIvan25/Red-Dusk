@@ -761,6 +761,11 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		prerequisite = { focus = VIN_Negotiating_with_EU focus = VIN_Flight_to_Pyongyang}
+		prerequisite = { focus = VIN_open_more_industrial_zones focus = VIN_Agriculture_is_the_key_to_Industrialization} 
+		prerequisite = { focus = VIN_Labour_is_glorious focus = VIN_Focus_on_light_industries_first} 		
+		
+
 	}
 	
     

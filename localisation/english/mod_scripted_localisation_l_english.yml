@@ -170,6 +170,13 @@
  yug_won_over_yugoslavia_milosevic_communist:0 "§GAt last we have won aganist reactionaries that threathened to end our Unitery Socialist Republic back in 91' and reunified Yugoslavia \n\nBrotherhood and Unity forever! \n\nGains Cores On All of Yugoslavia\n\n§!"
  yug_won_over_yugoslavia_milosevic_nationalist:0 "§RAt last we have won aganist the pesky Croats, Bosniaks, Albanians, Slovenians that threathened to end our Serbian State back in 91' and reunified Serbia to its natural borders \n\Nživela Srbija! \n\nGains Cores On All of Greater Serbia\n\n§!"
  
+ #YUG GUI#####
+  
+ yug_this_opens_da_gui:0 "The situation of the republics in Yugoslavia"
+ republics_of_yugoslavia_loc:0 "The Republics of Yugoslavia"
+ yug_bosnia_loc:0 "Socialist Republic of Bosnia"
+ yug_macedonia_loc:0 "Socialist Republic of Macedonia"
+ yug_serbia_loc:0 "Republic of Serbia"
  ###CULTURE WAR###
  
  culture_war_leaning_balanced:0 "§gBalanced§!"
@@ -209,35 +216,38 @@
  this_faction_rules_the_nation_reformist:0 "The §tReformer Faction§! currently rules the nation."
  this_faction_rules_the_nation_kgb:0 "The §OKGB Faction§! currently rules the nation."
  
- hardliner_5_influence_increase:0 "The §R£sov_hardliner_faction_texticon Hardliner Faction§!'s influence increases by 5."
- army_5_influence_increase:0 "The §g£sov_army_faction_texticon Militarist Faction§!'s influence increases by 5."
- reformist_5_influence_increase:0 "The §t£sov_reformist_faction_texticon Reformist Faction§!'s influence increases by 5."
- kgb_5_influence_increase:0 "The §O£sov_kgb_faction_texticon KGB Faction§!'s influence increases by 5."
- hardliner_10_influence_increase:0 "The §R£sov_hardliner_faction_texticon Hardliner Faction§!'s influence increases by 10."
- army_10_influence_increase:0 "The §g£sov_army_faction_texticon Militarist Faction§!'s influence increases by 10."
- reformist_10_influence_increase:0 "The §t£sov_reformist_faction_texticon Reformist Faction§!'s influence increases by 10."
- kgb_10_influence_increase:0 "The §O£sov_kgb_faction_texticon KGB Faction§!'s influence increases by 10."
- hardliner_15_influence_increase:0 "The §R£sov_hardliner_faction_texticon Hardliner Faction§!'s influence increases by 15."
- hardliner_20_influence_increase:0 "The §R£sov_hardliner_faction_texticon Hardliner Faction§!'s influence increases by 20."
- army_20_influence_increase:0 "The §g£sov_army_faction_texticon Militarist Faction§!'s influence increases by 20."
- reformist_20_influence_increase:0 "The §t£sov_reformist_faction_texticon Reformist Faction§!'s influence increases by 20."
- kgb_20_influence_increase:0 "The §O£sov_kgb_faction_texticon KGB Faction§!'s influence increases by 20."
+ hardliner_5_influence_increase:0 "The §R£sov_hardliner_faction_texticon Hardliner Faction§!'s influence §Gincreases§! by 5."
+ army_5_influence_increase:0 "The §g£sov_army_faction_texticon Militarist Faction§!'s influence §Gincreases§! by 5."
+ reformist_5_influence_increase:0 "The §t£sov_reformist_faction_texticon Reformist Faction§!'s influence §Gincreases§! by 5."
+ kgb_5_influence_increase:0 "The §O£sov_kgb_faction_texticon KGB Faction§!'s influence §Gincreases§! by 5."
+ hardliner_10_influence_increase:0 "The §R£sov_hardliner_faction_texticon Hardliner Faction§!'s influence §Gincreases§! by 10."
+ army_10_influence_increase:0 "The §g£sov_army_faction_texticon Militarist Faction§!'s influence §Gincreases§! by 10."
+ reformist_10_influence_increase:0 "The §t£sov_reformist_faction_texticon Reformist Faction§!'s influence §Gincreases§! by 10."
+ kgb_10_influence_increase:0 "The §O£sov_kgb_faction_texticon KGB Faction§!'s influence §Gincreases§! by 10."
+ hardliner_15_influence_increase:0 "The §R£sov_hardliner_faction_texticon Hardliner Faction§!'s influence §Gincreases§! by 15."
+ hardliner_20_influence_increase:0 "The §R£sov_hardliner_faction_texticon Hardliner Faction§!'s influence §Gincreases§! by 20."
+ army_20_influence_increase:0 "The §g£sov_army_faction_texticon Militarist Faction§!'s influence §Gincreases§! by 20."
+ reformist_20_influence_increase:0 "The §t£sov_reformist_faction_texticon Reformist Faction§!'s influence §Gincreases§! by 20."
+ kgb_20_influence_increase:0 "The §O£sov_kgb_faction_texticon KGB Faction§!'s influence §Gincreases§! by 20."
  
  sov_opposing_factions_gains_influence:0 "§RFactions that oppose us gains influence!§!"
  
  
- army_5_influence_decrease:0 "The §g£sov_army_faction_texticon Militarist Faction§!'s influence decreases by 5."
- army_10_influence_decrease:0 "The §g£sov_army_faction_texticon Militarist Faction§!'s influence decreases by 10."
+ army_5_influence_decrease:0 "The §g£sov_army_faction_texticon Militarist Faction§!'s influence §Rdecreases§! by 5."
+ army_10_influence_decrease:0 "The §g£sov_army_faction_texticon Militarist Faction§!'s influence §Rdecreases§! by 10."
 
- hardliner_15_influence_decrease:0 "The §R£sov_hardliner_faction_texticon Hardliner Faction§!'s influence decreases by 15."
- army_15_influence_decrease:0 "The §g£sov_army_faction_texticon Militarist Faction§!'s influence decreases by 15."
- reformist_15_influence_decrease:0 "The §t£sov_reformist_faction_texticon Reformist Faction§!'s influence decreases by 15."
- sov_militarists_and_reformists_lose_30: "The §g£sov_army_faction_texticon Militarist Faction§! and §t£sov_reformist_faction_texticon Reformist Faction§!'s influence decreases by 30."
+ reformist_5_influence_decrease:0 "The §t£sov_reformist_faction_texticon Reformist Faction§!'s influence §Rdecreases§! by 5."
+ reformist_10_influence_decrease:0 "The §t£sov_reformist_faction_texticon Reformist Faction§!'s influence §Rdecreases§! by 10."
+
+ hardliner_15_influence_decrease:0 "The §R£sov_hardliner_faction_texticon Hardliner Faction§!'s influence §Rdecreases§! by 15."
+ army_15_influence_decrease:0 "The §g£sov_army_faction_texticon Militarist Faction§!'s influence §Rdecreases§! by 15."
+ reformist_15_influence_decrease:0 "The §t£sov_reformist_faction_texticon Reformist Faction§!'s influence §Rdecreases§! by 15."
+ sov_militarists_and_reformists_lose_30: "The §g£sov_army_faction_texticon Militarist Faction§! and §t£sov_reformist_faction_texticon Reformist Faction§!'s influence §Rdecreases§! by 30."
  
- sov_all_factions_lose_5_hardliner:0 "§g£sov_army_faction_texticon Militarist§!, §t£sov_reformist_faction_texticon Reformist§!, and the §O£sov_kgb_faction_texticon KGB§! factions lose 5 influence."
- sov_all_factions_lose_5_militarist:0 "§R£sov_hardliner_faction_texticon Hardliner§!, §t£sov_reformist_faction_texticon Reformist§!, and the §O£sov_kgb_faction_texticon KGB§! factions lose 5 influence."
- sov_all_factions_lose_5_reformist:0 "§R£sov_hardliner_faction_texticon Hardliner§!, §g£sov_army_faction_texticon Militarist§!, and the §O£sov_kgb_faction_texticon KGB§! factions lose 5 influence."
- sov_all_factions_lose_5_kgb:0 "§R£sov_hardliner_faction_texticon Hardliner§!, §t£sov_reformist_faction_texticon Reformist§!, and the §g£sov_army_faction_texticon Militarist§! factions lose 5 influence." ####RESISTANCE STUFF FOR SOVIET#########
+ sov_all_factions_lose_5_hardliner:0 "§g£sov_army_faction_texticon Militarist§!, §t£sov_reformist_faction_texticon Reformist§!, and the §O£sov_kgb_faction_texticon KGB§! factions §Rlose§! 5 influence."
+ sov_all_factions_lose_5_militarist:0 "§R£sov_hardliner_faction_texticon Hardliner§!, §t£sov_reformist_faction_texticon Reformist§!, and the §O£sov_kgb_faction_texticon KGB§! factions §Rlose§! 5 influence."
+ sov_all_factions_lose_5_reformist:0 "§R£sov_hardliner_faction_texticon Hardliner§!, §g£sov_army_faction_texticon Militarist§!, and the §O£sov_kgb_faction_texticon KGB§! factions §Rlose§! 5 influence."
+ sov_all_factions_lose_5_kgb:0 "§R£sov_hardliner_faction_texticon Hardliner§!, §t£sov_reformist_faction_texticon Reformist§!, and the §g£sov_army_faction_texticon Militarist§! factions §Rlose§! 5 influence." ####RESISTANCE STUFF FOR SOVIET#########
  
  spet_decision_unlock_tt:0 "§GUnlocks Special Action Decisions\n\n§!"
  this_might_end_bad_bozo:0 "§YThis operation might end § §Rvery bad\n\n§!"

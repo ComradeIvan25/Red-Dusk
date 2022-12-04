@@ -549,7 +549,10 @@
  irq.28.t:0 "The power is back!"
  irq.28.d:0 ""
  irq.28.a:0 ""
-
+ irq.29.t:0 "2002 Presidential Referendum"
+ irq.29.d:0 "With Saddam's 7 years term ending , another election was organized to determine Iraq's future and Saddam's support in the Iraqi people.\n\nThe ballots had 2 options, one approving renewal of Saddam's presidency and the other "rejecting" it.The voting centers were heavily guarded by soldiers to protect the democratic process from any sabotages.\n\nAs the ballots were finished getting count, it was clear that Saddan had won the election with every single eligable citizen of Iraq confidently voting for our great leader Saddam Huseein to rule another 7 years, renewing his term.\n\nWinning 100% of the vote shows us just how popular our current policies are with multiple people even signing the ballot with their own blood to show their loyalty to Saddam Huseein.\n\nMany celebrations broke out in the major cities congratulating Saddam's fair and accurate victory, patriotism was all-time high in the celebrations with crowds trampling over and burning Israeli & American Flags."
+ irq.29.a:0 "Popularity Western "democracies" could only dream of."
+ 
  irq_kurdish.1.t:0 "Talks with the Kurdistan Democratic Party fail"
  irq_kurdish.1.d:0 "Despite three months of constant talks and negotiations, we have failed to reach any agreement with the Kurdistan Democratic Party. Although we offered countless concessions and promises, the Kurdish negotiators seemed to almost purposefully demand conditions that are clearly unacceptable to us. It appears that any diplomatic solution to the Kurdish issue will be non-existent for some time."
  irq_kurdish.1.a:0 "Unfortunate"

@@ -60,5 +60,26 @@ spriteTypes = {
 		name = "GFX_indian_tsunami_influence_table"
 		texturefile = "gfx/interface/scripted_gui/indian_tsunami_influence_table.dds"
 	}
-
+	
+	SpriteType = {
+		name = "GFX_square_background_gui"
+		texturefile = "gfx/interface/scripted_gui/square_background_gui.dds"
+	}
+	SpriteType = {
+		name = "GFX_yug_republics_icon_gui"
+		texturefile = "gfx/interface/scripted_gui/yug_republics_icon.dds"
+	}
+	SpriteType = {
+		name = "GFX_yug_sr_bosnia_flag_icon_gui"
+		texturefile = "gfx/interface/scripted_gui/yug_sr_bosnia_flag_icon.dds"
+	}
+	SpriteType = {
+		name = "GFX_yug_sr_macedonia_flag_icon_gui"
+		texturefile = "gfx/interface/scripted_gui/yug_sr_macedonia_flag_icon.dds"
+	}
+	SpriteType = {
+		name = "GFX_yug_serbia_flag_icon_gui"
+		texturefile = "gfx/interface/scripted_gui/yug_serbia_flag_icon.dds"
+	}
+	
 }

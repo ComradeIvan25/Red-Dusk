@@ -430,6 +430,12 @@ focus_tree = {
 		y = 11
 		
 		prerequisite = {focus = YUG_operation_strela}
+		available = {
+			NOT = {
+			country_exists = CRO
+			country_exists = SLV
+			}
+		}
 		mutually_exclusive = { }
 		
 		cost = 10

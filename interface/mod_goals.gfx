@@ -836,6 +836,82 @@ spriteTypes = {
 		name = "GFX_focus_SOV_more_pc_more_efficency"
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_more_efficency.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_SOV_fund_the_communist_world"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_fund_the_communist_world.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_re_introduce_comecon"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_re-introduce_comecon.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_merge_MVD_GVD"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_merge_MVD-GVD.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_spread_COMECON_to_potential_allies"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_spread_COMECON_to_potential_allies.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_domestic_issues_pugo"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_domestic_issues_pugo.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_stalin_rehabilitate2"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_stalin_rehabilitate2.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_great_legacy"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_great_legacy.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_stalin_government"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_stalin_government.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_promote_local_culture"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_promote_local_culture.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_RSFSR"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_RSFSR.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_soviet_culture"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_soviet_culture.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_return_to_latin_alphabet"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_return_to_latin_alphabet.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_fund_russian_industries"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_fund_russian_industries.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_sponsor_soviet_youth"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_sponsor_soviet_youth.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_increase_repression"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_increase_repression.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_status_of_the_party"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_status_of_the_party.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_rid_it_of_corruption"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_rid_it_of_corruption.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_increase_komsomol_spending"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_increase_komsomol_spending.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_problems_solved"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_problems_solved.png"
+	}
 
    ###IRQ###
 

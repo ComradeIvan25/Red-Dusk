@@ -2,6 +2,10 @@ focus_tree = {
 	id = yug_commie_milosevic_focus
 	country = {
 		factor = 0
+		modifier = {
+		tag = YUG
+		add = 99999
+		}
 	}
 		
 	default = no
@@ -368,6 +372,12 @@ focus_tree = {
 		y = 10
 		
 		prerequisite = {focus = YUG_operation_proleter}
+		available = {
+			NOT = {
+			country_exists = CRO
+			country_exists = SLV
+			}
+		}
 		mutually_exclusive = { }
 		
 		cost = 10

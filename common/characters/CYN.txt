@@ -4,7 +4,7 @@ characters = {
 		name = "Rauf Denkas"
 		portraits = {
 			civilian = {
-				#large = "gfx/leaders/CYP/Glafkos_Clerides.dds"
+				large = "gfx/leaders/CYN/Rauf_Denktas.png"
 			}
 		}
 		country_leader = {

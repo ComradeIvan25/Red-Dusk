@@ -636,6 +636,7 @@ country_event = {
 		}
 		add_ideas = UGA_konys_cult
 		add_ideas = UGA_an_army_of_criminals
+		remove_ideas = usa_aligned_nation
 		army_experience = 15
 		ai_chance = {
 		factor = 50
@@ -669,6 +670,7 @@ country_event = {
 		add_ideas = UGA_forced_sharia
 		add_ideas = UGA_minority_rule
 		add_ideas = UGA_an_army_of_criminals
+		remove_ideas = usa_aligned_nation
 		army_experience = 15
 		ai_chance = {
 		factor = 50

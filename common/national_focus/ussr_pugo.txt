@@ -728,6 +728,7 @@
 				remove_idea = SOV_pugo_order
 				add_idea = SOV_pugo_order2
 			}
+			complete_national_focus = SOV_pugos_policies
 		}
 	}
 	
@@ -2176,6 +2177,1197 @@
 		}
 	}
 
+	## PUGO'S POLICIES ##
+	
+	focus = {
+		id = SOV_pugos_policies
+		icon = GFX_SOV_gensec_pugo
+		x = -10
+		y = 0
+
+		prerequisite = {
+		}
+		mutually_exclusive = { 
+		}
+		available = {has_completed_focus = SOV_general_secretary_pugo}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_fund_the_communist_world
+		icon = GFX_focus_SOV_fund_the_communist_world
+		x = -10
+		y = 1
+
+		prerequisite = {
+			focus = SOV_pugos_policies
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugos_policies
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+
+	focus = {
+		id = SOV_pugo_re_introduce_comecon
+		icon = GFX_focus_SOV_re_introduce_comecon
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = SOV_pugo_fund_the_communist_world
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_fund_the_communist_world
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_merge_NVD_KGB
+		icon = GFX_SOV_gensec_pugo
+		x = -1
+		y = 2
+
+		prerequisite = {
+			focus = SOV_pugo_re_introduce_comecon
+		}
+		mutually_exclusive = { 
+			focus = SOV_pugo_merge_NVD_GVD
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_fund_the_communist_world
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_merge_NVD_GVD
+		icon = GFX_focus_SOV_merge_MVD_GVD
+		x = 1
+		y = 2
+
+		prerequisite = {
+			focus = SOV_pugo_re_introduce_comecon
+		}
+		mutually_exclusive = { 
+			focus = SOV_pugo_merge_NVD_KGB
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_fund_the_communist_world
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_spread_comecon_to_potential_allies
+		icon = GFX_focus_SOV_spread_COMECON_to_potential_allies
+		x = 0
+		y = 3
+
+		prerequisite = {
+			focus = SOV_pugo_merge_NVD_KGB
+			focus = SOV_pugo_merge_NVD_GVD
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_fund_the_communist_world
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_increase_KGB_spending
+		icon = GFX_SOV_gensec_pugo
+		x = 0
+		y = 4
+
+		prerequisite = {
+			focus = SOV_pugo_spread_comecon_to_potential_allies
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_fund_the_communist_world
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_preparing_for_party_congress
+		icon = GFX_SOV_gensec_pugo
+		x = 0
+		y = 5
+
+		prerequisite = {
+			focus = SOV_pugo_increase_KGB_spending
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_fund_the_communist_world
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_address_the_domestic_problems
+		icon = GFX_focus_SOV_domestic_issues_pugo
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = SOV_pugos_policies
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugos_policies
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_rehab_stalin
+		icon = GFX_focus_SOV_stalin_rehabilitate2
+		x = -5
+		y = 2
+
+		prerequisite = {
+			focus = SOV_pugo_address_the_domestic_problems
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_address_the_domestic_problems
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_a_great_legacy
+		icon = GFX_focus_SOV_great_legacy
+		x = -1
+		y = 1
+
+		prerequisite = {
+			focus = SOV_pugo_rehab_stalin
+		}
+		mutually_exclusive = { 
+			focus = SOV_pugo_a_flawed_leader
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_rehab_stalin
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_rehab_stalins_gov
+		icon = GFX_focus_SOV_stalin_government
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = SOV_pugo_a_great_legacy
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_a_great_legacy
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_rename_back_the_cities
+		icon = GFX_SOV_gensec_pugo
+		x = 0
+		y = 2
+
+		prerequisite = {
+			focus = SOV_pugo_rehab_stalins_gov
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_a_great_legacy
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_a_flawed_leader
+		icon = GFX_SOV_gensec_pugo
+		x = 1
+		y = 1
+
+		prerequisite = {
+			focus = SOV_pugo_rehab_stalin
+		}
+		mutually_exclusive = { 
+			focus = SOV_pugo_a_great_legacy
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_rehab_stalin
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_denounce_the_crimes
+		icon = GFX_SOV_gensec_pugo
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = SOV_pugo_a_flawed_leader
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_a_flawed_leader
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_praise_the_successes
+		icon = GFX_SOV_gensec_pugo
+		x = 0
+		y = 2
+
+		prerequisite = {
+			focus = SOV_pugo_denounce_the_crimes
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_a_flawed_leader
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_continue_russification
+		icon = GFX_SOV_gensec_pugo
+		x = 0
+		y = 2
+
+		prerequisite = {
+			focus = SOV_pugo_address_the_domestic_problems
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_address_the_domestic_problems
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_promote_local_cultures
+		icon = GFX_focus_SOV_promote_local_culture
+		x = -1
+		y = 1
+
+		prerequisite = {
+			focus = SOV_pugo_continue_russification
+		}
+		mutually_exclusive = { 
+			focus = SOV_pugo_maintain_RSFSR_dominance
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_continue_russification
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_return_the_latin_alphabet
+		icon = GFX_focus_SOV_return_to_latin_alphabet
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = SOV_pugo_promote_local_cultures
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_promote_local_cultures
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_fund_neglected_SSRs
+		icon = GFX_SOV_gensec_pugo
+		x = 0
+		y = 2
+
+		prerequisite = {
+			focus = SOV_pugo_return_the_latin_alphabet
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_promote_local_cultures
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_maintain_RSFSR_dominance
+		icon = GFX_focus_SOV_RSFSR
+		x = 1
+		y = 1
+
+		prerequisite = {
+			focus = SOV_pugo_continue_russification
+		}
+		mutually_exclusive = { 
+			focus = SOV_pugo_promote_local_cultures
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_continue_russification
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_re_enforce_soviet_culture
+		icon = GFX_focus_SOV_soviet_culture
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = SOV_pugo_maintain_RSFSR_dominance
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_maintain_RSFSR_dominance
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_fund_russian_industries
+		icon = GFX_focus_SOV_fund_russian_industries
+		x = 0
+		y = 2
+
+		prerequisite = {
+			focus = SOV_pugo_re_enforce_soviet_culture
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_maintain_RSFSR_dominance
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_the_question_of_religion
+		icon = GFX_SOV_gensec_pugo
+		x = 5
+		y = 2
+
+		prerequisite = {
+			focus = SOV_pugo_address_the_domestic_problems
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_address_the_domestic_problems
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_ease_on_repression
+		icon = GFX_SOV_gensec_pugo
+		x = -1
+		y = 1
+
+		prerequisite = {
+			focus = SOV_pugo_the_question_of_religion
+		}
+		mutually_exclusive = { 
+			focus = SOV_pugo_increase_repression
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_the_question_of_religion
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_promote_zyuganov_pespective
+		icon = GFX_SOV_gensec_pugo
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = SOV_pugo_ease_on_repression
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_ease_on_repression
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_ally_with_the_religious
+		icon = GFX_SOV_gensec_pugo
+		x = 0
+		y = 2
+
+		prerequisite = {
+			focus = SOV_pugo_promote_zyuganov_pespective
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_ease_on_repression
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_increase_repression
+		icon = GFX_focus_SOV_increase_repression
+		x = 1
+		y = 1
+
+		prerequisite = {
+			focus = SOV_pugo_the_question_of_religion
+		}
+		mutually_exclusive = { 
+			focus = SOV_pugo_ease_on_repression
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_the_question_of_religion
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_increase_anti_terrorist_funding
+		icon = GFX_SOV_gensec_pugo
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = SOV_pugo_increase_repression
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_increase_repression
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_sponsor_soviet_youth
+		icon = GFX_focus_SOV_sponsor_soviet_youth
+		x = 0
+		y = 2
+
+		prerequisite = {
+			focus = SOV_pugo_increase_anti_terrorist_funding
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_increase_repression
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}	
+	
+	focus = {
+		id = SOV_pugo_problems_solved
+		icon = GFX_focus_SOV_problems_solved
+		x = -6
+		y = 3
+
+		prerequisite = {
+			focus = SOV_pugo_rename_back_the_cities focus = SOV_pugo_praise_the_successes
+		}
+		prerequisite = {
+			focus = SOV_pugo_fund_neglected_SSRs focus = SOV_pugo_fund_russian_industries
+		}
+		prerequisite = {
+			focus = SOV_pugo_ally_with_the_religious focus = SOV_pugo_sponsor_soviet_youth
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_increase_repression
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}	
+	
+	focus = {
+		id = SOV_pugo_the_status_of_the_party
+		icon = GFX_focus_SOV_status_of_the_party
+		x = 10
+		y = 1
+
+		prerequisite = {
+			focus = SOV_pugos_policies
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugos_policies
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_empower_young_politicians
+		icon = GFX_SOV_gensec_pugo
+		x = -1
+		y = 1
+
+		prerequisite = {
+			focus = SOV_pugo_the_status_of_the_party
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_the_status_of_the_party
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_rid_it_of_corruption
+		icon = GFX_focus_SOV_rid_it_of_corruption
+		x = 1
+		y = 1
+
+		prerequisite = {
+			focus = SOV_pugo_the_status_of_the_party
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_the_status_of_the_party
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_increase_komsomol_spending
+		icon = GFX_focus_SOV_increase_komsomol_spending
+		x = 0
+		y = 2
+
+		prerequisite = {
+			focus = SOV_pugo_empower_young_politicians
+		}
+		prerequisite = {
+			focus = SOV_pugo_rid_it_of_corruption
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_the_status_of_the_party
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_increase_dicipline
+		icon = GFX_SOV_gensec_pugo
+		x = 0
+		y = 3
+
+		prerequisite = {
+			focus = SOV_pugo_increase_komsomol_spending
+		}
+
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_the_status_of_the_party
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_follow_zyuganov_example
+		icon = GFX_SOV_gensec_pugo
+		x = -1
+		y = 4
+
+		prerequisite = {
+			focus = SOV_pugo_increase_dicipline
+		}
+
+		mutually_exclusive = { 
+			focus = SOV_pugo_follow_udaltsov_example
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_the_status_of_the_party
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_follow_udaltsov_example
+		icon = GFX_SOV_gensec_pugo
+		x = 1
+		y = 4
+
+		prerequisite = {
+			focus = SOV_pugo_increase_dicipline
+		}
+
+		mutually_exclusive = { 
+			focus = SOV_pugo_follow_zyuganov_example
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_the_status_of_the_party
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_CPSU_reborn
+		icon = GFX_SOV_gensec_pugo
+		x = 0
+		y = 5
+
+		prerequisite = {
+			focus = SOV_pugo_follow_zyuganov_example
+			focus = SOV_pugo_follow_udaltsov_example
+		}
+
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_the_status_of_the_party
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pugo_31th_party_congress
+		icon = GFX_SOV_gensec_pugo
+		x = -10
+		y = 7
+
+		prerequisite = {
+			focus = SOV_pugo_preparing_for_party_congress
+		}
+		prerequisite = {
+			focus = SOV_pugo_problems_solved
+		}
+		prerequisite = {
+			focus = SOV_pugo_CPSU_reborn
+		}		
+
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		relative_position_id = SOV_pugo_the_status_of_the_party
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			
+		}
+	}
 
        ###ECONOMY###
        ###ECONOMY###

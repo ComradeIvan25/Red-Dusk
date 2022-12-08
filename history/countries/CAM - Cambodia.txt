@@ -12,6 +12,7 @@ set_stability = 0.4
 
 add_ideas = ussr_aligned_nation
 
+recruit_character = CAM_Chea_Sim
 recruit_character = CAM_Hun_Sen
 
 set_politics = {
@@ -23,6 +24,7 @@ set_politics = {
 
 set_popularities = {
 	democratic = 15
-	communism = 50
+	communism = 25
+        reformed_communism = 25
 	neutrality = 35
 }

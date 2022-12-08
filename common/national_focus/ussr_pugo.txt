@@ -2237,7 +2237,7 @@
 
 	focus = {
 		id = SOV_pugo_re_introduce_comecon
-		icon = GFX_focus_SOV_re_introduce_comecon
+		icon = GFX_focus_SOV_the_comecon
 		x = 0
 		y = 1
 

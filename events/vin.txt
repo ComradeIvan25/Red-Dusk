@@ -126,3 +126,16 @@ country_event = {
 		name = vin.7.a
 	}
 }
+#Congress starting
+country_event = {
+	id = vin.8
+	title = vin.8.t
+	desc = vin.8.d
+	picture = GFX_report_event_IX_CPV_congress
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vin.8.a
+	}
+}

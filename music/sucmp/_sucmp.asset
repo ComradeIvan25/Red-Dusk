@@ -18,7 +18,11 @@ music = {
 	name = "Another_Life_(extended)"
 	file = "Another_life_(extended).ogg"
 }
-name = {
+music = {
+	name = "Are_You_Satisfied?"
+	file = "Are_You_Satisfied?.ogg"
+}
+music = {
 	name = "At_The_Dangerous_Line"
 	file = "At_The_Dangerous_Line.ogg"
 }
@@ -31,6 +35,10 @@ music = {
 	file = "Battle_Hymn_Of_The_Republic.ogg"
 }
 music = {
+	name = "Bento"
+	file = "Bento.ogg"
+}
+music = {
 	name = "Back_Hole_Sun"
 	file = "Black_Hole_Sun.ogg"
 }
@@ -39,8 +47,16 @@ music = {
 	file = "Boulevard_Of_Broken_Dreams.ogg"
 }
 music = {
+	name = "BREEZIN"
+	file = "BREEZIN.ogg"
+}
+music = {
 	name = "Campaign_Brief"
 	file = "Campaign_Brief.ogg"
+}
+music = {
+	name = "Curse_Me_Good"
+	file = "Curse_Me_Good.ogg"
 }
 music = {
 	name = "Defcon_1"
@@ -53,6 +69,10 @@ music = {
 music = {
 	name = "Defcon_3"
 	file = "Defcon_3.ogg"
+}
+music = {
+	name = "Do_You_Want_To"
+	file = "Do_You_Want_To.ogg"
 }
 music = {
 	name = "Drops_Of_Jupiter"
@@ -87,6 +107,10 @@ music = {
 	file = "Highwayman.ogg"
 }
 music = {
+	name = "In_A_Big_Country"
+	file = "In_A_Big_Country.ogg"
+}
+music = {
 	name = "In_The_Room_Where_You_Sleep"
 	file = "In_The_Room_Where_You_Sleep.ogg"
 }
@@ -103,8 +127,8 @@ music = {
 	file = "Invincible_And_Legendary.ogg"
 }
 music = {
-	name = "It's_Our_Time_Our_Turn"
-	file = "It's_Our_Time_Our_turn.ogg"
+	name = "It's_Our_Time_Our_Turn!"
+	file = "It's_Our_Time_Our_turn!.ogg"
 }
 music = {
 	name = "Karavan"
@@ -115,24 +139,29 @@ music = {
 	file = "Kerber-Ratne_Igre.ogg"
 }
 music = {
-	name = "Lenin_Is_Young_Again"
-	file = "Lenin_is_Young_Again.ogg"
+	name = "Küsin_Endalt_Nõu"
+	file = "Küsin_Endalt_Nõu.ogg"
+}
+music = {
+	name = "Lady_(Hear_Me_Tonight)"
+	file = "Lady_(Hear_Me_Tonight).ogg"
 }
 music = {
 	name = "Made_In_the_USSR"
 	file = "Made_In_the_USSR.ogg"
 }
+
 music = {
-	name = "Mr._Blue_Sky"
-	file = "Mr._Blue_Sky.ogg"
+	name = "Matchbox.ogg"
+	file = "Matchbox.ogg"
 }
 music = {
 	name = "Modern_Talking-Who_Will_Save_The_World"
 	file = "Modern_Talking-Who_Will_Save_The_World.ogg"
 }
 music = {
-	name = "Nena_99_Luftballons"
-	file = "Nena_99_Luftballons.ogg"
+	name = "Mr._Blue_Sky"
+	file = "Mr._Blue_Sky.ogg"
 }
 music = {
 	name = "National_Anthem"
@@ -141,6 +170,10 @@ music = {
 music = {
 	name = "National_Anthem_of_Green_Libya"
 	file = "National_Anthem_of_Green_Libya.ogg"
+}
+music = {
+	name = "Nena_99_Luftballons"
+	file = "Nena_99_Luftballons.ogg"
 }
 music = {
 	name = "Owner_Of_A_Lonely_Heart_Extended"
@@ -157,6 +190,10 @@ music = {
 music = {
 	name = "Prljavo_Kazaliste_Ne_Zovi_Mama_Doktora"
 	file = "Prljavo_Kazaliste_Ne_Zovi_Mama_Doktora.ogg"
+}
+music = {
+	name = "Rockollection_(Version_intégrale)"
+	file = "Rockollection_(Version_intégrale).ogg"
 }
 music = {
 	name = "Sacred_War"
@@ -219,12 +256,24 @@ music = {
 	file = "The_Road_Runs_Far_(There_Is_A_Lot_Of_Fun_Ahead).ogg"
 }
 music = {
+	name = "The_Twentieth_Century_Is_Almost_Over"
+	file = "The_Twentieth_Century_Is_Almost_Over.ogg"
+}
+music = {
+	name = "This_Fffire"
+	file = "This_Fffire.ogg"
+}
+music = {
 	name = "Tie_A_Yellow_River_Round_The_Ole_Oak_Tree"
 	file = "Tie_A_Yellow_River_Round_The_Ole_Oak_Tree.ogg"
 }
 music = {
 	name = "To_Serve_Russia"
 	file = "To_Serve_Russia.ogg"
+}
+music = {
+	name = "Twilight_Zone"
+	file = "Twilight_Zone.ogg"
 }
 music = {
 	name = "Voices"
@@ -237,6 +286,10 @@ music = {
 music = {
 	name = "Warsaw_Pact"
 	file = "Warsaw_Pact.ogg"
+}
+music = {
+	name = "What_Make_A_Good_Man?"
+	file = "What_Makes_A_Good_Man?.ogg"
 }
 music = {
 	name = "What_You_Won't_Do_For_Love"

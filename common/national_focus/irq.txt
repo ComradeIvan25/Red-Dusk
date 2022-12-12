@@ -1496,8 +1496,8 @@ focus_tree = {
 			news_event = {id = old_times_news.37}
 			set_variable = {irq_uar_stability_variable = 35}
 			set_variable = {irq_centralization_progress_variable = 5}
-			set_variable = {irq_uar_stability_monthly_variable = -5}
-			set_variable = {irq_centralization_progress_monthly_variable = 2.5}
+			set_variable = {irq_uar_stability_monthly_variable = -2.5}
+			set_variable = {irq_centralization_progress_monthly_variable = 1.5}
 		}
 	}
 	

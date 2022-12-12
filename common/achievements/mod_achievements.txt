@@ -20,3 +20,56 @@ bricks_and_rubble = {
 	}
 }
 
+hot_war_get_it = {
+	
+	possible = {
+		has_start_date < 2000.01.02
+	}
+	
+	happened = {
+			OR = {
+			tag = USA
+			tag = SOV
+			}
+			has_country_flag = won_cold_war
+	}
+}
+
+dugins_wet_dream = {
+	
+	possible = {
+		has_start_date < 2000.01.02
+	}
+	
+	happened = {
+		tag = SOV
+		#im gonna code the required stuff later
+		
+	}
+}
+
+vladdys_blunder = {
+	
+	possible = {
+		has_start_date < 2000.01.02
+	}
+	
+	happened = {
+		tag = SOV
+		#im gonna code the required stuff later
+		
+	}
+}
+
+another_mans_fortune = {
+	
+	possible = {
+		has_start_date < 2000.01.02
+	}
+	
+	happened = {
+		tag = SOV
+		#im gonna code the required stuff later
+		
+	}
+}

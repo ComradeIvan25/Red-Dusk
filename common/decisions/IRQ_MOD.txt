@@ -1859,6 +1859,15 @@ irq_category_renewed_resistance = {
 			add_state_core = 920
 			add_state_core = 914
 			add_state_core = 919
+			454 = {
+			add_manpower = -3100452
+			}
+			920 = {
+			add_manpower -3034100
+			}
+			USA = {
+			add_manpower = 4353123
+			}
 		}
 	}
 	
@@ -1899,6 +1908,12 @@ irq_category_renewed_resistance = {
 		}
 		remove_effect = { 
 			add_state_core = 947
+			947 = {
+			add_manpower = -8522
+			}
+			USA = {
+			add_manpower = 8201
+			}
 		}
 	}
 
@@ -1986,6 +2001,7 @@ irq_category_a_new_state = {
 		available = {
 			original_tag = IRQ
 			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_unified_arab_dinar
 			NOT = {has_idea = IRQ_monetary_reforms}
 		}
 		visible = {
@@ -2095,19 +2111,21 @@ irq_category_a_new_state = {
 		selectable_mission = no
 		
 		complete_effect = {
+			add_to_variable = {irq_centralization_progress_monthly_variable = 2}
+			custom_effect_tooltip = irq_centralization_monthly_increased_by_2
+			add_stability = 0.05
+			set_country_flag = irq_baghdad_damascus_finished_or_failed
+		}
+		timeout_effect = {
 			add_to_variable = {irq_centralization_progress_monthly_variable = -5}
 			custom_effect_tooltip = irq_centralization_monthly_decreased_by_5
 			add_to_variable = {irq_uar_stability_monthly_variable = 7.5}
 			custom_effect_tooltip = irq_stability_monthly_decreased_by_75
 			set_country_flag = irq_baghdad_damascus_finished_or_failed
 		}
-		timeout_effect = {
-			add_to_variable = {irq_centralization_progress_monthly_variable = 2}
-			custom_effect_tooltip = irq_centralization_monthly_increased_by_2
-			add_stability = 0.05
-			set_country_flag = irq_baghdad_damascus_finished_or_failed
-		}
 	}
+	
+
 	
 	IRQ_pan_arab_divert_resources_to_centralization_efforts = {
 
@@ -2263,8 +2281,14 @@ irq_category_a_new_state = {
 		ai_will_do = {
 			factor = 0
 		}
+		complete_effect = {
+			subtract_from_variable = {irq_centralization_progress_variable = 2.5}
+			custom_effect_tooltip = irq_centralization_progress_decreased_by_25
+		}
 		remove_effect = { 
 			add_state_core = 656
+			add_to_variable = {irq_centralization_progress_monthly_variable = 0.25}
+			custom_effect_tooltip = irq_centralization_monthly_increased_by_025
 		}
 	}
 	
@@ -2301,10 +2325,16 @@ irq_category_a_new_state = {
 		cost = 50
 		fire_only_once = yes
 		ai_will_do = {
-			factor = 0
+			factor = 55
+		}
+		complete_effect = {
+			subtract_from_variable = {irq_centralization_progress_variable = 2.5}
+			custom_effect_tooltip = irq_centralization_progress_decreased_by_25
 		}
 		remove_effect = { 
 			add_state_core = 413
+			add_to_variable = {irq_centralization_progress_monthly_variable = 0.25}
+			custom_effect_tooltip = irq_centralization_monthly_increased_by_025
 		}
 	}
 	
@@ -2318,7 +2348,7 @@ irq_category_a_new_state = {
 		available = {
 			original_tag = IRQ
 			has_country_flag = irq_a_new_state
-			656 = {
+			421 = {
 			compliance > 35
 			}
 		}
@@ -2342,10 +2372,16 @@ irq_category_a_new_state = {
 		cost = 50
 		fire_only_once = yes
 		ai_will_do = {
-			factor = 0
+			factor = 55
+		}
+		complete_effect = {
+			subtract_from_variable = {irq_centralization_progress_variable = 2.5}
+			custom_effect_tooltip = irq_centralization_progress_decreased_by_25
 		}
 		remove_effect = { 
 			add_state_core = 421
+			add_to_variable = {irq_centralization_progress_monthly_variable = 0.25}
+			custom_effect_tooltip = irq_centralization_monthly_increased_by_025
 		}
 	}
 	
@@ -2385,8 +2421,14 @@ irq_category_a_new_state = {
 		ai_will_do = {
 			factor = 0
 		}
+		complete_effect = {
+			subtract_from_variable = {irq_centralization_progress_variable = 2.5}
+			custom_effect_tooltip = irq_centralization_progress_decreased_by_25
+		}
 		remove_effect = { 
 			add_state_core = 908
+			add_to_variable = {irq_centralization_progress_monthly_variable = 0.25}
+			custom_effect_tooltip = irq_centralization_monthly_increased_by_025
 		}
 	}
 	
@@ -2424,10 +2466,16 @@ irq_category_a_new_state = {
 		cost = 25
 		fire_only_once = yes
 		ai_will_do = {
-			factor = 0
+			factor = 55
+		}
+		complete_effect = {
+			subtract_from_variable = {irq_centralization_progress_variable = 2.5}
+			custom_effect_tooltip = irq_centralization_progress_decreased_by_25
 		}
 		remove_effect = { 
 			add_state_core = 680
+			add_to_variable = {irq_centralization_progress_monthly_variable = 0.25}
+			custom_effect_tooltip = irq_centralization_monthly_increased_by_025
 		}
 	}
 	
@@ -2465,10 +2513,16 @@ irq_category_a_new_state = {
 		cost = 50
 		fire_only_once = yes
 		ai_will_do = {
-			factor = 0
+			factor = 55
+		}
+		complete_effect = {
+			subtract_from_variable = {irq_centralization_progress_variable = 2.5}
+			custom_effect_tooltip = irq_centralization_progress_decreased_by_25
 		}
 		remove_effect = { 
 			add_state_core = 677
+			add_to_variable = {irq_centralization_progress_monthly_variable = 0.25}
+			custom_effect_tooltip = irq_centralization_monthly_increased_by_025
 		}
 	}
 	
@@ -2506,10 +2560,16 @@ irq_category_a_new_state = {
 		cost = 50
 		fire_only_once = yes
 		ai_will_do = {
-			factor = 0
+			factor = 55
+		}
+		complete_effect = {
+			subtract_from_variable = {irq_centralization_progress_variable = 2.5}
+			custom_effect_tooltip = irq_centralization_progress_decreased_by_25
 		}
 		remove_effect = { 
 			add_state_core = 554
+			add_to_variable = {irq_centralization_progress_monthly_variable = 0.25}
+			custom_effect_tooltip = irq_centralization_monthly_increased_by_025
 		}
 	}
 	
@@ -2548,10 +2608,16 @@ irq_category_a_new_state = {
 		cost = 50
 		fire_only_once = yes
 		ai_will_do = {
-			factor = 0
+			factor = 55
+		}
+		complete_effect = {
+			subtract_from_variable = {irq_centralization_progress_variable = 2.5}
+			custom_effect_tooltip = irq_centralization_progress_decreased_by_25
 		}
 		remove_effect = { 
 			add_state_core = 455
+			add_to_variable = {irq_centralization_progress_monthly_variable = 0.25}
+			custom_effect_tooltip = irq_centralization_monthly_increased_by_025
 		}
 	}
 	
@@ -2590,10 +2656,16 @@ irq_category_a_new_state = {
 		cost = 50
 		fire_only_once = yes
 		ai_will_do = {
-			factor = 0
+			factor = 55
+		}
+		complete_effect = {
+			subtract_from_variable = {irq_centralization_progress_variable = 2.5}
+			custom_effect_tooltip = irq_centralization_progress_decreased_by_25
 		}
 		remove_effect = { 
 			add_state_core = 553
+			add_to_variable = {irq_centralization_progress_monthly_variable = 0.25}
+			custom_effect_tooltip = irq_centralization_monthly_increased_by_025
 		}
 	}
 	
@@ -2614,7 +2686,7 @@ irq_category_a_new_state = {
 			has_country_flag = irq_a_new_state
 			controls_state = 947
 		}
-		days_remove = 50
+		days_remove = 75
 		modifier {
 		}
 		
@@ -2630,12 +2702,22 @@ irq_category_a_new_state = {
 		cost = 50
 		fire_only_once = yes
 		ai_will_do = {
-			factor = 0
+			factor = 55
+		}
+		complete_effect = {
+			subtract_from_variable = {irq_centralization_progress_variable = 2.5}
+			custom_effect_tooltip = irq_centralization_progress_decreased_by_25
 		}
 		remove_effect = { 
-				
 			add_state_core = 947
-
+			add_to_variable = {irq_centralization_progress_monthly_variable = 0.25}
+			custom_effect_tooltip = irq_centralization_monthly_increased_by_025
+			947 = {
+			add_manpower = -7202
+			}
+			USA = {
+			add_manpower = 7002
+			}
 		}
 	}
 	
@@ -2657,7 +2739,7 @@ irq_category_a_new_state = {
 			PAL = {controls_state = 454}
 		}
 		days_remove = 155
-		modifier {
+		modifier {				
 		}
 		
 		
@@ -2672,8 +2754,15 @@ irq_category_a_new_state = {
 		cost = 250
 		fire_only_once = yes
 		ai_will_do = {
-			factor = 0
+			factor = 9999
 		}
+
+		complete_effect = {
+			subtract_from_variable = {irq_centralization_progress_variable = 2.5}
+			custom_effect_tooltip = irq_centralization_progress_decreased_by_25
+
+		}
+		
 		remove_effect = { 
 			annex_country = {
 				target = PAL
@@ -2683,6 +2772,17 @@ irq_category_a_new_state = {
 			add_state_core = 920
 			add_state_core = 914
 			add_state_core = 919
+			454 = {
+			add_manpower = -2142452
+			}
+			920 = {
+			add_manpower -2034142
+			}
+			USA = {
+			add_manpower = 4353123
+			}
+			add_to_variable = {irq_centralization_progress_monthly_variable = 0.25}
+			custom_effect_tooltip = irq_centralization_monthly_increased_by_025
 		}
 	}
 }

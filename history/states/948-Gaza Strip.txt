@@ -1,0 +1,20 @@
+state={
+	id=948
+	name="STATE_948"
+	provinces={
+		13293 
+	}
+		history={
+		owner = PAL
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			13293 1
+		}
+		add_core_of = PAL
+	}
+	manpower=23415
+	state_category = urban
+}

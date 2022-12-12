@@ -28,6 +28,14 @@ music = {
 	}
 }
 music = {
+	song = "Are_You_Satisfied?"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
 	song = "At_The_Dangerous_Line"
 	chance = {
 		modifier = {
@@ -60,7 +68,23 @@ music = {
 	}
 }
 music = {
+	song = "Black_Hole_Sun"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
 	song = "Boulevard_Of_Broken_Dreams"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "BREEZIN"
 	chance = {
 		modifier = {
 			factor = 1
@@ -74,6 +98,9 @@ music = {
 			factor = 1
 		}
 	}
+}
+music = {
+	song = "Curse_Me_Good"
 }
 music = {
 	song = "Defcon_1"
@@ -100,10 +127,18 @@ music = {
 	}
 }
 music = {
-	song = "Everybody_Wants_To_Rule_The_World_extended"
+	song = "Do_You_Want_To"
 	chance = {
 		modifier = {
-			factor = 1
+			fcator = 1
+		}
+	}
+}
+music = {
+	song = "Drops_Of_Jupiter"
+	chance = {
+		modifier = {
+			chance = 1
 		}
 	}
 }
@@ -117,6 +152,14 @@ music = {
 }
 music = {
 	song = "Eto_Govorim_My"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Everybody_Wants_To_Rule_The_World_extended"
 	chance = {
 		modifier = {
 			factor = 1
@@ -149,6 +192,14 @@ music = {
 }
 music = {
 	song = "Highwayman"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "In_A_Big_Country"
 	chance = {
 		modifier = {
 			factor = 1
@@ -204,10 +255,34 @@ music = {
 	}
 }
 music = {
+	song = "Küsin_Endalt_Nõu"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Lady_(Hear_Me_Tonight)"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
 	song = "Made_In_the_USSR"
 	chance = {
 		modifier = {
 			factor =1
+		}
+	}
+}
+music = {
+	song = "Mathbox"
+	chance = {
+		modifier = {
+			factor = 1
 		}
 	}
 }
@@ -228,7 +303,7 @@ music = {
 	}
 }
 music = {
-	song = "National_Anthem"
+	song = "National_Anthem_of_Green_Libya"
 	chance = {
 		modifier = {
 			factor = 1
@@ -236,7 +311,7 @@ music = {
 	}
 }
 music = {
-	song = "National_Anthem_of_Green_Libya"
+	song = "National_Anthem"
 	chance = {
 		modifier = {
 			factor = 1
@@ -276,6 +351,14 @@ music = {
 }
 music = {
 	song = "Prljavo_Kazaliste_Ne_Zovi_Mama_Doktora"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Rockollection_(Version_intégrale)"
 	chance = {
 		modifier = {
 			factor = 1
@@ -347,6 +430,30 @@ music = {
 	}
 }
 music = {
+	song = "That's_Alright_Mama"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "The_Battle_Is_Going_Again!"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "The_Downeaster_Alexa"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
 	song = "The_Internationale_2000-Maxx_Klaxon"
 	chance = {
 		modifier = {
@@ -355,7 +462,31 @@ music = {
 	}
 }
 music = {
-	song = "Tie_A_Yellow_River_Round_The_Ole_Oak_Tree"
+	song = "The_Road_Runs_Far_(There_Is_A_Lot_Of_Fun_Ahead)"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "The_Twentieth_Century_Is_Almost_Over"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "This_Fffire"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Tie_A_Yellow_Ribbon_Round_The_Ole_Oak_Tree"
 	chance = {
 		modifier = {
 			factor = 1
@@ -371,7 +502,7 @@ music = {
 	}
 }
 music = {
-	song = "Voices"
+	song = "Twilight_Zone"
 	chance = {
 		modifier = {
 			factor = 1
@@ -379,7 +510,7 @@ music = {
 	}
 }
 music = {
-	song = "Warsaw_Pact"
+	song = "Voices"
 	chance = {
 		modifier = {
 			factor = 1
@@ -395,8 +526,24 @@ music = {
 	}
 }
 music = {
-	song = "What_You_Won't_Do_For_Love"
+	song = "Warsaw_Pact"
 	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "What_Makes_A_Good_Man?"
+	chance = {
+		modifier = {
+			factor  = 1
+		}
+	}
+}
+music = {
+	song = "What_You_Wont_Do_For_Love"
+	chance = [
 		modifier = {
 			factor = 1
 		}

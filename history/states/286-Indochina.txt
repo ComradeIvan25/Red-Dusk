@@ -4,7 +4,7 @@ state={
 	resources={
 		rubber=55 # was: 94.000
                 tungsten=3
-                aluminum=21
+                aluminium=21
 	}
 
 	history={

@@ -13,8 +13,8 @@ music = {
 	file = "Another_life_(extended).ogg"
 }
 music = {
-	name = "Are_You_Satisfied?"
-	file = "Are_You_Satisfied?.ogg"
+	name = "Are_You_Satisfied"
+	file = "Are_You_Satisfied.ogg"
 }
 music = {
 	name = "At_The_Dangerous_Line"
@@ -33,7 +33,7 @@ music = {
 	file = "Bento.ogg"
 }
 music = {
-	name = "Back_Hole_Sun"
+	name = "Black_Hole_Sun"
 	file = "Black_Hole_Sun.ogg"
 }
 music = {
@@ -121,8 +121,8 @@ music = {
 	file = "Invincible_And_Legendary.ogg"
 }
 music = {
-	name = "It's_Our_Time_Our_Turn!"
-	file = "It's_Our_Time_Our_turn!.ogg"
+	name = "It's_Our_Time_Our_Turn"
+	file = "It's_Our_Time_Our_turn.ogg"
 }
 music = {
 	name = "Karavan"
@@ -133,12 +133,12 @@ music = {
 	file = "Kerber-Ratne_Igre.ogg"
 }
 music = {
-	name = "Küsin_Endalt_Nõu"
-	file = "Küsin_Endalt_Nõu.ogg"
+	name = "Kusin_Endalt_Nou"
+	file = "Kusin_Endalt_Nou.ogg"
 }
 music = {
-	name = "Lady_(Hear_Me_Tonight)"
-	file = "Lady_(Hear_Me_Tonight).ogg"
+	name = "Lady_Hear_Me_Tonight"
+	file = "Lady_Hear_Me_Tonight.ogg"
 }
 music = {
 	name = "Made_In_the_USSR"
@@ -146,7 +146,7 @@ music = {
 }
 
 music = {
-	name = "Matchbox.ogg"
+	name = "Matchbox"
 	file = "Matchbox.ogg"
 }
 music = {
@@ -184,10 +184,6 @@ music = {
 music = {
 	name = "Prljavo_Kazaliste_Ne_Zovi_Mama_Doktora"
 	file = "Prljavo_Kazaliste_Ne_Zovi_Mama_Doktora.ogg"
-}
-music = {
-	name = "Rockollection_(Version_intégrale)"
-	file = "Rockollection_(Version_intégrale).ogg"
 }
 music = {
 	name = "Sacred_War"
@@ -234,8 +230,12 @@ music = {
 	file = "Swallowing_Dust.ogg"
 }
 music = {
+	name = "Thats_Alright_Mama"
+	file = "Thats_Alright_Mama.ogg"
+}
+music = {
 	name = "The_Battle_Is_Going_Again"
-	file = "The_Battle_Is_Going_Again!.ogg"
+	file = "The_Battle_Is_Going_Again.ogg"
 }
 music = {
 	name = "The_Downeaster_Alexa"
@@ -247,7 +247,7 @@ music = {
 }
 music = {
 	name = "The_Road_Runs_Far_There_Is_A_Lot_Of_Fun_Ahead"
-	file = "The_Road_Runs_Far_(There_Is_A_Lot_Of_Fun_Ahead).ogg"
+	file = "The_Road_Runs_Far_There_Is_A_Lot_Of_Fun_Ahead.ogg"
 }
 music = {
 	name = "The_Twentieth_Century_Is_Almost_Over"
@@ -282,12 +282,12 @@ music = {
 	file = "Warsaw_Pact.ogg"
 }
 music = {
-	name = "What_Make_A_Good_Man?"
-	file = "What_Makes_A_Good_Man?.ogg"
+	name = "What_Makes_A_Good_Man"
+	file = "What_Makes_A_Good_Man.ogg"
 }
 music = {
-	name = "What_You_Won't_Do_For_Love"
-	file = "What_You_Won't_Do_for_Love.ogg"
+	name = "What_You_Wont_Do_For_Love"
+	file = "What_You_Wont_Do_for_Love.ogg"
 }
 music = {
 	name = "Where_Is_The_Love"

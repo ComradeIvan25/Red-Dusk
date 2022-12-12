@@ -5880,37 +5880,6 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_SOV_Soviet_Foreign_Policy_shine"
-		texturefile = "gfx/interface/goals/SOV/SOV_Soviet_Foreign_Policy.dds"
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/SOV/SOV_Soviet_Foreign_Policy.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = -90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 }
-		}
-
-		animation = {
-			animationmaskfile = "gfx/interface/goals/SOV/SOV_Soviet_Foreign_Policy.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.tga"
-			animationrotation = 90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 }
-		}
-		legacy_lazy_load = no
-	}
-	SpriteType = {
 		name = "GFX_SOV_unto_a_new_dawn_shine"
 		texturefile = "gfx/interface/goals/SOV/SOV_unto_a_new_dawn.png"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -6376,37 +6345,6 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_SOV_prepare_their_fate_shine"
-		texturefile = "gfx/interface/goals/SOV/SOV_prepare_their_fate.dds"
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/SOV/SOV_prepare_their_fate.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = -90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 }
-		}
-
-		animation = {
-			animationmaskfile = "gfx/interface/goals/SOV/SOV_prepare_their_fate.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.tga"
-			animationrotation = 90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 }
-		}
-		legacy_lazy_load = no
-	}
-	SpriteType = {
 		name = "GFX_SOV_prepare_the_inevitable_shine"
 		texturefile = "gfx/interface/goals/SOV/SOV_prepare_the_inevitable.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -6611,37 +6549,6 @@ spriteTypes = {
 
 		animation = {
 			animationmaskfile = "gfx/interface/goals/SOV/SOV_men_we_can_trust.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.tga"
-			animationrotation = 90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 }
-		}
-		legacy_lazy_load = no
-	}
-	SpriteType = {
-		name = "GFX_SOV_matter_of_the_economy_shine"
-		texturefile = "gfx/interface/goals/SOV/SOV_matter_of_the_economy.dds"
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/SOV/SOV_matter_of_the_economy.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = -90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 }
-		}
-
-		animation = {
-			animationmaskfile = "gfx/interface/goals/SOV/SOV_matter_of_the_economy.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.tga"
 			animationrotation = 90.0
 			animationlooping = no
@@ -8502,37 +8409,6 @@ spriteTypes = {
 
 		animation = {
 			animationmaskfile = "gfx/interface/goals/SOV/focus_SOV_foreign_policy.png"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.tga"
-			animationrotation = 90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 }
-		}
-		legacy_lazy_load = no
-	}
-	SpriteType = {
-		name = "GFX_focus_SOV_back_in_ussr_shine"
-		texturefile = "gfx/interface/goals/SOV/focus_SOV_back_in_ussr.png"
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/SOV/focus_SOV_back_in_ussr.png"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = -90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 }
-		}
-
-		animation = {
-			animationmaskfile = "gfx/interface/goals/SOV/focus_SOV_back_in_ussr.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.tga"
 			animationrotation = 90.0
 			animationlooping = no

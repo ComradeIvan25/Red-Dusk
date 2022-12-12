@@ -1863,7 +1863,7 @@ irq_category_renewed_resistance = {
 			add_manpower = -3100452
 			}
 			920 = {
-			add_manpower -3034100
+			add_manpower = -3034100
 			}
 			USA = {
 			add_manpower = 4353123
@@ -2776,7 +2776,7 @@ irq_category_a_new_state = {
 			add_manpower = -2142452
 			}
 			920 = {
-			add_manpower -2034142
+			add_manpower = -2034142
 			}
 			USA = {
 			add_manpower = 4353123

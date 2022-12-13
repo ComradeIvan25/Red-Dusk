@@ -896,7 +896,39 @@ spriteTypes = {
 		name = "GFX_focus_SOV_problems_solved"
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_problems_solved.png"
 	}
-
+	SpriteType = {
+		name = "GFX_focus_SOV_rename_back_the_cities"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_rename_back_the_cities.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_empower_young_politicains"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_empower_young_politicains.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_flawed_leader"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_flawed_leader.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_praise_the_success"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_praise_the_success.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_denounce_crimes"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_denounce_crimes.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_increase_discipline"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_increase_discipline.png"
+	}
+	SpriteType = {
+		name = GFX_focus_SOV_follow_zyuganov_example"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_follow_zyuganov_example.png"
+	}
+	SpriteType = {
+		name = GFX_focus_SOV_follow_udaltsov_example"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_follow_udaltsov_example.png"
+	}
+	
    ###IRQ###
 
 	SpriteType = {
@@ -1242,6 +1274,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_focus_IRQ_rebuild_iraqi_navy"
 		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_rebuild_iraqi_navy.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_airforce_acquisition"
+		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_airforce_acquisition.png"
 	}
 	
    ###SAF###

@@ -2531,7 +2531,7 @@
 	
 	focus = {
 		id = SOV_pugo_rename_back_the_cities
-		icon = GFX_SOV_gensec_pugo
+		icon = GFX_focus_SOV_rename_back_the_cities
 		x = 0
 		y = 2
 
@@ -2560,7 +2560,7 @@
 	
 	focus = {
 		id = SOV_pugo_a_flawed_leader
-		icon = GFX_SOV_gensec_pugo
+		icon = GFX_focus_SOV_flawed_leader
 		x = 1
 		y = 1
 
@@ -2590,7 +2590,7 @@
 	
 	focus = {
 		id = SOV_pugo_denounce_the_crimes
-		icon = GFX_SOV_gensec_pugo
+		icon = GFX_focus_SOV_denounce_crimes
 		x = 0
 		y = 1
 
@@ -2619,7 +2619,7 @@
 	
 	focus = {
 		id = SOV_pugo_praise_the_successes
-		icon = GFX_SOV_gensec_pugo
+		icon = GFX_focus_SOV_praise_the_success
 		x = 0
 		y = 2
 
@@ -3212,7 +3212,7 @@
 	
 	focus = {
 		id = SOV_pugo_increase_dicipline
-		icon = GFX_SOV_gensec_pugo
+		icon = GFX_focus_SOV_increase_discipline
 		x = 0
 		y = 3
 
@@ -3242,7 +3242,7 @@
 	
 	focus = {
 		id = SOV_pugo_follow_zyuganov_example
-		icon = GFX_SOV_gensec_pugo
+		icon = GFX_focus_SOV_follow_zyuganov_example
 		x = -1
 		y = 4
 
@@ -3273,7 +3273,7 @@
 	
 	focus = {
 		id = SOV_pugo_follow_udaltsov_example
-		icon = GFX_SOV_gensec_pugo
+		icon = GFX_focus_SOV_follow_udaltsov_example
 		x = 1
 		y = 4
 

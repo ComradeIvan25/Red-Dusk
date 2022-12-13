@@ -3213,7 +3213,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_aircraft_acquisition
-		#icon = 
+		icon = GFX_focus_IRQ_airforce_acquisition
 		x = 2
 		y = 1
 

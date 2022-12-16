@@ -137,5 +137,46 @@ country_event = {
 	
 	option = {
 		name = vin.8.a
+		 hidden_effect = {
+			VIN = {
+				country_event = { id = vin.9 days = 2 }
+			}
 	}
+}
+}
+#History lesson 
+country_event = {
+	id = vin.9
+	title = vin.9.t
+	desc = vin.9.d
+	picture = GFX_report_event_IX_CPV_congress
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vin.9.a
+		 hidden_effect = {
+			VIN = {
+				country_event = { id = vin.10 days = 2 }
+			}
+	}
+}
+}
+#History lesson  2
+country_event = {
+	id = vin.10
+	title = vin.10.t
+	desc = vin.10.d
+	picture = GFX_report_event_XI_CPV_congress
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vin.10.a
+		 hidden_effect = {
+			VIN = {
+				country_event = { id = vin.11 days = 2 }
+			}
+	}
+}
 }

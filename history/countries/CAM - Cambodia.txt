@@ -14,6 +14,7 @@ add_ideas = ussr_aligned_nation
 
 recruit_character = CAM_Chea_Sim
 recruit_character = CAM_Hun_Sen
+recruit_character = CAM_Tea_Banh
 
 set_politics = {
 	ruling_party = communism

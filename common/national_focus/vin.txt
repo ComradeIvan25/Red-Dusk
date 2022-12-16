@@ -246,7 +246,12 @@ focus_tree = {
 		completion_reward = {
 		add_opinion_modifier = { target = CAM modifier = medium_increase } 
 			add_opinion_modifier = { target = LAO modifier = medium_increase } 
-
+        CAM = { 
+		add_opinion_modifier = { target = VIN modifier = medium_increase }
+		}
+		LAO = { 
+		add_opinion_modifier = { target = VIN modifier = medium_increase }
+		}
 	}
 	}
 

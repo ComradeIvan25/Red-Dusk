@@ -164,4 +164,21 @@ characters = {
 			legacy_id=-1
 		}
 	}
+	VIN_Do_Xuan_Cong = {
+		name = "Do Xuan Cong"
+		portraits = {
+			army = {
+				large = "gfx/leaders/VIN/Do_Xuan_Cong.png"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
 }

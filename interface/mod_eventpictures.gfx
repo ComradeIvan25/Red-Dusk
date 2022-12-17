@@ -271,6 +271,14 @@ spriteTypes = {
 		name = "GFX_report_event_IRQ_kurdish_speech"
 		texturefile = "gfx/event_pictures/IRQ/report_event_IRQ_kurdish_speech.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_IRQ_kurdish_town"
+		texturefile = "gfx/event_pictures/IRQ/report_event_IRQ_kurdish_town.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_IRQ_kurdish_smuggling"
+		texturefile = "gfx/event_pictures/IRQ/report_event_IRQ_kurdish_smuggling.dds"
+	}
 	
 	# VIN #
 	spriteType = {

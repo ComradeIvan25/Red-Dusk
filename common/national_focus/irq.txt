@@ -2849,6 +2849,11 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			custom_effect_tooltip = IRQ_tt_exploit_internal_divisions
+
+			hidden_effect = {
+				set_country_flag = IRQ_flag_kurdish_factions
+			}
 		}
 	}
 
@@ -2894,14 +2899,28 @@ focus_tree = {
 		prerequisite = {focus = IRQ_exploit_internal_divisions}
 		relative_position_id = IRQ_exploit_internal_divisions
 
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = custom_trigger_tt_irq_unity_very_low
+
+				check_variable = { irq_faction_unity_value = 0 }
+			}
+		}
+
 		cost = 8
 		ai_will_do = {
 		}
 		cancelable = no
 
 		completion_reward = {
+			custom_effect_tooltip = IRQ_tt_exploit_internal_divisions_end
+
 			IRQ = {
 				country_event = { id = irq.21 }
+			}
+
+			hidden_effect = {
+				clr_country_flag = IRQ_flag_kurdish_factions
 			}
 		}
 	}
@@ -3107,7 +3126,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_legacy_mohammed_rayyan
-		#icon = 
+		icon = GFX_focus_IRQ_mohammed_rayan_legacy
 		x = 0
 		y = 1
 
@@ -3128,7 +3147,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_regular_sorties
-		#icon = 
+		icon = GFX_focus_IRQ_regular_sorties
 		x = 0
 		y = 1
 
@@ -3194,7 +3213,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_desert_camouflage
-		#icon = 
+		icon = GFX_focus_IRQ_desert_camouflage
 		x = 1
 		y = 2
 
@@ -3236,7 +3255,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_reform_iraqi_army
-		#icon = 
+		icon = GFX_focus_IRQ_reform_iraqi_army
 		x = 4
 		y = 1
 

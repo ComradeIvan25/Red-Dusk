@@ -929,6 +929,8 @@ country_event = {
 	
 	trigger = {
 		tag = IRQ
+		IRQ = { has_country_flag = IRQ_flag_kurdish_factions }
+
 		check_variable = { irq_faction_kdp_stance_value = 0 }
 	}
 
@@ -971,6 +973,8 @@ country_event = {
 	
 	trigger = {
 		tag = IRQ
+		IRQ = { has_country_flag = IRQ_flag_kurdish_factions }
+
 		check_variable = { irq_faction_puk_stance_value = 0 }
 	}
 
@@ -1013,6 +1017,8 @@ country_event = {
 	
 	trigger = {
 		tag = IRQ
+		IRQ = { has_country_flag = IRQ_flag_kurdish_factions }
+
 		check_variable = { irq_faction_kwp_stance_value = 0 }
 	}
 
@@ -1056,6 +1062,8 @@ country_event = {
 	
 	trigger = {
 		tag = IRQ
+		IRQ = { has_country_flag = IRQ_flag_kurdish_factions }
+
 		check_variable = { irq_faction_kdp_popularity_value < 4 }
 	}
 
@@ -1088,6 +1096,8 @@ country_event = {
 	
 	trigger = {
 		tag = IRQ
+		IRQ = { has_country_flag = IRQ_flag_kurdish_factions }
+
 		check_variable = { irq_faction_puk_popularity_value < 4 }
 	}
 
@@ -1120,6 +1130,8 @@ country_event = {
 	
 	trigger = {
 		tag = IRQ
+		IRQ = { has_country_flag = IRQ_flag_kurdish_factions }
+
 		check_variable = { irq_faction_kwp_popularity_value < 4 }
 	}
 
@@ -1153,6 +1165,7 @@ country_event = {
 	
 	trigger = {
 		tag = IRQ
+		IRQ = { has_country_flag = IRQ_flag_kurdish_factions }
 
 		OR = {
 			# kdp vs kwp #
@@ -1303,6 +1316,7 @@ country_event = {
 	
 	trigger = {
 		tag = IRQ
+		IRQ = { has_country_flag = IRQ_flag_kurdish_factions }
 
 		AND = {
 			check_variable = { irq_faction_unity_value < 4 }
@@ -1331,5 +1345,319 @@ country_event = {
 				max = 4
 			}
 		}
+	}
+}
+
+#False idols#
+country_event = {
+	id = irq_kurdish_random.9
+	title = irq_kurdish_random.9.t
+	desc = irq_kurdish_random.9.d
+	picture = GFX_report_event_IRQ_protest
+	
+	trigger = {
+		tag = IRQ
+		IRQ = { has_country_flag = IRQ_flag_kurdish_factions }
+
+		AND = {
+			check_variable = { irq_faction_kdp_stance_value = 3 }
+			check_variable = { irq_faction_puk_stance_value = 3 }
+			check_variable = { irq_faction_kwp_stance_value = 3 }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 250
+	}
+
+	option = {
+		name = irq_kurdish_random.9.a
+
+		subtract_from_variable = {
+			var = irq_faction_unity_value
+			value = 1
+			tooltip = var_irq_faction_stance_decrease
+		}
+		hidden_effect = {
+			clamp_variable = {
+				var = irq_faction_unity_value
+				min = 0
+			}
+		}
+
+		subtract_from_variable = {
+			var = irq_faction_kdp_popularity_value
+			value = 2
+			tooltip = var_irq_faction_kdp_popularity_decrease
+		}
+		hidden_effect = {
+			clamp_variable = {
+				var = irq_faction_kdp_popularity_value
+				min = 0
+			}
+		}
+		subtract_from_variable = {
+			var = irq_faction_puk_popularity_value
+			value = 2
+			tooltip = var_irq_faction_puk_popularity_decrease
+		}
+		hidden_effect = {
+			clamp_variable = {
+				var = irq_faction_puk_popularity_value
+				min = 0
+			}
+		}
+		subtract_from_variable = {
+			var = irq_faction_kwp_popularity_value
+			value = 2
+			tooltip = var_irq_faction_kwp_popularity_decrease
+		}
+		hidden_effect = {
+			clamp_variable = {
+				var = irq_faction_kwp_popularity_value
+				min = 0
+			}
+		}
+
+		subtract_from_variable = {
+			var = irq_faction_kdp_political_value
+			value = 2
+			tooltip = var_irq_faction_kdp_political_decrease
+		}
+		hidden_effect = {
+			clamp_variable = {
+				var = irq_faction_kdp_political_value
+				min = 0
+			}
+		}
+		subtract_from_variable = {
+			var = irq_faction_puk_political_value
+			value = 2
+			tooltip = var_irq_faction_puk_political_decrease
+		}
+		hidden_effect = {
+			clamp_variable = {
+				var = irq_faction_puk_political_value
+				min = 0
+			}
+		}
+		subtract_from_variable = {
+			var = irq_faction_kwp_political_value
+			value = 2
+			tooltip = var_irq_faction_kwp_political_decrease
+		}
+		hidden_effect = {
+			clamp_variable = {
+				var = irq_faction_kwp_political_value
+				min = 0
+			}
+		}
+	}
+}
+
+#A lack of strength#
+country_event = {
+	id = irq_kurdish_random.10
+	title = irq_kurdish_random.10.t
+	desc = irq_kurdish_random.10.d
+	picture = GFX_report_event_IRQ_kurdish_town
+	
+	trigger = {
+		tag = IRQ
+		IRQ = { has_country_flag = IRQ_flag_kurdish_factions }
+
+		AND = {
+			check_variable = { irq_faction_kdp_popularity_value < 3 }
+			check_variable = { irq_faction_puk_popularity_value < 3 }
+			check_variable = { irq_faction_kwp_popularity_value < 3 }
+
+			check_variable = { irq_faction_kdp_political_value < 3 }
+			check_variable = { irq_faction_puk_political_value < 3 }
+			check_variable = { irq_faction_kwp_political_value < 3 }
+
+			check_variable = { irq_faction_kdp_military_value < 3 }
+			check_variable = { irq_faction_puk_military_value < 3 }
+			check_variable = { irq_faction_kwp_military_value < 3 }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 250
+	}
+
+	option = {
+		name = irq_kurdish_random.10.a
+
+		subtract_from_variable = {
+			var = irq_faction_unity_value
+			value = 1
+			tooltip = var_irq_faction_stance_decrease
+		}
+		hidden_effect = {
+			clamp_variable = {
+				var = irq_faction_unity_value
+				min = 0
+			}
+		}
+	}
+}
+
+#A united guerrilla force#
+country_event = {
+	id = irq_kurdish_random.11
+	title = irq_kurdish_random.11.t
+	desc = irq_kurdish_random.11.d
+	picture = GFX_report_event_IRQ_kurds
+	
+	trigger = {
+		tag = IRQ
+		IRQ = { has_country_flag = IRQ_flag_kurdish_factions }
+
+		AND = {
+			check_variable = { irq_faction_kdp_stance_value = 0 }
+			check_variable = { irq_faction_puk_stance_value = 0 }
+			check_variable = { irq_faction_kwp_stance_value = 0 }
+
+			check_variable = { irq_faction_unity_value < 4 }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 200
+	}
+
+	option = {
+		name = irq_kurdish_random.11.a
+
+		add_to_variable = {
+			var = irq_faction_unity_value
+			value = 1
+			tooltip = var_irq_faction_stance_increase
+		}
+		hidden_effect = {
+			clamp_variable = {
+				var = irq_faction_unity_value
+				max = 4
+			}
+		}
+
+		add_to_variable = {
+			var = irq_faction_kdp_military_value
+			value = 1
+			tooltip = var_irq_faction_kdp_military_increase
+		}
+		hidden_effect = {
+			clamp_variable = {
+				var = irq_faction_kdp_military_value
+				max = 4
+			}
+		}
+		add_to_variable = {
+			var = irq_faction_puk_military_value
+			value = 1
+			tooltip = var_irq_faction_puk_military_increase
+		}
+		hidden_effect = {
+			clamp_variable = {
+				var = irq_faction_puk_military_value
+				max = 4
+			}
+		}
+		add_to_variable = {
+			var = irq_faction_kwp_military_value
+			value = 1
+			tooltip = var_irq_faction_kwp_military_increase
+		}
+		hidden_effect = {
+			clamp_variable = {
+				var = irq_faction_kwp_military_value
+				max = 4
+			}
+		}
+	}
+}
+
+#Aid over the border#
+country_event = {
+	id = irq_kurdish_random.12
+	title = irq_kurdish_random.12.t
+	desc = irq_kurdish_random.12.d
+	picture = GFX_report_event_IRQ_kurdish_smuggling
+	
+	trigger = {
+		tag = IRQ
+		IRQ = { has_country_flag = IRQ_flag_kurdish_factions }
+	}
+
+	mean_time_to_happen = {
+		days = 400
+	}
+
+	option = {
+		name = irq_kurdish_random.12.a
+
+		add_to_variable = {
+			var = irq_faction_kdp_military_value
+			value = 1
+			tooltip = var_irq_faction_kdp_military_increase
+		}
+		hidden_effect = {
+			clamp_variable = {
+				var = irq_faction_kdp_military_value
+				max = 4
+			}
+		}
+		add_to_variable = {
+			var = irq_faction_puk_military_value
+			value = 1
+			tooltip = var_irq_faction_puk_military_increase
+		}
+		hidden_effect = {
+			clamp_variable = {
+				var = irq_faction_puk_military_value
+				max = 4
+			}
+		}
+		add_to_variable = {
+			var = irq_faction_kwp_military_value
+			value = 1
+			tooltip = var_irq_faction_kwp_military_increase
+		}
+		hidden_effect = {
+			clamp_variable = {
+				var = irq_faction_kwp_military_value
+				max = 4
+			}
+		}
+	}
+}
+
+#Bombing in Baghdad#
+country_event = {
+	id = irq_kurdish_random.13
+	title = irq_kurdish_random.13.t
+	desc = irq_kurdish_random.13.d
+	picture = GFX_report_event_IRQ_kurdish_assassination_success
+	
+	trigger = {
+		tag = IRQ
+		IRQ = { has_country_flag = IRQ_flag_kurdish_factions }
+
+		OR = {
+			check_variable = { irq_faction_kdp_stance_value = 0 }
+			check_variable = { irq_faction_puk_stance_value = 0 }
+			check_variable = { irq_faction_kwp_stance_value = 0 }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 500
+	}
+
+	option = {
+		name = irq_kurdish_random.13.a
+
+		add_stability = -0.05
+		add_political_power = -20
 	}
 }

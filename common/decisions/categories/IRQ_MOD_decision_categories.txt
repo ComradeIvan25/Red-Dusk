@@ -88,9 +88,7 @@ irq_category_kurdish_factions = {
 	
 	visible = {
 		original_tag = IRQ
-		#IRQ = {
-		#	has_completed_focus = IRQ_exploit_internal_divisions
-		#}
+		IRQ = { has_country_flag = IRQ_flag_kurdish_factions }
 	}
 
 	scripted_gui = irq_decision_ui_kurdish_factions

@@ -293,6 +293,7 @@
  custom_trigger_tt_irq_kurdish_talks:0 "Faction is not §RMilitant§! or §GConciliatory§!"
  custom_trigger_tt_irq_kurdish_weapons:0 "Faction is §GConciliatory§!"
  custom_trigger_tt_irq_kurdish_assassination:0 "Faction is not §GConciliatory§!"
+ custom_trigger_tt_irq_unity_very_low:0 "Faction unity is §GVery Low§!"
 
  ##YUGOSLAVIA##
  yug_deal_with_uprisings:0 "Dealing with Terrorism"

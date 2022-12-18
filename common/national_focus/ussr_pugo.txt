@@ -3335,7 +3335,7 @@
 	
 	focus = {
 		id = SOV_pugo_31th_party_congress
-		icon = GFX_SOV_gensec_pugo
+		icon = GFX_focus_SOV_the_supreme_soviet
 		x = -10
 		y = 7
 
@@ -3535,7 +3535,7 @@
 
 	focus = {
 		id = SOV_pugo_no_forgive
-		icon = GFX_focus_SOV_marshal_yazov
+		icon = GFX_focus_SOV_the_last_purge
 		x = 24
 		y = 4
 		prerequisite = {focus = SOV_pugo_bread}  
@@ -3640,7 +3640,7 @@
 
 	focus = {
 		id = SOV_pugo_increase
-		icon = GFX_focus_SOV_marshal_yazov
+		icon = GFX_goal_generic_soviet_construction
 		x = 22
 		y = 4
 		prerequisite = {focus = SOV_pugo_civ_inv}  

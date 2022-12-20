@@ -2,6 +2,17 @@
 
 #oob = "PAK_1936"
 
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+
+	set_technology = {
+		attack_submarine_hull_1960 = 1
+		destroyer_hull_1960 = 1
+	}
+}
+
 set_convoys = 20
 
 recruit_character = PAK_pervez_musharraf
@@ -23,3 +34,9 @@ set_popularities = {
 
 add_opinion_modifier = { target = RAJ modifier = HISTORIC_india_pakistan_opinion }
 add_opinion_modifier = { target = ISR modifier = HISTORIC_israel_hostile_40_opinion }
+
+# Naval Variants #
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_naval_oob = "PAK_2000_naval_mtg"
+}

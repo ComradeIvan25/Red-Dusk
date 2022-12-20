@@ -208,7 +208,7 @@ country_event = {
 				transfer_state = 681
 		}
 		SNF = {
-				transfer_state = 9
+				transfer_state = 926
 				transfer_state = 922
 		}
 		    declare_war_on = {

@@ -1,0 +1,192 @@
+debug_decisions = {
+
+	trigger_sacw = {
+	
+		icon = generic_prepare_civil_war
+	
+		allowed = {
+
+		}
+		available = {
+			is_debug = yes
+
+		}
+		visible = {
+			is_debug = yes
+		}
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			SAF = {country_event = saf.8}
+		}	
+	}
+	
+	trigger_sa_collapse = {
+	
+		icon = generic_prepare_civil_war
+	
+		allowed = {
+
+		}
+		available = {
+			is_debug = yes
+
+		}
+		visible = {
+			is_debug = yes
+		}
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			SAF = {country_event = saf.10}
+		}	
+	}
+	
+	trigger_yugoslav_uprisings = {
+	
+		icon = generic_prepare_civil_war
+	
+		allowed = {
+
+		}
+		available = {
+			is_debug = yes
+
+		}
+		visible = {
+			is_debug = yes
+		}
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			YUG = {
+				country_event = { id = yug_rebel.1} 
+				set_country_flag = bos_uprising_started
+				BOS = {
+					transfer_state = 104
+					transfer_state = 804
+					declare_war_on = {
+						type = annex_everything
+						target = YUG
+					}
+					country_event ={id = bos.1}
+				}
+			}
+		}	
+	}
+	
+	trigger_yugoalav_wars = {
+	
+		icon = generic_prepare_civil_war
+	
+		allowed = {
+
+		}
+		available = {
+			is_debug = yes
+
+		}
+		visible = {
+			is_debug = yes
+		}
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			YUG = {
+				declare_war_on = {
+					type = annex_everything
+					target = CRO
+				}
+				declare_war_on = {
+					type = annex_everything
+					target = SLV
+				}
+			}
+			news_event = { id = old_times_news.18 days = 1 }
+		}	
+	}			
+	
+	trigger_eastern_war = {
+	
+		icon = generic_prepare_civil_war
+	
+		allowed = {
+
+		}
+		available = {
+			is_debug = yes
+
+		}
+		visible = {
+			is_debug = yes
+		}
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			SOV = {
+				declare_war_on = {
+					type = annex_everything
+					target = POL
+				}
+				declare_war_on = {
+					type = annex_everything
+					target = SLO
+				}
+				declare_war_on = {
+					type = annex_everything
+					target = ROM
+				}
+				declare_war_on = {
+					type = annex_everything
+					target = HUN
+				}
+
+			}
+			news_event = { id = old_times_news.26 }
+		}	
+	}
+
+	trigger_red_susk = {
+	
+		icon = generic_prepare_civil_war
+	
+		allowed = {
+
+		}
+		available = {
+			is_debug = yes
+
+		}
+		visible = {
+			is_debug = yes
+		}
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			hidden_effect = {
+				set_global_flag = Red_Susk
+				set_global_flag = Super_Event_Visible
+				play_song = "Smash_Mouth_All_Star"
+			}
+		}	
+	}	
+	
+}

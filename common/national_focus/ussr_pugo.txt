@@ -1219,7 +1219,6 @@
 			create_wargoal = { type = puppet_wargoal_focus target = POL }
 			create_wargoal = { type = puppet_wargoal_focus target = SLO }
 			create_wargoal = { type = puppet_wargoal_focus target = HUN }
-			create_wargoal = { type = puppet_wargoal_focus target = ROM }
 			news_event = { id = old_times_news.25 days = 1 }
 		}
 	}
@@ -2554,7 +2553,19 @@
 		continue_if_invalid = no
 		completion_reward = {
 			add_political_power = 15
-			
+			217 = {
+				set_state_name = "Stalingrad"
+			}
+			set_province_name = { id = 3529 name = "Stalingrad"}
+			227 = {
+				set_state_name = "Stalino"
+			}
+			set_province_name = { id = 6474 name = "Stalino"}
+			742 = {
+				set_state_name = "Stalinabad"
+			}
+			set_province_name = { id = 1384 name = "Stalinabad"}
+			set_province_name = { id = 7822 name = "Stalinsk"}
 		}
 	}
 	

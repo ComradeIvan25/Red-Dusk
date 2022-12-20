@@ -556,7 +556,7 @@
  irq.28.d:0 ""
  irq.28.a:0 ""
  irq.29.t:0 "2002 Presidential Referendum"
- irq.29.d:0 "With Saddam's 7 years term ending , another election was organized to determine Iraq's future and Saddam's support in the Iraqi people.\n\nThe ballots had 2 options, one approving renewal of Saddam's presidency and the other "rejecting" it.The voting centers were heavily guarded by soldiers to protect the democratic process from any sabotages.\n\nAs the ballots were finished getting count, it was clear that Saddan had won the election with every single eligable citizen of Iraq confidently voting for our great leader Saddam Huseein to rule another 7 years, renewing his term.\n\nWinning 100% of the vote shows us just how popular our current policies are with multiple people even signing the ballot with their own blood to show their loyalty to Saddam Huseein.\n\nMany celebrations broke out in the major cities congratulating Saddam's fair and accurate victory, patriotism was all-time high in the celebrations with crowds trampling over and burning Israeli & American Flags."
+ irq.29.d:0 "With Saddam's 7 years term ending another election was organized to determine Iraq's future and Saddam's support in the Iraqi people.\n\nThe ballots had 2 options, one approving the renewal of Saddam's presidency and the other "rejecting" it. The voting centers were heavily guarded by soldiers to protect the democratic process from any sabotages.\n\nAs the ballots were finished getting count, it was clear that Saddan had won the election with every single eligable citizen of Iraq confidently voting for our great leader Saddam Huseein to rule another 7 years, renewing his term.\n\nWinning 100% of the vote shows us just how popular our current policies are with multiple people even signing the ballot with their own blood to show their loyalty to Saddam Huseein.\n\nMany celebrations broke out in the major cities congratulating Saddam's fair and accurate victory, patriotism was all-time high in the celebrations with crowds trampling over and burning Israeli & American Flags."
  irq.29.a:0 "Popularity Western "democracies" could only dream of."
  
  irq_kurdish.1.t:0 "Talks with the Kurdistan Democratic Party fail"
@@ -749,11 +749,16 @@
  ## AFGHANISTAN ##
  
  northern_alliance.1.t:0 "[GetYear] Afghan Elections"
- northern_alliance.1.d:0 "With the defeat of the Taliban forces we will be holding an election across Afghanistan with 3 candidates from each faction.\n\nAfter counting of the votes..."
+ northern_alliance.1.d:0 "With the defeat of the Taliban forces we will be holding an election across Afghanistan with 3 candidates from each faction that made up the northern alliance.\n\nAfter counting of the votes..."
  northern_alliance.1.a:0 "Jamiat-e Islami wins the elections!"
  northern_alliance.1.b:0 "Hezb-e Wahdat wins the elections!"
  northern_alliance.1.c:0 "Junbish-i Milli wins the elections!"
  
+ ## SYRIA ##
+ 
+ syria.1.t:0 "Hafez Al-Assad Passes"
+ syria.1.d:0 "After a long history of health problems, the leader of our nation Hafez Al-Assad passed away due to a heart attack at the age of 69.\n\nHafez had led Syria to glory after taking power in 1970 with a coup, he crushed multiple rebellions in his rule and managed the sectarian violance in the country while allying his country with the Soviet Union and liberalizing the country.\n\nHis sudden passing impacted the whole country with 40 days of mourning being declared to honor his rule. Abdul Halim Khaddam has been sworned in as the caretaker president until presidental elections could take place, although everybody already knows that his son, Bashar Al-Assad will be taking over."
+ syria.1.a:0 "Rest in Peace Lion of Damascus"
  
  ## PRC ##
 

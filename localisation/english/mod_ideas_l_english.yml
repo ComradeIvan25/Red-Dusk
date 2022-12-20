@@ -380,7 +380,7 @@
  NEP_royal_autocracy_idea_name:0 "Rising Royal Autocracy"
  
  SOM_somalian_civil_war_name:0 "Somalian Anarchy"
- SOM_somalian_civil_war_name_desc:0 "Somalia has been in a state of anarchy, civil war, and violance after the collapse of the Barre's forces, rebel groups' differences with each other made it impossible for a central government to unify the nation.\n\nThis caused Somalia to devolce into a lawless anarchistic state with hundreds of rebel groups fighting each other with no end in sight. \n\n§RPeace has become a long forgotten word in the lawless lands of Somalia.§!"
+ SOM_somalian_civil_war_name_desc:0 "Somalia has been in a state of anarchy, civil war, and violance after collapse of Barre's forces which had united multiple rebels against him. Shortly after his defeat rebel groups' differences with each other made it impossible for a central government to unify the nation.\n\nThis caused Somalia to devolve into a lawless anarchistic state with hundreds of rebel groups with different plans for Somalia fighting each other with no end in sight. \n\n§RPeace has become a long forgotten word in the lawless lands of Somalia.§!"
  
  BUR_internal_conflict_idea_name:0 "Not So United Union"
  
@@ -393,9 +393,13 @@
  AFG_hardened_fighters_name_desc:0 "TODO:add a desc for this"
  AFG_islamic_fanaticism_name:0 "Islamic Fanaticism"
  AFG_islamic_fanaticism_name_desc:0 "TODO:add a desc for this"
+ 
+ east_europe_eastern_threat_name:0 "Eastern Threat"
+ east_europe_eastern_threat_name_desc:0 "Ever since the dissolution of the Warsaw Pact, the former east european members that broke away after overthrowing their communist governments had been facing violent threats from Moscow with every attempt at distancing their country from the sphere of Soviet Union and trying to join its sworn enemy, the United States."
  ##cold war##
  
  cold_war_soviet_offensive_name:0 "Soviet Offensive"
+ cold_war_soviet_offensive_name_desc:0 "The Soviet officials in this country ordered an offensive to be commenced in the region"
  
  # SOV #
 

@@ -1,0 +1,35 @@
+ideas = {
+	
+	country = {
+	
+		east_europe_eastern_threat = {
+			name = east_europe_eastern_threat_name
+
+			removal_cost = -1
+
+			cancel = {
+				is_puppet_of = SOV
+			}
+
+			picture = COG_africas_world_war_icon
+			
+			allowed = {
+				always = no
+			}
+			
+			targeted_modifier = {
+				tag = SOV
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.15
+			}
+			
+			modifier = {
+				army_core_defence_factor = 0.05
+				stability_factor = -0.05
+				custom_modifier_tooltip = cannot_join_nato
+
+			}
+			
+		}
+	}
+}	

@@ -42,6 +42,7 @@ recruit_character = POL_wojciech_jaruzelski
 add_ideas = {
 	limited_conscription
 }
+add_ideas = east_europe_eastern_threat
 
 set_politics = {
 	ruling_party = democratic

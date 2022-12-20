@@ -6,7 +6,7 @@ guiTypes = {
 		size = { width = 600 height = 510 }
 		orientation = center
 		origo = center
-		moveable = no
+		moveable = yes
 		click_to_front = no
 		clipping = no
 

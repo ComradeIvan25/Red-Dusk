@@ -17,5 +17,118 @@ category_USA_congress = {
 		}
 
 	}
+}
+USA_maintain_home_front = {
+
+#WORKING_WITH_OUR_POPULACE#
+
+USA_calm_the_populace = {
+
+	icon = GFX_decision_generic_decision
+
+	priority = 10
+
+	fire_only_once = no
+
+	visible = {
+		original_tag = USA
+	}
+
+	allowed = {
+
+	}
+	available = {
+		event = usa.foriegn_policy.1.a	
+		}
+	}
+
+
+#RALLY_DEMOMESTIC_WARHAWKS#
+
+USA_rally_the_warhawks = {
+
+	icon = GFX_decision_generic_decision
+
+	priority = 10
+
+	fire_only_once = no
+
+	visible = {
+		original_tag = USA
+	}
+
+	allowed = {
+
+	}
+	available = {
+		event = usa.foriegn_policy.1.a	
+		}
+}
+
+#CALM_DOWN_WALL_STREET#
+
+USA_keep_wall_street_green = {
+
+	icon = GFX_decision_generic_decision
+
+	priority = 10
+
+	fire_only_once = no
+
+	visible = {
+		original_tag = USA
+	}
+
+	allowed = {
+
+	}
+	available = {
+		event = usa.foriegn_policy.1.a	
+		}
+}
+
+#DEAL_WITH_HUMAN_RIGHTS_GROUPS#
+
+USA_deal_with_human_rights_Groups = {
+
+	icon = GFX_decision_generic_decision
+
+	priority = 10
+
+	fire_only_once = no
+
+	visible = {
+		original_tag = USA
+	}
+
+	allowed = {
+
+	}
+	available = {
+		event = usa.foriegn_policy.1.a	
+		}
+}
+
+#RAMP_FUNDING_THE_MIC#
+
+USA_fund_military_industrial_complex = {
+
+	icon = GFX_decision_generic_decision
+
+	priority = 10
+
+	fire_only_once = no
+
+	visible = {
+		original_tag = USA
+	}
+
+	allowed = {
+
+	}
+	available = {
+		event = usa.foriegn_policy.1.a	
+		}
+}
 
 }

@@ -1,0 +1,12 @@
+scripted_gui = {
+
+	usa_decision_ui_homefront = {
+		window_name = "usa_decision_ui_homefront_window"
+		context_type = decision_category
+
+		visible = {
+			original_tag = USA
+		}
+	}
+	
+}

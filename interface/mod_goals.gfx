@@ -1295,6 +1295,14 @@ spriteTypes = {
 		name = "GFX_focus_IRQ_mohammed_rayan_legacy"
 		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_mohammed_rayan_legacy.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_loyal_saddam_army"
+		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_loyal_saddam_army.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_lessons_desert_storm"
+		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_lessons_desert_storm.png"
+	}
 	
    ###SAF###
 

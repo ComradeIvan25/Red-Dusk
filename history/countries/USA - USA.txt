@@ -1,7 +1,5 @@
 ﻿capital = 361
 
-#oob = "USA_2000"
-
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
@@ -74,6 +72,7 @@ if = {
 		#set_naval_oob = ""
 	}
 }
+set_oob = "USA_2000"
 set_air_oob = "USA_2000_air"
 set_technology = {
 	fighter_1960 = 1
@@ -86,6 +85,7 @@ set_technology = {
 	fighter_1990 = 1
 	carrier_fighter_1990 = 1
 	carrier_fighter_2000 = 1
+	stealth_fighter_2000 = 1
 	attacker_1960 = 1
 	carrier_attacker_1960 = 1
 	attacker_1970 = 1
@@ -342,6 +342,10 @@ diplomatic_relation = {
 }
 diplomatic_relation = {
 	country = SKR
+	relation = military_access
+}
+diplomatic_relation = {
+	country = SAU
 	relation = military_access
 }
 

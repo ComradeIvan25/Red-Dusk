@@ -17,6 +17,15 @@ if = {
 		destroyer_hull_2000 = 1
 	}
 }
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		recon_vehicle_1960 = 1
+		recon_vehicle_1980 = 1
+	}
+}
 
 set_research_slots = 4
 set_convoys = 200

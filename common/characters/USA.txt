@@ -2,20 +2,20 @@ characters = {
 
 	## Country Leaders ##
 
-	USA_bill_clinton = {
-		name = "Bill Clinton"
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/USA/Bill_Clinton.dds"
-			}
-		}
-		country_leader = {
-			ideology = socialism
-			traits = {}
-			expire = "2050.3.1.1"
-			id = -1
-		}
-	}
+	#USA_bill_clinton = {
+	#	name = "Bill Clinton"
+	#	portraits = {
+	#		civilian = {
+	#			large = "gfx/leaders/USA/Bill_Clinton.dds"
+	#		}
+	#	}
+	#	country_leader = {
+	#		ideology = conservatism
+	#		traits = {}
+	#		expire = "2050.3.1.1"
+	#		id = -1
+	#	}
+	#}
 
 	USA_george_bush = {
 		name = "George Bush"
@@ -47,6 +47,21 @@ characters = {
 		}
 	}
 	
+	USA_undecided_candidate_dem = {
+		name = "Undecided Candidate"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Donald_Trump.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+	
 	USA_al_gore = {
 		name = "Al Gore"
 		portraits = {
@@ -55,7 +70,22 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservatism
+			ideology = liberalism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+	
+	USA_undecided_candidate_reform = {
+		name = "Undecided Candidate"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Donald_Trump.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_patriotism
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1
@@ -70,7 +100,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservatism
+			ideology = social_patriotism
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1

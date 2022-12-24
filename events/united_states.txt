@@ -233,6 +233,7 @@ country_event = { #The Democrat Conventions Conclude#
 		name = usa_quayle.7.a
 		set_country_flag = gore_for_dem_candicate
 		custom_effect_tooltip = gore_will_be_dem_candicate
+		promote_character = USA_al_gore
 		country_event = {id = usa_quayle.8 days = 3}
 		ai_chance = {
 		factor = 65
@@ -278,6 +279,8 @@ country_event = { #The Reform Conventions Conclude#
 		name = usa_quayle.8.a
 		set_country_flag = trump_for_reform_candicate
 		custom_effect_tooltip = trump_will_be_reform_candicate
+		promote_character = USA_donald_trump
+		
 		ai_chance = {
 		factor = 50
 			modifier = {
@@ -326,6 +329,10 @@ country_event = { #Election Day...#
 	option = {
 		name = usa_quayle.9.a
 		set_country_flag = rep_win
+			add_popularity = {
+				ideology = democratic 
+				popularity = 0.025
+			}
 		if = {
 		limit = {has_country_flag = bush_for_rep_candicate}
 		custom_effect_tooltip = rep_candicate_will_become_president_on_jan20
@@ -351,6 +358,10 @@ country_event = { #Election Day...#
 	option = {
 		name = usa_quayle.9.b
 		set_country_flag = dem_win
+			add_popularity = {
+				ideology = liberalism 
+				popularity = 0.05
+			}
 		if = {
 		limit = {has_country_flag = gore_for_dem_candicate}
 		custom_effect_tooltip = dem_candicate_will_become_president_on_jan20
@@ -376,6 +387,10 @@ country_event = { #Election Day...#
 	option = {
 		name = usa_quayle.9.c
 		set_country_flag = ref_win
+			add_popularity = {
+				ideology = social_democracy 
+				popularity = 0.05
+			}
 		if = {
 		limit = {has_country_flag = trump_for_reform_candicate}
 		custom_effect_tooltip = reform_candicate_will_become_president_on_jan20
@@ -440,6 +455,7 @@ country_event = { #Inauguration#
 			complete_national_focus = USA_mccain_mccain_in_office
 			retire_country_leader = yes
 			promote_character = USA_john_mccain
+			
 		}		
 		else_if = {
 			limit = {
@@ -451,7 +467,23 @@ country_event = { #Inauguration#
 			load_focus_tree = usa_gore_focus
 			complete_national_focus = USA_gore_gore_in_office
 			retire_country_leader = yes
-			promote_character = USA_al_gore
+			
+			set_politics = {
+				ruling_party = liberalism
+				last_election = "1930.11.9"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			
+			if = {
+				limit = {has_country_flag = bush_for_rep_candicate}
+				promote_character = USA_george_bush
+			}
+			else_if = {
+				limit = {has_country_flag = mccain_for_rep_candicate}
+				promote_character = USA_john_mccain
+			}
+			
 		}
 		else_if = {
 			limit = {has_country_flag = biden_for_dem_candicate}
@@ -465,8 +497,24 @@ country_event = { #Inauguration#
 			}
 			load_focus_tree = usa_trump_focus
 			complete_national_focus = USA_trump_trump_in_office
-			retire_country_leader = yes
-			promote_character = USA_donald_trump
+			retire_country_leader = yes			
+			
+			set_politics = {
+				ruling_party = social_democracy
+				last_election = "1930.11.9"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			
+			if = {
+				limit = {has_country_flag = bush_for_rep_candicate}
+				promote_character = USA_george_bush
+			}
+			else_if = {
+				limit = {has_country_flag = mccain_for_rep_candicate}
+				promote_character = USA_john_mccain
+			}
+						
 		}
 		else_if = {
 			limit = {has_country_flag = buchanan_for_reform_candicate}

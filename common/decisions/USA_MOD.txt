@@ -28,6 +28,10 @@ USA_debug = {
 			retire_country_leader = yes
 			promote_character = USA_george_bush
 			news_event = {id = old_times_news.47}
+			add_popularity = {
+				ideology = democratic 
+				popularity = 0.025
+			}
 		}	
 	}
 	
@@ -58,6 +62,10 @@ USA_debug = {
 			complete_national_focus = USA_mccain_mccain_in_office
 			retire_country_leader = yes
 			promote_character = USA_john_mccain
+			add_popularity = {
+				ideology = democratic 
+				popularity = 0.025
+			}
 		}	
 	}
 	
@@ -88,6 +96,27 @@ USA_debug = {
 			complete_national_focus = USA_gore_gore_in_office
 			retire_country_leader = yes
 			promote_character = USA_al_gore
+
+			set_politics = {
+				ruling_party = liberalism
+				last_election = "1930.11.9"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			
+			if = {
+				limit = {has_country_flag = bush_for_rep_candicate}
+				promote_character = USA_george_bush
+			}
+			else_if = {
+				limit = {has_country_flag = mccain_for_rep_candicate}
+				promote_character = USA_john_mccain
+			}
+			
+			add_popularity = {
+				ideology = liberalism 
+				popularity = 0.05
+			}
 		}	
 	}
 	
@@ -116,8 +145,29 @@ USA_debug = {
 		complete_effect = { 
 			load_focus_tree = usa_trump_focus
 			complete_national_focus = USA_trump_trump_in_office
-			retire_country_leader = yes
+			retire_country_leader = yes			
 			promote_character = USA_donald_trump
+
+			
+			set_politics = {
+				ruling_party = social_democracy
+				last_election = "1930.11.9"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			
+			if = {
+				limit = {has_country_flag = bush_for_rep_candicate}
+				promote_character = USA_george_bush
+			}
+			else_if = {
+				limit = {has_country_flag = mccain_for_rep_candicate}
+				promote_character = USA_john_mccain
+			}
+			add_popularity = {
+				ideology = social_democracy 
+				popularity = 0.05
+			}
 		}	
 	}
 }

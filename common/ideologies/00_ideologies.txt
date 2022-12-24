@@ -127,6 +127,9 @@ ideologies = {
 			
 			socialism = {
 			}
+			
+			social_patriotism = {
+			}
 		}
 		
 		dynamic_faction_names = {

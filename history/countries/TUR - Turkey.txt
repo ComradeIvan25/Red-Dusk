@@ -33,6 +33,11 @@ set_convoys = 20
 set_stability = 0.5
 set_war_support = 0.3
 
+diplomatic_relation = {
+	country = CYN
+	relation = military_access
+}
+
 # Naval Variants #
 if = {
 	limit = { has_dlc = "Man the Guns" }

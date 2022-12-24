@@ -1219,7 +1219,7 @@
 			create_wargoal = { type = puppet_wargoal_focus target = POL }
 			create_wargoal = { type = puppet_wargoal_focus target = SLO }
 			create_wargoal = { type = puppet_wargoal_focus target = HUN }
-			news_event = { id = old_times_news.25 days = 1 }
+			news_event = { id = old_times_news.26 days = 1 }
 		}
 	}
 	

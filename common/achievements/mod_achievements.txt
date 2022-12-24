@@ -43,6 +43,7 @@ dugins_wet_dream = {
 	
 	happened = {
 		tag = SOV
+		has_country_flag = this_achievement_isnt_implemented_yet
 		#im gonna code the required stuff later
 		
 	}
@@ -56,6 +57,7 @@ vladdys_blunder = {
 	
 	happened = {
 		tag = SOV
+		has_country_flag = this_achievement_isnt_implemented_yet
 		#im gonna code the required stuff later
 		
 	}
@@ -69,6 +71,7 @@ another_mans_fortune = {
 	
 	happened = {
 		tag = SOV
+		has_country_flag = this_achievement_isnt_implemented_yet
 		#im gonna code the required stuff later
 		
 	}

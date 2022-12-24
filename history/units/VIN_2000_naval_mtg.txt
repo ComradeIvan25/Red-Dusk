@@ -1,7 +1,7 @@
 units = {
 	fleet = {
 		name = "Ham doi Viet Nam"
-		naval_base = 1185 # Haiphong #
+		naval_base = 4119 # Haiphong #
 		task_force = {
 			name = "Ham Doi Tau Mat Nuoc"
 			location = 1185 # Haiphong #

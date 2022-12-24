@@ -10,12 +10,18 @@ recruit_character = IRE_mary_mcaleese
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1933.1.24"
+	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 98
+	communism = 0
+	reformed_communism = 11
+	social_democracy = 10
+	liberalism = 32
+	democratic = 46
+	neutrality = 0
+	islamism = 0
 	fascism = 1
-	communism = 1
 }

@@ -18,13 +18,20 @@ recruit_character = COL_andres_pastrana
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1934.2.11"
+	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 99
-	communism = 1
+	communism = 4
+	reformed_communism = 0
+	social_democracy = 35
+	liberalism = 26
+	democratic = 35
+	neutrality = 0
+	islamism = 0
+	fascism = 0
 }
 
 # Naval Variants #

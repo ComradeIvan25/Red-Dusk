@@ -17,14 +17,20 @@ recruit_character = CHI_lee_teng
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1936.1.1"
+	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 70
-	communism = 30
+	communism = 0
+	reformed_communism = 0
+	social_democracy = 33
+	liberalism = 8
+	democratic = 46
+	neutrality = 0
+	islamism = 0
+	fascism = 13
 }
 
 add_ideas = CHI_third_taiwan_strait_crisis

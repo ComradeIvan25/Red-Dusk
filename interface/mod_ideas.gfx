@@ -564,4 +564,34 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/cold_war_soviet_offensive_or_defensive_icon.png"
 	}
 	
+	### CONSCRIPTION LAWS
+	spriteType = {
+		name = "GFX_idea_disarmed_nation"
+		texturefile = "gfx/interface/ideas/conscription/idea_disarmed_nation.png"
+	}
+	spriteType = {
+		name = "GFX_idea_volunteer_only"
+		texturefile = "gfx/interface/ideas/conscription/idea_volunteer_only.png"
+	}
+	spriteType = {
+		name = "GFX_idea_limited_conscription"
+		texturefile = "gfx/interface/ideas/conscription/idea_limited_conscription.png"
+	}
+	spriteType = {
+		name = "GFX_idea_extensive_conscription"
+		texturefile = "gfx/interface/ideas/conscription/idea_extensive_conscription.png"
+	}
+	spriteType = {
+		name = "GFX_idea_service_by_requirement"
+		texturefile = "gfx/interface/ideas/conscription/idea_service_by_requirement.png"
+	}
+	spriteType = {
+		name = "GFX_idea_all_adults_serve"
+		texturefile = "gfx/interface/ideas/conscription/idea_all_adults_serve.png"
+	}
+	spriteType = {
+		name = "GFX_idea_scraping_the_barrel"
+		texturefile = "gfx/interface/ideas/conscription/idea_scraping_the_barrel.png"
+	}
+	
 }

@@ -16,14 +16,21 @@ set_convoys = 20
 recruit_character = CHL_ricardo_lagos
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1932.10.30"
-	election_frequency = 72  #but 4 years after this one in 1938.
+	ruling_party = social_democracy
+	last_election = "1930.11.9"
+	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 98
-	communism = 2
+	communism = 4
+	reformed_communism = 0
+	social_democracy = 48
+	liberalism = 1
+	democratic = 47
+	neutrality = 0
+	islamism = 0
+	fascism = 0
 }
 
 # Naval Variants #

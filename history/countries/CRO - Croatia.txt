@@ -13,15 +13,21 @@ add_ideas = CRO_aftermath_of_the_krajina_war
 add_ideas = usa_aligned_nation
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1935.6.9"
-	election_frequency = 12
-	elections_allowed = no # none after offset 1
+	ruling_party = liberalism
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 70
-	fascism = 15
-	communism = 15
+	communism = 1
+	reformed_communism = 0
+	social_democracy = 0
+	liberalism = 55
+	democratic = 44
+	neutrality = 0
+	islamism = 0
+	fascism = 0
 }
 
 add_opinion_modifier = { target = YUG modifier = HISTORIC_yugoslavia_seperatists_opinion }

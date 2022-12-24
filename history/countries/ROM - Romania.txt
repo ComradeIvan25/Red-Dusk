@@ -10,14 +10,19 @@ recruit_character = ROM_ion_iliescu1
 add_ideas = east_europe_eastern_threat
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1933.12.20"
+	ruling_party = social_democracy
+	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 60
-	fascism = 0
-	communism = 40
+	communism = 0
+	reformed_communism = 0
+	social_democracy = 43
+	liberalism = 7
+	democratic = 20
 	neutrality = 0
+	islamism = 0
+	fascism = 30
 }

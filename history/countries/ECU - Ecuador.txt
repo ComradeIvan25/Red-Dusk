@@ -22,14 +22,21 @@ recruit_character = ECU_gustavo_noboa
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1933.12.15"
-	election_frequency = 84
+	last_election = "1930.11.9"
+	election_frequency = 48
 	elections_allowed = no
 }
-set_popularities = {
-	democratic = 100
-}
 
+set_popularities = {
+	communism = 0
+	reformed_communism = 0
+	social_democracy = 35
+	liberalism = 26
+	democratic = 35
+	neutrality = 4
+	islamism = 0
+	fascism = 0
+}
 add_opinion_modifier = { target = PRU modifier = HISTORIC_cenepa_war_opinion }
 
 # Naval Variants #

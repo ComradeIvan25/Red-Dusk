@@ -27,14 +27,20 @@ recruit_character = LAT_vaira_vike_freiberga
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1999.10.3"
-	election_frequency = 10
+	last_election = "1930.11.9"
+	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 70
-	fascism = 15
-	communism = 15
+	communism = 0
+	reformed_communism = 0
+	social_democracy = 30
+	liberalism = 19
+	democratic = 41
+	neutrality = 0
+	islamism = 0
+	fascism = 10
 }
 
 add_opinion_modifier = { target = SOV modifier = HISTORIC_baltic_ussr_opinion }

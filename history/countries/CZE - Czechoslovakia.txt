@@ -18,14 +18,18 @@ add_ideas = usa_aligned_nation
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1935.5.19"
-	election_frequency = 60
+	last_election = "1930.11.9"
+	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 65
-	neutrality = 20
-	fascism = 5
-	communism = 10
+	communism = 15
+	reformed_communism = 0
+	social_democracy = 37
+	liberalism = 13
+	democratic = 25
+	neutrality = 0
+	islamism = 0
+	fascism = 10
 }

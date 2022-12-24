@@ -32,8 +32,14 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 98
-	communism = 2
+	communism = 0
+	reformed_communism = 5
+	social_democracy = 10
+	liberalism = 20
+	democratic = 60
+	neutrality = 0
+	islamism = 0
+	fascism = 5
 }
 
 set_convoys = 100

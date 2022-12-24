@@ -10,6 +10,7 @@ characters = {
 		country_leader = {
 			ideology = wahhabiten_islamism
 			traits = {}
+			desc = mullah_omar_DESC
 			expire = "2050.3.1.1"
 			id = -1
 		}

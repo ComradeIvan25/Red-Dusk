@@ -44,15 +44,21 @@ add_ideas = ENG_queen
 add_ideas = usa_aligned_nation
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1935.11.14"
+	ruling_party = social_democracy
+	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 97
-	fascism = 2
 	communism = 1
+	reformed_communism = 0
+	social_democracy = 43
+	liberalism = 16
+	democratic = 30
+	neutrality = 0
+	islamism = 0
+	fascism = 10
 }
 
 ENG = {

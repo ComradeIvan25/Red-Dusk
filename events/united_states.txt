@@ -375,7 +375,7 @@ country_event = { #Election Day...#
 	#reform win#
 	option = {
 		name = usa_quayle.9.c
-		set_country_flag = reform_win
+		set_country_flag = ref_win
 		if = {
 		limit = {has_country_flag = trump_for_reform_candicate}
 		custom_effect_tooltip = reform_candicate_will_become_president_on_jan20

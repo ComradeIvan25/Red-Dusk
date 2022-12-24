@@ -23,15 +23,21 @@ set_stability = 0.75
 set_war_support = 0
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1933.4.26"
+	ruling_party = social_democracy
+	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 93
-	fascism = 4
-	communism = 3
+	communism = 0
+	reformed_communism = 5
+	social_democracy = 37
+	liberalism = 30
+	democratic = 28
+	neutrality = 0
+	islamism = 0
+	fascism = 0
 }
 
 recruit_character = HOL_kok

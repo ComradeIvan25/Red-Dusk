@@ -7,16 +7,21 @@ recruit_character = SLV_milan_kucan
 add_ideas = usa_aligned_nation
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
+	ruling_party = social_democracy
+	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
+	communism = 0
+	reformed_communism = 0
+	social_democracy = 22
+	liberalism = 40
 	democratic = 33
-	neutrality = 33
-	communism = 34
+	neutrality = 0
+	islamism = 0
+	fascism = 5
 }
 
 add_opinion_modifier = { target = YUG modifier = HISTORIC_yugoslavia_seperatists_opinion }

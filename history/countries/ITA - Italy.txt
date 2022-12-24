@@ -40,15 +40,21 @@ add_ideas = GER_eu
 add_ideas = usa_aligned_nation
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1934.3.26"
-	election_frequency = 60
+	ruling_party = social_democracy
+	last_election = "1930.11.9"
+	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 76
-	fascism = 22
 	communism = 2
+	reformed_communism = 0
+	social_democracy = 42
+	liberalism = 6
+	democratic = 40
+	neutrality = 0
+	islamism = 0
+	fascism = 10
 }
 
 # Naval Variants #

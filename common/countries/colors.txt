@@ -956,3 +956,7 @@ CYN = {
 	color = rgb { 182 82 76 }
 	color_ui = rgb { 182 82 76 }
 }
+MAD = {
+	color = rgb { 165 112 104 }
+	color_ui = rgb { 165 102 100 }
+}

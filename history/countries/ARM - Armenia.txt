@@ -27,10 +27,22 @@ set_research_slots = 3
 recruit_character = ARM_robert_kocharyan
 recruit_character = ARM_vladimir_movsisyan
 
+set_politics = {
+	ruling_party = democratic
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
 set_popularities = {
-	fascism = 34
-	democratic = 30
-	communism = 36
+	communism = 0
+	reformed_communism = 0
+	social_democracy = 10
+	liberalism = 10
+	democratic = 40
+	neutrality = 0
+	islamism = 0
+	fascism = 40
 }
 
 add_opinion_modifier = { target = SOV modifier = HISTORIC_baltic_ussr_opinion }

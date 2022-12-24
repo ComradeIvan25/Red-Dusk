@@ -33,14 +33,21 @@ if = {
 recruit_character = BRA_fernando_henrique
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = social_democracy
 	last_election = "200.7.17"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 100
+	communism = 0
+	reformed_communism = 1
+	social_democracy = 59
+	liberalism = 10
+	democratic = 30
+	neutrality = 0
+	islamism = 0
+	fascism = 0
 }
 
 set_convoys = 40

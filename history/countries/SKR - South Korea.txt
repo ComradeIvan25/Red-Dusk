@@ -27,14 +27,21 @@ set_stability = 0.8
 add_ideas = usa_aligned_nation
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
+	ruling_party = liberalism
+	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	fascism = 20
-	democratic = 80
+	communism = 0
+	reformed_communism = 0
+	social_democracy = 20
+	liberalism = 40
+	democratic = 38
+	neutrality = 0
+	islamism = 0
+	fascism = 2
 }
 
 # Naval Variants #

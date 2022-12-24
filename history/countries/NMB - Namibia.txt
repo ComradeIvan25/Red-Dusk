@@ -7,14 +7,19 @@ recruit_character = NMB_sam
 add_ideas = COG_africas_world_war
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
+	ruling_party = social_democracy
+	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 50
-	fascism = 20
-	communism = 5
-	neutrality = 25
+	communism = 0
+	reformed_communism = 10
+	social_democracy = 76
+	liberalism = 4
+	democratic = 10
+	neutrality = 0
+	islamism = 0
+	fascism = 0
 }

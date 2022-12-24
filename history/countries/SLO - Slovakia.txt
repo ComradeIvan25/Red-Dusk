@@ -6,13 +6,19 @@ recruit_character = SLO_pavol_dubček
 add_ideas = east_europe_eastern_threat
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1933.3.5"
+	ruling_party = social_democracy
+	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 90
-	fascism = 0
-	communism = 10
+	communism = 3
+	reformed_communism = 0
+	social_democracy = 47
+	liberalism = 10
+	democratic = 0
+	neutrality = 37
+	islamism = 0
+	fascism = 3 #SLOTA HOLY SHIT SLOTA PARTY
 }

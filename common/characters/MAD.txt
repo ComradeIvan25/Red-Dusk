@@ -14,5 +14,20 @@ characters = {
 			id = -1
 		}
 	}
+	
+	MAD_didier_ratsiraka = {
+		name = "Didier Ratsiraka"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/Andry_Rajoelina.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
 
 }

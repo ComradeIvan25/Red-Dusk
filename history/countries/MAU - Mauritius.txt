@@ -7,17 +7,19 @@ set_research_slots = 3
 recruit_character = MAU_cassam_uteem
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = social_democracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 41
-	communism = 15
-	reformed_communism = 8
-	islamism = 7
-	fascism = 5
-	neutrality = 24
+	communism = 5
+	reformed_communism = 15
+	social_democracy = 50
+	liberalism = 20
+	democratic = 10
+	neutrality = 0
+	islamism = 0
+	fascism = 0
 }

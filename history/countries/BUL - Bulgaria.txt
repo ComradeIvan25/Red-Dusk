@@ -17,17 +17,22 @@ set_convoys = 5
 recruit_character = BUL_petar_stoyanov
 recruit_character = BUL_alexander_lilov
 
-set_popularities = {
-	democratic = 50
-	fascism = 20
-	neutrality = 10
-	communism = 20
-}
 set_politics = {
-	ruling_party = democratic
-	last_election = "1935.1.22"
+	ruling_party = social_democracy
+	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	reformed_communism = 20
+	social_democracy = 36
+	liberalism = 5
+	democratic = 35
+	neutrality = 4
+	islamism = 0
+	fascism = 0
 }
 
 # Naval Variants #

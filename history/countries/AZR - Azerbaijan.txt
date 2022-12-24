@@ -26,11 +26,24 @@ set_research_slots = 3
 
 recruit_character = AZR_heydar_aliyev
 
-set_popularities = {
-	democratic = 30
-	communism = 40
-	neutrality = 30
+set_politics = {
+	ruling_party = democratic
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
 }
+
+set_popularities = {
+	communism = 0
+	reformed_communism = 0
+	social_democracy = 5
+	liberalism = 0
+	democratic = 50
+	neutrality = 0
+	islamism = 0
+	fascism = 45
+}
+
 
 add_opinion_modifier = { target = SOV modifier = HISTORIC_baltic_ussr_opinion }
 add_opinion_modifier = { target = ARM modifier = HISTORIC_amernia_azerbaijan_opinion }

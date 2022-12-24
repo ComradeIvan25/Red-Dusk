@@ -36,14 +36,20 @@ country_lock_all_division_template = yes
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1936.1.1"
+	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 79
-        fascism = 18
-        neutrality = 3
+	communism = 0
+	reformed_communism = 12
+	social_democracy = 4
+	liberalism = 27
+	democratic = 47
+	neutrality = 0
+	islamism = 0
+	fascism = 10
 }
 
 # Naval Variants #

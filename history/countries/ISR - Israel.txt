@@ -22,15 +22,21 @@ add_ideas = usa_aligned_nation
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1936.1.1"
+	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
-set_popularities = {
-	democratic = 80
-	fascism = 20
-}
 
+set_popularities = {
+	communism = 2
+	reformed_communism = 7
+	social_democracy = 30
+	liberalism = 9
+	democratic = 29
+	neutrality = 0
+	islamism = 0
+	fascism = 23
+}
 add_opinion_modifier = { target = PAL modifier = HISTORIC_israel_palestine_opinion }
 add_opinion_modifier = { target = LEB modifier = HISTORIC_israel_hostile_40_opinion }
 add_opinion_modifier = { target = SYR modifier = HISTORIC_israel_hostile_40_opinion }

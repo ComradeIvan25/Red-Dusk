@@ -21,16 +21,21 @@ recruit_character = GRE_konstantinos_stephanopoulos
 add_ideas = usa_aligned_nation
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1935.6.9"
-	election_frequency = 7
+	ruling_party = social_democracy
+	last_election = "1930.11.9"
+	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 50
-	fascism = 2
 	communism = 5
-	neutrality = 43
+	reformed_communism = 10
+	social_democracy = 41
+	liberalism = 6
+	democratic = 38
+	neutrality = 0
+	islamism = 0
+	fascism = 0
 }
 
 set_stability = 0.72

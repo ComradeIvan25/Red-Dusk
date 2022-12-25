@@ -4,6 +4,7 @@ add_namespace = ussr_hidden
 add_namespace = ussr_intro
 
 add_namespace = ussr_foreign_policy
+add_namespace = ussr_cold_war
 
 add_namespace = ussr_rebel_cin
 add_namespace = ussr_rebel_ukr
@@ -1359,6 +1360,48 @@ country_event = {
 		
 		ai_chance = {
 		base = 100
+		}
+
+	}
+
+}
+
+## cold war stuff ##
+
+#Ethiopia requests extra divisions#
+country_event = {
+	id = ussr_cold_war.1
+	title = ussr_cold_war.1.t
+	desc = ussr_cold_war.1.d
+	picture = GFX_report_event_SOV_influence_north_korea
+	
+	trigger = {
+		date > 10.1.2000
+	}	
+	
+	fire_only_once = yes
+	
+	##of course##
+	option = {
+		name = ussr_cold_war.1.a
+		add_manpower = -8500
+		ETH = {add_manpower = 8500}
+		add_to_variable = {sov_militarist_influence_var = 5}
+		custom_effect_tooltip = army_5_influence_increase
+		add_ideas = cold_war_increased_volunteers
+		add_political_power = -50
+		ai_chance = {
+		base = 75
+		}
+
+	}
+	
+	##they already have enough##
+	option = {
+		name = ussr_cold_war.1.b
+		add_political_power = -25
+		ai_chance = {
+		base = 25
 		}
 
 	}

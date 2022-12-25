@@ -7,6 +7,8 @@ set_convoys = 5
 recruit_character = MAD_andry_rajoelina
 recruit_character = MAD_didier_ratsiraka
 
+add_ideas = ussr_aligned_nation
+
 set_politics = {
 	ruling_party = communism
 	last_election = "1936.1.1"

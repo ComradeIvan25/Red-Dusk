@@ -19,5 +19,21 @@ ideas = {
 				
 			}
 		}
+		
+		cold_war_increased_volunteers = {
+			name = cold_war_increased_volunteers_name
+
+			removal_cost = -1
+
+			picture = cold_war_soviet_offensive_or_defensive_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				send_volunteer_size = 2
+			}
+		}
 	}
 }

@@ -749,6 +749,24 @@ news_event = {
 	 
 	option ={
 		name = old_times_news.55.a
+		trigger = {
+			NOT = { 
+				OR = {
+				original_tag = SOV 
+				original_tag = CUB
+				}
+			}
+		}
+	}
+	
+	option ={
+		name = old_times_news.55.b
+		trigger = { 
+			OR = {
+				original_tag = SOV 
+				original_tag = CUB
+			}
+		}
 	}
 	
 }

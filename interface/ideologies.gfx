@@ -65,3 +65,23 @@ spriteTypes = {
 		name = "GFX_ideology_collapsed_state"
 		texturefile = "gfx/interface/ideologies/anarchist.dds"	
 }
+	SpriteType = {
+		name = "GFX_ideology_social_democracy_group"
+		texturefile = "gfx/interface/ideologies/social_democracy_group.dds"	
+}
+	SpriteType = {
+		name = "GFX_ideology_socialism"
+		texturefile = "gfx/interface/ideologies/socialism.dds"	
+}
+	SpriteType = {
+		name = "GFX_ideology_social_patriotism"
+		texturefile = "gfx/interface/ideologies/social_patriotism.dds"	
+}
+	SpriteType = {
+		name = "GFX_ideology_liberalism_group"
+		texturefile = "gfx/interface/ideologies/liberalism_group.dds"	
+}
+	SpriteType = {
+		name = "GFX_ideology_liberalism"
+		texturefile = "gfx/interface/ideologies/liberalism.dds"	
+}

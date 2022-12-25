@@ -496,6 +496,11 @@ country_event = {
 		name = irq.19.a
 		add_political_power = 50
 		custom_effect_tooltip = IRQ_greater_iraq_ty_for_playing
+		set_portraits = {
+			character = IRQ_saddam_hussein
+			army = { large ="gfx/leaders/IRQ/Saddam_Hussein_old.dds" }
+			civilian = { large ="gfx/leaders/IRQ/Saddam_Hussein_old.dds" }
+		}
 	}
 }
 
@@ -643,6 +648,11 @@ country_event = {
 		add_political_power = 15
 		add_stability = 0.15
 		custom_effect_tooltip = IRQ_uar_ty_for_playing
+		set_portraits = {
+			character = IRQ_saddam_hussein
+			army = { large ="gfx/leaders/IRQ/Saddam_Hussein_old.dds" }
+			civilian = { large ="gfx/leaders/IRQ/Saddam_Hussein_old.dds" }
+		}
 
 	}
 }

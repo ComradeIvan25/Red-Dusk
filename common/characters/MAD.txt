@@ -19,7 +19,7 @@ characters = {
 		name = "Didier Ratsiraka"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/Africa/Andry_Rajoelina.dds"
+				large = "gfx/leaders/Africa/Didier_Ratsiraka.png"
 			}
 		}
 		country_leader = {

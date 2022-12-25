@@ -192,6 +192,13 @@
  ussr_foreign_policy.2.d:0 "With the election of the new premier we have decided to improve our ties with the North Koreans and eventually get them on our sphere.\n\nHowever, this wont be a easy task and we will need to direct a good amount of resources to combat chinese influence and expend our ties."
  ussr_foreign_policy.2.a:0 "North Korea Will Be Aligned With Us"
 
+ ## cold war stuff ##
+ 
+ ussr_cold_war.1.t:0 "Ethiopia requests extra divisions"
+ ussr_cold_war.1.d:0 "Recently our allies in Ethiopia launched a suprise offensive to defeat the US-backed seperatist rebels that had plagued the stability of their country and the region.\n\nCommunists in Ethiopia were able to win an earlier civil war after extensive military aid from us, becoming a valuable ally in the Soviet Sphere. And today Ethiopians approached our government and requested extra divisions to help them out in their military operations." 
+ ussr_cold_war.1.a:0 "Of course we will help our African allies!"
+ ussr_cold_war.1.b:0 "Dont they already have enough?"
+ 
  #VIENNA SUMMIT#
 
  usa_wienna.1.t:0 "Soviets Propose Easing the Tensions"

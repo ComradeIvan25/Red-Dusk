@@ -24,7 +24,7 @@ add_ideas = SIA_asean
 add_ideas = BUR_internal_conflict
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = paternal_autocracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -35,7 +35,7 @@ set_popularities = {
 	fascism = 0
 	social_democracy = 14
 	communism = 14
-	neutrality = 72
+	paternal_autocracy = 72
 }
 
 # Naval Variants #

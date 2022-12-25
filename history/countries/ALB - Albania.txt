@@ -3,7 +3,7 @@
 #oob = "ALB_1936"
 
 set_politics = {
-	ruling_party = social_democracy
+	ruling_party = socialism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -14,7 +14,7 @@ add_ideas = usa_aligned_nation
 set_popularities = {
 	communism = 0
 	reformed_communism = 5
-	social_democracy = 40
+	socialism = 40
 	liberalism = 10
 	democratic = 25
 	neutrality = 0

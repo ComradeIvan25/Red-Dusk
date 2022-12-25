@@ -5,7 +5,7 @@ set_convoys = 20
 recruit_character = SEN_abdou_diouf
 
 set_politics = {
-	ruling_party = social_democracy
+	ruling_party = socialism
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
@@ -14,7 +14,7 @@ set_politics = {
 set_popularities = {
 	communism = 0
 	reformed_communism = 0
-	social_democracy = 58
+	socialism = 58
 	liberalism = 32
 	democratic = 10
 	neutrality = 0

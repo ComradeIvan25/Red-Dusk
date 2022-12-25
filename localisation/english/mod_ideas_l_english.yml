@@ -401,6 +401,8 @@
  cold_war_soviet_offensive_name:0 "Soviet Offensive"
  cold_war_soviet_offensive_name_desc:0 "The Soviet officials in this country ordered an offensive to be commenced in the region"
  
+ cold_war_increased_volunteers_name:0 "Increased Volunteers"
+ cold_war_increased_volunteers_name_desc:0 ""
  # SOV #
 
  SOV_design_bureau_morozov:0 "Morozov Design Bureau"

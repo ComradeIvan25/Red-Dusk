@@ -25,7 +25,7 @@ add_ideas = GER_eu
 add_ideas = usa_aligned_nation
 
 set_politics = {
-	ruling_party = social_democracy
+	ruling_party = socialism
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
@@ -34,7 +34,7 @@ set_politics = {
 set_popularities = {
 	communism = 8
 	reformed_communism = 6
-	social_democracy = 43
+	socialism = 43
 	liberalism = 34
 	democratic = 9
 	neutrality = 0

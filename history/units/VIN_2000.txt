@@ -69,7 +69,7 @@ units = {
 			recon_vehicle_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.70
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -87,7 +87,7 @@ units = {
 			recon_vehicle_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.70
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -105,7 +105,7 @@ units = {
 			recon_vehicle_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.70
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -123,7 +123,7 @@ units = {
 			recon_vehicle_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.70
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -141,7 +141,7 @@ units = {
 			recon_vehicle_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.70
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -159,7 +159,7 @@ units = {
 			recon_vehicle_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.70
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -177,7 +177,7 @@ units = {
 			recon_vehicle_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.70
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -195,7 +195,7 @@ units = {
 			recon_vehicle_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.70
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -213,7 +213,7 @@ units = {
 			recon_vehicle_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.70
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -231,7 +231,7 @@ units = {
 			recon_vehicle_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.70
+		start_equipment_factor = 0.01
 	}
 
 	# Infantry Division #
@@ -247,7 +247,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -261,7 +261,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -275,7 +275,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -289,7 +289,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -303,7 +303,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -317,7 +317,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -331,7 +331,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -345,7 +345,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -359,7 +359,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -373,7 +373,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -387,7 +387,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -401,7 +401,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -415,7 +415,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -429,7 +429,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -443,7 +443,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -457,7 +457,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -471,7 +471,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -485,7 +485,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -499,7 +499,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -513,7 +513,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -527,7 +527,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -541,7 +541,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -555,7 +555,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -569,7 +569,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -583,7 +583,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -597,7 +597,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -611,7 +611,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 	division = { 
 		division_name = {
@@ -625,7 +625,7 @@ units = {
 			spaa_tank_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.20
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.01
 	}
 }
 
@@ -649,4 +649,165 @@ instant_effect = {
 		progress = 0.91
 		efficiency = 37
 	}
+        add_equipment_to_stockpile = {
+		type = infantry_weapons_1
+		amount = 20000
+		producer = SOV
+	}
+        add_equipment_to_stockpile = {
+		type = infantry_weapons_2
+		amount = 1700
+		producer = SOV
+	}
+        add_equipment_to_stockpile = {
+		type = infantry_weapons_1
+		amount = 20000
+		producer = PRC
+	}
+        add_equipment_to_stockpile = {
+		type = infantry_weapons_1
+		amount = 8000
+		producer = VIN
+	}
+        add_equipment_to_stockpile = {
+		type = infantry_anti_tank_weapons_1
+		amount = 1580
+		producer = SOV
+	}
+        add_equipment_to_stockpile = {
+		type = infantry_anti_tank_weapons_2
+		amount = 100
+		producer = SOV
+	}
+         add_equipment_to_stockpile = {
+		type = apc_tank_equipment_0
+		amount = 1380
+		producer = SOV
+	}
+        add_equipment_to_stockpile = {
+		type = apc_tank_equipment_0
+		amount = 340
+		producer = PRC
+	}
+         add_equipment_to_stockpile = {
+		type = apc_tank_equipment_0
+		amount = 45
+		producer = USA
+	}
+        add_equipment_to_stockpile = {
+		type = ifv_tank_equipment_1
+		amount = 150
+		producer = SOV
+	}
+         add_equipment_to_stockpile = {
+		type = ifv_tank_equipment_0
+		amount = 150
+		producer = SOV
+	}
+        add_equipment_to_stockpile = {
+		type = ifv_tank_equipment_0
+		amount = 200
+		producer = USA
+	}
+        add_equipment_to_stockpile = {
+		type = recon_vehicle_equipment_0
+		amount = 300
+		producer = SOV
+	}
+        add_equipment_to_stockpile = {
+		type = recon_vehicle_equipment_0
+		amount = 200
+		producer = USA
+	}
+        add_equipment_to_stockpile = {
+		type = mbt_tank_equipment_0
+		amount = 1220
+		producer = SOV
+	}
+        add_equipment_to_stockpile = {
+		type = mbt_tank_equipment_1
+		amount = 100
+		producer = SOV
+	}
+        add_equipment_to_stockpile = {
+		type = mbt_tank_equipment_0
+		amount = 700
+		producer = PRC
+	}
+        add_equipment_to_stockpile = {
+		type = spaa_tank_equipment_0
+		amount = 300
+		producer = SOV
+	}
+        add_equipment_to_stockpile = {
+		type = spaa_tank_equipment_0
+		amount = 30
+		producer = PRC
+	}       
+        add_equipment_to_stockpile = {
+		type = rocket_artillery_equipment_1
+		amount = 750
+		producer = SOV
+	} 
+        add_equipment_to_stockpile = {
+		type = rocket_artillery_equipment_1
+		amount = 306
+		producer = SOV
+	} 
+         add_equipment_to_stockpile = {
+		type = motorised_artillery_equipment_1
+		amount = 10
+		producer = VIN
+	}
+         add_equipment_to_stockpile = {
+		type = towed_artillery_equipment_1
+		amount = 850
+		producer = SOV
+	}
+        add_equipment_to_stockpile = {
+		type = towed_artillery_equipment_2
+		amount = 100
+		producer = SOV
+	}
+        add_equipment_to_stockpile = {
+		type = towed_artillery_equipment_1
+		amount = 280
+		producer = PRC
+	}
+        add_equipment_to_stockpile = {
+		type = towed_artillery_equipment_1
+		amount = 350
+		producer = USA
+	}
+        add_equipment_to_stockpile = {
+		type = support_equipment_1
+		amount = 2500
+		producer = SOV
+	}
+         add_equipment_to_stockpile = {
+		type = support_equipment_1
+		amount = 1200
+		producer = PRC
+	}
+        add_equipment_to_stockpile = {
+		type = motorised_equipment_1
+		amount = 1500
+		producer = SOV
+	}
+        add_equipment_to_stockpile = {
+		type = motorised_equipment_1
+		amount = 500
+		producer = PRC
+	}
+         add_equipment_to_stockpile = {
+		type = motorised_equipment_1
+		amount = 500
+		producer = PRC
+	}
+        add_equipment_to_stockpile = {
+		type = infantry_anti_air_weapons_1
+		amount = 1200
+		producer = SOV
+	}
+        
 }

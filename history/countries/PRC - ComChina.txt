@@ -21,6 +21,8 @@ set_technology = {
 	fighter_1960 = 1
 	strike_bomber_1960 = 1
 	rocket_artillery_1960 = 1
+	towed_artillery_1960 = 1
+	mbt_tank_1960 = 1
 }
 
 set_stability = 0.6

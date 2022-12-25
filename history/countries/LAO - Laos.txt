@@ -10,6 +10,10 @@ add_ideas = LAO_balance_vin_prc
 
 recruit_character = LAO_khamtai_siphandon
 
+add_ideas = {
+	extensive_conscription
+}
+
 set_politics = {
 	ruling_party = communism
 	last_election = "1933.3.5"

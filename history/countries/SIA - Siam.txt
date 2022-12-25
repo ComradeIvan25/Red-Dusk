@@ -17,6 +17,10 @@ recruit_character = SIA_Surayud_Chulanont
 add_ideas = SIA_asean
 add_ideas = SIA_rama_IX
 
+add_ideas = {
+	extensive_conscription
+}
+
 add_ideas = usa_aligned_nation
 
 set_politics = {

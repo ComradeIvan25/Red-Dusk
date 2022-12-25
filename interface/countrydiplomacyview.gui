@@ -424,9 +424,9 @@ guiTypes = {
 				
 				containerWindowType = {
 					name = "national_spirit_container"
-					position = { x = -380 y = -5 }
-					size = { width = 375 height = 74 }
-					verticalScrollbar = "right_vertical_slider"
+					position = { x = -388 y = -5 }
+					size = { width = 375 height = 96 }
+					horizontalScrollbar = "bottom_horizontal_slider"
 					orientation = upper_right
 					
 					background = {
@@ -439,7 +439,7 @@ guiTypes = {
 						position = { x = -5 y = 2 }
 						size = { width = 360 height = 68 }
 						slotsize = { width = 60 height = 68 }
-						max_slots = { x = 6 y = 1 }
+						max_slots = { x = 10 y = 1 }
 						format = "UPPER_LEFT"
 					}
 					gridboxtype = {
@@ -447,7 +447,7 @@ guiTypes = {
 						position = { x = 10 y = 2 }
 						size = { width = 330 height = 68 }
 						slotsize = { width = 33 height = 34 }
-						max_slots_horizontal = 10
+						max_slots_horizontal = 20
 						format = "UPPER_LEFT"
 					}
 				}

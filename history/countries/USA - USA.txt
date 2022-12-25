@@ -1,5 +1,6 @@
 ﻿capital = 361
 
+set_oob = "USA_2000"
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
@@ -72,7 +73,6 @@ if = {
 		#set_naval_oob = ""
 	}
 }
-set_oob = "USA_2000"
 set_air_oob = "USA_2000_air"
 set_technology = {
 	fighter_1960 = 1
@@ -104,6 +104,7 @@ set_technology = {
 	heli_naval_1990 = 1
 	drone_recon_1980 = 1
 	drone_recon_1990 = 1
+	drone_recon_2000 = 1
 	mbt_tank_1960 = 1
 	mbt_tank_1970 = 1
 	mbt_tank_1980 = 1
@@ -135,6 +136,7 @@ set_technology = {
 	thermal_vision_gen_2 = 1
 	infantry_anti_tank_weapons_1960 = 1
 	infantry_anti_tank_weapons_1980 = 1
+	infantry_anti_tank_weapons_2000 = 1
 	infantry_anti_air_weapons_1960 = 1
 	infantry_anti_air_weapons_1980 = 1
 	paratrooper_tech_1960 = 1
@@ -189,6 +191,22 @@ set_research_slots = 4
 set_stability = 0.75
 set_war_support = 0
 set_convoys = 500
+
+create_import = {
+	resource = chromium
+	factories = 5
+	exporter = SAF
+}
+create_import = {
+	resource = tungsten
+	factories = 5
+	exporter = POR
+}
+create_import = {
+	resource = tungsten
+	factories = 3
+	exporter = BOL
+}
 
 set_politics = {
 	ruling_party = democratic

@@ -69,7 +69,7 @@ sub_units = {
 			infantry_weapons = 200
 			support_equipment = 65
 			infantry_anti_tank_weapons = 50
-			infantry_anti_air_weapons = 50
+			infantry_anti_air_weapons = 40
 			apc_tank_equipment = 30
 			motorised_equipment = 12
 		}

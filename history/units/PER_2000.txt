@@ -1,6 +1,6 @@
 ﻿division_template = { # Armoured Division #
 	name = "Firqat Mudaraea"
-	division_names_group = PER_MBT_01
+	division_names_group = GENERIC_MBT_01
 
 	regiments = {
 		main_battle_tank_armor = { x = 0 y = 0 }
@@ -21,7 +21,7 @@
 }
 division_template = { # Infantry Division #
 	name = "Firqat Mushaa"
-	division_names_group = PER_INF_01
+	division_names_group = GENERIC_INF_01
 
 	regiments = {
 		infantry_unit = { x = 0 y = 0 }
@@ -40,7 +40,7 @@ division_template = { # Infantry Division #
 }
 division_template = { # Special Forces Division (Paratroopers) #
 	name = "Firqat Alquaat Alkhasa"
-	division_names_group = PER_PAR_01
+	division_names_group = GENERIC_PAR_01
 
 	regiments = {
 		paratrooper_unit = { x = 0 y = 0 }
@@ -114,7 +114,7 @@ division_template = { # Infantry Division (RGC) #
 }
 division_template = { # Special Forces Division (Marines) (RGC) #
 	name = "Firqat Alquaat Alkhasat Bialharas Althawrii"
-	division_names_group = PER_MRN_01
+	division_names_group = GENERIC_MRN_01
 
 	regiments = {
 		marine_unit = { x = 0 y = 0 }

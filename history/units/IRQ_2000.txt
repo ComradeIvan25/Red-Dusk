@@ -25,7 +25,7 @@
 }
 division_template = { # Armoured Division #
 	name = "Firqat Mudaraea"
-	division_names_group = IRQ_MBT_02
+	division_names_group = GENERIC_MBT_01
 
 	regiments = {
 		main_battle_tank_armor = { x = 0 y = 0 }
@@ -118,7 +118,7 @@ division_template = { # Infantry Division (Guard) #
 }
 division_template = { # Infantry Division #
 	name = "Firqat Mushaa"
-	division_names_group = IRQ_INF_02
+	division_names_group = GENERIC_INF_01
 
 	regiments = {
 		infantry_unit = { x = 0 y = 0 }

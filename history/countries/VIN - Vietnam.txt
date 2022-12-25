@@ -1,6 +1,7 @@
 ﻿capital = 916 #Hanoi
 
-#oob = "VIN_1936"
+set_oob = "VIN_2000"
+set_air_oob = "VIN_2000_air"
 
 if = {
 	limit = {
@@ -32,19 +33,37 @@ set_technology = {
 	support_tech_logistics_1960 = 1
 	tech_motorised_1960 = 1
 	tech_train_1960 = 1
+	mbt_tank_1960 = 1
+	ifv_tank_1970 = 1
+	apc_tank_1960 = 1
+	spaa_tank_1960 = 1
+	towed_artillery_1960 = 1
+	rocket_artillery_1960 = 1
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		recon_vehicle_1960 = 1
+	}
 }
 
 set_research_slots = 3
 
-add_ideas = VIN_fifty_years_resistance
-add_ideas = VIN_doi_moi
-add_ideas = VIN_patriotic_tradition
-add_ideas = extensive_conscription
-add_ideas = VIN_corruption_1
+add_ideas = {
+	VIN_fifty_years_resistance
+	VIN_doi_moi
+	VIN_patriotic_tradition
+	VIN_corruption_1
+}
 
 add_ideas = ussr_aligned_nation
 
-add_ideas = limited_exports
+add_ideas = {
+	extensive_conscription
+	limited_exports
+}
 
 set_war_support = 0.5
 set_stability = 0.72

@@ -1,6 +1,6 @@
 ﻿division_template = { # Armoured Division #
 	name = "Bronetankovaya Diviziya"
-	division_names_group = SOV_MBT_01
+	division_names_group = GENERIC_MBT_01
 
 	regiments = {
 		main_battle_tank_armor = { x = 0 y = 0 }
@@ -25,7 +25,7 @@
 }
 division_template = { # Heavy Infantry Division #
 	name = "Motostrelkovaya Diviziya"
-	division_names_group = SOV_MEC_01
+	division_names_group = GENERIC_MEC_01
 
 	regiments = {
 		heavy_infantry_unit = { x = 0 y = 0 }
@@ -48,7 +48,7 @@ division_template = { # Heavy Infantry Division #
 }
 division_template = { # Air Assault Division #
 	name = "Desantno-shturmovaya Diviziya"
-	division_names_group = SOV_INF_01
+	division_names_group = GENERIC_INF_02
 
 	regiments = {
 		infantry_unit = { x = 0 y = 0 }
@@ -67,7 +67,7 @@ division_template = { # Air Assault Division #
 }
 division_template = { # Heavy Artillery Division #
 	name = "Tyazhelaya Artilleriyskaya Diviziya"
-	division_names_group = SOV_ART_01
+	division_names_group = GENERIC_ART_02
 
 	regiments = {
 		rocket_artillery_unit = { x = 0 y = 0 }
@@ -89,7 +89,7 @@ division_template = { # Heavy Artillery Division #
 }
 division_template = { # Artillery Division #
 	name = "Artilleriyskaya Diviziya"
-	division_names_group = SOV_ART_02
+	division_names_group = GENERIC_ART_01
 
 	regiments = {
 		towed_artillery_unit = { x = 0 y = 0 }
@@ -103,7 +103,7 @@ division_template = { # Artillery Division #
 }
 division_template = { # Marine Division #
 	name = "Diviziya Morskoy Pekhoty"
-	division_names_group = SOV_MRN_01
+	division_names_group = GENERIC_MRN_01
 
 	regiments = {
 		main_battle_tank_armor = { x = 0 y = 0 }
@@ -119,7 +119,7 @@ division_template = { # Marine Division #
 }
 division_template = { # Mechanised Paratrooper Division #
 	name = "Vozdushno-desantnaya Diviziya"
-	division_names_group = SOV_PAR_01
+	division_names_group = GENERIC_PAR_01
 
 	regiments = {
 		paratrooper_unit = { x = 0 y = 0 }

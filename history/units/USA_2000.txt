@@ -439,4 +439,94 @@ units = {
 
 ### Starting Production ###
 instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_weapons_2
+			creator = "USA"
+		}
+		requested_factories = 2
+		progress = 0.71
+		efficiency = 44
+	}
+	add_equipment_production = {
+		equipment = {
+			type = infantry_anti_tank_weapons_3
+			creator = "USA"
+		}
+		requested_factories = 3
+		progress = 0.34
+		efficiency = 40
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "USA"
+		}
+		requested_factories = 2
+		progress = 0.59
+		efficiency = 48
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorised_equipment_2
+			creator = "USA"
+		}
+		requested_factories = 3
+		progress = 0.90
+		efficiency = 45
+	}
+	add_equipment_production = {
+		equipment = {
+			type = mbt_tank_equipment_3
+			creator = "USA"
+		}
+		requested_factories = 2
+		progress = 0.91
+		efficiency = 40
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ifv_tank_equipment_2
+			creator = "USA"
+		}
+		requested_factories = 2
+		progress = 0.36
+		efficiency = 44
+	}
+	add_equipment_production = {
+		equipment = {
+			type = rocket_artillery_equipment_3
+			creator = "USA"
+		}
+		requested_factories = 2
+		progress = 0.43
+		efficiency = 33
+	}
+	add_equipment_production = {
+		equipment = {
+			type = heli_transport_equipment_2
+			creator = "USA"
+		}
+		requested_factories = 1
+		progress = 0.11
+		efficiency = 40
+	}
+	add_equipment_production = {
+		equipment = {
+			type = heli_attack_equipment_1
+			creator = "USA"
+		}
+		requested_factories = 1
+		progress = 0.08
+		efficiency = 35
+	}
+	add_equipment_production = {
+		equipment = {
+			type = drone_recon_equipment_2
+			creator = "USA"
+		}
+		requested_factories = 1
+		progress = 0.71
+		efficiency = 30
+	}
 }

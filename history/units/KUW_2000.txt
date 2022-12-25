@@ -1,6 +1,6 @@
 ﻿division_template = { # Armoured Division #
 	name = "Firqat Mudaraea"
-	division_names_group = KUW_MBT_01
+	division_names_group = GENERIC_MBT_01
 
 	regiments = {
 		main_battle_tank_armor = { x = 0 y = 0 }

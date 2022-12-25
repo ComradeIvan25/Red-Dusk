@@ -2798,9 +2798,9 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					has_idea = IRQ_kurdish_rebels_2
+					has_idea = IRQ_kurdish_rebels_4
 				}
-				remove_ideas = IRQ_kurdish_rebels_2
+				remove_ideas = IRQ_kurdish_rebels_4
 			}
 			set_country_flag = IRQ_kurds_done
 			set_country_flag = nothing
@@ -2939,6 +2939,10 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			swap_ideas = {
+				add_idea = IRQ_kurdish_rebels_2
+				remove_idea = IRQ_kurdish_rebels
+			}
 		}
 	}
 
@@ -3109,7 +3113,10 @@ focus_tree = {
 		relative_position_id = IRQ_construct_air_defenses
 
 		available = {
-			always = no ## Temporary, will be replaced with decision completion check
+			OR = {
+				has_completed_focus = IRQ_grant_partial_autonomy
+				always = no ## Temporary, will be replaced with decision completion check
+			}
 		}
 
 		cost = 3

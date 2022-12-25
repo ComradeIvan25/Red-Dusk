@@ -220,6 +220,23 @@ ideas = {
 				resistance_target = 0.2
 			}
 		}
+
+		IRQ_kurdish_rebels_4 = {
+			name = IRQ_kurds_name
+
+			removal_cost = -1
+
+			picture = IRQ_kurdish_rebel_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_cost = 0.7
+				resistance_target = 0.15
+			}
+		}
 		
 		IRQ_oil_producers = {
 			name = oil_producers_name

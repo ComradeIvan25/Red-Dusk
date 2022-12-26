@@ -170,6 +170,44 @@ ideas = {
 
 		}
 
+		SOV_party_infighting_2 = {
+
+			name = SOV_party_infighting_name
+
+			removal_cost = -1
+
+			picture = SOV_party_infighting_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_factor = -0.05
+				stability_factor = -0.04
+			}
+
+		}
+
+		SOV_party_infighting_3 = {
+
+			name = SOV_party_infighting_name
+
+			removal_cost = -1
+
+			picture = SOV_party_infighting_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_factor = -0.03
+				stability_factor = -0.05
+			}
+
+		}
+
 		SOV_rising_separatism = {
 
 			name = SOV_rising_separatism_name
@@ -725,6 +763,27 @@ ideas = {
 				army_org_factor = 0.1
 			}
 
+		} 
+ 
+		SOV_budapest_treaty = {
+
+			name = SOV_budapest_name
+
+			removal_cost = -1
+
+			picture =  SOV_budapest_agreement_icon
+
+			allowed = {
+				always = no
+			}
+				
+
+			modifier = {
+			army_defence_factor = 0.25
+			army_attack_factor = 0.2
+			
+			}
+
 		}
 
 
@@ -1166,7 +1225,7 @@ ideas = {
 
 			modifier = {
 				stability_factor = 0.1
-				political_power_factor = -0.2
+				political_power_gain = -0.05
 				communism_drift = 0.1
 
 			}
@@ -1187,9 +1246,9 @@ ideas = {
 
 			modifier = {
 				stability_factor = 0.12
-				political_power_factor = -0.25
+				political_power_gain = -0.1
 				communism_drift = 0.1
-				war_support_factor = 0.05
+				war_support_factor = 0.1
 
 			}
 
@@ -1689,8 +1748,8 @@ ideas = {
 				
 
 			modifier = {
-			army_defence_factor = 0.15
-			army_attack_factor = 0.10
+			army_defence_factor = 0.25
+			army_attack_factor = 0.2
 			
 			}
 

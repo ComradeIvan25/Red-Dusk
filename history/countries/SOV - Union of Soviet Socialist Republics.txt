@@ -269,6 +269,8 @@ recruit_character = SOV_alexei_navalny
 recruit_character = SOV_yuri_maslyukov
 recruit_character = SOV_nikolai_ryzhkov
 recruit_character = SOV_anatoly_lukyanov
+recruit_character = SOV_alexander_bessmertnykh
+recruit_character = SOV_sergey_akhromeyev_advisor
 
 ## generals ##
 recruit_character = SOV_aleksandr_korzhakov
@@ -295,8 +297,9 @@ recruit_character = SOV_anatoly_kornukov
 recruit_character = SOV_viktor_kazantsev
 
 add_ideas = SOV_boris_pugo
-add_ideas = SOV_dmitry_yazov
 add_ideas = SOV_yuri_maslyukov
+add_ideas = SOV_alexander_bessmertnykh
+add_ideas = SOV_dmitry_yazov
 
 create_faction = "Moscow Accord"
 SOV = {

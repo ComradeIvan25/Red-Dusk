@@ -94,12 +94,22 @@ spriteTypes = {
 		name = "GFX_idea_SOV_computerization_icon"
 		texturefile = "gfx/interface/ideas/SOV_computerization.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_SOV_budapest_agreement_icon"
+		texturefile = "gfx/interface/ideas/SOV_budapest_agreement.dds"
+	}
 
 
         #EUROPE COMMON#
 	spriteType = {
 		name = "GFX_idea_GER_eu_icon"
 		texturefile = "gfx/interface/ideas/GER_eu.dds"
+	}
+
+        #MUTUAL TRUST TREATY#
+	spriteType = {
+		name = "GFX_idea_mutual_trust_treaty_icon"
+		texturefile = "gfx/interface/ideas/SOV_mutual_trust_treaty.dds"
 	}
 
 

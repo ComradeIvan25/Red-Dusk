@@ -804,6 +804,40 @@ news_event = {
 	
 }
 
+#Wienna Summit Fail
+news_event = {
+	id = old_times_news.58
+	title = old_times_news.58.t
+	desc = old_times_news.58.d
+	picture = GFX_news_wienna_summit
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.58.a
+	}
+	
+}
+
+#Budapest Agreement
+news_event = {
+	id = old_times_news.59
+	title = old_times_news.59.t
+	desc = old_times_news.59.d
+	picture = GFX_news_budapest
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.59.a
+	}
+	
+}
+
 ### FLAVOUR NEWS EVENTS ###
 
 ## Concorde Trigger (HIDDEN) ##

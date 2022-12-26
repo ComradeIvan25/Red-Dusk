@@ -1,5 +1,37 @@
 add_namespace = ussr_wienna
 
+#Proposal fail#
+country_event = {
+	id = ussr_wienna.4
+	title = ussr_wienna.4.t
+	desc = ussr_wienna.4.d
+	picture = GFX_report_event_SOV_pugo_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr_wienna.4.a
+                set_country_flag = pugo_proposal_rejected
+	}
+
+}
+
+#Proposalbig win#
+country_event = {
+	id = ussr_wienna.5
+	title = ussr_wienna.5.t
+	desc = ussr_wienna.5.d
+	picture = GFX_report_event_SOV_pugo_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr_wienna.5.a
+                set_country_flag = pugo_proposal_accepted
+	}
+
+}
+
 #Wienna success#
 country_event = {
 	id = ussr_wienna.2
@@ -21,6 +53,8 @@ country_event = {
 			target = SOV
 			modifier = SOV_treaty_success_opinion
 			}
+
+			add_ideas = mutual_trust_treaty	
 	            }	
 	}
 
@@ -48,7 +82,7 @@ country_event = {
 			modifier = SOV_treaty_fail_opinion
 			}
 	            }
-		news_event = { id = old_times_news.57 days = 1 }
+		news_event = { id = old_times_news.58 days = 1 }
 
 	}
 

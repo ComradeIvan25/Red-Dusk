@@ -1,5 +1,30 @@
 add_namespace = usa_wienna
 
+#approach#
+country_event = {
+	id = usa_wienna.3
+	title = usa_wienna.3.t
+	desc = usa_wienna.3.d
+	picture = GFX_report_event_SAF_mandela
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = usa_wienna.3.a
+			SOV = {
+		        country_event = {id = ussr_wienna.5}
+			}		
+	}
+
+	option = {
+		name = usa_wienna.3.b	
+			SOV = {
+		        country_event = {id = ussr_wienna.4}
+			}	
+	}
+}
+
 #treaty#
 country_event = {
 	id = usa_wienna.1
@@ -14,7 +39,8 @@ country_event = {
 		name = usa_wienna.1.a
 			SOV = {
 		        country_event = {id = ussr_wienna.2}
-			}		
+			}
+			add_ideas = mutual_trust_treaty		
 	}
 
 	option = {

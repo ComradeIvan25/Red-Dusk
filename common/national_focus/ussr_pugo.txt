@@ -5,7 +5,7 @@
 		factor = 0
 		modifier = {
 		tag = SOV
-		add = 999
+		add = 0
 		}
 	}
 	
@@ -174,7 +174,6 @@
 			custom_effect_tooltip = army_5_influence_decrease
 			subtract_from_variable = {sov_reformist_influence_var = 5 }
 			custom_effect_tooltip = reformist_5_influence_decrease
-			
 		}
 	}
 	focus = {
@@ -358,6 +357,8 @@
 			SOV = {
 		        country_event = {id = ussr.40}
 			}
+			add_to_variable = {sov_hardliner_influence_var = 10}
+			custom_effect_tooltip = hardliner_10_influence_increase
 		}
 	}
 	focus = {
@@ -1219,6 +1220,7 @@
 			create_wargoal = { type = puppet_wargoal_focus target = POL }
 			create_wargoal = { type = puppet_wargoal_focus target = SLO }
 			create_wargoal = { type = puppet_wargoal_focus target = HUN }
+			create_wargoal = { type = puppet_wargoal_focus target = ROM }
 			news_event = { id = old_times_news.26 days = 1 }
 		}
 	}
@@ -1520,7 +1522,9 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
+			USA = {
+		        country_event = {id = usa_wienna.3}
+			}
 		}
 	}
 
@@ -1531,6 +1535,9 @@
 		y = 19
 
 		prerequisite = {focus = SOV_pugo_compromise_with_the_usa
+		}
+		available = {
+		 has_country_flag = pugo_proposal_accepted
 		}
 		mutually_exclusive = { focus = SOV_pugo_never_trust_a_yank }
 		
@@ -1658,6 +1665,9 @@
 
 		prerequisite = { focus = SOV_pugo_compromise_with_the_usa
 		}
+		available = {
+		 has_country_flag = pugo_proposal_rejected
+		}
 		mutually_exclusive = { focus = SOV_pugo_old_enemies_new_partners }
 		
 		cost = 1
@@ -1670,7 +1680,9 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
+			add_political_power = 30
+			add_stability = 0.05
+			add_war_support = 0.1
 		}
 	}
 	focus = {
@@ -1745,7 +1757,23 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
+			add_ideas = SOV_budapest_treaty
+			POL = {
+			add_ideas = SOV_budapest_treaty
+		        }
+			SLO = {
+			add_ideas = SOV_budapest_treaty
+		        }
+			HUN = {
+			add_ideas = SOV_budapest_treaty
+		        }
+			ROM = {
+			add_ideas = SOV_budapest_treaty
+		        }
+			BUL = {
+			add_ideas = SOV_budapest_treaty
+		        }
+		        news_event = { id = old_times_news.59 days = 1 }
 		}
 	}
 	focus = {
@@ -2176,6 +2204,225 @@
 		}
 	}
 
+
+       ###ECONOMY###
+       ###ECONOMY###
+       ###ECONOMY###
+
+	focus = {
+		id = SOV_pugo_fix
+		icon = GFX_focus_SOV_great_industry
+		x = 26
+		y = 0
+		prerequisite = {}
+		available = {
+		has_country_flag = economy_for_pugo
+		}  
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+        ###STALIN WAY###
+
+	focus = {
+		id = SOV_pugo_old
+		icon = GFX_SOV_follow_the_stalin_plan
+		x = 23
+		y = 1
+		prerequisite = {focus = SOV_pugo_fix}  
+		mutually_exclusive = {focus = SOV_pugo_new}
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = +0.05
+			add_political_power = -50
+			add_ideas = SOV_pugo_stalin_economy
+		}
+	}
+
+	focus = {
+		id = SOV_pugo_resource
+		icon = GFX_SOV_georgian_resources
+		x = 24
+		y = 2
+		prerequisite = {focus = SOV_pugo_old}  
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			821 = {
+                		add_extra_state_shared_building_slots = 2
+
+                		add_building_construction = {
+                    			type = infrastructure
+                    			level = 2
+                    			instant_build = yes
+                		}
+           		 }
+
+			232 = {
+                		add_extra_state_shared_building_slots = 2
+
+                		add_building_construction = {
+                    			type = infrastructure
+                    			level = 2
+                    			instant_build = yes
+                		}
+           		 }
+
+			234 = {
+                		add_extra_state_shared_building_slots = 2
+
+                		add_building_construction = {
+                    			type = infrastructure
+                    			level = 2
+                    			instant_build = yes
+                		}
+           		 }
+		}
+	}
+
+	focus = {
+		id = SOV_pugo_bread
+		icon = GFX_focus_SOV_breadbasket
+		x = 24
+		y = 3
+		prerequisite = {focus = SOV_pugo_resource}  
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			245 = {
+                		add_extra_state_shared_building_slots = 2
+
+                		add_building_construction = {
+                    			type = infrastructure
+                    			level = 2
+                    			instant_build = yes
+                		}
+           		 }
+
+			193 = {
+                		add_extra_state_shared_building_slots = 1
+
+                		add_building_construction = {
+                    			type = infrastructure
+                    			level = 1
+                    			instant_build = yes
+                		}
+           		 }
+
+			196 = {
+                		add_extra_state_shared_building_slots = 1
+
+                		add_building_construction = {
+                    			type = infrastructure
+                    			level = 1
+                    			instant_build = yes
+                		}
+           		 }
+			221 = {
+                		add_extra_state_shared_building_slots = 2
+
+                		add_building_construction = {
+                    			type = infrastructure
+                    			level = 2
+                    			instant_build = yes
+                		}
+           		 }
+		}
+	}
+
+	focus = {
+		id = SOV_pugo_no_forgive
+		icon = GFX_focus_SOV_marshal_yazov
+		x = 24
+		y = 4
+		prerequisite = {focus = SOV_pugo_bread}  
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 10
+			add_stability = -0.05
+				swap_ideas = {
+					remove_idea = SOV_pugo_stalin_economy
+					add_idea = SOV_pugo_stalin_economy2
+				}
+		}
+	}
+
+	focus = {
+		id = SOV_pugo_stomp_rich
+		icon = GFX_focus_SOV_fight_mil_oligarchy
+		x = 24
+		y = 5
+		prerequisite = {focus = SOV_pugo_no_forgive}  
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 10
+			add_stability = 0.02
+				swap_ideas = {
+					remove_idea = SOV_pugo_stalin_economy2
+					add_idea = SOV_pugo_stalin_economy3
+				}
+		}
+	}
+
 	## PUGO'S POLICIES ##
 	
 	focus = {
@@ -2352,7 +2599,7 @@
 			
 		}
 	}
-	
+
 	focus = {
 		id = SOV_pugo_increase_KGB_spending
 		icon = GFX_SOV_gensec_pugo

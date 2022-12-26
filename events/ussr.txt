@@ -387,6 +387,21 @@ country_event = {
 
 }
 
+#pugo fren#
+country_event = {
+	id = ussr.42
+	title = ussr.42.t
+	desc = ussr.42.d
+	picture = GFX_report_event_gorby_gone
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr.42.a
+	}
+
+}
+
 #soviet bear coming to west#
 country_event = {
 	id = ussr.9
@@ -631,6 +646,23 @@ country_event = {
 	
 	option = {
 		name = ussr.21.a
+		
+	}
+
+}
+
+#Politics of Yazov#
+country_event = {
+	id = ussr.41
+	title = ussr.41.t
+	desc = ussr.41.d
+	picture = GFX_report_event_SOV_yazov_protest
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = ussr.41.a
 		
 	}
 

@@ -102,6 +102,38 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_trial_of_the_traitors.png"
 	}
 	SpriteType = {
+		name = "GFX_focus_SOV_politburo_situation"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_politburo_situation.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_marshal_on_stage"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_marshal_on_stage.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_no_friends"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_no_friends.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_pugo_loyalty"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_pugos_loyalty.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_cracks_of_oposition"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_cracks_of_oposition.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_arrest_libs"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_arrest_libs.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_friends"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_friends.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_putin_connections"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_putin_connections.png"
+	}
+	SpriteType = {
 		name = "GFX_focus_SOV_secure_the_chairman_position"
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_secure_the_chairman_position.png"
 	}
@@ -393,6 +425,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_spark_flame.png"
 	}
 	SpriteType = {
+		name = "GFX_focus_SOV_back_in_ussr"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_back_in_ussr.png"
+	}
+	SpriteType = {
 		name = "GFX_focus_SOV_foreign_policy"
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_foreign_policy.png"
 	}
@@ -633,6 +669,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SOV/SOV_marshall_approval.dds"
 	}
 	SpriteType = {
+		name = "GFX_SOV_matter_of_the_economy"
+		texturefile = "gfx/interface/goals/SOV/SOV_matter_of_the_economy.dds"
+	}
+	SpriteType = {
 		name = "GFX_SOV_men_we_can_trust"
 		texturefile = "gfx/interface/goals/SOV/SOV_men_we_can_trust.dds"
 	}
@@ -659,6 +699,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_SOV_prepare_the_inevitable"
 		texturefile = "gfx/interface/goals/SOV/SOV_prepare_the_inevitable.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_prepare_their_fate"
+		texturefile = "gfx/interface/goals/SOV/SOV_prepare_their_fate.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_preparing_the_cards"
@@ -719,6 +763,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_SOV_unto_a_new_dawn"
 		texturefile = "gfx/interface/goals/SOV/SOV_unto_a_new_dawn.png"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Soviet_Foreign_Policy"
+		texturefile = "gfx/interface/goals/SOV/SOV_Soviet_Foreign_Policy.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_focus_promise_higher_autonomy"

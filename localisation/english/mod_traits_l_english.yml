@@ -17,7 +17,14 @@
  secretary_of_homeland_security:0 "Secretary of Homeland Security" 
  secretary_of_treasury:0 "Secretary of Treasury"
  secretary_of_state:0 "Secretary of State"
-  
+
+ #SOVIET ADVISORS#
+ party_hardliner:0 "Party Hardliner"
+ minister_of_foreign_affairs:0 "Minister of Foreign Affairs"
+ economic_reformist:0 "Economic Reformist"
+
+ militarist:0 "Militarist Demagogue"
+ 
  chemical_ali:0 "Chemical Ali"
  chemical_ali_2:0 "Chemical Ali"
  minister_of_finance:0 "Minister of Finance"

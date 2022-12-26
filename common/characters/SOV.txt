@@ -34,10 +34,10 @@ characters = {
 		}
 	}
 	SOV_alexei_navalny = {
-		name = "Alexei_Navalny"
+		name = "Alexei Navalny"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SOV/Aleksandr_Korzhakov.dds"
+				large = "gfx/leaders/SOV/post_putin/Alexei_Navalny.dds"
 			}
 		}
 		country_leader = {
@@ -122,7 +122,7 @@ characters = {
 				original_tag = SOV
 			}
 			traits = {
-				party_hardliner 
+				party_hardliner
 			}
 		}
 	}
@@ -243,6 +243,46 @@ characters = {
 			}
 			traits = {
 				chief_of_industry 
+			}
+		}
+	}
+
+	SOV_alexander_bessmertnykh = {
+		name = "Alexander Bessmertnykh"
+		portraits = {
+			civilian = {
+				small = "gfx/leaders/SOV/alexander_advisor.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = SOV_alexander_bessmertnykh
+			allowed = {
+				original_tag = SOV
+			}
+			traits = {
+				minister_of_foreign_affairs 
+			}
+		}
+	}
+
+	SOV_sergey_akhromeyev_advisor = {
+		name = "Sergey Akhromeyev"
+		portraits = {
+			civilian = {
+				small = "gfx/leaders/SOV/Sergey_Akhromeyev_advisor.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = SOV_sergey_akhromeyev_advisor
+			allowed = {
+				original_tag = SOV
+			}
+			traits = {
+				militarist
 			}
 		}
 	}

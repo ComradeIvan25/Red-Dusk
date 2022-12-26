@@ -94,6 +94,10 @@
  SOV_autonomy_concessions_name_desc:0 ""
  SOV_Yazov_woke_bear_name:0 "Soviet Bear Awoken"
  SOV_Yazov_woke_bear_name_desc:0 ""
+ SOV_mutual_trust:0 "Mutual Trust Treaty"
+ SOV_mutual_trust_desc:0 "After more than 50 years of constant tensions, both US and Soviet delegations have signed the Mutual Trust Treaty. This treaty provides benefits to both of its signiture nations."
+ SOV_budapest_name:0 "The Budapest Treaty"
+ SOV_budapest_name_desc:0 ""
  
  USA_the_constitution_name:0 "The Constitution"
  USA_the_constitution_name_desc:0 "Written and Ratified in 1789 (by most states) the Constitution of the United States and its entailed Bill of Rights is the foremost document that makes America the “Land of the Free” in the World."

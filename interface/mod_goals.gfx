@@ -698,7 +698,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_SOV_prepare_the_inevitable"
-		texturefile = "gfx/interface/goals/SOV/SOV_prepare_the_inevitable.dds"
+		texturefile = "gfx/interface/goals/SOV/SOV_prepare_the_inevitable.png"
 	}
 	SpriteType = {
 		name = "GFX_SOV_prepare_their_fate"

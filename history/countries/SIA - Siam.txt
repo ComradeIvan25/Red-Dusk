@@ -30,7 +30,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 50
-	communism = 0
-	neutrality = 50
+	democratic = 40
+	liberalism = 10
+	paternal_autocracy = 50
 }

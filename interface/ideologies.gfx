@@ -37,8 +37,8 @@ spriteTypes = {
 }
 
 	SpriteType = {
-		name = "GFX_ideology_monarchy"
-		texturefile = "gfx/interface/ideologies/monarchy.dds"	
+		name = "GFX_ideology_monarchism"
+		texturefile = "gfx/interface/ideologies/monarchism.dds"	
 }
 
 	SpriteType = {
@@ -85,3 +85,16 @@ spriteTypes = {
 		name = "GFX_ideology_liberalism"
 		texturefile = "gfx/interface/ideologies/liberalism.dds"	
 }
+	SpriteType = {
+		name = "GFX_ideology_paternal_autocracy"
+		texturefile = "gfx/interface/ideologies/paternal_autocracy.dds"	
+}
+	SpriteType = {
+		name = "GFX_ideology_paternal_autocracy_sub"
+		texturefile = "gfx/interface/ideologies/paternal_autocracy_sub.dds"	
+}
+	SpriteType = {
+		name = "GFX_ideology_baathist_socialism"
+		texturefile = "gfx/interface/ideologies/baathist_socialism.dds"	
+}
+

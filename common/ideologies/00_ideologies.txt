@@ -429,7 +429,10 @@ ideologies = {
 	
 		types = {
 		
-			real_despotism = {
+			paternal_autocracy_sub = { 
+			}
+		
+			real_despotism = { #despotism
 			}
 			
 			oligarchism  = {

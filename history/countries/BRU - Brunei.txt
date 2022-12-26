@@ -20,7 +20,7 @@ set_convoys = 5
 recruit_character = BRU_hassanal_bolkiah
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = paternal_autocracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -31,7 +31,7 @@ set_popularities = {
 	reformed_communism = 0
 	islamism = 15
 	fascism = 3
-	neutrality = 82
+	paternal_autocracy = 82
 }
 
 add_ideas = SIA_asean

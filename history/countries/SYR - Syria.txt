@@ -41,15 +41,15 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	democratic = 15
-	fascism = 80
-	communism = 5
+	socialism = 75
+	communism = 10
 }
 
 add_ideas = ussr_aligned_nation

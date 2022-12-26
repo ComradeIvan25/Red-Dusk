@@ -1570,8 +1570,17 @@ focus_tree = {
 			unlock_decision_tooltip = IRQ_pan_arab_modify_the_constitution
 			add_popularity = {
 				ideology = communism
-				popularity = 0.35
+				popularity = 0.10
 			}
+			add_popularity = {
+				ideology = reformed_communism
+				popularity = 0.25
+			}
+				set_party_name = {
+					ideology = reformed_communism
+					long_name = IRQ_communism_party_baath_long
+					name = IRQ_communism_party_baath
+				}
 				set_party_name = {
 					ideology = communism
 					long_name = IRQ_communism_party_baath_long
@@ -1664,7 +1673,7 @@ focus_tree = {
 		continue_if_invalid = no
 		completion_reward = {
 			add_popularity = {
-				ideology = fascism
+				ideology = socialism
 				popularity = 0.05
 			}
 		add_to_variable = { irq_propaganda_effect_political_var = 0.050}

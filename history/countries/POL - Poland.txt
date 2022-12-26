@@ -56,16 +56,17 @@ add_ideas = {
 add_ideas = east_europe_eastern_threat
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = social_democracy
 	last_election = "1998.9.8"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 57
+	democratic = 25
+	social_democracy = 47
 	fascism = 13
-	communism = 10
-	neutrality = 20
+	communism = 5
+	neutrality = 10
 }
 
 # Naval Variants #

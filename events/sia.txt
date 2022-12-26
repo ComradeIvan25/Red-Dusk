@@ -18,12 +18,12 @@ country_event = {
 		retire_country_leader = yes
 		promote_character = SIA_Surayud_Chulanont
                 set_party_name = { 
-			ideology = neutrality
+			ideology = paternal_autocracy
 			long_name = SIA_military_gov_long
 			name = SIA_military_gov
 		}
                   set_politics = {
-			ruling_party = neutrality
+			ruling_party = paternal_autocracy
 		}
 	}
 }

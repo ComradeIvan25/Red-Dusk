@@ -200,10 +200,8 @@
             		custom_effect_tooltip = hardliner_10_influence_decrease
 			add_stability = -0.05
 			add_political_power = -15
-			swap_ideas = {
-				remove_idea = SOV_boris_pugo
-				add_idea = SOV_sergey_akhromeyev_advisor
-			}
+				remove_ideas = SOV_boris_pugo
+				add_ideas = SOV_sergey_akhromeyev_advisor
 		}
 	}
 

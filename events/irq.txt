@@ -688,7 +688,7 @@ country_event = {
 		add_political_power = 100
 		add_war_support = 0.05
 			add_popularity = {
-				ideology = fascism
+				ideology = socialism
 				popularity = 1.0
 			}
 	}

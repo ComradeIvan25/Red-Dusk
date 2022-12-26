@@ -18,7 +18,7 @@ recruit_character = BUL_petar_stoyanov
 recruit_character = BUL_alexander_lilov
 
 set_politics = {
-	ruling_party = social_democracy
+	ruling_party = democratic
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no

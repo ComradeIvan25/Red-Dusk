@@ -13,7 +13,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = baathist_socialism
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1

@@ -106,14 +106,15 @@ add_ideas = IRQ_tariq_aziz13
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = socialism
 	last_election = "1995.10.15"
 	election_frequency = 84
 	elections_allowed = no
 }
 
 set_popularities = {
-	fascism = 99
+	socialism = 89
+	fascism = 10
 	neutrality = 1
 }
 

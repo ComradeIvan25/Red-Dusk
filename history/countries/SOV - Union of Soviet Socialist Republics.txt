@@ -188,31 +188,6 @@ set_war_support = 0.2
 
 set_convoys = 500
 
-add_equipment_to_stockpile = {
-	type = infantry_weapons
-	amount = 35000
-}
-add_equipment_to_stockpile = {
-	type = infantry_anti_tank_weapons
-	amount = 8000
-}
-add_equipment_to_stockpile = {
-	type = infantry_anti_air_weapons
-	amount = 8000
-}
-add_equipment_to_stockpile = {
-	type = motorised_equipment
-	amount = 8000
-}
-add_equipment_to_stockpile = {
-	type = support_equipment
-	amount = 20000
-}
-add_equipment_to_stockpile = {
-	type = apc_tank_equipment
-	amount = 5000
-}
-
 add_ideas = {
 	partial_economic_mobilisation
 	limited_exports

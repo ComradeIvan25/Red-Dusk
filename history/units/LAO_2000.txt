@@ -1,0 +1,106 @@
+﻿division_template = { # Infantry Division #
+	name = "Infantry Division"
+	division_names_group = GENERIC_INF_01
+
+	regiments = {
+		infantry_unit = { x = 0 y = 0 }
+		infantry_unit = { x = 0 y = 1 }
+		infantry_unit = { x = 0 y = 2 }
+		infantry_unit = { x = 0 y = 3 }
+		towed_artillery_unit = { x = 1 y = 0 }
+		heavy_infantry_unit = { x = 2 y = 0 }
+		main_battle_tank_armor = { x = 3 y = 0 }
+	}
+	support = {
+		spaa_vehicle_support_armor = { x = 0 y = 0 }
+	}
+	priority = 1
+}
+
+units = {
+	#Infantry Division
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1464
+		division_template = "Infantry Division"
+		force_equipment_variants = {
+			mbt_tank_equipment_0 = { owner = "SOV" }
+			apc_tank_equipment_0 = { owner = "SOV" }
+			spaa_tank_equipment_0 = { owner = "SOV" }
+			towed_artillery_equipment_1 = { owner = "SOV" }
+		}
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.45
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 4554
+		division_template = "Infantry Division"
+		force_equipment_variants = {
+			mbt_tank_equipment_0 = { owner = "SOV" }
+			apc_tank_equipment_0 = { owner = "SOV" }
+			spaa_tank_equipment_0 = { owner = "SOV" }
+			towed_artillery_equipment_1 = { owner = "SOV" }
+		}
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.45
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4539
+		division_template = "Infantry Division"
+		force_equipment_variants = {
+			mbt_tank_equipment_0 = { owner = "SOV" }
+			apc_tank_equipment_0 = { owner = "SOV" }
+			spaa_tank_equipment_0 = { owner = "SOV" }
+			towed_artillery_equipment_1 = { owner = "USA" }
+		}
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.45
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 10456
+		division_template = "Infantry Division"
+		force_equipment_variants = {
+			mbt_tank_equipment_0 = { owner = "SOV" }
+			apc_tank_equipment_0 = { owner = "SOV" }
+			spaa_tank_equipment_0 = { owner = "SOV" }
+			towed_artillery_equipment_1 = { owner = "USA" }
+		}
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.45
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 9961
+		division_template = "Infantry Division"
+		force_equipment_variants = {
+			mbt_tank_equipment_0 = { owner = "SOV" }
+			apc_tank_equipment_0 = { owner = "SOV" }
+			spaa_tank_equipment_0 = { owner = "SOV" }
+			towed_artillery_equipment_1 = { owner = "SOV" }
+		}
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.45
+	}
+}
+
+### Starting Production ###
+instant_effect = {
+}

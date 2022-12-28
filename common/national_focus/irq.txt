@@ -3294,7 +3294,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_increase_monetary_incentives
-		#icon = 
+		icon = GFX_focus_IRQ_monetary_incentives
 		x = 0
 		y = 1
 

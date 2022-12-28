@@ -13,6 +13,10 @@ if = {
 		corvette_hull_1990 = 1
 	}
 }
+set_technology = {
+	towed_artillery_1960 = 1
+	drone_recon_1980 = 1
+}
 
 set_convoys = 5
 

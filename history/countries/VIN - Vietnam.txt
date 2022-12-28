@@ -38,6 +38,7 @@ set_technology = {
 	apc_tank_1960 = 1
 	spaa_tank_1960 = 1
 	towed_artillery_1960 = 1
+	motorised_artillery_1960 = 1
 	rocket_artillery_1960 = 1
 }
 if = {

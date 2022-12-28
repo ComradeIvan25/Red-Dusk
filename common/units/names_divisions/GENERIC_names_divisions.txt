@@ -796,3 +796,39 @@ GENERIC_ART_02 =
 		19 = { "19th Heavy Artillery Division" }
 	}
 }
+GENERIC_RCN_01 = 
+{
+	name = "Reconnaissance Divisions"
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry_unit" "recon_vehicle_armor" }
+
+	fallback_name = "%d Reconnaissance Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "1st Reconnaissance Division" }
+		2 = { "2nd Reconnaissance Division" }
+		3 = { "3rd Reconnaissance Division" }
+		4 = { "4th Reconnaissance Division" }
+		5 = { "5th Reconnaissance Division" }
+		6 = { "6th Reconnaissance Division" }
+		7 = { "7th Reconnaissance Division" }
+		8 = { "8th Reconnaissance Division" }
+		9 = { "9th Reconnaissance Division" }
+		10 = { "10th Reconnaissance Division" }
+		11 = { "11th Reconnaissance Division" }
+		12 = { "12th Reconnaissance Division" }
+		13 = { "13th Reconnaissance Division" }
+		14 = { "14th Reconnaissance Division" }
+		15 = { "15th Reconnaissance Division" }
+		16 = { "16th Reconnaissance Division" }
+		17 = { "17th Reconnaissance Division" }
+		18 = { "18th Reconnaissance Division" }
+		19 = { "19th Reconnaissance Division" }
+	}
+}

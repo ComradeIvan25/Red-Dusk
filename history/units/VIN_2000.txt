@@ -10,6 +10,7 @@
 		heavy_infantry_unit = { x = 1 y = 1 }
 		heavy_infantry_unit = { x = 1 y = 2 }
 		heavy_infantry_unit = { x = 1 y = 3 }
+		heavy_infantry_unit = { x = 1 y = 4 }
 		infantry_unit = { x = 2 y = 0 }
 		infantry_unit = { x = 2 y = 1 }
 		infantry_unit = { x = 2 y = 2 }
@@ -63,6 +64,7 @@ division_template = { # Armoured Infantry Division #
 		infantry_unit = { x = 1 y = 1 }
 		infantry_unit = { x = 1 y = 2 }
 		main_battle_tank_armor = { x = 2 y = 0 }
+		main_battle_tank_armor = { x = 2 y = 1 }
 	}
 	support = {
 		towed_artillery_support_unit = { x = 0 y = 0 }
@@ -81,6 +83,8 @@ division_template = { # Armoured Division #
 		main_battle_tank_armor = { x = 0 y = 0 }
 		main_battle_tank_armor = { x = 0 y = 1 }
 		main_battle_tank_armor = { x = 0 y = 2 }
+		main_battle_tank_armor = { x = 0 y = 3 }
+		main_battle_tank_armor = { x = 0 y = 4 }
 		infantry_fighting_vehicle_armor = { x = 1 y = 0 }
 		infantry_fighting_vehicle_armor = { x = 1 y = 1 }
 		infantry_fighting_vehicle_armor = { x = 1 y = 2 }
@@ -89,11 +93,10 @@ division_template = { # Armoured Division #
 		heavy_infantry_unit = { x = 2 y = 2 }
 		heavy_infantry_unit = { x = 2 y = 3 }
 		heavy_infantry_unit = { x = 2 y = 4 }
-		infantry_unit = { x = 3 y = 0 }
-		infantry_unit = { x = 3 y = 1 }
-		infantry_unit = { x = 3 y = 2 }
+		motorised_artillery_unit = { x = 3 y = 1}
+		rocket_artillery_unit = { x = 3 y = 0 }
+		towed_artillery_unit = { x = 3 y = 2 }
 		towed_artillery_unit = { x = 3 y = 3 }
-		towed_artillery_unit = { x = 3 y = 4 }
 		rocket_artillery_unit = { x = 4 y = 0 }
 		motorised_artillery_unit = { x = 4 y = 1 }
 	}
@@ -114,8 +117,10 @@ division_template = { # Marine Division #
 		marine_unit = { x = 0 y = 0 }
 		marine_unit = { x = 0 y = 1 }
 		marine_unit = { x = 0 y = 2 }
+		marine_unit = { x = 0 y = 3 }
 		heavy_infantry_unit = { x = 1 y = 0 }
 		towed_artillery_unit = { x = 2 y = 0 }
+		main_battle_tank_armor = { x = 3 y = 0 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
@@ -659,7 +664,7 @@ instant_effect = {
 		producer = SOV
 	} 
         add_equipment_to_stockpile = {
-		type = rocket_artillery_equipment_1
+		type = motorised_artillery_equipment_1
 		amount = 306
 		producer = SOV
 	} 

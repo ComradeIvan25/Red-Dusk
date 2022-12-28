@@ -202,6 +202,7 @@
 			add_political_power = -15
 				remove_ideas = SOV_boris_pugo
 				add_ideas = SOV_sergey_akhromeyev_advisor
+
 		}
 	}
 
@@ -305,7 +306,7 @@
 			add_stability = 0.1
 			add_political_power = 30
 			swap_ideas = {
-				remove_idea = SOV_party_infighting
+				remove_idea = SOV_party_infighting_1
 				add_idea = SOV_party_infighting_3
 			}
 		}
@@ -335,7 +336,7 @@
 		continue_if_invalid = no
 		completion_reward = {
 			add_to_variable = {sov_militarist_influence_var = 5}
-			custom_effect_tooltip = militarist_5_influence_increase
+			custom_effect_tooltip = army_5_influence_increase
 			add_to_variable = {sov_hardliner_influence_var = 5}
 			custom_effect_tooltip = hardliner_5_influence_increase
 			subtract_from_variable = {sov_reformist_influence_var = 5}
@@ -373,7 +374,7 @@
 		continue_if_invalid = no
 		completion_reward = {
 			add_to_variable = {sov_militarist_influence_var = 5}
-			custom_effect_tooltip = militarist_5_influence_increase
+			custom_effect_tooltip = army_5_influence_increase
 			add_to_variable = {sov_kgb_influence_var = 5}
 			custom_effect_tooltip = kgb_5_influence_increase
 			subtract_from_variable = {sov_reformist_influence_var = 5 }
@@ -468,7 +469,11 @@
 		continue_if_invalid = no
 		completion_reward = {
 			add_timed_idea = { idea = SOV_Yazov_reformed_cpsu days = 100}
-			remove_ideas = SOV_party_infighting
+			remove_ideas = SOV_party_infighting_1
+			hidden_effect = {
+			remove_ideas = SOV_party_infighting_2
+			remove_ideas = SOV_party_infighting_3
+			}
 		}
 	}
 

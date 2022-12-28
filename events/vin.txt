@@ -24,7 +24,7 @@ country_event = {
 	
 	trigger = {
     original_tag = VIN
-    date > 2000.4.29
+    date > 2000.04.29
     }
 	
 	fire_only_once = yes

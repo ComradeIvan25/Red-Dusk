@@ -107,9 +107,11 @@ news_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		set_global_flag = SAF_war_super_event
-        set_global_flag = Super_Event_Visible
-	    play_song = "super_sa_war"	
+		hidden_effect = {
+			set_global_flag = SAF_war_super_event
+			set_global_flag = Super_Event_Visible
+			play_song = "super_sa_war"	
+		}
 	}
 	
 	option ={
@@ -164,9 +166,11 @@ news_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		set_global_flag = Super_Event_Visible
-		set_global_flag = YUG_War
-		play_song = "super_yugo_war"		
+		hidden_effect = {
+			set_global_flag = Super_Event_Visible
+			set_global_flag = YUG_War
+			play_song = "super_yugo_war"		
+		}
 	}
 	
 	option ={
@@ -302,9 +306,11 @@ news_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		set_global_flag = Eastern_War
-		set_global_flag = Super_Event_Visible
-		play_song = "super_eastern_war"
+		hidden_effect = {
+			set_global_flag = Eastern_War
+			set_global_flag = Super_Event_Visible
+			play_song = "super_eastern_war"
+		}
 	}
 	
 	option ={

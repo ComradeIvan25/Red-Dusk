@@ -216,6 +216,7 @@ add_ideas = SOV_party_infighting
 add_ideas = SOV_rising_separatism
 
 add_ideas = ussr_aligned_nation
+add_ideas = nation_status_superpower
  
 add_dynamic_modifier = { modifier = SOV_cold_war}
 

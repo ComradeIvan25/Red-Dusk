@@ -237,6 +237,7 @@ add_ideas = USA_military_spending
 add_ideas = USA_last_bastion
 
 add_ideas = usa_aligned_nation
+add_ideas = nation_status_superpower
 
 add_dynamic_modifier = { modifier = USA_cold_war}
 

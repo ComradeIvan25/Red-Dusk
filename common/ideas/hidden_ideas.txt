@@ -1,0 +1,24 @@
+ideas = {
+
+	hidden_ideas = {
+
+		nation_status_superpower = {
+				
+			name = nation_status_superpower
+
+			removal_cost = -1
+
+			#picture =
+
+			allowed = {
+				always = no
+			}
+				
+			modifier = {
+			}	
+
+		}
+
+	}
+
+}

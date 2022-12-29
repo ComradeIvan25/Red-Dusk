@@ -1408,7 +1408,7 @@ country_event = {
 	picture = GFX_report_event_SOV_influence_north_korea
 	
 	trigger = {
-		date > 10.1.2000
+		date > 2000.1.10
 	}	
 	
 	fire_only_once = yes

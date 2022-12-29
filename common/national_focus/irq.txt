@@ -3003,7 +3003,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_expand_domestic_dockyards
-		#icon = 
+		icon = GFX_focus_IRQ_expand_domestic_dockyards
 		x = -2
 		y = 1
 
@@ -3444,7 +3444,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_play_to_our_strengths
-		#icon = 
+		icon = GFX_focus_IRQ_play_to_our_strengths
 		x = 0
 		y = 1
 

@@ -1355,6 +1355,14 @@ spriteTypes = {
 		name = "GFX_focus_IRQ_monetary_incentives"
 		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_monetary_incentives.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_play_to_our_strengths"
+		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_play_to_our_strengths.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_expand_domestic_dockyards"
+		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_expand_domestic_dockyards.png"
+	}
 	
    ###SAF###
 

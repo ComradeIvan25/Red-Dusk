@@ -580,6 +580,158 @@ on_actions = {
 					var = THIS.num_bombers_max
 					value = 15
 				}
+
+				## Overmiliterisation ##
+				set_variable = {
+					var = THIS.temp_percentage_battalions
+					value = THIS.num_battalions
+				}
+				divide_variable = {
+					var = THIS.temp_percentage_battalions
+					value = THIS.num_battalions_max
+				}
+				subtract_from_variable = {
+					var = THIS.temp_percentage_battalions
+					value = 1
+				}
+				if = {
+					limit = {
+						check_variable = { THIS.temp_percentage_battalions < 0 }
+					}
+					set_variable = {
+						var = THIS.temp_percentage_battalions
+						value = 0
+					}
+				}
+
+				set_variable = {
+					var = THIS.temp_percentage_ships
+					value = THIS.num_ship
+				}
+				divide_variable = {
+					var = THIS.temp_percentage_ships
+					value = THIS.num_ships_max
+				}
+				subtract_from_variable = {
+					var = THIS.temp_percentage_ships
+					value = 1
+				}
+				if = {
+					limit = {
+						check_variable = { THIS.temp_percentage_ships < 0 }
+					}
+					set_variable = {
+						var = THIS.temp_percentage_ships
+						value = 0
+					}
+				}
+
+				set_variable = {
+					var = THIS.temp_percentage_ships_capital
+					value = THIS.num_ships_capital
+				}
+				divide_variable = {
+					var = THIS.temp_percentage_ships_capital
+					value = THIS.num_ships_capital_max
+				}
+				subtract_from_variable = {
+					var = THIS.temp_percentage_ships_capital
+					value = 1
+				}
+				if = {
+					limit = {
+						check_variable = { THIS.temp_percentage_ships_capital < 0 }
+					}
+					set_variable = {
+						var = THIS.temp_percentage_ships_capital
+						value = 0
+					}
+				}
+
+				set_variable = {
+					var = THIS.temp_percentage_planes
+					value = THIS.num_deployed_planes
+				}
+				divide_variable = {
+					var = THIS.temp_percentage_planes
+					value = THIS.num_planes_max
+				}
+				subtract_from_variable = {
+					var = THIS.temp_percentage_planes
+					value = 1
+				}
+				if = {
+					limit = {
+						check_variable = { THIS.temp_percentage_planes < 0 }
+					}
+					set_variable = {
+						var = THIS.temp_percentage_planes
+						value = 0
+					}
+				}
+
+				set_variable = {
+					var = THIS.temp_percentage_bombers
+					value = THIS.num_bombers
+				}
+				divide_variable = {
+					var = THIS.temp_percentage_bombers
+					value = THIS.num_bombers_max
+				}
+				subtract_from_variable = {
+					var = THIS.temp_percentage_bombers
+					value = 1
+				}
+				if = {
+					limit = {
+						check_variable = { THIS.temp_percentage_bombers < 0 }
+					}
+					set_variable = {
+						var = THIS.temp_percentage_bombers
+						value = 0
+					}
+				}
+
+				set_variable = {
+					var = THIS.overmiliterisation_percentage
+					value = 0
+				}
+				add_to_variable = {
+					var = THIS.overmiliterisation_percentage
+					value = THIS.temp_percentage_battalions
+				}
+				add_to_variable = {
+					var = THIS.overmiliterisation_percentage
+					value = THIS.temp_percentage_ships
+				}
+				add_to_variable = {
+					var = THIS.overmiliterisation_percentage
+					value = THIS.temp_percentage_ships_capital
+				}
+				add_to_variable = {
+					var = THIS.overmiliterisation_percentage
+					value = THIS.temp_percentage_planes
+				}
+				add_to_variable = {
+					var = THIS.overmiliterisation_percentage
+					value = THIS.temp_percentage_bombers
+				}
+				divide_variable = {
+					var = THIS.overmiliterisation_percentage
+					value = 5
+				}
+				set_variable = {
+					var = THIS.overmiliterisation_percentage_minus
+					value = THIS.overmiliterisation_percentage
+				}
+				multiply_variable = {
+					var = THIS.overmiliterisation_percentage_minus
+					value = -1
+				}
+
+				add_dynamic_modifier = {
+					modifier = overmiliterisation_modifier
+				}
 			}
 		}
 	}
@@ -893,6 +1045,154 @@ on_actions = {
 				divide_variable = {
 					var = THIS.num_bombers_max
 					value = 15
+				}
+
+				## Overmiliterisation ##
+				set_variable = {
+					var = THIS.temp_percentage_battalions
+					value = THIS.num_battalions
+				}
+				divide_variable = {
+					var = THIS.temp_percentage_battalions
+					value = THIS.num_battalions_max
+				}
+				subtract_from_variable = {
+					var = THIS.temp_percentage_battalions
+					value = 1
+				}
+				if = {
+					limit = {
+						check_variable = { THIS.temp_percentage_battalions < 0 }
+					}
+					set_variable = {
+						var = THIS.temp_percentage_battalions
+						value = 0
+					}
+				}
+
+				set_variable = {
+					var = THIS.temp_percentage_ships
+					value = THIS.num_ship
+				}
+				divide_variable = {
+					var = THIS.temp_percentage_ships
+					value = THIS.num_ships_max
+				}
+				subtract_from_variable = {
+					var = THIS.temp_percentage_ships
+					value = 1
+				}
+				if = {
+					limit = {
+						check_variable = { THIS.temp_percentage_ships < 0 }
+					}
+					set_variable = {
+						var = THIS.temp_percentage_ships
+						value = 0
+					}
+				}
+
+				set_variable = {
+					var = THIS.temp_percentage_ships_capital
+					value = THIS.num_ships_capital
+				}
+				divide_variable = {
+					var = THIS.temp_percentage_ships_capital
+					value = THIS.num_ships_capital_max
+				}
+				subtract_from_variable = {
+					var = THIS.temp_percentage_ships_capital
+					value = 1
+				}
+				if = {
+					limit = {
+						check_variable = { THIS.temp_percentage_ships_capital < 0 }
+					}
+					set_variable = {
+						var = THIS.temp_percentage_ships_capital
+						value = 0
+					}
+				}
+
+				set_variable = {
+					var = THIS.temp_percentage_planes
+					value = THIS.num_deployed_planes
+				}
+				divide_variable = {
+					var = THIS.temp_percentage_planes
+					value = THIS.num_planes_max
+				}
+				subtract_from_variable = {
+					var = THIS.temp_percentage_planes
+					value = 1
+				}
+				if = {
+					limit = {
+						check_variable = { THIS.temp_percentage_planes < 0 }
+					}
+					set_variable = {
+						var = THIS.temp_percentage_planes
+						value = 0
+					}
+				}
+
+				set_variable = {
+					var = THIS.temp_percentage_bombers
+					value = THIS.num_bombers
+				}
+				divide_variable = {
+					var = THIS.temp_percentage_bombers
+					value = THIS.num_bombers_max
+				}
+				subtract_from_variable = {
+					var = THIS.temp_percentage_bombers
+					value = 1
+				}
+				if = {
+					limit = {
+						check_variable = { THIS.temp_percentage_bombers < 0 }
+					}
+					set_variable = {
+						var = THIS.temp_percentage_bombers
+						value = 0
+					}
+				}
+
+				set_variable = {
+					var = THIS.overmiliterisation_percentage
+					value = 0
+				}
+				add_to_variable = {
+					var = THIS.overmiliterisation_percentage
+					value = THIS.temp_percentage_battalions
+				}
+				add_to_variable = {
+					var = THIS.overmiliterisation_percentage
+					value = THIS.temp_percentage_ships
+				}
+				add_to_variable = {
+					var = THIS.overmiliterisation_percentage
+					value = THIS.temp_percentage_ships_capital
+				}
+				add_to_variable = {
+					var = THIS.overmiliterisation_percentage
+					value = THIS.temp_percentage_planes
+				}
+				add_to_variable = {
+					var = THIS.overmiliterisation_percentage
+					value = THIS.temp_percentage_bombers
+				}
+				divide_variable = {
+					var = THIS.overmiliterisation_percentage
+					value = 5
+				}
+				set_variable = {
+					var = THIS.overmiliterisation_percentage_minus
+					value = THIS.overmiliterisation_percentage
+				}
+				multiply_variable = {
+					var = THIS.overmiliterisation_percentage_minus
+					value = -1
 				}
 			}
 		}

@@ -33,9 +33,46 @@ guiTypes = {
 		}
 
 		iconType = {
-			name = "icon"
+			name = "ground_unit_icon"
 			position = { x=27 y=6 }
 			spriteType = "GFX_ground_unit_icon"
+		}
+
+		iconType = {
+			name = "help_button_icon"
+			position = { x=495 y=5 }
+			spriteType = "GFX_button_help"
+			pdx_tooltip = max_units_info_tt
+		}
+
+		containerWindowType = {
+			name = "max_units_overmiliterisation"
+			position = { x=410 y=6 }
+			clipping = no
+			size = { width=50 height=21 }
+			Orientation = UPPER_LEFT
+
+			iconType = {
+				name = "overmiliterisation_icon_bg"
+				position = { x=0 y=0 }
+				spriteType = "GFX_overmiliterisation_icon_bg"
+			}
+			iconType = {
+				name = "overmiliterisation_icon"
+				position = { x=6 y=4 }
+				spriteType = "GFX_overmiliterisation_icon"
+			}
+
+			instantTextboxType = {
+				name = "label_overmiliterisation"
+				position = { x = 22 y = 3 }
+				font = "hoi_16mbs"
+				text = "UNIT_LIMITER_OVERMILITERISATION"
+				maxWidth = 50
+				maxHeight = 16
+				format = center
+				pdx_tooltip = overmiliterisation_info_tt
+			}
 		}
 
 		instantTextBoxType = {

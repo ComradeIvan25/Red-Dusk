@@ -363,6 +363,18 @@ spriteTypes = {
 		textureFile = "gfx//interface//ground_unit_icon.dds"
 	}
 	spriteType = {
+		name = "GFX_button_help"
+		textureFile = "gfx//interface//button_help.dds"
+	}
+	spriteType = {
+		name = "GFX_overmiliterisation_icon"
+		textureFile = "gfx//interface//overmiliterisation_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_overmiliterisation_icon_bg"
+		textureFile = "gfx//interface//overmiliterisation_icon_bg.dds"
+	}
+	spriteType = {
 		name = "GFX_max_units_bg"
 		texturefile = "gfx/interface/max_units_bg.dds"
 	}

@@ -81,3 +81,13 @@ IRQ_the_propaganda_machine_costs_modifier = {
 	industrial_capacity_factory = irq_propaganda_effect_costs_var
 	consumer_goods_factor = irq_propaganda_effect_costs_consumer_goods_var
 }
+
+overmiliterisation_modifier = {
+	enable = { always = yes }
+
+	stability_factor = ROOT.overmiliterisation_percentage_minus
+	political_power_cost = ROOT.overmiliterisation_percentage
+	production_speed_buildings_factor = ROOT.overmiliterisation_percentage_minus
+	industrial_capacity_factory = ROOT.overmiliterisation_percentage_minus
+	industrial_capacity_dockyard = ROOT.overmiliterisation_percentage_minus
+}

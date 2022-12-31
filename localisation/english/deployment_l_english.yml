@@ -162,6 +162,7 @@
  UNIT_LIMITER_ARMY_SIZE_MOTORISATION:0 "Motorisation: [?ROOT.num_battalions_motor|%]"
  UNIT_LIMITER_NAVY_SIZE_CAPITAL:0 "Capital Ships: §g[?ROOT.num_ships_capital]§! / §Y[?ROOT.num_ships_capital_max|0]§!"
  UNIT_LIMITER_AIR_SIZE_BOMBER:0 "Bombers: §g[?ROOT.num_bombers]§! / §Y[?ROOT.num_bombers_max|0]§!"
+ UNIT_LIMITER_OVERMILITERISATION:0 "[?ROOT.overmiliterisation_percentage|%1]"
 
  ground_forces_header_text:0 "§GGround Forces§!"
  naval_forces_header_text:0 "§2Naval Forces§!"

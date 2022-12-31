@@ -4,7 +4,7 @@ ideas = {
 
 		nation_status_superpower = {
 				
-			name = nation_status_superpower
+			name = nation_status_superpower_name
 
 			removal_cost = -1
 

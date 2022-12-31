@@ -407,7 +407,12 @@
  
  cold_war_increased_volunteers_name:0 "Increased Volunteers"
  cold_war_increased_volunteers_name_desc:0 ""
- # SOV #
+
+ # Dynamic Modifiers #
+
+ overmiliterisation_modifier:0 "£overmiliterisation_icon Over-Militerisation"
+
+ # SOV Design Bureaus #
 
  SOV_design_bureau_morozov:0 "Morozov Design Bureau"
  SOV_design_bureau_uralvagonzavod:0 "UralVagonZavod"

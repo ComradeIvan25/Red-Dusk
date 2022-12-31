@@ -844,6 +844,131 @@ news_event = {
 	
 }
 
+#EPLF AND ETHIOPIAN REBELS Defeated
+news_event = {
+	id = old_times_news.60
+	title = old_times_news.60.t
+	desc = old_times_news.60.d
+	picture = GFX_news_ethiopian_win
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.60.a
+		trigger = {
+			NOT = { 
+				OR = {
+				original_tag = SOV 
+				original_tag = CUB
+				}
+			}
+		}
+	}
+	
+	option ={
+		name = old_times_news.60.b
+		trigger = { 
+			OR = {
+				original_tag = SOV 
+				original_tag = CUB
+			}
+		}
+	}
+	
+}
+
+# socdems win in germany 2002
+news_event = {
+	id = old_times_news.61
+	title = old_times_news.61.t
+	desc = old_times_news.61.d
+	picture = GFX_news_spd_win_2002
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.61.a
+		
+	}
+	
+}
+
+# cons win in germany 2002
+news_event = {
+	id = old_times_news.62
+	title = old_times_news.62.t
+	desc = old_times_news.62.d
+	picture = GFX_news_cdu_csu_win_2002
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.62.a
+		
+	}
+	
+}
+
+# libs win in germany 2002
+news_event = {
+	id = old_times_news.63
+	title = old_times_news.63.t
+	desc = old_times_news.63.d
+	picture = GFX_news_fdp_win_2002
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.63.a
+		
+	}
+	
+}
+
+# socdems win Romanian elections 2000
+news_event = {
+	id = old_times_news.64
+	title = old_times_news.64.t
+	desc = old_times_news.64.d
+	picture = GFX_news_rom_socdems_win_2000
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.64.a
+		
+	}
+	
+}
+
+# ultranats win Romanian elections 2000
+news_event = {
+	id = old_times_news.65
+	title = old_times_news.65.t
+	desc = old_times_news.65.d
+	picture = GFX_news_tudor_win_2000
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.65.a
+		
+	}
+	
+}
+
 ### FLAVOUR NEWS EVENTS ###
 
 ## Concorde Trigger (HIDDEN) ##

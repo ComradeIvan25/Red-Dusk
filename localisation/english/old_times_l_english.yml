@@ -36,13 +36,13 @@
  old_times_news.20.d:0 "Multiple border skirmishes and rise of tensions between the two Congolese Rebel Factions finally mounted into a war between the main rebel "Rally for Congolese Democracy" forces.\n\n Two factions were being supported by diffirent countries such as RCD - Kisangani faction being supported by Uganda forces while RCD - Goma faction supported by Rwanda and Burundi forces causing the unitary Anti - Kabila Alliance to collapse and opening another front in the Second Congo War. " 
  old_times_news.20.a:0 "Congo's future grows ever uncertain." 
  old_times_news.21.t:0 "Goverment Forces Win the Second Congo War"
- old_times_news.21.d:0 ""
+ old_times_news.21.d:0 "The Democratic Republic of the Congo has declared victory in the Second Congo War.\n\nThe conflict, which involved numerous African countries and several rebel groups, resulted in massive casualties and regional destabilization. The DRC administration, led by President Joseph Kabila, has been credited for defeating rebel troops and bringing the war to a close.\n\nPresident Kabila and his administration have been praised for their efforts to reconstruct the country and foster regional stability.\n\nThe Democratic Republic of the Congo has begun the process of restoring infrastructure, including as roads, hospitals, and schools, as well as addressing issues of poverty and inequality."
  old_times_news.21.a:0 "Africa's bloodiest war finally ends..."
  old_times_news.22.t:0 "Rally For Congolese Democracy - Kisangani Forces Win the Second Congo War"
- old_times_news.22.d:0 ""
+ old_times_news.22.d:0 "The Rally for Congolese Democracy has emerged victorious in the Second Congo War, with the Kisangani faction leading the party and the new government.\n\nThe victory marks a turning point for the Democratic Republic of Congo, which has suffered through years of conflict and instability. The RCD and the Kisangani faction have promised to prioritize the needs of the people and work towards building a brighter democratic future for all.\n\nThe international community has offered its support to the new government as it looks to rebuild and modernize the country."
  old_times_news.22.a:0 "Africa's bloodiest war finally ends..."
  old_times_news.23.t:0 "Rally For Congolese Democracy - Goma Forces Win the Second Congo War"
- old_times_news.23.d:0 ""
+ old_times_news.23.d:0 "The Rally for Congolese Democracy has emerged victorious in the Second Congo War, with the Goma faction leading the party and the new government.\n\nThe victory marks a turning point for the Democratic Republic of Congo, which has suffered through years of conflict and instability. The RCD and the Goma faction have promised to prioritize the needs of the people and work towards building a brighter future for all.\n\nThe international community has offered its support to the new government as it looks to rebuild and modernize the country."
  old_times_news.23.a:0 "Africa's bloodiest war finally ends..."
  old_times_news.25.t:0 "Coup in the U.S.S.R"
  old_times_news.25.d:0 ""
@@ -50,6 +50,7 @@
  old_times_news.911.t:0 "Attack on the World Trade Center!"
  old_times_news.911.d:0 "Today will be remembered as tragic day for the United States of America. In the early morning hours, two passenger planes flew into the World Trade Center.\n\nIt is believed that at least several hundreds of people have been killed in both the initial plane hits and subsequent collapse of the buildings. Meanwhile a third plane hit the Pentagon which sustained only a "minor damage". Even after the collapse of the Twin Towers, emergency services are still fighting to stabilise the situation.\n\nWhile the citizens of New York and the United States are still processing the shock of the first ever terrorist attack on US soil, the government of the United States has accused a radical Islamic terrorist group Al-Qaeda , and its leader Osama bin Laden for the attacks. Not much is known about this terrorist group or their motives but it is expected that they will be on the receiving end of the American Giant."
  old_times_news.911.a:0 "A tradic day." 
+ 
 ### SOVIET WARS###
 
  old_times_news.24.t:0 "Soviet invasion of former SSRs!"
@@ -160,7 +161,26 @@
  old_times_news.59.t:0 "Budapest Treaty Signed"
  old_times_news.59.d:0 "With the uneasiness still present due to the failure of US-Soviet negotiations, the Warsaw Pact has taken steps in what many see as nothing more than adding fuel to the fire.\n\nThe Soviet and other Warsaw Pact delegations arrived in Budapest two days ago to reaffirm the alliance's position. This has resulted in what is known as "Treaty of Mutual Economic and Military Development" or "The Budapest Treaty". The treaty has reinforcing the internal economic and military relations between the countries of the pact as well as providing more military cooperation between them.\n\nMany view this to be nothing more than just a sham treaty designed to reinforce Moscow's grip over the countries of the bloc. Nevertheless, as there are no countries to oppose the Soviet influence it seems that the Union itself is not willing to let the pact slip out of its grip again."
  old_times_news.59.a:0 "Reinforcing the Iron Curtain."
-
+ old_times_news.60.t:0 "Ethiopian Rebel Forces Defeated"
+ old_times_news.60.d:0 "After years of fighting, multiple casualties from both sides and a second civil war Addis Ababa announced the EPLF and the Ethiopian rebels has been finally defeated by the Ethiopian Army even after the failure of Operation Weridwali.\n\nEthiopia's leader Mengistu Haile Mariam has thanked the soldiers of the Ethiopian army that stayed loyal and the Soviet Union and Cuba for their aid in the war, helding a military parade in the northern city of Asmara to celebrate the new victory.\n\nWith their military defeat, the remaining rebels escaped to Sudan and Saudi Arabia to avoid getting captured by the Ethiopian authorities. What happened to the EPLF's leader Iasis Afwerki is unknown with many speculating he mightve died while trying to escape to Sudan."
+ old_times_news.60.a:0 "Hopefully this will bring stability to the region"
+ old_times_news.60.b:0 "Congrulations to our Ethiopian Allies!"
+ old_times_news.61.t:0 "Schröder Wins German Elections Again"
+ old_times_news.61.d:0 "Germany's recent federal election has delivered a "red-green" coalition government, with the Social Democrats emerging as the largest party and forging a majority with the Greens.\n\nThe conservative Christian Democrats garnered 35.2% of the vote and 225 seats, and will join the liberal Free Democrats in opposition. The left-wing Democratic Socialism Party received 4.3% of the vote and 21 seats.\n\nChancellor Schröder has been re-elected, and Joschka Fischer of the SPD will be appointed foreign minister. The opposition will be formed by the CDU/CSU and the FDP."
+ old_times_news.61.a:0 "New government, same leader."
+ old_times_news.62.t:0 "CDU/CSU Wins the German Elections"
+ old_times_news.62.d:0 ""
+ old_times_news.62.a:0 "Back Again."
+ old_times_news.63.t:0 "FDP Wins the German Elections!"
+ old_times_news.63.d:0 ""
+ old_times_news.63.a:0 "How the..."
+ old_times_news.64.t:0 "PDSR Wins the Romanian Elections!"
+ old_times_news.64.d:0 ""
+ old_times_news.64.a:0 "A New Era for Romania."
+ old_times_news.65.t:0 "Greater Romania Party Wins the Romanian Elections!"
+ old_times_news.65.d:0 ""
+ old_times_news.65.a:0 "A New Era for Romania..."
+ 
 ## Flavour News Events ##
  #flavour_news.1.t:0 ##HIDDEN SCRIPTED EVENT##
  flavour_news.2.t:0 "Disaster in Paris!"

@@ -43,7 +43,7 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	reformed_communism = 12
+	socialism = 12
 	social_democracy = 4
 	liberalism = 27
 	democratic = 47

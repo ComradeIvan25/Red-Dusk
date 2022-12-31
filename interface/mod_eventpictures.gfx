@@ -554,4 +554,25 @@ spriteTypes = {
 		name = "GFX_news_ADF"
 		texturefile = "gfx/event_pictures/news_ADF.png"
 	}
+	spriteType = {
+		name = "GFX_news_spd_win_2002"
+		texturefile = "gfx/event_pictures/news_spd_win_2002.png"
+	}
+	spriteType = {
+		name = "GFX_news_cdu_csu_win_2002"
+		texturefile = "gfx/event_pictures/news_cdu_csu_win_2002.png"
+	}
+	spriteType = {
+		name = "GFX_news_fdp_win_2002"
+		texturefile = "gfx/event_pictures/news_fdp_win_2002.png"
+	}
+	spriteType = {
+		name = "GFX_news_rom_socdems_win_2000"
+		texturefile = "gfx/event_pictures/news_rom_socdems_win_2000.png"
+	}
+	spriteType = {
+		name = "GFX_news_tudor_win_2000"
+		texturefile = "gfx/event_pictures/news_tudor_win_2000.png"
+	}	
+	
 }

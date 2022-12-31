@@ -211,6 +211,15 @@ leader_traits = {
 		}
 	}
 	
+	prime_minister = {
+		random = no
+		political_power_gain = -0.25
+		stability_factor = 0.075
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	#iraqi troller#
 	chemical_ali = {
 		random = no

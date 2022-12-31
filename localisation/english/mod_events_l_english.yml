@@ -771,6 +771,9 @@
  ethiopia_mod.2.d:0 "After mass defections in the army and lost ammunition , we have found out an uprising against our regime was being organized shortly after we had announced Operations Weridwali, these rebels calling themselves "United Ethiopian Liberation Front" chose this time of unrest to strike with multiple soldiers defecting to them."
  ethiopia_mod.2.a:0 "Defeat the traitors, just like in 1993!"
  ethiopia_mod.2.b:0 "Defeat the government, glory to UELF!"
+ ethiopia_mod.3.t:0 "Victory over the enemies"
+ ethiopia_mod.3.d:0 "Even after failing the operation we carefully planned and facing a whole all-out uprising against our regime with many soldiers betraying the Ethiopian communist cause. Against all odds... we were able to win. The communist cause has triumphed over the counter revolutionaries and reactions alike that seeked to destroy the Ethiopian utopia and turn it into a neo-colonial regime that benefitted the western powers have been utterly destroyed by our forces. Peace once again rules over the nation."
+ ethiopia_mod.3.a:0 "Long live the revolution!"
  
  ## AFGHANISTAN ##
  
@@ -792,3 +795,11 @@
  prc.1.d:0 ""
  prc.1.a:0 "accept"
  prc.1.b:0 "refuse"
+ 
+ ## Germany ##
+ 
+ germany.1.t:0 "2002 German Election Results"
+ germany.1.d:0 "ballots were counted and the winner of the election was..."
+ germany.1.a:0 "The SPD!"
+ germany.1.b:0 "The CDU/CSU COALITION!"
+ germany.1.c:0 "The FDP!?"

@@ -33,17 +33,17 @@ recruit_character = RAJ_atal_vajpayee
 add_ideas = ussr_aligned_nation
 
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = democratic
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 15
+	liberalism = 15
 	social_democracy = 27
 	communism = 14
 	neutrality = 9
-	liberalism = 35
+	democratic = 35
 }
 
 add_opinion_modifier = { target = PAK modifier = HISTORIC_india_pakistan_opinion }

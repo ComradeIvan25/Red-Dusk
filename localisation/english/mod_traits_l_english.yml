@@ -17,7 +17,8 @@
  secretary_of_homeland_security:0 "Secretary of Homeland Security" 
  secretary_of_treasury:0 "Secretary of Treasury"
  secretary_of_state:0 "Secretary of State"
-
+ prime_minister:0 "Prime Minister"
+ 
  #SOVIET ADVISORS#
  party_hardliner:0 "Party Hardliner"
  minister_of_foreign_affairs:0 "Minister of Foreign Affairs"

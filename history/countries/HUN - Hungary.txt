@@ -6,10 +6,14 @@ set_research_slots = 3
 set_stability = 0.7
 set_war_support = 0.6
 
+recruit_character = HUN_gonc_arpad
+recruit_character = HUN_ferenc_madl
 recruit_character = HUN_victor_orban
 recruit_character = HUN_gyula_thürmer
 
 add_ideas = east_europe_eastern_threat
+
+add_ideas = HUN_victor_orban
 
 set_politics = {
 	ruling_party = democratic
@@ -18,7 +22,12 @@ set_politics = {
 	elections_allowed = no #elections by events
 }
 set_popularities = {
-	democratic = 75
-	fascism = 20
-	communism = 5
+	democratic = 30
+	socialism = 10
+	social_democracy = 30
+	liberalism = 10
+	fascism = 7
+	paternal_autocracy = 3
+	communism = 4
+	neutrality = 6
 }

@@ -16,13 +16,23 @@ if = {
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1935.2.8"
+	ruling_party = social_democracy
+	last_election = "1930.11.9"
+	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 70
-	neutrality = 30
+	communism = 0
+	reformed_communism = 0
+	socialism = 9
+	social_democracy = 22
+	liberalism = 13
+	democratic = 15
+	neutrality = 5
+	paternal_autocracy = 6
+	islamism = 20
+	fascism = 10
 }
 
 recruit_character = TUR_ahmet_sezar

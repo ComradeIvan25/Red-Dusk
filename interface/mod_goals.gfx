@@ -333,6 +333,76 @@ spriteTypes = {
 		name = "GFX_focus_SOV_sideline_pugo"
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_sideline_pugo.png"
 	}
+	## MILITARY ##
+	
+	SpriteType = {
+		name = "GFX_focus_SOV_soviet_armed_forces"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_soviet_armed_forces.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_lessons_from_afghanistan"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_lessons_from_afghanistan.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_helicopter_support"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_helicopter_support.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_commander_autonomy"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_commander_autonomy.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_lessons_from_zapada_81"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_lessons_from_zapada_81.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_adaptable_training"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_adaptable_training.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_lessons_from_91"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_lessons_from_91.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_ligthning_strike"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_ligthning_strike.png"
+	}	
+	SpriteType = {
+		name = "GFX_focus_SOV_completely_mechanized_forces"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_completely_mechanized_forces.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_the_soviet_army"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_the_soviet_army.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_communication"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_communication.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_commissar"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_commissar.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_grand_battleplan"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_grand_battleplan.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_defensive_operations"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_defensive_operations.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_offensive_operations"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_offensive_operations.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_shooting_tank"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_shooting_tank.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_strict_training"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_strict_training.png"
+	}
 	
 	###Gorbachev###
 

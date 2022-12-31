@@ -65,11 +65,11 @@ country_event = {
 		news_event = {id = old_times_news.46}
 		retire_country_leader = yes
 		set_politics = {
-			ruling_party = reformed_communism
+			ruling_party = socialism
 		}
 		hidden_effect = {
 			set_political_party = {
-				ideology = reformed_communism
+				ideology = socialism
 				popularity = 30
 			}
 		}	

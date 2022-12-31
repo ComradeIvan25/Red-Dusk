@@ -1,10 +1,10 @@
 characters = {
 
-	HUN_victor_orban = {
-		name = "Victor Orban"
+	HUN_gonc_arpad = {
+		name = "Göncz Árpád"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/HUN/Victor_Orban.dds"
+				large = "gfx/leaders/HUN/Goncz_Arpad.png"
 			}
 		}
 		country_leader = {
@@ -14,6 +14,44 @@ characters = {
 			id = -1
 		}
 	}
+
+	HUN_ferenc_madl = {
+		name = "Ferenc Mádl"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HUN/Ferenc_Madl.png"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+	HUN_victor_orban = {
+		name = "Victor Orban"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HUN/Victor_Orban.png"
+				small = "gfx/leaders/HUN/Victor_Orban_small.png"
+			}
+		}
+		advisor={
+			cost = 75			
+			slot = political_advisor
+			idea_token = HUN_victor_orban
+			allowed = {
+				original_tag = HUN
+			}
+			
+			traits = {
+				prime_minister
+			}
+		}
+	}
+	
 	HUN_gyula_thürmer = {
 		name = "Gyula Thürmer"
 		portraits = {

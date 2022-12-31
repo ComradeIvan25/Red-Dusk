@@ -2,6 +2,11 @@
 	id = ussr_yazov_focus
 	country = {
 		factor = 0
+		
+		modifier = {
+			add = 11
+			tag = SOV
+		}
 	}
 	
 	default = no
@@ -862,7 +867,7 @@
 		id = SOV_yazov_legacy_of_warsaw_pact
 		icon = GFX_focus_SOV_legacy_of_warsaw_pact
 		x = 20
-		y = 6
+		y = 10
 
 		prerequisite = {focus = SOV_yazov_incrase_military_funding}
 		mutually_exclusive = { }
@@ -911,7 +916,7 @@
 		id = SOV_yazov_prep_inev
 		icon = GFX_SOV_prepare_the_inevitable
 		x = 19
-		y = 7
+		y = 11
 
 		prerequisite = {focus = SOV_yazov_legacy_of_warsaw_pact}
 		mutually_exclusive = { }
@@ -939,7 +944,7 @@
 		id = SOV_yazov_extreme_planing
 		icon = GFX_focus_SOV_extreme_planning
 		x = 21
-		y = 7
+		y = 11
 
 		prerequisite = {focus = SOV_yazov_legacy_of_warsaw_pact}
 		mutually_exclusive = { }
@@ -967,7 +972,7 @@
 		id = SOV_yazov_red_sun_over_europe
 		icon = GFX_focus_ger_great_red_menace
 		x = 20
-		y = 8
+		y = 12
 
 		prerequisite = {focus = SOV_yazov_prep_inev}
 		prerequisite = {focus = SOV_yazov_extreme_planing}
@@ -999,7 +1004,7 @@
 		id = SOV_yazov_warsaw_pact_reborn
 		icon = GFX_focus_SOV_rebirth_of_warsaw_pact
 		x = 20
-		y = 9
+		y = 13
 
 		prerequisite = {focus = SOV_yazov_red_sun_over_europe}
 		mutually_exclusive = { }
@@ -1027,7 +1032,7 @@
 		id = SOV_yazov_pressure_usa_for_cze
 		icon = GFX_focus_SOV_Pressure_US
 		x = 27
-		y = 6
+		y = 10
 
 		prerequisite = {focus = SOV_yazov_incrase_military_funding}
 		available = {
@@ -1062,7 +1067,7 @@
 		id = SOV_yazov_a_super_power_again
 		icon = GFX_focus_SOV_super_power
 		x = 25
-		y = 7
+		y = 11
 
 		prerequisite = {focus = SOV_yazov_pressure_usa_for_cze}
 		available = { has_country_flag =  us_agree_cze}
@@ -1090,7 +1095,7 @@
 		id = SOV_yazov_our_hands_free_in_north
 		icon = GFX_focus_SOV_Our_Hands_Free_in_the_North
 		x = 27
-		y = 9
+		y = 12
 
 		prerequisite = {focus = SOV_yazov_a_super_power_again focus = SOV_yazov_not_yet}
 
@@ -1117,7 +1122,7 @@
 		id = SOV_yazov_avange_winter
 		icon = GFX_focus_SOV_winter_war
 		x = 27
-		y = 10
+		y = 13
 		
 
 		prerequisite = {focus = SOV_yazov_our_hands_free_in_north}
@@ -1145,7 +1150,7 @@
 		id = SOV_yazov_da_molotoff
 		icon = GFX_focus_SOV_Da_Molotoff
 		x = 27
-		y = 11
+		y = 14
 
 		prerequisite = {focus = SOV_yazov_avange_winter}
 		available = { FIN = {is_puppet_of = SOV }}
@@ -1172,7 +1177,7 @@
 		id = SOV_yazov_blocade_swedes
 		icon = GFX_focus_SOV_blockade_sweden
 		x = 27
-		y = 12
+		y = 15
 
 		prerequisite = {focus = SOV_yazov_da_molotoff}
 
@@ -1202,7 +1207,7 @@
 		id = SOV_yazov_isolate_chezchs
 		icon = GFX_focus_SOV_isolate_czech
 		x = 29
-		y = 7
+		y = 11
 
 		prerequisite = {focus = SOV_yazov_pressure_usa_for_cze}
 		available = { has_country_flag = us_disagree_cze}
@@ -1232,7 +1237,7 @@
 		id = SOV_yazov_not_yet
 		icon = GFX_focus_SOV_not_yet
 		x = 29
-		y = 8
+		y = 12
 
 		prerequisite = {focus = SOV_yazov_isolate_chezchs}
 
@@ -1259,7 +1264,7 @@
 		id = SOV_yazov_diplomacy_in_chaos
 		icon = GFX_focus_SOV_diplo_in_chaos
 		x = 35
-		y = 6
+		y = 10
 
 		prerequisite = {focus = SOV_yazov_incrase_military_funding}
 		available = {has_completed_focus = SOV_yazov_blocade_swedes}
@@ -1286,7 +1291,7 @@
 		id = SOV_yazov_our_old_enemies_in_yugoslavia
 		icon = GFX_focus_SOV_old_enemy_in_Yugo
 		x = 35
-		y = 7
+		y = 11
 
 		prerequisite = {focus = SOV_yazov_diplomacy_in_chaos}
 
@@ -1316,7 +1321,7 @@
 		id = SOV_yazov_an_offer_they_cannot_refuse
 		icon = GFX_focus_SOV_an_offer_they_cannot_refuse
 		x = 35
-		y = 8
+		y = 12
 
 		prerequisite = {focus = SOV_yazov_our_old_enemies_in_yugoslavia}
 
@@ -1343,7 +1348,7 @@
 		id = SOV_yazov_invasion_of_balkans
 		icon = GFX_focus_SOV_invade_balkan
 		x = 37
-		y = 9
+		y = 13
 
 		prerequisite = {focus = SOV_yazov_an_offer_they_cannot_refuse}
 		available = {
@@ -1376,7 +1381,7 @@
 		id = SOV_yazov_balkan_peoples_rev
 		icon = GFX_focus_SOV_balkan_people_revolution
 		x = 33
-		y = 9
+		y = 13
 
 		prerequisite = {focus = SOV_yazov_an_offer_they_cannot_refuse}
 		available = {
@@ -1458,7 +1463,7 @@
 		id = SOV_yazov_unity_after_chaos
 		icon = GFX_focus_SOV_unity_after_chaos
 		x = 36
-		y = 10
+		y = 14
 
 		prerequisite = {focus = SOV_yazov_balkan_peoples_rev focus = SOV_yazov_invasion_of_balkans}
 		
@@ -1504,7 +1509,7 @@
 		id = SOV_yazov_divide_and_rule
 		icon = GFX_focus_BUL_free_balkan_states
 		x = 34
-		y = 10
+		y = 14
 
 		prerequisite = {focus = SOV_yazov_balkan_peoples_rev focus = SOV_yazov_invasion_of_balkans}
 		
@@ -1537,7 +1542,7 @@
 		id = SOV_yazov_our_shining_union
 		icon = GFX_focus_SOV_our_shinning_union
 		x = 25
-		y = 14
+		y = 16
 		
 		prerequisite = {focus = SOV_yazov_war_plan_stalin}
 		prerequisite = {focus = SOV_yazov_warsaw_pact_reborn}
@@ -1567,7 +1572,7 @@
 		id = SOV_yazov_project_red_dusk
 		icon = GFX_focus_SOV_red_dusk
 		x = 21
-		y = 15
+		y = 17
 
 		prerequisite = {focus = SOV_yazov_our_shining_union}
 						
@@ -1592,7 +1597,7 @@
 		id = SOV_yazov_workers_red_army
 		icon = GFX_focus_SOV_worker_red_army
 		x = 19
-		y = 16
+		y = 18
 
 		prerequisite = {focus = SOV_yazov_project_red_dusk}
 
@@ -1622,7 +1627,7 @@
 		id = SOV_yazov_aid_mongolia
 		icon = GFX_focus_SOV_aid_mongolia
 		x = 21
-		y = 16
+		y = 18
 
 		prerequisite = {focus = SOV_yazov_project_red_dusk}
 		
@@ -1652,7 +1657,7 @@
 		id = SOV_yazov_unions_bio_research
 		icon = GFX_focus_SOV_Biological_Research
 		x = 23
-		y = 16
+		y = 18
 
 		prerequisite = {focus = SOV_yazov_project_red_dusk}
 		available = {has_completed_focus = SOV_yazov_workers_red_army}
@@ -1681,7 +1686,7 @@
 		id = SOV_yazov_ready_set
 		icon = GFX_focus_SOV_ready_set
 		x = 21
-		y = 17
+		y = 19
 
 		prerequisite = {focus = SOV_yazov_workers_red_army} 
 		prerequisite = {focus = SOV_yazov_aid_mongolia}
@@ -1709,7 +1714,7 @@
 		id = SOV_yazov_aganist_great_orient_giant
 		icon = GFX_focus_SOV_Against_the_Great_Orient
 		x = 21
-		y = 18
+		y = 20
 
 		prerequisite = {focus = SOV_yazov_ready_set}
 		
@@ -1745,7 +1750,7 @@
 		id = SOV_yazov_red_dragons_demise
 		icon = GFX_SOV_against_the_eastern_dragon
 		x = 21
-		y = 19
+		y = 21
 
 		prerequisite = {focus = SOV_yazov_aganist_great_orient_giant}
 		available = {PRC = {is_puppet_of = SOV}}
@@ -1772,7 +1777,7 @@
 		id = SOV_yazov_old_enemies
 		icon = GFX_focus_SOV_old_enemy
 		x = 29
-		y = 15
+		y = 17
 
 		prerequisite = {focus = SOV_yazov_our_shining_union}
 		available = {has_completed_focus = SOV_yazov_red_dragons_demise}
@@ -1798,7 +1803,7 @@
 		id = SOV_yazov_mobilize_industry
 		icon = GFX_focus_SOV_mobilize_industry
 		x = 31
-		y = 16
+		y = 18
 
 		prerequisite = {focus = SOV_yazov_old_enemies}
 		
@@ -1843,7 +1848,7 @@
 		id = SOV_yazov_the_shield
 		icon = GFX_focus_SOV_the_shield
 		x = 27
-		y = 16
+		y = 18
 
 		prerequisite = {focus = SOV_yazov_old_enemies}
 		
@@ -1909,7 +1914,7 @@
 		id = SOV_yazov_expand_supply_network
 		icon = GFX_focus_SOV_expand_supply
 		x = 30
-		y = 17
+		y = 19
 
 		prerequisite = {focus = SOV_yazov_old_enemies}
 		
@@ -1938,7 +1943,7 @@
 		id = SOV_yazov_ready_the_warsaw_pact
 		icon = GFX_focus_SOV_ready_warsaw_pact
 		x = 28
-		y = 17
+		y = 19
 
 		prerequisite = {focus = SOV_yazov_old_enemies}
 		
@@ -2011,7 +2016,7 @@
 		id = SOV_yazov_giant_awakens
 		icon = GFX_focus_SOV_giant_awake
 		x = 29
-		y = 18
+		y = 20
 
 		prerequisite = {focus = SOV_yazov_the_shield}
 		prerequisite = {focus = SOV_yazov_ready_the_warsaw_pact}
@@ -2042,7 +2047,7 @@
 		id = SOV_yazov_the_great_crusade
 		icon = GFX_focus_SOV_The_Great_Crusade
 		x = 29
-		y = 19
+		y = 21
 
 		prerequisite = {focus = SOV_yazov_giant_awakens}
 		
@@ -2068,7 +2073,7 @@
 		id = SOV_yazov_the_union_forever
 		icon = GFX_focus_SOV_The_Union_Forever
 		x = 25
-		y = 20
+		y = 22
 
 		prerequisite = {focus = SOV_yazov_the_great_crusade}
 		prerequisite = {focus = SOV_yazov_red_dragons_demise}
@@ -2092,7 +2097,760 @@
 		}
 	}
 		###MILITARY####
+		
+	focus = {
+		id = SOV_yazov_soviet_armed_forces
+		icon = GFX_focus_SOV_soviet_armed_forces
+		x = 55
+		y = 0
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+
+		}
+	}
 	
+	focus = {
+		id = SOV_yazov_the_soviet_army
+		icon = GFX_focus_SOV_the_soviet_army
+		x = 0
+		y = 1
+		
+		prerequisite = {focus = SOV_yazov_soviet_armed_forces}
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_soviet_armed_forces
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SOV_yazov_old_tactics_for_a_new_age
+		icon = GFX_focus_SOV_old_tactic
+		x = -6
+		y = 2
+		
+		prerequisite = {focus = SOV_yazov_the_soviet_army}
+		mutually_exclusive = {focus = SOV_yazov_a_much_needed_change}
+
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_soviet_armed_forces
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SOV_yazov_ustinovs_legacy
+		icon = GFX_focus_SOV_Ustinov_Legacy
+		x = -2
+		y = 1
+		
+		prerequisite = {focus = SOV_yazov_old_tactics_for_a_new_age}
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_old_tactics_for_a_new_age
+		
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = SOV_yazov_armored_giant
+		icon = GFX_focus_SOV_Armoured_Giant
+		x = -2
+		y = 2
+		
+		prerequisite = {focus = SOV_yazov_ustinovs_legacy}
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_old_tactics_for_a_new_age
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SOV_yazov_lessons_from_zapad_81
+		icon = GFX_focus_SOV_lessons_from_zapada_81
+		x = -4
+		y = 3
+		
+		prerequisite = {focus = SOV_yazov_armored_giant}
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_old_tactics_for_a_new_age
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SOV_yazov_develop_the_grand_battleplans
+		icon = GFX_focus_SOV_grand_battleplan
+		x = -4
+		y = 4
+		
+		prerequisite = {focus = SOV_yazov_lessons_from_zapad_81}
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_old_tactics_for_a_new_age
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SOV_yazov_strict_command_structure
+		#icon = GFX_focus_SOV_The_Union_Forever
+		x = -2
+		y = 3
+		
+		prerequisite = {focus = SOV_yazov_armored_giant}
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_old_tactics_for_a_new_age
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SOV_yazov_communication_is_the_key
+		icon = GFX_focus_SOV_communication
+		x = -2
+		y = 4
+		
+		prerequisite = {focus = SOV_yazov_armored_giant}
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_old_tactics_for_a_new_age
+		
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = SOV_yazov_lessons_from_afghanistan
+		icon = GFX_focus_SOV_lessons_from_afghanistan
+		x = 2
+		y = 1
+		
+		prerequisite = {focus = SOV_yazov_old_tactics_for_a_new_age}
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_old_tactics_for_a_new_age
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SOV_yazov_enforce_discipline
+		icon = GFX_focus_SOV_commissar
+		x = 2
+		y = 2
+		
+		prerequisite = {focus = SOV_yazov_lessons_from_afghanistan}
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_old_tactics_for_a_new_age
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SOV_yazov_strict_training
+		icon = GFX_focus_SOV_strict_training
+		x = 2
+		y = 3
+		
+		prerequisite = {focus = SOV_yazov_enforce_discipline}
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_old_tactics_for_a_new_age
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SOV_yazov_prepare_defensive_operations
+		icon = GFX_focus_SOV_defensive_operations
+		x = 2
+		y = 4
+		
+		prerequisite = {focus = SOV_yazov_strict_training}
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_old_tactics_for_a_new_age
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SOV_yazov_expanding_the_logistics
+		#icon = GFX_focus_SOV_The_Union_Forever
+		x = 4
+		y = 3
+		
+		prerequisite = {focus = SOV_yazov_enforce_discipline}
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_old_tactics_for_a_new_age
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SOV_yazov_helicopter_support
+		icon = GFX_focus_SOV_helicopter_support
+		x = 4
+		y = 4
+		
+		prerequisite = {focus = SOV_yazov_expanding_the_logistics}
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_old_tactics_for_a_new_age
+		
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = SOV_yazov_the_shield_of_socialism
+		#icon = GFX_focus_SOV_The_Union_Forever
+		x = 0
+		y = 5
+		
+		prerequisite = {focus = SOV_yazov_develop_the_grand_battleplans}
+		prerequisite = {focus = SOV_yazov_communication_is_the_key}
+		prerequisite = {focus = SOV_yazov_prepare_defensive_operations}
+		prerequisite = {focus = SOV_yazov_helicopter_support}		
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_old_tactics_for_a_new_age
+		
+		completion_reward = {
+
+		}
+	}
+	
+	#reform ze military#
+	focus = {
+		id = SOV_yazov_a_much_needed_change
+		icon = GFX_focus_SOV_new_military_idea
+		x = 6
+		y = 2
+		
+		prerequisite = {focus = SOV_yazov_the_soviet_army}
+		mutually_exclusive = {focus = SOV_yazov_old_tactics_for_a_new_age}
+
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_soviet_armed_forces
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SOV_yazov_lessons_from_91
+		icon = GFX_focus_SOV_lessons_from_91
+		x = -2
+		y = 1
+		
+		prerequisite = {focus = SOV_yazov_a_much_needed_change}
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_a_much_needed_change
+		
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = SOV_yazov_professional_army
+		icon = GFX_focus_SOV_army_might
+		x = -2
+		y = 2
+		
+		prerequisite = {focus = SOV_yazov_lessons_from_91}
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_a_much_needed_change
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SOV_yazov_manuverability
+		#icon = GFX_focus_SOV_The_Union_Forever
+		x = -4
+		y = 3
+		
+		prerequisite = {focus = SOV_yazov_professional_army}
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_a_much_needed_change
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SOV_yazov_lightning_strike
+		icon = GFX_focus_SOV_ligthning_strike
+		x = -4
+		y = 4
+		
+		prerequisite = {focus = SOV_yazov_manuverability}
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_a_much_needed_change
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SOV_yazov_adaptable_training
+		icon = GFX_focus_SOV_adaptable_training
+		x = -2
+		y = 3
+		
+		prerequisite = {focus = SOV_yazov_professional_army}
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_a_much_needed_change
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SOV_yazov_practice_offensive_operations
+		icon = GFX_focus_SOV_offensive_operations
+		x = -2
+		y = 4
+		
+		prerequisite = {focus = SOV_yazov_adaptable_training}
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_a_much_needed_change
+		
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = SOV_yazov_shoigus_reforms
+		icon = GFX_focus_SOV_Shoigu_New_Staff
+		x = 2
+		y = 1
+		
+		prerequisite = {focus = SOV_yazov_a_much_needed_change}
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_a_much_needed_change
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SOV_yazov_completely_mechanized_force
+		icon = GFX_focus_SOV_completely_mechanized_forces
+		x = 2
+		y = 2
+		
+		prerequisite = {focus = SOV_yazov_shoigus_reforms}
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_a_much_needed_change
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SOV_yazov_commander_autonomy
+		icon = GFX_focus_SOV_commander_autonomy
+		x = 2
+		y = 3
+		
+		prerequisite = {focus = SOV_yazov_completely_mechanized_force}
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_a_much_needed_change
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SOV_yazov_enforce_cooperation
+		#icon = GFX_focus_SOV_The_Union_Forever
+		x = 2
+		y = 4
+		
+		prerequisite = {focus = SOV_yazov_commander_autonomy}
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_a_much_needed_change
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SOV_yazov_tank_modernization
+		icon = GFX_focus_SOV_shooting_tank
+		x = 4
+		y = 3
+		
+		prerequisite = {focus = SOV_yazov_completely_mechanized_force}
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_a_much_needed_change
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SOV_yazov_hitting_where_it_hurts
+		icon = GFX_focus_SOV_shooting_tank
+		x = 4
+		y = 4
+		
+		prerequisite = {focus = SOV_yazov_tank_modernization}
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_a_much_needed_change
+		
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = SOV_yazov_the_sword_of_socialism
+		#icon = GFX_focus_SOV_The_Union_Forever
+		x = 0
+		y = 5
+		
+		prerequisite = {focus = SOV_yazov_lightning_strike}
+		prerequisite = {focus = SOV_yazov_practice_offensive_operations}
+		prerequisite = {focus = SOV_yazov_enforce_cooperation}
+		prerequisite = {focus = SOV_yazov_hitting_where_it_hurts}		
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_a_much_needed_change
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = SOV_yazov_invincible_and_legendary
+		#icon = GFX_focus_SOV_Invincible_and_Legendary
+		x = -6
+		y = 6
+		
+		prerequisite = {focus = SOV_yazov_the_shield_of_socialism}
+		prerequisite = {focus = SOV_yazov_the_sword_of_socialism}		
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SOV_yazov_a_much_needed_change
+		
+		completion_reward = {
+
+		}
+	}
+	
+		#old tree archival for the effects#
 	focus = {
 		id = SOV_unions_military_might
 		icon = GFX_focus_SOV_army_might

@@ -259,3 +259,29 @@ country_event = {
 	}
 }
 }
+#Nong Duc Manh speech
+country_event = {
+	id = vin.14
+	title = vin.14.t
+	desc = vin.14.d
+	picture = GFX_report_event_Nong_Duc_Manh_take_charge
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vin.14.a
+		 hidden_effect = {
+			VIN = {
+				country_event = { id = vin.14 days = 2 }
+			}
+	}
+}
+    option = {
+		name = vin.14.b
+		 hidden_effect = {
+			VIN = {
+				country_event = { id = vin.14 days = 2 }
+			}
+	}
+}
+}

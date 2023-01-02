@@ -38,7 +38,7 @@ USA_calm_the_populace = {
 
 	}
 	available = {
-		event = usa.foriegn_policy.1.a	
+		event = usa.foriegn_policy.5.a	
 		}
 	}
 
@@ -61,7 +61,7 @@ USA_rally_the_warhawks = {
 
 	}
 	available = {
-		event = usa.foriegn_policy.1.a	
+		event = usa.foriegn_policy.5.a	
 		}
 }
 
@@ -83,7 +83,7 @@ USA_keep_wall_street_green = {
 
 	}
 	available = {
-		event = usa.foriegn_policy.1.a	
+		event = usa.foriegn_policy.5.a	
 		}
 }
 
@@ -105,7 +105,7 @@ USA_deal_with_human_rights_Groups = {
 
 	}
 	available = {
-		event = usa.foriegn_policy.1.a	
+		event = usa.foriegn_policy.5.a	
 		}
 }
 
@@ -127,7 +127,7 @@ USA_fund_military_industrial_complex = {
 
 	}
 	available = {
-		event = usa.foriegn_policy.1.a	
+		event = usa.foriegn_policy.5.a	
 		}
 }
 

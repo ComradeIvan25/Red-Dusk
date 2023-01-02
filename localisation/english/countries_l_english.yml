@@ -893,6 +893,8 @@
  SIA_democratic_DEF:0 "the Kingdom of Thailand"
  SIA_neutrality:0 "Kingdom of Thailand"
  SIA_neutrality_DEF:0 "the Kingdom of Thailand"
+ SIA_paternal_autocracy:0 "Kingdom of Thailand"
+ SIA_paternal_autocracy_DEF:0 "the Kingdom of Thailand"
  SIA_communism:0 "Thai People's Republic"
  SIA_communism_DEF:0 "the Thai People's Republic"
  SIA_fascism_ADJ:0 "Siamese"

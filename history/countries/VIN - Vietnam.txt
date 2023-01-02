@@ -93,6 +93,7 @@ recruit_character = VIN_Nguyen_Khac_Nghien
 recruit_character = VIN_Nguyen_Huu_Kham
 recruit_character = VIN_Do_Xuan_Cong
 recruit_character = VIN_Pham_Xuan_The
+recruit_character = VIN_nong_duc_manh
 set_politics = {
 	ruling_party = communism
 	last_election = "1933.2.16"

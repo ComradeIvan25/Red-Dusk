@@ -179,3 +179,83 @@ country_event = {
 	}
 }
 }
+#Advisor
+country_event = {
+	id = vin.11
+	title = vin.11.t
+	desc = vin.11.d
+	picture = GFX_report_event_IX_CPV_congress
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vin.11.a
+		add_political_power = -50
+		add_stability = -0.05
+		add_popularity = {
+			ideology = reformed_communism
+			popularity = 0.05
+		}
+		 hidden_effect = {
+			VIN = {
+				country_event = { id = vin.12 days = 2 }
+			}
+	}
+	}
+	option = {
+		name = vin.11.b
+		add_political_power = 50
+		add_stability = -0.02
+		add_popularity = {
+			ideology = reformed_communism
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.02
+		}
+		 hidden_effect = {
+			VIN = {
+				country_event = { id = vin.12 days = 2 }
+			}
+	}
+}
+}
+#Le Kha Phieu resignation
+country_event = {
+	id = vin.12
+	title = vin.12.t
+	desc = vin.12.d
+	picture = GFX_report_event_Le_Kha_Phieu
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vin.12.a
+		 hidden_effect = {
+			VIN = {
+				country_event = { id = vin.13 days = 2 }
+			}
+	}
+}
+}
+#Nong Duc Manh
+country_event = {
+	id = vin.13
+	title = vin.13.t
+	desc = vin.13.d
+	picture = GFX_report_event_Nong_Duc_Manh_take_charge
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vin.13.a
+		retire_country_leader = yes
+		promote_character = VIN_nong_duc_manh
+		 hidden_effect = {
+			VIN = {
+				country_event = { id = vin.14 days = 2 }
+			}
+	}
+}
+}

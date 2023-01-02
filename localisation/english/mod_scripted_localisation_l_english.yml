@@ -1,4 +1,4 @@
-﻿l_english:          
+l_english:          
  USA_misdirected_foreign_policy_tooltip:0 "£trigger_no Can not declare war\n£trigger_no Can not send volunteers\n§RThis has an impact on our foreign relations§!"
  soviet_purge_tooltip:0 "§RUnlocks Decisions To Purge The Enemies Of Our Union§!"
  vlad_k_purged:0 "Has purged Vladimir Kryuchkov"
@@ -125,17 +125,7 @@
  incrase_var_res_10:0 "§RIncreases §RResistance § §RBy 10 Percent\n\n§!"
  incrase_var_res_15:0 "§RIncreases §RResistance § §RBy 15 Percent\n\n§!"
  incrase_var_res_25:0 "§RIncreases §RResistance § §RBy 25 Percent\n\n§!"
- 
- ####GORBACHEV######
 
- sov_gorby_support_incrase_by_15:0 "§GIncreases §tSupport For Gorbachev §GBy §C15 §GPercent\n\n§!"
- sov_gorby_support_incrase_by_20:0 "§GIncreases §tSupport For Gorbachev §GBy §C20 §GPercent\n\n§!"
- sov_gorby_support_incrase_by_25:0 "§GIncreases §tSupport For Gorbachev §GBy §C25 §GPercent\n\n§!"
- 
- gorby_gathering_support_time:0 "§tGorbachev Has Begun Securing Support\n\n§!"
- gorby_has_70_support:0 "§tGorbachev §YNeeds 70 Support For This Decision\n\n§!"
- gorby_secured_support:0 "§tGorbachev §GHas Secured Support\n\n§!"
- sov_gorby_got_couped:0 "§tGorbachev §RHas Been Couped§!"
  ######SOVIET REFERANDUMS FOR REITEGRATIONS#### 
 
  sov_gorby_ref_incrase_by_5:0 "§GIncreases §CSupport In All Countries §GBy §C5 §GPercent\n\n§!"
@@ -143,7 +133,7 @@
   
  sov_refs_succeeds:0 "§GReferendums Have Succeeded\n\n§!"
  sov_referandums_happened:0 "§YReferendums Have Been Hold\n\n§!"
- SOV_referandums_decisions_start:0 "§YReferendums Have Been Organized\n\n§!"
+ SOV_referandums_decisions_start:0 "§YReferandums Have Been Organized\n\n§!"
  ###### BY ADDING "\n\n" AND ADDING "§W§" RIGHT AFTER IT AT THE END OF THE LOC WILL MAKE IT LOOK MORE CLEAN WHEN USING COLOUR -durango#######
  
  ########     \n\n§       ######
@@ -165,6 +155,18 @@
  USA_loc_key_ruling_party_democratic_reform:0 "§YDemocratic Party\nReform Party§!"
  USA_loc_key_ruling_party_all:0 "§YRepublican Party\nDemocratic Party\nReform Party§!"
  
+ ## USA WAR SUPPORT MECHANIC ##
+
+ USA_unlocks_maintain_home_front:0 "§Unlocks the Home Front mechanic§"
+ 
+ decrase_var_sup_5:0 "§Gdecreases §RSupport § §GBy 5 Percent\n\n§!" decrase_var_sup_10:0 "§Gdecreases §RSupport § §GBy 10 Percent\n\n§!" decrase_var_sup_15:0 "§Gdecreases §RSupport § §GBy 15 Percent\n\n§!" decrase_var_sup_20:0 "§Gdecreases §RSupport § §GBy 20 Percent\n\n§!"     decrase_var_sup_25:0 "§Gdecreases §RSupport § §GBy 25 Percent\n\n§!"
+ 
+ incrase_var_sup_5:0 "§RIncreases §Rsupport § §RBy 5 Percent\n\n§!"
+ incrase_var_sup_10:0 "§RIncreases §RSupport § §RBy 10 Percent\n\n§!"
+ incrase_var_sup_15:0 "§RIncreases §RSupport § §RBy 15 Percent\n\n§!"
+ incrase_var_sup_25:0 "§RIncreases §RSupport § §RBy 20 Percent\n\n§
+ incrase_var_sup_25:0 "§RIncreases §RSupport § §RBy 25 Percent\n\n§
+
  ## SOUTH AFRICA ##
  
  SAF_decrases_the_figthing_strength_of_rebels_by_5:0 "§GDecrases The Fighting Strength Of The Rebels by 5 percent§\n\n"

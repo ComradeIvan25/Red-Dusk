@@ -21,6 +21,7 @@ set_technology = {
 add_ideas = {
 	extensive_conscription
 }
+add_ideas = east_europe_privatization
 
 set_research_slots = 3
 

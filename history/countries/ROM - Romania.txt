@@ -22,6 +22,8 @@ recruit_character = ROM_ion_iliescu
 recruit_character = ROM_ion_iliescu1
 
 add_ideas = east_europe_eastern_threat
+add_ideas = east_europe_privatization
+add_ideas = ROM_betrayed_revolution
 
 set_politics = {
 	ruling_party = democratic

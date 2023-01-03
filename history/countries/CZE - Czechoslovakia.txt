@@ -13,6 +13,7 @@ recruit_character = CZE_vaclav_havel
 recruit_character = CZE_czech_communist_party
 
 add_ideas = GER_eu
+add_ideas = east_europe_privatization
 
 add_ideas = usa_aligned_nation
 

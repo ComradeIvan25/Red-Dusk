@@ -4,6 +4,7 @@ recruit_character = SLO_rudolf_schuster
 recruit_character = SLO_pavol_dubček
 
 add_ideas = east_europe_eastern_threat
+add_ideas = east_europe_privatization
 
 set_politics = {
 	ruling_party = social_democracy

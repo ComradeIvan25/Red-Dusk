@@ -12,7 +12,7 @@ recruit_character = HUN_victor_orban
 recruit_character = HUN_gyula_thürmer
 
 add_ideas = east_europe_eastern_threat
-
+add_ideas = east_europe_privatization
 add_ideas = HUN_victor_orban
 
 set_politics = {

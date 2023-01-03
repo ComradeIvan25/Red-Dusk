@@ -400,6 +400,11 @@
  
  east_europe_eastern_threat_name:0 "Eastern Threat"
  east_europe_eastern_threat_name_desc:0 "Ever since the dissolution of the Warsaw Pact, the former east european members that broke away after overthrowing their communist governments had been facing violent threats from Moscow with every attempt at distancing their country from the sphere of Soviet Union and trying to join its sworn enemy, the United States."
+ east_europe_privatization_name:0 "Mass Privatization"
+ east_europe_privatization_name_desc:0 "With the fall of the Warsaw Pact and communism in Eastern Europe came the period of mass privatization. This period mainly characterized by shock therapy and state owned factories being consolidated under fewer and fewer hands has brought economic liberalization and opening to the free market, however it has also brought mass corruption, poverty and unemployment."
+
+ ROM_betrayed_revolution_name:0 "A Revolution, Betrayed"
+ ROM_betrayed_revolution_name_desc:0 "The Romanian revolution of 1989 brought the end to not only communism in Romania but to Caucescu's reign too. However, a decade later we still can't say that things have changed for the better. Industry and infrastructure have either not improved at all or have worsened even more, all the while former Caucescu government personel still hold power in Romania but under a new slogan and banner.\n\nSome have even begun questioning if all of this was worth it at all..."
  ##cold war##
  
  cold_war_soviet_offensive_name:0 "Soviet Offensive"

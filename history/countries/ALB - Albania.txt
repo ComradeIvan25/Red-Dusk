@@ -10,6 +10,7 @@ set_politics = {
 }
 
 add_ideas = usa_aligned_nation
+add_ideas = east_europe_privatization
 
 set_popularities = {
 	communism = 0

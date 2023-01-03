@@ -559,6 +559,20 @@ spriteTypes = {
 		name = "GFX_idea_KOR_songun"
 		texturefile = "gfx/interface/ideas/KOR_songun.png"
 	}
+	#ROMANIA
+	spriteType = {
+		name = "GFX_idea_ROM_betrayed_revolution"
+		texturefile = "gfx/interface/ideas/ROM_betrayed_revolution.dds"
+	}
+	#EASTERN EUROPE SHARED
+	spriteType = {
+		name = "GFX_idea_eastern_threat_icon"
+		texturefile = "gfx/interface/ideas/eastern_threat.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_privatization_icon"
+		texturefile = "gfx/interface/ideas/privatisation.dds"
+	}
 	#AFGHANISTAN
 	spriteType = {
 		name = "GFX_idea_AFG_hardened_fighters_icon"
@@ -603,7 +617,7 @@ spriteTypes = {
 		name = "GFX_idea_scraping_the_barrel"
 		texturefile = "gfx/interface/ideas/conscription/idea_scraping_the_barrel.png"
 	}
-	
+
 	### ECONOMY LAWS
 	spriteType = {
 		name = "GFX_idea_civilian_economy"
@@ -621,5 +635,4 @@ spriteTypes = {
 		name = "GFX_idea_war_economy"
 		texturefile = "gfx/interface/ideas/economy/idea_war_economy.png"
 	}
-	
 }

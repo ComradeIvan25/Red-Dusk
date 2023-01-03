@@ -6,19 +6,21 @@ set_war_support = 0.1
 set_stability = 0.5
 
 recruit_character = NEP_birendra_of_nepal
+recruit_character = NEP_bipendra_of_nepal
+recruit_character = NEP_gyanendra_of_nepal
 
 add_ideas = NEP_royal_autocracy
 add_ideas = NEP_communist_insurgency
 
 set_politics = {
-	ruling_party = paternal_autocracy
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 20
-	paternal_autocracy = 55
+	neutrality = 55
+	paternal_autocracy = 20
         democratic = 10
         communism = 15
 }

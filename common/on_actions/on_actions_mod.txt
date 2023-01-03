@@ -3351,7 +3351,15 @@ on_actions = {
 							target = ERI
 							transfer_troops = no
 							}
-							news_event = {id = old_times_news.40}
+							
+							if = {
+								limit = {has_country_flag = eth_weridwali_fails}
+							}
+							else_if = {
+								limit = {NOT = {has_country_flag = eth_weridwali_fails}}
+								news_event = {id = old_times_news.40}
+
+							}
 						}
 						
 						SOV = {

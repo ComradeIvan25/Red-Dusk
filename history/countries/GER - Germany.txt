@@ -33,10 +33,11 @@ set_stability = 0.75
 set_war_support = 0.3
 
 recruit_character = GER_gerhard_schroder
+recruit_character = GER_edmund_stoiber
+recruit_character = GER_guido_westerwelle
 recruit_character = GER_udo_voigt_1
 recruit_character = GER_udo_voigt_2
 recruit_character = GER_egon_krenz
-
 
 add_ideas = GER_eu
 add_ideas = GER_ostalgie

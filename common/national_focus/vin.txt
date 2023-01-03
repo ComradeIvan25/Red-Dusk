@@ -543,6 +543,7 @@ focus_tree = {
 		}
 		mutually_exclusive = { focus = VIN_steady_forward}
 			prerequisite = { focus = VIN_Path_to_Industrialization}
+			available = {has_country_flag = vin_fast_industrialization}
         completion_reward = {	
 	}
 	}
@@ -586,6 +587,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VIN_Path_to_Industrialization}
+		available = {has_country_flag = vin_small_industry}
 		mutually_exclusive = { focus = VIN_No_time_to_waste }
         completion_reward = {	
 	}

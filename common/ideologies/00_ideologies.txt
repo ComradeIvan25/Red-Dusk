@@ -174,7 +174,7 @@ ideologies = {
 	
 		types = {
 
-			social_democracy = {
+			social_democracy_sub = {
 			}
 			
 			social_patriotism = {
@@ -236,7 +236,7 @@ ideologies = {
 	
 		types = {
 		
-			liberalism = {
+			liberalism_sub = {
 			}
 		
 		}
@@ -378,8 +378,6 @@ ideologies = {
 			military_junta = {
 			}
 			
-			monarchism = {
-			}
 		}
 
 		dynamic_faction_names = {

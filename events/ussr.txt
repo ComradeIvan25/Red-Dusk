@@ -1409,6 +1409,7 @@ country_event = {
 	
 	trigger = {
 		date > 2000.1.10
+		original_tag = SOV
 	}	
 	
 	fire_only_once = yes

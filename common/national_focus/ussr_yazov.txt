@@ -761,6 +761,8 @@
 				add_state_core = 813
 				add_state_core = 812
 				add_state_core = 811
+				add_state_core = 912
+				add_state_core = 913
 			}
 			
 		}
@@ -996,7 +998,7 @@
 		create_wargoal = { type = puppet_wargoal_focus target = POL }
 		create_wargoal = { type = puppet_wargoal_focus target = SLO }
 		create_wargoal = { type = puppet_wargoal_focus target = HUN }
-		create_wargoal = { type = puppet_wargoal_focus target = ROM }
+		news_event = { id = old_times_news.26 days = 1 }
 		}
 	}
 	
@@ -2267,7 +2269,7 @@
 	
 	focus = {
 		id = SOV_yazov_strict_command_structure
-		#icon = GFX_focus_SOV_The_Union_Forever
+		icon = GFX_focus_SOV_chain_of_command
 		x = -2
 		y = 3
 		
@@ -2295,7 +2297,7 @@
 		x = -2
 		y = 4
 		
-		prerequisite = {focus = SOV_yazov_armored_giant}
+		prerequisite = {focus = SOV_yazov_strict_command_structure}
 		
 		cost = 2.2
 		ai_will_do = {
@@ -2411,7 +2413,7 @@
 	
 	focus = {
 		id = SOV_yazov_expanding_the_logistics
-		#icon = GFX_focus_SOV_The_Union_Forever
+		icon = GFX_focus_SOV_expand_supply
 		x = 4
 		y = 3
 		
@@ -2560,7 +2562,7 @@
 	
 	focus = {
 		id = SOV_yazov_manuverability
-		#icon = GFX_focus_SOV_The_Union_Forever
+		icon = GFX_focus_SOV_manuvers
 		x = -4
 		y = 3
 		
@@ -2728,7 +2730,7 @@
 	
 	focus = {
 		id = SOV_yazov_enforce_cooperation
-		#icon = GFX_focus_SOV_The_Union_Forever
+		icon = GFX_focus_SOV_enforce_coop
 		x = 2
 		y = 4
 		
@@ -2827,7 +2829,7 @@
 	
 	focus = {
 		id = SOV_yazov_invincible_and_legendary
-		#icon = GFX_focus_SOV_Invincible_and_Legendary
+		icon = GFX_focus_SOV_Invincible_and_Legendary
 		x = -6
 		y = 6
 		

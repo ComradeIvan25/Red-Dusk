@@ -969,6 +969,24 @@ news_event = {
 	
 }
 
+# nepalese royal massacre
+news_event = {
+	id = old_times_news.66
+	title = old_times_news.66.t
+	desc = old_times_news.66.d
+	picture = GFX_news_nepal_massacre
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.66.a
+		
+	}
+	
+}
+
 ### FLAVOUR NEWS EVENTS ###
 
 ## Concorde Trigger (HIDDEN) ##

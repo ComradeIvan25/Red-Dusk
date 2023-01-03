@@ -403,6 +403,18 @@ spriteTypes = {
 		name = "GFX_focus_SOV_strict_training"
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_strict_training.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_SOV_manuvers"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_manuvers.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_chain_of_command"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_chain_of_command.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_enforce_coop"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_enforce_coop.png"
+	}
 	
 	###Gorbachev###
 

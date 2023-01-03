@@ -582,5 +582,9 @@ spriteTypes = {
 		name = "GFX_news_tudor_win_2000"
 		texturefile = "gfx/event_pictures/news_tudor_win_2000.png"
 	}	
+	spriteType = {
+		name = "GFX_news_nepal_massacre"
+		texturefile = "gfx/event_pictures/news_nepal_massacre.png"
+	}	
 	
 }

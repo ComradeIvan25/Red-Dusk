@@ -270,18 +270,13 @@ country_event = {
 	
 	option = {
 		name = vin.14.a
-		 hidden_effect = {
-			VIN = {
-				country_event = { id = vin.14 days = 2 }
-			}
+		set_country_flag = vin_fast_industrialization
+		custom_effect_tooltip = vin_chose_fast_industrialization
 	}
-}
+	
     option = {
 		name = vin.14.b
-		 hidden_effect = {
-			VIN = {
-				country_event = { id = vin.14 days = 2 }
-			}
+		set_country_flag = vin_small_industry
+		custom_effect_tooltip = vin_chose_focusing_on_small_industry
 	}
-}
 }

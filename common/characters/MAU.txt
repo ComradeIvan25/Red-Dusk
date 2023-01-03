@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_democracy
+			ideology = social_democracy_sub
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1

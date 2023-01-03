@@ -14,5 +14,19 @@ characters = {
 			id = -1
 		}
 	}
+	LAO_khamtai_siphandon_1 = {
+		name = "Khamtai Siphandon"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LAO/Khamtai_Siphandon.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
 
 }

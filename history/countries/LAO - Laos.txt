@@ -23,6 +23,7 @@ add_ideas = LAO_legacy_american_bombing
 add_ideas = LAO_balance_vin_prc
 
 recruit_character = LAO_khamtai_siphandon
+recruit_character = LAO_khamtai_siphandon_1
 
 add_ideas = {
 	extensive_conscription

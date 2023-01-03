@@ -264,7 +264,7 @@ country_event = {
 	id = vin.14
 	title = vin.14.t
 	desc = vin.14.d
-	picture = GFX_report_event_Nong_Duc_Manh_take_charge
+	picture = GFX_report_event_Nong_Duc_Manh_speech
 	
 	is_triggered_only = yes
 	
@@ -272,11 +272,39 @@ country_event = {
 		name = vin.14.a
 		set_country_flag = vin_fast_industrialization
 		custom_effect_tooltip = vin_chose_fast_industrialization
+		 hidden_effect = {
+			VIN = {
+				country_event = { id = vin.15 days = 2 }
+			}
+	}
 	}
 	
     option = {
 		name = vin.14.b
 		set_country_flag = vin_small_industry
 		custom_effect_tooltip = vin_chose_focusing_on_small_industry
+		 hidden_effect = {
+			VIN = {
+				country_event = { id = vin.15 days = 2 }
+			}
 	}
 }
+}
+
+
+#Congress end
+country_event = {
+	id = vin.15
+	title = vin.15.t
+	desc = vin.15.d
+	picture = GFX_report_event_congress_end
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vin.15.a
+        complete_national_focus = Chairman_Nong_Duc_Manh
+		add_stability = 0.01
+	}
+}
+

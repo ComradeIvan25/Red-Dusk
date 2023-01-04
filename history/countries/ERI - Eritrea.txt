@@ -20,6 +20,8 @@ set_technology = {
 	mbt_tank_1960 = 1
 	tech_support = 1
 	towed_artillery_1960 = 1
+	infantry_anti_tank_weapons_1960 = 1
+	infantry_anti_air_weapons_1960 = 1
 }
 
 set_politics = {

@@ -5,6 +5,9 @@ set_oob = "LAT_2000"
 set_technology = {
 	towed_artillery_1960 = 1
 	tech_train_1960 = 1
+	infantry_weapons_1960 = 1
+	infantry_anti_tank_weapons_1960 = 1
+	infantry_anti_air_weapons_1960 = 1
 }
 if = {
 	limit = {

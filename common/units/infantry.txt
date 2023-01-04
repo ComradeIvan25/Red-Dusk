@@ -25,6 +25,8 @@ sub_units = {
 
 		need = {
 			infantry_weapons = 150
+			infantry_anti_tank_weapons = 8
+			infantry_anti_air_weapons = 5
 		}
 
 		manpower = 1000

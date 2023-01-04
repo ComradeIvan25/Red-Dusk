@@ -27,6 +27,8 @@ set_technology = {
 	towed_artillery_1960 = 1
 	ifv_tank_1970 = 1
 	tech_support = 1
+	infantry_anti_tank_weapons_1960 = 1
+	infantry_anti_air_weapons_1960 = 1
 }
 
 set_politics = {

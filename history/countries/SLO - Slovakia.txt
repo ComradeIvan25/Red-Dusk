@@ -20,6 +20,6 @@ set_popularities = {
 	liberalism = 10
 	democratic = 0
 	neutrality = 37
-	islamism = 0
+	paternal_autocracy = 0
 	fascism = 3 #SLOTA HOLY SHIT SLOTA PARTY
 }

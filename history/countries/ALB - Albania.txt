@@ -16,10 +16,9 @@ set_popularities = {
 	communism = 0
 	reformed_communism = 5
 	socialism = 40
-	liberalism = 10
+	liberalism = 15
 	democratic = 25
 	neutrality = 0
-	islamism = 5
 	fascism = 15
 }
 

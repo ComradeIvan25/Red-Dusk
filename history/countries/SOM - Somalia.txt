@@ -17,6 +17,6 @@ set_popularities = {
 	democratic = 5
 	fascism = 20
 	communism = 5
-	islamism = 30
+	paternal_autocracy = 30
 	anarchism = 40
 }

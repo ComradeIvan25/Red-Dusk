@@ -769,7 +769,7 @@ country_event = {
 				democratic = 10
 				fascism = 70
 				communism = 20
-				islamism = 0 
+				paternal_autocracy = 0 
 				reformed_communism = 0
 				
 			}
@@ -799,7 +799,7 @@ country_event = {
 				set_popularities = {
 					democratic = 49
 					fascism = 16
-					islamism = 5
+					paternal_autocracy = 5
 					reformed_communism = 30	
 					communism = 0
 				}

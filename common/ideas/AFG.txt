@@ -44,7 +44,7 @@ ideas = {
 				consumer_goods_factor = 0.10
 				research_speed_factor = -0.25
 				army_morale_factor = 0.10
-				islamism_drift = 0.05
+				paternal_autocracy_drift = 0.05
 			}
 		}
 

@@ -662,14 +662,14 @@ country_event = {
 			add_idea = UGA_extreme_authoritarianism_islamists
 		}
 		set_politics = {
-			ruling_party = islamism
+			ruling_party = paternal_autocracy
 			elections_allowed = yes
 			last_election = "2000.12.17"
 			election_frequency = 48
 		}
 		
 		set_popularities = {
-				islamism = 55
+				paternal_autocracy = 55
 				neutrality = 35
 				democratic = 10
 		}

@@ -38,7 +38,7 @@ set_popularities = {
 	liberalism = 9
 	democratic = 29
 	neutrality = 0
-	islamism = 0
+	paternal_autocracy = 0
 	fascism = 23
 }
 add_opinion_modifier = { target = PAL modifier = HISTORIC_israel_palestine_opinion }

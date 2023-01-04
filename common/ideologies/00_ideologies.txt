@@ -388,7 +388,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 		
-		color = { 64 64 64 }
+		color = { 128 128 128 }
 		
 		
 		war_impact_on_world_tension = 0.25		#no major danger
@@ -441,6 +441,15 @@ ideologies = {
 			
 			monarchism = {
 			}
+			
+			sunni_islamism = {
+			}
+			shiite_islamism = {
+			}
+			wahhabiten_islamism = {
+			}
+			shia_islamism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -451,7 +460,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 		
-		color = { 128 128 128 }
+		color = { 64 64 64 }
 		
 		
 		war_impact_on_world_tension = 0.25		#no major danger
@@ -483,58 +492,6 @@ ideologies = {
 
 		ai_neutral = yes # 
 		ai_ideology_wanted_units_factor = 1.15
-	}
-
-	islamism = {
-		types = {
-			sunni_islamism = {
-			}
-			shiite_islamism = {
-			}
-			wahhabiten_islamism = {
-			}
-			shia_islamism = {
-			}
-		}
-		dynamic_faction_names = {
-			"FACTION_NAME_NONALIGNED_1"
-			"FACTION_NAME_NONALIGNED_2"
-			"FACTION_NAME_NONALIGNED_3"
-			"FACTION_NAME_NONALIGNED_4"
-			"FACTION_NAME_NONALIGNED_5"
-			"FACTION_NAME_NONALIGNED_6"
-		}
-		color = { 0 70 14 }	
-
-		war_impact_on_world_tension = 0.5			
-		faction_impact_on_world_tension = 0.5
-	
-		rules = {
-
-			can_create_collaboration_government = no
-			can_declare_war_on_same_ideology = no
-			can_force_government = no
-			can_send_volunteers = yes
-			can_puppet = no
-			can_lower_tension = no
-			can_only_justify_war_on_threat_country = yes
-			can_guarantee_other_ideologies = no
-		}
-		can_host_government_in_exile = no
-		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 1.00
-			lend_lease_tension = 1.00
-			
-			guarantee_tension = 1.00
-			annex_cost_factor = 0.05
-			civilian_intel_to_others = 20.0
-			army_intel_to_others = 5.0
-			navy_intel_to_others = 20.0
-			airforce_intel_to_others = 5
-		}
-		ai_neutral = yes
-		can_be_boosted = no
 	}	
 
 	fascism = { #this is nationalism#

@@ -52,13 +52,14 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = islamism
+	ruling_party = paternal_autocracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	islamism = 100
+	paternal_autocracy = 90
+	democratic = 10
 }
 
 add_opinion_modifier = { target = IRQ modifier = HISTORIC_iran_iraq_war_opinion }

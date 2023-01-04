@@ -24,7 +24,7 @@ country_event = {
 			
 			set_popularities = {
 				democratic = 15
-				islamism = 30
+				paternal_autocracy = 30
 				neutrality = 35
 				reformed_communism = 20
 			}
@@ -39,7 +39,7 @@ country_event = {
 		name = northern_alliance.1.b
 			
 		set_politics = {
-			ruling_party = islamism
+			ruling_party = paternal_autocracy
 			elections_allowed = no
 			last_election = "2000.12.17"
 			election_frequency = 48
@@ -47,7 +47,7 @@ country_event = {
 		
 			set_popularities = {
 				democratic = 10
-				islamism = 35
+				paternal_autocracy = 35
 				neutrality = 35
 				reformed_communism = 20
 			}
@@ -76,7 +76,7 @@ country_event = {
 			
 			set_popularities = {
 				democratic = 10
-				islamism = 20
+				paternal_autocracy = 20
 				neutrality = 30
 				reformed_communism = 35
 				communism = 5

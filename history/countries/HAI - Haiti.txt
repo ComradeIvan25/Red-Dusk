@@ -17,7 +17,7 @@ set_popularities = {
 	democratic = 59
 	communism = 6
 	reformed_communism = 0
-	islamism = 0
+	paternal_autocracy = 0
 	fascism = 16
 	neutrality = 19
 }

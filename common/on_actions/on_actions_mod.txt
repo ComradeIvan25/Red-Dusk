@@ -1351,6 +1351,15 @@ on_actions = {
 						
 						PER = {
 							set_cosmetic_tag = PER_iraq_puppet
+							add_popularity = {
+								ideology = fascism
+								popularity = -0.5
+							}
+							set_politics = {
+								ruling_party = fascism
+								elections_allowed = no
+							}
+							
 						}
 						news_event = { id = old_times_news.16 }
 					}
@@ -1374,7 +1383,7 @@ on_actions = {
 						transfer_state = 925
 						set_cosmetic_tag = KUR_islam_emirite
 							set_politics = {
-								ruling_party = islamism
+								ruling_party = paternal_autocracy
 								last_election = "1936.1.1"
 								election_frequency = 48
 								elections_allowed = no

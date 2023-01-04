@@ -160,8 +160,16 @@ has_same_ideology = {
 				ROOT = { has_government = reformed_communism }
 			}
 			AND = {
-				has_government = islamism
-				ROOT = { has_government = islamism }
+				has_government = liberalism
+				ROOT = { has_government = liberalism }
+			}
+			AND = {
+				has_government = social_democracy
+				ROOT = { has_government = social_democracy }
+			}
+			AND = {
+				has_government = paternal_autocracy
+				ROOT = { has_government = paternal_autocracy }
 			}
 			AND = {
 				has_government = fascism

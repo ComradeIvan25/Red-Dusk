@@ -1,8 +1,5 @@
 spriteTypes = {	
-	SpriteType = {
-		name = "GFX_ideology_islamism_group"
-		texturefile = "gfx/interface/ideologies/islamism_group.dds"	
-}
+
 	SpriteType = {
 		name = "GFX_ideology_reformed_communism_group"
 		texturefile = "gfx/interface/ideologies/reform_socialism_group.dds"	
@@ -96,5 +93,21 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_ideology_baathist_socialism"
 		texturefile = "gfx/interface/ideologies/baathist_socialism.dds"	
+}
+	SpriteType = {
+		name = "GFX_ideology_sunni_islamism"
+		texturefile = "gfx/interface/ideologies/islamism.dds"	
+}
+	SpriteType = {
+		name = "GFX_ideology_shiite_islamism"
+		texturefile = "gfx/interface/ideologies/islamism.dds"	
+}
+	SpriteType = {
+		name = "GFX_ideology_wahhabiten_islamism"
+		texturefile = "gfx/interface/ideologies/islamism.dds"	
+}
+	SpriteType = {
+		name = "GFX_ideology_shia_islamism"
+		texturefile = "gfx/interface/ideologies/islamism.dds"	
 }
 

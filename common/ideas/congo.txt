@@ -160,7 +160,7 @@ ideas = {
 
 			modifier = {
 				political_power_gain = -0.50
-				islamism_drift = 0.15
+				paternal_autocracy_drift = 0.15
 			}
 			
 		}

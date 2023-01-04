@@ -36,7 +36,7 @@ set_popularities = {
 	liberalism = 29
 	democratic = 25
 	neutrality = 0
-	islamism = 0
+	paternal_autocracy = 0
 	fascism = 6
 }
 

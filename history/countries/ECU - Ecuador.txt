@@ -34,7 +34,7 @@ set_popularities = {
 	liberalism = 26
 	democratic = 35
 	neutrality = 4
-	islamism = 0
+	paternal_autocracy = 0
 	fascism = 0
 }
 add_opinion_modifier = { target = PRU modifier = HISTORIC_cenepa_war_opinion }

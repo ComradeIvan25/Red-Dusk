@@ -29,7 +29,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = islamism
+	ruling_party = paternal_autocracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -38,7 +38,7 @@ set_politics = {
 set_popularities = {
 	fascism = 15
 	communism = 10
-	islamism = 75
+	paternal_autocracy = 75
 }
 
 add_opinion_modifier = { target = ISR modifier = HISTORIC_israel_hostile_30_opinion }

@@ -97,10 +97,9 @@ focus_tree = {
         VIN = {
 				country_event = { id = vin.2 }
 			}
-        swap_ideas = {
-		add_idea = export_focus
-		remove_idea = limited_exports
-	    }
+
+		add_ideas = export_focus
+
 		}
 	}
 

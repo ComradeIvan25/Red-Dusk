@@ -188,7 +188,8 @@
 
  AZR_communism_party:0 "ACP"
  AZR_communism_party_long:0 "Azerbaijan Communist Party"
- AZR_reformed_communism_party:0 "ACP - Reformist Wing" AZR_reformed_communism_party_long:0 "Azerbaijan Communist Party - Reformist Wing"
+ AZR_reformed_communism_party:0 "ACP - Reformist Wing" 
+ AZR_reformed_communism_party_long:0 "Azerbaijan Communist Party - Reformist Wing"
  AZR_socialism_party:0 "SPA"
  AZR_socialism_party_long:0 "Socialist Party of Azerbaijan"
  AZR_social_democracy_party:0 "Civic Unity Party"

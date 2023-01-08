@@ -2,11 +2,6 @@
 	id = ussr_yazov_focus
 	country = {
 		factor = 0
-		
-		modifier = {
-			add = 11
-			tag = SOV
-		}
 	}
 	
 	default = no
@@ -2461,7 +2456,7 @@
 
 	focus = {
 		id = SOV_yazov_the_shield_of_socialism
-		#icon = GFX_focus_SOV_The_Union_Forever
+		icon = GFX_focus_SOV_shield_of_socialism
 		x = 0
 		y = 5
 		
@@ -2778,7 +2773,7 @@
 	
 	focus = {
 		id = SOV_yazov_hitting_where_it_hurts
-		icon = GFX_focus_SOV_shooting_tank
+		icon = GFX_focus_SOV_hit_where_hurts
 		x = 4
 		y = 4
 		
@@ -2802,7 +2797,7 @@
 
 	focus = {
 		id = SOV_yazov_the_sword_of_socialism
-		#icon = GFX_focus_SOV_The_Union_Forever
+		icon = GFX_focus_SOV_sword_of_socialism
 		x = 0
 		y = 5
 		
@@ -2833,8 +2828,7 @@
 		x = -6
 		y = 6
 		
-		prerequisite = {focus = SOV_yazov_the_shield_of_socialism}
-		prerequisite = {focus = SOV_yazov_the_sword_of_socialism}		
+		prerequisite = {focus = SOV_yazov_the_shield_of_socialism focus = SOV_yazov_the_sword_of_socialism}
 		
 		cost = 2.2
 		ai_will_do = {

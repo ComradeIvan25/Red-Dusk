@@ -2,6 +2,10 @@ focus_tree = {
 	id = saf_military_junta_focus
 	country = {
 		factor = 0
+		modifier = {
+		tag = SAF
+		add = 99
+		}
 	}
 
 	default = no
@@ -790,4 +794,680 @@ focus_tree = {
 			add_political_power = 200
                 }
 	}
+	
+	###ECONOMY###
+	
+		focus = {
+		id = SAF_junta_economy_modernize_our_industry
+		icon = GFX_focus_SAF_modernize_our_industry
+		x = 30
+		y = 8
+		
+		#prerequisite = { }
+		
+		cost = 6.7
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		#relative_position_id = 
+		
+		completion_reward = {
+				
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_economy_open_new_mines
+		icon = x
+		x = -7
+		y = 1
+		
+		prerequisite = { focus = SAF_junta_economy_modernize_our_industry }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_modernize_our_industry
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = SAF_south_african_mines_inaguration
+				days = 210
+			}
+			country_event = { id = saf.13 }
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_economy_support_the_costruction_of_new_energetic_industries
+		icon = x
+		x = -3
+		y = 1
+		
+		prerequisite = { focus = SAF_junta_economy_modernize_our_industry }
+		
+		cost = 3.5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_modernize_our_industry
+		
+		completion_reward = {
+			add_ideas = SAF_construction_of_new_energetic_factories
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_economy_build_coal_factories
+		icon = x
+		x = -5
+		y = 2
+		
+		prerequisite = { focus = SAF_junta_economy_open_new_mines}
+		prerequisite = { focus = SAF_junta_economy_support_the_costruction_of_new_energetic_industries}
+		
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_modernize_our_industry
+		
+		completion_reward = {
+			921 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_timed_idea = {
+				idea = SAF_energetic_industries
+				days = 365
+			}
+			
+		}
+	}	
+	
+	focus = {
+		id = SAF_junta_economy_found_exxaro_mining_company
+		icon = x
+		x = -7
+		y = 3
+		
+		prerequisite = { focus = SAF_junta_economy_build_coal_factories}
+		mutually_exclusive = { focus = SAF_junta_economy_intensify_the_work_in_the_mines}
+		
+		cost = 8
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_modernize_our_industry
+		
+		completion_reward = {
+			add_ideas = SAF_exxaro
+			country_event = { id = saf.14 }
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_economy_intensify_the_work_in_the_mines
+		icon = x
+		x = -3
+		y = 3
+		
+		prerequisite = { focus = SAF_junta_economy_build_coal_factories}
+		mutually_exclusive = { focus = SAF_junta_economy_found_exxaro_mining_company}
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_modernize_our_industry
+		
+		completion_reward = {
+			add_ideas = SAF_work_for_south_africa
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_economy_export_rare_minerials
+		icon = x
+		x = -8
+		y = 4
+		
+		prerequisite = {focus = SAF_junta_economy_found_exxaro_mining_company}
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_modernize_our_industry
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = SAF_jewelry_exporter
+				days = 730
+			}
+
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_economy_keep_them_for_the_junta
+		icon = x
+		x = -5
+		y = 4
+		
+		prerequisite = { focus = SAF_junta_economy_intensify_the_work_in_the_mines focus = SAF_junta_economy_found_exxaro_mining_company}
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_modernize_our_industry
+		
+		completion_reward = {
+			add_ideas = SAF_illicit_investments
+			swap_ideas = {
+			remove_idea = export_focus
+			add_idea = closed_economy
+			}
+		}
+	}	
+	
+	focus = {
+		id = SAF_junta_economy_swell_the_state_tresuary
+		icon = x
+		x = -2
+		y = 4
+		
+		prerequisite = { focus = SAF_junta_economy_intensify_the_work_in_the_mines}
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_modernize_our_industry
+		
+		completion_reward = {
+			add_political_power = 100
+			add_ideas = SAF_economic_surplus
+		}
+	}	
+	
+	focus = {
+		id = SAF_junta_economy_and_our_agriculture
+		icon = GFX_focus_SAF_and_our_agriculture
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = SAF_junta_economy_modernize_our_industry }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_modernize_our_industry
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = SAF_agricultural_modernization
+				days = 540
+			}
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_economy_import_new_agriculture_machinery
+		icon = x
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = SAF_junta_economy_and_our_agriculture }
+		
+		cost = 3.9
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_and_our_agriculture
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = SAF_foreign_exports
+				days = 300
+			}
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_economy_invest_in_farming_activities
+		icon = x
+		x = 0
+		y = 2
+		
+		prerequisite = { focus = SAF_junta_economy_import_new_agriculture_machinery }
+		
+		cost = 8
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_and_our_agriculture
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = SAF_farm_development
+				days = 210
+			}
+			set_country_flag = SAF_took_investing_in_farm_activities
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_economy_new_agriculture_methods
+		icon = x
+		x = 0
+		y = 3
+		
+		prerequisite = { focus = SAF_junta_economy_invest_in_farming_activities }
+		
+		available = {
+			has_country_flag = {
+				flag = SAF_took_investing_in_farm_activities
+				days > 150
+			}
+			custom_trigger_tooltip = {
+				tooltip = SAF_took_investing_farms_focus_tooltip
+				has_country_flag = {
+					flag = SAF_took_investing_in_farm_activities
+					days > 150
+				}
+			}
+		}
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_and_our_agriculture
+		
+		completion_reward = {
+			add_ideas = SAF_revived_agriculture
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_economy_encourage_tourism
+		icon = GFX_focus_SAF_encourage_tourism
+		x = 3
+		y = 1
+		
+		prerequisite = { focus = SAF_junta_economy_modernize_our_industry }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_modernize_our_industry
+		
+		completion_reward = {
+			add_ideas = SAF_tourist_ads
+			country_event = {id = saf.15}
+			set_country_flag = SAF_took_encourage_tourism_focus
+		}
+	}
+		
+	focus = {
+		id = SAF_junta_economy_expand_safari_business
+		icon = x
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = SAF_junta_economy_encourage_tourism }
+		
+		available = {
+			has_country_flag = {
+				flag = SAF_took_encourage_tourism_focus
+				days > 50
+			}
+			custom_trigger_tooltip = {
+				tooltip = SAF_took_encourage_tourism_focus_tooltip
+				has_country_flag = {
+					flag = SAF_took_encourage_tourism_focus
+					days > 50
+				}
+			}
+		}
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_encourage_tourism
+		
+		completion_reward = {
+			remove_ideas = SAF_tourist_ads
+			add_timed_idea = {
+				idea = SAF_safari_activites
+				days = 365
+			}
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_economy_encourage_the_transport_sector
+		icon = x
+		x = 7
+		y = 1
+		
+		prerequisite = { focus = SAF_junta_economy_modernize_our_industry }
+		
+		cost = 3.5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_modernize_our_industry
+		
+		completion_reward = {
+			921 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 4822
+				}
+				
+	
+			}
+				build_railway = {
+					level = 5
+					build_only_on_allied = yes
+					controller_priority = {
+						base = 1
+
+					}
+					fallback = yes
+					path = { 12547 12692 10415 13265 13266 }
+					start_province = 12547
+					target_province = 13266
+				}
+		}
+	}
+		
+	focus = {
+		id = SAF_junta_economy_improve_the_roads
+		icon = x
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = SAF_junta_economy_encourage_the_transport_sector }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_encourage_the_transport_sector
+		
+		completion_reward = {
+				
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_stability = 0.075
+		}
+	}	
+	
+	focus = {
+		id = SAF_junta_economy_support_the_foundation_of_transport_companies
+		icon = x
+		x = -4
+		y = 2
+		
+		prerequisite = { focus = SAF_junta_economy_expand_safari_business }
+		prerequisite = { focus = SAF_junta_economy_improve_the_roads }
+	
+		mutually_exclusive = { focus = SAF_junta_economy_support_the_foundation_of_military_transport_companies }
+	
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_improve_the_roads
+		
+		completion_reward = {
+			add_ideas = SAF_minor_transportation_companies
+			add_political_power = -25
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_economy_support_the_foundation_of_military_transport_companies
+		icon = x
+		x = 0
+		y = 2
+		
+		prerequisite = { focus = SAF_junta_economy_expand_safari_business }
+		prerequisite = { focus = SAF_junta_economy_improve_the_roads }
+		
+		mutually_exclusive = { focus = SAF_junta_economy_support_the_foundation_of_transport_companies }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_improve_the_roads
+		
+		completion_reward = {
+			add_ideas = SAF_military_transportation_companies
+			add_political_power = -50
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_economy_the_junta_knows_the_best
+		icon = x
+		x = -7
+		y = 3
+		
+		prerequisite = { focus = SAF_junta_economy_export_rare_minerials focus = SAF_junta_economy_keep_them_for_the_junta focus = SAF_junta_economy_swell_the_state_tresuary}
+		prerequisite = { focus = SAF_junta_economy_new_agriculture_methods }
+		prerequisite = { focus = SAF_junta_economy_support_the_foundation_of_transport_companies focus = SAF_junta_economy_support_the_foundation_of_military_transport_companies}
+		
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_improve_the_roads
+		
+		completion_reward = {
+			army_experience = 100
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = arms_factory
+					level = 5
+					instant_build = yes
+				}
+			}
+			add_ideas = SAF_juntas_economic_reforms
+		}
+	}	
 }

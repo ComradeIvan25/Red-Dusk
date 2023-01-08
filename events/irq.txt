@@ -687,10 +687,24 @@ country_event = {
 		name = irq.29.a
 		add_political_power = 100
 		add_war_support = 0.05
-			add_popularity = {
-				ideology = socialism
-				popularity = 1.0
+			set_political_party = {
+				ideology = fascism
+				popularity = 100
 			}
+		hidden_effect = { #jk
+			set_political_party = {
+				ideology = fascism
+				popularity = 89
+			}
+			set_political_party = {
+				ideology = socialism
+				popularity = 10
+			}
+			set_political_party = {
+				ideology = neutrality
+				popularity = 1
+			}
+		}
 	}
 }
 

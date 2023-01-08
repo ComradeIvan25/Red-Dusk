@@ -518,6 +518,9 @@ ideologies = {
 			
 			eurasianism = {
 			}
+			
+			baathist_nationalism = {
+			}
 		}
 		
 		dynamic_faction_names = {

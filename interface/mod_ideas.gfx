@@ -635,4 +635,8 @@ spriteTypes = {
 		name = "GFX_idea_war_economy"
 		texturefile = "gfx/interface/ideas/economy/idea_war_economy.png"
 	}
+	spriteType = {
+		name = "GFX_idea_tot_economic_mobilisation"
+		texturefile = "gfx/interface/ideas/economy/idea_tot_economic_mobilisation.png"
+	}
 }

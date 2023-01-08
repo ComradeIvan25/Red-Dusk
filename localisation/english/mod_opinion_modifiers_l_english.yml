@@ -20,7 +20,8 @@
  SOV_pugo_visit_opinion:0 "General Secretary's State Visit"
  SOV_pugo_trade_agreement_opinion:0 "Sino-Soviet Trade Agreement"
  SOV_pugo_cooperation_opinion:0 "Sino-Soviet Cooperation Treaty"
-
+ 
+ SAF_anglo_american_coal_foundation_opinion:0 "Anglo-American Coal Foundation"
 ###WIENNA SUMMIT###
 
  SOV_treaty_success_opinion:0 "Mutual Trust Treaty Signed"

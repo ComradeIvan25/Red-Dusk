@@ -415,6 +415,18 @@ spriteTypes = {
 		name = "GFX_focus_SOV_enforce_coop"
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_enforce_coop.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_SOV_sword_of_socialism"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_sword_of_socialism.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_shield_of_socialism"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_shield_of_socialism.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_hit_where_hurts"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_hit_where_hurts.png"
+	}
 	
 	###Gorbachev###
 
@@ -1583,6 +1595,18 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_focus_SAF_late"
 		texturefile = "gfx/interface/goals/SAF/focus_SAF_late.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_modernize_our_industry"
+		texturefile = "gfx/interface/goals/SAF/focus_SAF_modernize_our_industry.png"
+	}	
+	SpriteType = {
+		name = "GFX_focus_SAF_and_our_agriculture"
+		texturefile = "gfx/interface/goals/SAF/focus_SAF_and_our_agriculture.png"
+	}	
+	SpriteType = {
+		name = "GFX_focus_SAF_encourage_tourism"
+		texturefile = "gfx/interface/goals/SAF/focus_SAF_encourage_tourism.png"
 	}
 
    ###ANC###

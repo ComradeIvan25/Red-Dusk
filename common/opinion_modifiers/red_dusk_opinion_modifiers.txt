@@ -71,4 +71,8 @@ opinion_modifiers = {
 	nonexistant_relations_opinion = {
 		value = -100
 	}
+	
+	SAF_anglo_american_coal_foundation_opinion = {
+		value = 5
+	}
 }

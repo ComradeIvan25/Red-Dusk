@@ -222,6 +222,12 @@ country_event = {
 		#yazov#
 	option = {
 		name = ussr.6.a
+		trigger = {
+			is_ai = no
+			check_variable = { sov_militarist_influence_var > sov_hardliner_influence_var }
+			check_variable = { sov_militarist_influence_var > sov_reformist_influence_var }
+			check_variable = { sov_militarist_influence_var > sov_kgb_influence_var }
+		}
 		retire_country_leader = yes
 		promote_character = SOV_dmitry_yazov
 		load_focus_tree = ussr_yazov_focus
@@ -245,6 +251,12 @@ country_event = {
 		#Pugo#
 		option = {
 		name = ussr.6.b
+		trigger = {
+			is_ai = no
+			check_variable = { sov_hardliner_influence_var > sov_militarist_influence_var }
+			check_variable = { sov_hardliner_influence_var > sov_reformist_influence_var }
+			check_variable = { sov_hardliner_influence_var > sov_kgb_influence_var }
+		}
 		retire_country_leader = yes
 		promote_character = SOV_boris_pugo
 		load_focus_tree = ussr_pugo_focus
@@ -268,6 +280,20 @@ country_event = {
 		#no one lol#
 		option = { 
 		name = ussr.6.c
+		trigger = {
+			is_ai = no
+			OR = {
+				AND = {
+				check_variable = { sov_kgb_influence_var > sov_militarist_influence_var }
+				check_variable = { sov_kgb_influence_var > sov_hardliner_influence_var }
+				}
+			
+				AND = {
+				check_variable = { sov_reformist_influence_var > sov_militarist_influence_var }
+				check_variable = { sov_reformist_influence_var > sov_hardliner_influence_var }
+				}
+			}
+		}
 		add_political_power = -50
 		add_stability = -0.05
 		
@@ -309,6 +335,12 @@ country_event = {
 	#putin!!!!#
 	option = {
 		name = ussr.7.a
+		trigger = {
+			is_ai = no
+			check_variable = { sov_kgb_influence_var > sov_hardliner_influence_var }
+			check_variable = { sov_kgb_influence_var > sov_reformist_influence_var }
+			check_variable = { sov_kgb_influence_var > sov_militarist_influence_var }
+		}
 		retire_country_leader = yes
 		promote_character = SOV_vladimir_putin
 		load_focus_tree = ussr_putin_focus
@@ -334,7 +366,12 @@ country_event = {
 	#ryzhkov the dentist#
 	option = {
 		name = ussr.7.b
-
+		trigger = {
+			is_ai = no
+			check_variable = { sov_reformist_influence_var > sov_hardliner_influence_var }
+			check_variable = { sov_reformist_influence_var > sov_kgb_influence_var }
+			check_variable = { sov_reformist_influence_var > sov_militarist_influence_var }
+		}
 		set_politics = {
 			ruling_party = reformed_communism
 			elections_allowed = no

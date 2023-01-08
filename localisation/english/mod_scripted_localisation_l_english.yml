@@ -435,7 +435,11 @@
  saf_started_to_deal_with_insurgents:0 "§OStarted Operations Aganist the Insurgents§\n\n"
  saf_end_of_operations_reached:0 "§OThe Deadline For The Operations Have Been Reached§\n\n"
  SAF_breaking_point_cool_tooltip:0 "§RSouth Africa Is Nearing Its Breaking Point§\n\n"
-
+ 
+ SAF_took_investing_farms_focus_tooltip:0 "Current days are: [?SAF_took_investing_in_farm_activities:days|Y0]"
+ SAF_took_investing_in_farm_activities:0 "Took the Focus "Invest in Farming Activities""
+ SAF_took_encourage_tourism_focus_tooltip:0 "Current days are: [?SAF_took_encourage_tourism_focus:days|Y0]"
+ SAF_took_encourage_tourism_focus:0 "Took the Focus "Encourage Tourism""
  ## GENERIC ##
 
  decision_cost_CP_10_PP_60:0 "£command_power  §Y10§! £political_power  §Y60§!"

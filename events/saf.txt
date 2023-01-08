@@ -397,3 +397,51 @@ country_event = {
             }
 	}
 }
+
+#A day in the mine#
+country_event = {
+	id = saf.13
+	title = saf.13.t
+	desc = saf.13.d
+	picture = GFX_report_event_SAF_martial_law
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = saf.13.a	
+
+	}
+}
+
+#Exxaro Mining Company#
+country_event = {
+	id = saf.14
+	title = saf.14.t
+	desc = saf.14.d
+	picture = GFX_report_event_SAF_martial_law
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = saf.14.a	
+
+	}
+}
+
+#Come Visit South Africa!#
+country_event = {
+	id = saf.15
+	title = saf.15.t
+	desc = saf.15.d
+	picture = GFX_report_event_SAF_martial_law
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = saf.15.a	
+
+	}
+}

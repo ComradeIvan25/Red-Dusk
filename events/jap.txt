@@ -27,7 +27,7 @@ country_event = {
 	id = japan_mod.2
 	title = japan_mod.2.t
 	desc = japan_mod.2.d
-	picture = GFX_report_event_spark
+	picture = GFX_report_event_ballot_box
 	
 	trigger = {
 	date > 2001.6.29

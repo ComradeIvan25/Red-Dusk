@@ -713,7 +713,15 @@
  saf.12.t:0 "Beer, Friends and Politics"
  saf.12.d:0 "As the sun was rising on the Port Elizabeth, city was already alive. It wasn't even 7 in the morning and the port as well as many city pubs were active, filled with some sailors, off duty soldiers and old folks.\n\nSuch was the morning for two old soldiers, veterans of the Angolan war and most of all, close friends. William and Abdu. Both different in political beliefs, skin colour and status, but bound by comradeship and alcohol. They met each other just like every morning, sat down and ordered their drinks. After greetings were done they moved onto other topics, family stories, memories of serving in the army etc. Until the conversation finally landed onto the topic of politics. It was clear that two were very different in this field.\n\n"I am not sure Abdu. This whole situation we got here is...complex to say the least. But I think that the old bastard Viljoen is the best choice we got. He's not the best but at least we can live normally." - said William.\n\n"Speak for yourself. I am the black one here. Well, at least serving in the army got me a better position in life. But that still doesn't excuse that the apartheid is still here. Hell, maybe Parliament guys have a point, they aren't all that better but maybe they are the only grace to save this country from an open civil war." - Abdu remarked.\n\n"I don't think so, but who gives a damn about our opinions." - William said as he begun drinking his beer.\n\n"You are right. I just hope it will be better, but as long as the pension is on time and I can drink with you, I am happy." - Abdu said before picking his bottle."
  saf.12.a:0 "Aye, I'll drink to that."
-
+ saf.13.t:0 "A Day in the Mine"
+ saf.13.d:0 "A Day in the Mine"
+ saf.13.a:0 "A Day in the Mine"
+ saf.14.t:0 "Exxaro Mining Company"
+ saf.14.d:0 "Exxaro Mining Company"
+ saf.14.a:0 "Exxaro Mining Company"
+ saf.15.t:0 "Come Visist South Africa!"
+ saf.15.d:0 "Come Visist South Africa!"
+ saf.15.a:0 "Come Visist South Africa!"
  #SAF_HELP#
 
  usa_help.1.t:0 "South Africa Asks for Help"
@@ -819,3 +827,10 @@
  germany.1.a:0 "The SPD!"
  germany.1.b:0 "The CDU/CSU COALITION!"
  germany.1.c:0 "The FDP!?"
+ 
+ ## Romania ##
+ 
+ romania_mod.1.t:0 "2000 Romanian Elections"
+ romania_mod.1.d:0 "With Emil Constantinescu deciding not to run again, first round of the elections this time around was tense, ending with two different parties with even opposing views making into the second round of presidential elections that will be deciding the future of the Romanian state in the new millennium.\n\nThe Social Democrat (PSD) Candidate Ion Iliescu who had ruled Romania before, campaigned on a pragmatist diplomacy that would be cooperating with both sides of the cold war while continuing the privatization efforts to revitalize Romania's struggling economy.\n\nOn the other side is the Greater Romania Party (PRM) Candidate Corneliu Vadim Tudor, as the name suggests, is a populist ultranationalist party with Mational Communist roots. PRM campaigned on the promotion of Romanian Nationalism, promising half a million jobs by reopening the defunct factories, and anti-corruption campaigns. There are also rumors of the party having a "secret blacklist" of dozens of politicians that would be arrested if PRM came to power.\n\nThe election mostly depends on other parties that will have to choose a candidate to endorse.\n\nAs the votes were counted it became clear that Romania's next president would be... "
+ romania_mod.1.a:0 "Ion Iliescu! supported by the Liberals, Conservatives and Hungarians." 
+ romania_mod.1.b:0 "Corneliu Vadim Tudor! supported by the Liberals and Conservatives." 

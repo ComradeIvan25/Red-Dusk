@@ -16,8 +16,6 @@
  neutrality_noun:0 "Authoritarian Democracy"
  paternal_autocracy:0 "Paternal Autocrat"
  paternal_autocracy_noun:0 "Paternal Autocracy"
- islamism:0 "Islamist"
- islamism_noun:0 "Islamism"
  fascism:0 "Nationalist"
  fascism_noun:0 "Nationalism" 
  anarchism:0 "Anarchist"
@@ -31,7 +29,6 @@
  democratic_desc:0 "Democratic Regime"
  neutrality_desc:0 "Authoritarian Regime"
  paternal_autocracy_desc:0 "Autocratic Regime"
- islamism_desc:0 "Theocratic Regime"
  fascism_desc:0 "Totalitarian Regime"
  anarchism_desc:0 "Anarchist Regime" 
 
@@ -92,16 +89,7 @@
  paternal_autocracy_sub_desc:0 "Placeholder"
  real_despotism:0 "Placeholder"
  real_despotism_desc:0 "Placeholder"
-
- sunni_islamism:0 "Sunni Islamism"
- sunni_islamism_desc:0 "With the rapid spread of Democracy in the West, in the Middle East the political idea of ​​Sunni Islamism has developed. Sunni Islamic ideology integrates the different laws of the Muslim Quran, such as Sharia, into the state. Sunnis believe that Muhammad's successor must be a man who preaches and respects the Qu'ran and its laws perfectly."
- shiite_islamism:0 "Shiite Islamism"
- shiite_islamism_desc:0 "Along with the spread of the Sunni Islamic ideology, the Shiite ideology was also developed. Shiite Islam believes that the true heir of Muhammad must be chosen by Allah, while the political figure who leads the nation is an Imām (Leader or Model) who must lead the nation and supervise that Muslims respect the Qu'ran."
- wahhabiten_islamism:0 "Wahhabiten Islamism"
- wahhabiten_islamism_desc:0 "Wahhabism is a variant of Islam practiced only by a few small groups of Muslims and it's another attempt to return to the purity of Islam. In politics, Wahhabism is an ideology in favor of the Islamic theological government, proposes an exoteric reading of the Sharia and a political system similar to the Sunni one.  Wahhabism is not very widespread in Islam and is crushed by the Sunni and Shiite majority."
- shia_islamism:0 "Shia Islamism"
- shia_islamism_desc:0 "Placeholder"
-
+ 
  neo_nazism:0 "Neo-Nazism"
  neo_nazism_desc:0 "Rooted in extreme nationalism, National Socialism is driven by ideas of Germanic supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power, the Führer."
  neo_fascism:0 "Neo-Fascism"
@@ -133,7 +121,6 @@
  SOV_neutrality_party_russian:0 "Armed Forces of the Soviet Union"
  SOV_neutrality_party_long:0 "Armed Forces of the Union of Soviet Socialist Republics"
  SOV_paternal_autocracy_party:0 "§R[OUTLAWED]§!"
- SOV_islamism_party:0 "§R[OUTLAWED]§!"
  SOV_fascism_party:0 "§R[OUTLAWED]§!"
  SOV_fascism_party_russian:0 "§R[OUTLAWED]§!"
  SOV_fascism_party_long:0 "Liberal Democratic Party of the Soviet Union"
@@ -151,7 +138,6 @@
  USA_democratic_party:0 "Republican Party"
  USA_neutrality_party:0 "Joint Chiefs of Staff"
  USA_paternal_autocracy_party:0 "Central Intelligence Agency"
- USA_islamism_party:0 "Muslims for America"
  USA_fascism_party:0 "Constitution Party"
  USA_anarchism_party:0 "Antifascist Action"
 
@@ -165,7 +151,6 @@
  EST_democratic_party:0 "Pro Patria Union"
  EST_neutrality_party:0 "Estonian Defense Forces"
  EST_paternal_autocracy_party:0 "Estonian Foreign Intelligence Service"
- EST_islamism_party:0 "Islamist Independents"
  EST_fascism_party:0 "Estonian Independence Party"
  EST_anarchism_party:0 "Anarchist League of Estonia"
 
@@ -181,7 +166,6 @@
  LAT_democratic_party:0 "People's Party"
  LAT_neutrality_party:0 "Latvian National Armed Forces"
  LAT_paternal_autocracy_party:0 "Latvian National Armed Forces"
- LAT_islamism_party:0 "Islamist Independents"
  LAT_fascism_party:0 "FF/LNNK"
  LAT_fascism_party_long:0 "For Fatherland and Freedom/LNNK"
  LAT_anarchism_party:0 "Latvian Anarchist Movement"
@@ -199,7 +183,6 @@
  ARM_democratic_party:0 "Conservative Party"
  ARM_neutrality_party:0 "Armed Forces of Armenia"
  ARM_paternal_autocracy_party:0 "Armed Forces of Armenia"
- ARM_islamism_party:0 "Islamist Independents"
  ARM_fascism_party:0 "Adequate Party"
  ARM_anarchism_party:0 "Armenian Anarchist Movement"
 
@@ -214,7 +197,6 @@
  AZR_democratic_party:0 "New Azerbaijan Party"
  AZR_neutrality_party:0 "Azerbaijani Armed Forces"
  AZR_paternal_autocracy_party:0 "Azerbaijani Armed Forces"
- AZR_islamism_party:0 "Islamist Independents"
  AZR_fascism_party:0 "Motherland Party"
  AZR_anarchism_party:0 "Azerbaijani Anarchist Movement"
  

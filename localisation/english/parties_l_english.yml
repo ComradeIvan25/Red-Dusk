@@ -55,15 +55,19 @@
  democratic_socialism:0 "Democratic Socialism"
  democratic_socialism_desc:0 "Democratic socialism is a left-wing  political philosophy that supports political democracy and some form of a socially owned economy, with a particular emphasis on economic democracy, workplace democracy and workers' self-management within a market socialist economy or an alternative form of decentralised planned socialist economy. Democratic socialists argue that capitalism is inherently incompatible with the values of freedom, equality, and solidarity and that these ideals can only be achieved through the realisation of a socialist society. Democratic socialism was popularized by socialists who were opposed to the backsliding towards a one-party state in the Soviet Union and other nations during the 20th century."
  baathist_socialism:0 "Ba'athist Socialism"
- baathist_socialism_desc:0 "Placeholder"
+ baathist_socialism_desc:0 "Ba'athist Socialism is a political ideology that was first developed by Michel Aflaq and Salah al-Din al-Bitar. It is based on the idea of Arab unity and the creation of a single Arab state spanning from the Atlantic Ocean to the Arabian Gulf. Ba'athism is a secular ideology that seeks to promote economic, social, and political progress for the Arab world. The Ba'ath Party, which espouses Ba'athist ideology, has held power in a number of Arab countries, including Syria and Iraq."
 
- #social_democracy:0 "Social Democracy"
- #social_democracy_desc:0 "Striving for equality and a socialist state by peaceful reformist and parliamentary means. Social-democracy aims to abolish or regulate the effects of capitalism on society and the state with public mandate."
+ social_democracy:0 "Social Democracy"
+ social_democracy_desc:0 "Striving for equality and a socialist state by peaceful reformist and parliamentary means. Social-democracy aims to abolish or regulate the effects of capitalism on society and the state with public mandate."
+ social_democracy_sub:0 "Social Democracy"
+ social_democracy_sub_desc:0 "Striving for equality and a socialist state by peaceful reformist and parliamentary means. Social-democracy aims to abolish or regulate the effects of capitalism on society and the state with public mandate."
  social_patriotism:0 "Social Patriotism"
  social_patriotism_desc:0 "Placeholder"
 
  liberalism:0 "Liberalism"
  liberalism_desc:0 "With a long philosophical tradition of valuing personal liberty, liberalism views safeguarding these rights as the primary function of the state."
+ liberalism_sub:0 "Liberalism"
+ liberalism_sub_desc:0 "With a long philosophical tradition of valuing personal liberty, liberalism views safeguarding these rights as the primary function of the state."
  
  conservatism:0 "Conservatism"
  conservatism_desc:0 "Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values."
@@ -104,7 +108,9 @@
  ultranationalism_desc:0 "Placeholder"
  eurasianism:0 "Eurasianism"
  eurasianism_desc:0 "Placeholder"
-
+ baathist_nationalism:0 "Ba'athist Nationalism"
+ baathist_nationalism_desc:0 "Ba'athist Nationalism is a political ideology that was first developed by Michel Aflaq and Salah al-Din al-Bitar. It is based on the idea of Arab unity and the creation of a single Arab state spanning from the Atlantic Ocean to the Arabian Gulf. Ba'athism is a secular ideology that seeks to promote economic, social, and political progress for the Arab world. The Ba'ath Party, which espouses Ba'athist ideology, has held power in a number of Arab countries, including Syria and Iraq."
+ 
  SOV_communism_party:0 "CPSU"
  SOV_communism_party_russian:0 "CPSU"
  SOV_communism_party_long:0 "Communist Party of the Soviet Union"

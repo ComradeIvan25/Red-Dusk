@@ -568,6 +568,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = Amendment_of_the_Labor_Code}
         completion_reward = {	
+		add_ideas = VIN_Industrialization_plan
 	}
 	}
 	#No time to waste
@@ -583,7 +584,11 @@ focus_tree = {
 		mutually_exclusive = { focus = VIN_steady_forward}
 			prerequisite = { focus = VIN_Path_to_Industrialization}
 			available = {has_country_flag = vin_fast_industrialization}
-        completion_reward = {	
+        completion_reward = {
+     swap_ideas = {
+     remove_idea = VIN_Industrialization_plan
+	 add_idea = VIN_Industrialization_plan_fast_1
+	}
 	}
 	}
 	#Labour is glorious
@@ -598,6 +603,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = VIN_No_time_to_waste}
         completion_reward = {	
+		if = {
+				limit = {
+					has_completed_focus = VIN_open_more_industrial_zones
+				}
+			
+			swap_ideas = {
+			remove_idea = VIN_Industrialization_plan_fast_3
+			add_idea =  VIN_Industrialization_plan_fast_4
+		}
+			}
+			else = {
+			swap_ideas = {
+			remove_idea = VIN_Industrialization_plan_fast_1
+			add_idea =  VIN_Industrialization_plan_fast_2
+				}
+			}
 	}
 	}
 	#open more industrial zones
@@ -611,7 +632,23 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VIN_No_time_to_waste}
-        completion_reward = {	
+        completion_reward = {
+        if = {
+				limit = {
+					has_completed_focus = VIN_Labour_is_glorious
+				}
+			
+			swap_ideas = {
+			remove_idea = VIN_Industrialization_plan_fast_2
+			add_idea =  VIN_Industrialization_plan_fast_5
+		}
+			}
+			else = {
+			swap_ideas = {
+			remove_idea = VIN_Industrialization_plan_fast_1
+			add_idea =  VIN_Industrialization_plan_fast_4
+				}
+			}		
 	}
 	}
 

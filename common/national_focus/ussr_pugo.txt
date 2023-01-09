@@ -2308,6 +2308,24 @@
                     			level = 2
                     			instant_build = yes
                 		}
+           		 }	
+		   234 = {
+                		add_extra_state_shared_building_slots = 2
+
+                		add_building_construction = {
+                    			type = synthetic
+                    			level = 2
+                    			instant_build = yes
+                		}
+           		 }
+		   232 = {
+                		add_extra_state_shared_building_slots = 2
+
+                		add_building_construction = {
+                    			type = synthetic
+                    			level = 2
+                    			instant_build = yes
+                		}
            		 }
 		}
 	}
@@ -2371,59 +2389,7 @@
 		}
 	}
 
-	focus = {
-		id = SOV_pugo_no_forgive
-		icon = GFX_focus_SOV_marshal_yazov
-		x = 24
-		y = 4
-		prerequisite = {focus = SOV_pugo_bread}  
-		mutually_exclusive = { }
-		
-		cost = 3
-		ai_will_do = {
-			factor = 1
-		}
 
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		completion_reward = {
-			add_political_power = 10
-			add_stability = -0.05
-				swap_ideas = {
-					remove_idea = SOV_pugo_stalin_economy
-					add_idea = SOV_pugo_stalin_economy2
-				}
-		}
-	}
-
-	focus = {
-		id = SOV_pugo_stomp_rich
-		icon = GFX_focus_SOV_fight_mil_oligarchy
-		x = 24
-		y = 5
-		prerequisite = {focus = SOV_pugo_no_forgive}  
-		mutually_exclusive = { }
-		
-		cost = 3
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		completion_reward = {
-			add_political_power = 10
-			add_stability = 0.02
-				swap_ideas = {
-					remove_idea = SOV_pugo_stalin_economy2
-					add_idea = SOV_pugo_stalin_economy3
-				}
-		}
-	}
 
 	## PUGO'S POLICIES ##
 	
@@ -3822,7 +3788,7 @@
 
 	focus = {
 		id = SOV_pugo_stomp_rich
-		icon = GFX_focus_SOV_fight_mil_oligarchy
+		icon = GFX_focus_SOV_initial_reform
 		x = 24
 		y = 5
 		prerequisite = {focus = SOV_pugo_no_forgive}  
@@ -3866,7 +3832,7 @@
 		continue_if_invalid = no
 		completion_reward = {
 			add_political_power = 20
-			add_stability = -0.1
+			add_stability = 0.05
 			add_ideas = SOV_pugo_centralize4
 		}
 	}
@@ -3889,8 +3855,8 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_war_support = -0.1
-			add_stability = 0.05
+			add_war_support = -0.05
+			add_stability = 0.1
 			swap_ideas = {
 				remove_idea = SOV_pugo_centralize4
 				add_idea = SOV_pugo_centralize5
@@ -4106,6 +4072,25 @@
                     			instant_build = yes
                 		}
            		 }
+		    	213 = {
+                		add_extra_state_shared_building_slots = 1
+
+                		add_building_construction = {
+                    			type = dockyard
+                    			level = 1
+                    			instant_build = yes
+                		}
+           		 }
+
+			655 = {
+                		add_extra_state_shared_building_slots = 1
+
+                		add_building_construction = {
+                    			type = dockyard
+                    			level = 1
+                    			instant_build = yes
+                		}
+           		 }
 		}
 	}
 
@@ -4143,7 +4128,7 @@
 		prerequisite = {focus = SOV_pugo_stomp_rich} 
 		mutually_exclusive = { }
 		
-		cost = 8
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -4268,6 +4253,34 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+		219 = {
+                		add_extra_state_shared_building_slots = 4
+
+                		add_building_construction = {
+                    			type = industrial_complex
+                    			level = 4
+                    			instant_build = yes
+                		}
+           		 }
+
+			219 = {
+                		add_extra_state_shared_building_slots = 1
+
+                		add_building_construction = {
+                    			type = arms_factory
+                    			level = 2
+                    			instant_build = yes
+                		}
+           		 }
+		  219 = {
+                		add_extra_state_shared_building_slots = 1
+
+                		add_building_construction = {
+                    			type = infrastructure
+                    			level = 2
+                    			instant_build = yes
+                		}
+           		 }
 		}
 	}
 
@@ -4483,7 +4496,7 @@
 		prerequisite = {focus = SOV_pugo_ural} 
 		mutually_exclusive = {}
 		
-		cost = 8
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -4505,7 +4518,7 @@
 		prerequisite = {focus = SOV_pugo_stable focus = SOV_pugo_steady}  
 		mutually_exclusive = {}
 		
-		cost = 10
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}

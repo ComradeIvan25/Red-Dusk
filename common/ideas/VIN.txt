@@ -262,6 +262,111 @@ ideas = {
 				monthly_population = 0.1
 			}
 		}
+		VIN_Industrialization_plan = {
+			name = VIN_Industrialization_plan_name
+
+			removal_cost = -1
+
+			picture = VIN_industry_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05 
+				
+			}
+		}
+		VIN_Industrialization_plan_fast_1 = {
+			name = VIN_Industrialization_plan_name
+
+			removal_cost = -1
+
+			picture = VIN_industry_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_industrial_complex_factor = 0.1 
+				
+			}
+		}
+		VIN_Industrialization_plan_fast_2 = {
+			name = VIN_Industrialization_plan_name
+
+			removal_cost = -1
+
+			picture = VIN_industry_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_industrial_complex_factor = 0.1
+                industrial_capacity_factory = 0.05				
+				
+			}
+		}
+		VIN_Industrialization_plan_fast_3 = {
+			name = VIN_Industrialization_plan_name
+
+			removal_cost = -1
+
+			picture = VIN_industry_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_industrial_complex_factor = 0.1
+                industrial_capacity_factory = 0.05				
+				global_building_slots_factor = 0.1
+			}
+		}
+		VIN_Industrialization_plan_fast_4 = {
+			name = VIN_Industrialization_plan_name
+
+			removal_cost = -1
+
+			picture = VIN_industry_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_industrial_complex_factor = 0.1				
+				global_building_slots_factor = 0.1
+			}
+		}
+		VIN_Industrialization_plan_fast_5 = {
+			name = VIN_Industrialization_plan_name
+
+			removal_cost = -1
+
+			picture = VIN_industry_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_industrial_complex_factor = 0.1				
+				global_building_slots_factor = 0.1
+			    industrial_capacity_factory = 0.05
+			}
+		}
 		VIN_corruption_1 = {
 			name = VIN_corruption_name_1
 

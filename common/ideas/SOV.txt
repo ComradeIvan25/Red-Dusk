@@ -779,8 +779,8 @@ ideas = {
 				
 
 			modifier = {
-			army_defence_factor = 0.25
-			army_attack_factor = 0.2
+			army_defence_factor = 0.15
+			army_attack_factor = 0.15
 			
 			}
 
@@ -983,6 +983,7 @@ ideas = {
 			production_factory_max_efficiency_factor = 0.05
 			production_speed_dockyard_factor = 0.05
 			production_speed_arms_factory_factor = -0.05
+			stability_factor = -0.08
 			}
 
 		}

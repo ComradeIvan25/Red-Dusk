@@ -2,6 +2,7 @@
 add_namespace = ussr_rebel
 add_namespace = ussr_hidden
 add_namespace = ussr_intro
+add_namespace = ussr_ai
 
 add_namespace = ussr_foreign_policy
 add_namespace = ussr_cold_war
@@ -223,7 +224,6 @@ country_event = {
 	option = {
 		name = ussr.6.a
 		trigger = {
-			is_ai = no
 			check_variable = { sov_militarist_influence_var > sov_hardliner_influence_var }
 			check_variable = { sov_militarist_influence_var > sov_reformist_influence_var }
 			check_variable = { sov_militarist_influence_var > sov_kgb_influence_var }
@@ -232,27 +232,19 @@ country_event = {
 		promote_character = SOV_dmitry_yazov
 		load_focus_tree = ussr_yazov_focus
 		news_event = { id = old_times_news.3 days = 1 }
+		clr_country_flag = sov_hardliner_rules_nation_flag
+		set_country_flag = sov_military_rules_nation_flag
 		
 			SOV = {
 				country_event = { id = ussr_foreign_policy.2 days = 5 }
 			}
 		
-		ai_chance = {
-		factor = 55
-			modifier = {
-				factor = 99999
-				has_game_rule = {
-				rule = SOV_paths_selection
-				option = SOV_YAZOV_PATH_CHOSEN
-				}
-			}
-		}
+
 	}
 		#Pugo#
 		option = {
 		name = ussr.6.b
 		trigger = {
-			is_ai = no
 			check_variable = { sov_hardliner_influence_var > sov_militarist_influence_var }
 			check_variable = { sov_hardliner_influence_var > sov_reformist_influence_var }
 			check_variable = { sov_hardliner_influence_var > sov_kgb_influence_var }
@@ -265,78 +257,12 @@ country_event = {
 			SOV = {
 				country_event = { id = ussr_foreign_policy.2 days = 5 }
 			}
-		
-		ai_chance = {
-		factor = 50
-			modifier = {
-				factor = 99999
-				has_game_rule = {
-				rule = SOV_paths_selection
-				option = SOV_PUGO_PATH_CHOSEN
-				}
-			}
-		}
-	}
-		#no one lol#
-		option = { 
-		name = ussr.6.c
-		trigger = {
-			is_ai = no
-			OR = {
-				AND = {
-				check_variable = { sov_kgb_influence_var > sov_militarist_influence_var }
-				check_variable = { sov_kgb_influence_var > sov_hardliner_influence_var }
-				}
-			
-				AND = {
-				check_variable = { sov_reformist_influence_var > sov_militarist_influence_var }
-				check_variable = { sov_reformist_influence_var > sov_hardliner_influence_var }
-				}
-			}
-		}
-		add_political_power = -50
-		add_stability = -0.05
-		
-			SOV = {
-				country_event = { id = ussr.7 days = 1 }
-			}
-		
-		ai_chance = {
-		factor = 45
-			modifier = {
-				factor = 99999
-				has_game_rule = {
-				rule = SOV_paths_selection
-				option = SOV_PUTIN_PATH_CHOSEN
-				}
-			}
-			modifier = {
-				factor = 99999
-				has_game_rule = {
-				rule = SOV_paths_selection
-				option = SOV_GORBACHEV_PATH_CHOSEN
-				}
-			}
-		}
 
 	}
-}
-
-
-#Party meeting contunies#
-country_event = {
-	id = ussr.7
-	title = ussr.7.t
-	desc = ussr.7.d
-	picture = GFX_report_event_SOV_the_meeting_con
-	
-	is_triggered_only = yes
-	
 	#putin!!!!#
 	option = {
-		name = ussr.7.a
+		name = ussr.6.c
 		trigger = {
-			is_ai = no
 			check_variable = { sov_kgb_influence_var > sov_hardliner_influence_var }
 			check_variable = { sov_kgb_influence_var > sov_reformist_influence_var }
 			check_variable = { sov_kgb_influence_var > sov_militarist_influence_var }
@@ -345,29 +271,20 @@ country_event = {
 		promote_character = SOV_vladimir_putin
 		load_focus_tree = ussr_putin_focus
 		news_event = { id = old_times_news.6 days = 1 }
+		clr_country_flag = sov_hardliner_rules_nation_flag
+		set_country_flag = sov_kgb_rules_nation_flag
 		
 			SOV = {
 				country_event = { id = ussr_foreign_policy.2 days = 5 }
 			}
 		
-		ai_chance = {
-			factor = 50
-				modifier = {
-					factor = 99999
-					has_game_rule = {
-					rule = SOV_paths_selection
-					option = SOV_PUTIN_PATH_CHOSEN
-					}
-				}
-		}
 		
 	}
 
 	#ryzhkov the dentist#
 	option = {
-		name = ussr.7.b
+		name = ussr.6.d
 		trigger = {
-			is_ai = no
 			check_variable = { sov_reformist_influence_var > sov_hardliner_influence_var }
 			check_variable = { sov_reformist_influence_var > sov_kgb_influence_var }
 			check_variable = { sov_reformist_influence_var > sov_militarist_influence_var }
@@ -388,6 +305,121 @@ country_event = {
 		promote_character = SOV_nikolay_ryzhkov
 		load_focus_tree = ussr_gorby_focus
 		news_event = { id = old_times_news.5 days = 1 }
+		clr_country_flag = sov_hardliner_rules_nation_flag
+		set_country_flag = sov_reformist_rules_nation_flag
+		
+		SOV = {
+			country_event = { id = ussr_foreign_policy.2 days = 5 }
+		}
+	}
+	
+}
+
+#AI's party meeting#
+country_event = {
+	id = ussr_ai.1
+	title = ussr_ai.1.t
+	desc = ussr_ai.1.d
+	picture = GFX_report_event_SOV_the_meeting
+	
+	is_triggered_only = yes
+	
+		#yazov#
+	option = {
+		name = ussr_ai.1.a
+		retire_country_leader = yes
+		promote_character = SOV_dmitry_yazov
+		load_focus_tree = ussr_yazov_focus
+		news_event = { id = old_times_news.3 days = 1 }
+		clr_country_flag = sov_hardliner_rules_nation_flag
+		set_country_flag = sov_military_rules_nation_flag
+		
+			SOV = {
+				country_event = { id = ussr_foreign_policy.2 days = 5 }
+			}
+		
+		ai_chance = {
+		factor = 55
+			modifier = {
+				factor = 99999
+				has_game_rule = {
+				rule = SOV_paths_selection
+				option = SOV_YAZOV_PATH_CHOSEN
+				}
+			}
+		}
+	}
+		#Pugo#
+		option = {
+		name = ussr_ai.1.b
+		retire_country_leader = yes
+		promote_character = SOV_boris_pugo
+		load_focus_tree = ussr_pugo_focus
+		news_event = { id = old_times_news.4 days = 1 }
+		
+			SOV = {
+				country_event = { id = ussr_foreign_policy.2 days = 5 }
+			}
+		
+		ai_chance = {
+		factor = 50
+			modifier = {
+				factor = 99999
+				has_game_rule = {
+				rule = SOV_paths_selection
+				option = SOV_PUGO_PATH_CHOSEN
+				}
+			}
+		}
+	}
+	#putin!!!!#
+	option = {
+		name = ussr_ai.1.c
+		retire_country_leader = yes
+		promote_character = SOV_vladimir_putin
+		load_focus_tree = ussr_putin_focus
+		news_event = { id = old_times_news.6 days = 1 }
+		clr_country_flag = sov_hardliner_rules_nation_flag
+		set_country_flag = sov_kgb_rules_nation_flag
+		
+			SOV = {
+				country_event = { id = ussr_foreign_policy.2 days = 5 }
+			}
+		
+		ai_chance = {
+			factor = 50
+				modifier = {
+					factor = 99999
+					has_game_rule = {
+					rule = SOV_paths_selection
+					option = SOV_PUTIN_PATH_CHOSEN
+					}
+				}
+		}
+		
+	}
+
+	#ryzhkov the dentist#
+	option = {
+		name = ussr_ai.1.d
+		set_politics = {
+			ruling_party = reformed_communism
+			elections_allowed = no
+		}
+		set_popularities = {
+			democratic = 14
+			fascism = 11
+			reformed_communism = 40
+			neutrality = 7
+			communism = 28
+		}
+
+		retire_country_leader = yes
+		promote_character = SOV_nikolay_ryzhkov
+		load_focus_tree = ussr_gorby_focus
+		news_event = { id = old_times_news.5 days = 1 }
+		clr_country_flag = sov_hardliner_rules_nation_flag
+		set_country_flag = sov_reformist_rules_nation_flag
 		
 		SOV = {
 			country_event = { id = ussr_foreign_policy.2 days = 5 }

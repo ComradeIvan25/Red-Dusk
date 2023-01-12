@@ -1388,11 +1388,26 @@ on_actions = {
 								election_frequency = 48
 								elections_allowed = no
 							}
+							add_popularity = {
+								ideology = paternal_autocracy
+								popularity = -0.5
+							}
 						}
 						
 						IRQ = {
 							set_cosmetic_tag = IRQ_iran_puppet
 							load_focus_tree = generic_focus
+							
+							add_popularity = {
+								ideology = paternal_autocracy
+								popularity = -0.4
+							}
+							
+							set_party_name = {
+								ideology = paternal_autocracy
+								name = IRQ_unbanned_paternal_autocracy_party
+								long_name = IRQ_unbanned_paternal_autocracy_party_long
+							}
 						}
 						
 						SYR = {
@@ -2929,6 +2944,31 @@ on_actions = {
 						
 						PRC = {
 						set_cosmetic_tag = PRC_com_puppet
+						}
+						
+						MAN = {
+						transfer_state = 761
+						transfer_state = 714
+						transfer_state = 715
+						transfer_state = 717
+						transfer_state = 328
+						transfer_state = 716
+						transfer_state = 610
+						transfer_state = 609	
+						transfer_state = 745	
+								
+						}
+						
+						SOV = {
+							puppet = MAN
+						}
+						
+						MAN = {
+							set_popularities = {
+								reformed_communism = 45
+								paternal_autocracy = 5
+								communism = 50
+							}
 						}
 						
 						ROOT = {

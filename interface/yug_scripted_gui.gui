@@ -1,6 +1,6 @@
 guiTypes = {
 
-	4containerWindowType = {
+	#containerWindowType = {
 	#	name = "yug_republics_gui_window"
 	#	position = { x = 550 y = 111 }
 	#	size = { width = 474% height= 287 }

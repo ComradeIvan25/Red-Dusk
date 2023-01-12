@@ -532,7 +532,7 @@ NResistance = {
 	SUPPRESSION_NEEDED_UPPER_CAP = 50.0, -- if resistance is greater than this value then we always act as though it is at the define for the purpose of suppresion requirements
 
 	GARRISON_MANPOWER_LOST_BY_ATTACK = 0.016, 	-- Ratio of manpower lost by garrison at each attack on garrison (this number will be reduced by the hardness of garrison template)
-	GARRISON_EQUIPMENT_LOST_BY_ATTACK = 0.015, 	-- Ratio of equipment lost by garrison at each attack on garrison (this number will be reduced by the hardness of garrison template)
+	GARRISON_EQUIPMENT_LOST_BY_ATTACK = 0.01, 	-- Ratio of equipment lost by garrison at each attack on garrison (this number will be reduced by the hardness of garrison template)
 	MAXIMUM_GARRISON_HARDNESS_WHEN_ATTACKED = 0.90,   -- Cap to be sure that garrison will suffer lost in attack, even with a almost 100% hardness
 
 	FOREIGN_MANPOWER_MIN_THRESHOLD = 5000,		 -- The minimum number of Manpower that AI will accept to give at once, in order to avoid many weird little transfer.
@@ -785,8 +785,8 @@ NMilitary = {
 	LAND_COMBAT_COLLATERAL_INFRA_FACTOR = 0.0022,	-- Factor to scale collateral damage to infra with.
 	LAND_COMBAT_FORT_DAMAGE_CHANCE = 5,				-- chance to get a hit to damage on forts. (out of 100)
 	ATTRITION_DAMAGE_ORG = 0.08,					   -- damage from attrition to Organisation
-	ATTRITION_EQUIPMENT_LOSS_CHANCE = 0.05,		   -- Chance for loosing equipment when suffer attrition. Scaled up the stronger attrition is. Then scaled down by equipment reliability.
-	ATTRITION_EQUIPMENT_PER_TYPE_LOSS_CHANCE = 0.05, -- Chance for loosing equipment when suffer attrition. Scaled up the stronger attrition is. Then scaled down by equipment reliability.
+	ATTRITION_EQUIPMENT_LOSS_CHANCE = 0.02,		   -- Chance for loosing equipment when suffer attrition. Scaled up the stronger attrition is. Then scaled down by equipment reliability.
+	ATTRITION_EQUIPMENT_PER_TYPE_LOSS_CHANCE = 0.02, -- Chance for loosing equipment when suffer attrition. Scaled up the stronger attrition is. Then scaled down by equipment reliability.
 	ATTRITION_WHILE_MOVING_FACTOR = 0.9,
 	RELIABILITY_ORG_REGAIN = -0.3,                 -- how much reliability affects org regain
 	RELIABILITY_ORG_MOVING = -1.0,                 -- how much reliability affects org loss on moving
@@ -1630,7 +1630,7 @@ NNavy = {
 	NAVAL_MINES_INTEL_DIFF_FACTOR = 0.1,					-- Better our decryption over enemy encryption will reduce the penalties from the enemy mines in the region. This value is a factor to be used for balancing.
 	NAVAL_MINES_NAVAL_SUPREMACY_FACTOR = 1.0,						-- Factor for max amount of mines increasing naval supremacy
 
-	ATTRITION_WHILE_MOVING_FACTOR = 1.5,							-- attrition multiplier while moving & doing missions
+	ATTRITION_WHILE_MOVING_FACTOR = 0.5,							-- attrition multiplier while moving & doing missions
 	ATTRITION_DAMAGE_ORG = 0.01,					   				-- damage from attrition to Organisation (relative to max org)
 	ATTRITION_DAMAGE_STR = 0.03,					   				-- damage from attrition to str (relative to max str)
 	ATTRITION_STR_DAMAGE_CHANCE = 0.2,								-- chance to get damaged at highest attrition
@@ -3752,25 +3752,25 @@ NSupply = {
 
 	--defines to calculate the capitals supply. This will be also used for max supply of other nodes depending on how well they are connected to capital. Using the formula:
 	--CapitalSupply = CAPITAL_SUPPLY_BASE + (NumberOfCivilianFactories * CAPITAL_SUPPLY_CIVILIAN_FACTORIES) + (NumberOfMilitaryFactories * CAPITAL_SUPPLY_MILITARY_FACTORIES) + (NumberOfDockyards * CAPITAL_SUPPLY_DOCKYARDS)
-	CAPITAL_SUPPLY_BASE = 5.0, -- base supply for capital
-	CAPITAL_SUPPLY_CIVILIAN_FACTORIES = 0.5, -- supply from one civilian factory
-	CAPITAL_SUPPLY_MILITARY_FACTORIES = 0.6, -- supply from one military factory
-	CAPITAL_SUPPLY_DOCKYARDS = 0.4, --supply from one naval factory
+	CAPITAL_SUPPLY_BASE = 7.0, -- base supply for capital
+	CAPITAL_SUPPLY_CIVILIAN_FACTORIES = 0.7, -- supply from one civilian factory
+	CAPITAL_SUPPLY_MILITARY_FACTORIES = 0.8, -- supply from one military factory
+	CAPITAL_SUPPLY_DOCKYARDS = 0.7, --supply from one naval factory
 
 	-- defines that are used for supply reach for capital
 	-- supply flow will start from INITIAL_SUPPLY_FLOW and will be reduced by a penalty on each province it travels (which depends on how far we are from our origin, terrain etc)
 	-- a supply reach >= 1.0 considered "perfect" and will be able to fully support units on that particular province (assuming you are not over capacity)
-	CAPITAL_INITIAL_SUPPLY_FLOW = 5.0, -- starting supply from
+	CAPITAL_INITIAL_SUPPLY_FLOW = 7.0, -- starting supply from
 	CAPITAL_STARTING_PENALTY_PER_PROVINCE = 0.5, -- starting penalty that will be added as supply moves away from its origin (modified by stuff like terrain)
 	CAPITAL_ADDED_PENALTY_PER_PROVINCE = 1.0, -- added penalty as we move away from origin
 
 	-- defines that are used for supply reach for built nodes
-	NODE_INITIAL_SUPPLY_FLOW = 3.0,
+	NODE_INITIAL_SUPPLY_FLOW = 4.0,
 	NODE_STARTING_PENALTY_PER_PROVINCE = 0.50,
 	NODE_ADDED_PENALTY_PER_PROVINCE = 0.70,
 
 	-- defines that are used for supply reach for dockyards
-	NAVAL_BASE_INITIAL_SUPPLY_FLOW = 3.5,
+	NAVAL_BASE_INITIAL_SUPPLY_FLOW = 4.5,
 	NAVAL_BASE_STARTING_PENALTY_PER_PROVINCE = 0.84,
 	NAVAL_BASE_ADDED_PENALTY_PER_PROVINCE = 1.0,
 
@@ -3806,9 +3806,9 @@ NSupply = {
 	SUPPLY_FLOW_DIST_LOGISTICS_FALLOFF_MIN_PENALTY_SCALE = 0.25, -- Logistics curve never reduces penalty facor below this limit
 
 	-- The range bonus added to a fully motorized hub. This supply is added on top of the XXX_INITIAL_SUPPLY_FLOW defined above.
-	SUPPLY_HUB_FULL_MOTORIZATION_BONUS = 2.0,
+	SUPPLY_HUB_FULL_MOTORIZATION_BONUS = 4.0,
 	-- How many trucks does it cost to fully motorize a hub
-	SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 50.0,
+	SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 40.0,
 	-- For each additional level of motorization on a hub (i.e. contry with set motoriazation) reduce max bonus for next level by this amount
 	SUPPLY_HUB_MOTORIZATION_MARGINAL_EFFECT_DECAY = 1.6,
 

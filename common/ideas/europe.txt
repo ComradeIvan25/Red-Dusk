@@ -53,6 +53,29 @@ ideas = {
 			}
 		}
 
+		FIN_neutrality = {
+			name = FIN_neutrality_name
+
+			removal_cost = -1
+
+			cancel = {
+				is_puppet_of = SOV
+				is_puppet_of = USA
+			}
+
+			picture = FIN_neutrality_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_gain = 0.1
+				stability_factor = 0.2
+				war_support_factor = -0.15
+			}
+		}
+
 		east_europe_privatization = {
 			name = east_europe_privatization_name
 

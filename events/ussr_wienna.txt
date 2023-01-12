@@ -87,3 +87,34 @@ country_event = {
 	}
 
 }
+
+
+#Trade win#
+country_event = {
+	id = ussr_wienna.6
+	title = ussr_wienna.6.t
+	desc = ussr_wienna.6.d
+	picture = GFX_report_event_SOV_pugo_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr_wienna.6.a
+	}
+
+}
+
+#Trade fail#
+country_event = {
+	id = ussr_wienna.7
+	title = ussr_wienna.7.t
+	desc = ussr_wienna.7.d
+	picture = GFX_report_event_SOV_pugo_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr_wienna.7.a
+	}
+
+}

@@ -844,6 +844,23 @@ news_event = {
 	
 }
 
+#WP restored
+news_event = {
+	id = old_times_news.67
+	title = old_times_news.67.t
+	desc = old_times_news.67.d
+	picture = GFX_news_budapest
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.67.a
+	}
+	
+}
+
 #EPLF AND ETHIOPIAN REBELS Defeated
 news_event = {
 	id = old_times_news.60

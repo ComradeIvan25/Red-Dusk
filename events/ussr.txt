@@ -189,7 +189,27 @@ country_event = {
 	
 	option = {
 		name = ussr.34.a
-		add_political_power = 10
+		add_to_variable = {sov_militarist_influence_var = 5}
+		custom_effect_tooltip = army_5_influence_increase
+		add_political_power = -10
+	}
+	option = {
+		name = ussr.34.b
+		add_to_variable = {sov_hardliner_influence_var = 5}
+		custom_effect_tooltip = hardliner_5_influence_increase
+		add_political_power = -10
+	}
+	option = {
+		name = ussr.34.c
+		add_to_variable = {sov_reformist_influence_var = 10}
+            	custom_effect_tooltip = reformist_10_influence_increase
+		add_political_power = -10
+	}
+	option = {
+		name = ussr.34.e
+		add_to_variable = {sov_kgb_influence_var = 5}
+		custom_effect_tooltip = kgb_5_influence_increase
+		add_political_power = -10
 	}
 }
 
@@ -239,7 +259,16 @@ country_event = {
 				country_event = { id = ussr_foreign_policy.2 days = 5 }
 			}
 		
-
+		ai_chance = {
+		factor = 55
+			modifier = {
+				factor = 99999
+				has_game_rule = {
+				rule = SOV_paths_selection
+				option = SOV_YAZOV_PATH_CHOSEN
+				}
+			}
+		}
 	}
 		#Pugo#
 		option = {
@@ -257,7 +286,17 @@ country_event = {
 			SOV = {
 				country_event = { id = ussr_foreign_policy.2 days = 5 }
 			}
-
+		
+		ai_chance = {
+		factor = 50
+			modifier = {
+				factor = 99999
+				has_game_rule = {
+				rule = SOV_paths_selection
+				option = SOV_PUGO_PATH_CHOSEN
+				}
+			}
+		}
 	}
 	#putin!!!!#
 	option = {
@@ -312,9 +351,80 @@ country_event = {
 			country_event = { id = ussr_foreign_policy.2 days = 5 }
 		}
 	}
-	
 }
 
+
+#Party meeting contunies#
+country_event = {
+	id = ussr.7
+	title = ussr.7.t
+	desc = ussr.7.d
+	picture = GFX_report_event_SOV_the_meeting_con
+	
+	is_triggered_only = yes
+	
+	#putin!!!!#
+	option = {
+		name = ussr.7.a
+		retire_country_leader = yes
+		promote_character = SOV_vladimir_putin
+		load_focus_tree = ussr_putin_focus
+		news_event = { id = old_times_news.6 days = 1 }
+		
+			SOV = {
+				country_event = { id = ussr_foreign_policy.2 days = 5 }
+			}
+		
+		ai_chance = {
+			factor = 50
+				modifier = {
+					factor = 99999
+					has_game_rule = {
+					rule = SOV_paths_selection
+					option = SOV_PUTIN_PATH_CHOSEN
+					}
+				}
+		}
+		
+	}
+
+	#ryzhkov the dentist#
+	option = {
+		name = ussr.7.b
+
+		set_politics = {
+			ruling_party = reformed_communism
+			elections_allowed = no
+		}
+		set_popularities = {
+			democratic = 14
+			fascism = 11
+			reformed_communism = 40
+			neutrality = 7
+			communism = 28
+		}
+
+		retire_country_leader = yes
+		promote_character = SOV_nikolay_ryzhkov
+		load_focus_tree = ussr_gorby_focus
+		news_event = { id = old_times_news.5 days = 1 }
+		
+		SOV = {
+			country_event = { id = ussr_foreign_policy.2 days = 5 }
+		}
+		
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 99999
+				has_game_rule = {
+					rule = SOV_paths_selection
+					option = SOV_GORBACHEV_PATH_CHOSEN
+				}
+			}
+		}
+	}
+}
 #AI's party meeting#
 country_event = {
 	id = ussr_ai.1
@@ -469,6 +579,37 @@ country_event = {
 		name = ussr.42.a
 	}
 
+}
+
+
+#libtards owned#
+country_event = {
+	id = ussr.43
+	title = ussr.43.t
+	desc = ussr.43.d
+	picture = GFX_report_event_SOV_minsk
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr.43.a
+		add_manpower = -300
+		add_political_power = 50
+	}
+}
+
+#yazov with no friends except Romanov <3#
+country_event = {
+	id = ussr.44
+	title = ussr.44.t
+	desc = ussr.44.d
+	picture = GFX_report_event_SOV_yazov_protest
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr.44.a
+	}
 }
 
 #soviet bear coming to west#

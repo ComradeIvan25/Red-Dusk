@@ -19,6 +19,8 @@ recruit_character = FIN_martti_ahtisaari
 recruit_character = FIN_tarja_halonen
 recruit_character = FIN_vladimir_boldyrev
 
+add_ideas = FIN_neutrality
+
 set_politics = {
 	ruling_party = social_democracy
 	last_election = "1930.11.9"

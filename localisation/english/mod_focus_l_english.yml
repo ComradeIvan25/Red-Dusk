@@ -54,8 +54,8 @@
  SOV_yazov_no_frens_desc:0 ""
  SOV_yazov_libs:0 "Keep the Liberals in Check"
  SOV_yazov_libs_desc:0 ""
- SOV_yazov_hardliners:0 "Approach the Hardliners"
- SOV_yazov_hardliners_desc:0 "The Militarist and Hardliner factions might not be in the best of relations but when it comes to preserving the Union from the reformists and traitors, they are more than willing to work together.\nAs part of this plan, General Secretary Yazov and the Militarist faction will begin their cooperation with Boris Pugo and much of the central Party members. This move is also supported by much of the hardliner Party elements seeing as it will increase the power of the central government and ensure that no new Gorbachev emerges ever again."
+ SOV_yazov_hardliners:0 "Approach the Conservatives"
+ SOV_yazov_hardliners_desc:0 "The Militarist and Conservative factions might not be in the best of relations but when it comes to preserving the Union from the reformists and traitors, they are more than willing to work together.\nAs part of this plan, General Secretary Yazov and the Militarist faction will begin their cooperation with Boris Pugo and much of the central Party members. This move is also supported by much of the conservative Party elements seeing as it will increase the power of the central government and ensure that no new Gorbachev emerges ever again."
  SOV_yazov_pugos_loyalty:0 "Pugo's Loyalty"
  SOV_yazov_pugos_loyalty_desc:0 "While not the most military aligned faction in the Soviet Union, Pugo and his conservatives are far more open to cooperation with Yazov and the new government. However, loyalty doesn't come without some form of compensation, this being that we must ensure Pugo and his clique remain in the Soviet government and have a say in the internal policies of the Union. In return they will fully support General Secretary Yazov and his external policies as well as work on suppressing any dissident movements in the USSR."
  SOV_yazov_putin_connection:0 "Putin's Connections"
@@ -497,7 +497,7 @@
  SOV_put_bread_desc:0""
  SOV_put_no_forgive:0 "No Forgiveness for Corruption"
  SOV_put_no_forgive_desc:0""
- SOV_put_stomp_rich:0 "Re-Introduce MPE"
+ SOV_put_stomp_rich:0 "Stomp on the Oligarchy"
  SOV_put_stomp_rich_desc:0""
  SOV_put_five:0 "Re-Starting the Five Year Plans"
  SOV_put_five_desc:0""
@@ -519,7 +519,7 @@
  SOV_put_gorby_mistake_desc:0""
 
  ##PUGO##
- SOV_the_hardliner:0 "The Hardliner"
+ SOV_the_hardliner:0 "The Conservative"
  SOV_the_hardliner_desc:0 ""
  SOV_preparing_the_cards:0 "Preparing The Cards"
  SOV_preparing_the_cards_desc:0 ""
@@ -536,12 +536,12 @@
  SOV_pugo_our_man:0 "Our Man on The Job"
  SOV_pugo_our_man_desc:0 ""
  SOV_andropov:0 "Legacy of Andropov"
- SOV_andropov_desc:0 ""
+ SOV_andropov_desc:0 "Even though his leadership of the Party was short lived, comrade Andropov left a huge mark on the Soviet Union, after all he did start the process of Perestroika which almost destroyed it. However, sometimes we must look past minor mistakes of our past leaders to see the bigger picture. Comrade Andropov was correct about one thing, the Party and state apparatus itself. Being the director of KGB himself, he knew that Soviet Union needed more centralization back then and that is exactly what we need the most now. We shall continue these policies while overlooking some questionable ones."
  SOV_pugo_reformists:0 "Supress The Reformists"
  SOV_pugo_reformists_desc:0 ""
  SOV_pugo_kgb_knows:0 "KGB Knows The Best"
  SOV_pugo_kgb_knows_desc:0 ""
- SOV_pugo_hardliner:0 "Hardliners Retain Dominance"
+ SOV_pugo_hardliner:0 "Conservatives Retain Dominance"
  SOV_pugo_hardliner_desc:0 ""
  SOV_question_of_the_army:0 "Question of The Army"
  SOV_question_of_the_army_desc:0 ""
@@ -793,7 +793,7 @@
  SOV_pugo_bread_desc:0""
  SOV_pugo_no_forgive:0 "No Forgiveness for Corruption"
  SOV_pugo_no_forgive_desc:0""
- SOV_pugo_stomp_rich:0 "Re-Introduce MPE"
+ SOV_pugo_stomp_rich:0 "Stomp on The Military Oligarchy"
  SOV_pugo_stomp_rich_desc:0""
  SOV_pugo_five:0 "Begin Massive Centralization Projects"
  SOV_pugo_five_desc:0""
@@ -1564,7 +1564,7 @@
  SAF_end_desc:0 ""
  SAF_sun:0 "Our Place under the Sun"
  SAF_sun_desc:0 ""
- 
+
  SAF_junta_economy_modernize_our_industry:0 "Modernize Our Industry"
  SAF_junta_economy_modernize_our_industry_desc:0 "If we want our industries to be able to produce enough goods and have a stable and above all advanced industrial economic system, we must modernize our industrial sector. It will take a long time to complete this process, but we have to do it for the good of our country."
  SAF_junta_economy_open_new_mines:0 "Open New Mines"
@@ -1741,7 +1741,7 @@
  SAF_parliment_economy_support_the_foundation_of_transport_companies_desc:0 "After fixing the road infrastructure, increasing the use of transport, both public and not, the government has decided that to make the most of the situation it will support the foundation of small enterprises, which will guarantee us extra income.""
  SAF_parliment_economy_a_new_great_industrial_era:0 "A New Great Industrial Era"
  SAF_parliment_economy_a_new_great_industrial_era_desc:0 "Finally, after months of reforms and spending, the Government managed to complete the economic reforms in the best possible way, guaranteeing South Africa a New Great Industrial Era. Thanks to the choices made by the Government, South Africa has finally succeeded in developing the industrial system in the best possible way in our current conditions, making us one of the most powerful economies in all of Africa. Glory to the Republic!""
- 
+
  SAF_:0 ""
  SAF__desc:0 ""
  

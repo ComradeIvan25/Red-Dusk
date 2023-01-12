@@ -683,7 +683,10 @@
 			add_war_support = -0.1
 			add_manpower = 300
 			add_political_power = 50
-			add_ideas = SOV_army_purge
+			add_timed_idea = {
+ 			    idea = SOV_army_purge
+			    days = 600
+			}
 			subtract_from_variable = {sov_militarist_influence_var = 10}
 			custom_effect_tooltip = army_10_influence_decrease
 			add_to_variable = {sov_hardliner_influence_var = 10}
@@ -1237,7 +1240,14 @@
 
 		prerequisite = {focus = SOV_pugo_red_sun_over_europe}
 		mutually_exclusive = { }
-		
+
+		available = {
+		 POL = { is_puppet_of = SOV }
+		 SLO = { is_puppet_of = SOV }
+		 HUN = { is_puppet_of = SOV }
+		 ROM = { is_puppet_of = SOV }
+		 BUL = { is_puppet_of = SOV }
+		}		
 		
 		cost = 2.2
 		ai_will_do = {
@@ -1253,6 +1263,7 @@
 		completion_reward = {
 			dismantle_faction = yes
 			create_faction = "sov_warsaw_pact"
+			news_event = { id = old_times_news.67 days = 1 }
 			
 		}
 	}
@@ -1488,6 +1499,13 @@
 		x = 19
 		y = 17
 		prerequisite = {focus = SOV_pugo_plan_stalin}
+		available = {
+		 POL = { is_puppet_of = SOV }
+		 SLO = { is_puppet_of = SOV }
+		 HUN = { is_puppet_of = SOV }
+		 ROM = { is_puppet_of = SOV }
+		 BUL = { is_puppet_of = SOV }
+		}
 
 		mutually_exclusive = { }
 		
@@ -1502,6 +1520,11 @@
 		continue_if_invalid = no
 		completion_reward = {
 			add_political_power = 100
+			add_opinion_modifier = { target = POL modifier = small_increase }
+			add_opinion_modifier = { target = SLO modifier = small_increase }
+			add_opinion_modifier = { target = HUN modifier = small_increase }
+			add_opinion_modifier = { target = ROM modifier = small_increase }
+			add_opinion_modifier = { target = BUL modifier = small_increase }
 		}
 	}
 
@@ -1555,7 +1578,9 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
+			USA = {
+		        country_event = {id = usa_wienna.4}
+			}
 		}
 	}
 	focus = {
@@ -1579,7 +1604,38 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 10
+			diplomatic_relation = {
+			    country = NOR
+			    relation = non_aggression_pact
+			}
+			diplomatic_relation = {
+			    country = GER
+			    relation = non_aggression_pact
+			}
+			diplomatic_relation = {
+			    country = CZE
+			    relation = non_aggression_pact
+			}
+			diplomatic_relation = {
+			    country = FRA
+			    relation = non_aggression_pact
+			}
+			diplomatic_relation = {
+			    country = ENG
+			    relation = non_aggression_pact
+			}
+			diplomatic_relation = {
+			    country = SPR
+			    relation = non_aggression_pact
+			}
+			diplomatic_relation = {
+			    country = ITA
+			    relation = non_aggression_pact
+			}
+			diplomatic_relation = {
+			    country = TUR
+			    relation = non_aggression_pact
+			}
 		}
 	}
 	focus = {
@@ -1603,7 +1659,31 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
+			add_political_power = 20
+			SOV = {
+			add_opinion_modifier = {
+			target = USA
+			modifier = SOV_easing_the_tensions_opinion
+			}
+	            }
+			SOV = {
+			add_opinion_modifier = {
+			target = ENG
+			modifier = SOV_easing_the_tensions_opinion
+			}
+	            }
+			SOV = {
+			add_opinion_modifier = {
+			target = FRA
+			modifier = SOV_easing_the_tensions_opinion
+			}
+	            }
+			SOV = {
+			add_opinion_modifier = {
+			target = GER
+			modifier = SOV_easing_the_tensions_opinion
+			}
+	            }
 		}
 	}
 	focus = {
@@ -1630,7 +1710,6 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
 			USA = {
 		        country_event = {id = usa_wienna.1}
 			}
@@ -1657,7 +1736,10 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
+			swap_ideas = {
+				remove_idea = SOV_militarised_industry
+				add_idea = SOV_militarised_industry_2
+			}
 		}
 	}
 
@@ -1710,7 +1792,8 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
+			add_political_power = -30
+			add_ideas = SOV_increased_wp_spending
 		}
 	}
 	focus = {
@@ -1735,6 +1818,21 @@
 		continue_if_invalid = no
 		completion_reward = {
 			add_political_power = 15
+			POL = {
+			add_ideas = SOV_increased_presence
+		        }
+			SLO = {
+			add_ideas = SOV_increased_presence
+		        }
+			HUN = {
+			add_ideas = SOV_increased_presence
+		        }
+			ROM = {
+			add_ideas = SOV_increased_presence
+		        }
+			BUL = {
+			add_ideas = SOV_increased_presence
+		        }
 		}
 	}
 	focus = {
@@ -1801,7 +1899,10 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
+			swap_ideas = {
+			remove_idea = SOV_militarised_industry
+			add_idea = SOV_militarised_industry_1
+			}
 		}
 	}
 
@@ -1830,7 +1931,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
+			add_political_power = 20
 		}
 	}
 
@@ -1916,7 +2017,6 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
 		}
 	}
 	focus = {
@@ -2009,6 +2109,25 @@
 		completion_reward = {
 			add_political_power = 35
 			add_stability = 0.1
+
+			diplomatic_relation = {
+			    country = PRC
+			    relation = guarantee
+			}
+
+			diplomatic_relation = {
+			    country = PRC
+			    relation = non_aggression_pact
+			}
+
+
+                        PRC = {
+			diplomatic_relation = {
+			    country = SOV
+			    relation = guarantee
+			}
+			}
+
 		}
 	}
 
@@ -2036,7 +2155,6 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
 			MON = {
 			add_ideas = Soviet_mil_advisors
 			}
@@ -2063,7 +2181,18 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
+			PRC = {
+			add_opinion_modifier = {
+			target = SOV
+			modifier = SOV_blockades_opinion
+			}
+	            }
+			MON = {
+			swap_ideas = {
+				remove_idea = Soviet_mil_advisors
+				add_idea = Soviet_mil_advisors_1
+			}
+		    }
 		}
 	}
 	focus = {
@@ -2179,7 +2308,6 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
 		}
 	}
 	focus = {
@@ -2212,10 +2340,6 @@
        ###ECONOMY###
        ###ECONOMY###
        ###ECONOMY###
-
-
-        ###STALIN WAY###
-
 
 	focus = {
 		id = SOV_pugo_resource
@@ -2263,7 +2387,7 @@
                     			level = 2
                     			instant_build = yes
                 		}
-           		 }	
+           		 }
 		   234 = {
                 		add_extra_state_shared_building_slots = 2
 
@@ -2284,9 +2408,6 @@
            		 }
 		}
 	}
-
-
-
 
 	## PUGO'S POLICIES ##
 	
@@ -3546,7 +3667,6 @@
 			add_ideas = SOV_pugo_stalin_economy
 		}
 	}
-
 
 	focus = {
 		id = SOV_pugo_bread

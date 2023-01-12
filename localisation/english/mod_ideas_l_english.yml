@@ -98,6 +98,10 @@
  SOV_mutual_trust_desc:0 "After more than 50 years of constant tensions, both US and Soviet delegations have signed the Mutual Trust Treaty. This treaty provides benefits to both of its signiture nations."
  SOV_budapest_name:0 "The Budapest Treaty"
  SOV_budapest_name_desc:0 ""
+ SOV_increased_presence_name:0 "Increased Soviet Military Presence"
+ SOV_increased_presence_name_desc:0 ""
+ SOV_increased_wp_spending_name:0 "Increased Warsaw Pact Spending"
+ SOV_increased_wp_spending_name_desc:0 ""
  
  USA_the_constitution_name:0 "The Constitution"
  USA_the_constitution_name_desc:0 "Written and Ratified in 1789 (by most states) the Constitution of the United States and its entailed Bill of Rights is the foremost document that makes America the “Land of the Free” in the World."
@@ -341,7 +345,7 @@
  SAF_military_transportation_companies_name_desc:0 ""
  SAF_juntas_economic_reforms_name:0 "Junta's Economic Reforms"
  SAF_juntas_economic_reforms_name_desc:0 ""
- 
+
  ANC_boers_idea_name:0 "Boer Support"
  ANC_boers_idea_name_desc:0 ""
  ANC_fanatical_idea_name:0 "Fanatical Resistance"
@@ -419,6 +423,9 @@
  ISR_zionist_volunteers_name_desc:0 ""
  ISR_political_instability_name:0 "Political Instability"
  ISR_political_instability_name_desc:0 ""
+
+ FIN_neutrality_name:0 "Finnish Neutraliy"
+ FIN_neutrality_name_desc:0 ""
  
  NEP_communist_insurgency_idea_name:0 "Communist Insurgency"
  NEP_royal_autocracy_idea_name:0 "Rising Royal Autocracy"

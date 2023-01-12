@@ -51,6 +51,14 @@ opinion_modifiers = {
 		value = 40
 	}
 
+	SOV_blockades_opinion = {
+		value = -35
+	}
+
+	SOV_easing_the_tensions_opinion = {
+		value = 25
+	}
+
 	SOV_treaty_success_opinion = {
 		value = 35
 	}

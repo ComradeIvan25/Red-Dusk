@@ -568,6 +568,11 @@ spriteTypes = {
 		name = "GFX_idea_ROM_betrayed_revolution"
 		texturefile = "gfx/interface/ideas/ROM_betrayed_revolution.dds"
 	}
+	#FINLAND
+	spriteType = {
+		name = "GFX_idea_FIN_neutrality_icon"
+		texturefile = "gfx/interface/ideas/FIN_neutrality.dds"
+	}
 	#EASTERN EUROPE SHARED
 	spriteType = {
 		name = "GFX_idea_eastern_threat_icon"

@@ -23,6 +23,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_SOV_reform.dds"
 	}
 	spriteType = {
+		name = "GFX_report_event_SOV_minsk"
+		texturefile = "gfx/event_pictures/report_event_minsk.dds"
+	}
+	spriteType = {
 		name = "GFX_report_event_SOV_yazov_protest"
 		texturefile = "gfx/event_pictures/report_event_SOV_yazov_protest.dds"
 	}
@@ -383,14 +387,14 @@ spriteTypes = {
 		name = "GFX_report_event_ANC_spark"
 		texturefile = "gfx/event_pictures/report_event_spark.dds"
 	}
-	
+
 	### GENERIC ##
 	
 	spriteType = {
 		name = "GFX_report_event_ballot_box"
 		texturefile = "gfx/event_pictures/report_event_ballot_box.dds"
 	}
-	
+
 	## WORLD NEWS ##
 
 	spriteType = {

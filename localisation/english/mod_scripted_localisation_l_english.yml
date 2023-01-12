@@ -17,9 +17,9 @@
  sov_army_finished_yazov_tt:0 "§RWe Can Now Deal With The Seperatist Nationalists In Our Union\n\n§!"
  sov_army_finished_yazov:0 "§GWe Have Dealt with The Army's Problems\n\n§!"
  ussr_yazov_focus:0 "Yazov's Focus Tree"
- sov_gain_core_on_breaks:0 "§GGains Cores On The States That Broke Away From The Union\n\n§!"
+ sov_gain_core_on_breaks:0 "§GGains Cores on the States that Broke Away from The Union.\n\n§!"
  sov_warsaw_pact:0 "Warsaw Pact"
- us_disagree_cze:0 "Us Disagreed On The Czech Issue"
+ us_disagree_cze:0 "US Disagreed on the Czech Issue"
  us_agree_cze:0 "Us Agreed On The Czech Issue"
  start_revs_across_balkan:0 "§GStarts Communist Uprisings In Balkan Countries That are not aligned with us\n\n§!"
  Reestablished_order_in_east_europe:0 "§GHas Reastablished Control Over East Europe\n\n§!"
@@ -29,6 +29,10 @@
  Gorbachevs_economic_policies:0 "§GWe Can Now Fix The Economy\n\n§!"
  sov_dmitry_yazov_dies_cool_text:0 "§YDmitry Yazov §Rdies\n\n§!"
  sov_gorby_finally_do_what_we_couldnt:0 "§GWe Finally Have the Chance to Do What We Couldnt in 1991§!\n\n"
+
+ ##PUGO TREE##
+
+ economy_for_pugo_tooltip:0 "§GWe are now ready to deal with our Economy\n\n§!"
 
  ##PUGO POWER STRUGGLE##
  
@@ -208,8 +212,8 @@
  
  sov_current_state_of_factionalism_loc:0 "Current State of Factionalism"
  sov_current_gensec_loc:0 "§YCurrent General Secretary: [SOV.GetLeader]§!"
- sov_hardliner_localisation_tt:0 "The §RHardliner Faction§! is a group of politicians that want to keep the old system and style of governance of the Soviet Union.\n\nThe §RHardliner faction§! combining prominent leaders from other factions, ousted the §treformist§! leader Mikhail Gorbachev in the August Coup in 1991."
- sov_hardliner_text_loc:0 "§RHardliners§!"
+ sov_hardliner_localisation_tt:0 "The §RConservative Faction§! is a group of politicians that want to keep the old system and style of governance of the Soviet Union.\n\nThe §RConservative faction§! combining prominent leaders from other factions, ousted the §treformist§! leader Mikhail Gorbachev in the August Coup in 1991."
+ sov_hardliner_text_loc:0 "§RConservatives§!"
  sov_hardliner_influance_text_loc:0 "§R[?sov_hardliner_influence_var]§!"
  sov_militarist_localisation_tt:0 "The §gMilitarist Faction§! is a group composed mostly of military members and some politicians that see competing with USA economically and attempting peace with the capitalists always leads to failure thus viewing military power of the Soviet Union the only way to ensure worldwide Communism.\n\n§gMilitary§! provided massive support in the 91' coup, causing them to gain multiple political positions and favors in the government."
  sov_militarist_text_loc:0 "§gMilitarists§!"
@@ -220,21 +224,21 @@
  sov_kgb_localisation_tt:0 "§OCommittee for State Security§!, commonly known as §OKGB§! is the main security agency in the Soviet Union that manages most of the internal security, foreign intelligence,counter-intelligence and secret-police functions.\n\n§OKGB§! gained political relavance after helping out with arresting Counter-Revolutionaries and American agents after the oustation of Gorbachev in 1991."
  sov_kgb_text_loc:0 "§OKGB§!"
  sov_kgb_influance_text_loc:0 "§O[?sov_kgb_influence_var]§!"
- this_faction_rules_the_nation_hardliner:0 "The §RHardliner Faction§! currently rules the nation."
+ this_faction_rules_the_nation_hardliner:0 "The §RConservative Faction§! currently rules the nation."
  this_faction_rules_the_nation_military:0 "The §Militarist Faction§! currently rules the nation."
  this_faction_rules_the_nation_reformist:0 "The §tReformer Faction§! currently rules the nation."
  this_faction_rules_the_nation_kgb:0 "The §OKGB Faction§! currently rules the nation."
  
- hardliner_5_influence_increase:0 "The §R£sov_hardliner_faction_texticon Hardliner Faction§!'s influence §Gincreases§! by 5."
+ hardliner_5_influence_increase:0 "The §R£sov_hardliner_faction_texticon Conservative Faction§!'s influence §Gincreases§! by 5."
  army_5_influence_increase:0 "The §g£sov_army_faction_texticon Militarist Faction§!'s influence §Gincreases§! by 5."
  reformist_5_influence_increase:0 "The §t£sov_reformist_faction_texticon Reformist Faction§!'s influence §Gincreases§! by 5."
  kgb_5_influence_increase:0 "The §O£sov_kgb_faction_texticon KGB Faction§!'s influence §Gincreases§! by 5."
- hardliner_10_influence_increase:0 "The §R£sov_hardliner_faction_texticon Hardliner Faction§!'s influence §Gincreases§! by 10."
+ hardliner_10_influence_increase:0 "The §R£sov_hardliner_faction_texticon Conservative Faction§!'s influence §Gincreases§! by 10."
  army_10_influence_increase:0 "The §g£sov_army_faction_texticon Militarist Faction§!'s influence §Gincreases§! by 10."
  reformist_10_influence_increase:0 "The §t£sov_reformist_faction_texticon Reformist Faction§!'s influence §Gincreases§! by 10."
  kgb_10_influence_increase:0 "The §O£sov_kgb_faction_texticon KGB Faction§!'s influence §Gincreases§! by 10."
- hardliner_15_influence_increase:0 "The §R£sov_hardliner_faction_texticon Hardliner Faction§!'s influence §Gincreases§! by 15."
- hardliner_20_influence_increase:0 "The §R£sov_hardliner_faction_texticon Hardliner Faction§!'s influence §Gincreases§! by 20."
+ hardliner_15_influence_increase:0 "The §R£sov_hardliner_faction_texticon Conservative Faction§!'s influence §Gincreases§! by 15."
+ hardliner_20_influence_increase:0 "The §R£sov_hardliner_faction_texticon Conservative Faction§!'s influence §Gincreases§! by 20."
  army_20_influence_increase:0 "The §g£sov_army_faction_texticon Militarist Faction§!'s influence §Gincreases§! by 20."
  reformist_20_influence_increase:0 "The §t£sov_reformist_faction_texticon Reformist Faction§!'s influence §Gincreases§! by 20."
  kgb_20_influence_increase:0 "The §O£sov_kgb_faction_texticon KGB Faction§!'s influence §Gincreases§! by 20."
@@ -435,7 +439,7 @@
  saf_started_to_deal_with_insurgents:0 "§OStarted Operations Aganist the Insurgents§\n\n"
  saf_end_of_operations_reached:0 "§OThe Deadline For The Operations Have Been Reached§\n\n"
  SAF_breaking_point_cool_tooltip:0 "§RSouth Africa Is Nearing Its Breaking Point§\n\n"
- 
+
  SAF_took_investing_farms_focus_tooltip:0 "Current days are: [?SAF_took_investing_in_farm_activities:days|Y0]"
  SAF_took_investing_in_farm_activities:0 "Took the Focus "Invest in Farming Activities""
  SAF_took_encourage_tourism_focus_tooltip:0 "Current days are: [?SAF_took_encourage_tourism_focus:days|Y0]"

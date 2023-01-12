@@ -168,6 +168,9 @@
 				remove_idea = SOV_party_infighting
 				add_idea = SOV_party_infighting_2
 			}
+			SOV = {
+		        country_event = {id = ussr.44}
+			}
 
 		}
 	}
@@ -414,7 +417,9 @@
 			subtract_from_variable = {sov_reformist_influence_var = 10 }
             		custom_effect_tooltip = reformist_10_influence_decrease
 			add_stability = 0.1
-			add_political_power = 50
+			SOV = {
+		        country_event = {id = ussr.43}
+			}
 		}
 	}
 	

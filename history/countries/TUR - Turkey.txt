@@ -29,7 +29,8 @@ set_popularities = {
 	social_democracy = 22
 	liberalism = 13
 	democratic = 15
-	neutrality = 11
+	neutrality = 5
+	paternal_autocracy = 6
 	paternal_autocracy = 20
 	fascism = 10
 }

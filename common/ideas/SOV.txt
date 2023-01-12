@@ -125,9 +125,52 @@ ideas = {
 			modifier = {
 				production_speed_industrial_complex_factor = -0.1
 				stability_factor = -0.05
-				consumer_goods_factor = 0.08
+				consumer_goods_factor = 0.1
 				industrial_capacity_factory = 0.1
 				industrial_capacity_dockyard = 0.1
+			}
+
+		}
+
+		SOV_militarised_industry_1 = {
+
+			name = SOV_militarised_industry_name
+
+			removal_cost = -1
+
+			picture = SOV_militarised_industry_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_industrial_complex_factor = -0.15
+				stability_factor = -0.1
+				consumer_goods_factor = 0.15
+				industrial_capacity_factory = 0.2
+				industrial_capacity_dockyard = 0.2
+			}
+
+		}
+
+		SOV_militarised_industry_2 = {
+
+			name = SOV_militarised_industry_name
+
+			removal_cost = -1
+
+			picture = SOV_militarised_industry_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_industrial_complex_factor = -0.05
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
 			}
 
 		}
@@ -781,6 +824,52 @@ ideas = {
 			modifier = {
 			army_defence_factor = 0.15
 			army_attack_factor = 0.15
+			
+			}
+
+		}
+
+		SOV_increased_wp_spending = {
+
+			name = SOV_increased_wp_spending_name
+
+			removal_cost = -1
+
+			picture =  SOV_budapest_agreement_icon
+
+			allowed = {
+				always = no
+			}
+				
+
+			modifier = {
+			production_speed_industrial_complex_factor = 0.15
+			consumer_goods_factor = -0.05
+			production_factory_efficiency_gain_factor = 0.15
+			army_attack_factor = 0.2
+			
+			}
+
+		}
+
+		SOV_increased_presence = {
+
+			name = SOV_increased_presence_name
+
+			removal_cost = -1
+
+			picture =  SOV_budapest_agreement_icon
+
+			allowed = {
+				always = no
+			}
+				
+
+			modifier = {
+			army_defence_factor = 0.2
+			army_attack_factor = 0.15
+			add_stability = 0.1
+			add_war_support = -0.1
 			
 			}
 
@@ -1626,10 +1715,34 @@ ideas = {
 				
 			
 			modifier = {
-				army_defence_factor = 0.05
-				army_attack_factor = 0.05
-				experience_gain_army = 0.10
+				army_defence_factor = 0.15
+				army_attack_factor = 0.1
+				experience_gain_army = 0.15
 				communism_drift = 0.15
+			}	
+
+
+
+		}
+
+		Soviet_mil_advisors_1 = {
+
+			name = Soviet_mil_advisors_name
+
+			removal_cost = -1
+
+			picture =  SOV_Soviet_Army_icon
+
+			allowed = {
+				always = no
+			}
+				
+			
+			modifier = {
+				army_defence_factor = 0.3
+				army_attack_factor = 0.2
+				experience_gain_army = 0.2
+				communism_drift = 0.2
 			}	
 
 

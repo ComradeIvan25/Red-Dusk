@@ -50,3 +50,28 @@ country_event = {
 			}	
 	}
 }
+
+#trade approach#
+country_event = {
+	id = usa_wienna.4
+	title = usa_wienna.4.t
+	desc = usa_wienna.4.d
+	picture = GFX_report_event_SAF_mandela
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = usa_wienna.4.a
+			SOV = {
+		        country_event = {id = ussr_wienna.6}
+			}		
+	}
+
+	option = {
+		name = usa_wienna.4.b	
+			SOV = {
+		        country_event = {id = ussr_wienna.7}
+			}	
+	}
+}

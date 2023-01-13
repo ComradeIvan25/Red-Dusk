@@ -1,4 +1,4 @@
-﻿l_english:   
+Gorbachev has surprisingly decided to re-integrate the breakaway states with §Gfair and free referendums§W§  that will decide the union's future.\n\n§RHowever§W§  we still have a long way to go as the insane §gmilitarists§W§  had committed hideous acts against the breakaway states back in '91 we need to win the trust of the people if we want a truly equal Union\n\n§C>Support for rejoining the Union in \n\n>>Azerbaijan is [?azr_ref_support]%\n\n>>Armenia is [?arm_ref_support]%\n\n>>Latvia is [?lat_ref_support]%\n\n>>Estonia is [?est_ref_support]%§W§\n\n\nWe need over 50 percent support to win the referendums.l_english:
  sov_purging:0 "Purging The Enemies Of Our Union"
  sov_purging_desc:0 ""
  sov_purge_vladimir_kryuchkov:0 "Purge Vladimir Kryuchkov"
@@ -60,16 +60,8 @@
  sov_recruit_collabs:0 "Recruit pro-Soviet Chinese collaborators"
  sov_complete_project_red_dusk:0 "Complete project Red Dusk"
  
- sov_rally_support_for_gorby:0 "Getting Support For Mikhail Gorbachev"
- sov_rally_support_for_gorby_desc:0 "gorbin time support amount is [?sov_gorby_support]"
- sov_gorby_gain_politbro_support:0 "Gain Politbro Support"
- sov_gorby_gain_KGB_support:0 "Gain KGB Support"
- sov_gorby_gain_peoples_support:0 "Gain Peoples Support"
- sov_gorby_support_secured:0 "Gorbachev's Support Secured"
- sov_rallying_support_for_gorby_timeclock:0 "The Anti-Gorbachev Movement Is Getting Power..."
- 
  sov_reinteg_decisions_via_peace:0 "Re-Integration referendums"
- sov_reinteg_decisions_via_peace_desc:0 "Gorbachev has surprisingly decided to re-integrate the breakaway states with §Gfair and free referendums§W§  that will decide the union's future.\n\n§RHowever§W§  we still have a long way to go as the insane §gmilitarists§W§  had committed hideous acts against the breakaway states back in '91 we need to win the trust of the people if we want a truly equal Union.\n\n§C>Support for rejoining the Union in ;\n\n>>Azerbaijan is [?azr_ref_support]%\n\n>>Armenia is [?arm_ref_support]%\n\n>>Latvia is [?lat_ref_support]%\n\n>>Estonia is [?est_ref_support]%§W§\n\n\nWe need over 50 percent support to win the referendums."
+ sov_reinteg_decisions_via_peace_desc:0 "Gorbachev has surprisingly decided to re-integrate the breakaway states with §Gfair and free referendums§W§  that will decide the union's future.\n\n§RHowever§W§  we still have a long way to go as the insane §gmilitarists§W§  had committed hideous acts against the breakaway states back in '91 we need to win the trust of the people if we want a truly equal Union\n\n§C>Support for rejoining the Union in \n\n>>Azerbaijan is [?azr_ref_support]%\n\n>>Armenia is [?arm_ref_support]%\n\n>>Latvia is [?lat_ref_support]%\n\n>>Estonia is [?est_ref_support]%§W§\n\n\nWe need over 50 percent support to win the referendums."
  sov_ref_apolagize_for_militarist_crimes:0 "Apologize For Militarist Crimes"
  sov_ref_compansate_victims:0 "Compensate Military Crackdown Victims"
  sov_ref_rally_communists:0 "Rally Communist Supporters"
@@ -145,6 +137,23 @@
  USA_congress_government_type:0 "President\n§Y[USA.GetLeader]§!\n\nGovernment Type\n[USA_government_type]\n\nRuling Parties\n[USA_government_ruling_party]"
  USA_congress_party_attitudes_descriptions:0 "§CLoyal§! parties will offer their full support to pass any legislation, however, you will have to keep their interests in mind too.\n\n§GFriendly§! parties are receptive to supporting your ideas, however, you shouldn't rely on them to push through unpopular legislation.\n\n§gNeutral§! parties are neither for nor against you. Unless you're voting on a topic they feel strongly about, they can safely be ignored.\n\n§YUnfriendly§! parties are unlikely to support you, unless the proposed legislation is universally popular.\n\n§RHostile§! parties will never support you. Some radical members might even resort to violence against you and your allies."
  
+ USA_maintain_home_front:0 "Support Of The People"
+ USA_maintain_home_front_desc:0 ""
+ USA_pop_support_header:0 "The Silent Majprity"
+ USA_pop_support_desc:0 "This faction represents the domestic population, and will initially support limited military action in the Middle East in response to the September 11 attacks. However, they will eventually return to a more normal stance and resist starting new wars in the name of national security.\n\n§REstimated Silent Majority trust is [?Silent_Majority_trust]§W§\n\n""
+ USA_warhawk_support_header:0 "The Warhawks"
+ USA_warhawk_support_desc:0 "This faction consists of politicians, civilians, and militants who believe that the success of the American military is essential to the nation's future. They have no other agenda beyond ensuring that the United States is able to assert its position as a global superpower.\n\n§REstimated Warhawk trust is [?Warhawk_trust]§W§\n\n""
+ USA_WS_support_header:0 "The Wolves Of Wall Street"
+ USA_WS_support_desc:0 "This group is concerned with the impact of wars on the economy, and will become worried if they believe that the American economy is being strained by too much military spending.\n\n§REstimated finance from Wall Street is [?Wolves_Of_Wall_Street_support]§W§\n\n""
+ USA_hrg_risistance_header:0 "Human Rights Watch"
+ USA_hrg_risistance_desc:0 " This faction is concerned with actions taken by the U.S. military, government, and any rogue elements that may violate human rights, such as the fabrication of evidence to justify invasions or mistreatment of civilians in occupied territory.\n\n§REstimated Human Rights Watch anger is [?hrg_anger_support]§W§\n\n""
+ USA_mic_support:0 "Military Industrial Complex"
+ usa_mic_support_desc:0 "This faction represents the backbone of the military, and seeks to advance the U.S. Armed Forces through military contracts and the acquisition of new technology.\n\n§REstimated funding to the MIC id [?mic_funding_support]§W§\n\n""
+ USA_pop_support_descriptions:0 "§CLoyal§!are giving us the benefit of the doubt.\n\n§GFriendly§! supportive but less willing.\n\n§gNeutral§! are on the fence.\n\n§YUnfriendly§! are questioning our policy.\n\n§RHostile§! want to stop this madness."
+ USA_warhawk_support_descriptions:0 "§CLoyal§! are .\n\n§GFriendly§! parties are receptive to supporting your ideas, however, you shouldn't rely on them to push through unpopular legislation.\n\n§gNeutral§! parties are neither for nor against you. Unless you're voting on a topic they feel strongly about, they can safely be ignored.\n\n§YUnfriendly§! parties are unlikely to support you, unless the proposed legislation is universally popular.\n\n§RHostile§! parties will never support you. Some radical members might even resort to violence against you and your allies."
+ USA_WS_support_descriptions:0 "§CLoyal§! are behind our goals.\n\n§GFriendly§! are willing to give a benifit of a doubt.\n\n§gNeutral§! are wondering if its worth it.\n\n§YUnfriendly§! questioning where were funding these operations.\n\n§RHostile§! are taking investments out of our plans."
+ USA_hrg_risistance_descriptions:0 "§CLoyal§! believe in our goal.\n\n§GFriendly§! are wondering if were morally right.\n\n§gNeutral§! is keeping a very close eye.\n\n§YUnfriendly§! are questioning our ethics.\n\n§RHostile§! have denounced the government."
+ USA_mic_support_descriptions:0 "§CLoyal§! are in the green.\n\n§GFriendly§! running with enough cash.\n\n§gNeutral§! are running on a budget.\n\n§YUnfriendly§! are running on fumes.\n\n§RHostile§! are in the red"
  ##SOUTH AFRICA###
 
  saf_deal_with_insurgents:0 "Dealing With The Insurgents"

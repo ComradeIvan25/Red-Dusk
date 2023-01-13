@@ -739,7 +739,7 @@ ideas = {
 			modifier = {
 				army_org_factor = -0.15
 				max_dig_in_factor = -0.2
-				supply_consumption_factor = 0.4
+				supply_consumption_factor = 0.2
 				land_doctrine_cost_factor = 0.5
 			}
 

@@ -738,7 +738,7 @@
 	
 	focus = {
 		id = SOV_matters_of_the_economy
-		icon = GFX_SOV_matter_of_the_economy
+		icon = GFX_focus_SOV_matter_of_economy
 		x = 9
 		y = 10
 

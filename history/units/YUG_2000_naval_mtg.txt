@@ -7,8 +7,8 @@ units = {
 			location = 9809 # Kotor #
 			ship = { name = "JRM Kotor" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = YUG version_name = "Kotor Class" } } }
 			ship = { name = "JRM Novi Sad" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = YUG version_name = "Kotor Class" } } }
-			ship = { name = "JRM Beograd" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = YUG version_name = "Split Class" } } }
-			ship = { name = "JRM Podgoritsa" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = YUG version_name = "Split Class" } } }
+			ship = { name = "JRM Beograd" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = YUG creator = SOV version_name = "Koni I Class (Pr. 1159)" } } }
+			ship = { name = "JRM Podgoritsa" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = YUG creator = SOV version_name = "Koni I Class (Pr. 1159)" } } }
 		}
 		task_force = {
 			name = "Jugoslovenska Podmornička Flota"

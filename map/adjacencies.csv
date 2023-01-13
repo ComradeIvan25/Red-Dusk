@@ -296,7 +296,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6214;9175;impassable;-1;-1;-1;-1;-1;;Scandinavian Mountains
 3959;11721;impassable;-1;-1;-1;-1;-1;;Alps Mountains
 6975;11721;impassable;-1;-1;-1;-1;-1;;Alps Mountains
-3764;11721;impassable;-1;-1;-1;-1;-1;;Alps Mountains
 3764;9738;impassable;-1;-1;-1;-1;-1;;Alps Mountains
 9745;611;impassable;-1;-1;-1;-1;-1;;Alps Mountains
 9587;11570;impassable;-1;-1;-1;-1;-1;;Alps Mountains

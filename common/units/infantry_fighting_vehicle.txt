@@ -33,7 +33,7 @@ sub_units = {
 		training_time = 200
 		weight = 1
 		
-		supply_consumption = 0.20
+		supply_consumption = 0.18
 
 		breakthrough = 0.12
 

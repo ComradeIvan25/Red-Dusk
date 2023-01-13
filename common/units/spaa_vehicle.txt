@@ -88,7 +88,7 @@ sub_units = {
 		training_time = 150
 		max_strength = 0.2
 		weight = 0.1
-		supply_consumption = 0.06
+		supply_consumption = 0.05
 
 		defense = -0.35
 		breakthrough = -0.35

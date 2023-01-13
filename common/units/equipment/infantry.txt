@@ -16,15 +16,15 @@ equipments = {
 		reliability = 0.86
 		maximum_speed = 4
 
-		defense = 20
-		breakthrough = 2
+		defense = 36
+		breakthrough = 7.5
 		hardness = 0
 		armor_value = 0
 
-		soft_attack = 4
-		hard_attack = 0.5
-		ap_attack = 1
-		air_attack = 0
+		soft_attack = 15
+		hard_attack = 3.5
+		ap_attack = 10
+		air_attack = 0.5
 
 		lend_lease_cost = 1
 		
@@ -49,13 +49,13 @@ equipments = {
 		priority = 10
 		visual_level = 1
 
-		defense = 24
-		breakthrough = 4
+		defense = 44
+		breakthrough = 10
 
-		soft_attack = 6
-		hard_attack = 1
-		ap_attack = 2
-		air_attack = 0
+		soft_attack = 20
+		hard_attack = 5
+		ap_attack = 20
+		air_attack = 0.75
 
 		build_cost_ic = 0.56
 	}
@@ -67,13 +67,13 @@ equipments = {
 		priority = 10
 		visual_level = 2
 
-		defense = 28
-		breakthrough = 6
+		defense = 52
+		breakthrough = 12
 
-		soft_attack = 8
-		hard_attack = 1.5
-		ap_attack = 3
-		air_attack = 0
+		soft_attack = 25
+		hard_attack = 6.5
+		ap_attack = 30
+		air_attack = 1
 
 		build_cost_ic = 0.64
 	}
@@ -85,13 +85,13 @@ equipments = {
 		priority = 10
 		visual_level = 3
 
-		defense = 32
-		breakthrough = 8
+		defense = 60
+		breakthrough = 15
 
-		soft_attack = 10
-		hard_attack = 2
-		ap_attack = 4
-		air_attack = 0
+		soft_attack = 30
+		hard_attack = 8
+		ap_attack = 40
+		air_attack = 4.5
 
 		build_cost_ic = 0.72
 	}
@@ -113,14 +113,15 @@ equipments = {
 		maximum_speed = 3.5
 
 		defense = 14
-		breakthrough = 3
+		breakthrough = 6
 		hardness = 0
 		armor_value = 0
 
-		soft_attack = 2.5
-		hard_attack = 10
+		soft_attack = 2
+		hard_attack = 28
 		ap_attack = 100
 		air_attack = 0
+		
 
 		lend_lease_cost = 2
 		
@@ -147,11 +148,11 @@ equipments = {
 		visual_level = 1
 
 		defense = 18
-		breakthrough = 5
+		breakthrough = 9
 
-		soft_attack = 3.5
-		hard_attack = 12
-		ap_attack = 110
+		soft_attack = 3
+		hard_attack = 40
+		ap_attack = 140
 		air_attack = 0
 
 		build_cost_ic = 0.68
@@ -165,11 +166,11 @@ equipments = {
 		visual_level = 2
 
 		defense = 22
-		breakthrough = 7
+		breakthrough = 12
 
-		soft_attack = 4.5
-		hard_attack = 14
-		ap_attack = 120
+		soft_attack = 4
+		hard_attack = 56
+		ap_attack = 203
 		air_attack = 0
 
 		build_cost_ic = 0.76
@@ -183,11 +184,11 @@ equipments = {
 		visual_level = 3
 
 		defense = 26
-		breakthrough = 9
+		breakthrough = 15
 
 		soft_attack = 5.5
-		hard_attack = 16
-		ap_attack = 130
+		hard_attack = 72
+		ap_attack = 253
 		air_attack = 0
 
 		build_cost_ic = 0.84
@@ -209,15 +210,15 @@ equipments = {
 		reliability = 0.75
 		maximum_speed = 3.5
 
-		defense = 4
-		breakthrough = 0.4
+		defense = 12.5
+		breakthrough = 2
 		hardness = 0
 		armor_value = 0
 
-		soft_attack = 0
-		hard_attack = 0
-		ap_attack = 0
-		air_attack = 5
+		soft_attack = 0.5
+		hard_attack = 1.5
+		ap_attack = 12
+		air_attack = 7
 
 		lend_lease_cost = 2
 		
@@ -243,13 +244,13 @@ equipments = {
 		priority = 10
 		visual_level = 1
 
-		defense = 5
-		breakthrough = 0.5
+		defense = 15
+		breakthrough = 3.5
 
-		soft_attack = 0
-		hard_attack = 0
-		ap_attack = 0
-		air_attack = 10
+		soft_attack = 1
+		hard_attack = 2
+		ap_attack = 18
+		air_attack = 12
 
 		build_cost_ic = 0.68
 	}
@@ -261,13 +262,13 @@ equipments = {
 		priority = 10
 		visual_level = 2
 
-		defense = 6
-		breakthrough = 0.6
+		defense = 17.5
+		breakthrough = 5
 
-		soft_attack = 0
-		hard_attack = 0
-		ap_attack = 0
-		air_attack = 15
+		soft_attack = 1.5
+		hard_attack = 2.5
+		ap_attack = 24
+		air_attack = 16
 
 		build_cost_ic = 0.76
 	}
@@ -279,12 +280,12 @@ equipments = {
 		priority = 10
 		visual_level = 3
 
-		defense = 7
-		breakthrough = 0.7
+		defense = 20
+		breakthrough = 7.5
 
-		soft_attack = 0
-		hard_attack = 0
-		ap_attack = 0
+		soft_attack = 2
+		hard_attack = 3
+		ap_attack = 30
 		air_attack = 20
 
 		build_cost_ic = 0.84

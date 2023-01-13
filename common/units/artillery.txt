@@ -34,7 +34,7 @@ sub_units = {
 		default_morale = 0.15
 		training_time = 140
 		weight = 0.5		
-		supply_consumption = 0.22
+		supply_consumption = 0.20
 
 		forest = {
 			attack = -0.2
@@ -108,7 +108,7 @@ sub_units = {
 		default_morale = 0.15
 		training_time = 150
 		weight = 0.5		
-		supply_consumption = 0.26
+		supply_consumption = 0.22
 
 		forest = {
 			attack = -0.2
@@ -178,7 +178,7 @@ sub_units = {
 		default_morale = 0.15
 		training_time = 155
 		weight = 0.5		
-		supply_consumption = 0.26
+		supply_consumption = 0.22
 
 		forest = {
 			attack = -0.2
@@ -248,7 +248,7 @@ sub_units = {
 		default_morale = 0.15
 		training_time = 140
 		weight = 0.1
-		supply_consumption = 0.14
+		supply_consumption = 0.12
 
 		defense = -0.4
 		breakthrough = -0.4
@@ -290,7 +290,7 @@ sub_units = {
 		default_morale = 0.15
 		training_time = 150
 		weight = 0.1
-		supply_consumption = 0.18
+		supply_consumption = 0.16
 		
 		defense = -0.3
 		breakthrough = -0.3
@@ -332,7 +332,7 @@ sub_units = {
 		default_morale = 0.15
 		training_time = 155
 		weight = 0.1
-		supply_consumption = 0.18
+		supply_consumption = 0.16
 		
 		defense = -0.3
 		breakthrough = -0.3

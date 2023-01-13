@@ -326,7 +326,9 @@
  yug_build_new_military_industry_in_serbia:0 "Build New Military Industry in Serbia"
  yug_build_new_civilian_industry_in_bosnia:0 "Build New Civilian Industry in Bosnia"
  yug_build_new_infrastructure_across_the_country:0 "Build New Infrastructure Across the Country"
-
+ 
+ yug_yugoslavia_ussr_war:0 "Yugoslav-Soviet War"
+ yug_defend_against_ussr_timer:0 "Defending Against USSR"
 ## USA ##
 
  category_USA_congress:0 "United States Congress"

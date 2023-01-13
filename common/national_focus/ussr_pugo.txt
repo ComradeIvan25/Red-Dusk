@@ -1138,6 +1138,10 @@
 					country_event = { id = ussr.9 }
 			
 			}
+			BUL = {
+					country_event = { id = ussr.9 }
+			
+			}			
 
 		}
 	}
@@ -1227,7 +1231,7 @@
 			create_wargoal = { type = puppet_wargoal_focus target = POL }
 			create_wargoal = { type = puppet_wargoal_focus target = SLO }
 			create_wargoal = { type = puppet_wargoal_focus target = HUN }
-			create_wargoal = { type = puppet_wargoal_focus target = ROM }
+			create_wargoal = { type = puppet_wargoal_focus target = BUL }
 			news_event = { id = old_times_news.26 days = 1 }
 		}
 	}

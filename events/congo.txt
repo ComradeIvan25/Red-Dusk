@@ -635,6 +635,13 @@ country_event = {
 			name = UGA_neutrality_party_kony
 		}
 		
+		set_politics = {
+			ruling_party = paternal_autocracy
+			elections_allowed = yes
+			last_election = "2000.12.17"
+			election_frequency = 48
+		}
+		
 		add_popularity = {
 			ideology = paternal_autocracy
 			popularity = 0.30

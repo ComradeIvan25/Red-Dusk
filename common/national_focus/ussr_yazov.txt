@@ -2,6 +2,10 @@
 	id = ussr_yazov_focus
 	country = {
 		factor = 0
+		modifier = {
+		tag = SOV
+		add = 99999
+		}
 	}
 	
 	default = no
@@ -912,6 +916,10 @@
 					country_event = { id = ussr.9 }
 			
 			}
+			BUL = {
+					country_event = { id = ussr.9 }
+			
+			}			
 
 		}
 	}
@@ -1000,6 +1008,7 @@
 		create_wargoal = { type = puppet_wargoal_focus target = POL }
 		create_wargoal = { type = puppet_wargoal_focus target = SLO }
 		create_wargoal = { type = puppet_wargoal_focus target = HUN }
+		create_wargoal = { type = puppet_wargoal_focus target = BUL }		
 		news_event = { id = old_times_news.26 days = 1 }
 		}
 	}
@@ -1044,6 +1053,7 @@
 		ROM = {is_puppet_of = SOV}
 		SLO = {is_puppet_of = SOV}
 		HUN = {is_puppet_of = SOV}
+		BUL = {is_puppet_of = SOV}
 		
 		}
 		mutually_exclusive = { }
@@ -1313,11 +1323,33 @@
 		
 		
 		completion_reward = {
-		
+			if = {
+				limit = {
+					YUG = {
+						OR = {
+						has_government  = reformed_communism
+						has_government  = communism
+						}
+					}
+				}
 				diplomatic_relation = { 
 				country = YUG 
 				relation = non_aggression_pact 
 				}
+			
+			}
+			
+			else_if = {
+				limit = {
+					YUG = {
+						has_government  = fascism
+					}
+				}
+				add_political_power = -25
+				add_war_support = 0.025
+			
+			}
+
 		}
 	}
 	
@@ -1343,15 +1375,39 @@
 		
 		
 		completion_reward = {
-		
-			YUG = {country_event = ussr.17}
+			if = {
+				limit = {
+					YUG = {
+						OR = {
+						has_government  = reformed_communism
+						has_government  = communism
+						}
+					}
+				}
+				YUG = {country_event = ussr.17}
+
+			
+			}
+			
+			else_if = {
+				limit = {
+					YUG = {
+						has_government  = fascism
+					}
+				}
+				declare_war_on = {
+					target = YUG
+					type = puppet_wargoal_focus
+				}
+			
+			}
 		}
 	}
 	
 	focus = {
 		id = SOV_yazov_invasion_of_balkans
 		icon = GFX_focus_SOV_invade_balkan
-		x = 37
+		x = 35
 		y = 13
 
 		prerequisite = {focus = SOV_yazov_an_offer_they_cannot_refuse}
@@ -1359,9 +1415,7 @@
 			YUG = {
 			is_in_faction_with = SOV
 			}
-		}
-		mutually_exclusive = {focus = SOV_yazov_balkan_peoples_rev}
-		
+		}		
 		cost = 5.8
 		ai_will_do = {
 			factor = 1
@@ -1374,92 +1428,27 @@
 		
 		
 		completion_reward = {
-		create_wargoal = { type = puppet_wargoal_focus target = CRO }
-		create_wargoal = { type = puppet_wargoal_focus target = BUL }	
-		create_wargoal = { type = puppet_wargoal_focus target = SLV }
-		create_wargoal = { type = puppet_wargoal_focus target = ALB }
-		}
-	}
+		
+			declare_war_on = {
+				target = ALB
+				type = puppet_wargoal_focus
+			}
+			
+			if = {
+				limit = {
+					country_exists = CRO
+					country_exists = SLV
+				}
+				declare_war_on = {
+					target = CRO
+					type = puppet_wargoal_focus
+				}
+				declare_war_on = {
+					target = SLV
+					type = puppet_wargoal_focus
+				}
+			}
 	
-	focus = {
-		id = SOV_yazov_balkan_peoples_rev
-		icon = GFX_focus_SOV_balkan_people_revolution
-		x = 33
-		y = 13
-
-		prerequisite = {focus = SOV_yazov_an_offer_they_cannot_refuse}
-		available = {
-			YUG = {
-			is_in_faction_with = SOV
-			}
-		}
-		mutually_exclusive = {focus = SOV_yazov_invasion_of_balkans}
-		
-		
-		cost = 5.8
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		
-		
-		completion_reward = {
-		custom_effect_tooltip = start_revs_across_balkan
-			hidden_effect = {
-				SLV = {
-					SOV = { puppet = SLV }
-					set_politics = {
-						ruling_party = communism
-						elections_allowed = no
-					}
-					start_civil_war = {
-						ideology = democratic
-						size = 0.2
-					}
-					
-				}
-				CRO = {
-					SOV = { puppet = CRO }
-					set_politics = {
-						ruling_party = communism
-						elections_allowed = no
-					}
-					start_civil_war = {
-						ideology = democratic
-						size = 0.5
-					}
-					
-				}
-				BUL = {
-					SOV = { puppet = BUL }
-					set_politics = {
-						ruling_party = communism
-						elections_allowed = no
-					}
-					start_civil_war = {
-						ideology = democratic
-						size = 0.4
-					}
-					
-				}
-				ALB = {
-					SOV = { puppet = ALB }
-					set_politics = {
-						ruling_party = communism
-						elections_allowed = no
-					}
-					start_civil_war = {
-						ideology = democratic
-						size = 0.2
-					}
-					
-				}
-				
-			}	
 		}
 	}
 	
@@ -1469,7 +1458,8 @@
 		x = 36
 		y = 14
 
-		prerequisite = {focus = SOV_yazov_balkan_peoples_rev focus = SOV_yazov_invasion_of_balkans}
+		prerequisite = {focus = SOV_yazov_invasion_of_balkans}
+		available = {YUG = {is_puppet_of = SOV}}
 		
 		mutually_exclusive = {focus = SOV_yazov_divide_and_rule}
 		
@@ -1489,7 +1479,6 @@
 			set_country_flag = Reestablished_order_in_east_europe
 			custom_effect_tooltip = Establishes_Balkan_Peoples
 			
-					SOV = { puppet = YUG }
 						YUG = {
 						transfer_state = 109
 						transfer_state = 103
@@ -1515,7 +1504,7 @@
 		x = 34
 		y = 14
 
-		prerequisite = {focus = SOV_yazov_balkan_peoples_rev focus = SOV_yazov_invasion_of_balkans}
+		prerequisite = {focus = SOV_yazov_invasion_of_balkans}
 		
 		mutually_exclusive = {focus = SOV_yazov_unity_after_chaos}
 		
@@ -1533,12 +1522,8 @@
 		
 		completion_reward = {
 		set_country_flag = Reestablished_order_in_east_europe
-		custom_effect_tooltip = puppets_balkan_countries_sov
-		SOV = { puppet = YUG }
-		SOV = { puppet = SLV }
-		SOV = { puppet = CRO }
-		SOV = { puppet = BUL }
-		SOV = { puppet = ALB }
+		custom_effect_tooltip = puppets_balkan_countries_sov #idk what to do with this focus since you already puppet the balkan states when you invade them
+		add_stability = 0.10
 		}
 	}
 	
@@ -1968,7 +1953,6 @@
 		ROM = {add_ideas = ubreakable_pact}
 		HUN = {add_ideas = ubreakable_pact}
 		SLO = {add_ideas = ubreakable_pact}
-		PRC = {add_ideas = ubreakable_pact}
 		YUG = {add_ideas = ubreakable_pact}
 				IF = {
 					limit = { 			 

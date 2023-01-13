@@ -696,7 +696,33 @@ SAF_paths_selection = {
 		allow_achievements = yes
 	}
 }
-
+NRO_election_paths_selection = {
+	name = "NRO_ELECTION_PATH"
+	group = "RULE_GROUP_COUNTRY_PATHS"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+	}
+	option = {
+		name = NRO_MASSOUD_WINS_PATH_CHOSEN
+		text = "NRO_MASSOUD_WINS_PATH_CHOSEN"
+		desc = "NRO_MASSOUD_WINS_PATH_CHOSEN_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = NRO_MOHAQIQ_WINS_PATH_CHOSEN
+		text = "NRO_MOHAQIQ_WINS_PATH_CHOSEN"
+		desc = "NRO_MOHAQIQ_WINS_PATH_CHOSEN_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = NRO_DOSTUM_WINS_PATH_CHOSEN
+		text = "NRO_DOSTUM_WINS_PATH_CHOSEN"
+		desc = "NRO_DOSTUM_WINS_PATH_CHOSEN_DESC"
+		allow_achievements = yes
+	}	
+}
 
 
  #     #  ###       #####   #######  #######  #######  ###  #     #   #####    #####  

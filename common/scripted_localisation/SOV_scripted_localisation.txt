@@ -58,3 +58,49 @@ defined_text = {
 
 
 }
+defined_text = {
+	name = SOV_our_old_enemies_in_yugo_focus
+	text = {
+		trigger = {
+			YUG = {
+				OR = {
+				has_government  = reformed_communism
+				has_government  = communism
+				}
+			}
+		}
+		localization_key = SOV_our_old_enemies_in_yugo_focus_yug_is_communist_loc_key
+	}
+	text = {
+		trigger = {
+			YUG = {
+				has_government  = fascism
+			}
+		}
+		localization_key = SOV_our_old_enemies_in_yugo_focus_yug_is_nationalist_loc_key
+	}
+
+}
+defined_text = {
+	name = SOV_an_offer_yugo_cant_refuse_focus 
+	text = {
+		trigger = {
+			YUG = {
+				OR = {
+				has_government  = reformed_communism
+				has_government  = communism
+				}
+			}
+		}
+		localization_key = SOV_an_offer_yugo_cant_refuse_focus_yug_is_communist_loc_key
+	}
+	text = {
+		trigger = {
+			YUG = {
+				has_government  = fascism
+			}
+		}
+		localization_key = SOV_an_offer_yugo_cant_refuse_focus_yug_is_nationalist_loc_key
+	}
+
+}

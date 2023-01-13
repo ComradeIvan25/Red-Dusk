@@ -47,6 +47,29 @@ ideas = {
 				paternal_autocracy_drift = 0.05
 			}
 		}
+		
+		NRO_taliban_insurgency = {
+			name = NRO_taliban_insurgency_name
+
+			removal_cost = -1
+
+			picture = AFG_taliban_insurgency_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = -0.15
+				army_org_factor = -0.10
+				stability_factor = -0.30
+				political_power_gain = -0.30
+				consumer_goods_factor = 0.10
+				
+			}
+		}
+		
+		
 
 	}
 

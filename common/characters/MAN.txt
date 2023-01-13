@@ -17,7 +17,7 @@ characters = {
 		advisor={
 			cost = 75			
 			slot = army_chief
-			idea_token = SOV_sergey_shoigu
+			idea_token = MAN_sergey_shoigu
 			allowed = {
 				original_tag = MAN
 			}

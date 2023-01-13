@@ -30,6 +30,7 @@ characters = {
 		country_leader = {
 			ideology = shia_islamism
 			traits = {}
+			desc = muhammad_mohaqiq_DESC
 			expire = "2050.3.1.1"
 			id = -1
 		}

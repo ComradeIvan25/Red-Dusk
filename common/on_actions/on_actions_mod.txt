@@ -2041,6 +2041,54 @@ on_actions = {
 						
 					}
 					
+					### USSR VS CROATIA - USSR WINS ###
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = SOV
+							}
+							ROOT = {
+								original_tag = CRO
+							}
+						}
+
+						SOV = {
+							white_peace = ROOT
+						}
+
+						YUG = {
+							annex_country = {
+								target = CRO
+								transfer_troops = no
+							}
+						}
+						
+					}
+
+					### USSR VS SLOVENIA - USSR WINS ###
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = SOV
+							}
+							ROOT = {
+								original_tag = SLV
+							}
+						}
+
+						SOV = {
+							white_peace = ROOT
+						}
+
+						YUG = {
+							annex_country = {
+								target = SLV
+								transfer_troops = no
+							}
+						}
+						
+					}					
+					
 					### USSR VS GERMANY - USSR WINS ###
 					if = {   
 						limit = {
@@ -4081,7 +4129,10 @@ on_actions = {
 						}
 
 						NRO = {
-							white_peace = ROOT
+							white_peace = {
+								tag = ROOT
+								message = NRO_wins_AFG_peace_message
+							}
 						}
 
 						NRO = {
@@ -4090,10 +4141,15 @@ on_actions = {
 							target = AFG
 							transfer_troops = no
 							}
+							set_capital = {
+								state = 267
+								remember_old_capital = no
+							}
 							add_state_core = 267
 							add_state_core = 415
 							country_event = {id = northern_alliance.1 days = 1}
 							news_event = {id = old_times_news.53 days = 1}
+							add_ideas = NRO_taliban_insurgency
 						}
 						
 					 

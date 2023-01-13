@@ -1200,7 +1200,7 @@
  NRO_neutrality_ahmad_party_long:0 "Jamiat-e Islami"
  #NRO_reformed_communism_party:0 "PDPA" gonna use these for later
  #NRO_reformed_communism_party_long:0 "People's Democratic Party of Afghanistan"
- NRO_reformed_communism_party:0 "Junbish-i Milli"
- NRO_reformed_communism_party_long:0 "National Islamic Movement of Afghanistan"
- NRO_islamism_party:0 "Hezb-e Wahdat"
- NRO_islamism_party_long:0 "Islamic Unity Party of Afghanistan"
+ NRO_socialism_party:0 "Junbish-i Milli"
+ NRO_socialism_party_long:0 "National Islamic Movement of Afghanistan"
+ NRO_paternal_autocracy_party:0 "Hezb-e Wahdat"
+ NRO_paternal_autocracy_party_long:0 "Islamic Unity Party of Afghanistan"

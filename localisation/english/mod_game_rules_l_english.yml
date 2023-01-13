@@ -56,3 +56,11 @@
  USA_DEMS_WIN_2000_DESC:0 "@USA §CDemocrats§! under the leader chosen before in the primaries will be elected, and sworn in as the President of the United States on January 20."
  USA_REFS_WIN_2000:0 "@USA §gReform§! Victory§!"
  USA_REFS_WIN_2000_DESC:0 "@USA §gReformists§! under the leader chosen before in the primaries will be elected, and sworn in as the President of the United States on January 20."
+ 
+ NRO_ELECTION_PATH:0 "@NRO Afghanistan Post-War Election"
+ NRO_MASSOUD_WINS_PATH_CHOSEN:0 "@NRO §gMassoud§! Victory"
+ NRO_MASSOUD_WINS_PATH_CHOSEN_DESC:0 "@NRO §gAhmad Shah Massoud§! and his party §gJamiat-e Islami§! wins the Post-War elections after the defeat of the Taliban."
+ NRO_MOHAQIQ_WINS_PATH_CHOSEN:0 "@NRO §gMohaqiq§! Victory"
+ NRO_MOHAQIQ_WINS_PATH_CHOSEN_DESC:0 "@NRO §gMuhammad Mohaqiq§! and his party §gHezb-e Wahdat§! wins the Post-War elections after the defeat of the Taliban."
+ NRO_DOSTUM_WINS_PATH_CHOSEN:0 "@NRO §tDostum§! Victory"
+ NRO_DOSTUM_WINS_PATH_CHOSEN_DESC:0 "@NRO §tAbdul Rashid Dostum§! and his party §tJunbish-i Milli§! wins the Post-War elections after the defeat of the Taliban." 

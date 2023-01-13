@@ -591,6 +591,11 @@ spriteTypes = {
 		name = "GFX_idea_AFG_islamic_fanaticism_icon"
 		texturefile = "gfx/interface/ideas/AFG_islamic_fanaticism.png"
 	}
+	spriteType = {
+		name = "GFX_idea_AFG_taliban_insurgency_icon"
+		texturefile = "gfx/interface/ideas/AFG_taliban_insurgency.png"
+	}
+	
 	#cold war
 	spriteType = {
 		name = "GFX_idea_cold_war_soviet_offensive_or_defensive_icon"

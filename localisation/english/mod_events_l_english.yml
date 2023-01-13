@@ -206,7 +206,9 @@
  ussr_foreign_policy.2.t:0 "Influencing North Korea"
  ussr_foreign_policy.2.d:0 "With the election of the new premier we have decided to improve our ties with the North Koreans and eventually get them on our sphere.\n\nHowever, this wont be a easy task and we will need to direct a good amount of resources to combat chinese influence and expend our ties."
  ussr_foreign_policy.2.a:0 "North Korea Will Be Aligned With Us"
-
+ ussr_foreign_policy.3.t:0 "Yugoslavia declines the Warsaw Pact Membership"
+ ussr_foreign_policy.3.d:0 "Unfortunately and unexpectedly, Yugoslavia has declined the membership offer to be a part of the newly reestablished Warsaw Pact and pose a serious threat to our influence in the region."
+ ussr_foreign_policy.3.a:0 "Invade them!"
  ## cold war stuff ##
  
  ussr_cold_war.1.t:0 "Ethiopia requests extra divisions"

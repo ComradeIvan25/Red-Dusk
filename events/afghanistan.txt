@@ -5,13 +5,14 @@ country_event = {
 	id = northern_alliance.1
 	title = northern_alliance.1.t
 	desc = northern_alliance.1.d
-	picture = GFX_report_event_spark
+	picture = GFX_report_event_ballot_box
 	
 	is_triggered_only = yes
 
 		#Jamiat-e Islami#
 	option = {
 		name = northern_alliance.1.a
+		retire_country_leader = yes
 			
 		set_politics = {
 			ruling_party = neutrality
@@ -26,17 +27,25 @@ country_event = {
 				democratic = 15
 				paternal_autocracy = 30
 				neutrality = 35
-				reformed_communism = 20
+				socialism = 20
 			}
 			
 		ai_chance = {
 		factor = 50
+			modifier = {
+				factor = 99999
+				has_game_rule = {
+				rule = NRO_ELECTION_PATH
+				option = NRO_MASSOUD_WINS_PATH_CHOSEN
+				}
+			}
 		}
 	}
 	
 		#Hezb-e Wahdat#
 	option = {
 		name = northern_alliance.1.b
+		retire_country_leader = yes
 			
 		set_politics = {
 			ruling_party = paternal_autocracy
@@ -49,7 +58,7 @@ country_event = {
 				democratic = 10
 				paternal_autocracy = 35
 				neutrality = 35
-				reformed_communism = 20
+				socialism = 20
 			}
 			
 			set_party_name = {
@@ -60,15 +69,22 @@ country_event = {
 			
 		ai_chance = {
 		factor = 25
+			modifier = {
+				factor = 99999
+				has_game_rule = {
+				rule = NRO_ELECTION_PATH
+				option = NRO_MOHAQIQ_WINS_PATH_CHOSEN
+				}
+			}
 		}
 	}
 	
 		#Junbish-i Milli#
 	option = {
 		name = northern_alliance.1.c
-			
+		retire_country_leader = yes			
 		set_politics = {
-			ruling_party = reformed_communism
+			ruling_party = socialism
 			elections_allowed = no
 			last_election = "2000.12.17"
 			election_frequency = 48
@@ -78,7 +94,7 @@ country_event = {
 				democratic = 10
 				paternal_autocracy = 20
 				neutrality = 30
-				reformed_communism = 35
+				socialism = 35
 				communism = 5
 			}
 
@@ -90,6 +106,13 @@ country_event = {
 			
 		ai_chance = {
 		factor = 25
+			modifier = {
+				factor = 99999
+				has_game_rule = {
+				rule = NRO_ELECTION_PATH
+				option = NRO_DOSTUM_WINS_PATH_CHOSEN
+				}
+			}
 		}
 	}
 }

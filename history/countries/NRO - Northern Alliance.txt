@@ -31,7 +31,7 @@ set_politics = {
 set_popularities = {
 	fascism = 0
 	communism = 0
-	reformed_communism = 30
+	socialism = 30
 	paternal_autocracy = 25
 	neutrality = 45
 	

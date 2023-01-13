@@ -773,19 +773,17 @@ country_event = {
 		SOV = {
 			add_to_faction = YUG
 		}
+		news_event = { id = old_times_news.68 }
 	}
 	
 	#no#
 	option = {
 		SOV = {
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = ROOT
-			}
+			country_event = ussr_foreign_policy.3
 		
 		}
 		ai_chance = {
-		base = 0
+		base = 35
 		}
 		name = ussr.17.b
 		
@@ -1608,6 +1606,32 @@ country_event = {
 
 }
 
+#Yugoslavia declines joining the warsaw pact#
+country_event = {
+	id = ussr_foreign_policy.3
+	title = ussr_foreign_policy.3.t
+	desc = ussr_foreign_policy.3.d
+	picture = GFX_report_event_SOV_influence_north_korea
+	
+	is_triggered_only = yes
+	
+	##bruh, invade 'em##
+	option = {
+		name = ussr_foreign_policy.3.a
+		
+			declare_war_on = {
+				target = YUG
+				type = puppet_wargoal_focus
+			}
+		news_event = {id = old_times_news.69}
+		
+		ai_chance = {
+		base = 100
+		}
+
+	}
+
+}
 ## cold war stuff ##
 
 #Ethiopia requests extra divisions#

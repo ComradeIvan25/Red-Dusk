@@ -235,7 +235,7 @@ country_event = {
 country_event = {
 	id = ussr.6
 	title = ussr.6.t
-	desc = ussr.6.d
+	desc = ussr.6.de
 	picture = GFX_report_event_SOV_the_meeting
 	
 	is_triggered_only = yes

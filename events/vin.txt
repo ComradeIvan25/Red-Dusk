@@ -308,3 +308,30 @@ country_event = {
 	}
 }
 
+#Diplomacy
+country_event = {
+	id = vin.16
+	title = vin.16.t
+	desc = vin.16.d
+	picture = GFX_report_event_congress_end
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vin.16.a
+        complete_national_focus = VIN_Focus_on_the_socialist_country
+		ai_chance = { base = 25 }
+    }
+	option = {
+		name = vin.16.b
+        complete_national_focus = VIN_Look_to_capitalist_world
+		ai_chance = { base = 15 }
+    }
+	option = {
+		name = vin.16.c
+        complete_national_focus = VIN_Focus_on_the_socialist_country
+		complete_national_focus = VIN_Look_to_capitalist_world
+		add_political_power = -80
+		ai_chance = { base = 60 }
+    }
+}

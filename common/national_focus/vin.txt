@@ -134,7 +134,7 @@ focus_tree = {
 		completion_reward = {
 		add_tech_bonus = {
 			bonus = 0.5
-			uses = 2
+			uses = 1
 			category = industry
        }
 	   add_stability = 0.04
@@ -448,9 +448,7 @@ focus_tree = {
 		remove_idea = VIN_fifty_years_resistance_3
 		add_idea = VIN_fifty_years_resistance_4
 	}
-	    VIN = {
-				country_event = { id = vin.6 }
-			}
+
 	}
 	}
 	
@@ -569,6 +567,11 @@ focus_tree = {
 		prerequisite = { focus = Amendment_of_the_Labor_Code}
         completion_reward = {	
 		add_ideas = VIN_Industrialization_plan
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = industry
+       }
 	}
 	}
 	#No time to waste
@@ -648,7 +651,12 @@ focus_tree = {
 			remove_idea = VIN_Industrialization_plan_fast_1
 			add_idea =  VIN_Industrialization_plan_fast_4
 				}
-			}		
+			}
+		swap_ideas = {
+		remove_idea = VIN_agriculture_development_plan
+		add_idea = VIN_agriculture_development_plan_industry 
+		}
+          			
 	}
 	}
 
@@ -665,7 +673,12 @@ focus_tree = {
 		prerequisite = { focus = VIN_Path_to_Industrialization}
 		available = {has_country_flag = vin_small_industry}
 		mutually_exclusive = { focus = VIN_No_time_to_waste }
-        completion_reward = {	
+        completion_reward = {
+        swap_ideas = {
+        remove_idea = VIN_Industrialization_plan
+		add_idea = VIN_Industrialization_plan_steady
+		}
+		
 	}
 	}
 	#Agriculture is the key to Industrialization
@@ -680,6 +693,10 @@ focus_tree = {
 		}
 		prerequisite = { focus = VIN_steady_forward}
         completion_reward = {	
+		swap_ideas = {
+		add_idea = VIN_agriculture_development_plan_steady
+		remove_idea = VIN_agriculture_development_plan
+	}
 	}
 	}
 	#Focus on light industries
@@ -694,6 +711,10 @@ focus_tree = {
 		}
 		prerequisite = { focus = VIN_steady_forward}
         completion_reward = {	
+		swap_ideas = { 
+		add_idea = VIN_Industrialization_plan_steady_1
+		remove_idea = VIN_Industrialization_plan_steady
+		}
 	}
 	}
 	#State visit to Laos
@@ -732,6 +753,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = VIN_visit_Laos}
         completion_reward = {	
+		country_event = vin.16
 	}
 	}
 	#Focus on the socialist countries
@@ -762,6 +784,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = VIN_Focus_on_the_socialist_country}
         completion_reward = {	
+		
 	}
 	}
 

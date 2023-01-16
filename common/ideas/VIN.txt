@@ -257,7 +257,40 @@ ideas = {
 			}
 
 			modifier = {
-				consumer_goods_factor = -0.03
+				consumer_goods_factor = -0.05
+				global_building_slots_factor = -0.05
+				monthly_population = 0.1
+			}
+		}
+		VIN_agriculture_development_plan_steady = {
+			name = VIN_agriculture_development_plan_name
+
+			removal_cost = -1
+
+			picture = gre_agricultural_communes
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.1
+				global_building_slots_factor = -0.1
+				monthly_population = 0.15
+			}
+		}
+		VIN_agriculture_development_plan_industry = {
+			name = VIN_agriculture_development_plan_name
+
+			removal_cost = -1
+
+			picture = gre_agricultural_communes
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
 				global_building_slots_factor = -0.05
 				monthly_population = 0.1
 			}
@@ -292,7 +325,9 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = 0.05
-				production_speed_industrial_complex_factor = 0.1 
+				production_speed_industrial_complex_factor = 0.12 
+				production_speed_buildings_factor = 0.05
+				
 				
 			}
 		}
@@ -309,8 +344,9 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = 0.05
-				production_speed_industrial_complex_factor = 0.1
-                industrial_capacity_factory = 0.05				
+				production_speed_industrial_complex_factor = 0.12
+                industrial_capacity_factory = 0.05
+                production_speed_buildings_factor = 0.05				
 				
 			}
 		}
@@ -327,9 +363,10 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = 0.05
-				production_speed_industrial_complex_factor = 0.1
+				production_speed_industrial_complex_factor = 0.12
                 industrial_capacity_factory = 0.05				
 				global_building_slots_factor = 0.1
+			    production_speed_buildings_factor = 0.05
 			}
 		}
 		VIN_Industrialization_plan_fast_4 = {
@@ -345,8 +382,9 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = 0.05
-				production_speed_industrial_complex_factor = 0.1				
+				production_speed_industrial_complex_factor = 0.12				
 				global_building_slots_factor = 0.1
+				production_speed_buildings_factor = 0.05
 			}
 		}
 		VIN_Industrialization_plan_fast_5 = {
@@ -362,9 +400,46 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = 0.05
-				production_speed_industrial_complex_factor = 0.1				
+				production_speed_industrial_complex_factor = 0.12				
 				global_building_slots_factor = 0.1
 			    industrial_capacity_factory = 0.05
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		VIN_Industrialization_plan_steady = {
+			name = VIN_Industrialization_plan_name
+
+			removal_cost = -1
+
+			picture = VIN_industry_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_industrial_complex_factor = 0.05 
+				stability_factor = 0.03
+				production_speed_buildings_factor = -0.05
+				
+			}
+		}
+		VIN_Industrialization_plan_steady_1 = {
+			name = VIN_Industrialization_plan_name
+
+			removal_cost = -1
+
+			picture = VIN_industry_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_industrial_complex_factor = 0.05 
+				stability_factor = 0.03
+				production_speed_buildings_factor = -0.05
+				production_factory_efficiency_gain_factor = 0.05
 			}
 		}
 		VIN_corruption_1 = {

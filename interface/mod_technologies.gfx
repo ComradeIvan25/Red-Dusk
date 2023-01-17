@@ -406,6 +406,137 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/SAF_destroyer_hull_2000.dds"
 	}
 
+	# ENG #
+
+	SpriteType = {
+		name = "GFX_ENG_destroyer_hull_1960_medium"
+		texturefile = "gfx/interface/technologies/ENG_destroyer_hull_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_destroyer_hull_1980_medium"
+		texturefile = "gfx/interface/technologies/ENG_destroyer_hull_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_destroyer_hull_1990_medium"
+		texturefile = "gfx/interface/technologies/ENG_destroyer_hull_1990.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_destroyer_hull_2010_medium"
+		texturefile = "gfx/interface/technologies/ENG_destroyer_hull_2010.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_cruiser_hull_1960_medium"
+		texturefile = "gfx/interface/technologies/ENG_cruiser_hull_1960.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_carrier_hull_1960_medium"
+		texturefile = "gfx/interface/technologies/ENG_carrier_hull_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_carrier_hull_1980_medium"
+		texturefile = "gfx/interface/technologies/ENG_carrier_hull_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_carrier_hull_2020_medium"
+		texturefile = "gfx/interface/technologies/ENG_carrier_hull_2020.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_attack_submarine_hull_1960_medium"
+		texturefile = "gfx/interface/technologies/ENG_attack_submarine_hull_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_attack_submarine_hull_1980_medium"
+		texturefile = "gfx/interface/technologies/ENG_attack_submarine_hull_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_attack_submarine_hull_1990_medium"
+		texturefile = "gfx/interface/technologies/ENG_attack_submarine_hull_1990.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_attack_submarine_hull_2000_medium"
+		texturefile = "gfx/interface/technologies/ENG_attack_submarine_hull_2000.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_ballistic_submarine_hull_1960_medium"
+		texturefile = "gfx/interface/technologies/ENG_ballistic_submarine_hull_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_ballistic_submarine_hull_1980_medium"
+		texturefile = "gfx/interface/technologies/ENG_ballistic_submarine_hull_1980.dds"
+	}
+
+	# FRA #
+
+	SpriteType = {
+		name = "GFX_FRA_corvette_hull_1960_medium"
+		texturefile = "gfx/interface/technologies/FRA_corvette_hull_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_corvette_hull_1990_medium"
+		texturefile = "gfx/interface/technologies/FRA_corvette_hull_1990.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_destroyer_hull_1960_medium"
+		texturefile = "gfx/interface/technologies/FRA_destroyer_hull_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_destroyer_hull_1980_medium"
+		texturefile = "gfx/interface/technologies/FRA_destroyer_hull_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_destroyer_hull_1990_medium"
+		texturefile = "gfx/interface/technologies/FRA_destroyer_hull_1990.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_destroyer_hull_2000_medium"
+		texturefile = "gfx/interface/technologies/FRA_destroyer_hull_2000.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_destroyer_hull_2010_medium"
+		texturefile = "gfx/interface/technologies/FRA_destroyer_hull_2010.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_cruiser_hull_1960_medium"
+		texturefile = "gfx/interface/technologies/FRA_cruiser_hull_1960.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_carrier_hull_1960_medium"
+		texturefile = "gfx/interface/technologies/FRA_carrier_hull_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_carrier_hull_1980_medium"
+		texturefile = "gfx/interface/technologies/FRA_carrier_hull_1980.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_attack_submarine_hull_1960_medium"
+		texturefile = "gfx/interface/technologies/FRA_attack_submarine_hull_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_attack_submarine_hull_1980_medium"
+		texturefile = "gfx/interface/technologies/FRA_attack_submarine_hull_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_attack_submarine_hull_2010_medium"
+		texturefile = "gfx/interface/technologies/FRA_attack_submarine_hull_2010.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_ballistic_submarine_hull_1960_medium"
+		texturefile = "gfx/interface/technologies/FRA_ballistic_submarine_hull_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_ballistic_submarine_hull_1980_medium"
+		texturefile = "gfx/interface/technologies/FRA_ballistic_submarine_hull_1980.dds"
+	}
+
 	## MTG Designer Modules ##
 
 	SpriteType = {

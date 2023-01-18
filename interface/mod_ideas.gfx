@@ -269,6 +269,10 @@ spriteTypes = {
 		name = "GFX_idea_VIN_industry_icon"
 		texturefile = "gfx/interface/ideas/VIN_industry.png"
 	}
+	spriteType = {
+		name = "GFX_idea_VIN_socialist_state_icon"
+		texturefile = "gfx/interface/ideas/VIN_socialist_state.png"
+	}
 	
 	#YUGOSLAVIA#
 	

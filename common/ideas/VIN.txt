@@ -211,7 +211,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = VIN_doi_moi_icon
+			picture = VIN_socialist_state_icon
 
 			allowed = {
 				always = no

@@ -113,6 +113,9 @@ focus_tree = {
 		prerequisite = { focus = VIN_open_stock_market  }
 		completion_reward = {
 		add_opinion_modifier = { target = USA modifier = medium_increase } 
+		USA = { 
+		add_opinion_modifier = { target = VIN modifier = medium_increase }
+		}
 		swap_ideas = {
 		remove_idea = VIN_doi_moi
 		add_idea = VIN_doi_moi_1
@@ -784,7 +787,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = VIN_Focus_on_the_socialist_country}
         completion_reward = {	
-		
+		diplomatic_relation = { 
+	    country = PRC
+	    relation = non_aggression_pact
+	    active = yes
+      } 
 	}
 	}
 
@@ -800,6 +807,24 @@ focus_tree = {
 		}
 		prerequisite = { focus = VIN_Focus_on_the_socialist_country}
         completion_reward = {	
+		add_popularity = {
+			ideology = communism 
+			popularity = 0.05
+		}
+		SOV = { 
+		diplomatic_relation = { 
+	    country = VIN
+	    relation = guarantee 
+	    active = yes
+      }
+	   SOV = { 
+		diplomatic_relation = { 
+	    country = VIN
+	    relation = docking_rights
+	    active = yes
+      }
+    }	  
+	}
 	}
 	}
 	#Flight to Pyongyang
@@ -815,6 +840,16 @@ focus_tree = {
 		prerequisite = { focus = VIN_A_hand_shake_with_Soviet_Ambassador}
 		prerequisite = { focus = VIN_A_message_to_China }
         completion_reward = {	
+		add_opinion_modifier = { target = KOR modifier = large_increase } 
+		KOR = { 
+		add_opinion_modifier = { target = VIN modifier = large_increase }
+		}
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = infantry_weapons
+       }
+	   country_event = vin.17
 	}
 	}
 	#Look to capitalist world
@@ -844,6 +879,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = VIN_Look_to_capitalist_world}
         completion_reward = {	
+		add_ideas = SIA_asean_observer_states
 	}
 	}
 	#Visit Japan
@@ -858,6 +894,13 @@ focus_tree = {
 		}
 		prerequisite = { focus = VIN_Look_to_capitalist_world}
         completion_reward = {	
+		VIN = {
+				add_opinion_modifier = { target = JAP modifier = VIN_trade_with_China }
+			}
+		add_opinion_modifier = { target = JAP modifier = medium_increase } 
+		JAP = { 
+		add_opinion_modifier = { target = VIN modifier = medium_increase }
+		}
 	}
 	}
 	#Negotiating with the EU
@@ -873,6 +916,16 @@ focus_tree = {
 		prerequisite = { focus = VIN_appoarch_ASEAN_countries}
 		prerequisite = { focus = VIN_visit_Japan }
         completion_reward = {	
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.05
+		}
+		add_political_power = 50
+		VIN = {
+				add_opinion_modifier = { target = GER modifier = VIN_trade_with_EU }
+				add_opinion_modifier = { target = FRA modifier = VIN_trade_with_EU }
+				add_opinion_modifier = { target = ENG modifier = VIN_trade_with_EU }
+			}
 	}
 	}
 	#2002 ELection

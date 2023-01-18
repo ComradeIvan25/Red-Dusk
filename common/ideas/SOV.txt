@@ -843,11 +843,12 @@ ideas = {
 				
 
 			modifier = {
-			production_speed_industrial_complex_factor = 0.15
-			consumer_goods_factor = -0.05
+			production_speed_factor = 0.15
+			consumer_goods_factor = 0.05
 			production_factory_efficiency_gain_factor = 0.15
-			army_attack_factor = 0.2
-			
+			army_attack_factor = 0.08
+			army_org_factor = 0.05
+			experience_gain_army_unit_factor = 0.05
 			}
 
 		}
@@ -866,11 +867,12 @@ ideas = {
 				
 
 			modifier = {
-			army_defence_factor = 0.2
-			army_attack_factor = 0.15
-			add_stability = 0.1
-			add_war_support = -0.1
-			
+			army_defence_factor = 0.1
+			army_attack_factor = 0.1
+			stability_factor = 0.1 = 0.1
+			war_support_factor_factor = -0.1
+			army_org_factor = 0.1
+			experience_gain_army = 0.01
 			}
 
 		}

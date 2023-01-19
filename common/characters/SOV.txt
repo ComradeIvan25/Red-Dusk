@@ -225,21 +225,6 @@ characters = {
 		}
 	}
 
-	MAN_shoigu = {
-		name = "Ivan Silayev"
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/SOV/Sergey_Shoigu.dds.dds"
-			}
-		}
-		country_leader = {
-			ideology = leninism
-			traits = {}
-			expire = "2050.3.1.1"
-			id = -1
-		}
-	}
-
 	## Advisors ##
 
 	SOV_yuri_maslyukov = {

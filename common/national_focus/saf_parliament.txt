@@ -1011,7 +1011,7 @@ focus_tree = {
 	
 	focus = {
 		id = SAF_parliment_economy_open_new_mines
-		icon = x
+		icon = GFX_focus_SAF_open_mines
 		x = -7
 		y = 1
 		
@@ -1358,7 +1358,7 @@ focus_tree = {
 		
 	focus = {
 		id = SAF_parliment_economy_expand_safari_business
-		icon = x
+		icon = GFX_focus_SAF_safari
 		x = 0
 		y = 2
 		
@@ -1400,7 +1400,7 @@ focus_tree = {
 	
 	focus = {
 		id = SAF_parliment_economy_encourage_the_transport_sector
-		icon = x
+		icon = GFX_focus_SAF_public_transport
 		x = 7
 		y = 1
 		
@@ -1445,7 +1445,7 @@ focus_tree = {
 		
 	focus = {
 		id = SAF_parliment_economy_improve_the_roads
-		icon = x
+		icon = GFX_focus_SAF_improve_roads
 		x = 0
 		y = 2
 		
@@ -1535,7 +1535,7 @@ focus_tree = {
 	
 	focus = {
 		id = SAF_parliment_economy_a_new_great_industrial_era
-		icon = x
+		icon = GFX_focus_SAF_new_industrial_era
 		x = -7
 		y = 2
 		

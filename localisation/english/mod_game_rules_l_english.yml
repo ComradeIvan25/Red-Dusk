@@ -29,7 +29,7 @@
  IRQ_UAR_PATH_CHOSEN:0 "@IRQ §LSaddam§! proclaims United §gArab§! §GRepublics§!"
  IRQ_UAR_PATH_CHOSEN_DESC:0 "After winning against Iraq's enemies, §LSaddam Hussein§! will proclaim @IRQ United §gArab§! §GRepublics§!"
  IRQ_GREATER_IRAQ_PATH_CHOSEN:0 "@IRQ §LSaddam§! proclaims §GGreater§! §YIraq§!"
- IRQ_GREATER_IRAQ_PATH_CHOSEN_DESC:0 "After winning against Iraq's enemies, §LSaddam Hussein§! will proclaim @IRQ §RProclaim§! §GGreater§! §YIraq§!"
+ IRQ_GREATER_IRAQ_PATH_CHOSEN_DESC:0 "After winning against Iraq's enemies, §LSaddam Hussein§! will proclaim @IRQ §GGreater§! §YIraq§!"
  
  USA_REP_CANS_PATH:0 "@USA 2000 §RRepublican§! Primaries"
  USA_BUSH_WINS_REP_CAN:0 "@USA §RGeorge Bush§! wins"
@@ -43,7 +43,7 @@
  USA_BIDEN_WINS_DEM_CAN:0 "@USA §CJoe Biden§! wins"
  USA_BIDEN_WINS_DEM_CAN_DESC:0 "@USA §CJoe Biden§! wins the §CDemocrat Primaries§!, and will run for the elections."
  
- USA_REF_CANS_PATH:0 "@USA 2000 §gReforms§! Primaries"
+ USA_REF_CANS_PATH:0 "@USA 2000 §gReform§! Primaries"
  USA_TRUMP_WINS_REF_CAN:0 "@USA §gDonald Trump§! wins"
  USA_TRUMP_WINS_REF_CAN_DESC:0 "@USA §gDonald Trump§! wins the §gReform Primaries§!, and will run for the elections."
  USA_BUCHANAN_WINS_REF_CAN:0 "@USA §gPat Buchanan§! wins"

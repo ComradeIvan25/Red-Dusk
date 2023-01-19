@@ -1608,6 +1608,30 @@ spriteTypes = {
 		name = "GFX_focus_SAF_encourage_tourism"
 		texturefile = "gfx/interface/goals/SAF/focus_SAF_encourage_tourism.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_SAF_safari"
+		texturefile = "gfx/interface/goals/SAF/focus_SAF_safari.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_encourage_transport"
+		texturefile = "gfx/interface/goals/SAF/focus_SAF_encourage_transport.png"
+	}	
+	SpriteType = {
+		name = "GFX_focus_SAF_improve_roads"
+		texturefile = "gfx/interface/goals/SAF/focus_SAF_improve_roads.png"
+	}		
+	SpriteType = {
+		name = "GFX_focus_SAF_open_mines"
+		texturefile = "gfx/interface/goals/SAF/focus_SAF_open_mines.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_new_industrial_era"
+		texturefile = "gfx/interface/goals/SAF/focus_SAF_new_industrial_era.png"
+	}	
+	SpriteType = {
+		name = "GFX_focus_SAF_they_believed"
+		texturefile = "gfx/interface/goals/SAF/focus_SAF_they_believed.png"
+	}		
 
    ###ANC###
 
@@ -1793,7 +1817,11 @@ spriteTypes = {
 	}
 
    ###YUG###
-
+	
+	SpriteType = {
+		name = "GFX_focus_YUG_broken_nation"
+		texturefile = "gfx/interface/goals/YUG/focus_YUG_broken_nation.png"
+	}
 	SpriteType = {
 		name = "GFX_focus_YUG_slobos_11"
 		texturefile = "gfx/interface/goals/YUG/focus_YUG_slobo.png"

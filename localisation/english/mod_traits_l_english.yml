@@ -3,6 +3,7 @@
  chief_of_staff_of_the_presidency:0 "Chief of Staff of the Presidency"
  minister_of_labour:0 "Minister of Labour"
  minister_of_defence:0 "Minister of Defence"
+ minister_of_defence_2:0 "Minister of Defence"
  populer_army_leader:0 "Populer Army Leader"
  infantry_orianted_commander:0 "Infantry Orianted Commander"
  offensive_doctrine:0 "Offensive Doctrine"
@@ -18,6 +19,8 @@
  secretary_of_treasury:0 "Secretary of Treasury"
  secretary_of_state:0 "Secretary of State"
  prime_minister:0 "Prime Minister"
+ president:0 "President"
+ head_of_central_economic_commission:0 "Head of Central Economic Commission"
  
  #SOVIET ADVISORS#
  party_hardliner:0 "Party Hardliner"

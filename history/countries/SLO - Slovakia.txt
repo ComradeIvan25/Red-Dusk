@@ -2,6 +2,7 @@
 
 recruit_character = SLO_rudolf_schuster
 recruit_character = SLO_pavol_dubček
+recruit_character = SLO_jan_slota
 
 add_ideas = east_europe_eastern_threat
 add_ideas = east_europe_privatization
@@ -16,10 +17,10 @@ set_politics = {
 set_popularities = {
 	communism = 3
 	reformed_communism = 0
-	social_democracy = 47
-	liberalism = 10
-	democratic = 0
-	neutrality = 37
-	paternal_autocracy = 0
+	social_democracy = 32
+	liberalism = 0
+	democratic = 20
+	neutrality = 32
+	paternal_autocracy = 10 #hungarian minority 
 	fascism = 3 #SLOTA HOLY SHIT SLOTA PARTY
 }

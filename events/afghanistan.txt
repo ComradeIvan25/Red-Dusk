@@ -35,7 +35,7 @@ country_event = {
 			modifier = {
 				factor = 99999
 				has_game_rule = {
-				rule = NRO_ELECTION_PATH
+				rule = NRO_election_paths_selection
 				option = NRO_MASSOUD_WINS_PATH_CHOSEN
 				}
 			}
@@ -72,7 +72,7 @@ country_event = {
 			modifier = {
 				factor = 99999
 				has_game_rule = {
-				rule = NRO_ELECTION_PATH
+				rule = NRO_election_paths_selection
 				option = NRO_MOHAQIQ_WINS_PATH_CHOSEN
 				}
 			}
@@ -109,7 +109,7 @@ country_event = {
 			modifier = {
 				factor = 99999
 				has_game_rule = {
-				rule = NRO_ELECTION_PATH
+				rule = NRO_election_paths_selection
 				option = NRO_DOSTUM_WINS_PATH_CHOSEN
 				}
 			}

@@ -16,12 +16,13 @@ set_politics = {
 set_popularities = {
 	communism = 0
 	reformed_communism = 0
-	social_democracy = 22
-	liberalism = 40
-	democratic = 33
+	socialism = 2
+	social_democracy = 16
+	liberalism = 32
+	democratic = 30
 	neutrality = 0
 	paternal_autocracy = 0
-	fascism = 5
+	fascism = 20
 }
 
 add_opinion_modifier = { target = YUG modifier = HISTORIC_yugoslavia_seperatists_opinion }

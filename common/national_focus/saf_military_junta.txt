@@ -2,10 +2,6 @@ focus_tree = {
 	id = saf_military_junta_focus
 	country = {
 		factor = 0
-		modifier = {
-		tag = SAF
-		add = 99
-		}
 	}
 
 	default = no
@@ -236,7 +232,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SAF_idiots
-		icon = x
+		icon = GFX_focus_SAF_they_believed
 		x = 12
 		y = 15
 
@@ -830,7 +826,7 @@ focus_tree = {
 	
 	focus = {
 		id = SAF_junta_economy_open_new_mines
-		icon = x
+		icon = GFX_focus_SAF_open_mines
 		x = -7
 		y = 1
 		
@@ -1022,7 +1018,7 @@ focus_tree = {
 		relative_position_id = SAF_junta_economy_modernize_our_industry
 		
 		completion_reward = {
-			add_ideas = SAF_illicit_investments
+			add_ideas = SAF_illicit_investments_in_the_military
 			swap_ideas = {
 			remove_idea = export_focus
 			add_idea = closed_economy
@@ -1224,7 +1220,7 @@ focus_tree = {
 		
 	focus = {
 		id = SAF_junta_economy_expand_safari_business
-		icon = x
+		icon = GFX_focus_SAF_safari
 		x = 0
 		y = 1
 		
@@ -1266,7 +1262,7 @@ focus_tree = {
 	
 	focus = {
 		id = SAF_junta_economy_encourage_the_transport_sector
-		icon = x
+		icon = GFX_focus_SAF_encourage_transport
 		x = 7
 		y = 1
 		
@@ -1311,7 +1307,7 @@ focus_tree = {
 		
 	focus = {
 		id = SAF_junta_economy_improve_the_roads
-		icon = x
+		icon = GFX_focus_SAF_improve_roads
 		x = 0
 		y = 1
 		

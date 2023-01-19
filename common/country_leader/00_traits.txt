@@ -39,6 +39,17 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	
+	minister_of_defence_2 = {
+		random = no
+		experience_gain_army = 0.12
+		army_org_factor = 0.05
+		mobilization_speed = 0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}	
 		
 	populer_army_leader = {
 		random = no
@@ -265,6 +276,24 @@ leader_traits = {
 		}
 	}
 	
+	president = {
+		random = no
+		political_power_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	head_of_central_economic_commission = {
+		random = no
+		production_speed_buildings_factor = 0.05
+		production_factory_max_efficiency_factor = 0.08 
+
+		ai_will_do = {
+			factor = 1
+		}
+	}	
 	## industrial concern ##
 	
 	railway_company = {

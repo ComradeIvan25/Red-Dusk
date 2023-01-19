@@ -1,93 +1,59 @@
 guiTypes = {
 
-	#containerWindowType = {
-	#	name = "yug_republics_gui_window"
-	#	position = { x = 550 y = 111 }
-	#	size = { width = 474% height= 287 }
-	#	moveable = no
-	#	
-	#	background = {
-	#	name = "yug_background"
-	#	quadtexturesprite = GFX_square_background_gui
-	#
-	#	}
-	#	
-	#	instantTextBoxType = {
-	#		name ="republics_of_yugoslavia_text_box"
-	#		position = { x = 375 y = 0 }
-	#		font = "hoi_30header"
-	#		text = "republics_of_yugoslavia_loc"
-	#		format = center
-	#		maxHeight = 0
-	#		maxWidth = 555
-	#	}
-	#	
-	#	iconType = {
-	#		name ="yug_sr_bosnia_flag"
-	#		spriteType = "GFX_yug_sr_bosnia_flag_icon_gui"
-	#		position = { x=195 y=105 }
-	#		
-	#	}
-	#	
-	#	instantTextBoxType = {
-	#		name ="yug_bosnia_text_box"
-	#		position = { x = 20 y = 232 }
-	#		font = "hoi_30header"
-	#		text = "yug_bosnia_loc"
-	#		format = center
-	#		maxHeight = 0
-	#		maxWidth = 555
-	#	}
-	#	
-	#	iconType = {
-	#		name ="yug_sr_macedonia_flag"
-	#		spriteType = "GFX_yug_sr_macedonia_flag_icon_gui"
-	#		position = { x=695 y=105 }
-	#		
-	#	}
-	#	
-	#	instantTextBoxType = {
-	#		name ="yug_macedonia_text_box"
-	#		position = { x = 500 y = 232 }
-	#		font = "hoi_30header"
-	#		text = "yug_macedonia_loc"
-	#		format = center
-	#		maxHeight = 0
-	#		maxWidth = 555
-	#	}
-	#	
-	#	iconType = {
-	#		name ="yug_serbia_flag"
-	#		spriteType = "GFX_yug_serbia_flag_icon_gui"
-	#		position = { x=695 y=105 }
-	#		
-	#	}
-	#	
-	#	instantTextBoxType = {
-	#		name ="yug_serbia_text_box"
-	#		position = { x = 500 y = 232 }
-	#		font = "hoi_30header"
-	#		text = "yug_serbia_loc"
-	#		format = center
-	#		maxHeight = 0
-	#		maxWidth = 555
-	#	}
-	#	
-	#}
+	containerWindowType = {
+	 	name = "yug_power_struggle_gui_window"
+	 	position = { x = 550 y = 111 }
+	 	size = { width = 474% height= 287 }
+	 	moveable = no
+	 	
+	 	background = {
+	 	name = "yug_background"
+	 	quadtexturesprite = GFX_square_background_gui
+	 
+	 	}
+	 	
+	 	instantTextBoxType = {
+	 		name ="republics_of_yugoslavia_text_box"
+	 		position = { x = 375 y = 0 }
+	 		font = "hoi_30header"
+	 		text = "republics_of_yugoslavia_loc"
+	 		format = center
+	 		maxHeight = 0
+	 		maxWidth = 555
+	 	}
+	 	
+	 	iconType = {
+	 		name ="yug_sr_bosnia_flag"
+	 		spriteType = "GFX_yug_sr_bosnia_flag_icon_gui"
+	 		position = { x=195 y=105 }
+	 		
+	 	}
+	 	
+	 	instantTextBoxType = {
+	 		name ="yug_bosnia_text_box"
+	 		position = { x = 20 y = 232 }
+	 		font = "hoi_30header"
+	 		text = "yug_bosnia_loc"
+	 		format = center
+	 		maxHeight = 0
+	 		maxWidth = 555
+	 	}
+	 	
+	}
 	
-	#containerWindowType = {
-	#	name = "open_da_yug_republics_gui_window"
-	#	position = { x = 400 y = 430 }
-	#	size = { width = 474% height= 287 }
-	#	moveable = no
-	#
-	#	iconType = {
-	#		name ="yug_open_da_gui"
-	#		spriteType = "GFX_yug_republics_icon_gui"
-	#		position = { x=0 y=0 }
-	#		pdx_tooltip = yug_this_opens_da_gui
-	#
-	#	}
-	#	
-	#}
+	containerWindowType = {
+		name = "open_da_yug_power_struggle_gui_window"
+		position = { x = 400 y = 430 }
+		size = { width = 474% height= 287 }
+		moveable = no
+	
+		iconType = {
+			name ="open_da_yug_power_struggle_icon_gui"
+			spriteType = "GFX_yug_republics_icon_gui"
+			position = { x=0 y=0 }
+			pdx_tooltip = yug_this_opens_da_gui
+	
+		}
+		
+	}
 }

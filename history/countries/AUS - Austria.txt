@@ -14,12 +14,13 @@ set_politics = {
 set_popularities = {
 	communism = 0
 	reformed_communism = 0
-	social_democracy = 40
+	socialism = 5
+	social_democracy = 35
 	liberalism = 10
-	democratic = 50
+	democratic = 25
 	neutrality = 0
 	paternal_autocracy = 0
-	fascism = 0
+	fascism = 25
 }
 
 recruit_character = AUS_viktor_klima

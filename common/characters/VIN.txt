@@ -43,7 +43,49 @@ characters = {
 			id = -1
 		}
 	}
+	
+	### ADVISORS ###
+	
+	VIN_Tran_Duc_Luong = {
+		name = "Tran Duc Luong"
+		portraits = {
+			civilian = {
+				small = "gfx/leaders/VIN/VIN_Tran_Duc_Luong_small.png"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = VIN_Tran_Duc_Luong
+			allowed = {
+				original_tag = VIN
+			}
+			traits = {
+				president 
+			}
+		}
+	}
 
+	VIN_Truong_Tan_Sang = {
+		name = "Truong Tan Sang"
+		portraits = {
+			civilian = {
+				small = "gfx/leaders/VIN/VIN_Truong_Tan_Sang_small.png"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = VIN_Truong_Tan_Sang
+			allowed = {
+				original_tag = VIN
+			}
+			traits = {
+				head_of_central_economic_commission 
+			}
+		}
+	}		
+	
   ### Generals ###
      VIN_phung_quang_thanh = {
 		name = "Phung Quang Thanh"
@@ -68,6 +110,9 @@ characters = {
 			army = {
 				large = "gfx/leaders/VIN/Pham_Van_Tra.png"
 			}
+			civilian = {
+				small = "gfx/leaders/VIN/VIN_Pham_Van_Tra_small.png"
+			}
 		}
 		field_marshal={
 			traits={ }
@@ -77,6 +122,17 @@ characters = {
 			planning_skill=2
 			logistics_skill=3
 			legacy_id=-1
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = VIN_Pham_Van_Tra
+			allowed = {
+				original_tag = VIN
+			}
+			traits = {
+				minister_of_defence_2 
+			}
 		}
 	}
       VIN_Ngo_Xuan_Lich = {

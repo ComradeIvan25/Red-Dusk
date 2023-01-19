@@ -94,6 +94,14 @@ recruit_character = VIN_Nguyen_Huu_Kham
 recruit_character = VIN_Do_Xuan_Cong
 recruit_character = VIN_Pham_Xuan_The
 recruit_character = VIN_nong_duc_manh
+
+recruit_character = VIN_Tran_Duc_Luong
+recruit_character = VIN_Truong_Tan_Sang
+
+add_ideas = VIN_Tran_Duc_Luong
+add_ideas = VIN_Truong_Tan_Sang
+add_ideas = VIN_Pham_Van_Tra
+
 set_politics = {
 	ruling_party = communism
 	last_election = "1933.2.16"

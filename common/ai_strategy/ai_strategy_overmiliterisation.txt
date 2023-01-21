@@ -1,0 +1,31 @@
+overmiliterisation_strategy_training = {
+	enable = {
+		always = yes
+		check_variable = {
+			var = THIS.num_battalions
+			value = THIS.num_battalions_max
+			compare = greater_than_or_equals
+		}
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = armor
+		value = -1000
+	}
+	ai_strategy = {
+		type = build_army
+		id = garrison
+		value = -1000
+	}
+	ai_strategy = {
+		type = build_army
+		id = suppression
+		value = -1000
+	}
+	ai_strategy = {
+		type = build_army
+		id = infantry
+		value = -1000
+	}
+}

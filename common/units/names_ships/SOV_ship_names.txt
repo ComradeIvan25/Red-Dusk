@@ -105,6 +105,57 @@ SOV_CORVETTE_NUMERICAL = {
 	ordered = {
 	}
 }
+SOV_MISSILE_CORVETTE_NUMERICAL = {
+	name = "Soviet Missile Corvettes"
+
+	for_countries = { SOV }
+
+	can_use = {
+		always = yes
+	}
+
+	type = ship
+	ship_types = { corvette_hull }
+	
+	fallback_name = "MRK-%d"
+	
+	ordered = {
+	}
+}
+SOV_MISSILE_BOAT_NUMERICAL = {
+	name = "Soviet Missile Boats"
+
+	for_countries = { SOV }
+
+	can_use = {
+		always = yes
+	}
+
+	type = ship
+	ship_types = { corvette_hull }
+	
+	fallback_name = "R-%d"
+	
+	ordered = {
+	}
+}
+SOV_GUARD_NUMERICAL = {
+	name = "Soviet Guard Ships"
+
+	for_countries = { SOV }
+
+	can_use = {
+		always = yes
+	}
+
+	type = ship
+	ship_types = { corvette_hull }
+	
+	fallback_name = "SKR-%d"
+	
+	ordered = {
+	}
+}
 
 ### GENERIC ###
 SOV_NAVAL_NAME_CITIES = {
@@ -150,5 +201,35 @@ SOV_NAVAL_NAME_ADMIRALS = {
 	
 	unique = {
 		"Admiral Panteleyev" "Admiral Isakov" "Admiral Yegorov" "Admiral Kapitanets" "Admiral Yegorov" "Admiral Lobov" "Admiral Sorokin" "Admiral Zozulya" "Admiral Kapitanets" "Vitse-admiral Abashvili" "Admiral Kharlamov" "Vitse-admiral Yegipko" "Vitse-admiral Vekman" "Vitse-admiral Martynyuk" "Admiral Smirnov" "Admiral Alekseev" "Admiral Basistiy" "Admiral Chernavin" "Admiral Berzin" "Admiral Gromov" "Admiral Zhiltsov" "Admiral Kitkin" "Admiral Zakharov" "Admiral Altfater" "Admiral Sergeyev" "Vitse-admiral Golosov" "Admiral Khronopulo" "Admiral Levchenko" "Admiral Berg" "Admiral Kasatonov" "Admiral Chabanenko" "Admiral Kuznetsov" "Admiral Vinogradov" "Vitse-admiral Stepanov" "Admiral Alafuzov" "Admiral Makarov" "Admiral Fokin" "Admiral Lunin" "Admiral Vladimirsky" "Admiral Shchedrin" "Admiral Mikhailin" "Admiral Gorshkov" "Admiral Spiridonov" "Admiral Berens" "Vitse-admiral Kulakov" "Admiral Yumashev" "Admiral Galler" "Admiral Tributs"
+	}
+}
+SOV_NAVAL_NAME_ADJECTIVES = {
+	name = "Soviet Adjectives"
+
+	for_countries = { SOV }
+
+	can_use = {
+		always = yes
+	}
+
+	type = ship
+	
+	unique = {
+		"Krasivyy" "Zharkiy" "Pechalnyy" "Plokhoy" "Priyatnyy" "Schastlivyy" "Molodoy" "Bol'shoy" "Chistyy" "Krepkiy" "Blizkiy" "Skuchnyy" "Udobnyy" "Tvordyy" "Chastyy" "Prostoy" "Vysokiy" "Skoryy" "Kholodnyy" "Pervyy" "Bystryy" "Malenkiy" "Trudnyy" "Gromkiy" "Medlennyy" "Tomnyy" "Sil'nyy" "Tolstyy" "Dorogoy" "Glavnyy" "Chastnyy" "Vazhnyy" "Novyy" "Staryy" "Strogiy" "Khoroshiy" "Ostryy" "Deshovyy" "Toplyy" "Yarkiy" "Interesnyy" "Gustoy" "Spokoynyy" "Sukhoy" "Posledniy" "Myagkiy" "Logkiy" "Dobryy" "Ryaznyy"
+	}
+}
+SOV_NAVAL_NAME_LEADERS = {
+	name = "Soviet Leaders"
+
+	for_countries = { SOV }
+
+	can_use = {
+		always = yes
+	}
+
+	type = ship
+	
+	unique = {
+		"Leonid Brezhnev" "Georgy Malenkov" "Konstantin Chernenko" "Vyacheslav Molotov" "Gennady Yanayev" "Nikita Krushchev" "Mikhail Gorbachev"
 	}
 }

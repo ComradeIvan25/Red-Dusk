@@ -1,0 +1,18 @@
+on_actions = {
+	on_weekly = {
+		effect = {
+			every_country = {
+				## Air ##
+				if = {
+					limit = {
+						check_variable = {
+							var = THIS.num_deployed_planes
+							value = THIS.num_planes_max
+							compare = greater_than_or_equals
+						}
+					}
+				}
+			}
+		}
+	}
+}

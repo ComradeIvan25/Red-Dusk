@@ -341,17 +341,32 @@ country_event = {
 	id = vin.17
 	title = vin.17.t
 	desc = vin.17.d
-	picture = GFX_report_event_congress_end
+	picture = GFX_report_event_DPRK_my_friend_1
 	
 	is_triggered_only = yes
 	
 	option = {
 		name = vin.17.a
-		ai_chance = { base = 25 }
+		hidden_effect = {
+		VIN = {
+				country_event = { id = vin.18 days = 2 }
+			}
+			}
+    }
+}
+#DPRK my friend_2
+country_event = {
+	id = vin.18
+	title = vin.18.t
+	desc = vin.18.d
+	picture = GFX_report_event_DPRK_my_friend_2
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vin.18.a
     }
 	option = {
-		name = vin.17.b
-		add_political_power = -50
-		ai_chance = { base = 75 }
+		name = vin.18.b
     }
 }

@@ -1702,6 +1702,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/VIN/VIN_greatest_generation.png"
 	}
 	SpriteType = {
+		name = "GFX_VIN_focus_Nong_Duc_Manh_gen_sec"
+		texturefile = "gfx/interface/goals/VIN/VIN_Nong_Duc_Manh_gen_sec.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_Glorious_labourer"
+		texturefile = "gfx/interface/goals/VIN/VIN_Glorious_labourer.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_hien_phap_2001"
+		texturefile = "gfx/interface/goals/VIN/VIN_hien_phap_2001.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_hien_phap_1992"
+		texturefile = "gfx/interface/goals/VIN/VIN_hien_phap_1992.png"
+	}
+	SpriteType = {
 		name = "VIN_PAVN"
 		texturefile = "gfx/interface/goals/VIN/VIN_PAVN.png"
 	}

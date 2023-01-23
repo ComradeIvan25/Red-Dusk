@@ -296,7 +296,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SAF_nis
-		icon = x
+		icon = GFX_focus_SAF_nis
 		x = 18.5
 		y = 12
 

@@ -1,6 +1,19 @@
 ﻿capital = 741
 
-#oob = "CAM_1936"
+set_oob = "CAM_2000"
+set_air_oob = "CAM_2000_air"
+
+set_technology = {
+	infantry_weapons_1960 = 1
+	infantry_anti_tank_weapons_1960 = 1
+	infantry_anti_air_weapons_1960 = 1
+	tech_support = 1
+	tech_motorised_1960 = 1
+	towed_artillery_1960 = 1
+	rocket_artillery_1960 = 1
+	mbt_tank_1960 = 1
+	apc_tank_1960 = 1
+}
 
 set_research_slots = 2
 
@@ -28,4 +41,8 @@ set_popularities = {
 	communism = 25
         reformed_communism = 25
 	neutrality = 35
+}
+
+add_ideas = {
+	limited_conscription
 }

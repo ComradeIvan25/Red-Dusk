@@ -26,6 +26,16 @@ if = {
 		recon_vehicle_1960 = 1
 	}
 }
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+
+	set_technology = {
+		attack_submarine_hull_1960 = 1
+		corvette_hull_1960 = 1
+	}
+}
 
 set_convoys = 5
 
@@ -60,3 +70,9 @@ diplomatic_relation = {
 }
 
 add_opinion_modifier = { target = ISR modifier = HISTORIC_israel_hostile_40_opinion }
+
+# Naval Variants #
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_naval_oob = "SYR_2000_naval_mtg"
+}

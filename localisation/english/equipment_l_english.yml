@@ -501,8 +501,8 @@
 
 ## Nation-Specific Tanks ##
 # SOV #
- SOV_mbt_tank_equipment_0:0 "T-64 MBT"
- SOV_mbt_tank_equipment_0_short:0 "T-64"
+ SOV_mbt_tank_equipment_0:0 "T-55 MBT"
+ SOV_mbt_tank_equipment_0_short:0 "T-55"
  SOV_mbt_tank_equipment_1:0 "T-72 MBT"
  SOV_mbt_tank_equipment_1_short:0 "T-72"
  SOV_mbt_tank_equipment_2:0 "T-80 MBT"

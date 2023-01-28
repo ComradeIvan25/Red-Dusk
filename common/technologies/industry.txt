@@ -1,0 +1,882 @@
+technologies = {
+
+## Trade ##
+
+	tech_modern_manufacturing = {
+
+		path = {
+			leads_to_tech = tech_containerisation
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1960
+
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 0 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_containerisation = {
+
+		path = {
+			leads_to_tech = tech_lean_manufacturing
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1960
+
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 2 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_lean_manufacturing = {
+
+		path = {
+			leads_to_tech = tech_globalised_economy
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tech_autarky
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1980
+
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 4 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_globalised_economy = {
+
+		path = {
+			leads_to_tech = tech_basic_international_trade
+			research_cost_coeff = 1
+		}
+
+		XOR = {
+			tech_autarky
+		}
+
+		research_cost = 3
+		start_year = 1980
+
+		folder = {
+			name = industry_folder
+			position = { x = -1 y = 6 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_basic_international_trade = {
+
+		path = {
+			leads_to_tech = tech_improved_international_trade
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 2000
+
+		folder = {
+			name = industry_folder
+			position = { x = -1 y = 8 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_improved_international_trade = {
+
+		path = {
+			leads_to_tech = tech_advanced_international_trade
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 2010
+
+		folder = {
+			name = industry_folder
+			position = { x = -1 y = 10 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_advanced_international_trade = {
+
+		research_cost = 3
+		start_year = 2020
+
+		folder = {
+			name = industry_folder
+			position = { x = -1 y = 12 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_autarky = {
+
+		path = {
+			leads_to_tech = tech_basic_self_sustainability
+			research_cost_coeff = 1
+		}
+
+		XOR = {
+			tech_globalised_economy
+		}
+
+		research_cost = 3
+		start_year = 1980
+
+		folder = {
+			name = industry_folder
+			position = { x = 1 y = 6 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_basic_self_sustainability = {
+
+		path = {
+			leads_to_tech = tech_improved_self_sustainability
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 2000
+
+		folder = {
+			name = industry_folder
+			position = { x = 1 y = 8 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_improved_self_sustainability = {
+
+		path = {
+			leads_to_tech = tech_advanced_self_sustainability
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 2010
+
+		folder = {
+			name = industry_folder
+			position = { x = 1 y = 10 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_advanced_self_sustainability = {
+
+		research_cost = 3
+		start_year = 2020
+
+		folder = {
+			name = industry_folder
+			position = { x = 1 y = 12 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+
+## Factories ##
+
+	tech_modern_factories = {
+
+		path = {
+			leads_to_tech = tech_digital_control
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1960
+
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 0 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_digital_control = {
+
+		path = {
+			leads_to_tech = tech_basic_automation
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1960
+
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 2 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_basic_automation = {
+
+		path = {
+			leads_to_tech = tech_human_sweatshops
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tech_automated_factories
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1980
+
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 4 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_human_sweatshops = {
+
+		path = {
+			leads_to_tech = tech_efficient_work_schedules
+			research_cost_coeff = 1
+		}
+
+		XOR = {
+			tech_automated_factories
+		}
+
+		research_cost = 3
+		start_year = 1980
+
+		folder = {
+			name = industry_folder
+			position = { x = -1 y = 6 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_efficient_work_schedules = {
+
+		path = {
+			leads_to_tech = tech_concentrated_industrial_areas
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tech_national_cargo_network
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 2000
+
+		folder = {
+			name = industry_folder
+			position = { x = -1 y = 8 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_concentrated_industrial_areas = {
+
+		path = {
+			leads_to_tech = tech_centralised_directives
+			research_cost_coeff = 1
+		}
+
+		XOR = {
+			tech_national_cargo_network
+		}
+
+		research_cost = 3
+		start_year = 2010
+
+		folder = {
+			name = industry_folder
+			position = { x = -1 y = 10 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_centralised_directives = {
+
+		research_cost = 3
+		start_year = 2020
+
+		folder = {
+			name = industry_folder
+			position = { x = -1 y = 12 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_automated_factories = {
+
+		path = {
+			leads_to_tech = tech_factory_digitisation
+			research_cost_coeff = 1
+		}
+
+		XOR = {
+			tech_human_sweatshops
+		}
+
+		research_cost = 3
+		start_year = 1980
+
+		folder = {
+			name = industry_folder
+			position = { x = 1 y = 6 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_factory_digitisation = {
+
+		path = {
+			leads_to_tech = tech_national_cargo_network
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tech_concentrated_industrial_areas
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 2000
+
+		folder = {
+			name = industry_folder
+			position = { x = 1 y = 8 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_national_cargo_network = {
+
+		path = {
+			leads_to_tech = tech_regional_independence
+			research_cost_coeff = 1
+		}
+
+		XOR = {
+			tech_concentrated_industrial_areas
+		}
+
+		research_cost = 3
+		start_year = 2010
+
+		folder = {
+			name = industry_folder
+			position = { x = 1 y = 10 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_regional_independence = {
+
+		research_cost = 3
+		start_year = 2020
+
+		folder = {
+			name = industry_folder
+			position = { x = 1 y = 12 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+
+## Construction ##
+
+	tech_modern_construction = {
+
+		path = {
+			leads_to_tech = tech_prefabrication
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1960
+
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 0 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_prefabrication = {
+
+		path = {
+			leads_to_tech = tech_computer_aided_design
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1960
+
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 2 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_computer_aided_design = {
+
+		path = {
+			leads_to_tech = tech_modern_build_codes
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1980
+
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 4 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_modern_build_codes = {
+
+		path = {
+			leads_to_tech = tech_energy_conservation
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1980
+
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 6 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_energy_conservation = {
+
+		path = {
+			leads_to_tech = tech_advanced_materials
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 2000
+
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 8 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_advanced_materials = {
+
+		path = {
+			leads_to_tech = tech_ecological_construction
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 2010
+
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 10 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_ecological_construction = {
+
+		research_cost = 3
+		start_year = 2020
+
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 12 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+
+## Resources ##
+
+	tech_basic_resource_extraction = {
+
+		path = {
+			leads_to_tech = tech_improved_resource_extraction
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tech_rotary_drilling
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1960
+
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 0 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_improved_resource_extraction = {
+
+		path = {
+			leads_to_tech = tech_advanced_resource_extraction
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1980
+
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 4 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_advanced_resource_extraction = {
+
+		path = {
+			leads_to_tech = tech_modern_resource_extraction
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 2000
+
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 8 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_modern_resource_extraction = {
+
+		research_cost = 3
+		start_year = 2020
+
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 12 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_rotary_drilling = {
+
+		path = {
+			leads_to_tech = tech_hydraulic_fracturing
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1960
+
+		folder = {
+			name = industry_folder
+			position = { x = 2 y = 2 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_hydraulic_fracturing = {
+
+		path = {
+			leads_to_tech = tech_directional_drilling
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1980
+
+		folder = {
+			name = industry_folder
+			position = { x = 2 y = 4 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_directional_drilling = {
+
+		path = {
+			leads_to_tech = tech_automated_drilling_rigs
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1980
+
+		folder = {
+			name = industry_folder
+			position = { x = 2 y = 6 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_automated_drilling_rigs = {
+
+		path = {
+			leads_to_tech = tech_enhanced_oil_recovery
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 2000
+
+		folder = {
+			name = industry_folder
+			position = { x = 2 y = 8 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_enhanced_oil_recovery = {
+
+		path = {
+			leads_to_tech = tech_digital_oil_extraction
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 2010
+
+		folder = {
+			name = industry_folder
+			position = { x = 2 y = 10 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+	tech_digital_oil_extraction = {
+
+		research_cost = 3
+		start_year = 2020
+
+		folder = {
+			name = industry_folder
+			position = { x = 2 y = 12 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+
+}

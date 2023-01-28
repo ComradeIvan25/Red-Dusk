@@ -2560,7 +2560,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "industry_subtitle_manufacturing"
-					position = { x = 700 y = 110 }
+					position = { x = 600 y = 110 }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
@@ -2586,7 +2586,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "industry_subtitle_extraction"
-					position = { x = 1300 y = 110  }
+					position = { x = 1100 y = 110  }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
@@ -2596,6 +2596,35 @@ guiTypes = {
 					format = center
 					Orientation = "UPPER_LEFT"
 				}
+
+			gridboxtype = {
+				name = "tech_modern_manufacturing_tree"
+				position = { x = 195 y = 165 }
+				size = { width = 400 height = 1000 }
+				slotsize = { width = 60 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "tech_modern_factories_tree"
+				position = { x = 495 y = 165 }
+				size = { width = 400 height = 1000 }
+				slotsize = { width = 60 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "tech_modern_construction_tree"
+				position = { x = 795 y = 165 }
+				size = { width = 400 height = 1000 }
+				slotsize = { width = 60 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "tech_basic_resource_extraction_tree"
+				position = { x = 995 y = 165 }
+				size = { width = 400 height = 1000 }
+				slotsize = { width = 60 height = 70 }
+				format = "UP"
+			}
 
 		}
 

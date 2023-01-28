@@ -5,6 +5,7 @@ set_technology = {
 	motorised_artillery_1960 = 1
 	motorised_artillery_1970 = 1
 	motorised_artillery_1980 = 1
+	apc_tank_1960 = 1
 }
 
 set_research_slots = 3

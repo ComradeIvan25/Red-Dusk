@@ -11,8 +11,8 @@ units = {
 			ship = { name = "Damyat" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = EGY creator = USA version_name = "Knox Class" } } }
 			ship = { name = "Rasheed" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = EGY creator = USA version_name = "Knox Class" } } }
 
-			ship = { name = "El Suez" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = EGY creator = SPR version_name = "Centinela Class" } } }
-			ship = { name = "Aboukir" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = EGY creator = SPR version_name = "Centinela Class" } } }
+			ship = { name = "El Suez" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = EGY creator = SPR version_name = "Descubierta Class" } } }
+			ship = { name = "Aboukir" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = EGY creator = SPR version_name = "Descubierta Class" } } }
 		}
 		task_force = {
 			name = "'Ustul Alghawaasat Almisrii"

@@ -5,7 +5,7 @@ units = {
 		task_force = {
 			name = "Al'ustul Almaghribiu Alsathiu"
 			location = 7069 # Rabat #
-			ship = { name = "Lieutenant-Colonel Errahmani" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = MOR creator = SPR version_name = "Descubierta Class" } } }
+			ship = { name = "Lieutenant-Colonel Errahmani" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = MOR creator = SPR version_name = "Descubierta Class" } } }
 		}
 	}
 }

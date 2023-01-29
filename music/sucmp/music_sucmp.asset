@@ -194,6 +194,10 @@ music = {
 	file = "Seven_Nation_Army.ogg"
 }
 music = {
+	name = "Shame_In_You"
+	file = "Shame_In_You.ogg"
+}
+music = {
 	name = "Short_Change_Hero"
 	file = "Short_Change_Hero.ogg"
 }
@@ -246,6 +250,14 @@ music = {
 	file = "The_Internationale_2000-Maxx_Klaxon.ogg"
 }
 music = {
+	name = "The_Man_Who_Sold_The_World"
+	file = "The_Man_Who_Sold_The_World.ogg"
+}
+music = {
+	name = "The_Man_Who_Sold_The_World"
+	file = "The_Man_Who_Sold_The_World.ogg"
+}
+music = {
 	name = "The_Road_Runs_Far_There_Is_A_Lot_Of_Fun_Ahead"
 	file = "The_Road_Runs_Far_There_Is_A_Lot_Of_Fun_Ahead.ogg"
 }
@@ -268,6 +280,10 @@ music = {
 music = {
 	name = "Twilight_Zone"
 	file = "Twilight_Zone.ogg"
+}
+music = {
+	name = "Vasoline"
+	file = "Vasoline.ogg"
 }
 music = {
 	name = "Voices"

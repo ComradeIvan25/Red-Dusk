@@ -445,3 +445,19 @@ country_event = {
 
 	}
 }
+
+#State Of The Army#
+country_event = {
+	id = saf.16
+	title = saf.16.t
+	desc = saf.16.d
+	picture = GFX_report_event_onwards_south_africa
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = saf.16.a	
+
+	}
+}

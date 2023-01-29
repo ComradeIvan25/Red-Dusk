@@ -3,10 +3,156 @@ add_namespace = yug_rebel
 add_namespace = yug_hidden
 add_namespace = yug_intro
 add_namespace = yug_news
+add_namespace = yug_terror_attack
+add_namespace = yug_start
 
 add_namespace = bos
 add_namespace = cro
 add_namespace = kos
+
+#terror attack trigger# #funny idea I had in 1 am - durangoose
+country_event = {
+	id = yug_terror_attack.1
+	title = yug_terror_attack.1.t
+	desc = yug_terror_attack.1.d
+	picture = GFX_report_event_YUG_bossnia
+	
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	option = {
+		name = yug_terror_attack.1.a
+			random_list = {
+				25 = {
+					country_event = {id = yug_terror_attack.2} #car bomb
+				}
+				25 = {
+					country_event = {id = yug_terror_attack.3} #bomb explodes near mil factory
+				}
+				25 = {
+					country_event = {id = yug_terror_attack.4} #fighting with rebel forces
+				}
+				25 = {
+					country_event = {id = yug_terror_attack.5} #local politician kidnapped by rebels. They demand money in exchange for the release of the politician
+				}
+			}
+	}
+}
+
+#terror attack - car bomb explodes in a street#
+country_event = {
+	id = yug_terror_attack.2
+	title = yug_terror_attack.2.t
+	desc = yug_terror_attack.2.d
+	picture = GFX_report_event_YUG_bossnia
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = yug_terror_attack.2.a
+		add_stability = -0.02
+		random_owned_state = {
+			add_manpower = -32
+			damage_building = {
+				type = infrastructure
+				damage = 1
+			}
+		}
+		hidden_effect = {
+		country_event = {id = yug_terror_attack.1 days = 45}
+		}
+	}
+}
+
+#terror attack - bomb explodes near military factory#
+country_event = {
+	id = yug_terror_attack.3
+	title = yug_terror_attack.3.t
+	desc = yug_terror_attack.3.d
+	picture = GFX_report_event_YUG_bossnia
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = yug_terror_attack.3.a
+		add_war_support = -0.02
+		add_stability = -0.02		
+		random_owned_state = {
+			damage_building = {
+				type = infrastructure
+				damage = 1
+			}
+			damage_building = {
+				type = arms_factory
+				damage = 1
+			}
+			
+		}
+		hidden_effect = {
+		country_event = {id = yug_terror_attack.1 days = 45}
+		}
+	}
+}
+
+#terror attack - fighting with rebel forces#
+country_event = {
+	id = yug_terror_attack.4
+	title = yug_terror_attack.4.t
+	desc = yug_terror_attack.4.d
+	picture = GFX_report_event_YUG_bossnia
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = yug_terror_attack.4.a
+		add_stability = -0.02		
+		add_manpower = -300
+		BOS = {
+			add_manpower = -242
+		}
+		hidden_effect = {
+		country_event = {id = yug_terror_attack.1 days = 45}
+		}
+	}
+}
+
+#terror attack - local politician kidnapped by rebels#
+country_event = {
+	id = yug_terror_attack.5
+	title = yug_terror_attack.5.t
+	desc = yug_terror_attack.5.d
+	picture = GFX_report_event_YUG_bossnia
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = yug_terror_attack.5.a #we aint giving money to rebels, send the Milicija
+		add_stability = -0.05	
+		army_experience = 5
+		random_owned_state = {
+		add_manpower = -1
+		}
+		BOS = {
+			add_manpower = -3
+		}
+		hidden_effect = {
+		country_event = {id = yug_terror_attack.1 days = 45}
+		}
+	}
+	
+	option = {
+		name = yug_terror_attack.5.b #give them the money
+		add_political_power = -50
+		hidden_effect = {
+		country_event = {id = yug_terror_attack.1 days = 45}
+		}
+	}	
+}
 
 #All Quite in Bosnia#
 country_event = {
@@ -49,7 +195,7 @@ country_event = {
 		name = yug.3.a
 	}
 }
-#Meeting#
+#CONGRESS#
 country_event = {
 	id = yug.4
 	title = yug.4.t
@@ -58,49 +204,73 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	#Communist#
+	#Congress approves Milosevic's next term #
 	option = {
 	name = yug.4.a
-		load_focus_tree = yug_communist_focus
-		
+		trigger = {
+			OR = {
+			reformed_communism > party_popularity@communism
+			socialism > party_popularity@communism
+			fascism > party_popularity@communism
+			}
+		}
+		country_event = {id = yug.17}
 		ai_chance = {
 		factor = 55
-			modifier = {
-				factor = 99999
-				has_game_rule = {
-				rule = YUG_paths_selection
-				option = YUG_REFORMED_COMMUNIST_MILOSEVIC_PATH_CHOSEN
-				}
-			}
-			modifier = {
-				factor = 99999
-				has_game_rule = {
-				rule = YUG_paths_selection
-				option = YUG_JOSKA_BROZ_PATH_CHOSEN
-				}
-			}
+
 		}
+
 	}
-	#Nationalist#
+	#Congress doesnt approve Milosevic's next term #
 	option = {
 		name = yug.4.b
-		load_focus_tree = yug_nationalist_milosevic_focus
-		remove_ideas = YUG_what_are_we
-		
-		ai_chance = {
-		factor = 45
-			modifier = {
-				factor = 99999
-				has_game_rule = {
-				rule = YUG_paths_selection
-				option = YUG_NATIONALIST_MILOSEVIC_PATH_CHOSEN
+		trigger = {
+			communism > party_popularity@reformed_communism
+			communism > party_popularity@socialism
+			communism > party_popularity@fascism
+		}
+		custom_effect_tooltip = yug_increase_stambolic_pop_10
+			hidden_effect = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
 				}
 			}
-		}
+				add_political_power = -150
+				country_event = {id = yug.5}
+		ai_chance = {
+		factor = 55
+
+		}		
+
 	}
 }
 
-#Assasination Attempt On Milesovic#
+#Stambolic "disappears"#
+country_event = {
+	id = yug.17
+	title = yug.17.t
+	desc = yug.17.d
+	picture = GFX_report_event_YUG_SKJ_meeting
+	
+	is_triggered_only = yes
+	
+	#hmmm#
+	option = {
+	name = yug.17.a
+		retire_ideology_leader = communism
+			custom_effect_tooltip = yug_decrease_stambolic_pop_20
+			hidden_effect = {
+				add_popularity = {
+					ideology = communism
+					popularity = -0.2
+				}
+			}
+	}
+
+}
+
+#Congress declared null#
 country_event = {
 	id = yug.5
 	title = yug.5.t
@@ -109,39 +279,22 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	#Milosevic Survives#
+	#bruh#
 	option = {
 	name = yug.5.a
-		load_focus_tree = yug_milosevic_alive_focus
-		ai_chance = {
-		factor = 50
-			modifier = {
-				factor = 99999
-				has_game_rule = {
-				rule = YUG_paths_selection
-				option = YUG_REFORMED_COMMUNIST_MILOSEVIC_PATH_CHOSEN
-				}
+		add_stability = -0.10
+		add_war_support = 0.10
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
 			}
-		}
+		country_event = {id = yug.6 days = 3}
+		news_event = {id = old_times_news.70}
 	}
-	#Milosevic Dies to assasinator tupac#
-	option = {
-		name = yug.5.b
-		
-		ai_chance = {
-		#factor = 45# blocked till we make the path for broz#
-			modifier = {
-				factor = 99999
-				has_game_rule = {
-				rule = YUG_paths_selection
-				option = YUG_JOSKA_BROZ_PATH_CHOSEN
-				}
-			}
-		}
-	}
+
 }
 
-#final decision, milosevic is alive#
+#Milosevic Ousted#
 country_event = {
 	id = yug.6
 	title = yug.6.t
@@ -150,33 +303,21 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	#We contunie forward (communist milosevic)#
+	#lmao#
 	option = {
 	name = yug.6.a
-		load_focus_tree = yug_commie_milosevic_focus
-		remove_ideas = YUG_what_are_we
-		
-		ai_chance = {
-		factor = 80
-			modifier = {
-				factor = 99999
-				has_game_rule = {
-				rule = YUG_paths_selection
-				option = YUG_REFORMED_COMMUNIST_MILOSEVIC_PATH_CHOSEN
-				}
+			retire_country_leader = yes
+			add_popularity = {
+				ideology = reformed_communism
+				popularity = -1.0
 			}
-		}
+			set_politics = {
+				ruling_party = communism
+
+			}
+			news_event = {id = old_times_news.71}
 	}
-	#Nationalism is the only option in yugoslavia dude trust me:yugotroll:#
-	option = {
-		name = yug.6.b
-		load_focus_tree = yug_nationalist_milosevic_focus
-		remove_ideas = YUG_what_are_we
-		
-		ai_chance = {
-		factor = 30
-		}
-	}
+
 }
 
 #slobodon's(milosevic) 2 year plan#
@@ -264,7 +405,183 @@ country_event = {
 
 }
 
+#two coalition parties
+country_event = {
+	id = yug_start.1
+	title = yug_start.1.t
+	desc = yug_start.1.d
+	picture = GFX_report_event_YUG_SKJ_meeting
+	
+	is_triggered_only = yes
+	
+	#coop closely with natcoms#
+	option = {
+	name = yug_start.1.a
+		custom_effect_tooltip = yug_increase_natcom_pop_5
+		hidden_effect = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
+		}
+	}
+	
+	#coop closely with socialists#
+	option = {
+	name = yug_start.1.b
+		custom_effect_tooltip = yug_increase_socialist_pop_5
+		hidden_effect = {
+			add_popularity = {
+				ideology = socialism
+				popularity = 0.05
+			}
+		}
+	}
 
+}
+
+#draft a new consitiution?
+country_event = {
+	id = yug_start.2
+	title = yug_start.2.t
+	desc = yug_start.2.d
+	picture = GFX_report_event_YUG_SKJ_meeting
+	
+	is_triggered_only = yes
+	
+	#go with the natcom plan giving serbia sr more power#
+	option = {
+	name = yug_start.2.a
+		custom_effect_tooltip = yug_increase_natcom_pop_5
+		hidden_effect = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
+		}
+		custom_effect_tooltip = yug_increase_milosevic_pop_25
+		hidden_effect = {
+			add_popularity = {
+				ideology = reformed_communism
+				popularity = 0.025
+			}
+		}
+		add_stability = -0.10
+	}
+	
+	#go with the socialist plan giving the central presidency more power#
+	option = {
+	name = yug_start.2.b
+		custom_effect_tooltip = yug_increase_socialist_pop_5
+		hidden_effect = {
+			add_popularity = {
+				ideology = socialism
+				popularity = 0.05
+			}
+		}
+		custom_effect_tooltip = yug_increase_milosevic_pop_25
+		hidden_effect = {
+			add_popularity = {
+				ideology = reformed_communism
+				popularity = 0.025
+			}
+		}
+		add_political_power = 50
+	}
+
+	#it gets rejected#
+	option = {
+	name = yug_start.2.c
+		custom_effect_tooltip = yug_decrease_milosevic_pop_25
+		hidden_effect = {
+			add_popularity = {
+				ideology = reformed_communism
+				popularity = -0.025
+			}
+		}
+		custom_effect_tooltip = yug_increase_stambolic_pop_5
+		hidden_effect = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
+		}		
+		add_political_power = -25
+	}
+
+}
+
+#status of the SRs
+country_event = {
+	id = yug_start.3
+	title = yug_start.3.t
+	desc = yug_start.3.d
+	picture = GFX_report_event_YUG_SKJ_meeting
+	
+	is_triggered_only = yes
+	
+	#SRs shouldnt mess with the policy of Belgrade#
+	option = {
+	name = yug_start.3.a
+		custom_effect_tooltip = yug_increase_natcom_pop_5
+		hidden_effect = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
+		}
+		custom_effect_tooltip = yug_increase_milosevic_pop_25
+		hidden_effect = {
+			add_popularity = {
+				ideology = reformed_communism
+				popularity = 0.025
+			}
+		}
+		add_stability = -0.15
+		BOS = {
+		add_manpower = 7500
+		}
+		KOS = {
+		add_manpower = 7500
+		}		
+	}
+	
+	#SRs should have power in some policies#
+	option = {
+	name = yug_start.3.b
+		custom_effect_tooltip = yug_increase_socialist_pop_5
+		hidden_effect = {
+			add_popularity = {
+				ideology = socialism
+				popularity = 0.05
+			}
+		}
+		custom_effect_tooltip = yug_increase_milosevic_pop_25
+		hidden_effect = {
+			add_popularity = {
+				ideology = reformed_communism
+				popularity = 0.025
+			}
+		}
+		add_political_power = -50
+		add_stability = 0.05
+	}
+
+	#SRs should have equal power in policy making#
+	option = {
+	name = yug_start.3.c
+		custom_effect_tooltip = yug_increase_stambolic_pop_10
+		hidden_effect = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.10
+			}
+		}		
+		add_political_power = -50
+		add_stability = 0.15
+	}
+
+}
 ## NATIONALIST MILOSEVIC##
 
 #Quite Coup#

@@ -3,7 +3,7 @@ guiTypes = {
 	containerWindowType = {
 	 	name = "yug_power_struggle_gui_window"
 	 	position = { x = 550 y = 111 }
-	 	size = { width = 474% height= 287 }
+	 	size = { width = 1000% height= 1000 }
 	 	moveable = no
 	 	
 	 	background = {
@@ -13,29 +13,115 @@ guiTypes = {
 	 	}
 	 	
 	 	instantTextBoxType = {
-	 		name ="republics_of_yugoslavia_text_box"
+	 		name ="power_struggle_text_box"
 	 		position = { x = 375 y = 0 }
 	 		font = "hoi_30header"
-	 		text = "republics_of_yugoslavia_loc"
+	 		text = "power_struggle_gui_loc"
 	 		format = center
 	 		maxHeight = 0
 	 		maxWidth = 555
 	 	}
+
+	 	instantTextBoxType = {
+	 		name ="yug_gov_coalition_text_box"
+	 		position = { x = 225 y = 76 }
+	 		font = "hoi_30header"
+	 		text = "yug_gov_coalition_gui_loc"
+	 		format = center
+	 		maxHeight = 0
+	 		maxWidth = 555
+	 	}
+
+	 	iconType = {
+	 		name ="yug_coalition_box"
+	 		spriteType = "GFX_yellow_square_gui_piece"
+	 		position = { x=62 y=55 }
+	 		
+	 	}
 	 	
 	 	iconType = {
-	 		name ="yug_sr_bosnia_flag"
-	 		spriteType = "GFX_yug_sr_bosnia_flag_icon_gui"
-	 		position = { x=195 y=105 }
+	 		name ="yug_slobo_faction"
+	 		spriteType = "GFX_yug_slobo_faction_icon_gui"
+	 		position = { x=450 y=105 }
 	 		
 	 	}
 	 	
 	 	instantTextBoxType = {
-	 		name ="yug_bosnia_text_box"
-	 		position = { x = 20 y = 232 }
+	 		name ="yug_slobo_faction_text_box"
+	 		position = { x = 230 y = 232 }
 	 		font = "hoi_30header"
-	 		text = "yug_bosnia_loc"
+	 		text = "yug_slobo_faction_loc"
 	 		format = center
 	 		maxHeight = 0
+	 		maxWidth = 555
+	 	}
+
+	 	iconType = {
+	 		name ="yug_socialist_left_faction"
+	 		spriteType = "GFX_yug_socialist_left_faction_icon_gui"
+	 		position = { x=235 y=350 }
+	 		
+	 	}
+	 	
+	 	instantTextBoxType = {
+	 		name ="yug_socialist_left_text_box"
+	 		position = { x = 20 y = 475 }
+	 		font = "hoi_30header"
+	 		text = "yug_socialist_left_loc"
+	 		format = center
+	 		maxHeight = 555
+	 		maxWidth = 555
+	 	}
+
+	 	iconType = {
+	 		name ="yug_national_communist_faction"
+	 		spriteType = "GFX_yug_seselj_faction_icon_gui"
+	 		position = { x=665 y=320 }
+			pdx_tooltip = yug_this_is_seselj_tooltip
+	 		
+	 	}
+	 	
+	 	instantTextBoxType = {
+	 		name ="yug_national_communist_text_box"
+	 		position = { x = 445 y = 475 }
+	 		font = "hoi_30header"
+	 		text = "yug_national_communist_loc"
+	 		format = center
+	 		maxHeight = 555
+	 		maxWidth = 555
+	 	}
+		
+		instantTextBoxType = {
+	 		name ="yug_opposition_text_box"
+	 		position = { x = 805 y = 76 }
+	 		font = "hoi_30header"
+	 		text = "yug_opposition_gui_loc"
+	 		format = center
+	 		maxHeight = 0
+	 		maxWidth = 555
+	 	}
+
+	 	iconType = {
+	 		name ="yug_opposition_box"
+	 		spriteType = "GFX_red_square_gui_piece"
+	 		position = { x=902 y=99 }
+	 		
+	 	}
+		
+		iconType = {
+	 		name ="yug_anti_establishment_communist_faction"
+	 		spriteType = "GFX_yug_stambolic_faction_icon_gui"
+	 		position = { x=1015 y=205 }
+	 		
+	 	}
+	 	
+	 	instantTextBoxType = {
+	 		name ="yug_anti_establishment_communist_text_box"
+	 		position = { x = 810 y = 335 }
+	 		font = "hoi_30header"
+	 		text = "yug_anti_establishment_communist_loc"
+	 		format = center
+	 		maxHeight = 555
 	 		maxWidth = 555
 	 	}
 	 	

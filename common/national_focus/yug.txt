@@ -35,6 +35,13 @@ focus_tree = {
 			YUG = {
 				country_event = { id = yug.3 }
 			}
+			custom_effect_tooltip = yug_increase_stambolic_pop_10
+			hidden_effect = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
+				}
+			}
 
 		}
 	}
@@ -87,6 +94,13 @@ focus_tree = {
 			YUG = {
 				country_event = { id = yug.2 }
 			}
+		custom_effect_tooltip = yug_increase_milosevic_pop_25
+		hidden_effect = {
+			add_popularity = {
+				ideology = reformed_communism
+				popularity = 0.025
+			}
+		}
 			
 		}
 	}
@@ -112,7 +126,7 @@ focus_tree = {
 		continue_if_invalid = no
 		completion_reward = {
 			YUG = {
-				country_event = { id = yug.2 }
+				country_event = { id = yug_start.1 }
 			}
 			
 		}
@@ -140,7 +154,7 @@ focus_tree = {
 		continue_if_invalid = no
 		completion_reward = {
 			YUG = {
-				country_event = { id = yug.2 }
+				country_event = { id = yug_start.2 }
 			}
 			
 		}
@@ -202,14 +216,14 @@ focus_tree = {
 
 	focus = {
 		id = YUG_rebuilding_what_we_have
-		icon = GFX_focus_YUG_cities
+		icon = GFX_focus_YUG_rebuilding_what_we_have
 		x = 1
 		y = 2
 
 		prerequisite = {focus = YUG_national_report}
 		mutually_exclusive = { }
 		relative_position_id = YUG_a_broken_nation
-		
+
 		cost = 3
 		ai_will_do = {
 			factor = 1
@@ -220,14 +234,15 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 20
-			add_stability = 0.02
+			add_stability = 0.10
+			add_ideas = YUG_rebuilding_what_we_have_idea
+
 		}
 	}
 
 	focus = {
 		id = YUG_status_of_the_srs
-		icon = GFX_focus_YUG_cities
+		icon = GFX_focus_YUG_status_of_the_srs
 		x = 3
 		y = 3
 
@@ -247,8 +262,7 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 20
-			add_stability = 0.02
+			country_event = { id = yug_start.3}
 		}
 	}
 

@@ -1894,5 +1894,13 @@ spriteTypes = {
 		name = "GFX_focus_YUG_slobo_saviour"
 		texturefile = "gfx/interface/goals/YUG/focus_YUG_slobodan_our_savior.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_YUG_status_of_the_srs"
+		texturefile = "gfx/interface/goals/YUG/focus_YUG_status_of_the_srs.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_YUG_rebuilding_what_we_have"
+		texturefile = "gfx/interface/goals/YUG/focus_YUG_rebuilding_what_we_have.png"
+	}	
 	
 }

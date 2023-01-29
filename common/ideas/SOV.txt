@@ -2139,6 +2139,101 @@ ideas = {
 
 		}
 
+		SOV_merged_NVD_KGB_lar = {
+		
+			name = SOV_merged_NVD_KGB_name
+
+			removal_cost = -1
+
+			picture =  SOV_rising_separatism_icon
+
+			allowed = {
+				always = no
+			}
+				
+			modifier = {
+				operative_slot = 3
+			}	
+
+		}
+		
+		SOV_merged_NVD_KGB = {
+		
+			name = SOV_merged_NVD_KGB_name
+
+			removal_cost = -1
+
+			picture =  SOV_rising_separatism_icon
+
+			allowed = {
+				always = no
+			}
+				
+			modifier = {
+				political_power_gain = 0.25
+				stability_factor = 0.05
+			}	
+
+		}
+		
+		SOV_merged_NVD_GVD = {
+		
+			name = SOV_merged_NVD_GVD_name
+
+			removal_cost = -1
+
+			picture =  SOV_rising_separatism_icon
+
+			allowed = {
+				always = no
+			}
+				
+			modifier = {
+				command_power_gain_mult = 0.3
+
+			}	
+
+		}
+		
+		SOV_increased_KGB_spending_lar = {
+		
+			name = SOV_increased_KGB_spending_name
+
+			removal_cost = -1
+
+			picture =  SOV_rising_separatism_icon
+
+			allowed = {
+				always = no
+			}
+				
+			modifier = {
+				operative_slot = 1
+
+			}	
+
+		}	
+
+		SOV_increased_KGB_spending = {
+		
+			name = SOV_increased_KGB_spending_name
+
+			removal_cost = -1
+
+			picture =  SOV_rising_separatism_icon
+
+			allowed = {
+				always = no
+			}
+				
+			modifier = {
+				command_power_gain = 0.25
+
+			}	
+
+		}		
+		
+
 	}
 
 	### Designers ###

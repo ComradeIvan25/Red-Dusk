@@ -1632,6 +1632,53 @@ country_event = {
 	}
 
 }
+
+#USSR invites us to COMECON#
+country_event = {
+	id = ussr_foreign_policy.4
+	title = ussr_foreign_policy.4.t
+	desc = ussr_foreign_policy.4.d
+	picture = GFX_report_event_SOV_influence_north_korea
+	
+	is_triggered_only = yes
+	
+	##hell yeah##
+	option = {
+		name = ussr_foreign_policy.4.a
+		
+		add_ideas = cold_war_comecon
+		
+				add_opinion_modifier = {
+					target = SOV
+					modifier = SOV_comecon_opinion
+				}
+		
+		ai_chance = {
+		base = 45
+		}
+
+	}
+	
+	##hell nah bruh##
+	option = {
+		name = ussr_foreign_policy.4.a
+		
+		ai_chance = {
+		base = 45
+			modifier = {
+				factor = 99999
+				has_government = liberalism
+				has_government = democratic
+				has_government = neutrality
+				has_government = paternal_autocracy
+				has_government = fascism
+				
+			}
+		}
+
+	}	
+
+}
 ## cold war stuff ##
 
 #Ethiopia requests extra divisions#

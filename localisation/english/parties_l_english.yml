@@ -473,8 +473,8 @@
  ROM_fascism_party:2 "PRM"
  ROM_fascism_party_long:2 "Partidul România Mare (Greater Romania Party)"
  
- YUG_communism_party:0 "NJL"
- YUG_communism_party_long:0 "Nova Jugoslovenska Levica (New Yugoslav Left)"
+ YUG_communism_party:0 "NKPJ/NJL"
+ YUG_communism_party_long:0 "Nacionalna Komunistička Partija Jugoslavije (National Communist Party of Yugoslavia)/Nova Jugoslovenska Levica (New Yugoslav Left)"
  YUG_reformed_communism_party:0 "SKJ - M"
  YUG_reformed_communism_party_long:0 "Savez Komunista Jugoslavije – Miloševićeva Krakcija (Alliance of Communists of Yugoslavia - Milosevic's Faction)"
  YUG_socialism_party:0 "SLPJ"

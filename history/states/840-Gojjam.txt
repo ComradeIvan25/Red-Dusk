@@ -1,28 +1,25 @@
-state = {
-	id = 840 # Gojjam (including Gammu Gofa)
-	name = "STATE_840"
-	manpower = 900000
-	resources = {
-	}
-	
-	state_category = pastoral
 
-	history = {
+state={
+	id=840
+	name="STATE_840"
+
+	history={
 		buildings = {
-			# infrastructure = 1
+
 		}
-		
-		victory_points = { 
+		victory_points = {
 			13242 2 
 		}
-		
 		owner = ETH
 		add_core_of = ETH
+
 	}
 
-	provinces = {
- 		4954 13242
- 	}
-
-	local_supplies = 0.0 
+	provinces={
+		4954 13242 
+	}
+	manpower=900000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

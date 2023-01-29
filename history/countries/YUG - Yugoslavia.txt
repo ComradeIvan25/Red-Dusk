@@ -98,9 +98,9 @@ set_politics = {
 set_popularities = {
 	democratic = 10
 	fascism = 30
-	communism = 20
-	reformed_communism = 25
-	socialism = 15
+	communism = 30
+	reformed_communism = 20
+	socialism = 10
 }
 
 add_ideas = YUG_demoralized_army

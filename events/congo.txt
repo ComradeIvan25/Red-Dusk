@@ -297,7 +297,6 @@ country_event = {
 			
 		trigger = {
 		original_tag = RCK
-			has_war = no
 			295 = {
 			is_controlled_by = COG
 			}
@@ -458,7 +457,6 @@ country_event = {
 			
 		trigger = {
 		original_tag = RGO
-			has_war = no
 			295 = {
 			is_controlled_by = COG
 			}

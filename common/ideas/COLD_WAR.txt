@@ -35,5 +35,24 @@ ideas = {
 				send_volunteer_size = 2
 			}
 		}
+		
+		cold_war_comecon = {
+			name = cold_war_comecon_name
+
+			removal_cost = -1
+
+			picture = cold_war_soviet_offensive_or_defensive_icon
+
+			allowed = {
+				NOT = {has_war_with = SOV}
+			}
+
+			modifier = {
+				production_speed_buildings_factor = 0.04
+				line_change_production_efficiency_factor = 0.05
+				industrial_capacity_factory = 0.05
+
+			}
+		}
 	}
 }

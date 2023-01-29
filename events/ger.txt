@@ -55,6 +55,7 @@ country_event = {
 			ideology = liberalism
 			popularity = 0.03
 		}		
+		news_event = {id = old_times_news.62}
 			
 		ai_chance = {
 		factor = 50
@@ -76,6 +77,9 @@ country_event = {
 			ideology = liberalism
 			popularity = 0.15
 		}
+		
+		news_event = {id = old_times_news.63}
+		
 		ai_chance = {
 		factor = 5
 		}

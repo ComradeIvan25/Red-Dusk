@@ -184,13 +184,32 @@
  yug_won_over_yugoslavia_milosevic_nationalist:0 "§RAt last we have won aganist the pesky Croats, Bosniaks, Albanians, Slovenians that threathened to end our Serbian State back in 91' and reunified Serbia to its natural borders \n\Nživela Srbija! \n\nGains Cores On All of Greater Serbia\n\n§!"
  
  yug_a_peace_deal_with_ussr_will_be_signed:0 "§GA Peace Deal with the USSR will be signed§!"
+ 
  #YUG GUI#####
   
- yug_this_opens_da_gui:0 "The situation of the republics in Yugoslavia"
- republics_of_yugoslavia_loc:0 "The Republics of Yugoslavia"
- yug_bosnia_loc:0 "Socialist Republic of Bosnia"
- yug_macedonia_loc:0 "Socialist Republic of Macedonia"
- yug_serbia_loc:0 "Republic of Serbia"
+ yug_this_opens_da_gui:0 "The situation of the power struggle"
+ power_struggle_gui_loc:0 "The Yugoslav Power Struggle"
+ yug_gov_coalition_gui_loc:0 "§YGovernment Coalition§!"
+ yug_slobo_faction_loc:0 "Slobodan Milosevic's Faction\n\nFaction Popularity is [?party_popularity@reformed_communism|%G0]"
+ yug_socialist_left_loc:0 "Socialist Left Party\n of Yugoslavia\n\nFaction Popularity is [?party_popularity@socialism|%G0]"
+ yug_this_is_seselj_tooltip:0 "Vojislav Seselj"
+ yug_national_communist_loc:0 "National Communist\n Party of Yugoslavia\n\nFaction Popularity is [?party_popularity@fascism|%G0]"
+ yug_opposition_gui_loc:0 "§ROpposition§!"
+ yug_anti_establishment_communist_loc:0 "New Yugoslav Left\n\nFaction Popularity is [?party_popularity@communism|%G0]"
+
+ yug_decrease_milosevic_pop_25:0 "§YMilosevic§!'s popularity §Rdecreases§! by 2.5%"
+ yug_decrease_stambolic_pop_20:0 "§YNew Yugoslav Left§!'s popularity §Rdecreases§! by 20%"
+
+ yug_increase_milosevic_pop_25:0 "§YMilosevic§!'s popularity §Gincreases§! by 2.5%"
+ yug_increase_milosevic_pop_5:0 "§YMilosevic§!'s popularity §Gincreases§! by 5%" 
+ yug_increase_socialist_pop_25:0 "§YSocialist Left Party of Yugoslavia§!'s popularity §Gincreases§! by 2.5%"
+ yug_increase_socialist_pop_5:0 "§YSocialist Left Party of Yugoslavia§!'s popularity §Gincreases§! by 5%" 
+ yug_increase_stambolic_pop_25:0 "§YNew Yugoslav Left§!'s popularity §Gincreases§! by 2.5%"
+ yug_increase_stambolic_pop_5:0 "§YNew Yugoslav Left§!'s popularity §Gincreases§! by 5%" 
+ yug_increase_stambolic_pop_10:0 "§YNew Yugoslav Left§!'s popularity §Gincreases§! by 10%" 
+ yug_increase_natcom_pop_25:0 "§YNational Communist Party of Yugoslavia§!'s popularity §Gincreases§! by 2.5%"
+ yug_increase_natcom_pop_5:0 "§YNational Communist Party of Yugoslavia§!'s popularity §Gincreases§! by 5%"
+
  ###CULTURE WAR###
  
  culture_war_leaning_balanced:0 "§gBalanced§!"

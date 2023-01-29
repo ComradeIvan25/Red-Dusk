@@ -13,11 +13,21 @@ ethiopia_invading_eritia_properly = {
 	}
 
 	ai_strategy = {
-		type = invade
+		type = prepare_for_war  #Pursues AI to prepare for a war against a specified country, moving troops to their border.
 		id = ERI
 		value = 200
 	}
-
+	ai_strategy = {
+		type = front_unit_request  #Pursues AI to put more units on a specified land frontline.
+		tag = ERI
+		value = 200
+	}
+	ai_strategy = {
+		type = theatre_distribution_demand_increase   #Pursues AI to put more units in the specified state's theater.	
+		value = 24									#this is the amount of divisions the AI will put
+		id = 550									#this is the state id
+	}
+	
 }
 
 afghanistan_invading_northern_alliance_properly = {
@@ -35,15 +45,19 @@ afghanistan_invading_northern_alliance_properly = {
 	}
 
 	ai_strategy = {
-		type = invade
+		type = prepare_for_war  #Pursues AI to prepare for a war against a specified country, moving troops to their border.
 		id = NRO
 		value = 200
 	}
-	
 	ai_strategy = {
-		type = theatre_distribution_demand_increase
+		type = front_unit_request  #Pursues AI to put more units on a specified land frontline.
+		tag = NRO
 		value = 200
-		id = 267
+	}
+	ai_strategy = {
+		type = theatre_distribution_demand_increase   #Pursues AI to put more units in the specified state's theater.	
+		value = 24									#this is the amount of divisions the AI will put
+		id = 267									#this is the state id
 	}
 
 }

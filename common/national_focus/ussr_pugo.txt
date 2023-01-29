@@ -5,7 +5,7 @@
 		factor = 0
 		modifier = {
 		tag = SOV
-		add = 0
+		add = 99
 		}
 	}
 	
@@ -2427,7 +2427,7 @@
 		}
 		available = {has_completed_focus = SOV_general_secretary_pugo}
 		
-		cost = 1
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -2454,7 +2454,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 1
+		cost = 4.3
 		ai_will_do = {
 			factor = 1
 		}
@@ -2466,7 +2466,39 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
+			every_country = {
+				limit = {
+					OR = {
+					has_government = communism
+					has_government = reformed_communism
+					has_government = socialism					
+					}
+					NOT = {has_idea = usa_aligned_nation}
+					NOT = {has_idea = china_aligned_nation}
+					NOT = {original_tag = SOV}
+				}
+				add_equipment_to_stockpile = {
+					type = infantry_weapons_2
+					amount = 6000
+					producer = SOV
+				}
+				add_equipment_to_stockpile = {
+					type = infantry_anti_tank_weapons_2
+					amount = 1500
+					producer = SOV
+				}
+				add_equipment_to_stockpile = {
+					type = infantry_anti_air_weapons_2
+					amount = 1500
+					producer = SOV
+				}
+				add_equipment_to_stockpile = {
+					type = mbt_tank_equipment_0
+					amount = 1000
+					producer = SOV
+				}				
+			}
+
 			
 		}
 	}
@@ -2483,7 +2515,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 1
+		cost = 2.9
 		ai_will_do = {
 			factor = 1
 		}
@@ -2495,7 +2527,24 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
+			every_country = {
+				limit = {
+					OR = {
+					has_government = communism
+					has_government = reformed_communism
+					has_government = socialism					
+					}
+					NOT = {has_idea = usa_aligned_nation}
+					NOT = {has_idea = china_aligned_nation}
+					NOT = {original_tag = SOV}
+				}
+				add_ideas = cold_war_comecon
+				add_opinion_modifier = {
+					target = SOV
+					modifier = SOV_comecon_opinion
+				}
+				
+			}
 			
 		}
 	}
@@ -2513,7 +2562,7 @@
 			focus = SOV_pugo_merge_NVD_GVD
 		}
 		
-		cost = 1
+		cost = 2.9
 		ai_will_do = {
 			factor = 1
 		}
@@ -2524,9 +2573,17 @@
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		completion_reward = {
-			add_political_power = 15
-			
+		completion_reward = {                                                             #what if the player doesnt have the dlc?
+		if = {																			  #just pirate the dlcs
+			limit = {has_dlc = "La Resistance"}											  #What if they dont pirate dlcs
+			add_ideas = SOV_merged_NVD_KGB_lar											  #fuck em
+
+		}
+		else = {
+			add_ideas = SOV_merged_NVD_KGB
+
+		}		
+		
 		}
 	}
 	
@@ -2543,7 +2600,7 @@
 			focus = SOV_pugo_merge_NVD_KGB
 		}
 		
-		cost = 1
+		cost = 2.9
 		ai_will_do = {
 			factor = 1
 		}
@@ -2555,7 +2612,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
+			add_ideas = SOV_merged_NVD_GVD
 			
 		}
 	}
@@ -2573,7 +2630,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 1
+		cost = 2.9
 		ai_will_do = {
 			factor = 1
 		}
@@ -2585,7 +2642,17 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
+			every_country = {
+				limit = {
+					NOT = {has_idea = usa_aligned_nation}
+					NOT = {has_idea = china_aligned_nation}
+					NOT = {has_idea = ussr_aligned_nation}
+					NOT = {has_idea = cold_war_comecon}
+					NOT = {original_tag = SOV}
+				}
+				country_event = {id =ussr_foreign_policy.4}
+				
+			}
 			
 		}
 	}
@@ -2602,7 +2669,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 1
+		cost = 2.9
 		ai_will_do = {
 			factor = 1
 		}
@@ -2614,7 +2681,15 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
+		if = {																			
+			limit = {has_dlc = "La Resistance"}											 
+			add_ideas = SOV_increased_KGB_spending_lar											
+
+		}
+		else = {
+			add_ideas = SOV_increased_KGB_spending
+
+		}	
 			
 		}
 	}
@@ -2631,7 +2706,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 1
+		cost = 2.9
 		ai_will_do = {
 			factor = 1
 		}
@@ -2643,7 +2718,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
+			add_political_power = 10
 			
 		}
 	}

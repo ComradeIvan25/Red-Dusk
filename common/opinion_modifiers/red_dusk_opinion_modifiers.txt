@@ -67,6 +67,10 @@ opinion_modifiers = {
 		value = -25
 	}
 
+	SOV_comecon_opinion = {
+		value = 10
+	}
+
 	YUG_cut_contacts = {
 		value = -25
 	}

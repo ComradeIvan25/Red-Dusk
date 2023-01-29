@@ -1037,6 +1037,40 @@ news_event = {
 	}
 	
 }
+
+#Milosevic declares Yugoslav Congress null
+news_event = {
+	id = old_times_news.70
+	title = old_times_news.70.t
+	desc = old_times_news.70.d
+	picture = GFX_news_budapest
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.70.a
+	}
+	
+}
+
+#Milosevic ousted
+news_event = {
+	id = old_times_news.71
+	title = old_times_news.71.t
+	desc = old_times_news.71.d
+	picture = GFX_news_budapest
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.71.a
+	}
+	
+}
 ### FLAVOUR NEWS EVENTS ###
 
 ## Concorde Trigger (HIDDEN) ##

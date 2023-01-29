@@ -4,7 +4,7 @@
 		factor = 0
 		modifier = {
 		tag = SOV
-		add = 99999
+		add = 0
 		}
 	}
 	

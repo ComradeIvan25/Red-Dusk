@@ -433,7 +433,7 @@ ideologies = {
 			real_despotism = { #despotism
 			}
 			
-			oligarchism  = {
+			oligarchism_pataut  = {
 			}
 
 			military_junta = {

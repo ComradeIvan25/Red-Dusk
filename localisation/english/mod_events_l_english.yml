@@ -206,6 +206,10 @@
  ussr_foreign_policy.3.t:0 "Yugoslavia declines the Warsaw Pact Membership"
  ussr_foreign_policy.3.d:0 "Unfortunately and unexpectedly, Yugoslavia has declined the membership offer to be a part of the newly reestablished Warsaw Pact and pose a serious threat to our influence in the region."
  ussr_foreign_policy.3.a:0 "Invade them!"
+ ussr_foreign_policy.4.t:0 "USSR invites us to COMECON"
+ ussr_foreign_policy.4.d:0 "USSR has decided to send an inventation to the newly reestablished COMECON.\n\nWhat should we do ?"
+ ussr_foreign_policy.4.a:0 "Accept it!"
+ ussr_foreign_policy.4.b:0 "Reject it!"
  ## cold war stuff ##
  
  ussr_cold_war.1.t:0 "Ethiopia requests extra divisions"
@@ -471,6 +475,37 @@
  yug_news.5.t:0 "Democratic Revolution in Belgrade"
  yug_news.5.d:0 "New news have arrived from now collapsed Yugoslavia.After the political chaos cuased by the recent defeat unsatisified military junta leaders under [YUG.GetFascismLeader] tried to depose [YUG.GetLeader].\n\nHomever in a turn of events without any popular support the coup failed and belgrade regime got toppled by democratic opposition headed by [YUG.GetDemocraticLeader]."
  yug_news.5.a:0 "Yugoslavia's Democratic Experiment Starts."
+ 
+ #yugoslav terror attacks
+ yug_terror_attack.2.t:0 "Car Bomb Explodes on a Street"
+ yug_terror_attack.2.d:0 "Today at 14.32 a car bomb set up by the local terrorists exploded, causing multiple casualties and further destabilizing our nation."
+ yug_terror_attack.2.a:0 "Those terrorists will pay!"
+ yug_terror_attack.3.t:0 "Bomb explodes near military factory"
+ yug_terror_attack.3.d:0 "One of our military factories producing equipment was highly damaged today when a bomb set up by the local terrorists exploded. Although thankfully the factory was closed when the bomb had exploded, it still rendered the factory unusuble and in needs of extensive repairs."
+ yug_terror_attack.3.a:0 "Those terrorists will pay! Fix the factory as soon as possible."
+ yug_terror_attack.4.t:0 "Fighting with rebel forces end deadly."
+ yug_terror_attack.4.d:0 "While searching for terrorists in a town at SR Bosnia our task forces got ambushed by them, taking heavy casualties and were forced to retreat. The task force had to resort to bombing the town with drones to pacify the rebels. Causing damage to the infrastructure and backlash from the local government."
+ yug_terror_attack.4.a:0 "Those terrorists will pay!"
+ yug_terror_attack.5.t:0 "Local politician kidnapped"
+ yug_terror_attack.5.d:0 "A local politician that supported the recent policies of [YUG.getleader] has been kidnapped by a local rebel force and barricaded themselves inside a local office, demanding money in exchange for the safety of the politician."
+ yug_terror_attack.5.a:0 "We are not giving money to rebels, send the Milicija" 
+ yug_terror_attack.5.b:0 "Give them the money." 
+ 
+ #starting tree events
+ yug_start.1.t:0 "The Two Coalition Parties"
+ yug_start.1.d:0 ""
+ yug_start.1.a:0 "Cooperate closely with the National Communists"
+ yug_start.1.b:0 "Cooperate closely with the Socialists"
+ yug_start.2.t:0 "Drafting the new constitution"
+ yug_start.2.d:0 ""
+ yug_start.2.a:0 "Lets go with the plans of National Communists"
+ yug_start.2.b:0 "Lets go with the plans of Socialists"
+ yug_start.2.c:0 "The new constitution gets rejected"
+ yug_start.3.t:0 "Status of the SRs"
+ yug_start.3.d:0 ""
+ yug_start.3.a:0 "SRs shouldnt mess with the policy of Belgrade"
+ yug_start.3.b:0 "SRs should have power in some policies"
+ yug_start.3.c:0 "SRs should have equal power in policy making"
  
  #VIN#
  vin_intro.1.t:0 "Socialist Republic of Vietnam"

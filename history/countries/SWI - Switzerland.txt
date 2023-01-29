@@ -4,6 +4,10 @@
 
 set_research_slots = 3
 
+set_technology = {
+	spaa_tank_1960 = 1
+}
+
 recruit_character = SWI_federal_council
 
 set_politics = {

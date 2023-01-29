@@ -3895,4 +3895,48 @@ spriteTypes = {
 		name = "GFX_tech_artillery_guidance_systems_3_medium"
 		texturefile = "gfx/interface/technologies/tech_arty_guidance_3.dds"
 	}
+
+	## Industry Techs ##
+
+	SpriteType = {
+		name = "GFX_tech_rotary_drilling_medium"
+		texturefile = "gfx/interface/technologies/oil_processing_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_hydraulic_fracturing_medium"
+		texturefile = "gfx/interface/technologies/oil_processing_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_directional_drilling_medium"
+		texturefile = "gfx/interface/technologies/oil_processing_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_automated_drilling_rigs_medium"
+		texturefile = "gfx/interface/technologies/oil_processing_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_enhanced_oil_recovery_medium"
+		texturefile = "gfx/interface/technologies/oil_processing_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_digital_oil_extraction_medium"
+		texturefile = "gfx/interface/technologies/oil_processing_6.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_basic_resource_extraction_medium"
+		texturefile = "gfx/interface/technologies/excavation_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_improved_resource_extraction_medium"
+		texturefile = "gfx/interface/technologies/excavation_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_advanced_resource_extraction_medium"
+		texturefile = "gfx/interface/technologies/excavation_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_modern_resource_extraction_medium"
+		texturefile = "gfx/interface/technologies/excavation_4.dds"
+	}
 }

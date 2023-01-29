@@ -32,6 +32,7 @@ set_technology = {
 	fighter_1970 = 1
 	carrier_attacker_1960 = 1
 	carrier_attacker_1970 = 1
+	heli_transport_1960 = 1
 	heli_attack_1970 = 1
 }
 

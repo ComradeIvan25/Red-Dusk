@@ -1,7 +1,7 @@
 ﻿capital = 921
 
-#oob = "SAF_1936"
-
+set_oob = "SAF_2000"
+set_air_oob = "SAF_2000_air"
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
@@ -21,6 +21,7 @@ set_technology = {
 	support_weapons_1995 = 1
 	infantry_anti_tank_weapons_1960 = 1
 	infantry_anti_tank_weapons_1980 = 1
+	infantry_anti_air_weapons_1960 = 1
 	paratrooper_tech_1960 = 1
 	marine_tech_1960 = 1
 	tech_support = 1
@@ -40,7 +41,9 @@ set_technology = {
 	apc_tank_1960 = 1
 	apc_tank_1970 = 1
 	apc_tank_1980 = 1
+	spaa_tank_1960 = 1
 	towed_artillery_1960 = 1
+	towed_artillery_1980 = 1
 	motorised_artillery_1960 = 1
 	motorised_artillery_1970 = 1
 	motorised_artillery_1980 = 1

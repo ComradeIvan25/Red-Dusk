@@ -405,7 +405,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SAF_afrikaners
-		icon = x
+		icon = GFX_focus_SAF_call_upon_afrikkaners
 		x = 17.5
 		y = 14
 
@@ -477,7 +477,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SAF_raids
-		icon = GFX_focus_SAF_raid
+		icon = GFX_focus_SAF_organise_raids
 		x = 17
 		y = 16
 
@@ -854,7 +854,7 @@ focus_tree = {
 	
 	focus = {
 		id = SAF_junta_economy_support_the_costruction_of_new_energetic_industries
-		icon = x
+		icon = GFX_focus_SAF_construct_new_energy
 		x = -3
 		y = 1
 		
@@ -885,7 +885,7 @@ focus_tree = {
 	
 	focus = {
 		id = SAF_junta_economy_build_coal_factories
-		icon = x
+		icon = GFX_focus_SAF_build_new_coal_factories
 		x = -5
 		y = 2
 		
@@ -1080,7 +1080,7 @@ focus_tree = {
 	
 	focus = {
 		id = SAF_junta_economy_import_new_agriculture_machinery
-		icon = x
+		icon = GFX_focus_SAF_import_new_agriculture
 		x = 0
 		y = 1
 		
@@ -1477,7 +1477,7 @@ focus_tree = {
 		
 		cost = 10
 		ai_will_do = {
-		factor = 1
+		}
 		
 		bypass = {
 		}
@@ -1500,7 +1500,7 @@ focus_tree = {
 		
 		cost = 3
 		ai_will_do = {
-		factor = 1
+		}
 		
 		bypass = {
 		}
@@ -1523,7 +1523,7 @@ focus_tree = {
 		
 		cost = 10
 		ai_will_do = {
-		factor = 1
+		}
 		
 		bypass = {
 		}
@@ -1546,7 +1546,7 @@ focus_tree = {
 		
 		cost = 5
 		ai_will_do = {
-		factor = 1
+		}
 		
 		bypass = {
 		}
@@ -1572,7 +1572,7 @@ focus_tree = {
 		
 		cost = 6
 		ai_will_do = {
-		factor = 1
+		}
 		
 		bypass = {
 		}
@@ -1600,7 +1600,7 @@ focus_tree = {
 		
 		cost = 6
 		ai_will_do = {
-		factor = 1
+		}
 		
 		bypass = {
 		}

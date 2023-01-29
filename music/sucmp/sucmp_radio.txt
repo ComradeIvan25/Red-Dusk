@@ -366,6 +366,14 @@ music = {
 	}
 }
 music = {
+	song = "Shame_In_You"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
 	song = "shotgun"
 	chance = {
 		modifier = {
@@ -454,6 +462,14 @@ music = {
 	}
 }
 music = {
+	song = "The_Man_Who_Sold_The_World"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
 	song = "The_Road_Runs_Far_There_Is_A_Lot_Of_Fun_Ahead"
 	chance = {
 		modifier = {
@@ -495,6 +511,14 @@ music = {
 }
 music = {
 	song = "Twilight_Zone"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Vasoline"
 	chance = {
 		modifier = {
 			factor = 1

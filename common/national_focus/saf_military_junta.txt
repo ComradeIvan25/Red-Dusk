@@ -1465,5 +1465,151 @@ focus_tree = {
 			}
 			add_ideas = SAF_juntas_economic_reforms
 		}
-	}	
+	}
+	
+	###MILITARY###
+	
+	focus = {
+		id = SAF_junta_military_an_army_with_a_state
+		icon = GFX_goal_unknown
+		x = 32
+		y = 0
+		
+		cost = 10
+		ai_will_do = {
+		factor = 1
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_modernize_our_industry
+		
+		completion_reward = {
+		add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_the_army
+		icon = GFX_goal_unknown
+		x = 25
+		y = 0
+		
+		prerequisite = { focus = SAF_junta_military_an_army_with_a_state }
+		
+		cost = 3
+		ai_will_do = {
+		factor = 1
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_encourage_the_transport_sector
+		
+		completion_reward = {
+		add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_highly_increase_military_funds
+		icon = GFX_goal_unknown
+		x = 20
+		y = 0
+		
+		prerequisite = { focus = SAF_junta_military_the_army}
+		
+		cost = 10
+		ai_will_do = {
+		factor = 1
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_improve_the_roads
+		
+		completion_reward = {
+		add_political_power = -100
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_enact_mass_conscription_law
+		icon = GFX_goal_unknown
+		x = 26
+		y = 0
+		
+		prerequisite = { focus = SAF_junta_military_highly_increase_military_funds}
+		
+		cost = 5
+		ai_will_do = {
+		factor = 1
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_invest_in_farming_activities
+		
+		completion_reward = {
+			swap_ideas = { 
+			remove_idea = volunteer_only 
+			add_idea = extensive_conscription 
+			}
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_mass_increase_of_weapons_production
+		icon = GFX_goal_unknown
+		x = 28
+		y = 0
+		
+		prerequisite = { focus = SAF_junta_military_highly_increase_military_funds}
+		
+		cost = 6
+		ai_will_do = {
+		factor = 1
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_invest_in_farming_activities
+		
+		completion_reward = {
+				add_equipment_to_stockpile = {
+				type = infantry_weapons
+				amount = 500
+			}
+		add_political_power = -100
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_found_new_militia_forces
+		icon = GFX_goal_unknown
+		x = 20
+		y = 0
+		
+		prerequisite = { focus = SAF_junta_military_enact_mass_conscription_law}
+		prerequisite = { focus = SAF_junta_military_mass_increase_of_weapons_production}
+		
+		cost = 6
+		ai_will_do = {
+		factor = 1
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_support_the_foundation_of_military_transport_companies
+		
+		completion_reward = {
+		add_political_power = -50
+		}
+	}
 }

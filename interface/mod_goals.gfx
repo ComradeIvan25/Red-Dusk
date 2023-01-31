@@ -1738,6 +1738,38 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/VIN/VIN_hien_phap_1992.png"
 	}
 	SpriteType = {
+		name = "GFX_VIN_focus_state_visit_to_lao"
+		texturefile = "gfx/interface/goals/VIN/VIN_state_visit_to_lao.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_industrial_plan"
+		texturefile = "gfx/interface/goals/VIN/VIN_industrial_plan.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_labour_code"
+		texturefile = "gfx/interface/goals/VIN/VIN_labour_code.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_EU_generic"
+		texturefile = "gfx/interface/goals/VIN/EU_generic.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_farmer_great"
+		texturefile = "gfx/interface/goals/VIN/VIN_farmer_great.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_best_korea"
+		texturefile = "gfx/interface/goals/VIN/VIN_best_korea.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_stable_economy"
+		texturefile = "gfx/interface/goals/VIN/VIN_stable_economy.png"
+	}
+	SpriteType = {
+		name = "VIN_army_modernization"
+		texturefile = "gfx/interface/goals/VIN/VIN_army_modernization.png"
+	}
+	SpriteType = {
 		name = "VIN_PAVN"
 		texturefile = "gfx/interface/goals/VIN/VIN_PAVN.png"
 	}
@@ -1757,6 +1789,7 @@ spriteTypes = {
 		name = "VIN_army_modernization"
 		texturefile = "gfx/interface/goals/VIN/VIN_army_modernization.png"
 	}
+	
 
 	###USA###
 	

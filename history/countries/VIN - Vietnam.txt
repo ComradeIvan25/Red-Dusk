@@ -74,11 +74,19 @@ diplomatic_relation = {
 	relation = non_aggression_pact
 	active = yes
 }
+diplomatic_relation = {
+	country = LAO
+	relation = military_access
+}
 
 diplomatic_relation = {
 	country = CAM
 	relation = non_aggression_pact
 	active = yes
+}
+diplomatic_relation = {
+	country = CAM
+	relation = military_access
 }
 
 set_convoys = 30

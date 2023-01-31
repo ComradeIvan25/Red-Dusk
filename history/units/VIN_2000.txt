@@ -65,6 +65,7 @@ division_template = { # Armoured Infantry Division #
 		infantry_unit = { x = 1 y = 2 }
 		main_battle_tank_armor = { x = 2 y = 0 }
 		main_battle_tank_armor = { x = 2 y = 1 }
+                main_battle_tank_armor = { x = 2 y = 2 }
 	}
 	support = {
 		towed_artillery_support_unit = { x = 0 y = 0 }
@@ -475,16 +476,7 @@ units = {
 		start_experience_factor = 0.25
 		start_equipment_factor = 0.01
 	}
-	division = { 
-		division_name = {
-			is_name_ordered = yes
-			name_order = 6
-		}
-		location = 1185
-		division_template = "Armoured Infantry Division"
-		start_experience_factor = 0.25
-		start_equipment_factor = 0.01
-	}
+	
 
 	# Armoured Division #
 	division = { 
@@ -517,6 +509,16 @@ units = {
 		start_experience_factor = 0.25
 		start_equipment_factor = 0.01
 	}
+        division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 4075
+		division_template = "Armoured Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.01
+	}
 
 	# Marine Division #
 	division = { 
@@ -536,6 +538,16 @@ units = {
 		}
 		location = 10309
 		division_template = "Marine Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.01
+	}
+        division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 1185
+		division_template = "Armoured Division"
 		start_experience_factor = 0.25
 		start_equipment_factor = 0.01
 	}

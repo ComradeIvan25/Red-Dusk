@@ -530,7 +530,7 @@ focus_tree = {
 	#Amendment of the Labor Code
 	focus = {
 		id = Amendment_of_the_Labor_Code
-		icon = VIN_greatest_generation
+		icon = GFX_VIN_focus_labour_code
 		x = 3
 		y = 8
 		cost = 3
@@ -560,7 +560,7 @@ focus_tree = {
 	#The Path to Industrialization
 	focus = {
 		id = VIN_Path_to_Industrialization
-		icon = VIN_greatest_generation
+		icon = GFX_VIN_focus_industrial_plan
 		x = 3
 		y = 9
 		cost = 3
@@ -666,7 +666,7 @@ focus_tree = {
 	#Steady Forward
 	focus = {
 		id = VIN_steady_forward
-		icon = VIN_greatest_generation
+		icon = GFX_VIN_focus_stable_economy
 		x = 4
 		y = 10
 		cost = 3
@@ -687,7 +687,7 @@ focus_tree = {
 	#Agriculture is the key to Industrialization
 	focus = {
 		id = VIN_Agriculture_is_the_key_to_Industrialization
-		icon = VIN_greatest_generation
+		icon = GFX_VIN_focus_farmer_great
 		x = 4
 		y = 11
 		cost = 3
@@ -723,7 +723,7 @@ focus_tree = {
 	#State visit to Laos
 	focus = {
 		id = VIN_visit_Laos
-		icon = VIN_greatest_generation
+		icon = GFX_VIN_focus_state_visit_to_lao
 		x = 11
 		y = 7
 		cost = 3
@@ -817,9 +817,9 @@ focus_tree = {
 	    relation = guarantee 
 	    active = yes
       }
-	   SOV = { 
+	   VIN = { 
 		diplomatic_relation = { 
-	    country = VIN
+	    country = SOV
 	    relation = docking_rights
 	    active = yes
       }
@@ -830,7 +830,7 @@ focus_tree = {
 	#Flight to Pyongyang
 	focus = {
 		id = VIN_Flight_to_Pyongyang
-		icon = VIN_greatest_generation
+		icon = GFX_VIN_focus_best_korea
 		x = 9
 		y = 11
 		cost = 3
@@ -906,7 +906,7 @@ focus_tree = {
 	#Negotiating with the EU
 	focus = {
 		id = VIN_Negotiating_with_EU
-		icon = VIN_greatest_generation
+		icon = GFX_VIN_focus_EU_generic
 		x = 13
 		y = 11
 		cost = 3

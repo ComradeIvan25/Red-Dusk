@@ -38,7 +38,7 @@ equipments = {
 
 		lend_lease_cost = 12
 		
-		build_cost_ic = 28
+		build_cost_ic = 25
 		resources = {
 			steel = 3
 			chromium = 3
@@ -70,7 +70,7 @@ equipments = {
 		soft_attack = 11
 		air_attack = 25
 		
-		build_cost_ic = 30
+		build_cost_ic = 27
 	}
 	spaa_tank_equipment_2 = {
 		year = 2000
@@ -90,7 +90,7 @@ equipments = {
 		soft_attack = 12
 		air_attack = 30
 		
-		build_cost_ic = 32
+		build_cost_ic = 29
 	}
 	spaa_tank_equipment_3 = {
 		year = 2020
@@ -110,7 +110,7 @@ equipments = {
 		soft_attack = 13
 		air_attack = 35
 		
-		build_cost_ic = 34
+		build_cost_ic = 31
 	}
 
 }

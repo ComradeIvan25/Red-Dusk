@@ -22,7 +22,7 @@ set_convoys = 200
 
 recruit_character = NOR_kjell_bondevik
 
-
+add_ideas = GER_eu
 
 add_ideas = usa_aligned_nation
 

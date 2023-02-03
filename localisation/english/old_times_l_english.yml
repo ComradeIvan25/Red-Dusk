@@ -50,9 +50,6 @@
  old_times_news.911.t:0 "Attack on the World Trade Center!"
  old_times_news.911.d:0 "Today will be remembered as tragic day for the United States of America. In the early morning hours, two passenger planes flew into the World Trade Center.\n\nIt is believed that at least several hundreds of people have been killed in both the initial plane hits and subsequent collapse of the buildings. Meanwhile a third plane hit the Pentagon which sustained only a "minor damage". Even after the collapse of the Twin Towers, emergency services are still fighting to stabilise the situation.\n\nWhile the citizens of New York and the United States are still processing the shock of the first ever terrorist attack on US soil, the government of the United States has accused a radical Islamic terrorist group Al-Qaeda , and its leader Osama bin Laden for the attacks. Not much is known about this terrorist group or their motives but it is expected that they will be on the receiving end of the American Giant."
  old_times_news.911.a:0 "A tradic day." 
- 
-### SOVIET WARS###
-
  old_times_news.24.t:0 "Soviet invasion of former SSRs!"
  old_times_news.24.d:0 "A flood of reports has come in from Estonia, Latvia, Azerbaijan and Armenia, all claiming one thing: Soviet Invasion.\n\nAs of now, photos of large columns of Soviet tanks, APCs, trucks and troops can be seen coming from these countries, confirming the earlier reports of troop gatherings along their borders. It would seem that Kremlin has had enough and is keen on finishing the unfinished job from the 90s. As of now, while the Soviet Army advances deeper into these countries, no official statement has left the Soviet Union.\n\nMeanwhile, United States and other NATO and EU countries have already prepared sanctions against the Soviet Union. But as many political analysts believe, no amount of sanctions can stop hundreds of tanks."
  old_times_news.24.a:0 "Bear comes to get what's his."
@@ -192,7 +189,14 @@
  old_times_news.69.t:0 "Invasion of Yugoslavia"
  old_times_news.69.d:0 ""
  old_times_news.69.a:0 "A bloody war between brothers." 
+ old_times_news.70.t:0 "Dissolution of the Soviet Union"
+ old_times_news.70.d:0 ""
+ old_times_news.70.a:0 "And end of an era." 
+
+
 ## Flavour News Events ##
+
+
  #flavour_news.1.t:0 ##HIDDEN SCRIPTED EVENT##
  flavour_news.2.t:0 "Disaster in Paris!"
  flavour_news.2.d:0 "This afternoon, Air France Flight 4590 took off in a fiery blaze from Paris' Charles de Gaulle Airport, before diving into a nearby hotel and disintegrating. This deadly crash has shaken the French nation, especially since the aircraft - the supersonic Concorde - represented the pride of the French commerical aviation industry.\n\nPresident [FRA.GetLeader] has already publicly expressed his condolences, and French authorities, with assistance from American and British investigators, are already beginning an extensive analysis of the incident. While the cause of the crash has yet to be determined, questions are already being asked about the future of Concorde, and supersonic travel as a whole."

@@ -1066,6 +1066,49 @@ spriteTypes = {
 		name = "GFX_focus_SOV_follow_udaltsov_example"
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_follow_udaltsov_example.png"
 	}
+
+  ###PUTIN###
+
+	SpriteType = {
+		name = "GFX_focus_SOV_petrushev_chosen"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_petrushev_chosen.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_bortnikov_chosen"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_bortnikov_chosen.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_problematic_elements"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_problematic_elements.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_increase_spies"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_increase_spies.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_putin_speech"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_putin_speech.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_promise_stability"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_promise.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_kgb_arrest"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_kgb_arrest.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_efficency_at_last"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_efficency_at_last.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_problem_solver"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_problem_solver.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_stability_at_last"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_stability_at_last.png"
+	}
 	
    ###IRQ###
 

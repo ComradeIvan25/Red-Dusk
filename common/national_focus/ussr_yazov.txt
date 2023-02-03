@@ -4,7 +4,7 @@
 		factor = 0
 		modifier = {
 		tag = SOV
-		add = 0
+		add = 99999
 		}
 	}
 	
@@ -18,7 +18,7 @@
 		prerequisite = {}
 		mutually_exclusive = { }
 		
-		cost = 3
+		cost = 1
 		ai_will_do = {
 			factor = 1
 		}
@@ -28,7 +28,9 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
+			SOV = {
+			country_event = {id = ussr.50}
+			}
 
 		}
 	}
@@ -83,7 +85,9 @@
 		continue_if_invalid = no
 		completion_reward = {
 			add_manpower = -1 #outpizzad the hut#
+			SOV = {
 			country_event = {id = ussr.8}
+			}
 		}
 	}
 
@@ -110,6 +114,9 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			SOV = {
+		        country_event = {id = ussr.45}
+			}
 		}
 	}
 
@@ -137,7 +144,9 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			SOV = {
 			country_event = {id = ussr.41}
+			}
 		}
 	}
 
@@ -154,7 +163,7 @@
 		 has_country_flag = purges_completed
 		}
 		
-		cost = 2.9
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -191,7 +200,7 @@
 		available = {
 		}
 		
-		cost = 4
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -225,7 +234,7 @@
 		available = {
 		}
 		
-		cost = 4
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -241,6 +250,9 @@
 			custom_effect_tooltip = kgb_5_influence_increase
 			add_stability = 0.05
 			add_political_power = -25
+			SOV = {
+		        country_event = {id = ussr.46}
+			}
 		}
 	}
 
@@ -292,7 +304,7 @@
 		 has_country_flag = purges_completed
 		}
 		
-		cost = 2.9
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -332,7 +344,7 @@
 		 has_country_flag = purges_completed
 		}
 		
-		cost = 2.9
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -370,7 +382,7 @@
 		 has_country_flag = purges_completed
 		}
 		
-		cost = 2.9
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -402,7 +414,7 @@
 		prerequisite = {focus = SOV_yazov_putin_connection}
 		mutually_exclusive = { }
 		
-		cost = 2.9
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -436,7 +448,7 @@
 		prerequisite = {focus = SOV_trial_of_traitors focus = SOV_yazov_cracks } 
 		mutually_exclusive = { }
 		
-		cost = 5.8
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -467,7 +479,7 @@
 	
 		mutually_exclusive = { }
 		
-		cost = 7
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -498,7 +510,7 @@
 	
 		mutually_exclusive = { }
 		
-		cost = 7
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -527,7 +539,7 @@
 		prerequisite = {focus = SOV_comrade_marshall_yazov } 
 		mutually_exclusive = { }
 		
-		cost = 7
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -537,7 +549,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_timed_idea = { idea = SOV_Yazov_corrupt_officers_in_army days = 100 }
+			add_timed_idea = { idea = SOV_Yazov_corrupt_officers_in_army days = 400 }
 		}
 	}
 
@@ -553,7 +565,7 @@
 		prerequisite = {focus = SOV_yazov_marshal_in_barracks } 
 		mutually_exclusive = { }
 		
-		cost = 4.3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -578,7 +590,7 @@
 		prerequisite = {focus = SOV_yazov_incrase_military_funding } 
 		mutually_exclusive = { }
 		
-		cost = 2.9
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -604,7 +616,7 @@
 		prerequisite = {focus = SOV_yazov_crackdown_nationalism } 
 		mutually_exclusive = { }
 		
-		cost = 2.2
+		cost = 2
 		ai_will_do = {
 			factor = 1
 		}
@@ -640,7 +652,7 @@
 		prerequisite = {focus = SOV_yazov_crackdown_nationalism } 
 		mutually_exclusive = { }
 		
-		cost = 2.2
+		cost = 2
 		ai_will_do = {
 			factor = 1
 		}
@@ -672,7 +684,7 @@
 		prerequisite = {focus = SOV_yazov_crackdown_nationalism } 
 		mutually_exclusive = { }
 		
-		cost = 2.2
+		cost = 2
 		ai_will_do = {
 			factor = 1
 		}
@@ -709,7 +721,7 @@
 		}
 		mutually_exclusive = { }
 		
-		cost = 4.3
+		cost = 4
 		ai_will_do = {
 			factor = 1
 		}
@@ -974,9 +986,10 @@
 		
 		
 		completion_reward = {
-
 			army_experience = 40
-
+			air_experience = 40
+			add_war_support = 0.2
+			add_manpower = 20000
 		}
 	}
 	
@@ -1037,6 +1050,7 @@
 		completion_reward = {
 			dismantle_faction = yes
 			create_faction = "sov_warsaw_pact"
+		news_event = { id = old_times_news.67 days = 1 }
 			
 		}
 	}
@@ -1564,6 +1578,7 @@
 		y = 17
 
 		prerequisite = {focus = SOV_yazov_our_shining_union}
+		mutually_exclusive = {focus = SOV_yazov_old_enemies}
 						
 		cost = 6.5
 		ai_will_do = {
@@ -1592,7 +1607,7 @@
 
 		
 		
-		cost = 5.8
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1622,7 +1637,7 @@
 		
 
 		
-		cost = 3.6
+		cost = 4
 		ai_will_do = {
 			factor = 1
 		}
@@ -1652,7 +1667,7 @@
 		available = {has_completed_focus = SOV_yazov_workers_red_army}
 		
 		
-		cost = 5.8
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1682,7 +1697,7 @@
 		prerequisite = {focus = SOV_yazov_unions_bio_research}
 		
 		
-		cost = 1.5
+		cost = 2
 		ai_will_do = {
 			factor = 1
 		}
@@ -1708,7 +1723,7 @@
 		prerequisite = {focus = SOV_yazov_ready_set}
 		
 		
-		cost = 7.2
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -1744,7 +1759,7 @@
 		prerequisite = {focus = SOV_yazov_aganist_great_orient_giant}
 		available = {PRC = {is_puppet_of = SOV}}
 		
-		cost = 4.3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -1768,10 +1783,10 @@
 		x = 29
 		y = 17
 
-		prerequisite = {focus = SOV_yazov_our_shining_union}
-		available = {has_completed_focus = SOV_yazov_red_dragons_demise}
+		prerequisite = {focus = SOV_yazov_project_red_dusk}
+		mutually_exclusive = {focus = SOV_yazov_unity_after_chaos}
 		
-		cost = 2.9
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}

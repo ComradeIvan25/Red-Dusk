@@ -123,6 +123,10 @@ spriteTypes = {
 		name = "GFX_idea_PRC_CHI_third_taiwan_strait_icon"
 		texturefile = "gfx/interface/ideas/PRC_CHI_third_taiwan_strait.png"
 	}
+	spriteType = {
+		name = "GFX_idea_PRC_one_child_icon"
+		texturefile = "gfx/interface/ideas/PRC_one_child_policy.dds"
+	}
 
 	#USA#
 

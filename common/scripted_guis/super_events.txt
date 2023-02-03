@@ -27,6 +27,12 @@ scripted_gui = {
 		}
 
 		triggers = {
+			Super_Event_Image_Soviet_Dissolution_visible = {
+				has_global_flag = Soviet_Dissolution
+			}
+		}
+
+		triggers = {
 			Super_Event_Image_Eastern_War_visible = {
 				has_global_flag = Eastern_War
 			}
@@ -72,6 +78,13 @@ scripted_gui = {
 						has_global_flag = Eastern_War
 					}
 					clr_global_flag = Eastern_War
+				}
+
+				if = {
+					limit = {
+						has_global_flag = Soviet_Dissolution
+					}
+					clr_global_flag = Soviet_Dissolution
 				}
 
 				if = {

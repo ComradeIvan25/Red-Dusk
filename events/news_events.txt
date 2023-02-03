@@ -844,6 +844,31 @@ news_event = {
 	
 }
 
+#Dissolution of USSR
+news_event = {
+	id = old_times_news.70
+	title = old_times_news.70.t
+	desc = old_times_news.70.d
+	picture = GFX_news_dissolution
+	
+	major = yes
+	
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			set_global_flag = Soviet_Dissolution
+			set_global_flag = Super_Event_Visible
+			play_song = "super_soviet_dissolution"	
+		}
+	}
+	 
+	option ={
+		name = old_times_news.70.a
+	}
+	
+}
+
 #EPLF AND ETHIOPIAN REBELS Defeated
 news_event = {
 	id = old_times_news.60

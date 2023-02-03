@@ -566,6 +566,22 @@ country_event = {
 
 }
 
+#True Soviet Patriot#
+country_event = {
+	id = ussr.50
+	title = ussr.50.t
+	desc = ussr.50.d
+	picture = GFX_report_event_SOV_yazov_boss
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr.50.a
+			add_political_power = 15
+	}
+
+}
+
 #pugo fren#
 country_event = {
 	id = ussr.42
@@ -580,6 +596,37 @@ country_event = {
 	}
 
 }
+
+#report#
+country_event = {
+	id = ussr.45
+	title = ussr.45.t
+	desc = ussr.45.d
+	picture = GFX_report_event_SOV_generic
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr.45.a
+	}
+
+}
+
+#report 2#
+country_event = {
+	id = ussr.46
+	title = ussr.46.t
+	desc = ussr.46.d
+	picture = GFX_report_event_SOV_generic
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr.46.a
+	}
+
+}
+
 
 
 #libtards owned#
@@ -1144,6 +1191,40 @@ country_event = {
 
 }
 
+#report but pugo#
+country_event = {
+	id = ussr.48
+	title = ussr.48.t
+	desc = ussr.48.d
+	picture = GFX_report_event_SOV_generic
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr.48.a
+		add_political_power = 25
+
+	}
+
+}
+
+#I hate TNO#
+country_event = {
+	id = ussr.47
+	title = ussr.47.t
+	desc = ussr.47.d
+	picture = GFX_report_event_SOV_yazov_meme
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr.47.a
+		add_political_power = -500
+
+	}
+
+}
+
 #New Guard#
 country_event = {
 	id = ussr.39
@@ -1201,6 +1282,7 @@ country_event = {
 	}
 
 }
+
 
 #Dust to Dust#
 country_event = {

@@ -102,7 +102,15 @@ spriteTypes = {
 		name = "GFX_report_event_SOV_pugo_speech"
 		texturefile = "gfx/event_pictures/report_event_pugo_speech.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_report_event_SOV_yazov_meme"
+		texturefile = "gfx/event_pictures/report_event_yazov_meme_event.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_SOV_yazov_boss"
+		texturefile = "gfx/event_pictures/report_event_yazov.dds"
+	}
+
 	##USA##
 	
 	spriteType = {
@@ -412,6 +420,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_news_budapest"
 		texturefile = "gfx/event_pictures/news_budapest.dds"
+	}
+	spriteType = {
+		name = "GFX_news_dissolution"
+		texturefile = "gfx/event_pictures/news_fall_of_ussr.dds"
 	}
 	spriteType = {
 		name = "GFX_news_wienna_summit"

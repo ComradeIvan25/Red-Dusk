@@ -19,6 +19,10 @@ sp_event_Eastern_War:0 "The Eastern European War"
 sp_event_Eastern_War_QUOTE:0 "Everyone imposes his own system as far as his army can reach.\n- Joseph Stalin"
 sp_event_Eastern_War_REMARK:0 "Onwards Comrades!"
 
+sp_event_Soviet_Dissolution:0 "The Soviet Dissolution"
+sp_event_Soviet_Dissolution_QUOTE:0 "And today I am worried by our people's loss the citizenship of a great country. The consequences may turn out to be hard for everyone.\n- Mikhail Gorbachev"
+sp_event_Soviet_Dissolution_REMARK:0 "Goodbye Forever..."
+
 
 
 

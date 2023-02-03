@@ -154,6 +154,8 @@
  PRC_legacy_xiaoping_reform_name_desc:0 ""
  PRC_third_taiwan_strait_crisis_idea_name:0 "Third Taiwan Strait Crisis"
  PRC_third_taiwan_strait_crisis_idea_name_desc:0 "The crisis over the Taiwan Strait has revealed severe deficiencies in our military and command structure, with several traitorous officers being executed as a result. However, we must accept that reforms are needed if we want to successfully assert dominance in the region."
+ PRC_one_child_policy_name:0 "One Child Policy"
+ PRC_one_child_policy_name_desc:0 ""
 
  CHI_third_taiwan_strait_crisis_idea_name:0 "Third Taiwan Strait Crisis"
  CHI_third_taiwan_strait_crisis_idea_name_desc:0 "Despite multiple serious provications from the People's Republic of China, our government has held firm and withstood their threats. Furthermore, the United States has reasserted its commitment to us, something which should reassure even the most nervous Taiwanese citizen."
@@ -301,7 +303,6 @@
  SIA_asean_name:0 "ASEAN Member"
  SIA_asean_name_desc:0 ""
  SIA_asean_observer_states_name:0"ASEAN Observer State"
- 
 
  SAF_apartheid_idea_name:0 "The Apartheid"
  SAF_apartheid_idea_name_desc:0 "Ever since the first colonists arrived in South Africa, the state of segregation has been here. Despite making the majority of the population, the Africans are oppressed at every corner. As much as it has helped us keep the government and the country in our firm hand, it has been a cause of many revolts, insurgencies, and international problems for South Africa in recent years. It might keep the peace, but for how long?"
@@ -473,7 +474,7 @@
  
  cold_war_increased_volunteers_name:0 "Increased Volunteers"
  cold_war_increased_volunteers_name_desc:0 ""
- 
+
  cold_war_comecon_name:0 "COMECON"
  cold_war_comecon_name_desc:0 ""
  # Dynamic Modifiers #

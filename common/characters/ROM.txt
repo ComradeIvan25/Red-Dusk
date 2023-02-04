@@ -43,10 +43,10 @@ characters = {
 		}
 	}
 	ROM_ion_iliescu1 = {
-		name = "Ion Iliescu"
+		name = "Iulian Vlad"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/ROM/Ion_Iliescu_communist.dds"
+				large = "gfx/leaders/ROM/Iulian_Vlad.png"
 			}
 		}
 		country_leader = {

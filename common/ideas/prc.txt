@@ -53,9 +53,8 @@ ideas = {
 			}
 
 			modifier = {
-				PRC = {
-				   monthly_population = -0.7
-				}
+				  monthly_population = -0.65
+
 				stability_factor = -0.1
 			}
 		}

@@ -91,4 +91,10 @@ opinion_modifiers = {
 	SAF_anglo_american_coal_foundation_opinion = {
 		value = 5
 	}
+	SAF_fuel_american_friends_opinion = {
+		value = 5
+	}
+	SAF_fuel_american_agreement_opinion = {
+		value = 5
+	}
 }

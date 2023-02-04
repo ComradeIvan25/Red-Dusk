@@ -1,5 +1,6 @@
 add_namespace = saf
 add_namespace = saf_help
+add_namespace = saf_hidden
 
 #Mandela#
 country_event = {
@@ -459,5 +460,23 @@ country_event = {
 	option = {
 		name = saf.16.a	
 
+	}
+}
+
+#Hidden Event - Fuel Shortage#
+country_event = {
+	id = saf_hidden.1
+	hidden = yes
+
+	trigger = {
+		date > 2000.9.19
+	}
+
+	fire_only_once = yes
+	
+	option = {
+		name = saf.1.a
+
+		complete_national_focus = SAF_parliment_fuel_shortage
 	}
 }

@@ -1,0 +1,7 @@
+SAF_parliment_fuel_shortage_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = SAF_parliment_fuel_shortage_trigger_name
+
+		always = no
+	}
+}

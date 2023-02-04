@@ -184,7 +184,6 @@
  yug_won_over_yugoslavia_milosevic_nationalist:0 "§RAt last we have won aganist the pesky Croats, Bosniaks, Albanians, Slovenians that threathened to end our Serbian State back in 91' and reunified Serbia to its natural borders \n\Nživela Srbija! \n\nGains Cores On All of Greater Serbia\n\n§!"
  
  yug_a_peace_deal_with_ussr_will_be_signed:0 "§GA Peace Deal with the USSR will be signed§!"
- 
  #YUG GUI#####
   
  yug_this_opens_da_gui:0 "The situation of the power struggle"
@@ -464,6 +463,11 @@
  SAF_took_investing_in_farm_activities:0 "Took the Focus "Invest in Farming Activities""
  SAF_took_encourage_tourism_focus_tooltip:0 "Current days are: [?SAF_took_encourage_tourism_focus:days|Y0]"
  SAF_took_encourage_tourism_focus:0 "Took the Focus "Encourage Tourism""
+
+ SAF_parliment_fuel_shortage_trigger_name:0 "After §Y20 September 2000§!"
+
+ SAF_parliment_american_friends_focus_tt:0 "§YBy taking this focus, we will attempt to sign a trade agreement with the United States§!"
+ SAF_parliment_formalize_agreement_focus_tt:0 "§OForeign Military Jets Importation Costs§! §Ynational spirit will be removed 180 days after focus completion§!"
  ## GENERIC ##
 
  decision_cost_CP_10_PP_60:0 "£command_power  §Y10§! £political_power  §Y60§!"

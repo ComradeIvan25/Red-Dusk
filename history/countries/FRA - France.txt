@@ -30,6 +30,7 @@ if = {
 set_technology = {
 	towed_artillery_1980 = 1
 	fighter_1970 = 1
+	fighter_1980 = 1
 	carrier_attacker_1960 = 1
 	carrier_attacker_1970 = 1
 	heli_transport_1960 = 1

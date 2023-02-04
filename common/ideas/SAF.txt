@@ -574,6 +574,213 @@ ideas = {
 			}
 		}
 
+		### Parliment - Military Tree ###
+
+		SAF_army_with_state_idea = {
+			name = SAF_army_with_state_idea_name
+
+			removal_cost = -1
+
+			#picture =
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_org_factor = 0.05
+				army_core_attack_factor = 0.03
+				army_core_defence_factor = 0.03
+				land_reinforce_rate = 0.05
+			}
+		}
+
+		SAF_fuel_shortage_idea = {
+			name = SAF_fuel_shortage_idea_name
+
+			removal_cost = -1
+
+			#picture =
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				fuel_gain_factor = -0.3
+				stability_weekly = -0.005
+				research_speed_factor = -0.05
+			}
+		}
+
+		SAF_exploit_our_territory_idea = {
+			name = SAF_exploit_our_territory_idea_name
+
+			removal_cost = -1
+
+			#picture =
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_weekly = -0.005
+				production_speed_synthetic_refinery_factor = 0.05
+				production_speed_arms_factory_factor = -0.1
+				production_speed_industrial_complex_factor = -0.1
+			}
+		}
+
+		SAF_american_trade_agreement_idea = {
+			name = SAF_american_trade_agreement_idea_name
+
+			removal_cost = -1
+
+			#picture =
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_weekly = 0.005
+				production_speed_buildings_factor = 0.05
+				political_power_gain = 0.5
+			}
+		}
+
+		SAF_we_rule_skies_idea = {
+			name = SAF_we_rule_skies_idea_name
+
+			removal_cost = -1
+
+			#picture =
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_weekly = 0.005
+				war_support_weekly = 0.005
+				political_power_gain = 0.5
+			}
+		}
+
+		SAF_foreign_jet_import_costs_idea = {
+			name = SAF_foreign_jet_import_costs_idea_name
+
+			removal_cost = -1
+
+			#picture =
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_gain = -0.5
+				civilian_factory_use = 1
+			}
+		}
+
+		SAF_foreign_jet_import_costs_timed_idea = {
+			name = SAF_foreign_jet_import_costs_idea_name
+
+			removal_cost = -1
+
+			#picture =
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_gain = -0.5
+				civilian_factory_use = 1
+			}
+		}
+
+		SAF_new_air_force_idea = {
+			name = SAF_new_air_force_idea_name
+
+			removal_cost = -1
+
+			#picture =
+
+			allowed = {
+				always = no
+			}
+
+			research_bonus = {
+				air_equipment = 0.05
+			}
+
+			modifier = {
+				stability_weekly = 0.001
+				war_support_weekly = 0.005
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+
+		SAF_increase_war_planes_production_idea = {
+			name = SAF_increase_war_planes_production_idea_name
+
+			removal_cost = -1
+
+			#picture =
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+
+		SAF_prioritize_attackers_idea = {
+			name = SAF_prioritize_attackers_idea_name
+
+			removal_cost = -1
+
+			#picture =
+
+			allowed = {
+				always = no
+			}
+
+			research_bonus = {
+				mod_cat_attacker = 0.05
+			}
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+
+		SAF_prioritize_fighters_idea = {
+			name = SAF_prioritize_fighters_idea_name
+
+			removal_cost = -1
+
+			#picture =
+
+			allowed = {
+				always = no
+			}
+
+			research_bonus = {
+				mod_cat_fighter = 0.05
+			}
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+
 	}
 
 }

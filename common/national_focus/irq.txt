@@ -270,6 +270,8 @@ focus_tree = {
 		completion_reward = {
 		add_political_power = 25
 		add_ideas = IRQ_saddams_cult_of_personality
+			custom_effect_tooltip = propaganda_decision_cost_decreases_by_5
+			subtract_from_variable = { propaganda_decision_cost_var = 5}
 		unlock_decision_tooltip = IRQ_propaganda_saddam_iraqs_saviour
 		unlock_decision_tooltip = IRQ_propaganda_saddam_an_example_for_the_youth
 		}
@@ -607,7 +609,8 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+			add_war_support = 0.05
+			add_stability = -0.05
 		}
 	}
 
@@ -1032,14 +1035,18 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			set_cosmetic_tag = IRQ_greater_iraq_cosmetic
+			swap_ideas = {
+			remove_idea = IRQ_dreams_of_a_greater_iraq
+			add_idea = IRQ_dreams_of_a_greater_iraq_2
+			}
+			set_country_flag = irq_greater_iraq_declared
 			add_state_core = 656
 			add_state_core = 421
 			add_state_core = 677
 			add_state_core = 554
 			add_state_core = 680
 			add_state_core = 413
-			set_cosmetic_tag = IRQ_greater_iraq_cosmetic
-			set_country_flag = irq_greater_iraq_declared
 			news_event = {id = old_times_news.33}
 			country_event = {id = irq.15}
 		}
@@ -1269,6 +1276,9 @@ focus_tree = {
 			remove_idea = IRQ_saddams_cult_of_personality
 			add_idea = IRQ_saddams_cult_of_personality_2
 			}
+			
+			custom_effect_tooltip = propaganda_decision_cost_decreases_by_15
+			subtract_from_variable = { propaganda_decision_cost_var = 15}
 
 		}
 	}
@@ -1527,12 +1537,12 @@ focus_tree = {
 			add_stability = 0.30
 			set_cosmetic_tag = PER_iraq_puppet_civ_gov
 				add_popularity = {
-					ideology = reformed_communism
+					ideology = socialism
 					popularity = 0.5
 				}
 				
 				set_politics = {
-					ruling_party = reformed_communism
+					ruling_party = socialism
 					last_election = "1932.5.1"
 					election_frequency = 48
 					elections_allowed = no
@@ -1569,11 +1579,11 @@ focus_tree = {
 			}
 			unlock_decision_tooltip = IRQ_pan_arab_modify_the_constitution
 			add_popularity = {
-				ideology = communism
+				ideology = reformed_communism
 				popularity = 0.10
 			}
 			add_popularity = {
-				ideology = reformed_communism
+				ideology = socialism
 				popularity = 0.25
 			}
 				set_party_name = {
@@ -1582,7 +1592,7 @@ focus_tree = {
 					name = IRQ_communism_party_baath
 				}
 				set_party_name = {
-					ideology = communism
+					ideology = socialism
 					long_name = IRQ_communism_party_baath_long
 					name = IRQ_communism_party_baath
 				}
@@ -1673,13 +1683,18 @@ focus_tree = {
 		continue_if_invalid = no
 		completion_reward = {
 			add_popularity = {
-				ideology = socialism
+				ideology = fascism
 				popularity = 0.05
 			}
+			custom_effect_tooltip = propaganda_decision_cost_decreases_by_5
+			subtract_from_variable = { propaganda_decision_cost_var = 5}
+			
 		add_to_variable = { irq_propaganda_effect_political_var = 0.050}
 		custom_effect_tooltip = irq_propaganda_political_buffed_by_5_per
 		add_to_variable = { irq_propaganda_effect_costs_var = -0.05 }
 		custom_effect_tooltip = irq_propaganda_factory_output_costs_increase_by_5_per
+		
+
 		}
 	}
 	
@@ -1706,11 +1721,7 @@ focus_tree = {
 		continue_if_invalid = no
 		completion_reward = {
 		add_political_power = 100
-			add_trait = {
-				 character = IRQ_saddam_hussein
-				 ideology = fascism_ideology
-				 trait = face_of_neo_baathism
-			}
+		add_country_leader_trait = face_of_neo_baathism
 		add_to_variable = { irq_propaganda_effect_efficiency_var = 0.05 }
 		custom_effect_tooltip = irq_propaganda_efficiency_buffed_by_5_per
 		add_to_variable = { irq_propaganda_effect_political_var = 0.050}
@@ -2896,6 +2907,8 @@ focus_tree = {
 			IRQ = {
 				country_event = irq.25
 			}
+			custom_effect_tooltip = propaganda_decision_cost_increases_by_10
+			add_to_variable = { propaganda_decision_cost_var = 10}
 		}
 	}
 

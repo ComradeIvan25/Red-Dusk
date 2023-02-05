@@ -259,6 +259,9 @@ country_event = {
 	option = {
 	name = yug.17.a
 		retire_ideology_leader = communism
+		107 = {
+			add_manpower = -1
+		}
 			custom_effect_tooltip = yug_decrease_stambolic_pop_20
 			hidden_effect = {
 				add_popularity = {
@@ -289,7 +292,7 @@ country_event = {
 				popularity = 0.05
 			}
 		country_event = {id = yug.6 days = 3}
-		news_event = {id = old_times_news.70}
+		news_event = {id = old_times_news.71}
 	}
 
 }
@@ -307,6 +310,7 @@ country_event = {
 	option = {
 	name = yug.6.a
 			retire_country_leader = yes
+			promote_character = YUG_stambolic
 			add_popularity = {
 				ideology = reformed_communism
 				popularity = -1.0
@@ -315,7 +319,12 @@ country_event = {
 				ruling_party = communism
 
 			}
-			news_event = {id = old_times_news.71}
+			set_party_name = {
+				ideology = communism
+				long_name = YUG_communism_NJL_party_long
+				name = YUG_communism_NJL_party
+			}
+			news_event = {id = old_times_news.72}
 	}
 
 }

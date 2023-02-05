@@ -12,6 +12,9 @@ scripted_gui = {  #durangoose note: there was going to be a gui to show who rule
 	 		yug_close_da_gui_click = {
 	 			clr_country_flag = yug_opened_the_power_struggle_gui
 	 		}
+			yug_close_da_power_struggle_x_thingy_click = {
+	 			clr_country_flag = yug_opened_the_power_struggle_gui			
+			}
 	 	}
 	 
 	}

@@ -6,12 +6,24 @@ characters = {
 			civilian = {
 				large = "gfx/leaders/UKR/hohol.dds"
 			}
+			army = {
+				large = "gfx/leaders/UKR/hohol.dds"			
+			}
 		}
 		country_leader = {
 			ideology = fascism_ideology
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
 		}
 	}
 	

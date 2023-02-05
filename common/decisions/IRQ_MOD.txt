@@ -925,7 +925,7 @@ irq_category_propaganda_machine = {
 		modifier {
 			political_power_cost = 0.10
 		}
-		cost = 20
+		cost = propaganda_decision_cost_var
 		fire_only_once = no
 		ai_will_do = {
 			factor = 10
@@ -976,7 +976,7 @@ irq_category_propaganda_machine = {
 			set_country_flag = irq_running_propaganda
 		}
 		
-		cost = 15
+		cost = propaganda_decision_cost_var
 		fire_only_once = no
 		ai_will_do = {
 			factor = 0
@@ -1022,7 +1022,7 @@ irq_category_propaganda_machine = {
 			set_country_flag = irq_running_propaganda
 		}
 		
-		cost = 15
+		cost = propaganda_decision_cost_var
 		fire_only_once = no
 		ai_will_do = {
 			factor = 0
@@ -1064,7 +1064,7 @@ irq_category_propaganda_machine = {
 			set_country_flag = irq_running_propaganda
 		}
 		
-		cost = 10
+		cost = propaganda_decision_cost_var
 		fire_only_once = no
 		ai_will_do = {
 			factor = 0
@@ -1107,7 +1107,7 @@ irq_category_propaganda_machine = {
 			set_country_flag = irq_running_propaganda
 		}
 		
-		cost = 35
+		cost = propaganda_decision_cost_var
 		fire_only_once = no
 		ai_will_do = {
 			factor = 0
@@ -1152,7 +1152,7 @@ irq_category_propaganda_machine = {
 			set_country_flag = irq_running_propaganda
 		}
 		
-		cost = 10
+		cost = propaganda_decision_cost_var
 		fire_only_once = no
 		ai_will_do = {
 			factor = 0
@@ -1194,7 +1194,7 @@ irq_category_propaganda_machine = {
 			set_country_flag = irq_running_propaganda
 		}
 		
-		cost = 10
+		cost = propaganda_decision_cost_var
 		fire_only_once = no
 		ai_will_do = {
 			factor = 0
@@ -1235,7 +1235,7 @@ irq_category_propaganda_machine = {
 			set_country_flag = irq_running_propaganda
 		}
 		
-		cost = 10
+		cost = propaganda_decision_cost_var
 		fire_only_once = no
 		ai_will_do = {
 			factor = 0
@@ -1280,7 +1280,7 @@ irq_category_propaganda_machine = {
 			set_country_flag = irq_running_propaganda
 		}
 		
-		cost = 35
+		cost = propaganda_decision_cost_var
 		fire_only_once = no
 		ai_will_do = {
 			factor = 0

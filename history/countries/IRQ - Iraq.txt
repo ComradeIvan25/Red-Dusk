@@ -119,6 +119,8 @@ set_popularities = {
 	neutrality = 1
 }
 
+set_variable = { propaganda_decision_cost_var = 50 }
+
 add_opinion_modifier = { target = PER modifier = HISTORIC_iran_iraq_war_opinion }
 add_opinion_modifier = { target = KUW modifier = HISTORIC_gulf_war_kuwait_opinion }
 add_opinion_modifier = { target = USA modifier = HISTORIC_gulf_war_irq_rest_opinion }

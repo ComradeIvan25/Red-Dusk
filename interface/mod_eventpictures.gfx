@@ -625,5 +625,13 @@ spriteTypes = {
 		name = "GFX_news_nepal_massacre"
 		texturefile = "gfx/event_pictures/news_nepal_massacre.png"
 	}	
+	spriteType = {
+		name = "GFX_news_milosevic_speech"
+		texturefile = "gfx/event_pictures/news_milosevic_speech.png"
+	}		
+	spriteType = {
+		name = "GFX_news_belgrade_revolution"
+		texturefile = "gfx/event_pictures/news_belgrade_revolution.png"
+	}		
 	
 }

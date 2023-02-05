@@ -1,0 +1,20 @@
+﻿capital = 952
+
+set_war_support = 0.1
+set_stability = 0.8
+set_convoys = 0
+
+recruit_character = LES_letsie_three
+
+set_politics = {
+	ruling_party = paternal_autocracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 25
+	socialism = 40	
+	socialism = 10	
+    paternal_autocracy = 25
+}

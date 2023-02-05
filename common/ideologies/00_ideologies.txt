@@ -121,7 +121,10 @@ ideologies = {
 		
 			revolutionary_socialism = {
 			}
-		
+			
+			libertarian_socialism = {
+			}
+
 			democratic_socialism = {
 			}
 			

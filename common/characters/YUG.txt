@@ -15,7 +15,37 @@ characters = {
 		}
 	}
 
-	YUG_šešelj = {
+	YUG_seselj_and_stambolic = {
+		name = "Vojislav Šešelj/Ivan Stambolic"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUG/Vojislav_Seselj.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = {}
+			expire = "2050.3.1"
+			id = -1
+		}
+	}
+
+	YUG_stambolic = {
+		name = "Ivan Stambolic"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUG/stambolic.png"
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = {}
+			expire = "2050.3.1"
+			id = -1
+		}
+	}
+
+	YUG_seselj = {
 		name = "Vojislav Šešelj"
 		portraits = {
 			civilian = {
@@ -24,6 +54,36 @@ characters = {
 		}
 		country_leader = {
 			ideology = fascism_ideology
+			traits = {}
+			expire = "2050.3.1"
+			id = -1
+		}
+	}
+
+	YUG_markovic = {
+		name = "Mirjana Markovic"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUG/Mirjana_Markovic.png"
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_socialism
+			traits = {}
+			expire = "2050.3.1"
+			id = -1
+		}
+	}
+
+	YUG_vulin = {
+		name = "Aleksandar Vulin"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUG/Vojislav_Seselj.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarian_socialism
 			traits = {}
 			expire = "2050.3.1"
 			id = -1

@@ -1603,6 +1603,7 @@ on_actions = {
 							target = UKR
 							transfer_troops = no
 							}
+							country_event = {id = ussr_rebel_ukr.2}
 						}
 						
 					}

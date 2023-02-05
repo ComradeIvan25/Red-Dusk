@@ -341,11 +341,11 @@ ideas = {
 		}
 
 		IRQ_terratorial_expansion_idea_1 = {
-			name = IRQ_terratorial_expansion_idea_1_name
+			name = IRQ_terratorial_expansion_idea_name
 
 			removal_cost = -1
 
-			#picture = 
+			picture = IRQ_territorial_expansion_icon
 
 			allowed = {
 				always = no
@@ -362,11 +362,11 @@ ideas = {
 		}
 
 		IRQ_terratorial_expansion_idea_2 = {
-			name = IRQ_terratorial_expansion_idea_2_name
+			name = IRQ_terratorial_expansion_idea_name
 
 			removal_cost = -1
 
-			#picture = 
+			picture = IRQ_territorial_expansion_icon
 
 			allowed = {
 				always = no
@@ -383,11 +383,11 @@ ideas = {
 		}
 
 		IRQ_terratorial_expansion_idea_3 = {
-			name = IRQ_terratorial_expansion_idea_3_name
+			name = IRQ_terratorial_expansion_idea_name
 
 			removal_cost = -1
 
-			#picture = 
+			picture = IRQ_territorial_expansion_icon
 
 			allowed = {
 				always = no
@@ -408,11 +408,11 @@ ideas = {
 		}
 
 		IRQ_terratorial_expansion_idea_4 = {
-			name = IRQ_terratorial_expansion_idea_4_name
+			name = IRQ_terratorial_expansion_idea_name
 
 			removal_cost = -1
 
-			#picture = 
+			picture = IRQ_territorial_expansion_icon
 
 			allowed = {
 				always = no
@@ -429,11 +429,11 @@ ideas = {
 		}
 
 		IRQ_terratorial_expansion_idea_5 = {
-			name = IRQ_terratorial_expansion_idea_5_name
+			name = IRQ_terratorial_expansion_idea_name
 
 			removal_cost = -1
 
-			#picture = 
+			picture = IRQ_territorial_expansion_icon
 
 			allowed = {
 				always = no
@@ -733,7 +733,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_goods_red_bonus
+			picture = IRQ_dreams_of_greater_iraq_icon
 
 			allowed = {
 				always = no
@@ -748,13 +748,36 @@ ideas = {
 				dig_in_speed_factor = 0.30
 			}
 		}
+		IRQ_dreams_of_a_greater_iraq_2 = {
+			name = IRQ_dreams_of_a_greater_iraq_name
+
+			removal_cost = -1
+
+			picture = IRQ_dreams_of_greater_iraq_icon
+
+			allowed = {
+				always = no
+			}
+
+			cancel = {
+				is_puppet = yes
+			}
+
+			modifier = {
+				army_core_defence_factor = 0.05
+				army_core_attack_factor = 0.05
+				dig_in_speed_factor = 0.30
+				max_command_power_mult = 0.3 
+
+			}
+		}		
 		
 		IRQ_dreams_of_a_united_arab_nation = {
 			name = IRQ_dreams_of_a_united_arab_nation_name
 
 			removal_cost = -1
 
-			picture = generic_goods_red_bonus
+			picture = IRQ_dreams_of_pan_arab_icon
 
 			allowed = {
 				always = no
@@ -776,7 +799,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_goods_red_bonus
+			picture = IRQ_dreams_of_pan_arab_icon
 
 			allowed = {
 				always = no
@@ -799,7 +822,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_goods_red_bonus
+			picture = IRQ_dreams_of_pan_arab_icon
 
 			allowed = {
 				always = no
@@ -823,7 +846,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_goods_red_bonus
+			picture = IRQ_dreams_of_pan_arab_icon
 
 			allowed = {
 				always = no
@@ -849,7 +872,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_goods_red_bonus
+			picture = IRQ_dreams_of_pan_arab_icon
 
 			allowed = {
 				always = no
@@ -878,7 +901,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_goods_red_bonus
+			picture = IRQ_cult_of_saddam_icon
 
 			allowed = {
 				always = no
@@ -901,7 +924,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_goods_red_bonus
+			picture = IRQ_cult_of_saddam_icon
 
 			allowed = {
 				always = no
@@ -924,7 +947,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_goods_red_bonus
+			picture = IRQ_cult_of_saddam_icon
 
 			allowed = {
 				always = no
@@ -948,7 +971,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_goods_red_bonus
+			picture = IRQ_cult_of_saddam_icon
 
 			allowed = {
 				always = no
@@ -972,7 +995,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_goods_red_bonus
+			picture = IRQ_renewed_resistance_icon
 
 			allowed = {
 				always = no
@@ -994,7 +1017,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_goods_red_bonus
+			picture = IRQ_renewed_resistance_icon
 
 			allowed = {
 				always = no
@@ -1016,7 +1039,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_goods_red_bonus
+			picture = IRQ_renewed_resistance_icon
 
 			allowed = {
 				always = no
@@ -1038,7 +1061,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_goods_red_bonus
+			picture = IRQ_renewed_resistance_icon
 
 			allowed = {
 				always = no
@@ -1060,7 +1083,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_goods_red_bonus
+			picture = IRQ_renewed_resistance_icon
 
 			allowed = {
 				always = no
@@ -1081,7 +1104,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_goods_red_bonus
+			picture = IRQ_fire_with_gun_icon
 
 			allowed = {
 				always = no
@@ -1101,7 +1124,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_goods_red_bonus
+			picture = strategic_bombing_focus
 
 			allowed = {
 				always = no
@@ -1118,7 +1141,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_goods_red_bonus
+			picture = generic_build_infrastructure
 
 			allowed = {
 				always = no
@@ -1158,7 +1181,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = IRQ_Disorganised_Army_icon
+			picture = generic_foreign_capital
 
 			allowed = {
 				always = no

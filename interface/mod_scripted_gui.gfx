@@ -73,6 +73,10 @@ spriteTypes = {
 		name = "GFX_red_square_gui_piece"
 		texturefile = "gfx/interface/scripted_gui/red_square_gui_piece.dds"
 	}		
+	SpriteType = {
+		name = "GFX_x_button_gui_piece"
+		texturefile = "gfx/interface/scripted_gui/x_button_gui_piece.dds"
+	}	
 	
 	SpriteType = {
 		name = "GFX_yug_republics_icon_gui"

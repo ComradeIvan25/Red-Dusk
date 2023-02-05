@@ -210,7 +210,7 @@ focus_tree = {
 		y = 3
 
 		prerequisite = {focus = SOV_put_promise}
-		mutually_exclusive = {focus = SOV_put_patrushev}
+		mutually_exclusive = {focus = SOV_put_bortnikov}
 		
 		cost = 3
 		ai_will_do = {

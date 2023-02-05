@@ -17,5 +17,10 @@ music = {
 		factor = 0
 	}
 }
-
+music = {
+	song = "super_soviet_dissolution"
+	chance = {
+		factor = 0
+	}
+}
 

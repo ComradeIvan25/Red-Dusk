@@ -475,6 +475,8 @@
  
  YUG_communism_party:0 "NKPJ/NJL"
  YUG_communism_party_long:0 "Nacionalna Komunistička Partija Jugoslavije (National Communist Party of Yugoslavia)/Nova Jugoslovenska Levica (New Yugoslav Left)"
+ YUG_communism_NJL_party:0 "NJL"
+ YUG_communism_NJL_party_long:0 "Nova Jugoslovenska Levica (New Yugoslav Left)"
  YUG_reformed_communism_party:0 "SKJ - M"
  YUG_reformed_communism_party_long:0 "Savez Komunista Jugoslavije – Miloševićeva Krakcija (Alliance of Communists of Yugoslavia - Milosevic's Faction)"
  YUG_socialism_party:0 "SLPJ"
@@ -592,8 +594,8 @@
  RAJ_fascism_party_long:0 "All-India Hindu Assembly"
  PER_communism_party:0 "Tudeh Party"
  PER_communism_party_long:0 "Tudeh Party"
- PER_reformed_communism_party:0 "NCRI"
- PER_reformed_communism_party_long:0 "National Council of Resistance of Iran"
+ PER_socialism_party:0 "NCRI"
+ PER_socialism_party_long:0 "National Council of Resistance of Iran"
  PER_neutrality_party:0 "ACC"
  PER_islamism_party:0 "ACC"
  PER_fascism_party:0 "Iraqi Occupation Force"
@@ -820,10 +822,12 @@
  MNT_democratic_party:0 "Democracy League"
  MNT_communism_party:0 "Communist Party of Montenegro" #or KPCG
  MNT_neutrality_party:0 "Federalist Party" # Montenegrin ultra nationalists, start democtratic right wing but went full fascist collaboration in 41'
- UKR_fascism_party:0 "OUN"
+ 
+ UKR_rebellion_party:0 "Anti-Soviet United Front"
  UKR_democratic_party:0 "Ukrainian National Democratic Alliance" # or UNDO
  UKR_communism_party:0 "Communist Party of Ukraine"
  UKR_neutrality_party:0 "Ukrainian Progress Party"
+ 
  GEO_fascism_party:0 "Tbilisi Council"
  GEO_democratic_party:0 "Social Democratic Party of Georgia"
  GEO_communism_party:0 "Communist Party of Georgia"

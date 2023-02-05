@@ -960,3 +960,12 @@ MAD = {
 	color = rgb { 165 112 104 }
 	color_ui = rgb { 165 102 100 }
 }
+LES = {
+	color = rgb { 66  135  51 }
+	color_ui = rgb { 70 135  51 }
+}
+ESW = {
+	color = rgb { 99  79  25 }
+	color_ui = rgb { 105  79  25 }
+}
+

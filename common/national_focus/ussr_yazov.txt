@@ -1784,7 +1784,7 @@
 		y = 17
 
 		prerequisite = {focus = SOV_yazov_project_red_dusk}
-		mutually_exclusive = {focus = SOV_yazov_unity_after_chaos}
+		mutually_exclusive = {focus = SOV_yazov_project_red_dusk}
 		
 		cost = 3
 		ai_will_do = {

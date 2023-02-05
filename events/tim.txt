@@ -9,7 +9,7 @@ country_event = {
 	
 	trigger = {
 		original_tag = TIM
-		date > 2002.5.19
+		date > 2002.05.19
 	}
 
 	fire_only_once = yes

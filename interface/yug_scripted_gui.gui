@@ -43,12 +43,13 @@ guiTypes = {
 	 		name ="yug_slobo_faction"
 	 		spriteType = "GFX_yug_slobo_faction_icon_gui"
 	 		position = { x=450 y=105 }
+			pdx_tooltip = yug_this_is_slobo_tooltip
 	 		
 	 	}
 	 	
 	 	instantTextBoxType = {
 	 		name ="yug_slobo_faction_text_box"
-	 		position = { x = 230 y = 232 }
+	 		position = { x = 230 y = 262 }
 	 		font = "hoi_30header"
 	 		text = "yug_slobo_faction_loc"
 	 		format = center
@@ -59,8 +60,8 @@ guiTypes = {
 	 	iconType = {
 	 		name ="yug_socialist_left_faction"
 	 		spriteType = "GFX_yug_socialist_left_faction_icon_gui"
-	 		position = { x=235 y=350 }
-	 		
+	 		position = { x=235 y=320 }
+	 		pdx_tooltip = yug_this_is_markovic_tooltip
 	 	}
 	 	
 	 	instantTextBoxType = {
@@ -111,8 +112,8 @@ guiTypes = {
 		iconType = {
 	 		name ="yug_anti_establishment_communist_faction"
 	 		spriteType = "GFX_yug_stambolic_faction_icon_gui"
-	 		position = { x=1015 y=205 }
-	 		
+	 		position = { x=1015 y=175 }
+	 		pdx_tooltip = yug_this_is_stambolic_tooltip
 	 	}
 	 	
 	 	instantTextBoxType = {
@@ -124,6 +125,13 @@ guiTypes = {
 	 		maxHeight = 555
 	 		maxWidth = 555
 	 	}
+
+	 	iconType = {
+	 		name ="yug_close_da_power_struggle_x_thingy"
+	 		spriteType = "GFX_x_button_gui_piece"
+	 		position = { x=1280 y=-5 }
+	 		
+	 	}		
 	 	
 	}
 	

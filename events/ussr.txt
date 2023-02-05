@@ -1449,8 +1449,6 @@ country_event = {
 		name = ussr_rebel_ukr.1.a
 		add_stability = -0.20
 		add_political_power = -150
-		set_country_flag = finished_crackdown_ukraine			
-		clr_country_flag = crackdown_ukraine	
 		UKR = {
 				transfer_state = 89
 				transfer_state = 73
@@ -1460,15 +1458,33 @@ country_event = {
 				transfer_state = 198
 				transfer_state = 834
 				transfer_state = 766
-				transfer_state = 192
 				transfer_state = 197
 				transfer_state = 203
 				transfer_state = 202
+				inherit_technology = SOV
+				load_oob = UKR_rebellion
+				set_party_name = {
+					ideology = fascism
+					name = UKR_rebellion_party
+					long_name = UKR_rebellion_party
+				}
+				set_party_name = {
+					ideology = neutrality
+					name = UKR_rebellion_party
+					long_name = UKR_rebellion_party
+				}	
+				set_party_name = {
+					ideology = democratic
+					name = UKR_rebellion_party
+					long_name = UKR_rebellion_party
+				}							
 		}
 		    declare_war_on = {
             type = annex_everything
             target = UKR
             }
+
+
 		
 	}
 
@@ -1490,7 +1506,6 @@ country_event = {
 		clr_country_flag = crackdown_ukraine	
 		add_stability = 0.01
 		add_political_power = 10
-		
 		
 	}
 

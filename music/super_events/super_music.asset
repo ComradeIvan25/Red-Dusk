@@ -10,3 +10,7 @@ music = {
 	name = "super_sa_war"
 	file = "south_african_war.ogg"
 }
+music = {
+	name = "super_soviet_dissolution"
+	file = "soviet_dissolution.ogg"
+}

@@ -217,6 +217,30 @@ spriteTypes = {
 		name = "GFX_idea_IRQ_broken_army_guard_final_icon"
 		texturefile = "gfx/interface/ideas/IRQ_broken_army_guard_final.png"
 	}
+	spriteType = {
+		name = "GFX_idea_IRQ_cult_of_saddam_icon"
+		texturefile = "gfx/interface/ideas/IRQ_cult_of_saddam.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_IRQ_dreams_of_pan_arab_icon"
+		texturefile = "gfx/interface/ideas/IRQ_dreams_of_pan_arab.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_IRQ_territorial_expansion_icon"
+		texturefile = "gfx/interface/ideas/IRQ_territorial_expansion.png"
+	}		
+	spriteType = {
+		name = "GFX_idea_IRQ_dreams_of_greater_iraq_icon"
+		texturefile = "gfx/interface/ideas/IRQ_dreams_of_greater_iraq.png"
+	}		
+	spriteType = {
+		name = "GFX_idea_IRQ_renewed_resistance_icon"
+		texturefile = "gfx/interface/ideas/IRQ_renewed_resistance.png"
+	}		
+	spriteType = {
+		name = "GFX_idea_IRQ_fire_with_gun_icon"
+		texturefile = "gfx/interface/ideas/IRQ_fire_with_gun.png"
+	}	
 
 	#GENERIC MIDDLE EAST#
 

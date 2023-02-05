@@ -452,7 +452,7 @@ country_event = {
 		name = irq.17.a
 		PER = {
 			add_popularity = {
-				ideology = reformed_communism
+				ideology = socialism
 				popularity = -0.15
 			}
 			add_manpower = -5

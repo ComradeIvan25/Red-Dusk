@@ -89,9 +89,27 @@ division_template = { # Infantry Division #
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
-		spaa_vehicle_support_armor = { x = 0 y = 1 }
+	    logistics_company = { x = 0 y = 2 }
 	}
 	priority = 1
+}
+division_template = { # Light Infantry Division #
+	name = "Thahan Phran"
+	division_names_group = GENERIC_INF_01
+
+	regiments = {
+		infantry_unit = { x = 0 y = 0 }
+		infantry_unit = { x = 0 y = 1 }
+		infantry_unit = { x = 0 y = 2 }
+		militia_unit = { x = 1 y = 0 }
+		militia_unit = { x = 1 y = 1 }
+        militia_unit = { x = 1 y = 2 }
+		militia_unit =  {x = 1 y = 3 }
+	}
+	support = {
+
+	}
+	priority = 0
 }
 division_template = { # Paratrooper Division #
 	name = "Paratrooper Division"
@@ -130,6 +148,47 @@ division_template = { # Marine Division #
 }
 
 units = {
+    #Thahan Phran
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7408
+		division_template = "Thahan Phran"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.003
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1488
+		division_template = "Thahan Phran"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.003
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7601
+		division_template = "Thahan Phran"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.003
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7236
+		division_template = "Thahan Phran"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.003
+	}
     #Marine
 	division = { 
 		division_name = {
@@ -318,7 +377,19 @@ units = {
 		location = 7236
 		division_template = "Infantry Division"
 		force_equipment_variants = {
-			spaa_tank_equipment_0 = { owner = "USA" }
+			towed_artillery_equipment_2 = { owner = "CAN" }
+		}
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.003
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7559
+		division_template = "Infantry Division"
+		force_equipment_variants = {
 			towed_artillery_equipment_2 = { owner = "CAN" }
 		}
 		start_experience_factor = 0.20
@@ -455,7 +526,7 @@ instant_effect = {
 	}	
 	add_equipment_to_stockpile = {
 		type = infantry_weapons_1
-		amount = 8000
+		amount = 10000
 		producer = USA
 	}	
 	add_equipment_to_stockpile = {

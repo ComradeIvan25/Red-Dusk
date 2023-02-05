@@ -51,7 +51,7 @@ sub_units = {
 
 		need = {
 			infantry_weapons = 10
-			support_equipment = 35
+			support_equipment = 20
 		}
 
 		can_be_parachuted = yes

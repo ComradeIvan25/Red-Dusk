@@ -353,4 +353,19 @@ instant_effect = {
 		amount = 2500
 		producer = PRC
 	}
+add_equipment_to_stockpile = {
+		type = infantry_weapons_1
+		amount = 1000
+		producer = SOV
+	}
+add_equipment_to_stockpile = {
+		type = infantry_anti_tank_weapons_1
+		amount = 100
+		producer = SOV
+	}
+add_equipment_to_stockpile = {
+		type = infantry_anti_tank_weapons_1
+		amount = 30
+		producer = PRC
+	}
 }

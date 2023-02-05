@@ -607,7 +607,7 @@ instant_effect = {
 	}
         add_equipment_to_stockpile = {
 		type = infantry_anti_tank_weapons_1
-		amount = 1580
+		amount = 2080
 		producer = SOV
 	}
         add_equipment_to_stockpile = {

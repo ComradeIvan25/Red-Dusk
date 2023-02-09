@@ -89,7 +89,7 @@ diplomatic_relation = {
 	relation = military_access
 }
 
-set_convoys = 30
+set_convoys = 60
 
 recruit_character = VIN_le_kha_phieu
 recruit_character = VIN_le_kha_phieu_1

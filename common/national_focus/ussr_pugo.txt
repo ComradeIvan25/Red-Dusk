@@ -2499,7 +2499,7 @@
 				}
 				add_equipment_to_stockpile = {
 					type = mbt_tank_equipment_0
-					amount = 1000
+					amount = 100
 					producer = SOV
 				}				
 			}

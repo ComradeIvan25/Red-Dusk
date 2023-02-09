@@ -46,7 +46,9 @@ if = {
 set_convoys = 150
 
 recruit_character = SIA_chuan_leekpai
-recruit_character = SIA_Surayud_Chulanont
+recruit_character = SIA_Surayud_Chulanont 
+recruit_character = SIA_Sonthi_Boonyaratglin
+recruit_character = SIA_Songkitti_Jaggabatara
 
 add_ideas = SIA_asean
 add_ideas = SIA_rama_IX

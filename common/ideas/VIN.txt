@@ -459,7 +459,7 @@ ideas = {
 			}
 		}
 		VIN_corruption_2 = {
-			name = VIN_corruption_name_2
+			name = VIN_corruption_name_1
 
 			removal_cost = -1
 

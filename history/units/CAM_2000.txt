@@ -1,4 +1,21 @@
 ﻿division_template = { # Infantry Division #
+	name = "Light Infantry Division"
+	division_names_group = GENERIC_INF_01
+
+	regiments = {
+		infantry_unit = { x = 0 y = 0 }
+		infantry_unit = { x = 0 y = 1 }
+		infantry_unit = { x = 0 y = 2 }
+		infantry_unit = { x = 0 y = 3 }
+		infantry_unit = { x = 0 y = 4 }
+		infantry_unit = { x = 1 y = 0 }
+	}
+	support = {
+                engineer = { x = 0 y = 0 }
+	}
+	priority = 1
+}
+division_template = { # Better Infantry Division #
 	name = "Infantry Division"
 	division_names_group = GENERIC_INF_01
 
@@ -9,10 +26,10 @@
 		infantry_unit = { x = 0 y = 3 }
 		infantry_unit = { x = 0 y = 4 }
 		towed_artillery_unit = { x = 1 y = 0 }
-		towed_artillery_unit = { x = 2 y = 0 }
 	}
 	support = {
                 engineer = { x = 0 y = 0 }
+				towed_artillery_support_unit = { x = 0 y = 1 }
 	}
 	priority = 1
 }
@@ -110,7 +127,7 @@ units = {
 			name_order = 1
 		}
 		location = 7376
-		division_template = "Infantry Division"
+		division_template = "Light Infantry Division"
 		force_equipment_variants = {
 			mbt_tank_equipment_0 = { owner = "SOV" }
 			apc_tank_equipment_0 = { owner = "SOV" }
@@ -126,7 +143,7 @@ units = {
 			name_order = 2
 		}
 		location = 7432
-		division_template = "Infantry Division"
+		division_template = "Light Infantry Division"
 		force_equipment_variants = {
 			mbt_tank_equipment_0 = { owner = "SOV" }
 			apc_tank_equipment_0 = { owner = "SOV" }
@@ -142,7 +159,7 @@ units = {
 			name_order = 3
 		}
 		location = 10134
-		division_template = "Infantry Division"
+		division_template = "Light Infantry Division"
 		force_equipment_variants = {
 			mbt_tank_equipment_0 = { owner = "SOV" }
 			apc_tank_equipment_0 = { owner = "SOV" }
@@ -158,7 +175,7 @@ units = {
 			name_order = 4
 		}
 		location = 12460
-		division_template = "Infantry Division"
+		division_template = "Light Infantry Division"
 		force_equipment_variants = {
 			mbt_tank_equipment_0 = { owner = "PRC" }
 			apc_tank_equipment_0 = { owner = "SOV" }
@@ -174,7 +191,7 @@ units = {
 			name_order = 5
 		}
 		location = 7319
-		division_template = "Infantry Division"
+		division_template = "Light Infantry Division"
 		force_equipment_variants = {
 			mbt_tank_equipment_0 = { owner = "SOV" }
 			apc_tank_equipment_0 = { owner = "SOV" }
@@ -190,7 +207,7 @@ units = {
 			name_order = 6
 		}
 		location = 4639
-		division_template = "Infantry Division"
+		division_template = "Light Infantry Division"
 		force_equipment_variants = {
 			mbt_tank_equipment_0 = { owner = "PRC" }
 			apc_tank_equipment_0 = { owner = "SOV" }
@@ -206,7 +223,7 @@ units = {
 			name_order = 7
 		}
 		location = 4359
-		division_template = "Infantry Division"
+		division_template = "Light Infantry Division"
 		force_equipment_variants = {
 			mbt_tank_equipment_0 = { owner = "PRC" }
 			apc_tank_equipment_0 = { owner = "SOV" }
@@ -230,7 +247,7 @@ units = {
 			rocket_artillery_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.15
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.7
 	}
 	division = { 
 		division_name = {
@@ -246,7 +263,7 @@ units = {
 			rocket_artillery_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.15
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.7
 	}
 	division = { 
 		division_name = {
@@ -262,7 +279,7 @@ units = {
 			rocket_artillery_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.15
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.7
 	}
 	division = { 
 		division_name = {
@@ -278,7 +295,7 @@ units = {
 			rocket_artillery_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.15
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.5
 	}
 	division = { 
 		division_name = {
@@ -294,7 +311,7 @@ units = {
 			rocket_artillery_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.15
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.7
 	}
 	division = { 
 		division_name = {
@@ -310,7 +327,7 @@ units = {
 			rocket_artillery_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.15
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.7
 	}
 	division = { 
 		division_name = {
@@ -326,7 +343,7 @@ units = {
 			rocket_artillery_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.15
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.7
 	}
 	division = { 
 		division_name = {
@@ -342,7 +359,7 @@ units = {
 			rocket_artillery_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.15
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.7
 	}
 }
 
@@ -367,5 +384,10 @@ add_equipment_to_stockpile = {
 		type = infantry_anti_tank_weapons_1
 		amount = 30
 		producer = PRC
+	}
+add_equipment_to_stockpile = {
+		type = towed_artillery_equipment_1
+		amount = 50
+		producer = SOV
 	}
 }

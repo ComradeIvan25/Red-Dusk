@@ -40,5 +40,39 @@ characters = {
 			legacy_id=-1
 		}
 	}
+        SIA_Sonthi_Boonyaratglin = {
+		name = "Sonthi Boonyaratglin"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SIA/Sonthi_Boonyaratglin.png"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+         SIA_Songkitti_Jaggabatara = {
+		name = "Songkitti Jaggabatara"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SIA/Songkitti_Jaggabatara.png"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
 
 }

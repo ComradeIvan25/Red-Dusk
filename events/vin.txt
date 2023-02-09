@@ -370,3 +370,17 @@ country_event = {
 		name = vin.18.b
     }
 }
+
+#Election 1
+country_event = {
+	id = vin.19
+	title = vin.19.t
+	desc = vin.19.d
+	picture = GFX_report_event_2002_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vin.19.a
+    }
+}

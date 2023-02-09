@@ -60,6 +60,33 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.1
 	}
+   #Militia
+   division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4339
+		division_template = "Self-Defence Forces"
+		force_equipment_variants = {
+			infantry_weapons_1 = { owner = "SOV" }
+		}
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.1
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12332
+		division_template = "Self-Defence Forces"
+		force_equipment_variants = {
+			infantry_weapons_1 = { owner = "SOV" }
+		}
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.1
+	}
 	division = { 
 		division_name = {
 			is_name_ordered = yes

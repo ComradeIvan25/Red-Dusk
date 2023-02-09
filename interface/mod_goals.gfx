@@ -1809,6 +1809,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/VIN/VIN_stable_economy.png"
 	}
 	SpriteType = {
+		name = "GFX_VIN_focus_chinese_message"
+		texturefile = "gfx/interface/goals/VIN/VIN_chinese_message.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_visit_japon"
+		texturefile = "gfx/interface/goals/VIN/VIN_visit_japon.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_communism"
+		texturefile = "gfx/interface/goals/VIN/VIN_communism.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_liberal"
+		texturefile = "gfx/interface/goals/VIN/VIN_liberal.png"
+	}
+	SpriteType = {
 		name = "VIN_army_modernization"
 		texturefile = "gfx/interface/goals/VIN/VIN_army_modernization.png"
 	}

@@ -361,6 +361,10 @@ spriteTypes = {
 		name = "GFX_report_event_DPRK_my_friend_2"
 		texturefile = "gfx/event_pictures/VIN/vin.18.png"
 	}
+	spriteType = {
+		name = "GFX_report_event_2002_election"
+		texturefile = "gfx/event_pictures/VIN/vin.19.png"
+	}
 
         ##SAF##
 	spriteType = {

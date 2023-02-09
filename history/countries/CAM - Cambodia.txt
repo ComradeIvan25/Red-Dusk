@@ -17,6 +17,8 @@ set_technology = {
 
 set_research_slots = 2
 
+set_convoys = 12
+
 add_ideas = CAM_legacy_of_polpot
 add_ideas = CAM_internal_conflict
 
@@ -24,6 +26,7 @@ set_war_support = 0.52
 set_stability = 0.4
 
 add_ideas = ussr_aligned_nation
+add_ideas = extensive_conscription
 
 recruit_character = CAM_Chea_Sim
 recruit_character = CAM_Hun_Sen

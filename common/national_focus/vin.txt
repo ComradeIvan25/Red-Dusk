@@ -351,8 +351,8 @@ focus_tree = {
 				producer = SOV
 			}
 			add_equipment_to_stockpile = {
-				type = attacker_equipment
-				amount = 20
+				type = ifv_tank_equipment_0
+				amount = 120
 				producer = SOV
 			}
 			add_equipment_to_stockpile = {
@@ -762,7 +762,7 @@ focus_tree = {
 	#Focus on the socialist countries
 	focus = {
 		id = VIN_Focus_on_the_socialist_country
-		icon = VIN_greatest_generation
+		icon = GFX_VIN_focus_communism
 		x = 9
 		y = 9
 		cost = 3
@@ -778,7 +778,7 @@ focus_tree = {
 	#A message to China
 	focus = {
 		id = VIN_A_message_to_China
-		icon = VIN_greatest_generation
+		icon = GFX_VIN_focus_chinese_message
 		x = 8
 		y = 10
 		cost = 3
@@ -798,7 +798,7 @@ focus_tree = {
 	#A hand shake with Soviet Ambassador
 	focus = {
 		id = VIN_A_hand_shake_with_Soviet_Ambassador
-		icon = VIN_greatest_generation
+		icon = GFX_SOV_keep_your_friend_close
 		x = 10
 		y = 10
 		cost = 3
@@ -855,7 +855,7 @@ focus_tree = {
 	#Look to capitalist world
 	focus = {
 		id = VIN_Look_to_capitalist_world
-		icon = VIN_greatest_generation
+		icon = GFX_VIN_focus_liberal
 		x = 13
 		y = 9
 		cost = 3
@@ -885,7 +885,7 @@ focus_tree = {
 	#Visit Japan
 	focus = {
 		id = VIN_visit_Japan
-		icon = VIN_greatest_generation
+		icon = GFX_VIN_focus_visit_japon
 		x = 14
 		y = 10
 		cost = 3
@@ -941,8 +941,9 @@ focus_tree = {
 		prerequisite = { focus = VIN_Negotiating_with_EU focus = VIN_Flight_to_Pyongyang}
 		prerequisite = { focus = VIN_open_more_industrial_zones focus = VIN_Agriculture_is_the_key_to_Industrialization} 
 		prerequisite = { focus = VIN_Labour_is_glorious focus = VIN_Focus_on_light_industries_first} 		
-		
-
+		completion_reward = {
+		country_event = vin.19 
+     }
 	}
 	
     

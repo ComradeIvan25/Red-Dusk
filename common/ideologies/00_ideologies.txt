@@ -7,7 +7,7 @@ ideologies = {
 			marxism = {
 			}
 			
-			leninism = {
+			marxism_leninism = {
 			}
 			
 			stalinism = {
@@ -565,6 +565,10 @@ ideologies = {
 	anarchism = {
 	
 		types = { 			
+		
+			anarchism_sub = {
+			}
+			
 			collapsed_state = {
 			}
 			

@@ -968,4 +968,10 @@ ESW = {
 	color = rgb { 99  79  25 }
 	color_ui = rgb { 105  79  25 }
 }
+HZB = {
+	color = rgb { 209  209  2 }
+	color_ui = rgb { 211  209  2 }
+}
+
+
 

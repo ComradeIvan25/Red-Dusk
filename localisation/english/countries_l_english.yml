@@ -3909,3 +3909,7 @@
  ESW:0 "Eswatini"
  ESW_DEF:0 "The Kingdom of Eswatini"
  ESW_ADJ:0 "Swati"
+ HZB:0 "Hezbollah"
+ HZB_ADJ:0 "Lebanese"
+ HZB_lebanon:0 "Lebanon"
+ HZB_lebanon_DEF:0 "Islamic Republic of Lebanon"

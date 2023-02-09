@@ -1394,20 +1394,12 @@ on_actions = {
 								election_frequency = 48
 								elections_allowed = no
 							}
-							add_popularity = {
-								ideology = paternal_autocracy
-								popularity = -0.5
-							}
+
 						}
 						
 						IRQ = {
 							set_cosmetic_tag = IRQ_iran_puppet
 							load_focus_tree = generic_focus
-							
-							add_popularity = {
-								ideology = paternal_autocracy
-								popularity = -0.4
-							}
 							
 							set_party_name = {
 								ideology = paternal_autocracy
@@ -1429,10 +1421,67 @@ on_actions = {
 							puppet = KUR
 							puppet = SYR
 							country_event = {id = per.1}
+							create_faction = Islamic Axis
 						}
 						
 
 					}
+					
+					## HEZBOLLAH VS LEBANON - HEZBOLLAH WINS OVER LEBANON ##
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = HZB
+							}
+							ROOT = {
+								original_tag = LEB
+							}
+						}
+
+						HZB = {
+							white_peace = ROOT
+						}
+						
+						HZB = {
+						annex_country = LEB
+						set_cosmetic_tag = HZB_lebanon
+						}
+
+					}		
+
+					## IRAN VS ISRAEL - IRAN WINS OVER ISRAEL ##
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = PER
+							}
+							ROOT = {
+								original_tag = ISR
+							}
+						}
+
+						FROM = {
+							white_peace = ROOT
+						}
+						
+						HZB = {
+						transfer_state = 954
+						}
+						
+						PAL = {
+							transfer_state = 920
+							transfer_state = 919
+							transfer_state = 454
+							transfer_state = 914
+							transfer_state = 947
+							
+						}
+						
+						PER = {
+							puppet = PAL
+						}
+
+					}						
 					
 					## IRAQ VS JORDAN - IRAQ WINS OVER JORDAN ##
 					if = {   

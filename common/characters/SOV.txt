@@ -13,7 +13,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = leninism
+			ideology = marxism_leninism
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1
@@ -27,7 +27,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = leninism
+			ideology = marxism_leninism
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1
@@ -59,7 +59,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = leninism
+			ideology = marxism_leninism
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1
@@ -73,11 +73,11 @@ characters = {
 			}
 			
 			traits = {
-				offensive_doctrine
+				army_chief_offensive_2
 			}
 		}
 		field_marshal={
-			traits={ }
+			traits={offensive_doctrine}
 			skill=3
 			attack_skill=3
 			defense_skill=2
@@ -94,7 +94,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = leninism
+			ideology = marxism_leninism
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1
@@ -109,7 +109,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = leninism
+			ideology = marxism_leninism
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1
@@ -177,7 +177,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = leninism
+			ideology = marxism_leninism
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1
@@ -203,7 +203,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = leninism
+			ideology = marxism_leninism
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1
@@ -354,11 +354,11 @@ characters = {
 			}
 			
 			traits = {
-				defensive_doctrine
+				army_chief_defensive_2
 			}
 		}
 		field_marshal={
-			traits={ }
+			traits={defensive_doctrine}
 			skill=1
 			attack_skill=1
 			defense_skill=1

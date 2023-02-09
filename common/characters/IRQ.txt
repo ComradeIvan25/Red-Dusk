@@ -19,7 +19,7 @@ characters = {
 			id = -1
 		}
 		field_marshal={
-			traits={ }
+			traits={}
 			skill=1
 			attack_skill=1
 			defense_skill=1
@@ -149,18 +149,18 @@ characters = {
 		}				
 		advisor={
 			cost = 75			
-			slot = high_command
+			slot = army_chief
 			idea_token = IRQ_walter_withe
 			allowed = {
 				original_tag = IRQ
 			}
 			
 			traits = {
-				populer_army_leader
+				army_chief_offensive_2
 			}
 		}
 		field_marshal={
-			traits={ }
+			traits={offensive_doctrine}
 			skill=3
 			attack_skill=3
 			defense_skill=2
@@ -251,6 +251,19 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/IRQ/Abud_Qanbar.dds"
+				small = "gfx/leaders/IRQ/Abud_Qanbar_small.dds"
+			}
+		}
+		advisor={
+			cost = 75			
+			slot = high_command
+			idea_token = IRQ_abud_qanbar
+			allowed = {
+				original_tag = IRQ
+			}
+			
+			traits = {
+				army_chief_morale_2
 			}
 		}
 		corps_commander={
@@ -280,31 +293,14 @@ characters = {
 			}
 			
 			traits = {
-				infantry_orianted_commander
+				army_infantry_2
 			}
 		}
 		corps_commander={
-			traits={ }
+			traits={infantry_leader}
 			skill=1
 			attack_skill=1
 			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=-1
-		}
-	}
-	IRQ_babaker_zebari = {
-		name = "Babaker Zebari"
-		portraits = {
-			army = {
-				large = "gfx/leaders/IRQ/babaker_zebari.dds"
-			}
-		}
-		corps_commander={
-			traits={ }
-			skill=1
-			attack_skill=1
-			defense_skill=2
 			planning_skill=1
 			logistics_skill=1
 			legacy_id=-1

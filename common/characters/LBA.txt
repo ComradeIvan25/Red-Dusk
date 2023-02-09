@@ -8,7 +8,22 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = revolutionary_socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+	
+	LBA_muammar_gaddafi_nat = {
+		name = "Muammar Gaddafi"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LBA/Muammar_Gaddafi.dds"
+			}
+		}
+		country_leader = {
+			ideology = nationalist_military_junta
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1

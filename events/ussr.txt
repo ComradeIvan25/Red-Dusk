@@ -1478,6 +1478,9 @@ country_event = {
 					name = UKR_rebellion_party
 					long_name = UKR_rebellion_party
 				}							
+				hidden_effect = {
+							add_ideas = hidden_army_buff #this is here so ukraine doesnt die in 3 seconds but rather 10.
+				}
 		}
 		    declare_war_on = {
             type = annex_everything

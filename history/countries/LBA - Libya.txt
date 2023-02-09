@@ -16,16 +16,17 @@ set_convoys = 20
 recruit_character = LBA_muammar_gaddafi
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
-	fascism = 90
+	democratic = 25
+	socialism = 45
 	communism = 5
-	neutrality = 0
+	fascism = 20
+	paternal_autocracy = 5
 }
 
 add_opinion_modifier = { target = USA modifier = HISTORIC_usa_libya_lba_opinion }

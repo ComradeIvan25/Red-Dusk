@@ -9,6 +9,44 @@ country_event = {
 	
 	is_triggered_only = yes
 	
+	immediate = { #makes the pie charts nicer
+		hidden_effect = {
+			KUR = {
+					add_popularity = {
+							ideology = paternal_autocracy
+							popularity = -0.25
+					}
+					add_popularity = {
+							ideology = socialism
+							popularity = 0.45
+					}
+			}
+		
+			IRQ = {
+					add_popularity = {
+							ideology = paternal_autocracy
+							popularity = -0.40
+					}
+					add_popularity = {
+							ideology = neutrality
+							popularity = 0.25
+					}			
+			}
+
+			SYR = {
+					add_popularity = {
+							ideology = paternal_autocracy
+							popularity = -0.25
+					}
+					add_popularity = {
+							ideology = socialism
+							popularity = 0.25
+					}
+			}		
+	
+		}
+	}
+	
 	#big kurdistan#
 	option = {
 		name = per.1.a
@@ -16,6 +54,7 @@ country_event = {
 		transfer_state = 676
 		transfer_state = 908
 		}
+		country_event = {id = per.2 days = 256}		
 		ai_chance = {
 		factor = 55
 		}
@@ -27,6 +66,7 @@ country_event = {
 		KUR = {
 		transfer_state = 676
 		}
+		country_event = {id = per.2 days = 256}
 		ai_chance = {
 		factor = 65
 		}
@@ -35,8 +75,78 @@ country_event = {
 	#no changes #
 	option = {
 		name = per.1.c
+		country_event = {id = per.2 days = 256}		
 		ai_chance = {
 		factor = 45
+		}
+	}
+}
+
+#lebanese civil war#
+country_event = {
+	id = per.2
+	title = per.2.t
+	desc = per.2.d
+	picture = GFX_report_event_IRQ_kurds
+	
+	is_triggered_only = yes
+	
+	#lets go#
+	option = {
+		name = per.2.a
+		HZB = {
+		transfer_state = 345
+		
+			declare_war_on = {
+				target = LEB
+				type = annex_everything
+			}
+			
+		}
+		
+		PER = {add_to_faction = HZB}
+		
+		country_event = {id = per.3 days = 156}		
+		ai_chance = {
+		factor = 55
+		}
+	}
+}
+
+#kill israel#
+country_event = {
+	id = per.3
+	title = per.3.t
+	desc = per.3.d
+	picture = GFX_report_event_IRQ_kurds
+	
+	is_triggered_only = yes
+	
+	#lets go#
+	option = {
+		name = per.3.a
+			
+		PER = {
+			
+			declare_war_on = {
+				target = ISR
+				type = annex_everything
+			}
+		
+		}
+		
+		HZB = {
+		
+			declare_war_on = {
+				target = ISR
+				type = annex_everything
+			}
+			
+		}
+
+		
+		ai_chance = {
+		factor = 55
 		}
 	}
 }

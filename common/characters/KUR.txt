@@ -55,5 +55,23 @@ characters = {
 			legacy_id=-1
 		}
 	}
+	
+	KUR_babaker_zebari = {
+		name = "Babaker Zebari"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KUR/babaker_zebari.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
 
 }

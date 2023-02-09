@@ -300,3 +300,8 @@ if = {
 		obsolete = no
 	}
 }
+
+country_event = {
+id = germany_mod.1
+days = 1023
+}

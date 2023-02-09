@@ -8,8 +8,10 @@ country_event = {
 	picture = GFX_report_event_spark
 	
 	trigger = {
-		date > 2002.10.21
+     original_tag = GER
 	}
+	
+	is_triggered_only = yes
 	
 	fire_only_once = yes
 
@@ -32,7 +34,7 @@ country_event = {
 		news_event = {id = old_times_news.61}
 			
 		ai_chance = {
-		factor = 50
+		factor = 40
 		}
 	}
 	
@@ -58,7 +60,7 @@ country_event = {
 		news_event = {id = old_times_news.62}
 			
 		ai_chance = {
-		factor = 50
+		factor = 40
 		}
 	}
 	
@@ -81,7 +83,7 @@ country_event = {
 		news_event = {id = old_times_news.63}
 		
 		ai_chance = {
-		factor = 5
+		factor = 10
 		}
 	}
 }

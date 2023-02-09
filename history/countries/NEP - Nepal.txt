@@ -6,7 +6,7 @@ set_war_support = 0.1
 set_stability = 0.5
 
 recruit_character = NEP_birendra_of_nepal
-recruit_character = NEP_bipendra_of_nepal
+recruit_character = NEP_dipendra_of_nepal
 recruit_character = NEP_gyanendra_of_nepal
 
 add_ideas = NEP_royal_autocracy
@@ -24,4 +24,8 @@ set_popularities = {
         democratic = 10
         communism = 10
         reformed_communism = 5
+}
+country_event = {
+    id = nepal.1
+    days = 516
 }

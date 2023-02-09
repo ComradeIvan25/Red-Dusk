@@ -414,3 +414,7 @@ if = {
 		obsolete = no
 	}
 }
+country_event = {
+    id = japan_mod.1
+    days = 134
+}

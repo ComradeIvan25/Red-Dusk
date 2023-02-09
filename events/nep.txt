@@ -8,17 +8,19 @@ country_event = {
 	picture = GFX_report_event_spark
 	
 	trigger = {
-	date > 2001.08.31
+
 	original_tag = NEP
 
 	}
+	
+	is_triggered_only = yes
 
 	fire_only_once = yes
 
 		#bruh#
 	option = {
 		name = nepal.1.a
-		news_event = {id = old_times_news.43}
+		news_event = { id = old_times_news.66 }
 		retire_country_leader = yes
 		add_popularity = {
 			ideology = neutrality
@@ -28,15 +30,16 @@ country_event = {
 			ideology = paternal_autocracy
 			popularity = -0.10
 		}
-		add_stability = -0.30
+		add_stability = -0.20
 		323 = {
 		add_manpower = -9
 		}
-		promote_character = NEP_bipendra_of_nepal
+		promote_character = NEP_dipendra_of_nepal 
+                country_event = { id = nepal.2 days = 3 }
 	}
 }
 
-#does bipendra survive?#
+#does Dipendra survive?#
 country_event = {
 	id = nepal.2
 	title = nepal.2.t
@@ -49,22 +52,10 @@ country_event = {
 	option = {
 		name = nepal.2.a
 		retire_country_leader = yes
-		add_stability = -15
 		323 = {
 		add_manpower = -1
 		}
-		promote_character = NEP_bipendra_of_nepal
-		ai_chance = {
-		factor = 40
-		}
+		promote_character = NEP_gyanendra_of_nepal
 	}
 	
-			#he lives#
-	option = {
-		name = nepal.2.a
-		add_political_power = 100
-		ai_chance = {
-		factor = 30
-		}
-	}
 }

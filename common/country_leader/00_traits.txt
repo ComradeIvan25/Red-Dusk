@@ -43,7 +43,7 @@ leader_traits = {
 	minister_of_defence_2 = {
 		random = no
 		experience_gain_army = 0.12
-		army_org_factor = 0.05
+		army_org_factor = 0.1
 		mobilization_speed = 0.15
 
 		ai_will_do = {

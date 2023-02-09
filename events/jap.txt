@@ -8,10 +8,10 @@ country_event = {
 	picture = GFX_report_event_spark
 	
 	trigger = {
-	date > 2000.5.14
 	original_tag = JAP
 
 	}
+        is_triggered_only = yes
 
 	fire_only_once = yes
 
@@ -21,7 +21,12 @@ country_event = {
 		news_event = {id = old_times_news.43}
 		retire_country_leader = yes
 		promote_character = JAP_yoshiro_mori
+                hidden_effect = {
+			JAP = {
+				country_event = { id = japan_mod.2 days = 411 }
+			}
 	}
+}
 }
 country_event = {
 	id = japan_mod.2
@@ -30,10 +35,10 @@ country_event = {
 	picture = GFX_report_event_ballot_box
 	
 	trigger = {
-	date > 2001.6.29
 	original_tag = JAP
 
 	}
+        is_triggered_only = yes
 
 	fire_only_once = yes
 

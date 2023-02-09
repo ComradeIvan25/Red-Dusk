@@ -15,8 +15,8 @@ characters = {
 		}
 	}
 	
-	NEP_bipendra_of_nepal = {
-		name = "Bipendra of Nepal"
+	NEP_dipendra_of_nepal = {
+		name = "Dipendra of Nepal"
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/NEP/Bipendra_of_Nepal.png"

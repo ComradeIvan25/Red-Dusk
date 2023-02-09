@@ -150,3 +150,7 @@ if = {
 		obsolete = no
 	}
 }
+country_event = {
+id = vin_intro.2
+days = 849
+}

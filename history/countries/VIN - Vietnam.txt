@@ -105,9 +105,11 @@ recruit_character = VIN_nong_duc_manh
 
 recruit_character = VIN_Tran_Duc_Luong
 recruit_character = VIN_Truong_Tan_Sang
+recruit_character = VIN_Le_Minh_Huong
 
 add_ideas = VIN_Tran_Duc_Luong
 add_ideas = VIN_Truong_Tan_Sang
+add_ideas = VIN_Le_Minh_Huong
 add_ideas = VIN_Pham_Van_Tra
 
 set_politics = {

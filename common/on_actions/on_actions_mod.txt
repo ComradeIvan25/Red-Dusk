@@ -1421,7 +1421,7 @@ on_actions = {
 							puppet = KUR
 							puppet = SYR
 							country_event = {id = per.1}
-							create_faction = Islamic Axis
+							create_faction = "Islamic Axis"
 						}
 						
 
@@ -1443,7 +1443,7 @@ on_actions = {
 						}
 						
 						HZB = {
-						annex_country = LEB
+						annex_country = { target = LEB }
 						set_cosmetic_tag = HZB_lebanon
 						}
 

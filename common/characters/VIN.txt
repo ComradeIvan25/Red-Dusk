@@ -86,6 +86,26 @@ characters = {
 		}
 	}		
 	
+	VIN_Le_Minh_Huong = {
+		name = "Le Minh Huong"
+		portraits = {
+			civilian = {
+				small = "gfx/leaders/VIN/VIN_Le_Minh_Huong_small.png"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = VIN_Le_Minh_Huong
+			allowed = {
+				original_tag = VIN
+			}
+			traits = {
+				minister_of_public_security 
+			}
+		}
+	}	
+	
   ### Generals ###
      VIN_phung_quang_thanh = {
 		name = "Phung Quang Thanh"

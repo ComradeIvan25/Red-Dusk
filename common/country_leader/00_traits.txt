@@ -51,6 +51,14 @@ leader_traits = {
 		}
 	}	
 	
+	minister_of_public_security = {
+		random = no
+		stability_factor = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
 	reformist = {
 		random = no
 		political_power_factor = 0.05

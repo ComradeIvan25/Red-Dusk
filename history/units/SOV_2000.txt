@@ -10,16 +10,21 @@
 		main_battle_tank_armor = { x = 0 y = 4 }
 		infantry_fighting_vehicle_armor = { x = 1 y = 0 }
 		infantry_fighting_vehicle_armor = { x = 1 y = 1 }
-		recon_vehicle_armor = { x = 1 y = 2 }
+		main_battle_tank_armor = { x = 1 y = 2 }
 		heavy_infantry_unit = { x = 2 y = 0 }
-		motorised_artillery_unit = { x = 2 y = 1 }
-		spaa_vehicle_armor = { x = 2 y = 2 }
+		heavy_infantry_unit = { x = 2 y = 1 }
+		motorised_artillery_unit = { x = 3 y = 0 }
+		motorised_artillery_unit = { x = 3 y = 1 }
+		rocket_artillery_unit = { x = 4 y = 0 }
+		rocket_artillery_unit = { x = 4 y = 1 }
+
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
-		field_hospital = { x = 0 y = 1 }
+		spaa_vehicle_support_armor = { x = 0 y = 1 }
 		maintenance_company = { x = 0 y = 2 }
 		logistics_company = { x = 0 y = 3 }
+		armoured_recon = { x = 0 y = 4 }
 	}
 	priority = 1
 }
@@ -32,17 +37,21 @@ division_template = { # Heavy Infantry Division #
 		heavy_infantry_unit = { x = 0 y = 1 }
 		heavy_infantry_unit = { x = 0 y = 2 }
 		heavy_infantry_unit = { x = 0 y = 3 }
-		infantry_fighting_vehicle_armor = { x = 1 y = 0 }
-		recon_vehicle_armor = { x = 1 y = 1 }
-		motorised_artillery_unit = { x = 2 y = 0 }
-		spaa_vehicle_armor = { x = 3 y = 0 }
+		heavy_infantry_unit = { x = 0 y = 4 }
+		heavy_infantry_unit = { x = 1 y = 0 }
+		heavy_infantry_unit = { x = 1 y = 1 }
+		infantry_fighting_vehicle_armor = { x = 2 y = 0 }
+		infantry_fighting_vehicle_armor = { x = 2 y = 1 }
+		infantry_fighting_vehicle_armor = { x = 2 y = 2 }
+		motorised_artillery_unit = { x = 3 y = 0 }
+		towed_artillery_unit = { x = 4 y = 0 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
-		field_hospital = { x = 0 y = 1 }
+		armoured_recon = { x = 0 y = 1 }
 		logistics_company = { x = 0 y = 2 }
 		attack_heli_company = { x = 0 y = 3 }
-		transport_heli_company = { x = 0 y = 4 }
+		spaa_vehicle_support_armor = { x = 0 y = 4 }
 	}
 	priority = 1
 }
@@ -54,14 +63,18 @@ division_template = { # Air Assault Division #
 		infantry_unit = { x = 0 y = 0 }
 		infantry_unit = { x = 0 y = 1 }
 		infantry_unit = { x = 0 y = 2 }
+		infantry_unit = { x = 0 y = 3 }
+		infantry_unit = { x = 0 y = 4 }
 		heavy_infantry_unit = { x = 1 y = 0 }
-		spaa_vehicle_armor = { x = 1 y = 1 }
+		heavy_infantry_unit = { x = 1 y = 1 }
 		towed_artillery_unit = { x = 2 y = 0 }
+		towed_artillery_unit = { x = 2 y = 1 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
-		field_hospital = { x = 0 y = 1 }
-		attack_heli_company = { x = 0 y = 2 }
+		attack_heli_company = { x = 0 y = 1 }
+		transport_heli_company = { x = 0 y = 2 }
+		towed_artillery_support_unit = { x = 0 y = 3 }
 	}
 	priority = 1
 }
@@ -78,12 +91,18 @@ division_template = { # Heavy Artillery Division #
 		motorised_artillery_unit = { x = 1 y = 0 }
 		motorised_artillery_unit = { x = 1 y = 1 }
 		motorised_artillery_unit = { x = 1 y = 2 }
+		main_battle_tank_armor = { x = 2 y = 0 }
+		main_battle_tank_armor = { x = 2 y = 1 }
+		heavy_infantry_unit = { x = 3 y = 0 }
+		heavy_infantry_unit = { x = 3 y = 0 }
+
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
 		maintenance_company = { x = 0 y = 1 }
 		logistics_company = { x = 0 y = 2 }
 		transport_heli_company = { x = 0 y = 3 }
+		rocket_artillery_support_unit = { x = 0 y = 4 }
 	}
 	priority = 1
 }
@@ -95,9 +114,19 @@ division_template = { # Artillery Division #
 		towed_artillery_unit = { x = 0 y = 0 }
 		towed_artillery_unit = { x = 0 y = 1 }
 		towed_artillery_unit = { x = 0 y = 2 }
-		towed_artillery_unit = { x = 0 y = 3 }
+		infantry_unit = { x = 1 y = 0 }
+		infantry_unit = { x = 1 y = 1 }
+		infantry_unit = { x = 1 y = 2 }
+		infantry_unit = { x = 1 y = 3 }
+		infantry_unit = { x = 1 y = 4 }
+		infantry_unit = { x = 2 y = 0 }
+		infantry_unit = { x = 2 y = 1 }
+		infantry_unit = { x = 2 y = 2 }
+		infantry_unit = { x = 2 y = 3 }
 	}
 	support = {
+	towed_artillery_support_unit = { x = 0 y = 0 } 
+	engineer = { x = 0 y = 1 }
 	}
 	priority = 1
 }
@@ -106,14 +135,19 @@ division_template = { # Marine Division #
 	division_names_group = GENERIC_MRN_01
 
 	regiments = {
-		main_battle_tank_armor = { x = 0 y = 0 }
-		infantry_unit = { x = 1 y = 0 }
-		infantry_unit = { x = 1 y = 1 }
-		infantry_unit = { x = 1 y = 2 }
-		towed_artillery_unit = { x = 1 y = 3 }
+		main_battle_tank_armor = { x = 2 y = 0 }
+		marine_unit = { x = 0 y = 0 }
+		marine_unit = { x = 0 y = 1 }
+		marine_unit = { x = 0 y = 2 }
+		marine_unit = { x = 0 y = 3 }
+		marine_unit = { x = 0 y = 4 }
+		towed_artillery_unit = { x = 1 y = 0 }
 	}
 	support = {
 		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		attack_heli_company = { x = 0 y = 2 }
+		towed_artillery_support_unit = { x = 0 y = 3 } 
 	}
 	priority = 2
 }
@@ -125,11 +159,17 @@ division_template = { # Mechanised Paratrooper Division #
 		paratrooper_unit = { x = 0 y = 0 }
 		paratrooper_unit = { x = 0 y = 1 }
 		paratrooper_unit = { x = 0 y = 2 }
-		motorised_artillery_unit = { x = 1 y = 0 }
-		spaa_vehicle_armor = { x = 2 y = 0 }
+		paratrooper_unit = { x = 0 y = 3 }
+		paratrooper_unit = { x = 1 y = 0 }
+		paratrooper_unit = { x = 1 y = 1 }
+		paratrooper_unit = { x = 1 y = 2 }
+		infantry_fighting_vehicle_armor = { x = 2 y = 0 }
 	}
 	support = {
 		transport_heli_company = { x = 0 y = 0 }
+		attack_heli_company = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		towed_artillery_support_unit = { x = 0 y = 3 } 
 	}
 	priority = 2
 }
@@ -140,10 +180,13 @@ division_template = { # Spetsnaz Division #
 	regiments = {
 		paratrooper_unit = { x = 0 y = 0 }
 		paratrooper_unit = { x = 0 y = 1 }
+		paratrooper_unit = { x = 0 y = 2 }
 		paratrooper_unit = { x = 1 y = 0 }
 		paratrooper_unit = { x = 1 y = 1 }
+		
 	}
 	support = {
+	    transport_heli_company = { x = 0 y = 2 }
 		military_police = { x = 0 y = 0 }
 		recon = { x = 0 y = 1 }
 	}
@@ -168,7 +211,7 @@ units = {
 			motorised_artillery_equipment_4 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.35
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -186,7 +229,7 @@ units = {
 			motorised_artillery_equipment_4 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.35
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -204,7 +247,7 @@ units = {
 			motorised_artillery_equipment_4 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.35
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -222,7 +265,7 @@ units = {
 			motorised_artillery_equipment_4 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.35
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -240,7 +283,7 @@ units = {
 			motorised_artillery_equipment_4 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.35
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -258,7 +301,7 @@ units = {
 			motorised_artillery_equipment_4 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.35
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -276,7 +319,7 @@ units = {
 			motorised_artillery_equipment_4 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.35
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -294,7 +337,7 @@ units = {
 			motorised_artillery_equipment_4 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.35
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -312,7 +355,7 @@ units = {
 			motorised_artillery_equipment_4 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.35
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -330,7 +373,7 @@ units = {
 			motorised_artillery_equipment_4 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.35
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -348,7 +391,7 @@ units = {
 			motorised_artillery_equipment_4 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.35
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -819,7 +862,7 @@ units = {
 			heli_transport_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.45
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -857,7 +900,7 @@ units = {
 			heli_transport_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.45
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -895,7 +938,7 @@ units = {
 			heli_transport_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.45
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -914,7 +957,7 @@ units = {
 			heli_transport_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.45
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -938,47 +981,9 @@ units = {
 	division = { 
 		division_name = {
 			is_name_ordered = yes
-			name_order = 8
-		}
-		location = 3787
-		division_template = "Motostrelkovaya Diviziya"
-		force_equipment_variants = {
-			ifv_tank_equipment_0 = { owner = "SOV" }
-			apc_tank_equipment_0 = { owner = "SOV" }
-			recon_vehicle_equipment_0 = { owner = "SOV" }
-			spaa_tank_equipment_0 = { owner = "SOV" }
-			motorised_artillery_equipment_2 = { owner = "SOV" }
-			heli_attack_equipment_0 = { owner = "SOV" }
-			heli_transport_equipment_0 = { owner = "SOV" }
-		}
-		start_experience_factor = 0.25
-		start_equipment_factor = 0.45
-	}
-	division = { 
-		division_name = {
-			is_name_ordered = yes
 			name_order = 9
 		}
 		location = 12189
-		division_template = "Motostrelkovaya Diviziya"
-		force_equipment_variants = {
-			ifv_tank_equipment_0 = { owner = "SOV" }
-			apc_tank_equipment_2 = { owner = "SOV" }
-			recon_vehicle_equipment_0 = { owner = "SOV" }
-			spaa_tank_equipment_0 = { owner = "SOV" }
-			motorised_artillery_equipment_2 = { owner = "SOV" }
-			heli_attack_equipment_0 = { owner = "SOV" }
-			heli_transport_equipment_0 = { owner = "SOV" }
-		}
-		start_experience_factor = 0.25
-		start_equipment_factor = 0.45
-	}
-	division = { 
-		division_name = {
-			is_name_ordered = yes
-			name_order = 10
-		}
-		location = 12192
 		division_template = "Motostrelkovaya Diviziya"
 		force_equipment_variants = {
 			ifv_tank_equipment_0 = { owner = "SOV" }
@@ -1033,25 +1038,6 @@ units = {
 	division = { 
 		division_name = {
 			is_name_ordered = yes
-			name_order = 13
-		}
-		location = 4677
-		division_template = "Motostrelkovaya Diviziya"
-		force_equipment_variants = {
-			ifv_tank_equipment_0 = { owner = "SOV" }
-			apc_tank_equipment_1 = { owner = "SOV" }
-			recon_vehicle_equipment_0 = { owner = "SOV" }
-			spaa_tank_equipment_0 = { owner = "SOV" }
-			motorised_artillery_equipment_2 = { owner = "SOV" }
-			heli_attack_equipment_0 = { owner = "SOV" }
-			heli_transport_equipment_0 = { owner = "SOV" }
-		}
-		start_experience_factor = 0.25
-		start_equipment_factor = 0.45
-	}
-	division = { 
-		division_name = {
-			is_name_ordered = yes
 			name_order = 14
 		}
 		location = 4719
@@ -1085,7 +1071,7 @@ units = {
 			heli_transport_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.45
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -1150,25 +1136,6 @@ units = {
 			name_order = 19
 		}
 		location = 4837
-		division_template = "Motostrelkovaya Diviziya"
-		force_equipment_variants = {
-			ifv_tank_equipment_0 = { owner = "SOV" }
-			apc_tank_equipment_1 = { owner = "SOV" }
-			recon_vehicle_equipment_0 = { owner = "SOV" }
-			spaa_tank_equipment_0 = { owner = "SOV" }
-			motorised_artillery_equipment_2 = { owner = "SOV" }
-			heli_attack_equipment_0 = { owner = "SOV" }
-			heli_transport_equipment_0 = { owner = "SOV" }
-		}
-		start_experience_factor = 0.25
-		start_equipment_factor = 0.45
-	}
-	division = { 
-		division_name = {
-			is_name_ordered = yes
-			name_order = 20
-		}
-		location = 10627
 		division_template = "Motostrelkovaya Diviziya"
 		force_equipment_variants = {
 			ifv_tank_equipment_0 = { owner = "SOV" }
@@ -1394,25 +1361,6 @@ units = {
 	division = { 
 		division_name = {
 			is_name_ordered = yes
-			name_order = 32
-		}
-		location = 12218
-		division_template = "Motostrelkovaya Diviziya"
-		force_equipment_variants = {
-			ifv_tank_equipment_0 = { owner = "SOV" }
-			apc_tank_equipment_1 = { owner = "SOV" }
-			recon_vehicle_equipment_0 = { owner = "SOV" }
-			spaa_tank_equipment_0 = { owner = "SOV" }
-			motorised_artillery_equipment_3 = { owner = "SOV" }
-			heli_attack_equipment_0 = { owner = "SOV" }
-			heli_transport_equipment_0 = { owner = "SOV" }
-		}
-		start_experience_factor = 0.25
-		start_equipment_factor = 0.70
-	}
-	division = { 
-		division_name = {
-			is_name_ordered = yes
 			name_order = 33
 		}
 		location = 1384
@@ -1511,25 +1459,6 @@ units = {
 			name_order = 38
 		}
 		location = 7298
-		division_template = "Motostrelkovaya Diviziya"
-		force_equipment_variants = {
-			ifv_tank_equipment_0 = { owner = "SOV" }
-			apc_tank_equipment_1 = { owner = "SOV" }
-			recon_vehicle_equipment_0 = { owner = "SOV" }
-			spaa_tank_equipment_0 = { owner = "SOV" }
-			motorised_artillery_equipment_2 = { owner = "SOV" }
-			heli_attack_equipment_0 = { owner = "SOV" }
-			heli_transport_equipment_0 = { owner = "SOV" }
-		}
-		start_experience_factor = 0.25
-		start_equipment_factor = 0.70
-	}
-	division = { 
-		division_name = {
-			is_name_ordered = yes
-			name_order = 39
-		}
-		location = 10140
 		division_template = "Motostrelkovaya Diviziya"
 		force_equipment_variants = {
 			ifv_tank_equipment_0 = { owner = "SOV" }
@@ -1720,25 +1649,6 @@ units = {
 			name_order = 49
 		}
 		location = 11195
-		division_template = "Motostrelkovaya Diviziya"
-		force_equipment_variants = {
-			ifv_tank_equipment_0 = { owner = "SOV" }
-			apc_tank_equipment_1 = { owner = "SOV" }
-			recon_vehicle_equipment_0 = { owner = "SOV" }
-			spaa_tank_equipment_0 = { owner = "SOV" }
-			motorised_artillery_equipment_2 = { owner = "SOV" }
-			heli_attack_equipment_0 = { owner = "SOV" }
-			heli_transport_equipment_0 = { owner = "SOV" }
-		}
-		start_experience_factor = 0.25
-		start_equipment_factor = 0.45
-	}
-	division = { 
-		division_name = {
-			is_name_ordered = yes
-			name_order = 50
-		}
-		location = 11061
 		division_template = "Motostrelkovaya Diviziya"
 		force_equipment_variants = {
 			ifv_tank_equipment_0 = { owner = "SOV" }
@@ -2092,7 +2002,7 @@ units = {
 			heli_transport_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.45
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -2130,7 +2040,7 @@ units = {
 			heli_transport_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.95
 	}
 	division = { 
 		division_name = {
@@ -2149,7 +2059,7 @@ units = {
 			heli_transport_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.45
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -2187,7 +2097,7 @@ units = {
 			heli_transport_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.45
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -2206,7 +2116,7 @@ units = {
 			heli_transport_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.45
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -2244,7 +2154,7 @@ units = {
 			heli_transport_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.45
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -2396,7 +2306,7 @@ units = {
 			heli_transport_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.45
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -2415,7 +2325,7 @@ units = {
 			heli_transport_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.45
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -2453,7 +2363,7 @@ units = {
 			heli_transport_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.45
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -2472,7 +2382,7 @@ units = {
 			heli_transport_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.45
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -2491,7 +2401,7 @@ units = {
 			heli_transport_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.45
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -2510,7 +2420,7 @@ units = {
 			heli_transport_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.45
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -2529,7 +2439,7 @@ units = {
 			heli_transport_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.45
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -2548,7 +2458,7 @@ units = {
 			heli_transport_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.45
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -2586,7 +2496,7 @@ units = {
 			heli_transport_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -2605,7 +2515,7 @@ units = {
 			heli_transport_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -2738,7 +2648,7 @@ units = {
 			heli_transport_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -2757,7 +2667,7 @@ units = {
 			heli_transport_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -2852,7 +2762,7 @@ units = {
 			heli_transport_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -2928,7 +2838,7 @@ units = {
 			heli_transport_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 
 	# Air Assault Division #
@@ -3043,7 +2953,7 @@ units = {
 			heli_transport_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.30
-		start_equipment_factor = 0.80
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -3073,7 +2983,7 @@ units = {
 			heli_transport_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.30
-		start_equipment_factor = 0.80
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -3103,7 +3013,7 @@ units = {
 			heli_transport_equipment_0 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.30
-		start_equipment_factor = 0.65
+		start_equipment_factor = 1.00
 	}
 
 	# Artillery Division #
@@ -3253,19 +3163,6 @@ units = {
 	division = { 
 		division_name = {
 			is_name_ordered = yes
-			name_order = 12
-		}
-		location = 11536
-		division_template = "Artilleriyskaya Diviziya"
-		force_equipment_variants = {
-			towed_artillery_equipment_1 = { owner = "SOV" }
-		}
-		start_experience_factor = 0.25
-		start_equipment_factor = 0.70
-	}
-	division = { 
-		division_name = {
-			is_name_ordered = yes
 			name_order = 13
 		}
 		location = 9548
@@ -3300,7 +3197,7 @@ units = {
 			towed_artillery_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.70
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -3313,7 +3210,7 @@ units = {
 			towed_artillery_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.70
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -3326,7 +3223,7 @@ units = {
 			towed_artillery_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.70
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -3339,7 +3236,7 @@ units = {
 			towed_artillery_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.70
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -3352,7 +3249,7 @@ units = {
 			towed_artillery_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.50
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -3365,7 +3262,7 @@ units = {
 			towed_artillery_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.50
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -3378,7 +3275,7 @@ units = {
 			towed_artillery_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.50
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -3391,7 +3288,7 @@ units = {
 			towed_artillery_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.50
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -3404,7 +3301,7 @@ units = {
 			towed_artillery_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.50
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -3417,7 +3314,7 @@ units = {
 			towed_artillery_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.50
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -3430,21 +3327,9 @@ units = {
 			towed_artillery_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.50
+		start_equipment_factor = 1.00
 	}
-	division = { 
-		division_name = {
-			is_name_ordered = yes
-			name_order = 26
-		}
-		location = 1820
-		division_template = "Artilleriyskaya Diviziya"
-		force_equipment_variants = {
-			towed_artillery_equipment_1 = { owner = "SOV" }
-		}
-		start_experience_factor = 0.25
-		start_equipment_factor = 0.50
-	}
+
 
 	# Marine Division #
 	division = { 
@@ -3491,7 +3376,7 @@ units = {
 			heli_transport_equipment_2 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.45
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -3551,7 +3436,7 @@ units = {
 			heli_transport_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.45
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -3581,7 +3466,7 @@ units = {
 			heli_transport_equipment_1 = { owner = "SOV" }
 		}
 		start_experience_factor = 0.45
-		start_equipment_factor = 0.70
+		start_equipment_factor = 1.00
 	}
 
 	# Spetsnaz Division #
@@ -3623,7 +3508,7 @@ units = {
 		location = 3151
 		division_template = "Diviziya Spetsnaza"
 		start_experience_factor = 0.60
-		start_equipment_factor = 0.95
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -3633,7 +3518,7 @@ units = {
 		location = 11370
 		division_template = "Diviziya Spetsnaza"
 		start_experience_factor = 0.60
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -3643,7 +3528,7 @@ units = {
 		location = 3734
 		division_template = "Diviziya Spetsnaza"
 		start_experience_factor = 0.60
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -3653,7 +3538,7 @@ units = {
 		location = 9663
 		division_template = "Diviziya Spetsnaza"
 		start_experience_factor = 0.60
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -3663,7 +3548,7 @@ units = {
 		location = 9628
 		division_template = "Diviziya Spetsnaza"
 		start_experience_factor = 0.60
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -3673,7 +3558,7 @@ units = {
 		location = 1599
 		division_template = "Diviziya Spetsnaza"
 		start_experience_factor = 0.60
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -3683,7 +3568,7 @@ units = {
 		location = 3686
 		division_template = "Diviziya Spetsnaza"
 		start_experience_factor = 0.60
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -3693,7 +3578,7 @@ units = {
 		location = 11670
 		division_template = "Diviziya Spetsnaza"
 		start_experience_factor = 0.60
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -3703,7 +3588,7 @@ units = {
 		location = 1727
 		division_template = "Diviziya Spetsnaza"
 		start_experience_factor = 0.60
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -3713,7 +3598,7 @@ units = {
 		location = 6520
 		division_template = "Diviziya Spetsnaza"
 		start_experience_factor = 0.60
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -3723,7 +3608,7 @@ units = {
 		location = 6359
 		division_template = "Diviziya Spetsnaza"
 		start_experience_factor = 0.60
-		start_equipment_factor = 0.80
+		start_equipment_factor = 1.00
 	}
 	division = { 
 		division_name = {
@@ -3733,7 +3618,7 @@ units = {
 		location = 7274
 		division_template = "Diviziya Spetsnaza"
 		start_experience_factor = 0.60
-		start_equipment_factor = 0.80
+		start_equipment_factor = 1.00
 	}
 }
 instant_effect = {
@@ -3889,8 +3774,12 @@ instant_effect = {
 		amount = 35000
 	}
 	add_equipment_to_stockpile = {
+		type = infantry_weapons_1
+		amount = 10000
+	}
+	add_equipment_to_stockpile = {
 		type = infantry_anti_tank_weapons
-		amount = 8000
+		amount = 9000
 	}
 	add_equipment_to_stockpile = {
 		type = infantry_anti_air_weapons
@@ -3907,5 +3796,21 @@ instant_effect = {
 	add_equipment_to_stockpile = {
 		type = apc_tank_equipment
 		amount = 5000
+	}
+	add_equipment_to_stockpile = {
+		type = recon_vehicle_equipment_1
+		amount = 200
+	}
+	add_equipment_to_stockpile = {
+		type = recon_vehicle_equipment_1
+		amount = 200
+	}
+	add_equipment_to_stockpile = {
+		type = ifv_tank_equipment_1
+		amount = 1700
+	}
+	add_equipment_to_stockpile = {
+		type = mbt_tank_equipment_2
+		amount = 2000
 	}
 }

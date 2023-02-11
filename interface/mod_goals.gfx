@@ -1691,6 +1691,10 @@ spriteTypes = {
 		name = "GFX_focus_SAF_organise_raids"
 		texturefile = "gfx/interface/goals/SAF/focus_SAF_organise_raids.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_SAF_export_rare_minerals"
+		texturefile = "gfx/interface/goals/SAF/focus_SAF_export_rare_minerals.png"
+	}
 
    ###ANC###
 

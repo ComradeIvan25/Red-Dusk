@@ -19,7 +19,7 @@
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }
+		armoured_recon = { x = 0 y = 1 }
 		towed_artillery_support_unit = { x = 0 y = 2 }
 		logistics_company = { x = 0 y = 3 }
 		spaa_vehicle_support_armor = { x = 0 y = 4 }
@@ -119,9 +119,9 @@ division_template = { # Marine Division #
 		marine_unit = { x = 0 y = 1 }
 		marine_unit = { x = 0 y = 2 }
 		marine_unit = { x = 0 y = 3 }
+		marine_unit = { x = 0 y = 4 }
 		heavy_infantry_unit = { x = 1 y = 0 }
-		towed_artillery_unit = { x = 2 y = 0 }
-		main_battle_tank_armor = { x = 3 y = 0 }
+		main_battle_tank_armor = { x = 2 y = 0 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }

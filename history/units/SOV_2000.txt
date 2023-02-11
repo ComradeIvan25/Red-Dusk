@@ -3770,24 +3770,24 @@ instant_effect = {
 	# Stockpile #
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
-		amount = 35000
+		type = infantry_weapons_1
+		amount = 70000
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons_1
-		amount = 10000
+		type = infantry_weapons_2
+		amount = 20000
 	}
 	add_equipment_to_stockpile = {
 		type = infantry_anti_tank_weapons
-		amount = 9000
+		amount = 19000
 	}
 	add_equipment_to_stockpile = {
 		type = infantry_anti_air_weapons
-		amount = 8000
+		amount = 18000
 	}
 	add_equipment_to_stockpile = {
 		type = motorised_equipment
-		amount = 8000
+		amount = 10000
 	}
 	add_equipment_to_stockpile = {
 		type = support_equipment
@@ -3798,19 +3798,59 @@ instant_effect = {
 		amount = 5000
 	}
 	add_equipment_to_stockpile = {
-		type = recon_vehicle_equipment_1
-		amount = 200
-	}
-	add_equipment_to_stockpile = {
-		type = recon_vehicle_equipment_1
-		amount = 200
+		type = recon_vehicle_equipment_0
+		amount = 1500
 	}
 	add_equipment_to_stockpile = {
 		type = ifv_tank_equipment_1
-		amount = 1700
+		amount = 15000
 	}
 	add_equipment_to_stockpile = {
 		type = mbt_tank_equipment_2
 		amount = 2000
 	}
+	add_equipment_to_stockpile = {
+		type = mbt_tank_equipment_1
+		amount = 7000
+	}
+	add_equipment_to_stockpile = {
+		type = mbt_tank_equipment_0
+		amount = 18000
+	}
+	add_equipment_to_stockpile = {
+		type = apc_tank_equipment_1
+		amount = 15000
+	}
+	add_equipment_to_stockpile = {
+		type = spaa_tank_equipment_0
+		amount = 300
+	}  
+	add_equipment_to_stockpile = {
+		type = rocket_artillery_equipment_1
+		amount = 750
+	} 
+	add_equipment_to_stockpile = {
+		type = rocket_artillery_equipment_2
+		amount = 1750
+	}
+	 add_equipment_to_stockpile = {
+		type = towed_artillery_equipment_1
+		amount = 18850
+	}
+	  add_equipment_to_stockpile = {
+		type = motorised_artillery_equipment_2
+		amount = 1306
+	} 
+	add_equipment_to_stockpile = {
+		type = motorised_artillery_equipment_1
+		amount = 2200
+	} 
+	add_equipment_to_stockpile = {
+		type = heli_attack_equipment_1
+		amount = 1000
+	} 
+	add_equipment_to_stockpile = {
+		type = heli_transport_equipment_0 
+		amount = 1000
+	} 
 }

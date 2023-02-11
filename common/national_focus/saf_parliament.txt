@@ -2005,4 +2005,625 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = SAF_parliment_army
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = SAF_parliment_army_with_state
+
+		prerequisite = { focus = SAF_parliment_army_with_state }
+		
+		cost = 3
+		ai_will_do = {
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SAF_parliment_increase_military_funds
+		#icon = 
+		x = -2
+		y = 1
+		relative_position_id = SAF_parliment_army
+
+		prerequisite = { focus = SAF_parliment_army }
+		mutually_exclusive = { focus = SAF_parliment_light_military_investments }
+		
+		cost = 7
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			add_political_power = -50
+			add_ideas = SAF_overfunding_the_army_idea
+		}
+	}
+	focus = {
+		id = SAF_parliment_mandatory_military_service
+		#icon = 
+		x = -1
+		y = 1
+		relative_position_id = SAF_parliment_increase_military_funds
+
+		prerequisite = { focus = SAF_parliment_increase_military_funds }
+		
+		cost = 7
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			add_political_power = -20
+			swap_ideas = {
+				remove_idea = SAF_overfunding_the_army_idea
+				add_idea = SAF_overfunding_the_army_2_idea
+			}
+			if = {
+				limit = {
+					has_idea = disarmed_nation
+				}
+				swap_ideas = {
+					remove_idea = disarmed_nation
+					add_idea = volunteer_only
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = volunteer_only
+				}
+				swap_ideas = {
+					remove_idea = volunteer_only
+					add_idea = limited_conscription
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = limited_conscription
+				}
+				swap_ideas = {
+					remove_idea = limited_conscription
+					add_idea = extensive_conscription
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = extensive_conscription
+				}
+				swap_ideas = {
+					remove_idea = extensive_conscription
+					add_idea = service_by_requirement
+				}
+			}
+		}
+	}
+	focus = {
+		id = SAF_parliment_mass_increase_weapons_production
+		#icon = 
+		x = 1
+		y = 1
+		relative_position_id = SAF_parliment_increase_military_funds
+
+		prerequisite = { focus = SAF_parliment_increase_military_funds }
+		
+		cost = 6
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_weapons
+				amount = 500
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 500
+			}
+		}
+	}
+	focus = {
+		id = SAF_parliment_found_militia_forces
+		#icon = 
+		x = 1
+		y = 1
+		relative_position_id = SAF_parliment_mandatory_military_service
+
+		prerequisite = { focus = SAF_parliment_mandatory_military_service }
+		prerequisite = { focus = SAF_parliment_mass_increase_weapons_production }
+		
+		cost = 5
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			add_political_power = -50
+			921 = {
+				create_unit = {
+					division = "division_template = \"Light Infantry Division\""
+					owner = SAF
+				}
+			}
+		}
+	}
+	focus = {
+		id = SAF_parliment_mechanize_army
+		#icon = 
+		x = -1
+		y = 1
+		relative_position_id = SAF_parliment_found_militia_forces
+
+		prerequisite = { focus = SAF_parliment_found_militia_forces }
+		mutually_exclusive = { focus = SAF_parliment_focus_infantry }
+		
+		cost = 2
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			hidden_effect = {
+				division_template = {
+					name = "Mechanized Division"
+					division_names_group = GENERIC_MEC_01
+
+					regiments = {
+						heavy_infantry_unit  = { x = 0 y = 0 }
+						heavy_infantry_unit  = { x = 0 y = 1 }
+						heavy_infantry_unit  = { x = 0 y = 2 }
+						heavy_infantry_unit  = { x = 0 y = 3 }
+						heavy_infantry_unit  = { x = 1 y = 0 }
+						heavy_infantry_unit  = { x = 1 y = 1 }
+						heavy_infantry_unit  = { x = 1 y = 2 }
+						heavy_infantry_unit  = { x = 1 y = 3 }
+						motorised_artillery_unit = { x = 2 y = 0 }
+						motorised_artillery_unit = { x = 2 y = 1 }
+					}
+					support = {
+						engineer = { x = 0 y = 0 }
+						logistics_company = { x = 0 y = 1 }
+					}
+				}
+			}
+			custom_effect_tooltip = SAF_parliment_mechanize_army_tt
+		}
+	}
+	focus = {
+		id = SAF_parliment_found_jaguars_corp
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = SAF_parliment_mechanize_army
+
+		prerequisite = { focus = SAF_parliment_mechanize_army }
+
+		available = {
+			has_template = "Mechanized Division"
+		}
+		
+		cost = 4
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			275 = {
+				create_unit = {
+					division = "name = \"Jaguars of Johannesburg\" division_template = \"Mechanized Division\""
+					owner = SAF
+				}
+			}
+			add_ideas = SAF_jaguars_johannesburg_idea
+		}
+	}
+	focus = {
+		id = SAF_parliment_focus_infantry
+		#icon = 
+		x = 1
+		y = 1
+		relative_position_id = SAF_parliment_found_militia_forces
+
+		prerequisite = { focus = SAF_parliment_found_militia_forces }
+		mutually_exclusive = { focus = SAF_parliment_mechanize_army }
+		
+		cost = 4
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			hidden_effect = {
+				division_template = {
+					name = "Large Infantry Division"
+					division_names_group = GENERIC_INF_01
+
+					regiments = {
+						infantry_unit  = { x = 0 y = 0 }
+						infantry_unit  = { x = 0 y = 1 }
+						infantry_unit  = { x = 0 y = 2 }
+						infantry_unit  = { x = 0 y = 3 }
+						infantry_unit  = { x = 1 y = 0 }
+						infantry_unit  = { x = 1 y = 1 }
+						infantry_unit  = { x = 1 y = 2 }
+						towed_artillery_unit  = { x = 2 y = 0 }
+						towed_artillery_unit  = { x = 2 y = 1 }
+					}
+					support = {
+						engineer = { x = 0 y = 0 }
+					}
+				}
+			}
+			custom_effect_tooltip = SAF_parliment_focus_infantry_tt
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "division_template = \"Large Infantry Division\""
+					owner = SAF
+				}
+			}
+		}
+	}
+	focus = {
+		id = SAF_parliment_new_combat_doctrines
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = SAF_parliment_focus_infantry
+
+		prerequisite = { focus = SAF_parliment_focus_infantry }
+		
+		cost = 2
+		ai_will_do = {
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SAF_parliment_new_republican_army
+		#icon = 
+		x = 1
+		y = 1
+		relative_position_id = SAF_parliment_found_jaguars_corp
+
+		prerequisite = { focus = SAF_parliment_found_jaguars_corp focus = SAF_parliment_new_combat_doctrines }
+		
+		cost = 11
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			add_ideas = SAF_army_of_democracy_idea
+		}
+	}
+	focus = {
+		id = SAF_parliment_light_military_investments
+		#icon = 
+		x = 2
+		y = 1
+		relative_position_id = SAF_parliment_army
+
+		prerequisite = { focus = SAF_parliment_army }
+		mutually_exclusive = { focus = SAF_parliment_increase_military_funds }
+		
+		cost = 8
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			add_ideas = SAF_light_military_investments_idea
+		}
+	}
+	focus = {
+		id = SAF_parliment_buy_foreign_armaments
+		#icon = 
+		x = -1
+		y = 1
+		relative_position_id = SAF_parliment_light_military_investments
+
+		prerequisite = { focus = SAF_parliment_light_military_investments }
+		
+		cost = 1
+		ai_will_do = {
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SAF_parliment_new_military_factories
+		#icon = 
+		x = 1
+		y = 1
+		relative_position_id = SAF_parliment_light_military_investments
+
+		prerequisite = { focus = SAF_parliment_light_military_investments }
+		
+		cost = 7
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			random_list = {
+				60 = {
+					random_owned_controlled_state = {
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+				40 = {
+					random_owned_controlled_state = {
+						add_building_construction = {
+							type = arms_factory
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = SAF_parliment_army_volunteers
+		#icon = 
+		x = 1
+		y = 1
+		relative_position_id = SAF_parliment_buy_foreign_armaments
+
+		prerequisite = { focus = SAF_parliment_buy_foreign_armaments }
+		prerequisite = { focus = SAF_parliment_new_military_factories }
+
+		cost = 8
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = disarmed_nation
+				}
+				swap_ideas = {
+					remove_idea = disarmed_nation
+					add_idea = volunteer_only
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = limited_conscription
+				}
+				swap_ideas = {
+					remove_idea = limited_conscription
+					add_idea = volunteer_only
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = extensive_conscription
+				}
+				swap_ideas = {
+					remove_idea = extensive_conscription
+					add_idea = volunteer_only
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = service_by_requirement
+				}
+				swap_ideas = {
+					remove_idea = service_by_requirement
+					add_idea = volunteer_only
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = all_adults_serve 
+				}
+				swap_ideas = {
+					remove_idea = all_adults_serve
+					add_idea = volunteer_only
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = scraping_the_barrel
+				}
+				swap_ideas = {
+					remove_idea = scraping_the_barrel
+					add_idea = volunteer_only
+				}
+			}
+			swap_ideas = {
+				remove_idea = SAF_light_military_investments_idea
+				add_idea = SAF_improving_the_army_idea
+			}
+		}
+	}
+	focus = {
+		id = SAF_parliment_train_troops
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = SAF_parliment_army_volunteers
+
+		prerequisite = { focus = SAF_parliment_army_volunteers }
+		
+		cost = 7
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = SAF_improving_the_army_idea
+				add_idea = SAF_improving_the_army_2_idea
+			}
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "division_template = \"Light Infantry Division\""
+					owner = SAF
+				}
+			}
+		}
+	}
+	focus = {
+		id = SAF_parliment_improve_logistic_system
+		#icon = 
+		x = -1
+		y = 1
+		relative_position_id = SAF_parliment_train_troops
+
+		prerequisite = { focus = SAF_parliment_train_troops }
+		
+		cost = 1
+		ai_will_do = {
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SAF_parliment_buy_transport_vehicles
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = SAF_parliment_improve_logistic_system
+
+		prerequisite = { focus = SAF_parliment_improve_logistic_system }
+		
+		cost = 2
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			add_political_power = -75
+			add_equipment_to_stockpile = {
+				type = motorised_equipment
+				amount = 150
+			}
+		}
+	}
+	focus = {
+		id = SAF_parliment_improve_division_organisation
+		#icon = 
+		x = 1
+		y = 1
+		relative_position_id = SAF_parliment_train_troops
+
+		prerequisite = { focus = SAF_parliment_train_troops }
+		
+		cost = 5
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = SAF_improving_the_army_2_idea
+				add_idea = SAF_improving_the_army_3_idea
+			}
+		}
+	}
+	focus = {
+		id = SAF_parliment_coordinated_trainings
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = SAF_parliment_improve_division_organisation
+
+		prerequisite = { focus = SAF_parliment_improve_division_organisation }
+		
+		cost = 5
+		ai_will_do = {
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SAF_parliment_quality_over_quantity
+		#icon = 
+		x = 1
+		y = 1
+		relative_position_id = SAF_parliment_buy_transport_vehicles
+
+		prerequisite = { focus = SAF_parliment_buy_transport_vehicles }
+		prerequisite = { focus = SAF_parliment_coordinated_trainings }
+		
+		cost = 7
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = SAF_improving_the_army_3_idea
+				add_idea = SAF_quality_over_quantity_idea
+			}
+		}
+	}
+	focus = {
+		id = SAF_parliment_ask_us_heavy_armaments
+		#icon = 
+		x = -1
+		y = 1
+		relative_position_id = SAF_parliment_quality_over_quantity
+
+		prerequisite = { focus = SAF_parliment_quality_over_quantity }
+		mutually_exclusive = { focus = SAF_parliment_upgrade_troops_equipment }
+		
+		cost = 1
+		ai_will_do = {
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SAF_parliment_upgrade_troops_equipment
+		#icon = 
+		x = 1
+		y = 1
+		relative_position_id = SAF_parliment_quality_over_quantity
+
+		prerequisite = { focus = SAF_parliment_quality_over_quantity }
+		mutually_exclusive = { focus = SAF_parliment_ask_us_heavy_armaments }
+		
+		cost = 1
+		ai_will_do = {
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SAF_parliment_resolve_overstretched_military
+		#icon = 
+		x = 1
+		y = 1
+		relative_position_id = SAF_parliment_ask_us_heavy_armaments
+
+		prerequisite = { focus = SAF_parliment_ask_us_heavy_armaments focus = SAF_parliment_upgrade_troops_equipment }
+		
+		cost = 1
+		ai_will_do = {
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SAF_parliment_new_home_african_democracy
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = SAF_parliment_resolve_overstretched_military
+
+		prerequisite = { focus = SAF_parliment_resolve_overstretched_military }
+		
+		cost = 10
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = SAF_quality_over_quantity_idea
+				add_idea = SAF_new_home_african_democracy_idea
+			}
+		}
+	}
 }

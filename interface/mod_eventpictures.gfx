@@ -636,6 +636,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_news_belgrade_revolution"
 		texturefile = "gfx/event_pictures/news_belgrade_revolution.png"
-	}		
+	}
+	spriteType = {
+		name = "GFX_news_millennium_summit"
+		texturefile = "gfx/event_pictures/news_millennium_summit.png"
+	}
 	
 }

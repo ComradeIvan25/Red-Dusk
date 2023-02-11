@@ -477,6 +477,9 @@
 
  SAF_parliment_american_friends_focus_tt:0 "§YBy taking this focus, we will attempt to sign a trade agreement with the United States§!"
  SAF_parliment_formalize_agreement_focus_tt:0 "§OForeign Military Jets Importation Costs§! §Ynational spirit will be removed 180 days after focus completion§!"
+ SAF_parliment_mechanize_army_tt:0 "§YA new§! §OMechanized Division§! §Ytemplate will be created§!"
+ SAF_parliment_focus_infantry_tt:0 "§YA new§! §OLarge Infantry Division§! §Ytemplate will be created§!"
+
  ## GENERIC ##
 
  decision_cost_CP_10_PP_60:0 "£command_power  §Y10§! £political_power  §Y60§!"

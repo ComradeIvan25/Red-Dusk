@@ -1790,6 +1790,16 @@
  SAF_parliment_prioritize_fighters_desc:0 "If we want our Air Force to be ready to defend us, we must focus on increasing the production of military jets suitable for combat with other Jets, by doing so, we will have more chances to shot down enemies airplanes, and conquer the Skies for South Africa!"
  SAF_parliment_reborn_air_force:0 "A Reborn Air Force"
  SAF_parliment_reborn_air_force_desc:0 "Finally, thanks to our efforts, we have finally managed to improve our Air Force, Now, Its able to give us and our population protection, and we also succeeded in making it one of the most powerful and advaced in all of Africa. Again, We Are Ruling the Skies Again!"
+ SAF_parliment_army:0 "The Army"
+ SAF_parliment_army_desc:0 "Our Army, our main defense against the enemies of the fatherland, needs reform, the current state of the army is pitiful, with too much investment aimed only at improving certain units, especially the Infantry. If we want our military to become one of the most powerful in all of Africa, and to be fully operable, we need to increase funds to balance them, in Order to have an “efficent” Army in every branch, or cut the majority of the old funds, and just slightly invest in the Army."
+ SAF_parliment_increase_military_funds:0 "Highly Invest in the Military"
+ SAF_parliment_increase_military_funds_desc:0 "To continue to Rule in Peace, with a Stable Government and ensure total allegiance to the state from the citizens, and eliminate every single trace of treason and ANC rebels , we need an even more powerful army, therefore it was decided to increase the expenditure destined for the army up to 70%, and improve its internal, such as administrative, logistic."
+ SAF_parliment_mandatory_military_service:0 "Enact Mass Conscription Law"
+ SAF_parliment_mandatory_military_service_desc:0 "To keep our army always well stocked with reserves, and to increase the number of people who can join the army, it was decided to implement the compulsory military service, and the Mass conscription. Every Afrikaner will be proud of defending his own Homeland."
+ SAF_parliment_mass_increase_weapons_production:0 "Mass increase of weapons production"
+ SAF_parliment_mass_increase_weapons_production_desc:0 "Our armories are rarely full, and our army, although large and poorly equipped, to solve this problem it was decided to exponentially increase the production of Weapons and Military Equipment, soon this problem will just be an old memory."
+ SAF_parliment_found_militia_forces:0 "Found New Militia Forces"
+ SAF_parliment_found_militia_forces_desc:0 "In order to suppress the rebels, the Military Chief decided to establish a new Military Militia, to better manage the actions against the rebels without directly involving the army.and possibly wasting resources that can be useful to us in other Wars, instead of just a bunch of disorganized Rebels. The new Militia forces will be part of a Rebel Suppression Group, and in the event of War, will be fully operable to fight against professional armies."
 
  ### ANC ###
   

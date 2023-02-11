@@ -1724,3 +1724,39 @@ news_event = {
 		name = flavour_news.12.a
 	}
 }
+
+## Millennium Summit Trigger (HIDDEN) ##
+news_event = {
+	id = flavour_news.13
+	hidden = yes
+
+	trigger = {
+		date > 2000.9.6
+	}
+	
+	fire_only_once = yes
+	
+	immediate = {
+		news_event = { id = flavour_news.14 } 
+	}
+	
+	option = {
+		name = flavour_news.13.a
+	}
+}
+
+## Millennium Summit ##
+news_event = {
+	id = flavour_news.14
+	title = flavour_news.14.t
+	desc = flavour_news.14.d
+	picture = GFX_news_millennium_summit
+	
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = flavour_news.14.a
+	}
+}

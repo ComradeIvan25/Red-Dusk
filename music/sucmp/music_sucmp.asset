@@ -254,10 +254,6 @@ music = {
 	file = "The_Man_Who_Sold_The_World.ogg"
 }
 music = {
-	name = "The_Man_Who_Sold_The_World"
-	file = "The_Man_Who_Sold_The_World.ogg"
-}
-music = {
 	name = "The_Road_Runs_Far_There_Is_A_Lot_Of_Fun_Ahead"
 	file = "The_Road_Runs_Far_There_Is_A_Lot_Of_Fun_Ahead.ogg"
 }

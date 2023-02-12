@@ -17,7 +17,7 @@ set_technology = {
 }
 
 
-#recruit_character = PER_mohammad_khatami
+recruit_character = HZB_hassan_nasrallah
 
 add_ideas = {
 	limited_conscription

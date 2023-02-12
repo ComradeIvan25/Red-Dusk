@@ -1302,9 +1302,31 @@ on_actions = {
 						}
 						
 						IRQ = {
-							annex_country = {
-							target = SYR
-							transfer_troops = no
+							puppet = SYR
+						}
+						SYR = {
+							remove_ideas = ussr_aligned_nation
+							set_cosmetic_tag = SYR_occupation_zone_puppet
+							transfer_state = 554
+							transfer_state = 677
+							transfer_state = 680
+							transfer_state = 908
+							add_popularity = {
+								ideology = fascism
+								popularity = -0.45
+							}
+							set_politics = {
+								ruling_party = fascism
+								elections_allowed = no
+							}
+							add_country_leader_role = {
+								character = SYR_ali_al-majid
+								promote_leader = yes
+								country_leader = {
+									ideology = nationalist_military_junta
+									expire = "2050.1.1.1"
+									traits = { }
+								}
 							}
 						}
 					}
@@ -1431,7 +1453,10 @@ on_actions = {
 					if = {   
 						limit = {
 							FROM = {
-								original_tag = HZB
+								OR = {
+									original_tag = HZB
+									original_tag = PER		
+								}							
 							}
 							ROOT = {
 								original_tag = LEB
@@ -1473,8 +1498,12 @@ on_actions = {
 							transfer_state = 919
 							transfer_state = 454
 							transfer_state = 914
-							transfer_state = 947
 							
+						}
+						
+						SYR = {
+							transfer_state = 947
+
 						}
 						
 						PER = {
@@ -1499,12 +1528,33 @@ on_actions = {
 
 						}
 						
-						IRQ = {
-							annex_country = {
-							target = JOR
-							transfer_troops = no
+						if = {
+						limit = {IRQ = {has_completed_focus = IRQ_greater_iraq}}
+							IRQ = {
+								puppet = JOR
+							}
+							JOR = {
+								set_cosmetic_tag = JOR_iraq_puppet
+								set_popularities = {
+									socialism = 30
+									paternal_autocracy = 20
+									neutrality = 10
+									fascism = 40
+								}
 							}
 						}
+						
+						else_if = {
+						limit = {IRQ = {has_completed_focus = IRQ_proclaim_uar}}
+							IRQ = {
+								annex_country = {
+								target = JOR
+								transfer_troops = no
+								}
+							}
+						
+						}
+
 					}
 					
 					## IRAQ VS LEBANON - IRAQ WINS OVER LEBANON ##
@@ -1523,11 +1573,33 @@ on_actions = {
 
 						}
 						
-						IRQ = {
-							annex_country = {
-							target = LEB
-							transfer_troops = no
+						if = {
+						limit = {IRQ = {has_completed_focus = IRQ_greater_iraq}}
+							IRQ = {
+								puppet = LEB
 							}
+
+							LEB = {
+								set_cosmetic_tag = LEB_iraq_puppet
+								transfer_state = 553
+								transfer_state = 953
+								set_popularities = {
+									socialism = 30
+									paternal_autocracy = 40
+									fascism = 30
+								}
+							}
+						}
+						
+						else_if = {
+						limit = {IRQ = {has_completed_focus = IRQ_proclaim_uar}}
+							IRQ = {
+								annex_country = {
+								target = LEB
+								transfer_troops = no
+								}
+							}
+						
 						}
 					}
 					
@@ -1546,15 +1618,36 @@ on_actions = {
 							white_peace = ROOT
 							puppet = PAL
 						}
+					
 						
 						PAL = {
+							remove_ideas = ussr_aligned_nation
 							set_cosmetic_tag = PAL_integration_zone
 							transfer_state = 920
 							transfer_state = 919
 							transfer_state = 454
 							transfer_state = 914
 							transfer_state = 947
+							set_popularities = {
+								socialism = 5
+								paternal_autocracy = 40
+								neutrality = 10
+								fascism = 45
+							}
 							
+						}
+						
+						if = {
+						limit = {IRQ = {has_completed_focus = IRQ_greater_iraq}}
+							LEB = {
+								transfer_state = 954
+							}							
+						}
+						else_if = {
+							limit = {IRQ = {has_completed_focus = IRQ_proclaim_uar}}
+							IRQ = {
+								transfer_state = 954
+							}
 						}
 					}
 					

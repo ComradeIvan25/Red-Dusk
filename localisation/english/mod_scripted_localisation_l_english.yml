@@ -150,19 +150,25 @@
  IRQ_loc_key_stance_2:0 "§gProgressive§!"
  IRQ_loc_key_stance_3:0 "§gConciliatory§!"
  
+ IRQ_modernization_plans:0 "Modernization Plans"
+ 
+ irq_new_pan_arabism:0 "New Pan Arabism"
+ irq_improved_oil_drills:0 "§YImproved the Oil Drills§!"
+ irq_applied_new_techniques:0 "§YApplied New Techniques to the Oil System§!"
+ 
  irq_we_will_attack_leb:0 "§RWe will attack Lebanon.§!"
  irq_we_will_attack_jor:0 "§RWe will attack Jordan.§!"
 
  irq_nuke:0 "§RWe will test our first nuclear bomb§!"
  
- IRQ_greater_iraq_ty_for_playing:0 "§RGreater Iraq, after many struggles has prevailed and survived the new millenium.\n\nThanks for playing Iraq in Red Dusk!§!"
+ IRQ_greater_iraq_ty_for_playing:0 "§RGreater Iraq, after many struggles has prevailed and intoduced a new approach to Pan Arabism.\n\nThanks for playing Iraq in Red Dusk!§!"
  IRQ_uar_ty_for_playing:0 "§GUnited Arab Republics, after many struggles has prevailed and united the Arabs upon the new millenium.\n\nThanks for playing Iraq in Red Dusk!§!"
 
  IRQ_tt_rebuild_navy:0 "§YDecisions to purchase foreign ships will become available§!"
  IRQ_tt_no_embargo_idea:0 "§YFree Trade will become available§!"
  IRQ_tt_exploit_internal_divisions:0 "§YDecisions to influence Kurdish factions will become available§!"
  IRQ_tt_exploit_internal_divisions_end:0 "§YDecisions to influence Kurdish factions will end§!"
-
+ 
  #YUGOSLAVIA#
  
  YUG_open_new_factories_flag:0 "§YHas Choosen to open new factories\n\n§!"

@@ -255,6 +255,27 @@ ideas = {
 				production_speed_fuel_silo_factor = 0.1
 			}
 		}
+		
+		IRQ_oil_producers_2 = {
+			name = oil_producers_name
+
+			removal_cost = -1
+
+			picture = oil_producers_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_factor = 0.15
+				production_speed_synthetic_refinery_factor = 0.3
+				production_speed_fuel_silo_factor = 0.3
+				max_fuel_factor = 0.3 
+				fuel_gain_factor_from_states = 0.3
+
+			}
+		}		
 
 		IRQ_land_of_madness = {
 			name = IRQ_land_of_madness_name
@@ -1326,6 +1347,127 @@ ideas = {
 			}
 		}
 
+		IRQ_middle_east_economic_union_1 = {
+			name = IRQ_middle_east_economic_union_name
+
+			removal_cost = -1
+
+			picture = IRQ_desert_camouflage_idea_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_cost = 0.05						
+				consumer_goods_factor = -0.025
+			}
+		}
+		
+		IRQ_middle_east_economic_union_2 = {
+			name = IRQ_middle_east_economic_union_name
+
+			removal_cost = -1
+
+			picture = IRQ_desert_camouflage_idea_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_cost = 0.10					
+				consumer_goods_factor = -0.05
+			}
+		}	
+
+		IRQ_middle_east_economic_union_3 = {
+			name = IRQ_middle_east_economic_union_name
+
+			removal_cost = -1
+
+			picture = IRQ_desert_camouflage_idea_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_cost = 0.15		
+				consumer_goods_factor = -0.075
+			}
+		}	
+
+		IRQ_middle_east_economic_union_4 = {
+			name = IRQ_middle_east_economic_union_name
+
+			removal_cost = -1
+
+			picture = IRQ_desert_camouflage_idea_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_cost = 0.20
+				consumer_goods_factor = -0.075
+				production_speed_buildings_factor = 0.05
+			}
+		}	
+
+		IRQ_middle_east_economic_union_5 = {
+			name = IRQ_middle_east_economic_union_name
+
+			removal_cost = -1
+
+			picture = IRQ_desert_camouflage_idea_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_cost = 0.25
+				consumer_goods_factor = -0.075
+				production_speed_buildings_factor = 0.1
+			}
+		}			
+
+		IRQ_middle_east_economic_union_6 = {
+			name = IRQ_middle_east_economic_union_name
+
+			removal_cost = -1
+
+			picture = IRQ_desert_camouflage_idea_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_cost = 0.35
+				consumer_goods_factor = -0.1
+				production_speed_buildings_factor = 0.15
+			}
+		}
+		
+		IRQ_modernized_education = {
+			name = IRQ_modernized_education_name
+
+			removal_cost = -1
+
+			picture = IRQ_desert_camouflage_idea_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_gain = 0.5
+				research_speed_factor = 0.25
+			}
+		}		
 	}
 
 	hidden_ideas = {

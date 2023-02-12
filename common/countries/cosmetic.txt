@@ -202,6 +202,26 @@ PAL_integration_zone = {
 	color = rgb { 178 130 30 }
 	color_ui = rgb { 143 130 30 }
 }
+SYR_occupation_zone_puppet = {
+	color = rgb { 132 113 97 }
+	color_ui = rgb { 130 113 87 }
+}
+SYR_iraq_puppet = {
+	color = rgb { 114 58 21 }
+	color_ui = rgb { 231 148 129 }
+}
+JOR_iraq_puppet = {
+	color = rgb { 114 58 21 }
+	color_ui = rgb { 231 148 129 }
+}
+LEB_iraq_puppet = {
+	color = rgb { 114 58 21 }
+	color_ui = rgb { 231 148 129 }
+}
+PAL_iraq_puppet = {
+	color = rgb { 114 58 21 }
+	color_ui = rgb { 231 148 129 }
+}
 
 IRQ_iran_puppet = {
 	color = rgb { 105 113 70 }
@@ -214,6 +234,10 @@ KUR_islam_emirite = {
 SYR_iran_puppet = {
 	color = rgb { 55 104 65 }
 	color_ui = rgb { 56 104 70 }
+}
+HZB_lebanon = {
+	color = rgb { 209  209  2 }
+	color_ui = rgb { 211  209  2 }
 }
 
 SYR_uar_cosmetic = {
@@ -284,9 +308,4 @@ NRO_afghanistan = {
 UNI_rep = {
 	color = rgb { 109 116 48 }
 	color_ui = rgb { 109 116 50 }
-}
-
-HZB_lebanon = {
-	color = rgb { 209  209  2 }
-	color_ui = rgb { 211  209  2 }
 }

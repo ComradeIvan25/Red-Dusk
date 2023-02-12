@@ -44,7 +44,10 @@ add_ideas = SYR_oil_producers
 recruit_character = SYR_hafez_al_assad
 recruit_character = SYR_bashar_al_assad
 
-recruit_character = SYR_iran_occupation_auth
+recruit_character = SYR_abu_mohammad_al-julani
+
+recruit_character = SYR_ali_al-majid
+recruit_character = SYR_unity_government
 
 add_ideas = {
 	limited_conscription

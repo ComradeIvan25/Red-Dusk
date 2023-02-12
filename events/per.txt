@@ -95,7 +95,7 @@ country_event = {
 	option = {
 		name = per.2.a
 		HZB = {
-		transfer_state = 345
+		transfer_state = 953
 		
 			declare_war_on = {
 				target = LEB

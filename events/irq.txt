@@ -360,85 +360,6 @@ country_event = {
 	}
 }
 
-#Renewed Resistance Against Saddam#
-country_event = {
-	id = irq.15
-	title = irq.15.t
-	desc = irq.15.d
-	picture = GFX_report_event_IRQ_aircraft_yugo
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = irq.15.a
-		add_stability = -0.15
-		add_ideas = IRQ_renewed_resistance
-		set_country_flag = irq_renewed_resistance
-		unlock_decision_category_tooltip = irq_category_renewed_resistance
-		remove_state_core = 656
-		remove_state_core = 421
-		remove_state_core = 677
-		remove_state_core = 554
-		remove_state_core = 680
-		remove_state_core = 413
-
-		656 = {
-			add_resistance = 20
-		}
-		421 = {
-			add_resistance = 20			
-		}
-		677 = {
-			add_resistance = 20
-		}
-		554 = {
-			add_resistance = 20
-		}
-		680 = {
-			add_resistance = 20
-		}
-		413 = {
-			add_resistance = 20
-		}
-	}
-}
-
-#Damascus Situation Report#
-country_event = {
-	id = irq.16
-	title = irq.16.t
-	desc = irq.16.d
-	picture = GFX_report_event_iraq_chemical_weapons
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = irq.16.a
-		custom_effect_tooltip = irq_trait_modify_chem_ali
-		hidden_effect = {
-			remove_trait = {
-				character = IRQ_ali_al-majid
-				slot = army_chief
-				trait = chemical_ali
-			}
-			add_trait = {
-				character = IRQ_ali_al-majid
-				slot = army_chief
-				trait = chemical_ali_2
-			}
-		}
-		554 = {
-			add_manpower = -20421
-			add_building_construction = {
-				type = infrastructure
-				level = -2
-				instant_build = yes
-			}
-		}
-		news_event = {id = old_times_news.36 days = 2}
-	}
-}
-
 #A Hero’s Welcome#
 country_event = {
 	id = irq.17
@@ -491,7 +412,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	#we will go as planned#
+	#zased#
 	option = {
 		name = irq.19.a
 		add_political_power = 50
@@ -627,8 +548,17 @@ country_event = {
 	#bruh#
 	option = {
 		name = irq.26.a
-		add_political_power = 15
 		add_stability = 0.15
+		SYR = {
+			add_political_power = -300		
+			add_stability = -0.30
+			add_manpower = -3024
+		}
+		PER = {
+			add_political_power = -300
+			add_stability = -0.30
+			add_manpower = -14024
+		}
 		
 	}
 }

@@ -287,6 +287,10 @@
  IRQ_desert_camouflage_idea_name:0 "Camouflaged Ground Forces"
  IRQ_desert_camouflage_idea_name_desc:0 "By utilising modern desert camouflage techniques, our ground forces are able to significantly reduce their visibility to enemy aircraft."
  IRQ_kurdish_decision_funding_name:0 "Providing funding to Kurdish territories"
+ IRQ_middle_east_economic_union_name:0 "Middle East Economic Union" 
+ IRQ_middle_east_economic_union_name_desc:0 ""
+ IRQ_modernized_education_name:0 "Modernized Education"
+ IRQ_modernized_education_name_desc:0 ""
 
  SIA_rama_ix_name:0 "Rama IX"
  SIA_rama_ix_name_desc:0 "Long Live His Majesty King Rama IX"

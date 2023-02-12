@@ -16,43 +16,56 @@ IRQ_recalc_kurd_resistance_bar_frames = {
 
 }
 
-IRQ_decrease_the_renewed_resistance_idea = {
+IRQ_improve_the_economic_union_idea = {
 
 	if = {
-		limit = {has_idea = IRQ_renewed_resistance}
+		limit = {NOT = {has_idea = IRQ_middle_east_economic_union_1}}
+		add_ideas = IRQ_middle_east_economic_union_1
+	}
+
+	else_if = {
+		limit = {has_idea = IRQ_middle_east_economic_union_1}
 		swap_ideas = {
-		remove_idea = IRQ_renewed_resistance
-		add_idea = IRQ_renewed_resistance_2
+		remove_idea = IRQ_middle_east_economic_union_1
+		add_idea = IRQ_middle_east_economic_union_2
 		}
 	}
 	
 	else_if = {
-		limit = {has_idea = IRQ_renewed_resistance_2}
+		limit = {has_idea = IRQ_middle_east_economic_union_2}
 		swap_ideas = {
-		remove_idea = IRQ_renewed_resistance_2
-		add_idea = IRQ_renewed_resistance_3
+		remove_idea = IRQ_middle_east_economic_union_2
+		add_idea = IRQ_middle_east_economic_union_3
 		}
 	}
 	
 	else_if = {
-		limit = {has_idea = IRQ_renewed_resistance_3}
+		limit = {has_idea = IRQ_middle_east_economic_union_3}
 		swap_ideas = {
-		remove_idea = IRQ_renewed_resistance_3
-		add_idea = IRQ_renewed_resistance_4
+		remove_idea = IRQ_middle_east_economic_union_3
+		add_idea = IRQ_middle_east_economic_union_4
 		}
 	}
 	
 	else_if = {
-		limit = {has_idea = IRQ_renewed_resistance_4}
+		limit = {has_idea = IRQ_middle_east_economic_union_4}
 		swap_ideas = {
-		remove_idea = IRQ_renewed_resistance_4
-		add_idea = IRQ_renewed_resistance_5
+		remove_idea = IRQ_middle_east_economic_union_4
+		add_idea = IRQ_middle_east_economic_union_5
 		}
 	}
 	
 	else_if = {
-		limit = {has_idea = IRQ_renewed_resistance_5}
-		remove_ideas = IRQ_renewed_resistance_5
+		limit = {has_idea = IRQ_middle_east_economic_union_5}
+		swap_ideas = {
+		remove_idea = IRQ_middle_east_economic_union_5
+		add_idea = IRQ_middle_east_economic_union_6
+		}
+	}
+	
+	else_if = {
+		limit = {has_idea = IRQ_middle_east_economic_union_6}	
+		add_offsite_building = { type = industrial_complex level = 1 }
 
 	}
 }

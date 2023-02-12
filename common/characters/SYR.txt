@@ -30,11 +30,11 @@ characters = {
 		}
 	}
 	
-	SYR_iran_occupation_auth = {
-		name = "Iran Occupation Authority"
+	SYR_abu_mohammad_al-julani = {
+		name = "Abu_Mohammad_al-Julani"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SYR/iran_occupation_auth.dds"
+				large = "gfx/leaders/SYR/Abu_Mohammad_al-Julani.png"
 			}
 		}
 		country_leader = {
@@ -44,5 +44,38 @@ characters = {
 			id = -1
 		}
 	}
-
+	
+	SYR_unity_government = {  #couldnt find a person to lead pro saddam syria.Mfs that allied with Saddam back in 1982 either died or dont have any photos.So enjoy the party logo portrait
+		name = "Unity Government"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SYR/unity_government.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+	
+	SYR_ali_al-majid = {
+		name = "Ali Hassan al-Majid"
+		portraits = {
+			army = {
+				large = "gfx/leaders/IRQ/Ali_al-Majid.dds"
+				small = "gfx/leaders/IRQ/Ali_al-Majid_small.dds"
+			}
+		}			
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
 }

@@ -972,6 +972,8 @@ HZB = {
 	color = rgb { 209  209  2 }
 	color_ui = rgb { 211  209  2 }
 }
-
-
+SML = {
+	color = rgb { 87  165  104 }
+	color_ui = rgb { 99  165  104 }
+}
 

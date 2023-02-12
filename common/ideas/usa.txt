@@ -124,6 +124,26 @@ ideas = {
 			modifier = {
 			}
 		}
+		USA_war_support = {
+			name = USA_war_support_name
+
+			removal_cost = -1
+
+			#picture = 
+
+			allowed = {
+				alwayas = no
+			}
+
+			modifier = {
+				war_support_factor = 0.30
+				stability_factor = -0.10
+				consumer_goods_factor = -0.10
+				economy_cost_factor = 1.0
+				production_speed_arms_factory_factor = 0.5
+				faction_trade_opinion_factor = 0.2
+			}
+		}
 		
 		##QUAYLE/START TREE##
 		
@@ -160,30 +180,7 @@ ideas = {
 				political_power_gain = -0.10
 			}
 		}
-		
-		
-	}
-	
-	hidden_ideas = {
-	
-		usa_aligned_nation = {
-				
-			name = usa_aligned_nation_name
 
-			removal_cost = -1
-
-			picture =  bruh_nothing
-
-			allowed = {
-				always = no
-			}
-				
-			modifier = {
-			}	
-
-		}
-	
-	
 	}
 
 }

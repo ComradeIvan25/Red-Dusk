@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  SOV_memories_of_perestroika_name:0 "Consequences of Perestroika"
  SOV_memories_of_perestroika_name_desc:0 "Memories and the consequences of Gorbachev's failed economic reforms, so called "Perestroika”, are still strong. Even though it has been more than 10 years, our economy still has not fully recovered. It will take a radical action to get us rid of its failures."
  SOV_memories_of_august_coup_name:0 "Memories of the August Coup"
@@ -85,6 +85,8 @@
  USA_military_spending_name_desc:0 "The Cold War wasn’t just a political and social upheaval, but the threat of Communism in the states also led to a massive, several-decade long fight to overpower the Soviets and the Chinese every step of the way. Well, this costs a lot of money, resources, and soldiers, and as it stands, we’re starting to see the negative outcomes of a 50-year-long pissing contest with the Russians."
  USA_last_bastion_name:0 "The “Last Bastion”"
  USA_last_bastion_name_desc:0 "What makes America the Last Bastion on Earth? It’s the shining beacon of Democracy and Capitalism in the world; the city on the hill so to speak. And as such, this comes with the system of Representative Republicanism that is so fondly beloved in the American nation... And all of its wonderful caveats."
+ USA_war_support_name:0 "Ballard Of War"
+ USA_war_support_name:0 "Ever since the rise of digitisation and mass comunication we are on a tight watch on our wars, as any wrong move will not only a slap to face to our image of "leader of the free world" but also may bring in an age of isolationism that may doom us to our enemies. and with this bieng said, with the need for a second economic revolution, the Soviet, Union planning to be revived, and China ready to wake from there slumber; the United stated must be ready at all times."
  USA_worker_strikes_name:0 "Workers Strikes"
  USA_worker_strikes_name_desc:0 ""
  
@@ -107,18 +109,8 @@
 
  VIN_fifty_years_resistance_name:0 "50 Years of Resistance"
  VIN_fifty_years_resistance_name_desc:0 "From the foundation of Viet Minh in 1941 to the end of Sino-Vietnamese conflicts in 1991, Vietnam has finally found peace."
- VIN_fifty_years_resistance_1_name:0 "50 Years of Resistance"
- VIN_fifty_years_resistance_1_name_desc:0 "From the foundation of Viet Minh in 1941 to the end of Sino-Vietnamese conflicts in 1991, Vietnam has finally found peace."
- VIN_fifty_years_resistance_2_name:0 "50 Years of Resistance"
- VIN_fifty_years_resistance_2_name_desc:0 "From the foundation of Viet Minh in 1941 to the end of Sino-Vietnamese conflicts in 1991, Vietnam has finally found peace."
- VIN_fifty_years_resistance_3_name:0 "50 Years of Resistance"
- VIN_fifty_years_resistance_3_name_desc:0 "From the foundation of Viet Minh in 1941 to the end of Sino-Vietnamese conflicts in 1991, Vietnam has finally found peace."
- VIN_fifty_years_resistance_4_name:0 "50 Years of Resistance"
- VIN_fifty_years_resistance_4_name_desc:0 "From the foundation of Viet Minh in 1941 to the end of Sino-Vietnamese conflicts in 1991, Vietnam has finally found peace."
  VIN_doi_moi_name:0 "Doi Moi"
  VIN_doi_moi_name_desc:0 "Doi Moi is the name given to the economic reforms initiated in Vietnam started in 1986 with the goal of creating a "socialist-oriented market economy".The Doi Moi Policy refers specifically to these reforms that sought to transition Vietnam from a command economy to a socialist-oriented market economy.\nThe Doi Moi economic reforms were initiated by the Communist Party of Vietnam in 1986 during the party's 6th National Congress. These reforms introduced a greater role for market forces for the coordination of economic activity between enterprises and government agencies and allowed for private ownership of small enterprises and the creation of a stock exchange for both state and non-state enterprises."
- VIN_doi_moi_name_1:0 "Doi Moi"
- VIN_doi_moi_name_1_desc:0 "Doi Moi is the name given to the economic reforms initiated in Vietnam started in 1986 with the goal of creating a "socialist-oriented market economy".The Doi Moi Policy refers specifically to these reforms that sought to transition Vietnam from a command economy to a socialist-oriented market economy.\nThe Doi Moi economic reforms were initiated by the Communist Party of Vietnam in 1986 during the party's 6th National Congress. These reforms introduced a greater role for market forces for the coordination of economic activity between enterprises and government agencies and allowed for private ownership of small enterprises and the creation of a stock exchange for both state and non-state enterprises."
  VIN_patriotic_tradition_name:0 "Patriotic Tradition"
  VIN_patriotic_tradition_name_desc:0 "Over thousands of years of struggle to build and defend the country, the nation's patriotic tradition has been constantly fostered and promoted. President Ho Chi Minh affirmed: “Our people have a passionate patriotism, which is our precious tradition. From the past until now, every time the country is invaded, that spirit gets ignited, it forms a huge and powerful wave, it passes through all dangers and difficulties, it engulfs our enemies, both the traitors and the invaders". Over thousands years history of nation building and defense, our nation has built up many precious traditions. The patriotism of each person, and each ethnic group is a part of the patriotic tradition of the Vietnamese nation. Patriotism is the most prominent and encompassing tradition that has become the strength and driving force to defeat all invaders."
  
@@ -147,8 +139,6 @@
  YUG_nationalist_rebirth_name:0 "Nationalist Rebirth"
  YUG_nationalist_rebirth_name_desc:0 ""
  
- YUG_yugoslav_railways:0 "Yugoslav Railways"
- 
  BOS_indepandance_war_fighter_experience_name:0 "Independence Spirit"
  BOS_indepandance_war_fighter_experience_name_desc:0 "Our nation has been occupied by the Serb majority led "Equal Union" for too long, Bosnia is going to be finally free after so many years and this time we will succeed!"
  
@@ -176,7 +166,7 @@
  IRQ_uranium_production_2_name:0 "Uranium Production"
  IRQ_uranium_production_2_name_desc:0 ""
  IRQ_iraqi_army_name:0 "Iraqi Army"
- IRQ_iraqi_army_name_desc:0 "After a series of mass military and technological advancements combined with careful planning, Iraqi Armed Forces have been mostly reorganized into a effective fighting force."
+ IRQ_iraqi_army_name_desc:0 ""
  IRQ_terratorial_expansion_idea_1_name:0 "Territorial Expansion"
  IRQ_terratorial_expansion_idea_1_name_desc:0 ""
  IRQ_terratorial_expansion_idea_2_name:0 "Territorial Expansion"
@@ -234,6 +224,6 @@
  ETH_soviet_idea_name:0 "Soviet Support"
  ETH_soviet_idea_name_desc:0 ""
  MON_communism_idea_name:0 "Fading Communism"
- MON_communism_idea_name_desc:0 "Despite being one of the first communist countries and the closest ally of the Soviet Union, communism in Mongolia has been fading away into obscurity. While the Communist Party still runs the country, the recent economic and societal changes indicate that even if communism stays in power, people wouldn't care. More and more, Mongolia turns to trade with China and its citizens turn to import of foreign clothes, music, magazines and everything else.\n\nSeems that communism has become nothing more than a meaningless label to just keep good relations with Moscow."
+ MON_communism_idea_name_desc:0 ""
  MON_split_idea_name:0 "Between Two Bears"
- MON_split_idea_name_desc:0 "Mongolia's geographic position has put it in the middle of the power struggle between two communist rivals. The hardline USSR and more reformist PRC. If we wish to keep our country stable and in peace, we must carefully balance the influences of these two giants that border us."
+ MON_split_idea_name_desc:0 ""

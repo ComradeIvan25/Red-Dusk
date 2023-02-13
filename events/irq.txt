@@ -608,18 +608,19 @@ country_event = {
 	picture = GFX_report_event_IRQ_saddam_election
 	
 	trigger = {
+		original_tag = IRQ
 		date > 2002.10.15
 	}
 	
 	fire_only_once = yes
 	
 	option = {
-		name = irq.29.a
+		name = irq.29.a # we are so damn popular !!!!!!!!!!!!!!!
 		add_political_power = 100
 		add_war_support = 0.05
-			set_political_party = {
+			add_popularity = {
 				ideology = fascism
-				popularity = 100
+				popularity = 0.4
 			}
 		hidden_effect = { #jk
 			set_political_party = {
@@ -635,6 +636,25 @@ country_event = {
 				popularity = 1
 			}
 		}
+	}
+}
+
+#centralization completed#
+country_event = {
+	id = irq.30
+	title = irq.30.t
+	desc = irq.30.d
+	picture = GFX_report_event_IRQ_saddam_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq.30.a
+		add_political_power = 150
+		add_stability = 0.50
+		add_to_variable = {irq_uar_stability_variable = 65}
+		custom_effect_tooltip = irq_stability_increased_by_65
+		
 	}
 }
 
@@ -869,6 +889,51 @@ country_event = {
 	
 	option = {
 		name = irq_kurdish.11.a
+	}
+}
+country_event = { # kurdish uprising
+	id = irq_kurdish.12
+	title = irq_kurdish.12.t
+	desc = irq_kurdish.12.d
+	picture = GFX_report_event_IRQ_kurdish_assassination_failure
+	
+	trigger = {
+	original_tag = IRQ
+		925 = {
+		resistance > 79
+		}
+	}	
+		
+		fire_only_once = yes
+		
+	option = {
+		name = irq_kurdish.12.a
+			if = {
+				limit = {
+					has_idea = IRQ_kurdish_rebels
+				}
+				remove_ideas = IRQ_kurdish_rebels
+			}
+			if = {
+				limit = {
+					has_idea = IRQ_kurdish_rebels_2
+				}
+				remove_ideas = IRQ_kurdish_rebels_2
+			}			
+			if = {
+				limit = {
+					has_idea = IRQ_kurdish_rebels_4
+				}
+				remove_ideas = IRQ_kurdish_rebels_4
+			}
+		KUR = {
+		transfer_state = 925
+		load_oob = "KUR_rebellion"
+		    declare_war_on = {
+                target = IRQ
+                type = annex_everything
+            }
+		}
 	}
 }
 

@@ -686,6 +686,9 @@
  irq.29.t:0 "2002 Presidential Referendum"
  irq.29.d:0 "With Saddam's 7 years term ending another election was organized to determine Iraq's future and Saddam's support in the Iraqi people.\n\nThe ballots had 2 options, one approving the renewal of Saddam's presidency and the other "rejecting" it. The voting centers were heavily guarded by soldiers to protect the democratic process from any sabotages.\n\nAs the ballots were finished getting count, it was clear that Saddan had won the election with every single eligable citizen of Iraq confidently voting for our great leader Saddam Huseein to rule another 7 years, renewing his term.\n\nWinning 100% of the vote shows us just how popular our current policies are with multiple people even signing the ballot with their own blood to show their loyalty to Saddam Huseein.\n\nMany celebrations broke out in the major cities congratulating Saddam's fair and accurate victory, patriotism was all-time high in the celebrations with crowds trampling over and burning Israeli & American Flags."
  irq.29.a:0 "Popularity Western "democracies" could only dream of."
+ irq.30.t:0 "Centralization Completed"
+ irq.30.d:0 "According to the recent reports the local governments across UAR have started to be more loyal to the central government, with an unified Arabic identity slowly forming as well.We can safely say that our centralization efforts that were envisioned when United Arab Republics were first declared has been offically reached"
+ irq.30.a:0 "Three cheers for Saddam!"
  
  irq_kurdish.1.t:0 "Talks with the Kurdistan Democratic Party fail"
  irq_kurdish.1.d:0 "Despite three months of constant talks and negotiations, we have failed to reach any agreement with the Kurdistan Democratic Party. Although we offered countless concessions and promises, the Kurdish negotiators seemed to almost purposefully demand conditions that are clearly unacceptable to us. It appears that any diplomatic solution to the Kurdish issue will be non-existent for some time."
@@ -720,6 +723,9 @@
  irq_kurdish.11.t:0 "Assassination attempt fails"
  irq_kurdish.11.d:0 "Despite the resources poured into the operation, our attempt at assassinating a prominent Kurdish official has failed. Details are currently sparse; perhaps one of our operatives was compromised, the bomb improperly placed, or just that the official decided to deviate from their regular schedule. What is certain is that they are still alive, and it will take several months if we wish to replicate the operation, hopefully successfully this time."
  irq_kurdish.11.a:0 "Bastards!"
+ irq_kurdish.12.t:0 "Kurdistan Rebels!"
+ irq_kurdish.12.d:0 "Despite the resources poured into the anti-resistance operations, our attempt at supressing the Kurdish Resistance has utterly failed. Barjani, today along with other Kurd groups has declared an independent Kurdistan state in the northern regions of Iraq."
+ irq_kurdish.12.a:0 "Bastards!"
 
  irq_kurdish_random.1.t:0 "Attack on our forces!"
  irq_kurdish_random.1.d:0 "We are receiving reports of minor combat on our border with the Kurdistan region. Taken by surprise, our soldiers have been scattered and sustained serious casualties. The attackers, believed to be a group of elite militants from the Kurdistan Democratic Party, have managed to strike and flee unharmed, utilising their small size and quick speed to disappear into the crowds of ordinary civilians."

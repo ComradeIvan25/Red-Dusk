@@ -19,7 +19,17 @@ IRQ_recalc_kurd_resistance_bar_frames = {
 IRQ_improve_the_economic_union_idea = {
 
 	if = {
-		limit = {NOT = {has_idea = IRQ_middle_east_economic_union_1}}
+		limit = {
+			NOT = {
+				has_idea = IRQ_middle_east_economic_union_1
+				has_idea = IRQ_middle_east_economic_union_2
+				has_idea = IRQ_middle_east_economic_union_3
+				has_idea = IRQ_middle_east_economic_union_4
+				has_idea = IRQ_middle_east_economic_union_5
+				has_idea = IRQ_middle_east_economic_union_6
+			
+			}
+		}
 		add_ideas = IRQ_middle_east_economic_union_1
 	}
 

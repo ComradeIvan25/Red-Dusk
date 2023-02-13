@@ -5,8 +5,8 @@
 	regiments = {
 		main_battle_tank_armor = { x = 0 y = 0 }
 		main_battle_tank_armor = { x = 0 y = 1 }
-		heavy_infantry_unit = { x = 2 y = 0 }
-		heavy_infantry_unit = { x = 2 y = 1 }
+		heavy_infantry_unit = { x = 1 y = 0 }
+		heavy_infantry_unit = { x = 1 y = 1 }
 
 	}
 	priority = 1
@@ -29,7 +29,7 @@ division_template = { # Infantry Division #
 		engineer = { x = 0 y = 0 }
 		military_police = { x = 0 y = 1 }
 	}
-	priority = 2
+	priority = 1
 }
 
 units = {

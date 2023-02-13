@@ -13,9 +13,27 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_technology = {
+	infantry_weapons_1960 = 1
+	infantry_weapons_1980 = 1	
+	mbt_tank_1960 = 1
+	towed_artillery_1960 = 1
+	towed_artillery_1980 = 1
+	ifv_tank_1970 = 1
+	tech_support = 1
+	support_weapons_1980 = 1
+	support_weapons_1990 = 1
+	support_weapons_1995 = 1
+	infantry_anti_tank_weapons_1960 = 1
+	infantry_anti_air_weapons_1960 = 1
+	infantry_anti_tank_weapons_1980 = 1
+	infantry_anti_air_weapons_1980 = 1	
+	
+}
+
 set_popularities = {
-	democratic = 47
-	fascism = 41
-	neutrality = 9
-	paternal_autocracy = 3
+	social_democracy = 40
+	fascism = 40
+	neutrality = 0
+	paternal_autocracy = 20
 }

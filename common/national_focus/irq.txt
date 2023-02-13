@@ -2130,9 +2130,7 @@ focus_tree = {
 		prerequisite = {focus = IRQ_death_to_israel}
 
 		bypass = {has_war = no}
-		
-		mutually_exclusive = { }
-		
+				
 		cost = 2
 		ai_will_do = {
 			factor = 100
@@ -2162,7 +2160,6 @@ focus_tree = {
 		prerequisite = {focus = IRQ_death_to_israel}
 
 		bypass = {has_war = no}
-		mutually_exclusive = { }
 		
 		cost = 2
 		ai_will_do = {
@@ -2192,7 +2189,6 @@ focus_tree = {
 		prerequisite = {focus = IRQ_sabotage_behind_enemy_lines}
 		prerequisite = {focus = IRQ_bomb_the_supply_lines}
 		available = {NOT = {country_exists = ISR}}
-		mutually_exclusive = { }
 		
 		cost = 1
 		ai_will_do = {
@@ -2842,6 +2838,12 @@ focus_tree = {
 			}
 			if = {
 				limit = {
+					has_idea = IRQ_kurdish_rebels_2
+				}
+				remove_ideas = IRQ_kurdish_rebels_2
+			}			
+			if = {
+				limit = {
 					has_idea = IRQ_kurdish_rebels_4
 				}
 				remove_ideas = IRQ_kurdish_rebels_4
@@ -2850,6 +2852,9 @@ focus_tree = {
 			set_country_flag = nothing
 			IRQ = {
 				country_event = { id = irq.5 }
+			}
+			925 = {
+				add_core_of = IRQ
 			}
 		}
 	}

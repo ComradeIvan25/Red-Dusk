@@ -103,6 +103,8 @@
  irq_stability_monthly_decreased_by_5:0 "Our Monthly §5Overall Stability§! §Rdecreases§! by §Y5%§!." 
  irq_stability_monthly_decreased_by_75:0 "Our Monthly §5Overall Stability§! §Rdecreases§! by §Y7.5%§!."
  
+ irq_stability_increased_by_65:0 "Our §5Overall Stability§! §Gincreases§! by §Y65%§!."
+ 
  IRQ_sanctions_done:0 "§YHas 'dealt' with our economic problems§!\n"
  IRQ_kurds_done:0 "§YHas dealt with the Kurdish rebels§!\n"
  IRQ_army_done:0 "§YHas dealt with our army problems§!\n"
@@ -168,6 +170,8 @@
  IRQ_tt_no_embargo_idea:0 "§YFree Trade will become available§!"
  IRQ_tt_exploit_internal_divisions:0 "§YDecisions to influence Kurdish factions will become available§!"
  IRQ_tt_exploit_internal_divisions_end:0 "§YDecisions to influence Kurdish factions will end§!"
+ 
+ irq_kurd_rebels_idea_tt:0 "§RIf the resistance reaches 80% Kurdistan will rebel.§!"
  
  #YUGOSLAVIA#
  

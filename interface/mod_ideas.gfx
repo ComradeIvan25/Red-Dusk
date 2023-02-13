@@ -241,7 +241,15 @@ spriteTypes = {
 		name = "GFX_idea_IRQ_fire_with_gun_icon"
 		texturefile = "gfx/interface/ideas/IRQ_fire_with_gun.png"
 	}	
-
+	spriteType = {
+		name = "GFX_idea_IRQ_MEEU_icon"
+		texturefile = "gfx/interface/ideas/IRQ_MEEU.png"
+	}	
+ 	spriteType = {
+		name = "GFX_idea_IRQ_modernized_edu_icon"
+		texturefile = "gfx/interface/ideas/IRQ_modernized_edu.png"
+	}	   
+	
 	#GENERIC MIDDLE EAST#
 
 	spriteType = {

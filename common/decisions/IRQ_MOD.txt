@@ -1,3 +1,219 @@
+irq_debug = {
+	
+	trigger_setup_greater_iraq = {
+	
+		icon = generic_prepare_civil_war
+	
+		allowed = {
+
+		}
+		available = {
+			is_debug = yes
+
+		}
+		visible = {
+			is_debug = yes
+		}
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			puppet = SYR
+			SYR = {
+							remove_ideas = ussr_aligned_nation
+							set_cosmetic_tag = SYR_occupation_zone_puppet
+							transfer_state = 554
+							transfer_state = 677
+							transfer_state = 680
+							transfer_state = 908
+							add_popularity = {
+								ideology = fascism
+								popularity = -0.45
+							}
+							set_politics = {
+								ruling_party = fascism
+								elections_allowed = no
+							}
+							add_country_leader_role = {
+								character = SYR_ali_al-majid
+								promote_leader = yes
+								country_leader = {
+									ideology = nationalist_military_junta
+									expire = "2050.1.1.1"
+									traits = { }
+								}
+							}
+			}
+			
+						IRQ = {
+							transfer_state = 413
+							transfer_state = 421
+							puppet = PER
+						}
+						
+						PER = {
+							set_cosmetic_tag = PER_iraq_puppet
+							add_popularity = {
+								ideology = fascism
+								popularity = -0.5
+							}
+							set_politics = {
+								ruling_party = fascism
+								elections_allowed = no
+							}
+							
+						}
+
+						annex_country = { target = KUW }
+						
+						
+			complete_national_focus = IRQ_new_era
+			complete_national_focus = IRQ_saddam_rule
+			complete_national_focus = IRQ_the_propaganda_machine
+			complete_national_focus = IRQ_dogs_of_the_west
+			complete_national_focus = IRQ_swords_of_iraq
+			complete_national_focus = IRQ_future_lies_in_the_military
+			complete_national_focus = IRQ_dreams_of_a_greater_iraq
+			complete_national_focus = IRQ_saddams_cult_of_personality
+			complete_national_focus = IRQ_army
+			complete_national_focus = IRQ_forbbiden_power
+			complete_national_focus = IRQ_atom
+			complete_national_focus = IRQ_uranium
+			complete_national_focus = IRQ_domestic
+			complete_national_focus = IRQ_restart
+			complete_national_focus = IRQ_wmd
+			complete_national_focus = IRQ_syria
+			complete_national_focus = IRQ_pan_iraq
+			complete_national_focus = IRQ_army_ready
+			complete_national_focus = IRQ_strike_syria
+			complete_national_focus = IRQ_kuwait
+			complete_national_focus = IRQ_america
+			complete_national_focus = IRQ_run_over
+			complete_national_focus = IRQ_saudi
+			complete_national_focus = IRQ_backing
+			complete_national_focus = IRQ_oil
+			complete_national_focus = IRQ_old_wounds
+			complete_national_focus = IRQ_ready1
+			complete_national_focus = IRQ_soviet_support
+			complete_national_focus = IRQ_the_plan
+			complete_national_focus = IRQ_88
+			complete_national_focus = IRQ_saddam_epic_win
+			complete_national_focus = IRQ_greater_iraq
+
+			
+		}	
+	}
+	
+	trigger_setup_uar = {
+	
+		icon = generic_prepare_civil_war
+	
+		allowed = {
+
+		}
+		available = {
+			is_debug = yes
+
+		}
+		visible = {
+			is_debug = yes
+		}
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			puppet = SYR
+			SYR = {
+							remove_ideas = ussr_aligned_nation
+							set_cosmetic_tag = SYR_occupation_zone_puppet
+							transfer_state = 554
+							transfer_state = 677
+							transfer_state = 680
+							transfer_state = 908
+							add_popularity = {
+								ideology = fascism
+								popularity = -0.45
+							}
+							set_politics = {
+								ruling_party = fascism
+								elections_allowed = no
+							}
+							add_country_leader_role = {
+								character = SYR_ali_al-majid
+								promote_leader = yes
+								country_leader = {
+									ideology = nationalist_military_junta
+									expire = "2050.1.1.1"
+									traits = { }
+								}
+							}
+			}
+			
+						IRQ = {
+							transfer_state = 413
+							transfer_state = 421
+							puppet = PER
+						}
+						
+						PER = {
+							set_cosmetic_tag = PER_iraq_puppet
+							add_popularity = {
+								ideology = fascism
+								popularity = -0.5
+							}
+							set_politics = {
+								ruling_party = fascism
+								elections_allowed = no
+							}
+							
+						}
+
+						annex_country = { target = KUW }
+						
+						
+			complete_national_focus = IRQ_new_era
+			complete_national_focus = IRQ_saddam_rule
+			complete_national_focus = IRQ_the_propaganda_machine
+			complete_national_focus = IRQ_dogs_of_the_west
+			complete_national_focus = IRQ_swords_of_iraq
+			complete_national_focus = IRQ_future_lies_in_the_military
+			complete_national_focus = IRQ_dreams_of_a_united_arab_nation
+			complete_national_focus = IRQ_saddams_cult_of_personality
+			complete_national_focus = IRQ_army
+			complete_national_focus = IRQ_forbbiden_power
+			complete_national_focus = IRQ_atom
+			complete_national_focus = IRQ_uranium
+			complete_national_focus = IRQ_domestic
+			complete_national_focus = IRQ_restart
+			complete_national_focus = IRQ_wmd
+			complete_national_focus = IRQ_syria
+			complete_national_focus = IRQ_pan_iraq
+			complete_national_focus = IRQ_army_ready
+			complete_national_focus = IRQ_strike_syria
+			complete_national_focus = IRQ_kuwait
+			complete_national_focus = IRQ_america
+			complete_national_focus = IRQ_run_over
+			complete_national_focus = IRQ_saudi
+			complete_national_focus = IRQ_backing
+			complete_national_focus = IRQ_oil
+			complete_national_focus = IRQ_old_wounds
+			complete_national_focus = IRQ_ready1
+			complete_national_focus = IRQ_soviet_support
+			complete_national_focus = IRQ_the_plan
+			complete_national_focus = IRQ_88
+			complete_national_focus = IRQ_saddam_epic_win
+			complete_national_focus = IRQ_proclaim_uar
+
+			
+		}	
+	}
+
+}
+
 irq_deal_with_kurds = {
 	
 	irq_kur_resistance_increase = {
@@ -948,6 +1164,50 @@ irq_category_propaganda_machine = {
 		}
 	}
 	
+	IRQ_propaganda_decrease_propaganda_resources = {
+
+		icon = GFX_decision_hol_attract_foreign_investors
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			IRQ = {
+			has_completed_focus = IRQ_the_propaganda_machine
+			}
+			NOT = {has_country_flag = irq_running_propaganda}
+		}
+		visible = {
+			original_tag = IRQ
+		}
+		days_remove = 50
+		modifier {
+			political_power_cost = 0.75
+		}
+		cost = propaganda_decision_cost_var
+		fire_only_once = no
+		ai_will_do = {
+			factor = 10
+		}
+		days_re_enable = 50
+		
+		complete_effect = {
+			set_country_flag = irq_running_propaganda
+		}
+		
+		remove_effect = { 
+		add_to_variable = { irq_propaganda_effect_political_var = -0.050}
+		custom_effect_tooltip = irq_propaganda_political_nerfed_by_5_per
+		add_to_variable = { irq_propaganda_effect_costs_var = 0.050}
+		custom_effect_tooltip = irq_propaganda_factory_output_costs_decrease_by_5_per
+		add_to_variable = { irq_propaganda_effect_costs_consumer_goods_var = -0.050}
+		custom_effect_tooltip = irq_propaganda_consumer_good_costs_decrease_by_5_per
+		
+		clr_country_flag = irq_running_propaganda
+		}
+	}
+	
 	IRQ_propaganda_dogs_of_the_west = {
 
 		icon = GFX_decision_burning_flag
@@ -1356,7 +1616,7 @@ irq_category_new_pan_arabism = {
 			original_tag = IRQ
 			has_country_flag = irq_new_pan_arabism
 		}
-		days_remove = 140
+		days_remove = 165
 		modifier {
 			political_power_cost = 0.50
 			research_speed_factor = -0.25
@@ -1369,6 +1629,8 @@ irq_category_new_pan_arabism = {
 		}
 		remove_effect = { 
 			add_ideas = IRQ_modernized_education
+			add_research_slot = 1
+
 		}
 	}	
 
@@ -1513,7 +1775,7 @@ irq_category_new_pan_arabism = {
 		}
 		
 		cost = 150
-		fire_only_once = yes
+		fire_only_once = no
 		ai_will_do = {
 			factor = 1
 		}
@@ -1565,7 +1827,7 @@ irq_category_new_pan_arabism = {
 		}
 		
 		cost = 25
-		fire_only_once = yes
+		fire_only_once = no
 		ai_will_do = {
 			factor = 1
 		}
@@ -1598,7 +1860,7 @@ irq_category_new_pan_arabism = {
 		}
 		
 		cost = 25
-		fire_only_once = yes
+		fire_only_once = no
 		ai_will_do = {
 			factor = 1
 		}
@@ -1609,6 +1871,108 @@ irq_category_new_pan_arabism = {
 			}
 		}
 	}
+	
+	IRQ_invest_in_jordan = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_new_pan_arabism
+			IRQ = {has_completed_focus = IRQ_middle_east_economic_union}
+			JOR = {is_puppet_of = IRQ}
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_new_pan_arabism
+		}
+		days_remove = 35
+		modifier {
+		}
+		
+		cost = 25
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			IRQ_improve_the_economic_union_idea = yes			
+			JOR = {
+				IRQ_improve_the_economic_union_idea = yes		
+			}
+		}
+	}
+	
+	IRQ_invest_in_lebanon = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_new_pan_arabism
+			IRQ = {has_completed_focus = IRQ_middle_east_economic_union}
+			LEB = {is_puppet_of = IRQ}
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_new_pan_arabism
+		}
+		days_remove = 35
+		modifier {
+		}
+		
+		cost = 25
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			IRQ_improve_the_economic_union_idea = yes			
+			LEB = {
+				IRQ_improve_the_economic_union_idea = yes		
+			}
+		}
+	}	
+	
+	IRQ_invest_in_palestine = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_new_pan_arabism
+			IRQ = {has_completed_focus = IRQ_middle_east_economic_union}
+			PAL = {is_puppet_of = IRQ}
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_new_pan_arabism
+		}
+		days_remove = 35
+		modifier {
+		}
+		
+		cost = 25
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			IRQ_improve_the_economic_union_idea = yes			
+			PAL = {
+				IRQ_improve_the_economic_union_idea = yes		
+			}
+		}
+	}	
 	
 	IRQ_integrate_kuwait = {
 
@@ -1916,6 +2280,13 @@ irq_category_a_new_state = {
 				check_variable = {irq_uar_stability_variable < 36}
 				}
 				country_event = {id = irq.20}
+			}
+			
+			if = {
+				limit = {
+				check_variable = {irq_centralization_progress_variable > 99}
+				}
+				country_event = {id = irq.30}
 			}
 		}
 	}

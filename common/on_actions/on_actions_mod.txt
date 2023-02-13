@@ -1651,6 +1651,26 @@ on_actions = {
 						}
 					}
 					
+					## IRAQ VS KURDISTAN - IRAQ WINS OVER KURDISTAN ##
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = IRQ
+							}
+							ROOT = {
+								original_tag = KUR
+							}
+						}
+						
+						IRQ = {
+							white_peace = ROOT
+							annex_country = { target = KUR }						
+						}
+					
+						
+						
+					}
+										
 					### USSR WARS ###
 					
 					### USSR VS ESTONIA - USSR WINS ###
@@ -3846,7 +3866,7 @@ on_actions = {
 						}
 
 						COG = {
-							white_peace = ROOT
+							white_peace = RGO
 						}
 	
 						COG = {

@@ -181,6 +181,7 @@ ideas = {
 				resistance_growth = 0.3
 				resistance_target = 0.3
 				resistance_damage_to_garrison = 0.2
+				custom_modifier_tooltip = irq_kurd_rebels_idea_tt
 			}
 		}
 
@@ -200,6 +201,7 @@ ideas = {
 				resistance_growth = 0.2
 				resistance_target = 0.25
 				resistance_damage_to_garrison = 0.1
+				custom_modifier_tooltip = irq_kurd_rebels_idea_tt				
 			}
 		}
 
@@ -235,6 +237,7 @@ ideas = {
 			modifier = {
 				political_power_cost = 0.7
 				resistance_target = 0.15
+				custom_modifier_tooltip = irq_kurd_rebels_idea_tt				
 			}
 		}
 		
@@ -1352,7 +1355,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = IRQ_desert_camouflage_idea_icon
+			picture = IRQ_MEEU_icon
 
 			allowed = {
 				always = no
@@ -1369,7 +1372,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = IRQ_desert_camouflage_idea_icon
+			picture = IRQ_MEEU_icon
 
 			allowed = {
 				always = no
@@ -1386,7 +1389,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = IRQ_desert_camouflage_idea_icon
+			picture = IRQ_MEEU_icon
 
 			allowed = {
 				always = no
@@ -1403,7 +1406,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = IRQ_desert_camouflage_idea_icon
+			picture = IRQ_MEEU_icon
 
 			allowed = {
 				always = no
@@ -1421,7 +1424,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = IRQ_desert_camouflage_idea_icon
+			picture = IRQ_MEEU_icon
 
 			allowed = {
 				always = no
@@ -1439,7 +1442,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = IRQ_desert_camouflage_idea_icon
+			picture = IRQ_MEEU_icon
 
 			allowed = {
 				always = no
@@ -1457,7 +1460,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = IRQ_desert_camouflage_idea_icon
+			picture = IRQ_modernized_edu_icon
 
 			allowed = {
 				always = no

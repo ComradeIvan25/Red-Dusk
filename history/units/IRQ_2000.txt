@@ -542,7 +542,139 @@ units = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
+			type = infantry_weapons_2
+			creator = "IRQ"
+		}
+		requested_factories = 1
+		progress = 0.21
+		efficiency = 17
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_anti_tank_weapons_1
+			creator = "IRQ"
+		}
+		requested_factories = 1
+		progress = 0.21
+		efficiency = 17
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_anti_air_weapons_1
+			creator = "IRQ"
+		}
+		requested_factories = 1
+		progress = 0.21
+		efficiency = 17
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "IRQ"
+		}
+		requested_factories = 1
+		progress = 0.21
+		efficiency = 17
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = towed_artillery_equipment_1
+			creator = "IRQ"
+		}
+		requested_factories = 1
+		progress = 0.21
+		efficiency = 17
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = motorised_artillery_equipment_1
+			creator = "IRQ"
+		}
+		requested_factories = 1
+		progress = 0.21
+		efficiency = 17
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
 			type = rocket_artillery_equipment_4
+			creator = "IRQ"
+		}
+		requested_factories = 1
+		progress = 0.21
+		efficiency = 17
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = motorised_equipment_1
+			creator = "IRQ"
+		}
+		requested_factories = 1
+		progress = 0.21
+		efficiency = 17
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = mbt_tank_equipment_3
+			creator = "IRQ"
+		}
+		requested_factories = 1
+		progress = 0.21
+		efficiency = 17
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ifv_tank_equipment_0
+			creator = "IRQ"
+		}
+		requested_factories = 1
+		progress = 0.21
+		efficiency = 17
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = apc_tank_equipment_1
+			creator = "IRQ"
+		}
+		requested_factories = 1
+		progress = 0.21
+		efficiency = 17
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = recon_vehicle_equipment_0
+			creator = "IRQ"
+		}
+		requested_factories = 1
+		progress = 0.21
+		efficiency = 17
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = spaa_tank_equipment_0
 			creator = "IRQ"
 		}
 		requested_factories = 1

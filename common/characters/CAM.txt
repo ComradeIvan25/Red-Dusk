@@ -59,5 +59,22 @@ characters = {
 			legacy_id=-1
 		}
 	}
+	CAM_Ke_Kim_Yan = {
+		name = "Ke Kim Yan"
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAM/Ke_Kim_Yan.png"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
 
 }

@@ -641,5 +641,9 @@ spriteTypes = {
 		name = "GFX_news_millennium_summit"
 		texturefile = "gfx/event_pictures/news_millennium_summit.png"
 	}
+	spriteType = {
+		name = "GFX_news_khmer_rouge_die"
+		texturefile = "gfx/event_pictures/news_Khmer_rouge_surrender.png"
+	}
 	
 }

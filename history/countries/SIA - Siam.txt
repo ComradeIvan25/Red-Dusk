@@ -49,6 +49,8 @@ recruit_character = SIA_chuan_leekpai
 recruit_character = SIA_Surayud_Chulanont 
 recruit_character = SIA_Sonthi_Boonyaratglin
 recruit_character = SIA_Songkitti_Jaggabatara
+recruit_character = SIA_Saprang_Kalayanamitr
+recruit_character = SIA_Chaiyasit_Shinawatra 
 
 add_ideas = SIA_asean
 add_ideas = SIA_rama_IX

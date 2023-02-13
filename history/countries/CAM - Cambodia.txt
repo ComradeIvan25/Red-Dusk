@@ -32,6 +32,7 @@ recruit_character = CAM_Chea_Sim
 recruit_character = CAM_Hun_Sen
 recruit_character = CAM_Tea_Banh
 recruit_character = CAM_Norodom_Ranariddh
+recruit_character = CAM_Ke_Kim_Yan
 
 set_politics = {
 	ruling_party = communism
@@ -49,4 +50,9 @@ set_popularities = {
 
 add_ideas = {
 	limited_conscription
+}
+
+country_event = {
+id = cambodia.1
+days = 102
 }

@@ -1096,6 +1096,23 @@ news_event = {
 	}
 	
 }
+
+#Khmer Rouge Surrender
+news_event = {
+	id = old_times_news.73
+	title = old_times_news.73.t
+	desc = old_times_news.73.d
+	picture = GFX_news_khmer_rouge_die
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.73.a
+	}
+	
+}
 ### FLAVOUR NEWS EVENTS ###
 
 ## Concorde Trigger (HIDDEN) ##

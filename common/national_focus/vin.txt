@@ -705,7 +705,7 @@ focus_tree = {
 	#Focus on light industries
 	focus = {
 		id = VIN_Focus_on_light_industries_first
-		icon = VIN_greatest_generation
+		icon = GFX_VIN_focus_light_industry
 		x = 6
 		y = 11
 		cost = 3
@@ -870,7 +870,7 @@ focus_tree = {
 	#ASEAN things
 	focus = {
 		id = VIN_appoarch_ASEAN_countries
-		icon = VIN_greatest_generation
+		icon = GFX_VIN_focus_ASEAN
 		x = 12
 		y = 10
 		cost = 3

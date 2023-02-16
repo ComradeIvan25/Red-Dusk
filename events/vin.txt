@@ -383,5 +383,50 @@ country_event = {
 	
 	option = {
 		name = vin.19.a
+		hidden_effect = {
+		VIN = {
+				country_event = { id = vin.20 days = 30 }
+			}
+      }
+    }
+}
+
+#Election 2
+country_event = {
+	id = vin.20
+	title = vin.20.t
+	desc = vin.20.d
+	picture = GFX_report_event_2002_election_result
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vin.20.a
+		hidden_effect = {
+		VIN = {
+				country_event = { id = vin.21 days = 5 }
+			}
+		
+    }
+	add_popularity = {
+			ideology = liberalism 
+			popularity = 0.03
+		}
+	ai_chance = { base = 20 }
+	}
+	
+	option = {
+		name = vin.20.b
+		hidden_effect = {
+		VIN = {
+				country_event = { id = vin.21 days = 5 }
+			}
+		
+    }
+	add_popularity = {
+			ideology = reformed_communism
+			popularity = 0.03
+		}
+	ai_chance = { base = 80 }
     }
 }

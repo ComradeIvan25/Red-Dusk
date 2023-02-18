@@ -3706,10 +3706,8 @@ on_actions = {
 								civilian = { large ="gfx/leaders/Africa/ETV_collective_leadership_win.dds" }
 							}
 							
-						}
-						
-						PRC = {
-						proxy_war_won_by_PRC = yes
+							replace_alignment_to_PRC = yes
+							
 						}
 						
 					}

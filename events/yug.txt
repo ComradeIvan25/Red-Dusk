@@ -311,6 +311,7 @@ country_event = {
 	name = yug.6.a
 			retire_country_leader = yes
 			promote_character = YUG_stambolic
+			load_focus_tree = yug_stambolic_communist_focus
 			add_popularity = {
 				ideology = reformed_communism
 				popularity = -1.0

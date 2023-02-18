@@ -975,13 +975,28 @@
  YUG_tito_honour:0 "Honor the Marshal"
  YUG_tito_honour_desc:0""
  
- ##MILOSEVIC SURVIVES#
- YUG_president_survives:0 "President Survives"
- YUG_president_survives_desc:0 ""
- YUG_increase_security:0 "Incrase Security"
- YUG_increase_security_desc:0 ""
- YUG_emergency_broadcast:0 "Emergency Broadcast"
- YUG_emergency_broadcast_desc:0 ""
+ ##COMMUNIST STAMBOLIC##
+
+ YUG_stambolic_end_of_milosevic:0 "End of Milosevic"
+ YUG_stambolic_end_of_milosevic_desc:0 ""
+ YUG_stambolic_dealing_with_the_loyalists:0 "Dealing With the Loyalists"
+ YUG_stambolic_dealing_with_the_loyalists_desc:0 ""
+ YUG_stambolic_reform_sbd:0 "Reform the SBD"
+ YUG_stambolic_reform_sbd_desc:0 ""
+ YUG_stambolic_department_of_anti_corruption:0 "Department of Anti-Corruption"
+ YUG_stambolic_department_of_anti_corruption_desc:0 ""
+ YUG_stambolic_crackdown_on_nationalism:0 "Renewed Crackdown on Nationalism"
+ YUG_stambolic_crackdown_on_nationalism_desc:0 ""
+ YUG_stambolic_honour_tito_legacy:0 "Honour Tito's Legacy"
+ YUG_stambolic_honour_tito_legacy_desc:0 ""
+ YUG_stambolic_calm_down_seperatist_sentiments:0 "Calm Down Separatist Sentiments"
+ YUG_stambolic_calm_down_seperatist_sentiments_desc:0 ""
+ YUG_stambolic_brotherhood_and_unity_first_and_foremost:0 "Brotherhood and Unity, First and Foremost"
+ YUG_stambolic_brotherhood_and_unity_first_and_foremost_desc:0 ""
+ YUG_stambolic_secure_the_army:0 "Secure the Army"
+ YUG_stambolic_secure_the_army_desc:0 ""
+ YUG_stambolic_a_new_yugoslavia:0 "A New Day in A New Yugoslavia"
+ YUG_stambolic_a_new_yugoslavia_desc:0 ""
  
  ##COMMUNIST MILOSEVIC##
  

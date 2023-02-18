@@ -1,0 +1,258 @@
+focus_tree = {
+	id = yug_stambolic_communist_focus
+	country = {
+		factor = 0
+		#modifier = {
+		#add = 999
+		#tag = YUG
+		#}
+	}
+	
+	
+	default = no
+	focus = {
+		id = YUG_stambolic_end_of_milosevic
+		icon = GFX_focus_YUG_tito_honour
+		x = 5
+		y = 0
+
+		prerequisite = {}
+		mutually_exclusive = { }
+		
+		cost = 4.29
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 25
+			add_stability = -0.05
+
+		}
+	}
+	focus = {
+		id = YUG_stambolic_dealing_with_the_loyalists
+		icon = GFX_focus_IRQ_debt
+		x = -2
+		y = 1
+
+		prerequisite = {focus = YUG_stambolic_end_of_milosevic}
+		mutually_exclusive = { }
+                relative_position_id = YUG_stambolic_end_of_milosevic
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = -30
+		}
+	}
+
+	focus = {
+		id = YUG_stambolic_reform_sbd
+		icon = GFX_focus_SOV_reform_or_die
+		x = -1
+		y = 1
+
+		prerequisite = {focus = YUG_stambolic_dealing_with_the_loyalists}
+		mutually_exclusive = { }
+                relative_position_id = YUG_stambolic_dealing_with_the_loyalists
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = -30
+		}
+	}
+	
+	focus = {
+		id = YUG_stambolic_department_of_anti_corruption
+		icon = GFX_SOV_focus_promise_local_govern
+		x = 1
+		y = 1
+
+		prerequisite = {focus = YUG_stambolic_dealing_with_the_loyalists}
+		mutually_exclusive = { }
+                relative_position_id = YUG_stambolic_dealing_with_the_loyalists
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = -30
+		}
+	}
+
+	focus = {
+		id = YUG_stambolic_crackdown_on_nationalism
+		icon = GFX_focus_SOV_commissar
+		x = 0
+		y = 2
+
+		prerequisite = {focus = YUG_stambolic_department_of_anti_corruption}
+		prerequisite = {focus = YUG_stambolic_reform_sbd}
+		mutually_exclusive = { }
+                relative_position_id = YUG_stambolic_dealing_with_the_loyalists
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = -30
+		}
+	}
+
+
+	focus = {
+		id = YUG_stambolic_honour_tito_legacy
+		icon = GFX_focus_YUG_tito
+		x = 2
+		y = 1
+
+		prerequisite = {focus = YUG_stambolic_end_of_milosevic}
+		mutually_exclusive = { }
+                relative_position_id = YUG_stambolic_end_of_milosevic
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = -5
+		}
+	}
+	
+	
+	focus = {
+		id = YUG_stambolic_calm_down_seperatist_sentiments
+		icon = GFX_focus_SOV_rising_dissidence
+		x = 2
+		y = 2
+
+		prerequisite = {focus = YUG_stambolic_honour_tito_legacy}
+		mutually_exclusive = { }
+                relative_position_id = YUG_stambolic_end_of_milosevic
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = -5
+		}
+	}
+	
+	focus = {
+		id = YUG_stambolic_brotherhood_and_unity_first_and_foremost
+		icon = GFX_focus_SOV_an_offer_they_cannot_refuse
+		x = 2
+		y = 3
+
+		prerequisite = {focus = YUG_stambolic_calm_down_seperatist_sentiments}
+		mutually_exclusive = { }
+                relative_position_id = YUG_stambolic_end_of_milosevic
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = -5
+		}
+	}
+	
+	focus = {
+		id = YUG_stambolic_secure_the_army
+		icon = GFX_focus_IRQ_army_ready2
+		x = 0
+		y = 4
+
+		prerequisite = {focus = YUG_stambolic_brotherhood_and_unity_first_and_foremost}
+		prerequisite = {focus = YUG_stambolic_crackdown_on_nationalism}
+		
+		mutually_exclusive = { }
+                relative_position_id = YUG_stambolic_end_of_milosevic
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = -5
+		}
+	}
+	
+	focus = {
+		id = YUG_stambolic_a_new_yugoslavia
+		icon = GFX_focus_SOV_old_enemy_in_Yugo
+		x = 0
+		y = 5
+
+		prerequisite = {focus = YUG_stambolic_secure_the_army}
+		
+		mutually_exclusive = { }
+                relative_position_id = YUG_stambolic_end_of_milosevic
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = -5
+		}
+	}
+}

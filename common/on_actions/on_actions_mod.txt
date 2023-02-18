@@ -3187,7 +3187,6 @@ on_actions = {
 								communism = 50
 							}
 						}
-						
 						ROOT = {
 						add_ideas = ussr_aligned_nation
 							if = {
@@ -3208,6 +3207,32 @@ on_actions = {
 
 							}
 						}
+						
+					}
+					
+					### USSR VS USA - USSR WINS ###
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = SOV
+							}
+							ROOT = {
+								original_tag = USA
+							}
+						}
+
+						SOV = {
+							white_peace = ROOT
+						}
+
+						SOV = {
+							puppet = USA
+						}
+						
+						USA = {
+						set_cosmetic_tag = USA_com_puppet
+						}
+						
 						
 					}
 					

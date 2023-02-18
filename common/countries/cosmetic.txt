@@ -118,6 +118,11 @@ ICE_com_puppet = {
 	color = rgb { 183 45 45 }
 	color_ui = rgb { 183 45 45 }
 }
+USA_com_puppet = {
+	color = rgb { 151 0 25 }
+	color_ui = rgb { 141 0 25 }
+}
+
 LIT_com_puppet = {
 	color = rgb { 182 13 24 }
 	color_ui = rgb { 163 17 31 }

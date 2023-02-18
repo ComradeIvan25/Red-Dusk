@@ -70,6 +70,9 @@
  TAJ_com_puppet:0 "Tajik SSR"
  TAJ_com_puppet_DEF:0 "Tajik Soviet Socialist Republic"
  
+ USA_com_puppet:0 "Socialist States of America"
+ USA_com_puppet_DEF:0 "The Socialist States of America"
+ 
  TAM_won:0 "Tamil Eelam"
  TAM_won_ADJ:0 "Tamil"
  

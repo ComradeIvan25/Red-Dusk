@@ -1837,6 +1837,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/VIN/VIN_asean.png"
 	}
 	SpriteType = {
+		name = "GFX_VIN_focus_art_of_diplo"
+		texturefile = "gfx/interface/goals/VIN/VIN_art_of_diplo.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_2002_election"
+		texturefile = "gfx/interface/goals/VIN/VIN_election.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_national_congress"
+		texturefile = "gfx/interface/goals/VIN/VIN_national_congress.png"
+	}
+	SpriteType = {
 		name = "VIN_army_modernization"
 		texturefile = "gfx/interface/goals/VIN/VIN_army_modernization.png"
 	}

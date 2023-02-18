@@ -36,10 +36,11 @@ division_template = { # Infantry Division #
 		infantry_unit = { x = 0 y = 2 }
 		infantry_unit = { x = 0 y = 3 }
 		infantry_unit = { x = 0 y = 4 }
-		towed_artillery_unit = { x = 1 y = 0 }
-		towed_artillery_unit = { x = 1 y = 1 }
+		infantry_unit = { x = 1 y = 0 }
+		infantry_unit = { x = 1 y = 1 }
 		infantry_unit = { x = 1 y = 2 }
 		infantry_unit = { x = 1 y = 3 }
+                towed_artillery_unit = { x = 2 y = 0 }
 	}
 	support = {
 		towed_artillery_support_unit = { x = 0 y = 0 }
@@ -577,7 +578,7 @@ instant_effect = {
 	# Stockpile #
         add_equipment_to_stockpile = {
 		type = infantry_weapons_1
-		amount = 20000
+		amount = 25000
 		producer = SOV
 	}
         add_equipment_to_stockpile = {

@@ -135,11 +135,6 @@ focus_tree = {
 		cost = 3
           prerequisite = { focus = VIN_status_of_the_economy }
 		completion_reward = {
-		add_tech_bonus = {
-			bonus = 0.5
-			uses = 1
-			category = industry
-       }
 	   add_stability = 0.04
 	   swap_ideas = {
 	   remove_idea = VIN_corruption_1
@@ -747,7 +742,7 @@ focus_tree = {
 	#The Art of Diplomacy
 	focus = {
 		id = VIN_art_of_diplomacy
-		icon = VIN_greatest_generation
+		icon = GFX_VIN_focus_art_of_diplo
 		x = 11
 		y = 8
 		cost = 3
@@ -931,7 +926,7 @@ focus_tree = {
 	#2002 ELection
 	focus = {
 		id = VIN_2002_election
-		icon = VIN_greatest_generation
+		icon = GFX_VIN_focus_2002_election
 		x = 7
 		y = 12
 		cost = 3
@@ -945,6 +940,491 @@ focus_tree = {
 		country_event = vin.19 
      }
 	}
+	#11th National Assembly
+	focus = {
+		id = VIN_national_assembly_meeting
+		icon = GFX_VIN_focus_national_congress
+		x = 7
+		y = 13
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		available = {
+			always = no
+		}
+		prerequisite = { focus = VIN_2002_election }
+		completion_reward = {
+		
+     }
+	}
+	#7th 5 year plan
+	focus = {
+		id = VIN_7th_5_year_plan
+		icon = GFX_VIN_focus_national_congress
+		x = 2
+		y = 14
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_national_assembly_meeting }
+		completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = industry
+       }
+     }
+	}
+	
+	#Resources
+	focus = {
+		id = VIN_golden_forest_silver_sea
+		icon = GFX_VIN_focus_national_congress
+		x = 6
+		y = 15
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_7th_5_year_plan }
+		completion_reward = {
+		set_technology = {
+    tech_basic_resource_extraction  = 1
+      }
+     }
+	}
+	#Land Resources
+	focus = {
+		id = VIN_land_resources
+		icon = GFX_VIN_focus_national_congress
+		x = 4
+		y = 16
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_golden_forest_silver_sea }
+		mutually_exclusive = { focus = VIN_eye_on_east_sea }
+		completion_reward = {
+		
+     }
+	}
+
+	#Rubber
+	focus = {
+		id = VIN_rubber
+		icon = GFX_VIN_focus_national_congress
+		x = 3
+		y = 17
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_land_resources }
+		completion_reward = {
+		286 = {
+				add_resource = {
+					type = rubber
+					amount = 20
+				}
+			}
+     }
+	}
+	#Tungsten
+	focus = {
+		id = VIN_tungsten
+		icon = GFX_VIN_focus_national_congress
+		x = 5
+		y = 17
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_land_resources }
+		completion_reward = {
+		916 = {
+				add_resource = {
+					type = tungsten
+					amount = 8
+				}
+			}
+     }
+	}
+	#Steel
+	focus = {
+		id = VIN_steel
+		icon = GFX_VIN_focus_national_congress
+		x = 4
+		y = 18
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_tungsten }
+		prerequisite = { focus = VIN_rubber }
+		completion_reward = {
+		916 = {
+				add_resource = {
+					type = steel
+					amount = 10
+				}
+			}
+		create_import = {
+				resource = steel
+				amount = 5
+				exporter = SOV
+			}
+     }
+	}
+	#Oil
+	focus = {
+		id = VIN_eye_on_east_sea
+		icon = GFX_VIN_focus_national_congress
+		x = 8
+		y = 16
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_golden_forest_silver_sea }
+		mutually_exclusive = { focus = VIN_land_resources }
+		completion_reward = {
+		
+     }
+	}
+	#Oil with Soviet
+	focus = {
+		id = VIN_oil_with_Soviet
+		icon = GFX_VIN_focus_national_congress
+		x = 7
+		y = 17
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_eye_on_east_sea }
+		completion_reward = {
+		907 = {
+				add_resource = {
+					type = oil
+					amount = 30
+				}
+			}
+		SOV = {
+		create_import = {
+				resource = oil
+				amount = 10
+				exporter = VIN
+			}
+		}
+		
+     }
+	}
+	#Build more synthetic
+	focus = {
+		id = VIN_synthetic
+		icon = GFX_VIN_focus_national_congress
+		x = 9
+		y = 17
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_eye_on_east_sea }
+		completion_reward = {
+		 916 = { 
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+	type = synthetic_refinery
+	level = 1
+	instant_build = yes
+		}
+	   }
+     }
+	}
+	#Increase Oil Reserve
+	focus = {
+		id = VIN_oil_reserve
+		icon = GFX_VIN_focus_national_congress
+		x = 8
+		y = 18
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_synthetic }
+		prerequisite = { focus = VIN_oil_with_Soviet }
+		completion_reward = {
+		 671 = { 
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+	type = fuel_silo
+	level = 1
+	instant_build = yes
+		}
+	   }
+	   add_fuel = 400000
+     }
+     }
+	#Invest North
+	focus = {
+		id = VIN_invest_north
+		icon = GFX_VIN_focus_national_congress
+		x = -4
+		y = 15
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_7th_5_year_plan }
+		mutually_exclusive = { focus = VIN_invest_south }
+		completion_reward = {
+		
+     }
+	}
+	#Hai Phong Port
+	focus = {
+		id = VIN_Hai_Phong_port
+		icon = GFX_VIN_focus_national_congress
+		x = -4
+		y = 16
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_invest_north }
+		completion_reward = {
+		
+     }
+	}
+	#Invest South
+	focus = {
+		id = VIN_invest_south
+		icon = GFX_VIN_focus_national_congress
+		x = 0
+		y = 15
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_7th_5_year_plan }
+		mutually_exclusive = { focus = VIN_invest_north }
+		completion_reward = {
+		
+     }
+	    
+	}
+	#Sai Gon Port
+	focus = {
+		id = VIN_Sai_Gon_port
+		icon = GFX_VIN_focus_national_congress
+		x = 0
+		y = 16
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_invest_south }
+		completion_reward = {
+		
+     }
+	}
+	#Railway transportation
+	focus = {
+		id = VIN_rail_way
+		icon = GFX_VIN_focus_national_congress
+		x = -2
+		y = 17
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_Hai_Phong_port  focus = VIN_Sai_Gon_port }
+		completion_reward = {
+		build_railway = {
+					level = 3
+					build_only_on_allied = yes
+					controller_priority = {
+						base = 1
+
+					}
+					fallback = yes
+					path = { 4075 1185 11936 10016 4397 12297 7280 1302 4379 10309 10137 4255 1300 4334 4405 10162 1285 12204 10232 12232 4401}
+					start_province = 4057
+					target_province = 4401
+				}
+		
+     }
+	}
+	#Defense Industry
+	focus = {
+		id = VIN_defense_industry
+		icon = GFX_VIN_focus_national_congress
+		x = -2
+		y = 18
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_rail_way }
+		completion_reward = {
+		
+     }
+	}
+	#For A Socialist Society
+	focus = {
+		id = VIN_socialist_society
+		icon = GFX_VIN_focus_national_congress
+		x = 15
+		y = 14
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_national_assembly_meeting }
+		completion_reward = {
+		
+     }
+	}
+	#Social Protection
+	focus = {
+		id = VIN_social_protection_program
+		icon = GFX_VIN_focus_national_congress
+		x = 15
+		y = 15
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_socialist_society }
+		completion_reward = {
+		
+     }
+	}
+	#The Fight Against Poverty
+	focus = {
+		id = VIN_fight_poverty
+		icon = GFX_VIN_focus_national_congress
+		x = 13
+		y = 16
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_social_protection_program }
+		completion_reward = {
+		
+     }
+	 }
+	#Programme 135
+	focus = {
+		id = VIN_Programme_135
+		icon = GFX_VIN_focus_national_congress
+		x = 12
+		y = 17
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_fight_poverty }
+		completion_reward = {
+		
+     }
+	 }
+	 #Job security for workers
+	focus = {
+		id = VIN_job_security
+		icon = GFX_VIN_focus_national_congress
+		x = 14
+		y = 17
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_fight_poverty }
+		completion_reward = {
+		
+     }
+	 }
+	#Salary reform
+	focus = {
+		id = VIN_salary_reform
+		icon = GFX_VIN_focus_national_congress
+		x = 13
+		y = 18
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_job_security }
+		prerequisite = { focus = VIN_Programme_135 }
+		completion_reward = {
+		
+     }
+	 }
+	#Ensure Social Security
+	focus = {
+		id = VIN_ensure_social_security
+		icon = GFX_VIN_focus_national_congress
+		x = 17
+		y = 16
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_social_protection_program }
+		completion_reward = {
+		
+     }
+	 }
+	 #Towards universal health insurance
+	focus = {
+		id = VIN_universal_health_insurance
+		icon = GFX_VIN_focus_national_congress
+		x = 16
+		y = 17
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_ensure_social_security }
+		completion_reward = {
+		
+     }
+	 }
+	#Education Reform
+	focus = {
+		id = VIN_education_reform
+		icon = GFX_VIN_focus_national_congress
+		x = 18
+		y = 17
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_ensure_social_security }
+		completion_reward = {
+		
+     }
+	 }
+	#Massive anti-crime campaign
+	focus = {
+		id = VIN_anti_crime_campaign
+		icon = GFX_VIN_focus_national_congress
+		x = 17
+		y = 18
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_education_reform }
+		prerequisite = { focus = VIN_universal_health_insurance }
+		completion_reward = {
+		
+     }
+	 }
 	
     
 	#######MILITARY########

@@ -31,5 +31,6 @@ set_popularities = {
         reformed_communism = 35
         communism = 25
 	democratic = 15
-	fascism = 15
+	fascism = 5
+        liberalism = 10
 }

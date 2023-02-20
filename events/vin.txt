@@ -139,7 +139,7 @@ country_event = {
 		name = vin.8.a
 		 hidden_effect = {
 			VIN = {
-				country_event = { id = vin.9 days = 2 }
+				country_event = { id = vin.9 days = 1 }
 			}
 	}
 }
@@ -157,7 +157,7 @@ country_event = {
 		name = vin.9.a
 		 hidden_effect = {
 			VIN = {
-				country_event = { id = vin.10 days = 2 }
+				country_event = { id = vin.10 days = 1 }
 			}
 	}
 }
@@ -175,7 +175,7 @@ country_event = {
 		name = vin.10.a
 		 hidden_effect = {
 			VIN = {
-				country_event = { id = vin.11 days = 2 }
+				country_event = { id = vin.21 days = 1 }
 			}
 	}
 }
@@ -199,7 +199,7 @@ country_event = {
 		}
 		 hidden_effect = {
 			VIN = {
-				country_event = { id = vin.12 days = 2 }
+				country_event = { id = vin.15 days = 1 }
 			}
 	}
 	}
@@ -217,7 +217,7 @@ country_event = {
 		}
 		 hidden_effect = {
 			VIN = {
-				country_event = { id = vin.12 days = 2 }
+				country_event = { id = vin.15 days = 1 }
 			}
 	}
 }
@@ -235,7 +235,7 @@ country_event = {
 		name = vin.12.a
 		 hidden_effect = {
 			VIN = {
-				country_event = { id = vin.13 days = 2 }
+				country_event = { id = vin.13 days = 1 }
 			}
 	}
 }
@@ -255,7 +255,7 @@ country_event = {
 		promote_character = VIN_nong_duc_manh
 		 hidden_effect = {
 			VIN = {
-				country_event = { id = vin.14 days = 2 }
+				country_event = { id = vin.14 days = 1 }
 			}
 	}
 }
@@ -273,24 +273,19 @@ country_event = {
 		name = vin.14.a
 		set_country_flag = vin_fast_industrialization
 		custom_effect_tooltip = vin_chose_fast_industrialization
-		 hidden_effect = {
-			VIN = {
-				country_event = { id = vin.15 days = 2 }
-			}
-	}
+		  complete_national_focus = Chairman_Nong_Duc_Manh
+		add_stability = 0.01
 	}
 	
     option = {
 		name = vin.14.b
 		set_country_flag = vin_small_industry
 		custom_effect_tooltip = vin_chose_focusing_on_small_industry
-		 hidden_effect = {
-			VIN = {
-				country_event = { id = vin.15 days = 2 }
-			}
+		  complete_national_focus = Chairman_Nong_Duc_Manh
+		add_stability = 0.01
 	}
 }
-}
+
 
 
 #Congress end
@@ -304,9 +299,12 @@ country_event = {
 	
 	option = {
 		name = vin.15.a
-        complete_national_focus = Chairman_Nong_Duc_Manh
-		add_stability = 0.01
+      hidden_effect = {
+			VIN = {
+				country_event = { id = vin.22 days = 1 }
+			}
 	}
+}
 }
 
 #Diplomacy
@@ -429,4 +427,41 @@ country_event = {
 		}
 	ai_chance = { base = 80 }
     }
+}
+
+#Plus Congress 1
+country_event = {
+	id = vin.21
+	title = vin.21.t
+	desc = vin.21.d
+	picture = GFX_report_event_IX_CPV_congress
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vin.21.a
+	hidden_effect = {
+		VIN = {
+				country_event = { id = vin.11 days = 1 }
+			}
+}
+}
+}
+#Plus Congress 2
+country_event = {
+	id = vin.22
+	title = vin.22.t
+	desc = vin.22.d
+	picture = GFX_report_event_IX_CPV_congress
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vin.22.a
+	hidden_effect = {
+		VIN = {
+				country_event = { id = vin.12 days = 1 }
+			}
+}
+}
 }

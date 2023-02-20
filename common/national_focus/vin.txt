@@ -1008,7 +1008,11 @@ focus_tree = {
 		prerequisite = { focus = VIN_golden_forest_silver_sea }
 		mutually_exclusive = { focus = VIN_eye_on_east_sea }
 		completion_reward = {
-		
+		add_tech_bonus = {
+    bonus = 0.5
+    uses = 1
+    category = synth_resources
+}
      }
 	}
 
@@ -1018,7 +1022,7 @@ focus_tree = {
 		icon = GFX_VIN_focus_national_congress
 		x = 3
 		y = 17
-		cost = 2
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}	
@@ -1038,7 +1042,7 @@ focus_tree = {
 		icon = GFX_VIN_focus_national_congress
 		x = 5
 		y = 17
-		cost = 2
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}	
@@ -1058,7 +1062,7 @@ focus_tree = {
 		icon = GFX_VIN_focus_national_congress
 		x = 4
 		y = 18
-		cost = 2
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}	
@@ -1084,14 +1088,18 @@ focus_tree = {
 		icon = GFX_VIN_focus_national_congress
 		x = 8
 		y = 16
-		cost = 2
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}	
 		prerequisite = { focus = VIN_golden_forest_silver_sea }
 		mutually_exclusive = { focus = VIN_land_resources }
 		completion_reward = {
-		
+		add_tech_bonus = {
+    bonus = 0.5
+    uses = 1
+    category = cat_synth_oil
+}
      }
 	}
 	#Oil with Soviet
@@ -1100,7 +1108,7 @@ focus_tree = {
 		icon = GFX_VIN_focus_national_congress
 		x = 7
 		y = 17
-		cost = 2
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}	
@@ -1128,7 +1136,7 @@ focus_tree = {
 		icon = GFX_VIN_focus_national_congress
 		x = 9
 		y = 17
-		cost = 2
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}	
@@ -1150,7 +1158,7 @@ focus_tree = {
 		icon = GFX_VIN_focus_national_congress
 		x = 8
 		y = 18
-		cost = 2
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}	
@@ -1181,7 +1189,29 @@ focus_tree = {
 		prerequisite = { focus = VIN_7th_5_year_plan }
 		mutually_exclusive = { focus = VIN_invest_south }
 		completion_reward = {
-		
+		 916 = { 
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+	type = industrial_complex
+	level = 1
+	instant_build = yes
+		}
+	   }
+	   671 = { 
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+	type = industrial_complex
+	level = 1
+	instant_build = yes
+		}
+	   }
+	   671 = { 
+		add_building_construction = {
+	type = infrastructure
+	level = 1
+	instant_build = yes
+		}
+	   }
      }
 	}
 	#Hai Phong Port
@@ -1190,13 +1220,30 @@ focus_tree = {
 		icon = GFX_VIN_focus_national_congress
 		x = -4
 		y = 16
-		cost = 2
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}	
 		prerequisite = { focus = VIN_invest_north }
 		completion_reward = {
-		
+		916 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+					province = 4119
+				}
+				
+	
+			}
+		 916 = { 
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+	type = dockyard
+	level = 1
+	instant_build = yes
+		}
+	   }
      }
 	}
 	#Invest South
@@ -1205,14 +1252,36 @@ focus_tree = {
 		icon = GFX_VIN_focus_national_congress
 		x = 0
 		y = 15
-		cost = 2
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}	
 		prerequisite = { focus = VIN_7th_5_year_plan }
 		mutually_exclusive = { focus = VIN_invest_north }
 		completion_reward = {
-		
+		 286 = { 
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+	type = industrial_complex
+	level = 1
+	instant_build = yes
+		}
+	   }
+	   915 = { 
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+	type = industrial_complex
+	level = 1
+	instant_build = yes
+		}
+	   }
+	   915 = { 
+		add_building_construction = {
+	type = infrastructure
+	level = 1
+	instant_build = yes
+		}
+	   }
      }
 	    
 	}
@@ -1222,13 +1291,30 @@ focus_tree = {
 		icon = GFX_VIN_focus_national_congress
 		x = 0
 		y = 16
-		cost = 2
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}	
 		prerequisite = { focus = VIN_invest_south }
 		completion_reward = {
-		
+		286 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+					province = 4401
+				}
+				
+	
+			}
+		 286 = { 
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+	type = dockyard
+	level = 1
+	instant_build = yes
+		}
+	   }
      }
 	}
 	#Railway transportation
@@ -1237,7 +1323,7 @@ focus_tree = {
 		icon = GFX_VIN_focus_national_congress
 		x = -2
 		y = 17
-		cost = 2
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}	
@@ -1264,13 +1350,32 @@ focus_tree = {
 		icon = GFX_VIN_focus_national_congress
 		x = -2
 		y = 18
-		cost = 2
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}	
 		prerequisite = { focus = VIN_rail_way }
 		completion_reward = {
-		
+		 916 = { 
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+	type = arms_factory
+	level = 1
+	instant_build = yes
+		}
+	   }
+	    916 = { 
+		add_building_construction = {
+	type = anti_air_building
+	level = 1
+	instant_build = yes
+		}
+	   }
+	  add_tech_bonus = {
+    bonus = 0.5
+    uses = 1
+    category = radar_tech
+}
      }
 	}
 	#For A Socialist Society

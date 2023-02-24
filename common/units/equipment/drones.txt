@@ -24,7 +24,7 @@ equipments = {
 		}
 
 		manpower = 6
-		fuel_consumption = 0.16
+		fuel_consumption = 0.10
 	}
 	drone_recon_equipment_0 = {
 		year = 1980
@@ -94,7 +94,7 @@ equipments = {
 		}
 
 		manpower = 10
-		fuel_consumption = 0.18
+		fuel_consumption = 0.12
 	}
 	drone_attack_equipment_0 = {
 		year = 2000

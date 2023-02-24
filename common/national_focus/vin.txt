@@ -16,7 +16,7 @@ focus_tree = {
 		icon = VIN_new_vietnam
 		x = 7
 		y = 0
-		cost = 3
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -721,7 +721,7 @@ focus_tree = {
 		icon = GFX_VIN_focus_state_visit_to_lao
 		x = 11
 		y = 7
-		cost = 3
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -776,7 +776,7 @@ focus_tree = {
 		icon = GFX_VIN_focus_chinese_message
 		x = 8
 		y = 10
-		cost = 3
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -883,7 +883,7 @@ focus_tree = {
 		icon = GFX_VIN_focus_visit_japon
 		x = 14
 		y = 10
-		cost = 3
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -961,10 +961,10 @@ focus_tree = {
 	#7th 5 year plan
 	focus = {
 		id = VIN_7th_5_year_plan
-		icon = GFX_VIN_focus_national_congress
+		icon = GFX_VIN_focus_5plan
 		x = 2
 		y = 14
-		cost = 2
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}	
@@ -1088,7 +1088,7 @@ focus_tree = {
 		icon = GFX_VIN_focus_national_congress
 		x = 8
 		y = 16
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}	

@@ -391,10 +391,10 @@ NCountry = {
 
 	FUEL_LEASE_CONVOY_RATIO = 0.0005,				-- num convoys needed per fuel land lease
 
-	STARTING_FUEL_RATIO = 0.25,						-- starting fuel ratio compared to max fuel for countries
-	BASE_FUEL_GAIN_PER_OIL = 5,						-- base amount of fuel gained hourly per excess oil
-	BASE_FUEL_GAIN = 5.0,							-- base amount of fuel gained hourly, independent of excess oil
-	BASE_FUEL_CAPACITY = 250000,						-- base amount of fuel capacity
+	STARTING_FUEL_RATIO = 0.75,						-- starting fuel ratio compared to max fuel for countries
+	BASE_FUEL_GAIN_PER_OIL = 8,						-- base amount of fuel gained hourly per excess oil
+	BASE_FUEL_GAIN = 8.0,							-- base amount of fuel gained hourly, independent of excess oil
+	BASE_FUEL_CAPACITY = 300000,						-- base amount of fuel capacity
 
 	SCORCHED_EARTH_STATE_COST = 5,					-- pp cost to scorch a state
 
@@ -565,7 +565,7 @@ NProduction = {
 	BASE_FACTORY_SPEED_MIL = 4.50, 				-- Base factory speed multiplier (how much hoi3 style IC each factory gives).
 	BASE_FACTORY_SPEED_NAV = 2.5, 				-- Base factory speed multiplier (how much hoi3 style IC each factory gives).
 	BASE_FACTORY_START_EFFICIENCY_FACTOR = 10,	-- Base start efficiency for factories expressed in %.
-	BASE_FACTORY_MAX_EFFICIENCY_FACTOR = 60,	-- Base max efficiency for factories expressed in %.
+	BASE_FACTORY_MAX_EFFICIENCY_FACTOR = 80,	-- Base max efficiency for factories expressed in %.
 	BASE_FACTORY_EFFICIENCY_GAIN = 1,		-- Base efficiency factor.
 	BASE_FACTORY_EFFICIENCY_BALANCE_FACTOR = 0.1, 			-- Factory efficiency balancing factor
 	BASE_FACTORY_EFFICIENCY_VARIANT_CHANGE_FACTOR = 90,		-- Base factor for changing production variants in %.

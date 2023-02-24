@@ -11,7 +11,7 @@ equipments = {
 		
 		interface_category = interface_category_other_ships
 
-		fuel_consumption = 6
+		fuel_consumption = 3
 
 		armor_value = 0
 		reliability = 0.75

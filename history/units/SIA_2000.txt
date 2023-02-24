@@ -59,14 +59,13 @@ division_template = { # Mechanised Division #
 		infantry_unit = { x = 1 y = 0 }
 		infantry_unit = { x = 1 y = 1 }
 		infantry_unit = { x = 1 y = 2 }
-		infantry_unit = { x = 1 y = 3 }
 		towed_artillery_unit = { x = 2 y = 0 }
 		towed_artillery_unit = { x = 2 y = 1 }
 		towed_artillery_unit = { x = 2 y = 2 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
-		field_hospital = { x = 0 y = 1 }
+		   towed_artillery_support_unit = { x = 0 y = 1 }
 		logistics_company = { x = 0 y = 2 }
 		transport_heli_company = { x = 0 y = 3 }
 		spaa_vehicle_support_armor = { x = 0 y = 4 }
@@ -83,13 +82,15 @@ division_template = { # Infantry Division #
 		infantry_unit = { x = 0 y = 2 }
 		infantry_unit = { x = 0 y = 3 }
 		infantry_unit = { x = 0 y = 4 }
-		towed_artillery_unit = { x = 1 y = 0 }
-		towed_artillery_unit = { x = 1 y = 1 }
-		towed_artillery_unit = { x = 1 y = 2 }
+                infantry_unit = { x = 1 y = 1 }
+                infantry_unit = { x = 1 y = 2 }
+		towed_artillery_unit = { x = 2 y = 0 }
+		towed_artillery_unit = { x = 2 y = 1 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
 	    logistics_company = { x = 0 y = 2 }
+           towed_artillery_support_unit = { x = 0 y = 1 }
 	}
 	priority = 1
 }
@@ -100,10 +101,9 @@ division_template = { # Light Infantry Division #
 	regiments = {
 		infantry_unit = { x = 0 y = 0 }
 		infantry_unit = { x = 0 y = 1 }
-		infantry_unit = { x = 0 y = 2 }
 		militia_unit = { x = 1 y = 0 }
 		militia_unit = { x = 1 y = 1 }
-        militia_unit = { x = 1 y = 2 }
+                 militia_unit = { x = 1 y = 2 }
 		militia_unit =  {x = 1 y = 3 }
 	}
 	support = {
@@ -120,7 +120,7 @@ division_template = { # Paratrooper Division #
 		paratrooper_unit = { x = 0 y = 1 }
 		paratrooper_unit = { x = 0 y = 2 }
 		paratrooper_unit = { x = 0 y = 3 }
-		towed_artillery_unit = { x = 1 y = 0 }
+                paratrooper_unit = { x = 0 y = 4 }
 	}
 	support = {
 		recon = { x = 0 y = 0 }
@@ -491,12 +491,12 @@ instant_effect = {
 	}
   add_equipment_to_stockpile = {
 		type = mbt_tank_equipment_0
-		amount = 538
+		amount = 580
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
 		type = apc_tank_equipment_0
-		amount = 432
+		amount = 440
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
@@ -546,7 +546,7 @@ instant_effect = {
 	}	
 	 add_equipment_to_stockpile = {
 		type = infantry_anti_tank_weapons_1
-		amount = 1500
+		amount = 1600
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
@@ -576,12 +576,12 @@ instant_effect = {
 	}
 	add_equipment_to_stockpile = {
 		type = towed_artillery_equipment_1
-		amount = 600
+		amount = 650
 		producer = USA
 	}
 	     add_equipment_to_stockpile = {
 		type = motorised_equipment_1
-		amount = 500
+		amount = 800
 		producer = USA
 	}
       add_equipment_to_stockpile = {
@@ -591,7 +591,7 @@ instant_effect = {
 	}
 	  add_equipment_to_stockpile = {
 		type = support_equipment_1
-		amount = 100
+		amount = 400
 		producer = SIA
 	}
 	 add_equipment_to_stockpile = {
@@ -611,7 +611,7 @@ instant_effect = {
 	} 
 	 add_equipment_to_stockpile = {  
 		type = heli_transport_equipment_0
-		amount = 127
+		amount = 137
 		producer = USA
 	}
 }

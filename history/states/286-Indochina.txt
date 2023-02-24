@@ -1,6 +1,7 @@
 state={
 	id=286
 	name="STATE_286"
+        state_category = city
 	resources={
 		rubber=55 # was: 94.000
                 tungsten=3

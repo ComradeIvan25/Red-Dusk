@@ -16,11 +16,12 @@ set_technology = {
 	towed_artillery_1960 = 1
 }
 
-set_research_slots = 3
+set_research_slots = 2
 
 add_ideas = LAO_undeveloped_infrastructure
 add_ideas = LAO_legacy_american_bombing
 add_ideas = LAO_balance_vin_prc
+add_ideas = LAO_army
 
 recruit_character = LAO_khamtai_siphandon
 recruit_character = LAO_khamtai_siphandon_1

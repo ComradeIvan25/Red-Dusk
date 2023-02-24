@@ -39,7 +39,7 @@ equipments = {
 		}
 
 		manpower = 50
-		fuel_consumption = 0.26
+		fuel_consumption = 0.18
 	}
 
 	attacker_equipment_0 = {
@@ -175,7 +175,7 @@ equipments = {
 		}
 
 		manpower = 50
-		fuel_consumption = 0.26
+		fuel_consumption = 0.18
 	}
 
 	carrier_attacker_equipment_0 = {

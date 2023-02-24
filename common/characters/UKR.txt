@@ -17,7 +17,7 @@ characters = {
 			id = -1
 		}
 		corps_commander={
-			traits={ }
+			traits={skilled_staffer}
 			skill=2
 			attack_skill=3
 			defense_skill=3

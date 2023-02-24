@@ -1094,9 +1094,9 @@ country_event = {
 			
 			set_popularities = {
 				democratic = 10
-				fascism = 70
+				fascism = 40
 				communism = 20
-				paternal_autocracy = 0 
+				paternal_autocracy = 30 
 				reformed_communism = 0
 				
 			}
@@ -1117,17 +1117,18 @@ country_event = {
 		remove_ideas = YUG_nationalism_supressed
 		remove_ideas = YUG_nationalist_rebirth
 				set_politics = {
-					ruling_party = democratic
+					ruling_party = liberalism
 					last_election = "1991.5.3"
 					election_frequency = 36
 					elections_allowed = yes
 				}
 				
 				set_popularities = {
-					democratic = 49
+					liberalism = 49
+					democratic = 15
 					fascism = 16
 					paternal_autocracy = 5
-					reformed_communism = 30	
+					reformed_communism = 15
 					communism = 0
 				}
 			load_focus_tree = generic_focus

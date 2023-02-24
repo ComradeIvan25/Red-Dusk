@@ -907,3 +907,150 @@ yug_yugoslavia_ussr_war = {
 	}
 
 }
+
+yug_remmants_of_the_old_gov = {
+
+	yug_anti_government_movements = {                          
+		allowed = {
+		}                
+        available = {   
+		 has_country_flag = yug_secured_the_army_flag
+        }
+		
+		activation = {
+			has_completed_focus = YUG_stambolic_end_of_milosevic
+			NOT = {has_country_flag = yug_secured_the_army_flag}
+		}
+		visible = {
+			original_tag = YUG
+			has_completed_focus = YUG_stambolic_end_of_milosevic
+
+		}
+		  
+		  
+		is_good = no
+		selectable_mission = no
+		days_mission_timeout = 15           
+		timeout_effect = {
+			activate_mission_tooltip = yug_anti_government_movements
+			custom_effect_tooltip = yug_milosevic_loyalists_strength_increases_by_10				
+			add_to_variable = {yug_loyalists_strength = 10}
+		}
+		
+        complete_effect = {
+
+        }
+	}
+	
+	yug_jail_former_officials = {
+		icon = GFX_decision_generic_factory
+
+
+		visible = {
+			original_tag = YUG
+			has_completed_focus = YUG_stambolic_end_of_milosevic
+			NOT = {has_country_flag = yug_secured_the_army_flag}
+		}
+
+		available = {
+			NOT = {has_country_flag = yug_secured_the_army_flag}
+		}
+
+		modifier = {
+			stability_weekly = 0.08
+
+		}
+		
+		cost = 45
+		days_remove = 15
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		
+        complete_effect = {
+			custom_effect_tooltip = yug_milosevic_loyalists_strength_decreases_by_15		
+			subtract_from_variable = {yug_loyalists_strength = -15}
+        }
+	}
+
+	yug_reform_the_socialists = {
+		icon = GFX_decision_generic_factory
+
+
+		visible = {
+			original_tag = YUG
+			has_completed_focus = YUG_stambolic_end_of_milosevic
+			NOT = {has_country_flag = yug_secured_the_army_flag}
+		}
+
+		available = {
+			NOT = {has_country_flag = yug_secured_the_army_flag}
+		}
+
+		modifier = {
+
+		}
+		
+		cost = 100
+		days_remove = 30
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		
+        complete_effect = {
+			custom_effect_tooltip = yug_milosevic_loyalists_strength_decreases_by_30
+			subtract_from_variable = {yug_loyalists_strength = -30}		
+			retire_ideology_leader = socialism
+			promote_character = YUG_vulin
+			add_popularity = {
+				ideology = socialism
+				popularity = 0.15
+			}
+        }
+	}
+
+	yug_return_of_the_SKJ = {
+		icon = GFX_decision_generic_factory
+
+
+		visible = {
+			original_tag = YUG
+			has_completed_focus = YUG_stambolic_end_of_milosevic
+			NOT = {has_country_flag = yug_secured_the_army_flag}
+		}
+
+		available = {
+			NOT = {has_country_flag = yug_secured_the_army_flag}
+		}
+
+		modifier = {
+
+		}
+		
+		cost = 150
+		days_remove = 30
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		
+        complete_effect = {
+			custom_effect_tooltip = yug_milosevic_loyalists_strength_decreases_by_30
+			subtract_from_variable = {yug_loyalists_strength = -30}
+			set_party_name = {
+				ideology = communism
+				name = YUG_communism_SKJ_party
+				long_name = YUG_communism_SKJ_party_long				
+			}		
+			set_party_name = {
+				ideology = reformed_communism
+				name = YUG_reformed_communism_NJL_party
+				long_name = YUG_reformed_communism_NJL_party_long				
+			}
+
+        }
+	}
+
+}

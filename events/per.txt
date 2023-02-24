@@ -125,6 +125,8 @@ country_event = {
 	#lets go#
 	option = {
 		name = per.3.a
+		
+		PER = {add_to_faction = AFG} #taliban joins the fun !!	
 			
 		PER = {
 			

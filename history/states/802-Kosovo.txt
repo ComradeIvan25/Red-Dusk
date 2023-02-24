@@ -16,16 +16,15 @@ state={
 		add_core_of = YUG
 		add_core_of = KOS
 		add_core_of = SER
-
 		set_demilitarized_zone = yes
+
 	}
 
 	provinces={
-		6940 9849 9874 9890 
+		6940 9849 9874 9890 13343 
 	}
 	manpower=616000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
-
-	local_supplies=0.0 
+	local_supplies=0.000
 }

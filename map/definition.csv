@@ -13318,7 +13318,7 @@
 13317;141;12;184;land;false;mountain;7
 13318;181;153;174;land;false;mountain;6
 13319;5;54;207;land;false;hills;1
-13320;66;117;253;land;false;hills;1
+13320;66;117;253;land;false;mountain;1
 13321;88;235;36;land;true;hills;1
 13322;73;68;199;land;false;hills;1
 13323;158;85;208;land;false;hills;1
@@ -13341,3 +13341,16 @@
 13340;194;156;117;land;true;hills;7
 13341;47;236;63;land;false;hills;7
 13342;13;124;34;land;false;hills;7
+13343;123;8;196;land;false;hills;1
+13344;218;118;150;land;false;urban;1
+13345;146;231;149;land;false;mountain;1
+13346;88;129;85;land;false;hills;1
+13347;219;13;163;land;false;hills;1
+13348;4;17;139;land;false;hills;1
+13349;139;225;253;land;false;mountain;1
+13350;24;212;182;land;false;hills;1
+13351;89;163;175;land;false;urban;1
+13352;133;128;185;land;false;mountain;1
+13353;58;100;8;land;false;hills;1
+13354;6;51;142;land;false;hills;1
+13355;164;242;251;land;false;hills;1

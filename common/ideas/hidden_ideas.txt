@@ -19,7 +19,7 @@ ideas = {
 
 		}
 
-		hidden_rebellion_army_buff = {
+		hidden_army_buff_core = {
 				
 			name = hidden_army_buff_name
 

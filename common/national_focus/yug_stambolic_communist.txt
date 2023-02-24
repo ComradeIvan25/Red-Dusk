@@ -1,18 +1,18 @@
 focus_tree = {
 	id = yug_stambolic_communist_focus
-	country = {
-		factor = 0
-		#modifier = {
-		#add = 999
-		#tag = YUG
-		#}
-	}
+	#country = {
+	#	factor = 0
+	#	modifier = {
+	#	add = 999
+	#	tag = YUG
+	#	}
+	#}
 	
 	
 	default = no
 	focus = {
 		id = YUG_stambolic_end_of_milosevic
-		icon = GFX_focus_YUG_tito_honour
+		icon = GFX_focus_YUG_goodbye_slobodane
 		x = 5
 		y = 0
 
@@ -31,7 +31,14 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 25
 			add_stability = -0.05
-
+			set_variable = {yug_loyalists_strength = 75}
+			activate_mission = yug_anti_government_movements
+			
+			set_party_name = {
+				ideology = fascism
+				name = YUG_fascism_milosevic_loyalists_party
+				long_name = YUG_fascism_milosevic_loyalists_party_long	
+			}
 		}
 	}
 	focus = {
@@ -152,7 +159,12 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = -5
+			add_political_power = 50
+			swap_ideas = {
+				remove_idea = YUG_after_tito
+				add_idea = YUG_after_tito_2
+			
+			}
 		}
 	}
 	
@@ -177,13 +189,18 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = -5
+			add_political_power = -75
+			swap_ideas = {
+				remove_idea = YUG_what_are_we
+				add_idea = YUG_what_are_we_2
+			
+			} 
 		}
 	}
 	
 	focus = {
 		id = YUG_stambolic_brotherhood_and_unity_first_and_foremost
-		icon = GFX_focus_SOV_an_offer_they_cannot_refuse
+		icon = GFX_focus_YUG_brotherhood_and_unity
 		x = 2
 		y = 3
 
@@ -233,7 +250,7 @@ focus_tree = {
 	
 	focus = {
 		id = YUG_stambolic_a_new_yugoslavia
-		icon = GFX_focus_SOV_old_enemy_in_Yugo
+		icon = GFX_focus_YUG_a_new_dawn
 		x = 0
 		y = 5
 

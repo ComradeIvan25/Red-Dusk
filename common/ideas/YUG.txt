@@ -78,6 +78,27 @@ ideas = {
 			}
 		}
 		
+		YUG_what_are_we_2 = {
+			name = YUG_what_are_we_name
+
+			removal_cost = -1
+
+			picture = YUG_wtf_are_we_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_weekly = -0.005
+				reformed_communism_drift = 0.01				
+				socialism_drift = 0.01
+				social_democracy_drift = 0.01
+				fascism_drift = -0.01
+
+			}
+		}		
+		
 		YUG_after_tito = {
 			name = YUG_after_tito_name
 
@@ -92,6 +113,22 @@ ideas = {
 			modifier = {
 				political_power_factor = 0.1
 				stability_factor = 0.05
+			}
+		}
+	
+		YUG_after_tito_2 = {
+			name = YUG_after_tito_name
+
+			removal_cost = -1
+
+			picture = YUG_tito_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.15
 			}
 		}
 	

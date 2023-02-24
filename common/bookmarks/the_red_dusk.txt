@@ -46,7 +46,9 @@ bookmarks = {
 				YUG_what_are_we
 			}
 			focuses = {
-			
+				YUG_new_future
+				YUG_a_broken_nation
+				YUG_national_report
 			}	
 		}
 		

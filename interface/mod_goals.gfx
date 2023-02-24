@@ -2022,5 +2022,25 @@ spriteTypes = {
 		name = "GFX_focus_YUG_rebuilding_what_we_have"
 		texturefile = "gfx/interface/goals/YUG/focus_YUG_rebuilding_what_we_have.png"
 	}	
+	SpriteType = {
+		name = "GFX_focus_YUG_a_new_constitution"
+		texturefile = "gfx/interface/goals/YUG/focus_YUG_a_new_constitution.png"
+	}	
+	SpriteType = {
+		name = "GFX_focus_YUG_goodbye_slobodane"
+		texturefile = "gfx/interface/goals/YUG/focus_YUG_goodbye_slobodane.png"
+	}	
+	SpriteType = {
+		name = "GFX_focus_YUG_a_new_dawn"
+		texturefile = "gfx/interface/goals/YUG/focus_YUG_a_new_dawn.png"
+	}	
+	SpriteType = {
+		name = "GFX_focus_YUG_brotherhood_and_unity"
+		texturefile = "gfx/interface/goals/YUG/focus_YUG_brotherhood_and_unity.png"
+	}	
+	SpriteType = {
+		name = "GFX_focus_YUG_tito_bust"
+		texturefile = "gfx/interface/goals/YUG/focus_YUG_tito_bust.png"
+	}
 	
 }

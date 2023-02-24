@@ -332,7 +332,14 @@
  
  yug_yugoslavia_ussr_war:0 "Yugoslav-Soviet War"
  yug_defend_against_ussr_timer:0 "Defending Against USSR"
-## USA ##
+ 
+ yug_remmants_of_the_old_gov:0 "Remmants of the Old Government"
+ yug_remmants_of_the_old_gov_desc:0 "Milosevic Loyalist strength is §R[?yug_loyalists_strength]§!\n\n we need to bring justice to them or whatever or else our regime is gonna die!!!"
+ yug_anti_government_movements:0 "Milosevic Loyalists are making moves"
+ yug_jail_former_officials:0 "Jail Former Officials"
+ yug_reform_the_socialists:0 "Reform the Socialists"
+ yug_return_of_the_SKJ:0 "Return of the SKJ"
+ ## USA ##
 
  category_USA_congress:0 "United States Congress"
  category_USA_congress_desc:0 "Based in Washington, D.C., the United States Congress is the bicameral legislative body of the federal government of the United States, comprised of the §YHouse of Representatives§! and the §YSenate§!, which represent the states both proportionally and equally in their seat apportionment, respectively, based on a first-past-the-post electoral system. The system, while somewhat complex in its functionalities, is the main legal authority within the nation that allows the republican process to be carried out. Obviously, this means the President's authority is not absolute, and for any legislative action he relies almost entirely on the Congress' consent; if he wishes to get anything done, §Yhe must have the support of both the House and Senate§!, and to do so, he'll have to negotiate, compromise, and fight to secure simple §YMajority§! approval."

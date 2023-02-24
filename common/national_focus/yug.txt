@@ -134,7 +134,7 @@ focus_tree = {
 
 	focus = {
 		id = YUG_a_new_constitution
-		icon = GFX_focus_YUG_slobos_11
+		icon = GFX_focus_YUG_a_new_constitution
 		x = -3
 		y = 3
 

@@ -1780,10 +1780,10 @@ sov_building_industry_ural = {
 			original_tag = SOV
 		}
 		available = {
-			has_completed_focus = SOV_expand_industry_in_urals
+			#has_completed_focus = SOV_expand_industry_in_urals
 		}
 		visible = {
-			has_completed_focus = SOV_expand_industry_in_urals
+			#has_completed_focus = SOV_expand_industry_in_urals
 		}
 		
 		cost = 5
@@ -1810,10 +1810,10 @@ sov_building_industry_ural = {
 			original_tag = SOV
 		}
 		available = {
-			has_completed_focus = SOV_expand_industry_in_urals
+			#has_completed_focus = SOV_expand_industry_in_urals
 		}
 		visible = {
-			has_completed_focus = SOV_expand_industry_in_urals
+			#has_completed_focus = SOV_expand_industry_in_urals
 		}
 		
 		cost = 5
@@ -1840,10 +1840,10 @@ sov_building_industry_ural = {
 			original_tag = SOV
 		}
 		available = {
-			has_completed_focus = SOV_expand_industry_in_urals
+			#has_completed_focus = SOV_expand_industry_in_urals
 		}
 		visible = {
-			has_completed_focus = SOV_expand_industry_in_urals
+			#has_completed_focus = SOV_expand_industry_in_urals
 		}
 		
 		cost = 5

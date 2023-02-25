@@ -361,6 +361,11 @@ spriteTypes = {
 		name = "GFX_focus_SOV_sideline_pugo"
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_sideline_pugo.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_SOV_darker_soviet_shield"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_darker_soviet_shield.png"
+	}	
+	
 	## MILITARY ##
 	
 	SpriteType = {

@@ -3161,7 +3161,7 @@
 
 	focus = {
 		id = SOV_all_for_defense
-		icon = GFX_focus_SOV_defensive_operations
+		icon = GFX_focus_SOV_darker_soviet_shield
 		x = 19
 		y = 1
 		

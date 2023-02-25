@@ -17,6 +17,11 @@ spriteTypes = {
 		name = "GFX_sp_event_South_African_War"
 		textureFile = "gfx/super_events/Super_Event_South_African_War.dds"
 	}
+
+	spriteType = {
+		name = "GFX_sp_event_Soviet_Melancholy"
+		textureFile = "gfx/super_events/Super_Event_Soviet_Melancholy.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_sp_event_Yugo_War"

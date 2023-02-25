@@ -361,14 +361,6 @@ spriteTypes = {
 		name = "GFX_report_event_DPRK_my_friend_2"
 		texturefile = "gfx/event_pictures/VIN/vin.18.png"
 	}
-	spriteType = {
-		name = "GFX_report_event_2002_election"
-		texturefile = "gfx/event_pictures/VIN/vin.19.png"
-	}
-	spriteType = {
-		name = "GFX_report_event_2002_election_result"
-		texturefile = "gfx/event_pictures/VIN/vin.20.png"
-	}
 
         ##SAF##
 	spriteType = {
@@ -424,6 +416,22 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_news_yanayev"
 		texturefile = "gfx/event_pictures/news_yanayev_gone.dds"
+	}
+	spriteType = {
+		name = "GFX_news_mandela"
+		texturefile = "gfx/event_pictures/news_mandela_dead.dds"
+	}
+	spriteType = {
+		name = "GFX_news_soviet_parade"
+		texturefile = "gfx/event_pictures/news_soviet_parade.dds"
+	}
+	spriteType = {
+		name = "GFX_news_soviet_melancholy"
+		texturefile = "gfx/event_pictures/news_soviet_melancholy.dds"
+	}
+	spriteType = {
+		name = "GFX_news_soviet_civil_war"
+		texturefile = "gfx/event_pictures/news_soviet_civil_war.dds"
 	}
 	spriteType = {
 		name = "GFX_news_budapest"
@@ -649,5 +657,12 @@ spriteTypes = {
 		name = "GFX_news_khmer_rouge_die"
 		texturefile = "gfx/event_pictures/news_Khmer_rouge_surrender.png"
 	}
-	
+	spriteType = {
+		name = "GFX_report_event_2002_election"
+		texturefile = "gfx/event_pictures/VIN/vin.19.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_2002_election_result"
+		texturefile = "gfx/event_pictures/VIN/vin.20.png"
+	}
 }

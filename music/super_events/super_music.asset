@@ -11,6 +11,6 @@ music = {
 	file = "south_african_war.ogg"
 }
 music = {
-	name = "super_soviet_dissolution"
-	file = "soviet_dissolution.ogg"
+	name = "super_soviet_melancholy"
+	file = "soviet_coup.ogg"
 }

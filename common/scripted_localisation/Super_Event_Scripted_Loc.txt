@@ -18,6 +18,13 @@ defined_text = {
 
 	text = {
         trigger = {
+            has_global_flag = Soviet_Melancholy
+        }
+        localization_key = "sp_event_Soviet_Melancholy"
+    }
+
+	text = {
+        trigger = {
             has_global_flag = SOV_Chinese_War
         }
         localization_key = "sp_event_Sino_Sov_War"
@@ -62,6 +69,13 @@ defined_text = {
             has_global_flag = YUG_War
         }
         localization_key = "sp_event_Yugo_War_REMARK"
+    }
+
+	text = {
+        trigger = {
+            has_global_flag = Soviet_Melancholy
+        }
+        localization_key = "sp_event_Soviet_Melancholy_REMARK"
     }
 	
 	text = {
@@ -110,6 +124,13 @@ defined_text = {
             has_global_flag = YUG_War
         }
         localization_key = "sp_event_Yugo_War_QUOTE"
+    }
+
+	text = {
+        trigger = {
+            has_global_flag = Soviet_Melancholy
+        }
+        localization_key = "sp_event_Soviet_Melancholy_QUOTE"
     }
 	
 	text = {

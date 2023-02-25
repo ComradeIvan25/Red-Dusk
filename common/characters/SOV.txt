@@ -51,11 +51,11 @@ characters = {
 		name = "Dmitry Yazov"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SOV/Yazov_Redux.dds"
-				small = "gfx/leaders/SOV/Yazov_Redux_small.dds"
+				large = "gfx/leaders/SOV/yazov_new.dds"
+				small = "gfx/leaders/SOV/yazov_new_small.dds"
 			}
 			army = {
-				large = "gfx/leaders/SOV/Yazov_Redux.dds"
+				large = "gfx/leaders/SOV/yazov_new.dds"
 			}
 		}
 		country_leader = {
@@ -283,6 +283,26 @@ characters = {
 			}
 			traits = {
 				militarist
+			}
+		}
+	}
+
+	SOV_grigory_romanov = {
+		name = "Grigory Romanov"
+		portraits = {
+			civilian = {
+				small = "gfx/leaders/SOV/Grigory_Romanov_advisor.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = SOV_grigory_romanov_advisor
+			allowed = {
+				original_tag = SOV
+			}
+			traits = {
+				party_conservative
 			}
 		}
 	}

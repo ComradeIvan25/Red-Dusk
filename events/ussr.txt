@@ -901,6 +901,7 @@ country_event = {
 	
 	option = {
 		name = ussr.21.a
+		create_wargoal = { type = puppet_wargoal_focus target = USA }
 		
 	}
 
@@ -1236,7 +1237,22 @@ country_event = {
 	
 	option = {
 		name = ussr.39.a
+	}
 
+}
+
+#Putin's Call#
+country_event = {
+	id = ussr.51
+	title = ussr.51.t
+	desc = ussr.51.d
+	picture = GFX_report_event_SOV_generic
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr.51.a
+		add_political_power = 15
 	}
 
 }
@@ -1449,6 +1465,8 @@ country_event = {
 		name = ussr_rebel_ukr.1.a
 		add_stability = -0.20
 		add_political_power = -150
+		set_country_flag = finished_crackdown_ukraine			
+		clr_country_flag = crackdown_ukraine	
 		UKR = {
 				transfer_state = 89
 				transfer_state = 73
@@ -1486,8 +1504,6 @@ country_event = {
             type = annex_everything
             target = UKR
             }
-
-
 		
 	}
 
@@ -1509,6 +1525,7 @@ country_event = {
 		clr_country_flag = crackdown_ukraine	
 		add_stability = 0.01
 		add_political_power = 10
+		
 		
 	}
 

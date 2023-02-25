@@ -23,6 +23,10 @@ sp_event_Soviet_Dissolution:0 "The Soviet Dissolution"
 sp_event_Soviet_Dissolution_QUOTE:0 "And today I am worried by our people's loss the citizenship of a great country. The consequences may turn out to be hard for everyone.\n- Mikhail Gorbachev"
 sp_event_Soviet_Dissolution_REMARK:0 "Goodbye Forever..."
 
+sp_event_Soviet_Melancholy:0 "The Soviet Melancholy"
+sp_event_Soviet_Melancholy_QUOTE:0 "The revolution seems like sheer madness to those whom it sweeps aside and overthrows.\n- Leon Trotsky"
+sp_event_Soviet_Melancholy_REMARK:0 "A Union Frozen in Time"
+
 
 
 

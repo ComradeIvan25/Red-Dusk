@@ -14,9 +14,10 @@ country_event = {
 	
 	option = {
 		name = saf.1.a
-		add_political_power = -20
-		add_stability = -0.07
+		add_political_power = -25
+		add_stability = -0.1
 		add_manpower = -1
+		news_event = { id = old_times_news.72 hours = 6 }
 		
 	}
 }

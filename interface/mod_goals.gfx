@@ -118,12 +118,32 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_pugos_loyalty.png"
 	}
 	SpriteType = {
+		name = "GFX_focus_SOV_made_in_ussr"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_made_in_ussr.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_romanov"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_romanov_doctrine.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_your_speers_schizo"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_crumbs_for_civs.png"
+	}
+	SpriteType = {
 		name = "GFX_focus_SOV_cracks_of_oposition"
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_cracks_of_oposition.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_arrest_libs"
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_arrest_libs.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_icbm_streamline"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_icbm_streamline.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_strela"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_project_strela.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_friends"
@@ -140,6 +160,14 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_focus_SOV_great_industry"
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_great_industry.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_OGAS_in_industry"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_ogas_but_cooler.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_industry_is_going_to_shit"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_industry_question_yazov.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_infrastructure_initiative"
@@ -683,6 +711,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SOV/SOV_economic_miracle.dds"
 	}
 	SpriteType = {
+		name = "GFX_SOV_unions_steel"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_union_of_steel.png"
+	}
+	SpriteType = {
 		name = "GFX_SOV_end_of_the_revisionists"
 		texturefile = "gfx/interface/goals/SOV/SOV_end_of_the_revisionists.dds"
 	}
@@ -887,6 +919,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SOV/SOV_stalin_war_plan.png"
 	}
 	SpriteType = {
+		name = "GFX_focus_SOV_ustinov_economics"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_ustinov_factories.png"
+	}
+	SpriteType = {
 		name = "GFX_focus_SOV_question_of_the_army"
 		texturefile = "gfx/interface/goals/SOV/SOV_the_military_question.png"
 	}
@@ -1066,6 +1102,10 @@ spriteTypes = {
 		name = "GFX_focus_SOV_follow_udaltsov_example"
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_follow_udaltsov_example.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_SOV_hum_of_tanks"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_hum_of_tanks.png"
+	}
 
   ###PUTIN###
 
@@ -1098,6 +1138,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_kgb_arrest.png"
 	}
 	SpriteType = {
+		name = "GFX_focus_SOV_putin_call"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_putin_call.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_condemn_coup"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_condemn_coup.png"
+	}
+	SpriteType = {
 		name = "GFX_focus_SOV_efficency_at_last"
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_efficency_at_last.png"
 	}
@@ -1108,6 +1156,14 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_focus_SOV_stability_at_last"
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_stability_at_last.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_inciminate_pugo"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_inciminate_pugo.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_inciminate_yazov"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_inciminate_yazov.png"
 	}
 	
    ###IRQ###
@@ -1695,7 +1751,6 @@ spriteTypes = {
 		name = "GFX_focus_SAF_export_rare_minerals"
 		texturefile = "gfx/interface/goals/SAF/focus_SAF_export_rare_minerals.png"
 	}
-
    ###ANC###
 
 	SpriteType = {
@@ -1812,7 +1867,7 @@ spriteTypes = {
 		name = "GFX_VIN_focus_stable_economy"
 		texturefile = "gfx/interface/goals/VIN/VIN_stable_economy.png"
 	}
-	SpriteType = {
+		SpriteType = {
 		name = "GFX_VIN_focus_chinese_message"
 		texturefile = "gfx/interface/goals/VIN/VIN_chinese_message.png"
 	}
@@ -1871,10 +1926,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "VIN_hai_quan"
 		texturefile = "gfx/interface/goals/VIN/VIN_hai_quan.png"
-	}
-	SpriteType = {
-		name = "VIN_army_modernization"
-		texturefile = "gfx/interface/goals/VIN/VIN_army_modernization.png"
 	}
 	
 

@@ -48,6 +48,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/SOV_Corrupt_Officials_in_the_Army.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_SOV_atomic_stuff_icon"
+		texturefile = "gfx/interface/ideas/SOV_nuclear_development.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_SOV_Soviet_Army_icon"
 		texturefile = "gfx/interface/ideas/SOV_Soviet_Army.dds"
 	}

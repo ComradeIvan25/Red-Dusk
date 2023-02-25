@@ -18,9 +18,10 @@ music = {
 	}
 }
 music = {
-	song = "super_soviet_dissolution"
+	song = "super_soviet_melancholy"
 	chance = {
 		factor = 0
 	}
 }
+
 

@@ -30,6 +30,12 @@
  sov_dmitry_yazov_dies_cool_text:0 "§YDmitry Yazov §Rdies\n\n§!"
  sov_gorby_finally_do_what_we_couldnt:0 "§GWe Finally Have the Chance to Do What We Couldnt in 1991§!\n\n"
 
+ ##YAZOV##
+
+ sov_yazov_rockets:0 "§YWe have begun developing §ROur Nuclear Capabilities§!"
+ sov_yazov_ww3:0 "§RThe Red Bear has awoken and the World will see its might.§!"
+ SOV_yazov_economy_time:0 "§GWe are now ready to deal with our Economy\n\n§!"
+
  ##PUGO TREE##
 
  economy_for_pugo_tooltip:0 "§GWe are now ready to deal with our Economy\n\n§!"

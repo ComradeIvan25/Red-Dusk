@@ -14,12 +14,12 @@ ideas = {
 			}
 
 			modifier = {
-				industrial_capacity_factory = -0.05
-				industrial_capacity_dockyard = -0.05
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
 				production_factory_efficiency_gain_factor = -0.02
 			        production_speed_industrial_complex_factor = -0.1
-			        production_speed_arms_factory_factor = -0.05
-			        consumer_goods_factor = 0.08
+			        production_speed_arms_factory_factor = -0.1
+			        consumer_goods_factor = 0.1
 			}
 		}
 		
@@ -323,6 +323,160 @@ ideas = {
 					reliability = -0.15
                 		}
            		}
+		}
+
+
+
+                ###Yazov###
+
+
+		SOV_stagnating_economy_yazov = {
+
+			name = SOV_stagnating_economy_name
+
+			removal_cost = -1
+
+			picture = SOV_stagnating_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_buildings_factor = -0.15
+				consumer_goods_factor = 0.2
+				political_advisor_cost_factor = -0.05
+				political_power_factor = -0.05
+			}
+
+		}
+
+		SOV_yazov_icbm_economics = {
+
+			name = SOV_yazov_icbm_economics_name
+
+			removal_cost = -1
+
+			picture = SOV_atomic_stuff_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_nuclear_reactor_factor = 0.1
+				war_support_factor = 0.1
+			}
+
+		}
+
+		SOV_yazov_icbm_economics_1 = {
+
+			name = SOV_yazov_icbm_economics_name
+
+			removal_cost = -1
+
+			picture = SOV_atomic_stuff_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_nuclear_reactor_factor = 0.2
+				war_support_factor = 0.1
+			}
+
+		}
+
+		SOV_militarised_industry_yazov = {
+
+			name = SOV_militarised_industry_name
+
+			removal_cost = -1
+
+			picture = SOV_militarised_industry_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_arms_complex_factor = 0.1
+				stability_factor = -0.1
+				consumer_goods_factor = 0.15
+				industrial_capacity_factory = 0.2
+				industrial_capacity_dockyard = 0.2
+			}
+
+		}
+
+		SOV_militarised_industry_yazov_1 = {
+
+			name = SOV_militarised_industry_name
+
+			removal_cost = -1
+
+			picture = SOV_militarised_industry_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_arms_complex_factor = 0.15
+				stability_factor = -0.1
+				consumer_goods_factor = 0.15
+				industrial_capacity_factory = 0.25
+				industrial_capacity_dockyard = 0.25
+			}
+
+		}
+
+		SOV_militarised_industry_yazov_2 = {
+
+			name = SOV_militarised_industry_name
+
+			removal_cost = -1
+
+			picture = SOV_militarised_industry_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_arms_complex_factor = 0.15
+				production_factory_max_efficiency_factor = 0.1
+				stability_factor = -0.1
+				consumer_goods_factor = 0.15
+				industrial_capacity_factory = 0.25
+				industrial_capacity_dockyard = 0.25
+			}
+
+		}
+
+		SOV_militarised_industry_yazov_3 = {
+
+			name = SOV_militarised_industry_name
+
+			removal_cost = -1
+
+			picture = SOV_militarised_industry_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_arms_complex_factor = 0.25
+				production_factory_max_efficiency_factor = 0.2
+				stability_factor = -0.2
+				consumer_goods_factor = 0.2
+				industrial_capacity_factory = 0.25
+				industrial_capacity_dockyard = 0.25
+			}
+
 		}
 		
 		#####PUTIN!!!!!!!!!!!!!!!!!#############

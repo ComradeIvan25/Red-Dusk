@@ -1113,6 +1113,46 @@ news_event = {
 	}
 	
 }
+
+news_event = {
+	id = old_times_news.74
+	title = old_times_news.74.t
+	desc = old_times_news.74.d
+	picture = GFX_news_soviet_melancholy
+	
+	major = yes
+	
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			set_global_flag = Soviet_Melancholy
+			set_global_flag = Super_Event_Visible
+			play_song = "super_soviet_melancholy"	
+		}
+	}
+	 
+	option ={
+		name = old_times_news.74.a
+	}
+}
+
+
+news_event = {
+	id = old_times_news.75
+	title = old_times_news.75.t
+	desc = old_times_news.75.d
+	picture = GFX_news_mandela
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.75.a
+	}
+}
+
 ### FLAVOUR NEWS EVENTS ###
 
 ## Concorde Trigger (HIDDEN) ##

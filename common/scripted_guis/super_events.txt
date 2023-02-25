@@ -39,6 +39,12 @@ scripted_gui = {
 		}
 
 		triggers = {
+			Super_Event_Image_Soviet_Melancholy_visible = {
+				has_global_flag = Soviet_Melancholy
+			}
+		}
+
+		triggers = {
 			Super_Event_Image_TT_visible = {
 				has_global_flag = Red_Susk
 			}
@@ -57,6 +63,13 @@ scripted_gui = {
 						has_global_flag = SAF_war_super_event
 					}
 					clr_global_flag = SAF_war_super_event
+				}
+
+				if = {
+					limit = {
+						has_global_flag = Soviet_Melancholy
+					}
+					clr_global_flag = Soviet_Melancholy
 				}
 
 				if = {

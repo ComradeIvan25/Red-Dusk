@@ -2,10 +2,10 @@
 	id = ussr_yazov_focus
 	country = {
 		factor = 0
-		modifier = {
-		tag = SOV
-		add = 0
-		}
+	#	modifier = {
+	#	tag = SOV
+	#	add = 99999
+	#	}
 	}
 	
 	default = no
@@ -71,7 +71,6 @@
 		mutually_exclusive = { }
 		
 		available = {
-		 has_country_flag = purges_completed
 		}
 		
 		cost = 2
@@ -101,7 +100,6 @@
 		mutually_exclusive = { }
 		
 		available = {
-		 has_country_flag = purges_completed
 		}
 		
 		cost = 2
@@ -217,7 +215,7 @@
 			add_stability = -0.05
 			add_political_power = -15
 				remove_ideas = SOV_boris_pugo
-				add_ideas = SOV_sergey_akhromeyev_advisor
+				add_ideas = SOV_grigory_romanov_advisor
 
 		}
 	}
@@ -470,7 +468,7 @@
 	focus = {
 		id = SOV_reform_cpsu
 		icon = GFX_focus_SOV_reform_the_CPSU
-		x = 13
+		x = 8
 		y = 8
 		
 		
@@ -501,7 +499,7 @@
 	focus = {
 		id = SOV_yazov_marshal_in_barracks
 		icon = GFX_focus_SOV_marshal_barrack
-		x = 11
+		x = 10
 		y = 8
 		
 		
@@ -532,7 +530,7 @@
 	focus = {
 		id = SOV_yazov_keep_old_guard
 		icon = GFX_focus_SOV_keep_old_guard
-		x = 9
+		x = 12
 		y = 8
 		
 		
@@ -557,7 +555,7 @@
 	focus = {
 		id = SOV_yazov_incrase_military_funding
 		icon = GFX_focus_SOV_organization_centralization_discipline
-		x = 10
+		x = 11
 		y = 9
 
 		prerequisite = {focus = SOV_yazov_keep_old_guard } 
@@ -579,6 +577,32 @@
 			set_country_flag = SOV_yazov_military_time
 		}
 	}
+
+	focus = {
+		id = SOV_matters
+		icon = GFX_focus_SOV_industry_is_going_to_shit
+		x = 9
+		y = 9
+
+		prerequisite = {focus = SOV_yazov_keep_old_guard } 
+		prerequisite = {focus = SOV_reform_cpsu } 
+		prerequisite = {focus = SOV_yazov_marshal_in_barracks } 
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			custom_effect_tooltip = SOV_yazov_economy_time
+			set_country_flag = SOV_yazov_economy_time
+		}
+	}
 	
 	focus = {
 		id = SOV_yazov_crackdown_nationalism
@@ -588,6 +612,7 @@
 		
 		
 		prerequisite = {focus = SOV_yazov_incrase_military_funding } 
+		prerequisite = {focus = SOV_matters } 
 		mutually_exclusive = { }
 		
 		cost = 3
@@ -1555,7 +1580,7 @@
 
 		
 		
-		cost = 5.8
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}
@@ -1783,7 +1808,7 @@
 		x = 29
 		y = 17
 
-		prerequisite = {focus = SOV_yazov_project_red_dusk}
+		prerequisite = {focus = SOV_yazov_our_shining_union}
 		mutually_exclusive = {focus = SOV_yazov_project_red_dusk}
 		
 		cost = 3
@@ -1923,7 +1948,7 @@
 		prerequisite = {focus = SOV_yazov_old_enemies}
 		
 		
-		cost = 4.3
+		cost = 4
 		ai_will_do = {
 			factor = 1
 		}
@@ -1952,7 +1977,7 @@
 		prerequisite = {focus = SOV_yazov_old_enemies}
 		
 		
-		cost = 4.3
+		cost = 4
 		ai_will_do = {
 			factor = 1
 		}
@@ -2026,7 +2051,7 @@
 		prerequisite = {focus = SOV_yazov_mobilize_industry}
 		prerequisite = {focus = SOV_yazov_expand_supply_network}
 		
-		cost = 5.8
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2042,7 +2067,6 @@
 		add_idea = Our_shining_union_5
 		remove_idea = Our_shining_union_4
 		}
-		country_event = {id = ussr.21}	
 		}
 	}
 	
@@ -2055,7 +2079,7 @@
 		prerequisite = {focus = SOV_yazov_giant_awakens}
 		
 		
-		cost = 7.2
+		cost = 8
 		ai_will_do = {
 			factor = 1
 		}
@@ -2067,8 +2091,10 @@
 		
 		
 		completion_reward = {
-		create_wargoal = { type = puppet_wargoal_focus target = USA }
-			
+		custom_effect_tooltip = sov_yazov_ww3
+		hidden_effect = {
+		   	country_event = {id = ussr.21}
+		                }			
 		}
 	}
 	
@@ -2119,6 +2145,9 @@
 		
 		
 		completion_reward = {
+			army_experience = 10
+			air_experience = 10
+			navy_experience = 10
 
 		}
 	}
@@ -3102,7 +3131,7 @@
 		}		
 	}
 	
-	###INDUSTRY###
+	###ECONOMY###
 	
 	focus = {
 		id = SOV_matters_of_the_ecenomy_yazov
@@ -3111,12 +3140,157 @@
 		y = 0
 		
 		available = {
-		has_country_flag = economy_time_bois
+		has_country_flag = SOV_yazov_economy_time
 		}
 
 		mutually_exclusive = { }
 		
-		cost = 2.9
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+				add_political_power = 20
+		}
+	}
+
+	focus = {
+		id = SOV_all_for_defense
+		icon = GFX_focus_SOV_defensive_operations
+		x = 19
+		y = 1
+		
+		available = {}
+		prerequisite = {focus = SOV_matters_of_the_ecenomy_yazov}
+
+		mutually_exclusive = {focus = SOV_compromise}
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+				add_political_power = 25
+				add_war_support = 0.05
+		}
+	}
+
+	focus = {
+		id = SOV_yazov_ural
+		icon = GFX_focus_SOV_ural_industry
+		x = 20
+		y = 2
+		
+		available = {}
+		prerequisite = {focus = SOV_all_for_defense}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			582 = {
+                		add_extra_state_shared_building_slots = 3
+
+                		add_building_construction = {
+                    			type = arms_factory
+                    			level = 3
+                    			instant_build = yes
+                		}
+           		 }
+			573 = {
+                		add_extra_state_shared_building_slots = 2
+
+                		add_building_construction = {
+                    			type = arms_factory
+                    			level = 2
+                    			instant_build = yes
+                		}
+           		 }
+			651 = {
+                		add_extra_state_shared_building_slots = 2
+
+                		add_building_construction = {
+                    			type = arms_factory
+                    			level = 2
+                    			instant_build = yes
+                		}
+           		 }
+			398 = {
+                		add_extra_state_shared_building_slots = 1
+
+                		add_building_construction = {
+                    			type = arms_factory
+                    			level = 1
+                    			instant_build = yes
+                		}
+           		 }
+			581 = {
+                		add_extra_state_shared_building_slots = 1
+
+                		add_building_construction = {
+                    			type = arms_factory
+                    			level = 1
+                    			instant_build = yes
+                		}
+           		 }
+		}
+	}
+
+	focus = {
+		id = SOV_unions_steel
+		icon = GFX_SOV_unions_steel
+		x = 20
+		y = 3
+		
+		available = {}
+		prerequisite = {focus = SOV_yazov_ural}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = SOV_humn
+		icon = GFX_focus_SOV_hum_of_tanks
+		x = 20
+		y = 4
+		
+		available = {}
+		prerequisite = {focus = SOV_unions_steel}
+
+		mutually_exclusive = { }
+		
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -3129,53 +3303,19 @@
 				add_political_power = 5
 		}
 	}
-	
+
 	focus = {
-		id = SOV_the_unions_great_industry
-		icon = GFX_focus_SOV_great_industry
-		x = 18
-		y = 1
-		
-		prerequisite = {focus = SOV_matters_of_the_ecenomy_yazov}
-
-		mutually_exclusive = {focus = SOV_the_unions_military_reinassence}
-		
-		cost = 5.8
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		completion_reward = {
-			219 ={	
-			
-			add_extra_state_shared_building_slots = 3
-			
-					add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				
-			}
-
-		}		
-	}
-	
-	focus = {
-		id = SOV_expand_industry_in_urals
-		icon = GFX_focus_SOV_ural_industry
+		id = SOV_ustinov_doctrine
+		icon = GFX_focus_SOV_ustinov_economics
 		x = 18
 		y = 2
 		
-		prerequisite = {focus = SOV_the_unions_great_industry}
+		available = {}
+		prerequisite = {focus = SOV_all_for_defense}
 
-		mutually_exclusive = {}
+		mutually_exclusive = { }
 		
-		cost = 4.3
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -3185,176 +3325,25 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-		
-			custom_effect_tooltip = SOV_civs_on_ural_decision_tooltip
-			hidden_effect = {  unlock_decision_category_tooltip = sov_building_industry_ural }
-		}		
-	}
-	
-	focus = {
-		id = SOV_expand_home_production
-		icon = GFX_focus_SOV_expand_produciton
-		x = 18
-		y = 3
-		
-		prerequisite = {focus = SOV_expand_industry_in_urals}
-
-		mutually_exclusive = {}
-		
-		cost = 4.3
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		completion_reward = {
-			add_ideas = SOV_Yazov_New_Age_Soviet_Economics_1
-
-		}		
-	}
-	
-	focus = {
-		id = SOV_yazov_focus_on_infra
-		icon = GFX_focus_SOV_infrastructure_initiative
-		x = 18
-		y = 4
-		
-		prerequisite = {focus = SOV_expand_home_production}
-
-		mutually_exclusive = {}
-		
-		cost = 4.3
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		completion_reward = {
-		
 			swap_ideas = {
-				add_idea = SOV_Yazov_New_Age_Soviet_Economics_2
-				remove_idea = SOV_Yazov_New_Age_Soviet_Economics_1
-			}
-		}		
+				remove_idea = SOV_militarised_industry
+				add_idea = SOV_militarised_industry_yazov
+			} 
+		}
 	}
-	
-		
-	#INDUSTRY BUT MILITARY#
-		
+
 	focus = {
-		id = SOV_the_unions_military_reinassence
-		icon = GFX_focus_SOV_Military_Reinassence
-		x = 24
-		y = 1
-		
-		prerequisite = {focus = SOV_matters_of_the_ecenomy_yazov}
-
-		
-
-		mutually_exclusive = {focus = SOV_the_unions_great_industry}
-		
-		cost = 5.8
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		completion_reward = {
-			219 ={	
-				
-				add_extra_state_shared_building_slots = 2
-				
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-
-		}		
-	}
-	
-	focus = {
-		id = SOV_new_military_cities
-		icon = GFX_focus_SOV_military_cities
-		x = 24
-		y = 2
-		
-		prerequisite = {focus = SOV_the_unions_military_reinassence}
-
-		
-
-		mutually_exclusive = {}
-		
-		cost = 4.3
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		completion_reward = {
-			195 ={	
-				
-				add_extra_state_shared_building_slots = 2
-				
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-			
-			217 ={	
-				
-				add_extra_state_shared_building_slots = 2
-				
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-			
-			408 ={	
-				
-				add_extra_state_shared_building_slots = 2
-				
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-
-		}		
-	}
-	
-	focus = {
-		id = SOV_military_first_civilians_second 		#:)#
-		icon = GFX_focus_SOV_army_first
-		x = 24
+		id = SOV_icbm
+		icon = GFX_focus_SOV_icbm_streamline
+		x = 18
 		y = 3
 		
-		prerequisite = {focus = SOV_new_military_cities}
+		available = {}
+		prerequisite = {focus = SOV_ustinov_doctrine}
 
+		mutually_exclusive = {focus = SOV_comp_def}
 		
-
-
-		mutually_exclusive = {}
-		
-		cost = 4.3
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -3364,24 +3353,24 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_ideas = SOV_Yazov_military_first_economic_policies
-
-		}		
+				add_political_power = 20
+				add_ideas = SOV_yazov_icbm_economics
+			        custom_effect_tooltip = sov_yazov_rockets
+		}
 	}
-	
+
 	focus = {
-		id = SOV_yazov_expand_suplly_chains
-		icon = GFX_focus_SOV_expand_supply
-		x = 24
+		id = SOV_project_strela
+		icon = GFX_focus_SOV_strela
+		x = 18
 		y = 4
 		
-		prerequisite = {focus = SOV_military_first_civilians_second}
+		available = {}
+		prerequisite = {focus = SOV_icbm}
 
+		mutually_exclusive = { }
 		
-
-		mutually_exclusive = {}
-		
-		cost = 4.3
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -3391,28 +3380,450 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-				swap_ideas = {
-				add_idea = SOV_Yazov_military_first_economic_policies_2
-				remove_idea = SOV_Yazov_military_first_economic_policies
+			swap_ideas = {
+				remove_idea = SOV_yazov_icbm_economics
+				add_idea = SOV_yazov_icbm_economics_1
 			}
 
-
-		}		
+			575 = {
+			add_building_construction = {
+    			type = nuclear_reactor
+    			level = 1
+    			instant_build = yes
+			}
+			}
+			582 = {
+			add_building_construction = {
+    			type = nuclear_reactor
+    			level = 1
+    			instant_build = yes
+			}
+			}
+			574 = {
+			add_building_construction = {
+    			type = nuclear_reactor
+    			level = 1
+    			instant_build = yes
+			}
+			}
+			576 = {
+			add_building_construction = {
+    			type = nuclear_reactor
+    			level = 1
+    			instant_build = yes
+			}
+			}
+			577 = {
+			add_building_construction = {
+    			type = nuclear_reactor
+    			level = 1
+    			instant_build = yes
+			}
+			}
+			578 = {
+			add_building_construction = {
+    			type = nuclear_reactor
+    			level = 1
+    			instant_build = yes
+			}
+			}
+ 
+		}
 	}
-	
 
-	
 	focus = {
-		id = SOV_fix_gorbachevs_mess_yazov
-		icon = GFX_focus_SOV_fix_gorby_mess
-		x = 21
+		id = SOV_comp_def
+		icon = GFX_focus_SOV_computerize_military_economy
+		x = 16
+		y = 3
+		
+		available = {}
+		prerequisite = {focus = SOV_ustinov_doctrine}
+
+		mutually_exclusive = {focus = SOV_icbm}
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+				add_political_power = 5
+			swap_ideas = {
+				remove_idea = SOV_militarised_industry_yazov
+				add_idea = SOV_militarised_industry_yazov_1
+			} 
+		}
+	}
+
+	focus = {
+		id = SOV_expand_mil_cities
+		icon = GFX_focus_SOV_military_cities
+		x = 16
+		y = 4
+		
+		available = {}
+		prerequisite = {focus = SOV_comp_def}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = SOV_militarised_industry_yazov_1
+				add_idea = SOV_militarised_industry_yazov_2
+			} 
+			195 = {
+                		add_extra_state_shared_building_slots = 3
+
+                		add_building_construction = {
+                    			type = industrial_complex
+                    			level = 3
+                    			instant_build = yes
+                		}
+           		 }
+			195 = {
+                		add_extra_state_shared_building_slots = 3
+
+                		add_building_construction = {
+                    			type = arms_factory
+                    			level = 3
+                    			instant_build = yes
+                		}
+           		 }
+
+			219 = {
+                		add_extra_state_shared_building_slots = 1
+
+                		add_building_construction = {
+                    			type = arms_factory
+                    			level = 2
+                    			instant_build = yes
+                		}
+           		 }
+		  219 = {
+                		add_extra_state_shared_building_slots = 1
+
+                		add_building_construction = {
+                    			type = infrastructure
+                    			level = 2
+                    			instant_build = yes
+                		}
+           		 }
+
+
+		}
+	}
+
+	focus = {
+		id =  SOV_expand_budget
+		icon = GFX_focus_SOV_planning
+		x = 19
 		y = 5
 		
-		prerequisite = {focus = SOV_yazov_focus_on_infra focus = SOV_yazov_expand_suplly_chains}
+		available = {}
+		prerequisite = {focus = SOV_expand_mil_cities focus = SOV_project_strela}
+		prerequisite = {focus = SOV_humn}
 
+		mutually_exclusive = { }
 		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
 
-		mutually_exclusive = {}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = SOV_militarised_industry_yazov_2
+				add_idea = SOV_militarised_industry_yazov_3
+			} 
+			swap_ideas = {
+				remove_idea = SOV_stagnating_economy_1
+				add_idea = SOV_stagnating_economy_yazov
+			}
+		}
+	}
+
+
+
+	focus = {
+		id = SOV_compromise
+		icon = GFX_focus_SOV_defensive_operations
+		x = 24
+		y = 1
+		
+		available = {}
+		prerequisite = {focus = SOV_matters_of_the_ecenomy_yazov}
+
+		mutually_exclusive = {focus = SOV_all_for_defense}
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+				add_political_power = 5
+		}
+	}
+
+	focus = {
+		id = SOV_ogas_limited
+		icon = GFX_focus_SOV_OGAS_in_industry
+		x = 23
+		y = 2
+		
+		available = {}
+		prerequisite = {focus = SOV_compromise}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+				add_political_power = 5
+		}
+	}
+
+	focus = {
+		id = SOV_ssr_output
+		icon = GFX_focus_SOV_fund_russian_industries
+		x = 23
+		y = 3
+		
+		available = {}
+		prerequisite = {focus = SOV_ogas_limited}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+				add_political_power = 5
+		}
+	}
+
+	focus = {
+		id = SOV_soviet_better
+		icon = GFX_focus_SOV_made_in_ussr
+		x = 23
+		y = 4
+		
+		available = {}
+		prerequisite = {focus = SOV_ssr_output}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+				add_political_power = 5
+		}
+	}
+
+	focus = {
+		id = SOV_orgakov_doctrine
+		icon = GFX_focus_SOV_romanov
+		x = 25
+		y = 2
+		
+		available = {}
+		prerequisite = {focus = SOV_compromise}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+				add_political_power = 5
+		}
+	}
+
+	focus = {
+		id = SOV_utilize_old
+		icon = GFX_SOV_economic_miracle
+		x = 25
+		y = 3
+		
+		available = {}
+		prerequisite = {focus = SOV_orgakov_doctrine}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+				add_political_power = 5
+		}
+	}
+
+	focus = {
+		id = SOV_quality_over_quantity
+		icon = GFX_focus_SOV_middle
+		x = 25
+		y = 4
+		
+		available = {}
+		prerequisite = {focus = SOV_utilize_old}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+				add_political_power = 5
+		}
+	}
+
+	focus = {
+		id = SOV_crums
+		icon = GFX_focus_SOV_your_speers_schizo
+		x = 27
+		y = 3
+		
+		available = {}
+		prerequisite = {focus = SOV_orgakov_doctrine}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+				add_political_power = 5
+		}
+	}
+
+	focus = {
+		id = SOV_workers_soldiers
+		icon = GFX_focus_SOV_matter_of_economy
+		x = 27
+		y = 4
+		
+		available = {}
+		prerequisite = {focus = SOV_crums}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+				add_political_power = 5
+		}
+	}
+
+	focus = {
+		id =  SOV_balancing
+		icon = GFX_focus_SOV_economic_reforms
+		x = 25
+		y = 5
+		
+		available = {}
+		prerequisite = {focus = SOV_soviet_better}
+		prerequisite = {focus = SOV_quality_over_quantity}
+		prerequisite = {focus = SOV_workers_soldiers}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+				add_political_power = 5
+		}
+	}
+
+	focus = {
+		id =  SOV_recover_from_perestroika
+		icon = GFX_focus_SOV_fix_gorby_mess
+		x = 21
+		y = 6
+		
+		available = {}
+		prerequisite = {focus = SOV_balancing focus = SOV_expand_budget}
+
+		mutually_exclusive = { }
 		
 		cost = 8
 		ai_will_do = {
@@ -3424,34 +3835,8 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			custom_effect_tooltip = SOV_economy_end_ideas_mixed
-			remove_ideas = SOV_stagnating_economy_2
-			remove_ideas = SOV_memories_of_perestroika
-			
-				IF = {
-					 limit = { 			 
-						has_idea = SOV_Yazov_New_Age_Soviet_Economics_2
-					 
-					 }
-					 swap_ideas = {
-						add_idea = SOV_Yazov_New_Age_Soviet_Economics_3
-						remove_idea = SOV_Yazov_New_Age_Soviet_Economics_2
-					}
-					add_stability = 0.05
-				}
-					
-				else_if = {
-						limit = {
-							has_idea = SOV_Yazov_military_first_economic_policies_2
-						}
-						swap_ideas = {
-						add_idea = SOV_Yazov_military_first_economic_policies_3
-						remove_idea = SOV_Yazov_military_first_economic_policies_2
-					}
-					add_political_power = 50
-				}
-				
-				set_country_flag = sov_economy_finished_yazov
-		}		
+				remove_ideas = SOV_memories_of_perestroika
+		}
 	}
+	
 }

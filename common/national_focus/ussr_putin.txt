@@ -210,7 +210,7 @@ focus_tree = {
 		y = 3
 
 		prerequisite = {focus = SOV_put_promise}
-		mutually_exclusive = {focus = SOV_put_bortnikov}
+		mutually_exclusive = {focus = SOV_put_patrushev}
 		
 		cost = 3
 		ai_will_do = {
@@ -331,6 +331,249 @@ focus_tree = {
 		y = 7
 
 		prerequisite = {focus = SOV_put_efficency focus = SOV_put_stability_at_last}
+		mutually_exclusive = {}
+		
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+
+		}
+	}
+
+	focus = {
+		id = SOV_put_denounce_gkchp
+		icon = GFX_focus_SOV_condemn_coup
+		x = 10
+		y = 8
+
+		prerequisite = {focus = SOV_put_speech}
+		mutually_exclusive = {}
+		
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+
+		}
+	}
+
+	focus = {
+		id = SOV_put_incriminate_yazov
+		icon = GFX_focus_SOV_inciminate_yazov
+		x = 8
+		y = 9
+
+		prerequisite = {focus = SOV_put_denounce_gkchp}
+		mutually_exclusive = {focus = SOV_put_incriminate_pugo}
+		
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+
+		}
+	}
+
+	focus = {
+		id = SOV_put_remove_officers
+		icon = GFX_focus_SOV_trial_of_the_traitors
+		x = 8
+		y = 10
+
+		prerequisite = {focus = SOV_put_incriminate_yazov}
+		mutually_exclusive = {}
+		
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+
+		}
+	}
+
+	focus = {
+		id = SOV_put_bye_yazov
+		icon = GFX_SOV_the_unstable_truce
+		x = 8
+		y = 11
+
+		prerequisite = {focus = SOV_put_remove_officers}
+		mutually_exclusive = {}
+		
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+
+		}
+	}
+
+	focus = {
+		id = SOV_put_gorby
+		icon = GFX_focus_SOV_reformer
+		x = 10
+		y = 10
+
+		prerequisite = {focus = SOV_put_denounce_gkchp}
+		mutually_exclusive = {}
+		
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+
+		}
+	}
+
+	focus = {
+		id = SOV_put_trvst_the_plan
+		icon = GFX_focus_SOV_putin_call
+		x = 10
+		y = 11
+
+		prerequisite = {focus = SOV_put_gorby}
+		mutually_exclusive = {}
+		
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			SOV = {
+		        country_event = {id = ussr.51}
+			}
+
+		}
+	}
+
+	focus = {
+		id = SOV_put_incriminate_pugo
+		icon = GFX_focus_SOV_inciminate_pugo
+		x = 12
+		y = 9
+
+		prerequisite = {focus = SOV_put_denounce_gkchp}
+		mutually_exclusive = {focus = SOV_put_incriminate_yazov}
+		
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+
+		}
+	}
+
+	focus = {
+		id = SOV_put_cut
+		icon = GFX_focus_SOV_putin_speech
+		x = 12
+		y = 10
+
+		prerequisite = {focus = SOV_put_incriminate_pugo}
+		mutually_exclusive = {}
+		
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+
+		}
+	}
+
+	focus = {
+		id = SOV_put_no_more_a_puppet
+		icon = GFX_focus_SOV_putin_speech
+		x = 12
+		y = 11
+
+		prerequisite = {focus = SOV_put_cut}
+		mutually_exclusive = {}
+		
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+
+		}
+	}
+
+	focus = {
+		id = SOV_put_putin
+		icon = GFX_focus_SOV_putin_speech
+		x = 10
+		y = 12
+
+		prerequisite = {focus = SOV_put_cut}
+		prerequisite = {focus = SOV_put_bye_yazov focus = SOV_put_no_more_a_puppet}
 		mutually_exclusive = {}
 		
 		cost = 7

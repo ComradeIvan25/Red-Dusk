@@ -531,6 +531,8 @@
  vin_fast_industrialization:0 "§YChose a policy of fast industrialization.§!"
  vin_chose_focusing_on_small_industry:0 "§YThis will unlock the "Steady Forward" focus.§!"
  vin_small_industry:0 "§YChose a policy of focusing on Light Industry and Agriculture.§!"
+
+ VIN_tt_vin18:0 "§YWe will transfer two Song-O class submarines to [VIN.GetNameDef].§!"
  
  ##other countries##
  cannot_do_shit_with_units:0 "§RCan not train, edit and disband units§!"

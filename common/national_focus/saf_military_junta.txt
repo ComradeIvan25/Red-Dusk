@@ -1000,7 +1000,7 @@ focus_tree = {
 	
 	focus = {
 		id = SAF_junta_economy_keep_them_for_the_junta
-		icon = x
+		icon = GFX_focus_SAF_keep_them_for_the_junta
 		x = -5
 		y = 4
 		

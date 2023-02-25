@@ -1552,6 +1552,10 @@ spriteTypes = {
 		name = "GFX_focus_IRQ_expand_domestic_dockyards"
 		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_expand_domestic_dockyards.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_wahda_hurriyah_ishtirakiyah"
+		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_wahda_hurriyah_ishtirakiyah.png"
+	}
 	
    ###SAF###
 
@@ -1751,6 +1755,19 @@ spriteTypes = {
 		name = "GFX_focus_SAF_export_rare_minerals"
 		texturefile = "gfx/interface/goals/SAF/focus_SAF_export_rare_minerals.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_SAF_found_exxaro_mining_company"
+		texturefile = "gfx/interface/goals/SAF/focus_SAF_found_exxaro_mining_company.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_a_new_constitution"
+		texturefile = "gfx/interface/goals/SAF/focus_SAF_a_new_constitution.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_keep_them_for_the_junta"
+		texturefile = "gfx/interface/goals/SAF/focus_SAF_keep_them_for_the_junta.png"
+	}
+
    ###ANC###
 
 	SpriteType = {

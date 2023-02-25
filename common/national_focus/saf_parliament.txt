@@ -962,7 +962,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SAF_a_new_constitution
-		icon = x
+		icon = GFX_focus_SAF_a_new_constitution
 		relative_position_id = SAF_end_segregation_for_good
 		x = 0
 		y = 2
@@ -1111,7 +1111,7 @@ focus_tree = {
 	
 	focus = {
 		id = SAF_parliment_economy_found_exxaro_mining_company
-		icon = x
+		icon = GFX_focus_SAF_found_exxaro_mining_company
 		x = -7
 		y = 3
 		

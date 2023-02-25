@@ -1726,7 +1726,7 @@ focus_tree = {
 	
 	focus = {
 		id = IRQ_wahda_hurriyah_ishtirakiyah
-		icon = GFX_focus_IRQ_great_iraq 
+		icon = GFX_focus_IRQ_wahda_hurriyah_ishtirakiyah
 		x = 0
 		y = 3
 		relative_position_id = IRQ_proclaim_uar

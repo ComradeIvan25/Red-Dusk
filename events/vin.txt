@@ -364,10 +364,24 @@ country_event = {
 	
 	option = {
 		name = vin.18.a
-    }
+
+		KOR = {
+			transfer_ship = {
+				prefer_name = "Sang-O No.2"
+				type = attack_submarine
+				target = VIN
+			}
+			transfer_ship = {
+				prefer_name = "Sang-O No.3"
+				type = attack_submarine
+				target = VIN
+			}
+		}
+		custom_effect_tooltip = VIN_tt_vin18
+    	}
 	option = {
 		name = vin.18.b
-    }
+    	}
 }
 
 #Election 1

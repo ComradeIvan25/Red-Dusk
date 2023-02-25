@@ -66,26 +66,70 @@
  SOV_trial_of_traitors_desc:0 "Guilty.\n\nThere was no investigation, no hearing, nor any defense. Such is not needed, the hammer and the sickle makes quick work on the traitors, the leeches and rats of the Union - their crimes, misdeeds, and faults, have been shown for all this time, scarring the Union itself. "
  SOV_comrade_marshall_yazov:0 "Comrade Marshal Yazov"
  SOV_comrade_marshall_yazov_desc:0 "Finally, Yazov can work in peace knowing that the traitors and all dangers to him have been removed. Now we must focus on reforming our country if it is to be saved from the faith that is upon it."
+ SOV_matters:0 "Pertinent Matters"
+ SOV_matters_desc:0 "With the political situation finally in control of comrade Yazov and the Politburo, the leadership of the Union can finally focus on one of the main problems that has been plaguing our country for decades now.\n\nIts economy.\n\nStagnation has been synonymous with us since the times of Brezhnev and yet, the only time we tried to reform it, we almost doomed the Union. It is clear that only the serious effort and dedication will pull our Union's economic sector out of the ditch but we must keep Gorbachev's example as a reminder that even too much reform might be fatal..."
+
+##INDUSTRY##
+
  SOV_matters_of_the_ecenomy_yazov:0 "Matters of the Economy"
  SOV_matters_of_the_ecenomy_yazov_desc:0 "Our nation lacks the economic capital and productive forces necessary to serve a continued opposition to the west - a problem that seemingly creeps closer through Brezhnev's time, only to explode through Gorbachev's. Chairman Yanayev has done efforts to slow the damage, but it is truly up to the Chairman Yazov's vision to create a sustainable solution to the Union's plaguing problem, and one of such that cannot be delayed for much longer."
+
+
  SOV_the_unions_great_industry:0 "The Union's Great Industry"
  SOV_the_unions_great_industry_desc:0 "The Union of Soviet Socialist Republics prides itself in its transformation from the backwardness of the Russian Empire to the industrial might it was - and still is. This might is one that had saved the union against raging fascist hordes throughout the Great Patriotic War and will be the one to do so in these trying times. "
- SOV_expand_industry_in_urals:0 "Expand Industry In Urals"
- SOV_expand_industry_in_urals_desc:0 ""
- SOV_expand_home_production:0 "Expand the Home Production"
- SOV_expand_home_production_desc:0 "The Union must be made into a self-sustaining entity, freed from any weak link that will threaten the Union later onwards. To ensure this, efforts will be made to incentivize and expand domestic production in symphony with industrial growth efforts."
- SOV_yazov_focus_on_infra:0 "Infrastructure Initiative"
- SOV_yazov_focus_on_infra_desc:0 "The sustaining elements of the construction of Productive Forces too will be placed on imperative. These forces, along with the nature of the industrial capabilities of the Union, will be imperative, to be built and improved upon in itself, with expansions and developments due to be done as part of the greater plan to further growth in the Union."
- SOV_yazov_expand_suplly_chains:0 "Expand the Supply Chains"
- SOV_yazov_expand_suplly_chains_desc:0 "Supply lines are the veins of the army. Without the supplies our armies cannot move forward. We have learned from the Great Patriotic War and we will make sure that our army has it's supply needs fulfilled at all times."
- SOV_military_first_civilians_second:0 "Military First Civilians Second"
- SOV_military_first_civilians_second_desc:0 "Soviet Army is the sword and the shield that protects our homeland and people, that is why we must ensure that our army is in it's best shape at all times. The civilian industry wouldn't even exist without the military to protect it, this sacrifices must be made in terms of civilian comfort for the army's needs."
- SOV_new_military_cities:0 "New Military Cities"
- SOV_new_military_cities_desc:0 "Many cities in the USSR were built around the industrial complexes, nuclear reactors, or even prisoner camps. That is why by the new directive of the Politburo and Marshal Yazov, new cities will be built around military bases and industries. With this we shall increase our industrial and military capacity and fix the housing crisis."
- SOV_the_unions_military_reinassence:0 "The Union’s Military Reinassence"
- SOV_the_unions_military_reinassence_desc:0 "What is a state without the army? And what is an army without the industry? It's nothing more than a weak and hopeless band. That is why we must ensure our military industry is at it's best shape all the time."
+
+ SOV_all_for_defense:0 "All for the Defense of Socialism"
+ SOV_all_for_defense_desc:0 ""
+ SOV_ustinov_doctrine:0 "Ustinov Doctrine"
+ SOV_ustinov_doctrine_desc:0 ""
+ SOV_comp_def:0 "Computerize the Defense Industry"
+ SOV_comp_def_desc:0 ""
+ SOV_project_strela:0 "Project Strela"
+ SOV_project_strela_desc:0 ""
+ SOV_icbm:0 "Streamline Production of ICBMS"
+ SOV_icbm_desc:0 ""
+ SOV_expand_mil_cities:0 "Expand the Military Cities"
+ SOV_expand_mil_cities_desc:0 "Many cities in the USSR were built around the industrial complexes, nuclear reactors, or military bases to suit the needs of these instalations and to provide housing for the workers abd soldiers. That is why by the new directive of the Politburo and Marshal Yazov, these cities will be expanded to suit the needs of the military industry. With this we shall increase our industrial and military capacity and fix the housing crisis in the same shot."
+ SOV_yazov_ural:0 "Invest in Ural Military District"
+ SOV_yazov_ural_desc:0 ""
+ SOV_unions_steel:0 "The Union of Steel"
+ SOV_unions_steel_desc:0 ""
+ SOV_humn:0 "The Hum of the Tanks"
+ SOV_humn_desc:0 ""
+ SOV_expand_budget:0 "Expanding the Budget"
+ SOV_expand_budget_desc:0 ""
+
+ SOV_compromise:0 "A Compromise Solution"
+ SOV_compromise_desc:0 ""
+ SOV_ogas_limited:0 "Limited OGAS Planning"
+ SOV_ogas_limited_desc:0 ""
+ SOV_ssr_output:0 "Increase SSRs Output"
+ SOV_ssr_output_desc:0 ""
+ SOV_soviet_better:0 "Made in the USSR"
+ SOV_soviet_better_desc:0 ""
+ SOV_orgakov_doctrine:0 "Romanov Doctrine"
+ SOV_orgakov_doctrine_desc:0 ""
+ SOV_utilize_old:0 "Utilize the Old Industrial Complexes"
+ SOV_utilize_old_desc:0 ""
+ SOV_quality_over_quantity:0 "Quality Over Quantity"
+ SOV_quality_over_quantity_desc:0 ""
+ SOV_crums:0 "Crumbs for Civlian Sector"
+ SOV_crums_desc:0 ""
+ SOV_workers_soldiers:0 "From Soldiers to Workers"
+ SOV_workers_soldiers_desc:0 ""
+ SOV_balancing:0 "Balancing the Budget"
+ SOV_balancing_desc:0 ""
+
+
+
+ SOV_recover_from_perestroika:0 "Recovering from  Perestroika"
+ SOV_recover_from_perestroika_desc:0 ""
+
+
  SOV_fix_gorbachevs_mess_yazov:0 "Fix Gorbachev's Mess"
  SOV_fix_gorbachevs_mess_yazov_desc:0 "Mikhail Gorbachev and his "reforms" were a disaster for the Soviet Union. He ruined everything from the economy to the army, even to the culture of our youth. It is finally time to announce that after the years of hard work, his mess has finally been fixed and his stain on our great Union has been whipped out."
+
+
  SOV_reform_cpsu:0 "Reform the CPSU"
  SOV_reform_cpsu_desc:0 "Communist Party of the Soviet Union had many ups and downs in it's past, but it has never been this bad. Corruption, infighting, and even revisionism have shown their ugly face. We will fix this mess in the most effective way, with a rifle. "
  SOV_yazov_keep_old_guard:0 "Keep the Old Guard"
@@ -247,7 +291,7 @@
  SOV_yazov_aid_mongolia_desc:0 ""
  SOV_yazov_project_red_dusk:0 "Project Red Dusk"
  SOV_yazov_project_red_dusk_desc:0 ""
- SOV_yazov_ready_set:0 "Ready, Set..."
+ SOV_yazov_ready_set:0 "The Final Rehearsal "
  SOV_yazov_ready_set_desc:0 ""
  SOV_yazov_aganist_great_orient_giant:0 "Against the Great Orient Giant"
  SOV_yazov_aganist_great_orient_giant_desc:0 ""
@@ -266,7 +310,7 @@
  SOV_yazov_giant_awakens:0 "Giant Awakens"
  SOV_yazov_giant_awakens_desc:0 ""
  SOV_yazov_the_great_crusade:0 "The Great Crusade"
- SOV_yazov_the_great_crusade_desc:0 ""
+ SOV_yazov_the_great_crusade_desc:0 "The day which our forefathers have dreamed of has finally come. No longer will the Soviet Union stand by and watch as the capitalist world order lingers its decaying corpse and uses every possible opportunity to harm us. For over a century they were the ones who saw to destroy us, from the earliest days of our revolution up to now. No more...\n\nThey thought they could bully us into submission.\nThey thought we'd give way and fall.\nBut today, we'll show them that the Red Army bows to no one!\nToday, we'll show them the might...\n\n§ROF THE SOVIET UNION§!"
  SOV_yazov_the_union_forever:0 "The Union, Forever"
  SOV_yazov_the_union_forever_desc:0 ""
  SOV_yazov_marshal_in_barracks:0 "Marshal in Every Barrack"
@@ -431,6 +475,29 @@
  SOV_put_stability_at_last_desc:0""
  SOV_put_speech:0 "Putin's Speech"
  SOV_put_speech_desc:0""
+ SOV_put_denounce_gkchp:0 "Denounce the GKChP"
+ SOV_put_denounce_gkchp_desc:0""
+ SOV_put_incriminate_yazov:0 "Incriminate Yazov"
+ SOV_put_incriminate_yazov_desc:0""
+ SOV_put_remove_officers:0 "Remove Disloyal Generals"
+ SOV_put_remove_officers_desc:0""
+ SOV_put_bye_yazov:0 "Ashes to Ashes..."
+ SOV_put_bye_yazov_desc:0""
+ SOV_put_incriminate_pugo:0 "Incriminate Pugo"
+ SOV_put_incriminate_pugo_desc:0""
+ SOV_put_cut:0 "Cutting the Strings"
+ SOV_put_cut_desc:0""
+ SOV_put_no_more_a_puppet:0 "No More a Puppet"
+ SOV_put_no_more_a_puppet_desc:0""
+ SOV_put_gorby:0 "Release Gorbachev"
+ SOV_put_gorby_desc:0""
+ SOV_put_economy_critique:0 "Criticize Yanayev's Economic Policies"
+ SOV_put_economy_critique_desc:0""
+ SOV_put_trvst_the_plan:0 "Calling Old Friends"
+ SOV_put_trvst_the_plan_desc:0""
+ SOV_put_putin:0 "General Secretary Putin"
+ SOV_put_putin_desc:0""
+
 
 
  SOV_put_putin:0 "General Secretary Putin"
@@ -941,7 +1008,7 @@
  USA_operation_mcarthur:0 "Operation MacArthur"
  USA_operation_mcarthur_desc:0 ""
 
- ##Yugoslavia##
+ ##Yugoslavia yug##
 
  YUG_a_broken_nation:0 "A Broken Nation"
  YUG_a_broken_nation_desc:0 "Yugoslavia, dream of our fathers and grandfathers...has been shattered brutally in the 1990s. Now, we stand on the brink of death, as we might as well be truly dead. Unless we take radical action."
@@ -950,7 +1017,7 @@
  YUG_slobos_11_years:0 "Slobo's 11 Years"
  YUG_slobos_11_years_desc:0 "After Tito, Slobodan Milošević is one of the most well known Yugoslav leaders. Brought in thanks to his connections, he has led our nation for the past 11 years. Many things changed, some for the better and some for the worse."
  YUG_the_two_coalition_parties:0 "The Two Coalition Parties"
- YUG_the_two_coalition_parties_desc:0 "For some three decades, Yugoslavs had lived relatively comfortably with the inconsistency implicit in a society that was devoted to participatory, self-managing socialism and dependent on charismatic authority. The popular revolutions of 1989 that swept Communist politicians from power in East Europe did not stop at the borders of Yugoslavia. Socialist Left party of Yugoslavia led by Mirjana Marković, declared itself to be a party of all "left-wing and progressive forces that believed that the general interest always comes above private interest", including communists, socialists, greens, social democrats, and democratic socialists. The Patriotic Communist party of Yugoslavia is an anti-revisionist Marxist–Leninist communist party of Serbia led by Vojislav Sesei. Its goal is the reunification of Yugoslavia as a communist state according to Marxism–Leninism. A coalition of these two rival parties is just a mere nightmare for the Yugoslavs." 
+ YUG_the_two_coalition_parties_desc:0 "For some three decades, Yugoslavs had lived relatively comfortably with the inconsistency implicit in a society that was devoted to participatory, self-managing socialism and dependent on charismatic authority. The popular revolutions of 1989 that swept Communist politicians from power in East Europe did not stop at the borders of Yugoslavia. Socialist Left party of Yugoslavia led by Mirjana Marković, declared itself to be a party of all "left-wing and progressive forces that believed that the general interest always comes above private interest", including communists, socialists, greens, social democrats, and democratic socialists. The Patriotic Communist party of Yugoslavia is an anti-revisionist Marxist–Leninist communist party of Serbia led by Vojislav Sesei. Its goal is the reunification of Yugoslavia as a communist state according to Marxism–Leninism. A coalition of these two rival parties is just a mere nightmare for the Yugoslavs."
  YUG_a_new_constitution:0 "A New Constitution?"
  YUG_a_new_constitution_desc:0 ""
  YUG_national_report:0 "National Report"
@@ -975,7 +1042,7 @@
  YUG_tito_honour:0 "Honor the Marshal"
  YUG_tito_honour_desc:0""
  
- ##COMMUNIST STAMBOLIC##
+##COMMUNIST STAMBOLIC##
 
  YUG_stambolic_end_of_milosevic:0 "End of Milosevic"
  YUG_stambolic_end_of_milosevic_desc:0 ""
@@ -1219,7 +1286,7 @@
  VIN_Amendment_to_the_1992_Constitution:0 "Amendment To The 1992 Constitution"
  Chairman_Nong_Duc_Manh:0 "General Secretary Nong Duc Manh"
  Amendment_of_the_Labor_Code:0 "Amendment To The Labour Code"
- VIN_Path_to_Industrialization:0 "Path of Industrialization"
+ VIN_Path_to_Industrialization:0 "Path to Industrialization"
  VIN_No_time_to_waste:0 "No Time To Waste"
  VIN_Labour_is_glorious:0 "Labor Is Glorious"
  VIN_open_more_industrial_zones:0 "Open More Industrial Zone"
@@ -1787,8 +1854,7 @@
  SAF_parliment_economy_support_the_foundation_of_transport_companies_desc:0 "After fixing the road infrastructure, increasing the use of transport, both public and not, the government has decided that to make the most of the situation it will support the foundation of small enterprises, which will guarantee us extra income.""
  SAF_parliment_economy_a_new_great_industrial_era:0 "A New Great Industrial Era"
  SAF_parliment_economy_a_new_great_industrial_era_desc:0 "Finally, after months of reforms and spending, the Government managed to complete the economic reforms in the best possible way, guaranteeing South Africa a New Great Industrial Era. Thanks to the choices made by the Government, South Africa has finally succeeded in developing the industrial system in the best possible way in our current conditions, making us one of the most powerful economies in all of Africa. Glory to the Republic!""
-
- SAF_parliment_army_with_state:0 "An Army with a State"
+  SAF_parliment_army_with_state:0 "An Army with a State"
  SAF_parliment_army_with_state_desc:0 "South Africa, our Great Homeland, with us, the Junta, in command we are managing to transform it into one of the most militarily powerful countries in all of Africa, Now, having finished the preparations in the political field, it is time to improve the military of South Africa. The Fleet, The AirForce and The South African Army will be the most Powerful of the Whole Africa!"
  SAF_parliment_air_force:0 "The Air Force"
  SAF_parliment_air_force_desc:0 "Our Air Force is not the best, in fact, we still have old Jets in production, and we don't have many "combat-ready" aircraft at military airports, We must in every way strengthen the Air Force, to make it ready to defend its homeland from invaders."
@@ -1832,6 +1898,7 @@
  SAF_parliment_mass_increase_weapons_production_desc:0 "Our armories are rarely full, and our army, although large and poorly equipped, to solve this problem it was decided to exponentially increase the production of Weapons and Military Equipment, soon this problem will just be an old memory."
  SAF_parliment_found_militia_forces:0 "Found New Militia Forces"
  SAF_parliment_found_militia_forces_desc:0 "In order to suppress the rebels, the Military Chief decided to establish a new Military Militia, to better manage the actions against the rebels without directly involving the army.and possibly wasting resources that can be useful to us in other Wars, instead of just a bunch of disorganized Rebels. The new Militia forces will be part of a Rebel Suppression Group, and in the event of War, will be fully operable to fight against professional armies."
+ 
 
  ### ANC ###
   

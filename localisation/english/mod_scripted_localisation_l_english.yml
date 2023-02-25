@@ -210,7 +210,17 @@
 
  yug_milosevic_loyalists_strength_decreases_by_15:0 "§GMilosevic Loyalists' strength decreases by 15§!"
  yug_milosevic_loyalists_strength_decreases_by_30:0 "§GMilosevic Loyalists' strength decreases by 30§!"
-
+ 
+ yug_stambolic_army_warning:0 "§R If Milosevic Loyalists' strength is 50 or higher, the army might attempt a coup§!"
+ 
+ ## YUG YUGOSLAVIA REPUBLICS ##
+ 
+ YUG_bosnia_SR:0 "SR Bosnia and Herzegovina"
+ YUG_montenegro_SR:0 "SR Montenegro"
+ YUG_macedonia_SR:0 "SR Macedonia"
+ YUG_serbia_SR:0 "SR Serba"
+ YUG_backa_SAO:0 "SAO Backa"
+ 
  #YUG GUI#####
   
  yug_this_opens_da_gui:0 "The situation of the power struggle"

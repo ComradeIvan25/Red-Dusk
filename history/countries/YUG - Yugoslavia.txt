@@ -119,6 +119,57 @@ set_stability = 0.4
 add_opinion_modifier = { target = CRO modifier = HISTORIC_yugoslavia_seperatists_opinion }
 add_opinion_modifier = { target = SLV modifier = HISTORIC_yugoslavia_seperatists_opinion }
 
+	104 = {
+		add_dynamic_modifier = {
+			modifier = YUG_bosnia_SR
+		}
+	}
+	804 = {
+		add_dynamic_modifier = {
+			modifier = YUG_bosnia_SR
+		}
+	}
+	105 = {
+		add_dynamic_modifier = {
+			modifier = YUG_montenegro_SR
+		}
+	}
+	106 = {
+		add_dynamic_modifier = {
+			modifier = YUG_macedonia_SR
+		}
+	}
+	107 = {
+		add_dynamic_modifier = {
+			modifier = YUG_serbia_SR
+		}
+	}	
+	108 = {
+		add_dynamic_modifier = {
+			modifier = YUG_serbia_SR
+		}
+	}	
+	802 = {
+		add_dynamic_modifier = {
+			modifier = YUG_serbia_SR
+		}
+	}
+	764 = {
+		add_dynamic_modifier = {
+			modifier = YUG_serbia_SR
+		}
+	}	
+	45 = {
+		add_dynamic_modifier = {
+			modifier = YUG_serbia_SR
+		}
+	}
+	910 = {
+		add_dynamic_modifier = {
+			modifier = YUG_backa_SAO
+		}
+	}	
+
 # Naval Variants #
 if = {
 	limit = { has_dlc = "Man the Guns" }

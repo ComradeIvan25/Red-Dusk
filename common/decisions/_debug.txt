@@ -213,4 +213,29 @@ debug_decisions = {
 
 		}	
 	}		
+	
+	trigger_soviet_melancholy = {
+	
+		icon = generic_prepare_civil_war
+	
+		allowed = {
+
+		}
+		available = {
+			is_debug = yes
+
+		}
+		visible = {
+			is_debug = yes
+		}
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			news_event = { id = old_times_news.74 }
+
+		}	
+	}
 }

@@ -57,6 +57,23 @@ ideas = {
 			}
 		}
 		
+		YUG_broken_brotherhood_2 = {
+			name = YUG_broken_brotherhood_name
+
+			removal_cost = -1
+
+			picture = YUG_broken_brotherhood_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.10
+				fascism_drift = -0.01
+			}
+		}
+		
 		YUG_what_are_we = {
 			name = YUG_what_are_we_name
 
@@ -97,7 +114,7 @@ ideas = {
 				fascism_drift = -0.01
 
 			}
-		}		
+		}			
 		
 		YUG_after_tito = {
 			name = YUG_after_tito_name

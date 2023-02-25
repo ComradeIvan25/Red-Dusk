@@ -2,14 +2,17 @@ focus_tree = {
 	id = yug_stambolic_communist_focus
 	country = {
 		factor = 0
-	#	modifier = {
-	#	add = 999
-	#	tag = YUG
-	#	}
+		modifier = {
+		add = 999
+		tag = YUG
+		}
 	}
 	
 	
 	default = no
+	shared_focus = YUG_matters_of_economy
+	shared_focus = YUG_future_of_the_army
+	
 	focus = {
 		id = YUG_stambolic_end_of_milosevic
 		icon = GFX_focus_YUG_goodbye_slobodane
@@ -61,7 +64,10 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = -30
+			add_political_power = 30
+			custom_effect_tooltip = yug_milosevic_loyalists_strength_increases_by_10
+			add_to_variable = {yug_loyalists_strength = 10}		
+			
 		}
 	}
 
@@ -86,6 +92,7 @@ focus_tree = {
 		continue_if_invalid = no
 		completion_reward = {
 			add_political_power = -30
+			unlock_decision_tooltip = yug_reform_the_SBD
 		}
 	}
 	
@@ -109,7 +116,9 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = -30
+			add_stability = 0.05
+			custom_effect_tooltip = yug_milosevic_loyalists_strength_decreases_by_15
+			add_to_variable = {yug_loyalists_strength = 15}	
 		}
 	}
 
@@ -124,7 +133,7 @@ focus_tree = {
 		mutually_exclusive = { }
                 relative_position_id = YUG_stambolic_dealing_with_the_loyalists
 		
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -134,7 +143,11 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = -30
+			add_stability = -0.10
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.10
+			}
 		}
 	}
 
@@ -208,7 +221,7 @@ focus_tree = {
 		mutually_exclusive = { }
                 relative_position_id = YUG_stambolic_end_of_milosevic
 		
-		cost = 2
+		cost = 4
 		ai_will_do = {
 			factor = 1
 		}
@@ -218,7 +231,14 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = -5
+			swap_ideas = {
+				remove_idea = YUG_broken_brotherhood
+				add_idea = YUG_broken_brotherhood_2
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.15
+			}
 		}
 	}
 	
@@ -233,8 +253,19 @@ focus_tree = {
 		
 		mutually_exclusive = { }
                 relative_position_id = YUG_stambolic_end_of_milosevic
+				
+		select_effect = {
+			if = {
+				limit = {check_variable = {yug_loyalists_strength > 49}}
+				country_event = {id = yug_stambolic.1}
+			}
+			else_if = {
+			
+			}
 		
-		cost = 2
+		}
+		
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -244,7 +275,10 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = -5
+			custom_effect_tooltip = yug_stambolic_army_warning
+			army_experience = -25
+			set_country_flag = yug_secured_the_army_flag
+			
 		}
 	}
 	
@@ -259,7 +293,7 @@ focus_tree = {
 		mutually_exclusive = { }
                 relative_position_id = YUG_stambolic_end_of_milosevic
 		
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -269,7 +303,11 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = -5
+			add_stability = 0.30
+			remove_ideas = YUG_what_are_we_2
+			
 		}
 	}
+	
+	
 }

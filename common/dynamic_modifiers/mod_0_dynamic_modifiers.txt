@@ -104,3 +104,59 @@ IRQ_modernization_plans = {
 	army_speed_factor = -0.5
 	
 }
+
+
+YUG_bosnia_SR = {
+	enable = { always = yes }
+
+	icon = GFX_yug_republics_icon_gui
+
+	state_resources_factor = -0.25
+	recruitable_population_factor = -0.15
+	local_building_slots_factor = 0.3
+	
+}
+
+YUG_montenegro_SR = {
+	enable = { always = yes }
+
+	icon = GFX_yug_republics_icon_gui
+
+	state_resources_factor = -0.25
+	recruitable_population_factor = -0.15
+	local_building_slots_factor = 0.3
+	
+}
+
+YUG_macedonia_SR = {
+	enable = { always = yes }
+
+	icon = GFX_yug_republics_icon_gui
+
+	state_resources_factor = -0.25
+	recruitable_population_factor = -0.15
+	local_building_slots_factor = 0.3
+	
+}
+
+YUG_serbia_SR = {
+	enable = { always = yes }
+
+	icon = GFX_yug_republics_icon_gui
+
+	state_resources_factor = 0.25
+	recruitable_population_factor = 0.15
+	local_building_slots_factor = 0.3
+	
+}
+
+YUG_backa_SAO = {
+	enable = { always = yes }
+
+	icon = GFX_yug_republics_icon_gui
+
+	state_resources_factor = 0.25
+	recruitable_population_factor = 0.15
+	local_building_slots_factor = 0.3
+	
+}

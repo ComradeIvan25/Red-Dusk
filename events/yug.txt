@@ -5,6 +5,7 @@ add_namespace = yug_intro
 add_namespace = yug_news
 add_namespace = yug_terror_attack
 add_namespace = yug_start
+add_namespace = yug_stambolic
 
 add_namespace = bos
 add_namespace = cro
@@ -702,6 +703,55 @@ country_event = {
 	option = {
 	name = yug.16.a
 
+	}
+
+}
+
+#STAMBOLIC#
+
+#The Army Coup#
+country_event = {
+	id = yug_stambolic.1
+	title = yug_stambolic.1.t
+	desc = yug_stambolic.1.d
+	picture = GFX_report_event_YUG_SKJ_meeting
+	
+	is_triggered_only = yes
+	
+	#We need loc#
+	option = {
+	name = yug_stambolic.1.a
+		YUG = {
+		add_political_power = -300
+		add_stability = -0.30
+		remove_ideas = YUG_what_are_we_2
+			set_politics = {
+				ruling_party = fascism
+				last_election = "1991.5.3"
+				election_frequency = 36
+				elections_allowed = no
+			}
+			retire_ideology_leader = fascism
+			add_country_leader_role = {
+			  character = YUG_ratko_mladic
+			  promote_leader = yes
+			  country_leader = {
+				ideology = fascism_ideology
+				expire = "2050.1.1.1"
+				traits = { }
+			  }
+			}
+			
+			set_popularities = {
+				democratic = 10
+				fascism = 40
+				communism = 20
+				paternal_autocracy = 30 
+				reformed_communism = 0
+				
+			}
+			load_focus_tree = generic_focus
+		}
 	}
 
 }

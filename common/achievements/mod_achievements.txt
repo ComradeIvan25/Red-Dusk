@@ -76,3 +76,16 @@ another_mans_fortune = {
 		
 	}
 }
+
+nine_elevent = {
+	
+	possible = {
+		has_start_date < 2000.01.02
+	}
+	
+	happened = {
+		tag = NRO
+		owns_state = 267
+		date < 2001.09.11
+	}
+}

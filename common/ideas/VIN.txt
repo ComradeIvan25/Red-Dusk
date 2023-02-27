@@ -459,6 +459,11 @@ ideas = {
 				stability_factor = -0.08
 			    research_speed_factor = -0.1
 				drift_defence_factor = -0.05
+				political_power_factor = -0.12
+				political_advisor_cost_factor = 100.0
+				army_advisor_cost_factor = 100.0
+				navy_advisor_cost_factor = 100.0
+				air_advisor_cost_factor = 100.0
 			}
 		}
 		VIN_corruption_2 = {
@@ -477,6 +482,11 @@ ideas = {
 				stability_factor = -0.1
 				research_speed_factor = -0.1
 				drift_defence_factor = -0.05
+				political_power_factor = -0.12
+				political_advisor_cost_factor = 100.0
+				army_advisor_cost_factor = 100.0
+				navy_advisor_cost_factor = 100.0
+				air_advisor_cost_factor = 100.0
 			}
 		}
 

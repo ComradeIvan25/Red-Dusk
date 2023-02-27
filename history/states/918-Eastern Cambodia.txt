@@ -8,6 +8,9 @@ state={
 	history = {
 		add_core_of = CAM
 		owner = CAM
+        victory_points = {
+			7645 5
+		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -19,7 +22,7 @@ state={
 	}
 	manpower=3748000
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=city
 
 	local_supplies=0.0 
 }

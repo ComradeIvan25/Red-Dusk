@@ -3,13 +3,13 @@ state={
 	name="STATE_917"
 	manpower = 3392000
 	
-	state_category = rural
+	state_category = town
 
 	history={
 		owner = LAO
 		add_core_of = LAO
 		victory_points = {
-			1464 1
+			1563 3
 		}
 		buildings = {
 			industrial_complex = 1

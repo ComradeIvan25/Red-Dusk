@@ -42,7 +42,7 @@ sov_purging = {
 	priority = 15
 }
 
-sov_building_industry_ural = {
+sov_building_industry_ural = { 
 	icon = GFX_decision_category_SOV_merge_designers
 	allowed = {
 	}

@@ -3,13 +3,16 @@
 	
 	country = {
 		factor = 0
-		modifier = {
-		tag = SOV
-		add = 0
-		}
+		#modifier = {
+		#tag = SOV
+		#add = 999
+		#}
 	}
 	
 	default = no
+	
+	shared_focus = SOV_mil_the_soviet_armed_forces
+	
 	focus = {
 		id = SOV_the_hardliner
 		icon = GFX_SOV_the_hardliner

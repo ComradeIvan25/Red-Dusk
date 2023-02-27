@@ -6,6 +6,8 @@ focus_tree = {
 	}
 	
 	default = no
+	shared_focus = SOV_mil_the_soviet_armed_forces
+	
 	focus = {
 		id = SOV_put_solver
 		icon = GFX_focus_SOV_problem_solver

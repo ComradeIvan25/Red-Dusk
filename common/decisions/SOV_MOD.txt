@@ -1771,7 +1771,7 @@ sov_mining_resources_in_north_korea = {
 	
 }
 
-sov_building_industry_ural = {
+sov_building_industry_ural = { #replaced the "completed_focus" with "has_country_flag" until the yazov eco tree is done - durangoose
 
 	sov_build_civs_in_zlat = {
 		icon = GFX_decision_generic_factory
@@ -1780,10 +1780,10 @@ sov_building_industry_ural = {
 			original_tag = SOV
 		}
 		available = {
-			#has_completed_focus = SOV_expand_industry_in_urals
+			has_country_flag = SOV_expand_industry_in_urals
 		}
 		visible = {
-			#has_completed_focus = SOV_expand_industry_in_urals
+			has_country_flag = SOV_expand_industry_in_urals
 		}
 		
 		cost = 5
@@ -1810,10 +1810,10 @@ sov_building_industry_ural = {
 			original_tag = SOV
 		}
 		available = {
-			#has_completed_focus = SOV_expand_industry_in_urals
+			has_country_flag = SOV_expand_industry_in_urals
 		}
 		visible = {
-			#has_completed_focus = SOV_expand_industry_in_urals
+			has_country_flag = SOV_expand_industry_in_urals
 		}
 		
 		cost = 5
@@ -1840,10 +1840,10 @@ sov_building_industry_ural = {
 			original_tag = SOV
 		}
 		available = {
-			#has_completed_focus = SOV_expand_industry_in_urals
+			has_country_flag = SOV_expand_industry_in_urals
 		}
 		visible = {
-			#has_completed_focus = SOV_expand_industry_in_urals
+			has_country_flag = SOV_expand_industry_in_urals
 		}
 		
 		cost = 5

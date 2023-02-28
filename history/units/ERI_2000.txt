@@ -44,7 +44,7 @@ units = {
 			location = 13250
 			division_template = "Infantry Division"		# Regular Infantry
 			start_experience_factor = 0.8
-			start_equipment_factor = 0.5
+			start_equipment_factor = 0.8
 
 		}
 		
@@ -56,7 +56,7 @@ units = {
 			location = 13250
 			division_template = "Infantry Division"		# Regular Infantry
 			start_experience_factor = 0.8
-			start_equipment_factor = 0.5
+			start_equipment_factor = 0.8
 
 		}
 		
@@ -68,7 +68,7 @@ units = {
 			location = 12766
 			division_template = "Infantry Division"		# Regular Infantry
 			start_experience_factor = 0.8
-			start_equipment_factor = 0.5
+			start_equipment_factor = 0.8
 
 		}
 		
@@ -80,7 +80,7 @@ units = {
 			location = 13237
 			division_template = "Infantry Division"		# Regular Infantry
 			start_experience_factor = 0.8
-			start_equipment_factor = 0.5
+			start_equipment_factor = 0.8
 
 		}
 		
@@ -92,7 +92,7 @@ units = {
 			location = 13251
 			division_template = "Infantry Division"		# Regular Infantry
 			start_experience_factor = 0.8
-			start_equipment_factor = 0.5
+			start_equipment_factor = 0.8
 
 		}
 		
@@ -104,7 +104,7 @@ units = {
 			location = 12766
 			division_template = "Infantry Division"		# Regular Infantry
 			start_experience_factor = 0.8
-			start_equipment_factor = 0.5
+			start_equipment_factor = 0.8
 
 		}
 		
@@ -116,7 +116,7 @@ units = {
 			location = 13237
 			division_template = "Infantry Division"		# Regular Infantry
 			start_experience_factor = 0.8
-			start_equipment_factor = 0.5
+			start_equipment_factor = 0.8
 
 		}
 		
@@ -128,7 +128,7 @@ units = {
 			location = 13330
 			division_template = "Armored Division"		# Armored Division
 			start_experience_factor = 0.8
-			start_equipment_factor = 0.5
+			start_equipment_factor = 0.8
 
 		}
 		
@@ -140,7 +140,7 @@ units = {
 			location = 12766
 			division_template = "Armored Division"		# Armored Division
 			start_experience_factor = 0.8
-			start_equipment_factor = 0.5
+			start_equipment_factor = 0.8
 
 		}
 }

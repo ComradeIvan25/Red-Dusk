@@ -5,6 +5,7 @@ ethiopia_invading_eritia_properly = {
 
 	enable = {
 		ETH = {has_war_with = ERI}
+		ETH = {has_idea = ETH_operation_weridwali}
 	}
 	abort = {
 		NOT = {

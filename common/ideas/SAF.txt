@@ -945,6 +945,25 @@ ideas = {
 				army_morale_factor = 0.02
 			}
 		}
+		
+		SAF_new_south_african_army = {
+			name = SAF_new_south_african_army
+
+			removal_cost = -1
+
+			#picture =
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_attack_factor = 0.065
+				army_defence_factor = 0.065
+				army_org_factor = 0.05
+				land_reinforce_rate = 0.05
+			}
+		}
 
 		SAF_new_home_african_democracy_idea = {
 			name = SAF_new_home_african_democracy_idea_name

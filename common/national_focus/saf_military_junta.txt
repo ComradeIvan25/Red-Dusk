@@ -1,7 +1,7 @@
 focus_tree = {
 	id = saf_military_junta_focus
 	country = {
-		factor = 0
+		factor = 999
 	}
 
 	default = no
@@ -1000,7 +1000,7 @@ focus_tree = {
 	
 	focus = {
 		id = SAF_junta_economy_keep_them_for_the_junta
-		icon = GFX_focus_SAF_keep_them_for_the_junta
+		icon = x
 		x = -5
 		y = 4
 		
@@ -1491,6 +1491,485 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = SAF_junta_military_the_air_force
+		icon = GFX_goal_unknown
+		x = 50
+		y = 9
+		
+		prerequisite = { focus = SAF_junta_military_an_army_with_a_state }
+		
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+		add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_buy_foreign_military_jets
+		icon = GFX_goal_unknown
+		x = 48
+		y = 10
+		
+		prerequisite = { focus = SAF_junta_military_the_air_force }
+		
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+			add_political_power = -50
+			add_ideas = SAF_foreign_jet_import_costs_idea
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_formalize_the_agreement
+		icon = GFX_goal_unknown
+		x = 48
+		y = 11
+		
+		prerequisite = { focus = SAF_junta_military_buy_foreign_military_jets }
+		
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = fighter_equipment_2
+				amount = 50
+				producer = FRA
+			}
+			add_equipment_to_stockpile = {
+				type = attacker_equipment_1
+				amount = 50
+				producer = ENG
+			}
+			hidden_effect = {
+				remove_ideas = SAF_foreign_jet_import_costs_idea
+				add_timed_idea = {
+					idea = SAF_foreign_jet_import_costs_timed_idea
+					days = 180
+				}
+			}
+			custom_effect_tooltip = SAF_junta_formalize_agreement_focus_tt
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_a_reborn_airforce
+		icon = GFX_goal_unknown
+		x = 50
+		y = 12
+		
+		prerequisite = { focus = SAF_junta_military_formalize_the_agreement focus = SAF_junta_military_prioritize_attackers focus = SAF_junta_military_prioritize_fighters }
+		
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+		add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_increase_war_planes_production
+		icon = GFX_goal_unknown
+		x = 52
+		y = 10
+		
+		prerequisite = { focus = SAF_junta_military_the_air_force }
+		
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_timed_idea = {
+				idea = SAF_increase_war_planes_production_idea
+				days = 365
+			}
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_prioritize_attackers
+		icon = GFX_goal_unknown
+		x = 51
+		y = 11
+		
+		prerequisite = { focus = SAF_junta_military_increase_war_planes_production }
+		mutually_exclusive = { focus = SAF_junta_military_prioritize_fighters }
+		
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_ideas = SAF_prioritize_attackers_idea
+			if = {
+				limit = {
+					NOT = { has_tech = attacker_2000 }
+				}
+				set_technology = {
+					attacker_2000 = 1
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_tech = attacker_1990 }
+				}
+				set_technology = {
+					attacker_1990 = 1
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_tech = attacker_1980 }
+				}
+				set_technology = {
+					attacker_1980 = 1
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_prioritize_fighters
+		icon = GFX_goal_unknown
+		x = 53
+		y = 11
+		
+		prerequisite = { focus = SAF_junta_military_increase_war_planes_production }
+		mutually_exclusive = { focus = SAF_junta_military_prioritize_attackers }
+		
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+			add_ideas = SAF_prioritize_fighters_idea
+			if = {
+				limit = {
+					NOT = { has_tech = fighter_2000 }
+				}
+				set_technology = {
+					fighter_2000 = 1
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_tech = fighter_2010 }
+				}
+				set_technology = {
+					fighter_2010 = 1
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_tech = fighter_2020 }
+				}
+				set_technology = {
+					fighter_2020 = 1
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_the_fuel_shortage
+		icon = GFX_goal_unknown
+		x = 44
+		y = 10
+		
+		prerequisite = { focus = SAF_junta_military_the_air_force }
+		
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+			add_political_power = -50
+			add_ideas = SAF_fuel_shortage_idea
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_our_american_friends
+		icon = GFX_goal_unknown
+		x = 43
+		y = 11
+		
+		prerequisite = { focus = SAF_junta_military_the_fuel_shortage }
+		mutually_exclusive = { focus = SAF_junta_military_exploit_our_territory }
+		
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+			add_opinion_modifier = {
+				target = USA
+				modifier = SAF_fuel_american_friends_opinion
+			}
+			custom_effect_tooltip = SAF_junta_american_friends_focus_tt
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_meet_with_the_president
+		icon = GFX_goal_unknown
+		x = 43
+		y = 12
+		
+		prerequisite = { focus = SAF_junta_military_our_american_friends }
+		
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+		add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_sign_trade_agreement
+		icon = GFX_goal_unknown
+		x = 43
+		y = 13
+		
+		prerequisite = { focus = SAF_junta_military_meet_with_the_president }
+		
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+			add_political_power = 100
+			add_ideas = SAF_american_trade_agreement_idea
+			add_offsite_building = {
+				type = synthetic_refinery
+				level = 1
+			add_opinion_modifier = {
+				target = USA
+				modifier = SAF_fuel_american_agreement_opinion
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_crisis_resolved
+		icon = GFX_goal_unknown
+		x = 44
+		y = 14
+		
+		prerequisite = { focus = SAF_junta_military_sign_trade_agreement focus = SAF_junta_military_build_more_oil_extractors }
+		
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.05
+			if = {
+				limit = {
+					has_idea = SAF_exploit_our_territory_idea
+				}
+				remove_ideas = SAF_exploit_our_territory_idea
+			}
+			if = {
+				limit = {
+					has_idea = SAF_fuel_shortage_idea
+				}
+				remove_ideas = SAF_fuel_shortage_idea
+			}
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_we_rule_the_skies_again
+		icon = GFX_goal_unknown
+		x = 44
+		y = 15
+		
+		prerequisite = { focus = SAF_junta_military_crisis_resolved }
+		
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+			add_ideas = SAF_we_rule_skies_idea
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_exploit_our_territory
+		icon = GFX_goal_unknown
+		x = 45
+		y = 11
+		
+		prerequisite = { focus = SAF_junta_military_the_fuel_shortage }
+		mutually_exclusive = { focus = SAF_junta_military_our_american_friends }
+		
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+			add_political_power = -50
+			add_ideas = SAF_exploit_our_territory_idea
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_localize_oil_fields
+		icon = GFX_goal_unknown
+		x = 45
+		y = 12
+		
+		prerequisite = { focus = SAF_junta_military_exploit_our_territory }
+		
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+			add_political_power = -50
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_build_more_oil_extractors
+		icon = GFX_goal_unknown
+		x = 45
+		y = 13
+		
+		prerequisite = { focus = SAF_junta_military_localize_oil_fields }
+		
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
 		id = SAF_junta_military_the_army
 		icon = GFX_goal_unknown
 		x = 25
@@ -1520,6 +1999,7 @@ focus_tree = {
 		y = 0
 		
 		prerequisite = { focus = SAF_junta_military_the_army}
+		mutually_exclusive = { focus = SAF_junta_military_slightly_increase_military_funds }
 		
 		cost = 10
 		ai_will_do = {
@@ -1530,6 +2010,208 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		relative_position_id = SAF_junta_economy_improve_the_roads
+		
+		completion_reward = {
+		add_political_power = -100
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_slightly_increase_military_funds
+		icon = GFX_goal_unknown
+		x = 30
+		y = 0
+		
+		prerequisite = { focus = SAF_junta_military_the_army}
+		mutually_exclusive = { focus = SAF_junta_military_highly_increase_military_funds }
+		
+		cost = 10
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_improve_the_roads
+		
+		completion_reward = {
+		add_political_power = -100
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_support_construction_of_military_factories
+		icon = GFX_goal_unknown
+		x = 66
+		y = 11
+		
+		prerequisite = { focus = SAF_junta_military_slightly_increase_military_funds }
+		
+		cost = 10
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+		add_political_power = -100
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_increase_of_weapons_production
+		icon = GFX_goal_unknown
+		x = 68
+		y = 11
+		
+		prerequisite = { focus = SAF_junta_military_slightly_increase_military_funds }
+		
+		cost = 10
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+		add_political_power = -100
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_train_standard_soldier_divisions
+		icon = GFX_goal_unknown
+		x = 67
+		y = 12
+		
+		prerequisite = { focus = SAF_junta_military_support_construction_of_military_factories }
+		prerequisite = { focus = SAF_junta_military_increase_of_weapons_production }
+		
+		cost = 10
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+		add_political_power = -100
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_improve_division_organization
+		icon = GFX_goal_unknown
+		x = 68
+		y = 13
+		
+		prerequisite = { focus = SAF_junta_military_train_standard_soldier_divisions }
+		
+		cost = 10
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+		add_political_power = -100
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_coordinated_training
+		icon = GFX_goal_unknown
+		x = 68
+		y = 14
+		
+		prerequisite = { focus = SAF_junta_military_improve_division_organization }
+		
+		cost = 10
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+		add_political_power = -100
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_improve_logistic_systems
+		icon = GFX_goal_unknown
+		x = 66
+		y = 13
+		
+		prerequisite = { focus = SAF_junta_military_train_standard_soldier_divisions }
+		
+		cost = 10
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+		add_political_power = -100
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_buy_new_transport_vehicles
+		icon = GFX_goal_unknown
+		x = 66
+		y = 14
+		
+		prerequisite = { focus = SAF_junta_military_improve_logistic_systems }
+		
+		cost = 10
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+		add_political_power = -100
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_a_better_shield_for_the_homeland
+		icon = GFX_goal_unknown
+		x = 67
+		y = 15
+		
+		prerequisite = { focus = SAF_junta_military_buy_new_transport_vehicles }
+		prerequisite = { focus = SAF_junta_military_coordinated_training }
+		
+		cost = 10
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
 		
 		completion_reward = {
 		add_political_power = -100
@@ -1609,7 +2291,230 @@ focus_tree = {
 		relative_position_id = SAF_junta_economy_support_the_foundation_of_military_transport_companies
 		
 		completion_reward = {
+			add_political_power = -50
+			921 = {
+				create_unit = {
+					division = "division_template = \"Light Infantry Division\""
+					owner = SAF
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_special_military_battalions
+		icon = GFX_goal_unknown
+		x = 57
+		y = 13
+		
+		prerequisite = { focus = SAF_junta_military_found_new_militia_forces}
+		
+		cost = 6
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
 		add_political_power = -50
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_use_junta_extra_funds
+		icon = GFX_goal_unknown
+		x = 57
+		y = 14
+		
+		prerequisite = { focus = SAF_junta_military_special_military_battalions}
+		
+		cost = 6
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+		add_political_power = -50
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_mechanize_the_army
+		icon = GFX_goal_unknown
+		x = 55
+		y = 14
+		
+		prerequisite = { focus = SAF_junta_military_special_military_battalions}
+		
+		cost = 6
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+			hidden_effect = {
+				division_template = {
+					name = "Mechanized Division"
+					division_names_group = GENERIC_MEC_01
+
+					regiments = {
+						heavy_infantry_unit  = { x = 0 y = 0 }
+						heavy_infantry_unit  = { x = 0 y = 1 }
+						heavy_infantry_unit  = { x = 0 y = 2 }
+						heavy_infantry_unit  = { x = 0 y = 3 }
+						heavy_infantry_unit  = { x = 1 y = 0 }
+						heavy_infantry_unit  = { x = 1 y = 1 }
+						heavy_infantry_unit  = { x = 1 y = 2 }
+						heavy_infantry_unit  = { x = 1 y = 3 }
+						motorised_artillery_unit = { x = 2 y = 0 }
+						motorised_artillery_unit = { x = 2 y = 1 }
+					}
+					support = {
+						engineer = { x = 0 y = 0 }
+						logistics_company = { x = 0 y = 1 }
+					}
+				}
+			}
+			custom_effect_tooltip = SAF_junta_mechanize_army_tt
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_focus_on_the_infantry
+		icon = GFX_goal_unknown
+		x = 59
+		y = 14
+		
+		prerequisite = { focus = SAF_junta_military_special_military_battalions}
+		
+		cost = 6
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+			hidden_effect = {
+				division_template = {
+					name = "Large Infantry Division"
+					division_names_group = GENERIC_INF_01
+
+					regiments = {
+						infantry_unit  = { x = 0 y = 0 }
+						infantry_unit  = { x = 0 y = 1 }
+						infantry_unit  = { x = 0 y = 2 }
+						infantry_unit  = { x = 0 y = 3 }
+						infantry_unit  = { x = 1 y = 0 }
+						infantry_unit  = { x = 1 y = 1 }
+						infantry_unit  = { x = 1 y = 2 }
+						towed_artillery_unit  = { x = 2 y = 0 }
+						towed_artillery_unit  = { x = 2 y = 1 }
+					}
+					support = {
+						engineer = { x = 0 y = 0 }
+					}
+				}
+			}
+			custom_effect_tooltip = SAF_parliment_focus_infantry_tt
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "division_template = \"Large Infantry Division\""
+					owner = SAF
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_found_jaguars_of_johannesburg
+		icon = GFX_goal_unknown
+		x = 55
+		y = 15
+		available = {
+			has_template = "Mechanized Division"
+		}
+		prerequisite = { focus = SAF_junta_military_focus_on_the_infantry}
+		prerequisite = { focus = SAF_junta_military_mechanize_the_army}
+		prerequisite = { focus = SAF_junta_military_use_junta_extra_funds}
+		
+		cost = 6
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+			275 = {
+				create_unit = {
+					division = "name = \"Jaguars of Johannesburg\" division_template = \"Mechanized Division\""
+					owner = SAF
+				}
+			}
+			add_ideas = SAF_jaguars_johannesburg_idea
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_new_combat_doctrines
+		icon = GFX_goal_unknown
+		x = 59
+		y = 15
+		
+		prerequisite = { focus = SAF_junta_military_focus_on_the_infantry}
+		prerequisite = { focus = SAF_junta_military_mechanize_the_army}
+		prerequisite = { focus = SAF_junta_military_use_junta_extra_funds}
+		
+		cost = 6
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+		add_political_power = -50
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_phoenix_reborn
+		icon = GFX_goal_unknown
+		x = 57
+		y = 16
+		
+		prerequisite = { focus = SAF_junta_military_found_jaguars_of_johannesburg}
+		prerequisite = { focus = SAF_junta_military_new_combat_doctrines}
+		
+		cost = 6
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = {
+			add_ideas = SAF_new_south_african_army
 		}
 	}
 }

@@ -46,6 +46,12 @@ on_actions = {
 			news_event = {id = old_times_news.39 days = 1}
 			}
 		}
+		
+		effect = {
+			ERI = {
+			news_event = {id = eritrea_mod.1 days = 2}
+			}
+		}		
 
 		effect = {
 			YUG = {

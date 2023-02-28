@@ -9,6 +9,7 @@ set_convoys = 5
 recruit_character = ETH_mengistu
 
 add_ideas = ETH_soviet
+add_ideas = ETH_mass_insurgency
 add_timed_idea = {
 idea = ETH_operation_weridwali
 days = 145

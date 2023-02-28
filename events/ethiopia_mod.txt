@@ -165,7 +165,43 @@ country_event = {
 				ideology = communism
 				popularity = 1.0
 			}
+		remove_ideas = ETH_mass_insurgency	
 		news_event = {id =  old_times_news.60} 
+		
+		ai_chance = {
+		factor = 100
+		}
+	}
+}
+
+#rebels crushed#
+country_event = {
+	id = ethiopia_mod.4
+	title = ethiopia_mod.4.t
+	desc = ethiopia_mod.4.d
+	picture = GFX_report_event_spark
+	
+	trigger = {
+	original_tag = ETH
+	NOT = {	has_war_with = ERI}
+	NOT = {	has_war_with = ETV}
+	NOT = {	has_country_flag = eth_weridwali_fails }
+	}
+
+	fire_only_once = yes
+
+		#veri cool#
+	option = {
+		name = ethiopia_mod.4.a
+		add_stability = 0.55
+		add_war_support = 0.55
+		add_political_power = 150
+			add_popularity = {
+				ideology = communism
+				popularity = 0.35
+			}
+		
+		remove_ideas = ETH_mass_insurgency
 		
 		ai_chance = {
 		factor = 100

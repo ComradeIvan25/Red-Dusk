@@ -17,7 +17,7 @@ characters = {
 			id = -1
 		}
 		field_marshal={
-			traits={ }
+			traits={infantry_leader}
 			skill=4
 			attack_skill=2
 			defense_skill=3

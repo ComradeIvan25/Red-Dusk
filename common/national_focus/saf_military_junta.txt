@@ -1,7 +1,7 @@
 focus_tree = {
 	id = saf_military_junta_focus
 	country = {
-		factor = 999
+		factor = 0
 	}
 
 	default = no

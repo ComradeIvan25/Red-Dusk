@@ -976,4 +976,8 @@ SML = {
 	color = rgb { 87  165  104 }
 	color_ui = rgb { 99  165  104 }
 }
+DYR = { 
+	color = rgb { 128 195 230  }
+	color_ui = rgb { 128 195 230 }
+}
 

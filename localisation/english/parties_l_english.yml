@@ -44,7 +44,7 @@
  anarchist_communism_desc:0 "An ideology embracing the idea of communism as a stateless society, Anarchist Communism eschews the idea of a transitionary socialist state and favors a society based on voluntary associations and mutual aid."
  juche:0 "Juche"
  juche_desc:0 "Juche developed in North Korea during the Cold War and is recognized as a variant of Communism. The political system of the Juche is characterized by total respect for the state and its Supreme Leader. The Supreme Leader (in this case Kim Jong Il) is treated with the utmost respect and revered almost like a God. He is respected by the entire population, across the nation there are portraits, photos or statues reminding the current Supreme Leader and the elders. The Juche symbol is characterized by three symbols: the sickle symbolizes the farmers, the hammer the workers and finally the brush symbolizes the intellectuals. Over the years, citizens have created total trust in themselves and in the Party."
- maoism:0 "Maoism"
+ maoism:0 "Maoism" 
  maoism_desc:0 "Placeholder"
 
  market_socialism:0 "Market Socialism"
@@ -738,6 +738,7 @@
  PHI_communism_party_long:0 "Partido Komunista ng Pilipinas"
  SAU_neutrality_party:0 "House of Saud"
  YEM_neutrality_party:0 "House of Rassid"
+ YEM_fascism_party:0 "General People's Congress"
  KUW_neutrality_party:0 "House of Sabah"
  UAE_neutrality_party:0 "House of Al Nahyan"
  OMA_neutrality_party:0 "House of Al Bu SaidF"
@@ -1258,3 +1259,4 @@
  NRO_socialism_party_long:0 "National Islamic Movement of Afghanistan"
  NRO_paternal_autocracy_party:0 "Hezb-e Wahdat"
  NRO_paternal_autocracy_party_long:0 "Islamic Unity Party of Afghanistan"
+ DYR_reformed_communism_party:0 "Yemeni Socialist Party" 

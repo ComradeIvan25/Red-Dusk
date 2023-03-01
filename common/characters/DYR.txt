@@ -1,0 +1,17 @@
+characters = {
+
+	DYR_Ali_Salem_al_Beidh = {
+		name = "Ali Salem al Beidh"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/DYR/Ali_Salem_al_Beidh.png"
+			}
+		}
+		country_leader = {
+			ideology = market_socialism
+			traits = {}
+			expire = "2050.3.1"
+			id = -1
+		}
+	}
+}

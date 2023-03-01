@@ -1,11 +1,11 @@
 state={
 	id=900
 	name="STATE_900"
-	manpower = 21303
+	manpower = 31303
 	state_category = small_island
 
 	history={
-		owner = YEM
+		owner = DRY
 		buildings = {
 			infrastructure = 1
 			

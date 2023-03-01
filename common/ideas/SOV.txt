@@ -2020,9 +2020,9 @@ ideas = {
 
 		}
 		
-		ubreakable_pact = {
+		unbreakable_pact = {
 
-			name = ubreakable_pact_name
+			name = unbreakable_pact_name
 
 			removal_cost = -1
 

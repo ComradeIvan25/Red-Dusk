@@ -665,4 +665,8 @@ spriteTypes = {
 		name = "GFX_report_event_2002_election_result"
 		texturefile = "gfx/event_pictures/VIN/vin.20.png"
 	}
+	spriteType = {
+		name = "GFX_news_invasion_of_taiwan"
+		texturefile = "gfx/event_pictures/news_invasion_of_taiwan.png"
+	}
 }

@@ -31,4 +31,30 @@ country_event = {
 	}
 }
 
+#ww3 starts - time to invade taiwan#
+country_event = {
+	id = prc.2
+	title = prc.2.t
+	desc = prc.2.d
+	picture = GFX_report_event_SAF_mandela
+	
+	trigger = {
+		original_tag = PRC
+		USA = {has_war_with = SOV}
+	}
+	
+	
+	option = {
+		name = prc.2.a	
+		news_event = { id = old_times_news.76 hours = 6 }
+		    declare_war_on = {
+                target = CHI
+                type = annex_everything
+            }
+	}
+
+}
+
+
+
 

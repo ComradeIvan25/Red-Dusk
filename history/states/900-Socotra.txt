@@ -5,7 +5,8 @@ state={
 	state_category = small_island
 
 	history={
-		owner = DRY
+		owner = DYR
+		add_core_of = DYR
 		buildings = {
 			infrastructure = 1
 			

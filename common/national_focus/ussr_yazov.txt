@@ -1989,17 +1989,31 @@
 		
 		
 		completion_reward = {
-		POL = {add_ideas = ubreakable_pact}
-		ROM = {add_ideas = ubreakable_pact}
-		HUN = {add_ideas = ubreakable_pact}
-		SLO = {add_ideas = ubreakable_pact}
-		YUG = {add_ideas = ubreakable_pact}
+		POL = {add_ideas = unbreakable_pact}
+		ROM = {add_ideas = unbreakable_pact}
+		HUN = {add_ideas = unbreakable_pact}
+		SLO = {add_ideas = unbreakable_pact}
+		
+				IF = {
+					limit = { 			 
+						YUG = {is_in_faction_with = SOV}
+					 
+					}
+					YUG = {add_ideas = unbreakable_pact}
+				}
+					
+				else_if = {
+						limit = {
+							
+						}
+				}
+		
 				IF = {
 					limit = { 			 
 						CZE = {has_government = communism is_puppet_of = SOV }
 					 
 					}
-					CZE = {add_ideas = ubreakable_pact}
+					CZE = {add_ideas = unbreakable_pact}
 				}
 					
 				else_if = {
@@ -2014,7 +2028,7 @@
 						BUL = {has_government = communism is_puppet_of = SOV }
 					 
 					}
-					BUL = {add_ideas = ubreakable_pact}
+					BUL = {add_ideas = unbreakable_pact}
 				}
 					
 				else_if = {
@@ -2028,7 +2042,7 @@
 						ALB = {has_government = communism is_puppet_of = SOV }
 					 
 					}
-					ALB = {add_ideas = ubreakable_pact}
+					ALB = {add_ideas = unbreakable_pact}
 				}
 					
 				else_if = {

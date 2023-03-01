@@ -1153,6 +1153,20 @@ news_event = {
 	}
 }
 
+news_event = {
+	id = old_times_news.76
+	title = old_times_news.76.t
+	desc = old_times_news.76.d
+	picture = GFX_news_invasion_of_taiwan
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.76.a
+	}
+}
 ### FLAVOUR NEWS EVENTS ###
 
 ## Concorde Trigger (HIDDEN) ##

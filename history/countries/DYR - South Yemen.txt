@@ -1,4 +1,4 @@
-﻿capital = 5074
+﻿capital = 659
 
 oob = "DYR_2000"
 

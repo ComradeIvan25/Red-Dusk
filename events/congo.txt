@@ -298,35 +298,35 @@ country_event = {
 		trigger = {
 		original_tag = RCK
 			295 = {
-			is_controlled_by = COG
+			is_controlled_by = RCK
 			}
 		
 			538 = {
-			is_controlled_by = COG
+			is_controlled_by = RCK
 			}
 			
 			718 = {
-			is_controlled_by = COG
+			is_controlled_by = RCK
 			}
 			
 			932 = {
-			is_controlled_by = COG
+			is_controlled_by = RCK
 			}
 			
 			929 = {
-			is_controlled_by = COG
+			is_controlled_by = RCK
 			}
 			
 			931 = {			
-			is_controlled_by = COG
+			is_controlled_by = RCK
 			}
 			
 			930 = {			
-			is_controlled_by = COG
+			is_controlled_by = RCK
 			}
 			
 			933 = {			
-			is_controlled_by = COG
+			is_controlled_by = RCK
 			}
 
 		}
@@ -458,35 +458,35 @@ country_event = {
 		trigger = {
 		original_tag = RGO
 			295 = {
-			is_controlled_by = COG
+			is_controlled_by = RGO
 			}
 		
 			538 = {
-			is_controlled_by = COG
+			is_controlled_by = RGO
 			}
 			
 			718 = {
-			is_controlled_by = COG
+			is_controlled_by = RGO
 			}
 			
 			932 = {
-			is_controlled_by = COG
+			is_controlled_by = RGO
 			}
 			
 			929 = {
-			is_controlled_by = COG
+			is_controlled_by = RGO
 			}
 			
 			931 = {			
-			is_controlled_by = COG
+			is_controlled_by = RGO
 			}
 			
 			930 = {			
-			is_controlled_by = COG
+			is_controlled_by = RGO
 			}
 			
 			933 = {			
-			is_controlled_by = COG
+			is_controlled_by = RGO
 			}
 			
 		}

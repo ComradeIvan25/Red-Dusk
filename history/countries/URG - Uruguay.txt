@@ -2,10 +2,12 @@
 
 #oob = "URG_1936"
 if = {
-	limit = { has_dlc = "Man the Guns" }
-		#set_naval_oob = "URG_1936_naval_mtg"
-	else = {
-		#set_naval_oob = "URG_1936_naval_legacy"
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+
+	set_technology = {
+		destroyer_hull_1960 = 1
 	}
 }
 
@@ -29,4 +31,10 @@ set_popularities = {
 	neutrality = 0
 	paternal_autocracy = 0
 	fascism = 0
+}
+
+# Naval Variants #
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_naval_oob = "URG_2000_naval_mtg"
 }

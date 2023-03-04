@@ -29,8 +29,8 @@ units = {
 			ship = { name = "TCG Yıldıray" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = TUR creator = GER version_name = "Type 209/1200 Class" } } }
 			ship = { name = "TCG Doğanay" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = TUR creator = GER version_name = "Type 209/1200 Class" } } }
 			ship = { name = "TCG Dolunay" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = TUR creator = GER version_name = "Type 209/1200 Class" } } }
-			ship = { name = "TCG Uluç Ali Reis" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = TUR creator = USA version_name = "Tench GUPPY IIA Class" } } }
-			ship = { name = "TCG Murat Reis" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = TUR creator = USA version_name = "Tench GUPPY IIA Class" } } }
+			ship = { name = "TCG Uluç Ali Reis" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = TUR creator = USA version_name = "Tench GUPPY II Class" } } }
+			ship = { name = "TCG Murat Reis" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = TUR creator = USA version_name = "Tench GUPPY II Class" } } }
 		}
 	}
 	fleet = {

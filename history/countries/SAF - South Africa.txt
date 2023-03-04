@@ -94,10 +94,13 @@ recruit_character = SAF_john_retief
 add_ideas = SAF_apartheid_idea
 add_ideas = SAF_military_state_idea
 add_ideas = SAF_anc_insurgency_idea
+add_ideas = SAF_overstretched_military_idea
 
 add_ideas = usa_aligned_nation
 
 set_variable = {anc_fight_strength = 90}
+
+country_lock_all_division_template = yes
 
 set_politics = {
 	ruling_party = fascism

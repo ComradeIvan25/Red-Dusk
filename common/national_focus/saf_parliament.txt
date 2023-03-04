@@ -2019,6 +2019,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			SAF = {
+				country_event = { id = saf.16 }
+			}
 		}
 	}
 	focus = {
@@ -2437,39 +2440,13 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = SAF_parliment_train_troops
-		#icon = 
-		x = 0
-		y = 1
-		relative_position_id = SAF_parliment_army_volunteers
-
-		prerequisite = { focus = SAF_parliment_army_volunteers }
-		
-		cost = 7
-		ai_will_do = {
-		}
-
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = SAF_improving_the_army_idea
-				add_idea = SAF_improving_the_army_2_idea
-			}
-			random_owned_controlled_state = {
-				create_unit = {
-					division = "division_template = \"Light Infantry Division\""
-					owner = SAF
-				}
-			}
-		}
-	}
-	focus = {
 		id = SAF_parliment_improve_logistic_system
 		#icon = 
 		x = -1
 		y = 1
-		relative_position_id = SAF_parliment_train_troops
+		relative_position_id = SAF_parliment_army_volunteers
 
-		prerequisite = { focus = SAF_parliment_train_troops }
+		prerequisite = { focus = SAF_parliment_army_volunteers }
 		
 		cost = 1
 		ai_will_do = {
@@ -2504,9 +2481,9 @@ focus_tree = {
 		#icon = 
 		x = 1
 		y = 1
-		relative_position_id = SAF_parliment_train_troops
+		relative_position_id = SAF_parliment_army_volunteers
 
-		prerequisite = { focus = SAF_parliment_train_troops }
+		prerequisite = { focus = SAF_parliment_army_volunteers }
 		
 		cost = 5
 		ai_will_do = {
@@ -2514,8 +2491,8 @@ focus_tree = {
 
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = SAF_improving_the_army_2_idea
-				add_idea = SAF_improving_the_army_3_idea
+				remove_idea = SAF_improving_the_army_idea
+				add_idea = SAF_improving_the_army_2_idea
 			}
 		}
 	}
@@ -2551,7 +2528,7 @@ focus_tree = {
 
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = SAF_improving_the_army_3_idea
+				remove_idea = SAF_improving_the_army_2_idea
 				add_idea = SAF_quality_over_quantity_idea
 			}
 		}

@@ -13354,3 +13354,6 @@
 13353;58;100;8;land;false;hills;1
 13354;6;51;142;land;false;hills;1
 13355;164;242;251;land;false;hills;1
+13356;123;15;200;land;true;plains;6
+13357;87;232;59;land;true;forest;6
+13358;68;77;209;sea;true;ocean;0

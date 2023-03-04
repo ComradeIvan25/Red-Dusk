@@ -453,14 +453,13 @@ country_event = {
 	id = saf.16
 	title = saf.16.t
 	desc = saf.16.d
-	picture = GFX_report_event_onwards_south_africa
+	picture = GFX_report_event_SAF_army_1
 	
 	is_triggered_only = yes
 	
 	
 	option = {
-		name = saf.16.a	
-
+		name = saf.16.a
 	}
 }
 

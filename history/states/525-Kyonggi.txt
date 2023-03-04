@@ -8,10 +8,10 @@ state={
 		add_core_of = SKR
 		add_core_of = KOR
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			air_base = 10
-			industrial_complex = 15
-			arms_factory = 4
+			industrial_complex = 10
+			arms_factory = 3
 			anti_air_building = 4
 			7221 = {
 				naval_base = 8
@@ -21,7 +21,13 @@ state={
 			}
 		}
 		victory_points = {
-			7125 3 
+			7125 25
+		}
+		victory_points = {
+			7221 20
+		}
+		victory_points = {
+			7204 15
 		}
 		add_core_of = SKR
 		add_core_of = KOR

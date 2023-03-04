@@ -5,6 +5,14 @@ state={
 		owner = KOR
 		add_core_of = KOR
 		add_core_of = SKR
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		victory_points = {
+			6928 5
+		}
 	}
 	provinces={
 		848 3981 6928 7171 10083 11770 

@@ -10,7 +10,7 @@ state={
 		add_claim_by = CHI
 		add_core_of = PRC
 		victory_points = {
-			1319 10 
+			7446 15
 		}
 		buildings = {
 			infrastructure = 2

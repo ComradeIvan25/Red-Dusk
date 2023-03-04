@@ -905,23 +905,6 @@ ideas = {
 			modifier = {
 				army_core_attack_factor = 0.03
 				army_core_defence_factor = 0.03
-			}
-		}
-
-		SAF_improving_the_army_3_idea = {
-			name = SAF_improving_the_army_idea_name
-
-			removal_cost = -1
-
-			#picture =
-
-			allowed = {
-				always = no
-			}
-
-			modifier = {
-				army_core_attack_factor = 0.03
-				army_core_defence_factor = 0.03
 				army_org_factor = 0.025
 				army_morale_factor = 0.015
 			}
@@ -982,6 +965,32 @@ ideas = {
 				army_org_factor = 0.035
 				army_morale_factor = 0.035
 				political_power_gain = 0.1
+			}
+		}
+
+		SAF_overstretched_military_idea = {
+			name = SAF_overstretched_military_idea_name
+
+			removal_cost = -1
+
+			#picture =
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_cost = 0.5
+				stability_weekly = -0.0065
+				war_support_factor = -0.1
+				army_attack_factor = -0.05
+				army_defence_factor = -0.05
+				army_org_factor = -0.05
+				custom_modifier_tooltip = SAF_overstretched_military_idea_tt
+			}
+
+			on_remove = {
+				country_lock_all_division_template = no
 			}
 		}
 

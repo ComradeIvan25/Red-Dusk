@@ -517,6 +517,8 @@
  SAF_junta_mechanize_army_tt:0 "§YA new§! §OMechanized Division§! §Ytemplate will be created§!"
  SAF_junta_focus_infantry_tt:0 "§YA new§! §OLarge Infantry Division§! §Ytemplate will be created§!"
 
+ SAF_overstretched_military_idea_tt:0 "§RCannot train units, disband units, or edit unit templates.§!"
+
  ## GENERIC ##
 
  decision_cost_CP_10_PP_60:0 "£command_power  §Y10§! £political_power  §Y60§!"

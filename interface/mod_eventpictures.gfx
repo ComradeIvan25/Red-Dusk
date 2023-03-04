@@ -388,13 +388,19 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_desperate_mesurse.dds"
 	}
 	spriteType = {
-		name = "GFX_report_event_SAF_attack"
-		texturefile = "gfx/event_pictures/report_event_attack.dds"
-	}
-	spriteType = {
 		name = "GFX_report_event_SAF_old_friends"
 		texturefile = "gfx/event_pictures/report_event_old_friends.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_SAF_attack"
+		texturefile = "gfx/event_pictures/SAF/report_event_SAF_attack.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_SAF_army_1"
+		texturefile = "gfx/event_pictures/SAF/report_event_SAF_army_1.dds"
+	}
+
+	## ANC ##
 	spriteType = {
 		name = "GFX_report_event_ANC_fire"
 		texturefile = "gfx/event_pictures/report_event_fire.dds"

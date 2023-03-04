@@ -1959,7 +1959,16 @@
  SAF_parliment_mass_increase_weapons_production_desc:0 "Our armories are rarely full, and our army, although large and poorly equipped, to solve this problem it was decided to exponentially increase the production of Weapons and Military Equipment, soon this problem will just be an old memory."
  SAF_parliment_found_militia_forces:0 "Found New Militia Forces"
  SAF_parliment_found_militia_forces_desc:0 "In order to suppress the rebels, the Military Chief decided to establish a new Military Militia, to better manage the actions against the rebels without directly involving the army.and possibly wasting resources that can be useful to us in other Wars, instead of just a bunch of disorganized Rebels. The new Militia forces will be part of a Rebel Suppression Group, and in the event of War, will be fully operable to fight against professional armies."
- 
+ SAF_parliment_mechanize_army:0 "Mechanize the Army"
+ SAF_parliment_mechanize_army_desc:0 "Our military is equal to that of a third world nation, and this thing is just unacceptable! We cannot allow a nation like ours to be equal to one of the Third World. Therefore, the High Command decided to mechanize the Army, to improve his Quality and capabilities."
+ SAF_parliment_found_jaguars_corp:0 "Found the Jaguars of Johannesburg Corps"
+ SAF_parliment_found_jaguars_corp_desc:0 "After forming our first mechanized division, the time has come to form a new military corps, so that our army is much more efficient, and capable of fighting. We will make sure our Corp, will be one of the best in the Whole Africa, and, thanks to our new mechanized Units, our Troops Will be more fast, and new-old tactics would be more efficent."
+ SAF_parliment_focus_infantry:0 "Focus on the Infantry"
+ SAF_parliment_focus_infantry_desc:0 "Modernization is useless, our army is as efficient as that of a European country, focusing more on infantry, the most important part of our army,  we will be much better prepared for frontal engagements, and our troops will have the upper hand. Why change traditions for modernization? To win a battle you just need to have more men than enemy bullets!"
+ SAF_parliment_new_combat_doctrines:0 "New Combat Doctrines"
+ SAF_parliment_new_combat_doctrines_desc:0 "To adjust the choices made for "how to spend funds on infantry" we need new doctrines to adapt our troops to the new Combat system, by doing so, they will be trained better, and our enemies will have no hope of Deafeting the Great South African Army!"
+ SAF_parliment_new_republican_army:0 "Like a Phoenix from the Ashes"
+ SAF_parliment_new_republican_army_desc:0 "Thus, just like a Phoenix, we are, or rather, our army, managed to be reborn from the Ashes of the previous decadent administration, and is now one of the most powerful thanks to the Junta. But not only is he one of the most powerful in Africa, but we also managed to solve the army overfounding problem,and now, our Troops, are stronger than Ever. All this was possible thanks to the great mind of Viljoen, who thanks to his administration and skills both Governmental and Military managed to make our army one of the best."
 
  ### ANC ###
   

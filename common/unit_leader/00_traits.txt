@@ -292,15 +292,11 @@ leader_traits = {
 		type = land
 		trait_type = personality_trait
 		unit_type = {
-			type = motorized
 			type = heavy_infantry_unit
 		}
 		
 		unit_trigger = {
-			OR = {
-				division_has_majority_template = motorized
-				division_has_majority_template = heavy_infantry_unit
-			}
+			division_has_majority_template = heavy_infantry_unit
 
 		}
 		

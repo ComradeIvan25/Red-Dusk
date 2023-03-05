@@ -3115,6 +3115,7 @@ focus_tree = {
 				remove_idea = IRQ_no-fly_zones
 				add_idea = IRQ_no-fly_zones_2
 			}
+			custom_effect_tooltip = IRQ_tt_contest_no-fly_zone
 		}
 	}
 
@@ -3456,6 +3457,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			custom_effect_tooltip = IRQ_tt_request_foreign_aid
 		}
 	}
 

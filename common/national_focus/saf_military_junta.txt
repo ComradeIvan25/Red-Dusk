@@ -1816,10 +1816,10 @@ focus_tree = {
 			add_offsite_building = {
 				type = synthetic_refinery
 				level = 1
+			}
 			add_opinion_modifier = {
 				target = USA
 				modifier = SAF_fuel_american_agreement_opinion
-				}
 			}
 		}
 	}

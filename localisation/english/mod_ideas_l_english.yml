@@ -269,6 +269,8 @@
  IRQ_yugo_aircraft_mechanics_payments_name_desc:0 "By providing Iraq with mechanics and spare parts for their air force, we are putting ourselves at risk of Western sanctions. To ease our concerns, the Iraqis have provided us with significant financial reward."
  IRQ_foreign_ship_payments_irq_name:0 "Foreign Ship Purchases"
  IRQ_foreign_ship_payments_name:0 "Iraqi Ship Purchases"
+ IRQ_foreign_equipment_payments_irq_name:0 "Foreign Equipment Purchases"
+ IRQ_foreign_equipment_payments_name:0 "Iraqi Equipment Purchases"
  IRQ_the_propaganda_machine_modifier:0 "Propaganda Machine"
  IRQ_the_propaganda_machine_costs_modifier:0 "Propaganda Machine Costs"
  IRQ_dreams_of_a_greater_iraq_name:0 "Dreams of a Greater Iraq"

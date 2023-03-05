@@ -848,6 +848,17 @@
  saf.16.t:0 "South Africa Army Report"
  saf.16.d:0 "The current state of our army is quite pitiful, in fact, even if our army is numerous, the logistic apparatus is in ruins and our units do not receive any kind of supply in areas of the nation, mainly in the Desertic areas. So, as our logistic apparatus, same thing for the national armory, in fact it is almost completely empty, our units do not have enough equipment to fight, or how to do their job properly.\n\nOur strength, i.e. our great army, has become our Weakness, provoking us lack of Equipment in our Stockpile, and its greatness has caused its own suffering, in fact, we have many units, but badly equipped, and organized.\n\nThe main intentions of the "Army Reform Plan" are:\n- Reformation of our Army, by every means. This means reforming our army, creating new battalions, or disbanding Divisions, in Order to recover Equipment.\n- Resolve the overstreached Army problem. Solving our army over size problems, most of our army problems Will be resolved, such as poor organization, incompetent soldiers and so on."
  saf.16.a:0 "Sent it to Viljoen."
+ saf.17.t:0 "South Africa requests heavy armaments"
+ saf.17.d:0 "The South African army has sent a request for a batch of heavy weapons, as part of their efforts to reform and reorganise their equipment stocks. Our plethora of mothballed equipment is sitting in storage sites in the desert, some of which could be renovated and sent to them at no loss to us. However, this equipment could prove vital in a future global conflict, so it might be best that we hold onto it for now..."
+ saf.17.a:0 "Give them weapons from our reserve"
+ saf.17.b:0 "No can do"
+ saf.18.t:0 "The United States accepts our request"
+ saf.18.d:0 "The United States has accept our request for heavy weapons, and has already dispatched a shipment from one of their many equipment storage sites. While certainly not the latest and greatest that is available, this should be more than enough in any conflict on the African continent, and will be a useful addition to our ground forces."
+ saf.18.a:0 "They are useful allies"
+ saf.19.t:0 "The United States rejects our request"
+ saf.19.d:0 "Unfortunately, the United States has denied our request for heavy weaponry. While they do have thousands of equipment sitting mothballed in storage sites, they emphasise that this equipment will be vital in winning a future global conflict, and must be continuously available for their own armed forces."
+ saf.19.a:0 "Unfortunate..."
+
  #SAF_HELP#
 
  usa_help.1.t:0 "South Africa Asks for Help"

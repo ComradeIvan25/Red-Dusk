@@ -43,6 +43,7 @@ country_event = {
 		USA = {has_war_with = SOV}
 	}
 	
+	fire_only_once = yes
 	
 	option = {
 		name = prc.2.a	

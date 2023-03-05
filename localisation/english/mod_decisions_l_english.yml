@@ -164,7 +164,18 @@
  IRQ_rebuild_navy_purchase_old_sub_decision:0 "Purchase retired Soviet Submarines"
  IRQ_rebuild_navy_purchase_old_chinese_ship_decision:0 "Purchase Chinese Frigate"
  IRQ_rebuild_navy_purchase_new_chinese_sub_decision:0 "Purchase Chinese Submarines"
- 
+
+ irq_category_request_foreign_aid:0 "Purchase Foreign Equipment"
+ irq_category_request_foreign_aid_desc:0 "Although our military-industrial complex is one of the most powerful ones in the region, it is not capable of mass-producing a plethora of high quality military equipment. If we want to quickly replace our large stocks of mostly obsolete equipment, we must reach out to our partners abroad."
+ IRQ_request_foreign_aid_purchase_soviet_weapons_decision:0 "Purchase Soviet Infantry Weapons"
+ IRQ_request_foreign_aid_purchase_soviet_hightech_weapons_decision:0 "Purchase Soviet Guided Weapons"
+ IRQ_request_foreign_aid_purchase_soviet_motorised_decision:0 "Purchase Soviet Trucks"
+ IRQ_request_foreign_aid_purchase_soviet_apc_decision:0 "Purchase Soviet Armoured Personnel Carriers"
+ IRQ_request_foreign_aid_purchase_prc_weapons_decision:0 "Purchase Chinese Infantry Weapons"
+ IRQ_request_foreign_aid_purchase_prc_hightech_weapons_decision:0 "Purchase Chinese Guided Weapons"
+ IRQ_request_foreign_aid_purchase_prc_motorised_decision:0 "Purchase Chinese Trucks"
+ IRQ_request_foreign_aid_purchase_prc_apc_decision:0 "Purchase Chinese Armoured Personnel Carriers"
+
  irq_category_propaganda_machine:0 "The Propaganda Machine"
  irq_category_propaganda_machine_desc:0 "In the face of a new millenium, Saddam Hussein has increased the propaganda efforts to increase the populace's trust in Iraq, and spread the goals of our regime to the people of Iraq.\n\nThanks to our propaganda we will have the following effects :\n\n[?irq_propaganda_effect_political_var|+%] Political power and ideology drift defence.\n\n[?irq_propaganda_effect_army_var|+%] Division attack & defence and division.\n\n[?irq_propaganda_effect_efficiency_var|+%] Military factory speed, stability and war support.\n\nThe costs of our propaganda efforts are:\n\n[?irq_propaganda_effect_costs_var|+%] Factory output.\n\n[?irq_propaganda_effect_costs_consumer_goods_var|-%] Consumer goods."
  IRQ_propaganda_increase_propaganda_resources:0 "Increase Propaganda Resources"
@@ -298,6 +309,32 @@
  custom_trigger_tt_irq_kurdish_assassination:0 "Faction is not §GConciliatory§!"
  custom_trigger_tt_irq_unity_very_low:0 "Faction unity is §GVery Low§!"
 
+ irq_category_contest_nofly_zone:0 "Contest No-Fly Zone"
+ irq_category_contest_nofly_zone_desc:0 "A strict no-fly zone has been enforced over large sections of our nation by the United States and its allies since the early 1990s. Regular precision strikes and bombing runs have decimated our air defences and infrastructure. It is time to reorganise our tactics and begin to put up stiffer resistance, and make this no-fly zone more costly than it is worth."
+ IRQ_nofly_zone_map_status_list_headers_1:0 "§YIraqi Kurdistan§!"
+ IRQ_nofly_zone_map_status_list_headers_2:0 "§YCentral Iraq§!"
+ IRQ_nofly_zone_map_status_list_headers_3:0 "§YSouthern Iraq§!"
+ IRQ_nofly_zone_map_status_list_headers_4:0 "§YAl Basrah§!"
+ IRQ_nofly_zone_map_status_list_1:0 "Airspace: [IRQ_no-fly_zone_region_1_airspace]\nAir Defences: [IRQ_no-fly_zone_region_1_defences]\nIntelligence: [IRQ_no-fly_zone_region_1_intelligence]"
+ IRQ_nofly_zone_map_status_list_2:0 "Airspace: [IRQ_no-fly_zone_region_2_airspace]\nAir Defences: [IRQ_no-fly_zone_region_2_defences]\nIntelligence: [IRQ_no-fly_zone_region_2_intelligence]"
+ IRQ_nofly_zone_map_status_list_3:0 "Airspace: [IRQ_no-fly_zone_region_3_airspace]\nAir Defences: [IRQ_no-fly_zone_region_3_defences]\nIntelligence: [IRQ_no-fly_zone_region_3_intelligence]"
+ IRQ_nofly_zone_map_status_list_4:0 "Airspace: [IRQ_no-fly_zone_region_4_airspace]\nAir Defences: [IRQ_no-fly_zone_region_4_defences]\nIntelligence: [IRQ_no-fly_zone_region_4_intelligence]"
+ IRQ_nofly_zone_map_descriptions:0 "§YAirspace§!\nThe no-fly zone in the region is in effect until the airspace is considered safe for our air force to operate in.\n\n§YAir Defences§!\nAir defences enable us to counter coalition strike and bombing missions in the region, making them more costly.\n\n§YIntelligence§!\nIntelligence networks will consist of both radar sites and ground operatives, and will warn us of major coalition operations in advance."
+
+ IRQ_contest_nofly_zone_region_1_new_air_defences_decision:0 "Create new air defences in Iraqi Kurdistan"
+ IRQ_contest_nofly_zone_region_1_new_air_defences_decision_desc:0 "We must replace our damaged and weary air defences with new equipment, manned by fresh and capable recruits."
+ IRQ_contest_nofly_zone_region_2_new_air_defences_decision:0 "Create new air defences in Central Iraq"
+ IRQ_contest_nofly_zone_region_2_new_air_defences_decision_desc:0 "We must replace our damaged and weary air defences with new equipment, manned by fresh and capable recruits."
+ IRQ_contest_nofly_zone_region_3_new_air_defences_decision:0 "Create new air defences in Southern Iraq"
+ IRQ_contest_nofly_zone_region_3_new_air_defences_decision_desc:0 "We must replace our damaged and weary air defences with new equipment, manned by fresh and capable recruits."
+ IRQ_contest_nofly_zone_region_4_new_air_defences_decision:0 "Create new air defences in Al Basrah"
+ IRQ_contest_nofly_zone_region_4_new_air_defences_decision_desc:0 "We must replace our damaged and weary air defences with new equipment, manned by fresh and capable recruits."
+
+ custom_trigger_tt_irq_nofly_zone_defences_tt:0 "§YAir Defences§! in the region are not §Goperational§!"
+
+ var_irq_nofly_zone_defences_increase:0 "§YAir Defences§! in the region §Gincrease§! in capability"
+ var_irq_nofly_zone_defences_decrease:0 "§YAir Defences§! in the region §Rdecrease§! in capability"
+
  ##YUGOSLAVIA##
  yug_deal_with_uprisings:0 "Dealing with Terrorism"
  yug_deal_with_uprisings_desc:0 "Internal seperatism and terrosim is destroying our nation. Now that we have dealt with other issues we are going to deal with this one too. However, because of our limited resources we can only focus and concentrate on one of the regions. \n\n§L>Figthing Strength Of The Rebels In Bosnia Is §R[?bosnia_fight_strength]%§!\n\n§!\n\n§L>Figthing Strength Of The Rebels In Kosovo Is §R[?albania_fight_strength]%§!\n\n"
@@ -387,6 +424,16 @@
  sov_cold_war_order_an_offensive_in_congo:0 "Order an Offensive in Congo"
  sov_cold_war_order_an_offensive_in_sri_lanka:0 "Order an Offensive in Sri Lanka"
 
+ saf_category_request_foreign_weapons:0 "Buy Foreign Weapons"
+ SAF_request_foreign_weapons_usa_small_decision:0 "Buy a small amount of weapons from the USA"
+ SAF_request_foreign_weapons_usa_medium_decision:0 "Buy a medium amount of weapons from the USA"
+ SAF_request_foreign_weapons_usa_large_decision:0 "Buy a large amount of weapons from the USA"
+ SAF_request_foreign_weapons_fra_small_decision:0 "Buy a small amount of weapons from France"
+ SAF_request_foreign_weapons_fra_medium_decision:0 "Buy a medium amount of weapons from France"
+ SAF_request_foreign_weapons_fra_large_decision:0 "Buy a large amount of weapons from France"
+ SAF_request_foreign_weapons_eng_small_decision:0 "Buy a small amount of weapons from the UK"
+ SAF_request_foreign_weapons_eng_medium_decision:0 "Buy a medium amount of weapons from the UK"
+ SAF_request_foreign_weapons_eng_large_decision:0 "Buy a large amount of weapons from the UK"
  
 ## Indian Ocean Tsunami ##
 

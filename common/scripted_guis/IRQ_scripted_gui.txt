@@ -37,5 +37,20 @@ scripted_gui = {
 			original_tag = IRQ
 		}
 	}
+
+	irq_decision_ui_contest_nofly_zone = {
+		window_name = "irq_decision_ui_contest_nofly_zone_window"
+		context_type = decision_category
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		properties = {
+			iraq_nofly_zone_map_icon = {
+				frame = current_iraq_nofly_zone_map_frame
+			}
+		}
+	}
 	
 }

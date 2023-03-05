@@ -33,6 +33,14 @@ spriteTypes = {
 		name = "GFX_decision_cat_iraq_photo"
 		texturefile = "gfx/interface/decisions/decision_cat_iraq_photo.dds"
 	}
+	spriteType = {
+		name = "GFX_decision_cat_iraq_request_foreign_aid"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_iraq_request_foreign_aid.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_iraq_contest_nofly_zone"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_iraq_contest_nofly_zone.dds"
+	}
 	
 	### decision icon stuff ###
 	
@@ -145,5 +153,9 @@ spriteTypes = {
 	name = "GFX_decision_cat_iraq_propaganda"
 		texturefile = "gfx/interface/decisions/decision_cat_iraq_propaganda.dds"
 	}
-	
+
+	spriteType = {
+		name = "GFX_decision_generic_air_defence"
+		texturefile = "gfx/interface/decisions/decision_generic_air_defence.dds"
+	}
 }

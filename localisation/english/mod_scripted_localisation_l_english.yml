@@ -165,6 +165,15 @@
  IRQ_loc_key_stance_1:0 "§gDemocratic§!"
  IRQ_loc_key_stance_2:0 "§gProgressive§!"
  IRQ_loc_key_stance_3:0 "§gConciliatory§!"
+
+ IRQ_loc_key_nofly_zone_0:0 "§RDestroyed§!"
+ IRQ_loc_key_nofly_zone_1:0 "§ODamaged§!"
+ IRQ_loc_key_nofly_zone_2:0 "§YSuppressed§!"
+ IRQ_loc_key_nofly_zone_3:0 "§GOperational§!"
+
+ IRQ_loc_key_nofly_zone_airpsace_0:0 "§RLost§!"
+ IRQ_loc_key_nofly_zone_airpsace_1:0 "§YContested§!"
+ IRQ_loc_key_nofly_zone_airpsace_2:0 "§GSafe§!"
  
  IRQ_modernization_plans:0 "Modernization Plans"
  
@@ -184,7 +193,9 @@
  IRQ_tt_no_embargo_idea:0 "§YFree Trade will become available§!"
  IRQ_tt_exploit_internal_divisions:0 "§YDecisions to influence Kurdish factions will become available§!"
  IRQ_tt_exploit_internal_divisions_end:0 "§YDecisions to influence Kurdish factions will end§!"
- 
+ IRQ_tt_request_foreign_aid:0 "§YDecisions to purchase foreign equipment will become available§!"
+ IRQ_tt_contest_no-fly_zone:0 "§YDecisions to contest the no-fly zone will become available§!"
+
  irq_kurd_rebels_idea_tt:0 "§RIf the resistance reaches 80% Kurdistan will rebel.§!"
  
  #YUGOSLAVIA#
@@ -519,7 +530,8 @@
  SAF_parliment_formalize_agreement_focus_tt:0 "§OForeign Military Jets Importation Costs§! §Ynational spirit will be removed 180 days after focus completion§!"
  SAF_parliment_mechanize_army_tt:0 "§YA new§! §OMechanized Division§! §Ytemplate will be created§!"
  SAF_parliment_focus_infantry_tt:0 "§YA new§! §OLarge Infantry Division§! §Ytemplate will be created§!"
- 
+ SAF_parliment_buy_foreign_armaments_tt:0 "§YDecisions to purchase foreign equipment will become available§!"
+
  SAF_junta_american_friends_focus_tt:0 "§YBy taking this focus, we will attempt to sign a trade agreement with the United States§!"
  SAF_junta_formalize_agreement_focus_tt:0 "§OForeign Military Jets Importation Costs§! §Ynational spirit will be removed 180 days after focus completion§!"
  SAF_junta_mechanize_army_tt:0 "§YA new§! §OMechanized Division§! §Ytemplate will be created§!"

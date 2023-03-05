@@ -163,3 +163,511 @@ saf_deal_with_insurgents = {
 	}
 
 }
+
+saf_category_request_foreign_weapons = {
+
+	## United States ##
+
+	SAF_request_foreign_weapons_usa_small_decision = {
+
+		icon = GFX_decision_generic_industry
+
+		priority = 10
+
+		fire_only_once = yes
+
+		cost = 50
+
+		visible = {
+			original_tag = SAF
+		}
+
+		available = {
+			AND = {
+				country_exists = SAF
+				country_exists = USA
+				NOT = {
+					SAF = {
+						has_war_with = USA
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = SAF }
+				NOT = { country_exists = USA }
+				SAF = {
+					has_war_with = USA
+				}
+			}
+		}
+
+		remove_effect = {
+			SAF = {
+				add_equipment_to_stockpile = {
+					type = infantry_weapons
+					amount = 60
+					producer = USA
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 70
+					producer = USA
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+	SAF_request_foreign_weapons_usa_medium_decision = {
+
+		icon = GFX_decision_generic_industry
+
+		priority = 9
+
+		fire_only_once = yes
+
+		cost = 75
+
+		visible = {
+			original_tag = SAF
+		}
+
+		available = {
+			AND = {
+				country_exists = SAF
+				country_exists = USA
+				NOT = {
+					SAF = {
+						has_war_with = USA
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = SAF }
+				NOT = { country_exists = USA }
+				SAF = {
+					has_war_with = USA
+				}
+			}
+		}
+
+		remove_effect = {
+			SAF = {
+				add_equipment_to_stockpile = {
+					type = infantry_weapons
+					amount = 120
+					producer = USA
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 150
+					producer = USA
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+	SAF_request_foreign_weapons_usa_large_decision = {
+
+		icon = GFX_decision_generic_industry
+
+		priority = 8
+
+		fire_only_once = yes
+
+		cost = 100
+
+		visible = {
+			original_tag = SAF
+		}
+
+		available = {
+			AND = {
+				country_exists = SAF
+				country_exists = USA
+				NOT = {
+					SAF = {
+						has_war_with = USA
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = SAF }
+				NOT = { country_exists = USA }
+				SAF = {
+					has_war_with = USA
+				}
+			}
+		}
+
+		remove_effect = {
+			SAF = {
+				add_equipment_to_stockpile = {
+					type = infantry_weapons
+					amount = 225
+					producer = USA
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 240
+					producer = USA
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+
+	## France ##
+
+	SAF_request_foreign_weapons_fra_small_decision = {
+
+		icon = GFX_decision_generic_industry
+
+		priority = 7
+
+		fire_only_once = yes
+
+		cost = 50
+
+		visible = {
+			original_tag = SAF
+		}
+
+		available = {
+			AND = {
+				country_exists = SAF
+				country_exists = FRA
+				NOT = {
+					SAF = {
+						has_war_with = FRA
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = SAF }
+				NOT = { country_exists = FRA }
+				SAF = {
+					has_war_with = FRA
+				}
+			}
+		}
+
+		remove_effect = {
+			SAF = {
+				add_equipment_to_stockpile = {
+					type = infantry_weapons
+					amount = 60
+					producer = FRA
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 70
+					producer = FRA
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+	SAF_request_foreign_weapons_fra_medium_decision = {
+
+		icon = GFX_decision_generic_industry
+
+		priority = 6
+
+		fire_only_once = yes
+
+		cost = 75
+
+		visible = {
+			original_tag = SAF
+		}
+
+		available = {
+			AND = {
+				country_exists = SAF
+				country_exists = FRA
+				NOT = {
+					SAF = {
+						has_war_with = FRA
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = SAF }
+				NOT = { country_exists = FRA }
+				SAF = {
+					has_war_with = FRA
+				}
+			}
+		}
+
+		remove_effect = {
+			SAF = {
+				add_equipment_to_stockpile = {
+					type = infantry_weapons
+					amount = 120
+					producer = FRA
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 150
+					producer = FRA
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+	SAF_request_foreign_weapons_fra_large_decision = {
+
+		icon = GFX_decision_generic_industry
+
+		priority = 5
+
+		fire_only_once = yes
+
+		cost = 100
+
+		visible = {
+			original_tag = SAF
+		}
+
+		available = {
+			AND = {
+				country_exists = SAF
+				country_exists = FRA
+				NOT = {
+					SAF = {
+						has_war_with = FRA
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = SAF }
+				NOT = { country_exists = FRA }
+				SAF = {
+					has_war_with = FRA
+				}
+			}
+		}
+
+		remove_effect = {
+			SAF = {
+				add_equipment_to_stockpile = {
+					type = infantry_weapons
+					amount = 225
+					producer = FRA
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 240
+					producer = FRA
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+
+	## United Kingdom ##
+
+	SAF_request_foreign_weapons_eng_small_decision = {
+
+		icon = GFX_decision_generic_industry
+
+		priority = 4
+
+		fire_only_once = yes
+
+		cost = 50
+
+		visible = {
+			original_tag = SAF
+		}
+
+		available = {
+			AND = {
+				country_exists = SAF
+				country_exists = ENG
+				NOT = {
+					SAF = {
+						has_war_with = ENG
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = SAF }
+				NOT = { country_exists = ENG }
+				SAF = {
+					has_war_with = ENG
+				}
+			}
+		}
+
+		remove_effect = {
+			SAF = {
+				add_equipment_to_stockpile = {
+					type = infantry_weapons
+					amount = 60
+					producer = ENG
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 70
+					producer = ENG
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+	SAF_request_foreign_weapons_eng_medium_decision = {
+
+		icon = GFX_decision_generic_industry
+
+		priority = 3
+
+		fire_only_once = yes
+
+		cost = 75
+
+		visible = {
+			original_tag = SAF
+		}
+
+		available = {
+			AND = {
+				country_exists = SAF
+				country_exists = ENG
+				NOT = {
+					SAF = {
+						has_war_with = ENG
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = SAF }
+				NOT = { country_exists = ENG }
+				SAF = {
+					has_war_with = ENG
+				}
+			}
+		}
+
+		remove_effect = {
+			SAF = {
+				add_equipment_to_stockpile = {
+					type = infantry_weapons
+					amount = 120
+					producer = ENG
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 150
+					producer = ENG
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+	SAF_request_foreign_weapons_eng_large_decision = {
+
+		icon = GFX_decision_generic_industry
+
+		priority = 2
+
+		fire_only_once = yes
+
+		cost = 100
+
+		visible = {
+			original_tag = SAF
+		}
+
+		available = {
+			AND = {
+				country_exists = SAF
+				country_exists = ENG
+				NOT = {
+					SAF = {
+						has_war_with = ENG
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = SAF }
+				NOT = { country_exists = ENG }
+				SAF = {
+					has_war_with = ENG
+				}
+			}
+		}
+
+		remove_effect = {
+			SAF = {
+				add_equipment_to_stockpile = {
+					type = infantry_weapons
+					amount = 225
+					producer = ENG
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 240
+					producer = ENG
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+
+}

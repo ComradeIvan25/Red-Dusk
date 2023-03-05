@@ -141,4 +141,91 @@ guiTypes = {
 			position = { x = 30 y = 520 }
 		}
 	}
+
+	containerWindowType = {
+		name = "irq_decision_ui_contest_nofly_zone_window"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height= 540 }
+
+		iconType = {
+			name ="iraq_nofly_zone_map_icon"
+			spriteType = "GFX_decision_gui_iraq_nofly_zone_map"
+			position = { x = 15 y = 20 }
+		}
+		iconType = {
+			name ="iraq_nofly_zone_map_arrows_icon"
+			spriteType = "GFX_decision_gui_iraq_nofly_zone_map_arrows"
+			position = { x = 170 y = 20 }
+		}
+
+		instantTextBoxType = {
+			name ="iraq_nofly_zone_map_status_list_headers_1"
+			position = { x = 320 y = 25 }
+			font = "hoi_18mbs"
+			text = "IRQ_nofly_zone_map_status_list_headers_1"
+			format = left
+		}
+		instantTextBoxType = {
+			name ="iraq_nofly_zone_map_status_list_1"
+			position = { x = 320 y = 45 }
+			font = "hoi_16mbs"
+			text = "IRQ_nofly_zone_map_status_list_1"
+			format = left
+			maxWidth = 150
+		}
+		instantTextBoxType = {
+			name ="iraq_nofly_zone_map_status_list_headers_2"
+			position = { x = 320 y = 105 }
+			font = "hoi_18mbs"
+			text = "IRQ_nofly_zone_map_status_list_headers_2"
+			format = left
+		}
+		instantTextBoxType = {
+			name ="iraq_nofly_zone_map_status_list_2"
+			position = { x = 320 y = 125 }
+			font = "hoi_16mbs"
+			text = "IRQ_nofly_zone_map_status_list_2"
+			format = left
+			maxWidth = 150
+		}
+		instantTextBoxType = {
+			name ="iraq_nofly_zone_map_status_list_headers_3"
+			position = { x = 320 y = 185 }
+			font = "hoi_18mbs"
+			text = "IRQ_nofly_zone_map_status_list_headers_3"
+			format = left
+		}
+		instantTextBoxType = {
+			name ="iraq_nofly_zone_map_status_list_3"
+			position = { x = 320 y = 205 }
+			font = "hoi_16mbs"
+			text = "IRQ_nofly_zone_map_status_list_3"
+			format = left
+			maxWidth = 150
+		}
+		instantTextBoxType = {
+			name ="iraq_nofly_zone_map_status_list_headers_4"
+			position = { x = 320 y = 265 }
+			font = "hoi_18mbs"
+			text = "IRQ_nofly_zone_map_status_list_headers_4"
+			format = left
+		}
+		instantTextBoxType = {
+			name ="iraq_nofly_zone_map_status_list_4"
+			position = { x = 320 y = 285 }
+			font = "hoi_16mbs"
+			text = "IRQ_nofly_zone_map_status_list_4"
+			format = left
+			maxWidth = 150
+		}
+
+		instantTextBoxType = {
+			name ="iraq_nofly_zone_map_descriptions"
+			position = { x = 20 y = 340 }
+			font = "hoi_16mbs"
+			text = "IRQ_nofly_zone_map_descriptions"
+			format = left
+			maxWidth = 440
+		}
+	}
 }

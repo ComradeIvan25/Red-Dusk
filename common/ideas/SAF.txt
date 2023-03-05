@@ -973,7 +973,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture =
+			picture = MEX_politicised_army_2
 
 			allowed = {
 				always = no

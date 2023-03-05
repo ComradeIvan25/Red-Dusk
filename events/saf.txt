@@ -463,6 +463,70 @@ country_event = {
 	}
 }
 
+#Ask US for Heavy Armaments#
+country_event = {
+	id = saf.17
+	title = saf.17.t
+	desc = saf.17.d
+	picture = GFX_report_event_SAF_united_states_heavy_weapons_1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = saf.17.a
+
+		SAF = {
+			add_equipment_to_stockpile = {
+				type = towed_artillery_equipment
+				amount = 100
+				producer = USA
+			}
+			country_event = { id = saf.18 }
+		}
+
+		ai_chance = {
+			factor = 50
+		}
+	}
+	option = {
+		name = saf.17.b
+
+		SAF = {
+			country_event = { id = saf.19 }
+		}
+
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+#Ask US for Heavy Armaments - Accept#
+country_event = {
+	id = saf.18
+	title = saf.18.t
+	desc = saf.18.d
+	picture = GFX_report_event_SAF_united_states_heavy_weapons_1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = saf.18.a
+	}
+}
+#Ask US for Heavy Armaments - Reject#
+country_event = {
+	id = saf.19
+	title = saf.19.t
+	desc = saf.19.d
+	picture = GFX_report_event_SAF_united_states_heavy_weapons_1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = saf.19.a
+	}
+}
+
 #Hidden Event - Fuel Shortage#
 country_event = {
 	id = saf_hidden.1

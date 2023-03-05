@@ -43,7 +43,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_gui_kurdish_sun.dds"
 		legacy_lazy_load = no
 	}
-	
+
 	spriteType = {
 		name = "GFX_sov_army_faction_texticon"
 		texturefile = "gfx/texticons/sov_army_faction_texticon.dds"

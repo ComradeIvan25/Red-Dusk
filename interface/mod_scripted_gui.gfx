@@ -5,6 +5,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/scripted_gui/test_bar.dds"
 		noOfFrames = 5
 	}
+
+	spriteType = {
+		name = "GFX_decision_gui_iraq_nofly_zone_map"
+		texturefile = "gfx/interface/scripted_gui/decision_gui_iraq_nofly_zone_map.dds"
+		noOfFrames = 7
+	}
+	spriteType = {
+		name = "GFX_decision_gui_iraq_nofly_zone_map_arrows"
+		texturefile = "gfx/interface/scripted_gui/decision_gui_iraq_nofly_zone_map_arrows.dds"
+	}
 	
 	SpriteType = {
 		name = "GFX_saddam_eagle"

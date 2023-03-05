@@ -575,6 +575,7 @@ technologies = {
 		land_night_attack = 0.25
 
 		categories = {
+			infantry_weapons
 		}
 
 	}
@@ -610,6 +611,7 @@ technologies = {
 		land_night_attack = 0.10
 
 		categories = {
+			infantry_weapons
 		}
 
 	}
@@ -649,6 +651,7 @@ technologies = {
 		land_night_attack = 0.10
 
 		categories = {
+			infantry_weapons
 		}
 
 	}
@@ -679,6 +682,7 @@ technologies = {
 		land_night_attack = 0.10
 
 		categories = {
+			infantry_weapons
 		}
 
 	}
@@ -724,6 +728,7 @@ technologies = {
 		army_defence_factor = 0.1
 
 		categories = {
+			infantry_weapons
 		}
 
 	}
@@ -769,6 +774,7 @@ technologies = {
 		army_defence_factor = 0.025
 
 		categories = {
+			infantry_weapons
 		}
 
 	}
@@ -814,6 +820,7 @@ technologies = {
 		army_defence_factor = 0.025
 
 		categories = {
+			infantry_weapons
 		}
 
 	}
@@ -842,6 +849,7 @@ technologies = {
 		army_defence_factor = 0.025
 
 		categories = {
+			infantry_weapons
 		}
 
 	}

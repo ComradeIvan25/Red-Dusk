@@ -563,7 +563,7 @@ irq_category_rebuild_navy = {
 		}
 
 		available = {
-			OR = {
+			AND = {
 				country_exists = IRQ
 				country_exists = SOV
 				NOT = {
@@ -656,11 +656,13 @@ irq_category_rebuild_navy = {
 		}
 
 		available = {
-			OR = {
+			AND = {
 				country_exists = IRQ
 				country_exists = SOV
-				IRQ = {
-					has_war_with = SOV
+				NOT = {
+					IRQ = {
+						has_war_with = SOV
+					}
 				}
 			}
 			NOT = {
@@ -741,7 +743,7 @@ irq_category_rebuild_navy = {
 		}
 
 		available = {
-			OR = {
+			AND = {
 				country_exists = IRQ
 				country_exists = SOV
 				NOT = {
@@ -846,7 +848,7 @@ irq_category_rebuild_navy = {
 		}
 
 		available = {
-			OR = {
+			AND = {
 				country_exists = IRQ
 				country_exists = SOV
 				NOT = {
@@ -939,7 +941,7 @@ irq_category_rebuild_navy = {
 		}
 
 		available = {
-			OR = {
+			AND = {
 				country_exists = IRQ
 				country_exists = PRC
 				NOT = {
@@ -1026,11 +1028,13 @@ irq_category_rebuild_navy = {
 		}
 
 		available = {
-			OR = {
+			AND = {
 				country_exists = IRQ
 				country_exists = PRC
-				IRQ = {
-					has_war_with = PRC
+				NOT = {
+					IRQ = {
+						has_war_with = PRC
+					}
 				}
 			}
 			NOT = {
@@ -4235,6 +4239,924 @@ irq_category_kurdish_factions = {
 					}
 					custom_effect_tooltip = custom_effect_tt_irq_kurdish_11
 				}
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+
+}
+
+irq_category_request_foreign_aid = {
+
+	## Soviet ##
+
+	IRQ_request_foreign_aid_purchase_soviet_weapons_decision = {
+
+		icon = GFX_decision_generic_industry
+
+		priority = 10
+
+		days_remove = 20
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		available = {
+			AND = {
+				country_exists = IRQ
+				country_exists = SOV
+				NOT = {
+					IRQ = {
+						has_war_with = SOV
+					}
+				}
+			}
+			NOT = {
+				OR = {
+					has_decision = IRQ_request_foreign_aid_purchase_soviet_hightech_weapons_decision
+					has_decision = IRQ_request_foreign_aid_purchase_soviet_motorised_decision
+					has_decision = IRQ_request_foreign_aid_purchase_soviet_apc_decision
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = IRQ }
+				NOT = { country_exists = SOV }
+				IRQ = {
+					has_war_with = SOV
+				}
+			}
+		}
+
+		complete_effect = {
+			SOV = {
+				add_timed_idea = {
+					idea = IRQ_foreign_equipment_payments
+					days = 40
+				}
+			}
+			IRQ = {
+				add_timed_idea = {
+					idea = IRQ_foreign_equipment_payments_irq
+					days = 40
+				}
+			}
+		}
+
+		cancel_effect = {
+			SOV = {
+				remove_ideas = {
+					IRQ_foreign_equipment_payments
+				}
+			}
+			IRQ = {
+				remove_ideas = {
+					IRQ_foreign_equipment_payments_irq
+				}
+			}
+		}
+
+		remove_effect = {
+			IRQ = {
+				add_equipment_to_stockpile = {
+					type = infantry_weapons
+					amount = 1000
+					producer = SOV
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 100
+					producer = SOV
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	IRQ_request_foreign_aid_purchase_soviet_hightech_weapons_decision = {
+
+		icon = GFX_decision_generic_industry
+
+		priority = 9
+
+		days_remove = 30
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		available = {
+			AND = {
+				country_exists = IRQ
+				country_exists = SOV
+				NOT = {
+					IRQ = {
+						has_war_with = SOV
+					}
+				}
+			}
+			NOT = {
+				OR = {
+					has_decision = IRQ_request_foreign_aid_purchase_soviet_weapons_decision
+					has_decision = IRQ_request_foreign_aid_purchase_soviet_motorised_decision
+					has_decision = IRQ_request_foreign_aid_purchase_soviet_apc_decision
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = IRQ }
+				NOT = { country_exists = SOV }
+				IRQ = {
+					has_war_with = SOV
+				}
+			}
+		}
+
+		complete_effect = {
+			SOV = {
+				add_timed_idea = {
+					idea = IRQ_foreign_equipment_payments
+					days = 60
+				}
+			}
+			IRQ = {
+				add_timed_idea = {
+					idea = IRQ_foreign_equipment_payments_irq
+					days = 60
+				}
+			}
+		}
+
+		cancel_effect = {
+			SOV = {
+				remove_ideas = {
+					IRQ_foreign_equipment_payments
+				}
+			}
+			IRQ = {
+				remove_ideas = {
+					IRQ_foreign_equipment_payments_irq
+				}
+			}
+		}
+
+		remove_effect = {
+			IRQ = {
+				add_equipment_to_stockpile = {
+					type = infantry_anti_tank_weapons
+					amount = 100
+					producer = SOV
+				}
+				add_equipment_to_stockpile = {
+					type = infantry_anti_air_weapons
+					amount = 100
+					producer = SOV
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	IRQ_request_foreign_aid_purchase_soviet_motorised_decision = {
+
+		icon = GFX_decision_generic_industry
+
+		priority = 8
+
+		days_remove = 30
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		available = {
+			AND = {
+				country_exists = IRQ
+				country_exists = SOV
+				NOT = {
+					IRQ = {
+						has_war_with = SOV
+					}
+				}
+			}
+			NOT = {
+				OR = {
+					has_decision = IRQ_request_foreign_aid_purchase_soviet_weapons_decision
+					has_decision = IRQ_request_foreign_aid_purchase_soviet_hightech_weapons_decision
+					has_decision = IRQ_request_foreign_aid_purchase_soviet_apc_decision
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = IRQ }
+				NOT = { country_exists = SOV }
+				IRQ = {
+					has_war_with = SOV
+				}
+			}
+		}
+
+		complete_effect = {
+			SOV = {
+				add_timed_idea = {
+					idea = IRQ_foreign_equipment_payments
+					days = 60
+				}
+			}
+			IRQ = {
+				add_timed_idea = {
+					idea = IRQ_foreign_equipment_payments_irq
+					days = 60
+				}
+			}
+		}
+
+		cancel_effect = {
+			SOV = {
+				remove_ideas = {
+					IRQ_foreign_equipment_payments
+				}
+			}
+			IRQ = {
+				remove_ideas = {
+					IRQ_foreign_equipment_payments_irq
+				}
+			}
+		}
+
+		remove_effect = {
+			IRQ = {
+				add_equipment_to_stockpile = {
+					type = motorised_equipment
+					amount = 50
+					producer = SOV
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	IRQ_request_foreign_aid_purchase_soviet_apc_decision = {
+
+		icon = GFX_decision_generic_industry
+
+		priority = 7
+
+		days_remove = 45
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		available = {
+			AND = {
+				country_exists = IRQ
+				country_exists = SOV
+				NOT = {
+					IRQ = {
+						has_war_with = SOV
+					}
+				}
+			}
+			NOT = {
+				OR = {
+					has_decision = IRQ_request_foreign_aid_purchase_soviet_weapons_decision
+					has_decision = IRQ_request_foreign_aid_purchase_soviet_hightech_weapons_decision
+					has_decision = IRQ_request_foreign_aid_purchase_soviet_motorised_decision
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = IRQ }
+				NOT = { country_exists = SOV }
+				IRQ = {
+					has_war_with = SOV
+				}
+			}
+		}
+
+		complete_effect = {
+			SOV = {
+				add_timed_idea = {
+					idea = IRQ_foreign_equipment_payments
+					days = 90
+				}
+			}
+			IRQ = {
+				add_timed_idea = {
+					idea = IRQ_foreign_equipment_payments_irq
+					days = 90
+				}
+			}
+		}
+
+		cancel_effect = {
+			SOV = {
+				remove_ideas = {
+					IRQ_foreign_equipment_payments
+				}
+			}
+			IRQ = {
+				remove_ideas = {
+					IRQ_foreign_equipment_payments_irq
+				}
+			}
+		}
+
+		remove_effect = {
+			IRQ = {
+				add_equipment_to_stockpile = {
+					type = apc_tank_equipment
+					amount = 50
+					producer = SOV
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	## China ##
+
+	IRQ_request_foreign_aid_purchase_prc_weapons_decision = {
+
+		icon = GFX_decision_generic_industry
+
+		priority = 6
+
+		days_remove = 20
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		available = {
+			AND = {
+				country_exists = IRQ
+				country_exists = PRC
+				NOT = {
+					IRQ = {
+						has_war_with = PRC
+					}
+				}
+			}
+			NOT = {
+				OR = {
+					has_decision = IRQ_request_foreign_aid_purchase_prc_hightech_weapons_decision
+					has_decision = IRQ_request_foreign_aid_purchase_prc_motorised_decision
+					has_decision = IRQ_request_foreign_aid_purchase_prc_apc_decision
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = IRQ }
+				NOT = { country_exists = PRC }
+				IRQ = {
+					has_war_with = PRC
+				}
+			}
+		}
+
+		complete_effect = {
+			PRC = {
+				add_timed_idea = {
+					idea = IRQ_foreign_equipment_payments
+					days = 40
+				}
+			}
+			IRQ = {
+				add_timed_idea = {
+					idea = IRQ_foreign_equipment_payments_irq
+					days = 40
+				}
+			}
+		}
+
+		cancel_effect = {
+			PRC = {
+				remove_ideas = {
+					IRQ_foreign_equipment_payments
+				}
+			}
+			IRQ = {
+				remove_ideas = {
+					IRQ_foreign_equipment_payments_irq
+				}
+			}
+		}
+
+		remove_effect = {
+			IRQ = {
+				add_equipment_to_stockpile = {
+					type = infantry_weapons
+					amount = 1000
+					producer = PRC
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 100
+					producer = PRC
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	IRQ_request_foreign_aid_purchase_prc_hightech_weapons_decision = {
+
+		icon = GFX_decision_generic_industry
+
+		priority = 5
+
+		days_remove = 30
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		available = {
+			AND = {
+				country_exists = IRQ
+				country_exists = PRC
+				NOT = {
+					IRQ = {
+						has_war_with = PRC
+					}
+				}
+			}
+			NOT = {
+				OR = {
+					has_decision = IRQ_request_foreign_aid_purchase_prc_weapons_decision
+					has_decision = IRQ_request_foreign_aid_purchase_prc_motorised_decision
+					has_decision = IRQ_request_foreign_aid_purchase_prc_apc_decision
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = IRQ }
+				NOT = { country_exists = PRC }
+				IRQ = {
+					has_war_with = PRC
+				}
+			}
+		}
+
+		complete_effect = {
+			PRC = {
+				add_timed_idea = {
+					idea = IRQ_foreign_equipment_payments
+					days = 60
+				}
+			}
+			IRQ = {
+				add_timed_idea = {
+					idea = IRQ_foreign_equipment_payments_irq
+					days = 60
+				}
+			}
+		}
+
+		cancel_effect = {
+			PRC = {
+				remove_ideas = {
+					IRQ_foreign_equipment_payments
+				}
+			}
+			IRQ = {
+				remove_ideas = {
+					IRQ_foreign_equipment_payments_irq
+				}
+			}
+		}
+
+		remove_effect = {
+			IRQ = {
+				add_equipment_to_stockpile = {
+					type = infantry_anti_tank_weapons
+					amount = 100
+					producer = PRC
+				}
+				add_equipment_to_stockpile = {
+					type = infantry_anti_air_weapons
+					amount = 100
+					producer = PRC
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	IRQ_request_foreign_aid_purchase_prc_motorised_decision = {
+
+		icon = GFX_decision_generic_industry
+
+		priority = 4
+
+		days_remove = 30
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		available = {
+			AND = {
+				country_exists = IRQ
+				country_exists = PRC
+				NOT = {
+					IRQ = {
+						has_war_with = PRC
+					}
+				}
+			}
+			NOT = {
+				OR = {
+					has_decision = IRQ_request_foreign_aid_purchase_prc_weapons_decision
+					has_decision = IRQ_request_foreign_aid_purchase_prc_hightech_weapons_decision
+					has_decision = IRQ_request_foreign_aid_purchase_prc_apc_decision
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = IRQ }
+				NOT = { country_exists = PRC }
+				IRQ = {
+					has_war_with = PRC
+				}
+			}
+		}
+
+		complete_effect = {
+			PRC = {
+				add_timed_idea = {
+					idea = IRQ_foreign_equipment_payments
+					days = 60
+				}
+			}
+			IRQ = {
+				add_timed_idea = {
+					idea = IRQ_foreign_equipment_payments_irq
+					days = 60
+				}
+			}
+		}
+
+		cancel_effect = {
+			PRC = {
+				remove_ideas = {
+					IRQ_foreign_equipment_payments
+				}
+			}
+			IRQ = {
+				remove_ideas = {
+					IRQ_foreign_equipment_payments_irq
+				}
+			}
+		}
+
+		remove_effect = {
+			IRQ = {
+				add_equipment_to_stockpile = {
+					type = motorised_equipment
+					amount = 50
+					producer = PRC
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	IRQ_request_foreign_aid_purchase_prc_apc_decision = {
+
+		icon = GFX_decision_generic_industry
+
+		priority = 3
+
+		days_remove = 45
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		available = {
+			AND = {
+				country_exists = IRQ
+				country_exists = PRC
+				NOT = {
+					IRQ = {
+						has_war_with = PRC
+					}
+				}
+			}
+			NOT = {
+				OR = {
+					has_decision = IRQ_request_foreign_aid_purchase_prc_weapons_decision
+					has_decision = IRQ_request_foreign_aid_purchase_prc_hightech_weapons_decision
+					has_decision = IRQ_request_foreign_aid_purchase_prc_motorised_decision
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = IRQ }
+				NOT = { country_exists = PRC }
+				IRQ = {
+					has_war_with = PRC
+				}
+			}
+		}
+
+		complete_effect = {
+			PRC = {
+				add_timed_idea = {
+					idea = IRQ_foreign_equipment_payments
+					days = 90
+				}
+			}
+			IRQ = {
+				add_timed_idea = {
+					idea = IRQ_foreign_equipment_payments_irq
+					days = 90
+				}
+			}
+		}
+
+		cancel_effect = {
+			PRC = {
+				remove_ideas = {
+					IRQ_foreign_equipment_payments
+				}
+			}
+			IRQ = {
+				remove_ideas = {
+					IRQ_foreign_equipment_payments_irq
+				}
+			}
+		}
+
+		remove_effect = {
+			IRQ = {
+				add_equipment_to_stockpile = {
+					type = apc_tank_equipment
+					amount = 50
+					producer = PRC
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+}
+
+irq_category_contest_nofly_zone = {
+
+	# Air Defences #
+	IRQ_contest_nofly_zone_region_1_new_air_defences_decision = {
+
+		icon = GFX_decision_generic_air_defence
+
+		priority = 10
+
+		fire_only_once = no
+		days_remove = 45
+		days_re_enable = 90
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		available = {
+			AND = {
+				country_exists = IRQ
+				IRQ = { has_war = no }
+				custom_trigger_tooltip = {
+					tooltip = custom_trigger_tt_irq_nofly_zone_defences_tt
+					check_variable = {
+						var = irq_region_1_defences_value
+						value = 3
+						compare = not_equals
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			IRQ = {
+				has_completed_focus = IRQ_grant_partial_autonomy
+			}
+		}
+
+		remove_effect = {
+			add_to_variable = {
+				var = irq_region_1_defences_value
+				value = 1
+				tooltip = var_irq_nofly_zone_defences_increase
+			}
+			clamp_variable = {
+				var = irq_region_1_defences_value
+				max = 3
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+	IRQ_contest_nofly_zone_region_2_new_air_defences_decision = {
+
+		icon = GFX_decision_generic_air_defence
+
+		priority = 10
+
+		fire_only_once = no
+		days_remove = 45
+		days_re_enable = 90
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		available = {
+			AND = {
+				country_exists = IRQ
+				IRQ = { has_war = no }
+				custom_trigger_tooltip = {
+					tooltip = custom_trigger_tt_irq_nofly_zone_defences_tt
+					check_variable = {
+						var = irq_region_2_defences_value
+						value = 3
+						compare = not_equals
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			IRQ = {
+				has_completed_focus = IRQ_grant_partial_autonomy
+			}
+		}
+
+		remove_effect = {
+			add_to_variable = {
+				var = irq_region_2_defences_value
+				value = 1
+				tooltip = var_irq_nofly_zone_defences_increase
+			}
+			clamp_variable = {
+				var = irq_region_2_defences_value
+				max = 3
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+	IRQ_contest_nofly_zone_region_3_new_air_defences_decision = {
+
+		icon = GFX_decision_generic_air_defence
+
+		priority = 10
+
+		fire_only_once = no
+		days_remove = 45
+		days_re_enable = 90
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		available = {
+			AND = {
+				country_exists = IRQ
+				IRQ = { has_war = no }
+				custom_trigger_tooltip = {
+					tooltip = custom_trigger_tt_irq_nofly_zone_defences_tt
+					check_variable = {
+						var = irq_region_3_defences_value
+						value = 3
+						compare = not_equals
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			IRQ = {
+				has_completed_focus = IRQ_grant_partial_autonomy
+			}
+		}
+
+		remove_effect = {
+			add_to_variable = {
+				var = irq_region_3_defences_value
+				value = 1
+				tooltip = var_irq_nofly_zone_defences_increase
+			}
+			clamp_variable = {
+				var = irq_region_3_defences_value
+				max = 3
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+	IRQ_contest_nofly_zone_region_4_new_air_defences_decision = {
+
+		icon = GFX_decision_generic_air_defence
+
+		priority = 10
+
+		fire_only_once = no
+		days_remove = 45
+		days_re_enable = 90
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		available = {
+			AND = {
+				country_exists = IRQ
+				IRQ = { has_war = no }
+				custom_trigger_tooltip = {
+					tooltip = custom_trigger_tt_irq_nofly_zone_defences_tt
+					check_variable = {
+						var = irq_region_4_defences_value
+						value = 3
+						compare = not_equals
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			IRQ = {
+				has_completed_focus = IRQ_grant_partial_autonomy
+			}
+		}
+
+		remove_effect = {
+			add_to_variable = {
+				var = irq_region_4_defences_value
+				value = 1
+				tooltip = var_irq_nofly_zone_defences_increase
+			}
+			clamp_variable = {
+				var = irq_region_4_defences_value
+				max = 3
 			}
 		}
 

@@ -9,3 +9,19 @@ saf_deal_with_insurgents = {
 	}
 	priority = 200
 }
+
+saf_category_request_foreign_weapons = {
+	icon = GFX_decision_category_generic_arms_trade
+	
+	allowed = {
+		original_tag = SAF
+	}
+	
+	visible = {
+		original_tag = SAF
+		SAF = {
+			has_completed_focus = SAF_parliment_buy_foreign_armaments
+		}
+	}
+	priority = 5
+}

@@ -1470,7 +1470,39 @@ ideas = {
 				political_power_gain = 0.5
 				research_speed_factor = 0.25
 			}
-		}		
+		}
+
+		IRQ_foreign_equipment_payments_irq = {
+			name = IRQ_foreign_equipment_payments_irq_name
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+
+		IRQ_foreign_equipment_payments = {
+			name = IRQ_foreign_equipment_payments_name
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
 	}
 
 	hidden_ideas = {

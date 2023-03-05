@@ -113,3 +113,43 @@ irq_category_kurdish_factions = {
 
 	priority = 8
 }
+
+irq_category_request_foreign_aid = {
+	icon = GFX_decision_category_generic_arms_trade
+	picture = GFX_decision_cat_iraq_request_foreign_aid
+	
+	allowed = {
+		original_tag = IRQ
+	}
+	
+	visible = {
+		original_tag = IRQ
+		IRQ = {
+			has_completed_focus = IRQ_request_foreign_aid
+		}
+	}
+	priority = 5
+}
+
+irq_category_contest_nofly_zone = {
+	icon = GFX_decision_category_generic_arms_trade
+	picture = GFX_decision_cat_iraq_contest_nofly_zone
+	
+	allowed = {
+		original_tag = IRQ
+	}
+	
+	visible = {
+		original_tag = IRQ
+		#IRQ = {
+		#	has_completed_focus = IRQ_contest_no-fly_zone
+		#}
+		#IRQ = {
+		#	NOT = { has_completed_focus = IRQ_grant_partial_autonomy }
+		#}
+	}
+
+	scripted_gui = irq_decision_ui_contest_nofly_zone
+
+	priority = 7
+}

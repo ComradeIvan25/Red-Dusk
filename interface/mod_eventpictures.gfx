@@ -376,10 +376,6 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_parliament.dds"
 	}
 	spriteType = {
-		name = "GFX_report_event_SAF_onwards"
-		texturefile = "gfx/event_pictures/report_event_onwards_south_africa.dds"
-	}
-	spriteType = {
 		name = "GFX_report_event_SAF_martial_law"
 		texturefile = "gfx/event_pictures/report_event_martial_law.dds"
 	}
@@ -392,12 +388,20 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_old_friends.dds"
 	}
 	spriteType = {
+		name = "GFX_report_event_SAF_onwards"
+		texturefile = "gfx/event_pictures/SAF/report_event_SAF_onwards_south_africa.dds"
+	}
+	spriteType = {
 		name = "GFX_report_event_SAF_attack"
 		texturefile = "gfx/event_pictures/SAF/report_event_SAF_attack.dds"
 	}
 	spriteType = {
 		name = "GFX_report_event_SAF_army_1"
 		texturefile = "gfx/event_pictures/SAF/report_event_SAF_army_1.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_SAF_united_states_heavy_weapons_1"
+		texturefile = "gfx/event_pictures/SAF/report_event_SAF_united_states_heavy_weapons_1.dds"
 	}
 
 	## ANC ##

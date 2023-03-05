@@ -3,17 +3,16 @@
 	division_names_group = GENERIC_MEC_01
 
 	regiments = {
-		infantry_fighting_vehicle_armor = { x = 0 y = 0 }
-		infantry_fighting_vehicle_armor = { x = 0 y = 1 }
-		infantry_fighting_vehicle_armor = { x = 0 y = 2 }
-		heavy_infantry_unit = { x = 1 y = 0 }
-		heavy_infantry_unit = { x = 1 y = 1 }
-		heavy_infantry_unit = { x = 1 y = 2 }
-		heavy_infantry_unit = { x = 1 y = 3 }
-		heavy_infantry_unit = { x = 1 y = 4 }
-		infantry_unit = { x = 2 y = 0 }
-		infantry_unit = { x = 2 y = 1 }
-		infantry_unit = { x = 2 y = 2 }
+		infantry_fighting_vehicle_armor = { x = 1 y = 0 }
+		infantry_fighting_vehicle_armor = { x = 1 y = 1 }
+		heavy_infantry_unit = { x = 0 y = 0 }
+		heavy_infantry_unit = { x = 0 y = 1 }
+		heavy_infantry_unit = { x = 0 y = 2 }
+		heavy_infantry_unit = { x = 0 y = 3 }
+		heavy_infantry_unit = { x = 0 y = 4 }
+		heavy_infantry_unit = { x = 2 y = 0 }
+		heavy_infantry_unit = { x = 2 y = 1 }
+		heavy_infantry_unit = { x = 2 y = 2 }
 		towed_artillery_unit = { x = 3 y = 0 }
 		towed_artillery_unit = { x = 3 y = 1 }
 	}
@@ -40,13 +39,13 @@ division_template = { # Infantry Division #
 		infantry_unit = { x = 1 y = 1 }
 		infantry_unit = { x = 1 y = 2 }
 		infantry_unit = { x = 1 y = 3 }
-                towed_artillery_unit = { x = 2 y = 0 }
+        towed_artillery_unit = { x = 2 y = 0 }
 	}
 	support = {
 		towed_artillery_support_unit = { x = 0 y = 0 }
 		recon = { x = 0 y = 1 }
 		maintenance_company = { x = 0 y = 2 }
-		engineer = { x = 0 y = 3 }
+		logistics_company = { x = 0 y = 3 }
 	}
 	priority = 1
 }
@@ -65,14 +64,13 @@ division_template = { # Armoured Infantry Division #
 		infantry_unit = { x = 1 y = 2 }
 		main_battle_tank_armor = { x = 2 y = 0 }
 		main_battle_tank_armor = { x = 2 y = 1 }
-                main_battle_tank_armor = { x = 2 y = 2 }
+        main_battle_tank_armor = { x = 2 y = 2 }
 	}
 	support = {
 		towed_artillery_support_unit = { x = 0 y = 0 }
 		logistics_company = { x = 0 y = 1 }
-		field_hospital = { x = 0 y = 2 }
-		maintenance_company = { x = 0 y = 3 }
-		engineer = { x = 0 y = 4 }
+		maintenance_company = { x = 0 y = 2 }
+		engineer = { x = 0 y = 3 }
 	}
 	priority = 1
 }
@@ -88,16 +86,11 @@ division_template = { # Armoured Division #
 		main_battle_tank_armor = { x = 0 y = 4 }
 		infantry_fighting_vehicle_armor = { x = 1 y = 0 }
 		infantry_fighting_vehicle_armor = { x = 1 y = 1 }
-		infantry_fighting_vehicle_armor = { x = 1 y = 2 }
+		main_battle_tank_armor = { x = 1 y = 2 }
 		heavy_infantry_unit = { x = 2 y = 0 }
 		heavy_infantry_unit = { x = 2 y = 1 }
-		heavy_infantry_unit = { x = 2 y = 2 }
-		heavy_infantry_unit = { x = 2 y = 3 }
-		heavy_infantry_unit = { x = 2 y = 4 }
 		motorised_artillery_unit = { x = 3 y = 1}
 		rocket_artillery_unit = { x = 3 y = 0 }
-		towed_artillery_unit = { x = 3 y = 2 }
-		towed_artillery_unit = { x = 3 y = 3 }
 		rocket_artillery_unit = { x = 4 y = 0 }
 		motorised_artillery_unit = { x = 4 y = 1 }
 	}

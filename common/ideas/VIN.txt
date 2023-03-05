@@ -223,6 +223,24 @@ ideas = {
 				war_support_factor = 0.05
 			}
 		}
+		VIN_socialist_law_state_2 = {
+			name = VIN_socialist_law_state_name
+
+			removal_cost = -1
+
+			picture = VIN_socialist_state_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				drift_defence_factor = 0.05
+				stability_factor = 0.08
+				war_support_factor = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
 
 		VIN_patriotic_tradition = {
 			name = VIN_patriotic_tradition_name
@@ -346,7 +364,7 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.05
 				production_speed_industrial_complex_factor = 0.12
-                industrial_capacity_factory = 0.05
+                industrial_capacity_factory = 0.1
                 production_speed_buildings_factor = 0.05				
 				
 			}
@@ -365,7 +383,7 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.05
 				production_speed_industrial_complex_factor = 0.12
-                industrial_capacity_factory = 0.05				
+                industrial_capacity_factory = 0.1			
 				global_building_slots_factor = 0.1
 			    production_speed_buildings_factor = 0.05
 			}
@@ -403,7 +421,7 @@ ideas = {
 				consumer_goods_factor = 0.05
 				production_speed_industrial_complex_factor = 0.12				
 				global_building_slots_factor = 0.1
-			    industrial_capacity_factory = 0.05
+			    industrial_capacity_factory = 0.1
 				production_speed_buildings_factor = 0.05
 			}
 		}
@@ -456,7 +474,7 @@ ideas = {
 
 			modifier = {
 				production_speed_buildings_factor = -0.05
-				stability_factor = -0.08
+				stability_factor = -0.15
 			    research_speed_factor = -0.1
 				drift_defence_factor = -0.05
 				political_power_factor = -0.12
@@ -479,7 +497,7 @@ ideas = {
 
 			modifier = {
 				production_speed_buildings_factor = -0.05
-				stability_factor = -0.1
+				stability_factor = -0.20
 				research_speed_factor = -0.1
 				drift_defence_factor = -0.05
 				political_power_factor = -0.12
@@ -489,7 +507,178 @@ ideas = {
 				air_advisor_cost_factor = 100.0
 			}
 		}
+		VIN_corruption_3 = {
+			name = VIN_corruption_name_1
 
-	}
+			removal_cost = -1
+
+			picture = VIN_corruption_in_goverment_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_buildings_factor = -0.05
+				stability_factor = -0.25
+				research_speed_factor = -0.1
+				drift_defence_factor = -0.05
+				political_power_factor = -0.12
+				political_advisor_cost_factor = 100.0
+				army_advisor_cost_factor = 100.0
+				navy_advisor_cost_factor = 100.0
+				air_advisor_cost_factor = 100.0
+			}
+		}
+		VIN_corruption_4 = {
+			name = VIN_corruption_name_1
+
+			removal_cost = -1
+
+			picture = VIN_corruption_in_goverment_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_buildings_factor = -0.05
+				stability_factor = -0.25
+				research_speed_factor = -0.05
+				drift_defence_factor = -0.05
+				political_power_factor = -0.12
+				political_advisor_cost_factor = 100.0
+				army_advisor_cost_factor = 100.0
+				navy_advisor_cost_factor = 100.0
+				air_advisor_cost_factor = 100.0
+			}
+		}
+        VIN_socialist_society = {
+			name = VIN_socialist_society_name
+
+			removal_cost = -1
+
+			picture = hol_haven_of_tolerance
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			}
+		}
+		VIN_socialist_society_1 = {
+			name = VIN_socialist_society_name
+
+			removal_cost = -1
+
+			picture = hol_haven_of_tolerance
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			party_popularity_stability_factor = 0.05
+			consumer_goods_factor = 0.03
+			political_power_cost = 0.1
+			}
+		}
+		VIN_socialist_society_2 = {
+			name = VIN_socialist_society_name
+
+			removal_cost = -1
+
+			picture = hol_haven_of_tolerance
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			party_popularity_stability_factor = 0.05
+			consumer_goods_factor = 0.05
+			stability_factor = 0.05
+			political_power_cost = 0.1
+			}
+		}
+		VIN_socialist_society_3 = {
+			name = VIN_socialist_society_name
+
+			removal_cost = -1
+
+			picture = hol_haven_of_tolerance
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			party_popularity_stability_factor = 0.05
+			consumer_goods_factor = 0.08
+			stability_factor = 0.08
+			political_power_cost = 0.1
+			production_factory_efficiency_gain_factor = 0.05
+			production_factory_max_efficiency_factor = 0.05
+			war_support_factor = 0.03
+			}
+		}
+		VIN_socialist_society_4 = {
+			name = VIN_socialist_society_name
+
+			removal_cost = -1
+
+			picture = hol_haven_of_tolerance
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			party_popularity_stability_factor = 0.08
+			consumer_goods_factor = 0.1
+			stability_factor = 0.1
+			war_support_factor = 0.03
+			political_power_cost = 0.1
+			production_factory_efficiency_gain_factor = 0.05
+			production_factory_max_efficiency_factor = 0.05
+			war_support_factor = 0.03
+			monthly_population = 0.05
+			}
+		}
+		VIN_resources_increase = {
+		    name = "Increase Mineral Extraction"
+
+			removal_cost = -1
+
+			picture = generic_exploit_mines
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			production_lack_of_resource_penalty_factor = -0.1
+			local_resources = 0.2
+			}
+	     }
+		 VIN_resources_increase_2 = {
+		    name = "Increase Mineral Extraction"
+
+			removal_cost = -1
+
+			picture = generic_exploit_mines
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			production_lack_of_resource_penalty_factor = -0.1
+			local_resources = 0.2
+			max_fuel_building = 1500
+			production_speed_synthetic_refinery_factor = 0.15
+			}
+	     }
 
 }

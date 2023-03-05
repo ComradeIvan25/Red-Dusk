@@ -993,6 +993,7 @@ focus_tree = {
 		set_technology = {
     tech_basic_resource_extraction  = 1
       }
+	  add_ideas = VIN_resources_increase
      }
 	}
 	#Land Resources
@@ -1077,9 +1078,14 @@ focus_tree = {
 			}
 		create_import = {
 				resource = steel
-				amount = 5
+				amount = 15
 				exporter = SOV
 			}
+	 modify_building_resources = {
+    building = industrial_complex
+    resource = steel
+    amount = 1
+    }
      }
 	}
 	#Oil
@@ -1150,6 +1156,15 @@ focus_tree = {
 	instant_build = yes
 		}
 	   }
+	   swap_ideas = {
+	   remove_idea =  VIN_resources_increase
+	   add_idea =  VIN_resources_increase_2 
+	   }
+	  modify_building_resources = {
+    building = synthetic_refinery
+    resource = oil
+    amount = 2
+}
      }
 	}
 	#Increase Oil Reserve
@@ -1390,8 +1405,15 @@ focus_tree = {
 		}	
 		prerequisite = { focus = VIN_national_assembly_meeting }
 		completion_reward = {
-		
+		add_popularity = {
+       ideology = reformed_communism
+      popularity = 0.03
      }
+	 add_stability = 0.02
+	 add_war_support = 0.02
+	 add_ideas =  VIN_socialist_society
+     }
+	 
 	}
 	#Social Protection
 	focus = {
@@ -1405,7 +1427,11 @@ focus_tree = {
 		}	
 		prerequisite = { focus = VIN_socialist_society }
 		completion_reward = {
-		
+		swap_ideas = { 
+		remove_idea = VIN_socialist_society
+		add_idea = VIN_socialist_society_1
+		}
+		add_political_power = -100
      }
 	}
 	#The Fight Against Poverty
@@ -1420,7 +1446,7 @@ focus_tree = {
 		}	
 		prerequisite = { focus = VIN_social_protection_program }
 		completion_reward = {
-		
+		add_political_power = -100
      }
 	 }
 	#Programme 135
@@ -1435,7 +1461,19 @@ focus_tree = {
 		}	
 		prerequisite = { focus = VIN_fight_poverty }
 		completion_reward = {
-		
+		swap_ideas = { 
+		remove_idea = VIN_socialist_society_1
+		add_idea = VIN_socialist_society_2
+		}
+		add_political_power = -100
+		add_popularity = {
+       ideology = reformed_communism
+      popularity = 0.03
+     }
+	 swap_ideas = { 
+		remove_idea = VIN_corruption_2
+		add_idea = VIN_corruption_3
+		}
      }
 	 }
 	 #Job security for workers
@@ -1450,7 +1488,9 @@ focus_tree = {
 		}	
 		prerequisite = { focus = VIN_fight_poverty }
 		completion_reward = {
-		
+		add_manpower = 25000
+		add_political_power = -50
+		add_stability = 0.02
      }
 	 }
 	#Salary reform
@@ -1466,7 +1506,11 @@ focus_tree = {
 		prerequisite = { focus = VIN_job_security }
 		prerequisite = { focus = VIN_Programme_135 }
 		completion_reward = {
-		
+		swap_ideas = { 
+		remove_idea = VIN_socialist_society_2
+		add_idea = VIN_socialist_society_3
+		}
+		add_political_power = -100
      }
 	 }
 	#Ensure Social Security
@@ -1479,9 +1523,16 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}	
+		available = {
+		has_completed_focus = VIN_salary_reform
+		}
 		prerequisite = { focus = VIN_social_protection_program }
 		completion_reward = {
-		
+		add_political_power = -100
+		swap_ideas = { 
+		remove_idea = VIN_socialist_law_state
+		add_idea = VIN_socialist_law_state_2
+		}
      }
 	 }
 	 #Towards universal health insurance
@@ -1496,7 +1547,10 @@ focus_tree = {
 		}	
 		prerequisite = { focus = VIN_ensure_social_security }
 		completion_reward = {
-		
+		swap_ideas = { 
+		remove_idea = VIN_socialist_society_3
+		add_idea = VIN_socialist_society_4
+		}
      }
 	 }
 	#Education Reform
@@ -1511,7 +1565,12 @@ focus_tree = {
 		}	
 		prerequisite = { focus = VIN_ensure_social_security }
 		completion_reward = {
-		
+		swap_ideas = { 
+		remove_idea = VIN_corruption_3
+		add_idea = VIN_corruption_4
+		}
+			
+      add_research_slot = 1
      }
 	 }
 	#Massive anti-crime campaign
@@ -1527,7 +1586,13 @@ focus_tree = {
 		prerequisite = { focus = VIN_education_reform }
 		prerequisite = { focus = VIN_universal_health_insurance }
 		completion_reward = {
-		
+		add_equipment_to_stockpile = {
+    type = infantry_weapons
+    amount = -100
+    producer = VIN
+     }
+	 add_manpower = -10
+	 
      }
 	 }
 	

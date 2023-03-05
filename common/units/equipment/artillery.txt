@@ -231,7 +231,7 @@ equipments = {
 		interface_category = interface_category_land
 
 		#Misc Abilities
-		reliability = 0.70
+		reliability = 0.80
 
 		#Defensive Abilities
 		defense = 22
@@ -272,7 +272,7 @@ equipments = {
 		priority = 15
 		visual_level = 2
 
-		reliability = 0.72
+		reliability = 0.82
 		defense = 27
 		breakthrough = 17
 		soft_attack = 56
@@ -285,7 +285,7 @@ equipments = {
 		priority = 20
 		visual_level = 3
 
-		reliability = 0.74
+		reliability = 0.84
 		defense = 32
 		breakthrough = 18
 		soft_attack = 61
@@ -298,7 +298,7 @@ equipments = {
 		priority = 25
 		visual_level = 4
 
-		reliability = 0.76
+		reliability = 0.86
 		defense = 37
 		breakthrough = 19
 		soft_attack = 66
@@ -311,7 +311,7 @@ equipments = {
 		priority = 30
 		visual_level = 5
 
-		reliability = 0.78
+		reliability = 0.88
 		defense = 42
 		breakthrough = 20
 		soft_attack = 71
@@ -324,7 +324,7 @@ equipments = {
 		priority = 35
 		visual_level = 6
 
-		reliability = 0.80
+		reliability = 0.90
 		defense = 47
 		breakthrough = 21
 		soft_attack = 76
@@ -337,7 +337,7 @@ equipments = {
 		priority = 40
 		visual_level = 7
 
-		reliability = 0.82
+		reliability = 0.90
 		defense = 52
 		breakthrough = 22
 		soft_attack = 81

@@ -67,7 +67,7 @@ add_ideas = {
 }
 
 set_war_support = 0.5
-set_stability = 0.72
+set_stability = 0.70
 
 diplomatic_relation = {
 	country = LAO

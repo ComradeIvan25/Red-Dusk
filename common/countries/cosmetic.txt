@@ -314,3 +314,8 @@ UNI_rep = {
 	color = rgb { 109 116 48 }
 	color_ui = rgb { 109 116 50 }
 }
+
+SOM_emirate = {
+	color = rgb { 168 168 168 }
+	color_ui = rgb { 168 168 168 }
+}

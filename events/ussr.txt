@@ -10,6 +10,8 @@ add_namespace = ussr_cold_war
 add_namespace = ussr_rebel_cin
 add_namespace = ussr_rebel_ukr
 
+add_namespace = ussr_pugo_policy
+
 #The Red sun shines#
 country_event = {
 	id = ussr_intro.1
@@ -1344,6 +1346,74 @@ country_event = {
 			add_political_power = 15
 			custom_effect_tooltip = soviet_purge_tooltip
 			hidden_effect = { unlock_decision_category_tooltip = sov_purging }
+	}
+
+}
+
+#Congress Preparation#
+country_event = {
+	id = ussr_pugo_policy.1
+	title = ussr_pugo_policy.1.t
+	desc = ussr_pugo_policy.1.d
+	picture = GFX_report_event_gorby_gone
+	
+	is_triggered_only = yes
+	
+	
+    #zyuganov#
+	option = {
+		name = ussr_pugo_policy.1.a
+		
+	}
+	
+	#udaltsov#
+	option = {
+		name = ussr_pugo_policy.1.b
+		
+	}
+
+}
+
+#Adressing dometic issues#
+country_event = {
+	id = ussr_pugo_policy.2
+	title = ussr_pugo_policy.2.t
+	desc = ussr_pugo_policy.2.d
+	picture = GFX_report_event_gorby_gone
+	
+	is_triggered_only = yes
+	
+	
+    #ok buddy#
+	option = {
+		name = ussr_pugo_policy.2.a
+		add_dynamic_modifier = {modifier = SOV_pugos_policies}
+		set_variable = {sov_pugo_policy_compliance_gain_var = 0.075}
+	}
+
+}
+
+#State of Religion#
+country_event = {
+	id = ussr_pugo_policy.3
+	title = ussr_pugo_policy.3.t
+	desc = ussr_pugo_policy.3.d
+	picture = GFX_report_event_gorby_gone
+	
+	is_triggered_only = yes
+	
+	
+    #i am mr big chungus, ease repression#
+	option = {
+		name = ussr_pugo_policy.3.a
+		complete_national_focus = SOV_pugo_ease_on_repression
+	}
+
+    #I WANNA FUCKING KILL PEOPLE FOR THEIR RELIGION#
+	option = {
+		name = ussr_pugo_policy.3.b
+		complete_national_focus = SOV_pugo_increase_repression
+		
 	}
 
 }

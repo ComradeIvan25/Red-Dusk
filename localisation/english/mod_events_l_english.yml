@@ -134,6 +134,19 @@
  ussr.51.t:0 "A Favour from an Old Friend"
  ussr.51.d:0 "The phone rang in the office of Sergei Ivanov. The Lyblyanka building has been always a busy place considering it is the headquarters of the KGB. However, this one small phone call was unusual considering from whom it was coming.\n\nIvanov picked up the phone and answered with a simple: "Yes?"\n\n"Ivanov, is that you?" - The voice of the caller was a one well known to Ivanov. After all, how could he forget his personal friend, director of KGB and a new General Secretary.\n\n"Vladimir Vladimirovich. To what do I owe this honour?" - Ivanov answered with another short line.\n\n"Listen Sergey. I know this is abrupt, but I might need a favour from you. You are my most trusted man right now." - Putin asked.\n\n"Sure..." Sergey said suspiciously. "What do you need Vladimir?"\n\n"I need you to gather whomever you can find and gather as much dirt as you can on Pugo. We have people in his circle, don't we?"\n\n"Of course we do. It's our job to keep the Union in check and stop any anti-state behaviour, even if it is inside the ranks of the GKChP."\n\n"Good. Just send anyone you can, the plan cannot proceed unless Boris Karlovich is out of the picture. So far, he is the one holding the strings, so eliminating him sooner will give us an advantage. Are you up for the task?" - Asked Putin, calmly waiting for Sergey's response.\n\nSergey fell silent for a moment before answering quickly and to the point: "When do we begin?""
  ussr.51.a:0 "Right now."
+ 
+ ussr_pugo_policy.1.t:0 "Congress Preparation"
+ ussr_pugo_policy.1.d:0 "19 dollar Congress Preparation\n\n                                              Who organizes it?"
+ ussr_pugo_policy.1.a:0 "Zyuganov"
+ ussr_pugo_policy.1.b:0 "Udaltsov"
+ ussr_pugo_policy.2.t:0 "Adressing dometic issues"
+ ussr_pugo_policy.2.d:0 "He Adressed dometic issues"
+ ussr_pugo_policy.2.a:0 "no"
+ ussr_pugo_policy.3.t:0 "State of Religion"
+ ussr_pugo_policy.3.d:0 "what do you want to do abt religion"
+ ussr_pugo_policy.3.a:0 "i am mr big chungus, ease repression"
+ ussr_pugo_policy.3.b:0 "I WANNA FUCKING KILL PEOPLE FOR THEIR RELIGION" 
+ 
  ##MEME EVENT##
 
  ussr.47.t:0 "Yazov's Trials"
@@ -178,6 +191,7 @@
  ussr.32.t:0 "Gorbachev Removed"
  ussr.32.d:0 "bruh"
  ussr.32.a:0 "Putin Establishes The New Government"
+ 
  
  ussr_rebel.999.t:0 "Resistance Incrases"
  ussr_rebel.999.d:0 "After our failure on keeping stability in Lithuenia Region, resistance movements have increased in srtength with even civilians joining to their cause..."

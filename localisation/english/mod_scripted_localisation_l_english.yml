@@ -39,7 +39,15 @@
  ##PUGO TREE##
 
  economy_for_pugo_tooltip:0 "§GWe are now ready to deal with our Economy\n\n§!"
-
+ 
+ #PUGO POLICY#
+ 
+ pugos_policies_tt_political_power_decrease:0 "§RPolitical power gain will decrease§!"
+ pugos_policies_tt_political_power_increase:0 "§GPolitical power gain will increase§!"
+ 
+ pugos_policies_tt_stability_decrease:0 "§RStability will decrease§!"
+ pugos_policies_tt_stability_increase:0 "§GStability will increase§!"
+ 
  ##PUGO POWER STRUGGLE##
  
  pugo_power_struggle_ended:0 "§GThe Power Struggle has reached a conclusion.§!"

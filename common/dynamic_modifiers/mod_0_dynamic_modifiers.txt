@@ -37,6 +37,17 @@ SOV_cold_war = {
 
 }
 
+SOV_pugos_policies = {
+	enable = { always = yes }
+
+	icon = GFX_idea_cold_war_icon
+	
+	political_power_gain = sov_pugo_policy_political_power_gain_var
+	stability_factor = sov_pugo_policy_stability_var
+	compliance_gain = sov_pugo_policy_compliance_gain_var
+
+}
+
 USA_cold_war = {
 	enable = { always = yes }
 	

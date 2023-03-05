@@ -2462,7 +2462,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 1
+		cost = 4.3
 		ai_will_do = {
 			factor = 1
 		}
@@ -2523,7 +2523,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 1
+		cost = 2.9
 		ai_will_do = {
 			factor = 1
 		}
@@ -2570,7 +2570,7 @@
 			focus = SOV_pugo_merge_NVD_GVD
 		}
 		
-		cost = 1
+		cost = 2.9
 		ai_will_do = {
 			factor = 1
 		}
@@ -2608,7 +2608,7 @@
 			focus = SOV_pugo_merge_NVD_KGB
 		}
 		
-		cost = 1
+		cost = 2.9
 		ai_will_do = {
 			factor = 1
 		}
@@ -2638,7 +2638,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 1
+		cost = 2.9
 		ai_will_do = {
 			factor = 1
 		}
@@ -2657,6 +2657,13 @@
 					NOT = {has_idea = ussr_aligned_nation}
 					NOT = {has_idea = cold_war_comecon}
 					NOT = {original_tag = SOV}
+					NOT = {has_government = fascism}
+					NOT = {has_government = anarchism}
+					NOT = {has_government = paternal_autocracy}
+					NOT = {has_government = neutrality}
+					NOT = {has_government = democratic}
+					NOT = {has_government = liberalism}
+					
 				}
 				country_event = {id =ussr_foreign_policy.4}
 				
@@ -2677,7 +2684,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 1
+		cost = 2.9
 		ai_will_do = {
 			factor = 1
 		}
@@ -2714,7 +2721,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 1
+		cost = 2.9
 		ai_will_do = {
 			factor = 1
 		}
@@ -2726,7 +2733,8 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
+			add_political_power = 10
+			country_event = {id = ussr_pugo_policy.1}
 			
 		}
 	}
@@ -2743,7 +2751,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 1
+		cost = 4.3
 		ai_will_do = {
 			factor = 1
 		}
@@ -2755,8 +2763,9 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 10
-			
+			add_stability = -0.1
+			add_political_power = 5
+			country_event = {id = ussr_pugo_policy.2}
 		}
 	}
 	
@@ -3194,7 +3203,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 1
+		cost = 2.9
 		ai_will_do = {
 			factor = 1
 		}
@@ -3206,7 +3215,8 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
+			add_political_power = 5
+			country_event = {id = ussr_pugo_policy.3}
 			
 		}
 	}
@@ -3224,7 +3234,7 @@
 			focus = SOV_pugo_increase_repression
 		}
 		
-		cost = 1
+		cost = 2.9
 		ai_will_do = {
 			factor = 1
 		}
@@ -3236,8 +3246,12 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
-			
+			add_political_power = -75
+			add_stability = 0.10
+			custom_effect_tooltip = pugos_policies_tt_stability_increase
+			add_to_variable = {sov_pugo_policy_stability_var = 0.05}
+			custom_effect_tooltip = pugos_policies_tt_political_power_decrease
+			subtract_from_variable = {sov_pugo_policy_political_power_gain_var = 0.05}
 		}
 	}
 	

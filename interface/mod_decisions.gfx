@@ -158,4 +158,20 @@ spriteTypes = {
 		name = "GFX_decision_generic_air_defence"
 		texturefile = "gfx/interface/decisions/decision_generic_air_defence.dds"
 	}
+	spriteType = {
+		name = "GFX_decision_generic_radar"
+		texturefile = "gfx/interface/decisions/decision_generic_radar.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_generic_submarine"
+		texturefile = "gfx/interface/decisions/decision_generic_submarine.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_generic_ship"
+		texturefile = "gfx/interface/decisions/decision_generic_ship.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_generic_fighter_soviet"
+		texturefile = "gfx/interface/decisions/decision_generic_fighter_soviet.dds"
+	}
 }

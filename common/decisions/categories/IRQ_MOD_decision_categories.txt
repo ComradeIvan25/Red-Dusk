@@ -141,12 +141,16 @@ irq_category_contest_nofly_zone = {
 	
 	visible = {
 		original_tag = IRQ
-		#IRQ = {
-		#	has_completed_focus = IRQ_contest_no-fly_zone
-		#}
-		#IRQ = {
-		#	NOT = { has_completed_focus = IRQ_grant_partial_autonomy }
-		#}
+		IRQ = {
+			has_completed_focus = IRQ_contest_no-fly_zone
+		}
+		IRQ = {
+			AND = {
+				NOT = { has_completed_focus = IRQ_grant_partial_autonomy }
+				NOT = { IRQ = { has_country_flag = IRQ_no-fly_zone_success_flag } }
+				NOT = { IRQ = { has_country_flag = IRQ_no-fly_zone_failed_flag } }
+			}
+		}
 	}
 
 	scripted_gui = irq_decision_ui_contest_nofly_zone

@@ -195,8 +195,13 @@
  IRQ_tt_exploit_internal_divisions_end:0 "§YDecisions to influence Kurdish factions will end§!"
  IRQ_tt_request_foreign_aid:0 "§YDecisions to purchase foreign equipment will become available§!"
  IRQ_tt_contest_no-fly_zone:0 "§YDecisions to contest the no-fly zone will become available§!"
+ IRQ_tt_grant_partial_autonomy:0 "§YDecisions to contest the no-fly zone will end§!"
+ IRQ_tt_use_air:0 "Does not have national spirit §YNo-fly Zones§!"
 
  irq_kurd_rebels_idea_tt:0 "§RIf the resistance reaches 80% Kurdistan will rebel.§!"
+
+ custom_trigger_tt_irq_no-fly_zone_success:0 "§YContest no-fly zone mission has been successfully completed§!"
+ custom_trigger_tt_irq_no-fly_zone_failed:0 "§YContest no-fly zone mission has not been successfully completed§!"
  
  #YUGOSLAVIA#
  
@@ -393,7 +398,10 @@
  sov_15_influence_points_required:0 "£influence_point_decision  §G15 Influence Points§!"
  sov_15_influence_points_required_blocked:0 "£influence_point_decision_blocked  §g15 Influence Points§!"
  sov_15_influence_points_required_tooltip:0 "§YRequires At Least £influence_point_decision  §G15 Influence Points§! §YTo take This Action\n\n§!"
- 
+
+ needs_5_command_power_for_decision:0 "£command_power 5"
+ needs_5_command_power_for_decision_blocked:0 "§R£command_power 5§!"
+ needs_5_command_power_for_decision_tooltip:0 "§YRequires At Least§! £command_power 5 command power §YTo take This Action\n\n§!"
  needs_15_command_power_for_decision:0 "£command_power 15"
  needs_15_command_power_for_decision_blocked:0 "§R£command_power 15§!"
  needs_15_command_power_for_decision_tooltip:0 "§YRequires At Least§! £command_power 15 command power §YTo take This Action\n\n§!"

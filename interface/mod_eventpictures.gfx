@@ -216,6 +216,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/IRQ/report_event_IRQ_aircraft.dds"
 	}
 	spriteType = {
+		name = "GFX_report_event_IRQ_aircraft_2"
+		texturefile = "gfx/event_pictures/IRQ/report_event_IRQ_aircraft_2.dds"
+	}
+	spriteType = {
 		name = "GFX_report_event_IRQ_aircraft_parts"
 		texturefile = "gfx/event_pictures/IRQ/report_event_IRQ_aircraft_parts.dds"
 	}

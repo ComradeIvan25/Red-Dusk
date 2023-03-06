@@ -1,6 +1,7 @@
 add_namespace = irq
 add_namespace = irq_kurdish
 add_namespace = irq_kurdish_random
+add_namespace = irq_nofly
 
 #kurds#
 country_event = {
@@ -1678,5 +1679,41 @@ country_event = {
 
 		add_stability = -0.05
 		add_political_power = -20
+	}
+}
+
+### No-fly Zone Events ###
+
+# Launch Operations - Successful #
+country_event = {
+	id = irq_nofly.1
+	title = irq_nofly.1.t
+	desc = irq_nofly.1.d
+	picture = GFX_report_event_IRQ_aircraft_2
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq_nofly.1.a
+	}
+}
+# Launch Operations - Failed #
+country_event = {
+	id = irq_nofly.2
+	title = irq_nofly.2.t
+	desc = irq_nofly.2.d
+	picture = GFX_report_event_IRQ_coalition_air_force
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq_nofly.2.a
+
+		IRQ = {
+			add_equipment_to_stockpile = {
+				type = fighter_equipment
+				amount = -10
+			}
+		}
 	}
 }

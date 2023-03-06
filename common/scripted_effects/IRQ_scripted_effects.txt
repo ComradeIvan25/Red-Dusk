@@ -79,3 +79,85 @@ IRQ_improve_the_economic_union_idea = {
 
 	}
 }
+
+IRQ_recalc_iraq_nofly_zone_map_frames = {
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = { irq_region_1_airspace_value = 2 }
+				check_variable = { irq_region_2_airspace_value = 2 }
+				check_variable = { irq_region_3_airspace_value = 2 }
+				check_variable = { irq_region_4_airspace_value = 2 }
+			}
+		}
+		set_variable = { current_iraq_nofly_zone_map_frame = 1 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				NOT = { check_variable = { irq_region_1_airspace_value = 2 } }
+				check_variable = { irq_region_2_airspace_value = 2 }
+				NOT = { check_variable = { irq_region_3_airspace_value = 2 } }
+				NOT = { check_variable = { irq_region_4_airspace_value = 2 } }
+			}
+		}
+		set_variable = { current_iraq_nofly_zone_map_frame = 2 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { irq_region_1_airspace_value = 2 }
+				check_variable = { irq_region_2_airspace_value = 2 }
+				NOT = { check_variable = { irq_region_3_airspace_value = 2 } }
+				NOT = { check_variable = { irq_region_4_airspace_value = 2 } }
+			}
+		}
+		set_variable = { current_iraq_nofly_zone_map_frame = 3 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { irq_region_1_airspace_value = 2 }
+				check_variable = { irq_region_2_airspace_value = 2 }
+				check_variable = { irq_region_3_airspace_value = 2 }
+				NOT = { check_variable = { irq_region_4_airspace_value = 2 } }
+			}
+		}
+		set_variable = { current_iraq_nofly_zone_map_frame = 4 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				NOT = { check_variable = { irq_region_1_airspace_value = 2 } }
+				check_variable = { irq_region_2_airspace_value = 2 }
+				check_variable = { irq_region_3_airspace_value = 2 }
+				NOT = { check_variable = { irq_region_4_airspace_value = 2 } }
+			}
+		}
+		set_variable = { current_iraq_nofly_zone_map_frame = 5 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				NOT = { check_variable = { irq_region_1_airspace_value = 2 } }
+				check_variable = { irq_region_2_airspace_value = 2 }
+				check_variable = { irq_region_3_airspace_value = 2 }
+				check_variable = { irq_region_4_airspace_value = 2 }
+			}
+		}
+		set_variable = { current_iraq_nofly_zone_map_frame = 6 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				NOT = { check_variable = { irq_region_1_airspace_value = 2 } }
+				NOT = { check_variable = { irq_region_2_airspace_value = 2 } }
+				NOT = { check_variable = { irq_region_3_airspace_value = 2 } }
+				NOT = { check_variable = { irq_region_4_airspace_value = 2 } }
+			}
+		}
+		set_variable = { current_iraq_nofly_zone_map_frame = 7 }
+	}
+
+}

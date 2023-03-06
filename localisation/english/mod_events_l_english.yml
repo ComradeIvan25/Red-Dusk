@@ -798,6 +798,13 @@
  irq_kurdish_random.13.d:0 "In the early hours of the morning, a loud explosion rung out in Baghdad, killing dozens of locals at the scene that were commuting to work. As our emergency services arrived, the situation quickly became clear. This explosion was not accidental, but rather the cruel act of a suicide bomber, who deliberately targeted this busy street to maximise the effects of the explosion. The Iraqi Intelligence Agency has now delivered a report, stating that the suicide bomber almost certainly had links to Kurdish separatist movements in the north, and that this was likely a planned operation by one of the militant factions in the region."
  irq_kurdish_random.13.a:0 "They will pay for this!"
 
+ irq_nofly.1.t:0 "Air Superiority Operations Successful"
+ irq_nofly.1.d:0 "Our preperations and hard work have paid off, with our air force managing to deal a critical blow to coalition air operations in the region. Although coalition forces avoided any loses, due to their well-trained pilots and command network, several of their aircraft were damaged, while the rest were forced to retreat into areas with more support. Although it is likely that they will attempt to regain air superiority over this region in the future, for now their operations have been greatly reduced."
+ irq_nofly.1.a:0 "Hit them where it hurts..."
+ irq_nofly.2.t:0 "Air Superiority Operations Failed"
+ irq_nofly.2.d:0 "Despite the valiant efforts of our pilots, our attempt to establish air superiority has failed. Coalition pilots, seemingly unfazed by our attempts, managed to respond with significant force, shooting down a significant number of our aircraft and causing the rest to flee deep into friendly territory. Due to the losses that we've sustained, we will not be able to perform significant air operations in this region for some time while we regather our forces."
+ irq_nofly.2.a:0 "Unfortunate"
+
  #SAF#
 
  saf.1.t:0 "When all is Lost..."

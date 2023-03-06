@@ -551,7 +551,7 @@ irq_category_rebuild_navy = {
 
 	IRQ_rebuild_navy_purchase_new_ship_decision = {
 
-		icon = GFX_decision_generic_naval
+		icon = GFX_decision_generic_ship
 
 		priority = 10
 
@@ -644,7 +644,7 @@ irq_category_rebuild_navy = {
 
 	IRQ_rebuild_navy_purchase_new_sub_decision = {
 
-		icon = GFX_decision_generic_naval
+		icon = GFX_decision_generic_submarine
 
 		priority = 9
 
@@ -731,7 +731,7 @@ irq_category_rebuild_navy = {
 
 	IRQ_rebuild_navy_purchase_old_ship_decision = {
 
-		icon = GFX_decision_generic_naval
+		icon = GFX_decision_generic_ship
 
 		priority = 8
 
@@ -836,7 +836,7 @@ irq_category_rebuild_navy = {
 
 	IRQ_rebuild_navy_purchase_old_sub_decision = {
 
-		icon = GFX_decision_generic_naval
+		icon = GFX_decision_generic_submarine
 
 		priority = 7
 
@@ -929,7 +929,7 @@ irq_category_rebuild_navy = {
 
 	IRQ_rebuild_navy_purchase_old_chinese_ship_decision = {
 
-		icon = GFX_decision_generic_naval
+		icon = GFX_decision_generic_ship
 
 		priority = 6
 
@@ -1016,7 +1016,7 @@ irq_category_rebuild_navy = {
 
 	IRQ_rebuild_navy_purchase_new_chinese_sub_decision = {
 
-		icon = GFX_decision_generic_naval
+		icon = GFX_decision_generic_submarine
 
 		priority = 5
 
@@ -4959,16 +4959,82 @@ irq_category_request_foreign_aid = {
 
 irq_category_contest_nofly_zone = {
 
-	# Air Defences #
-	IRQ_contest_nofly_zone_region_1_new_air_defences_decision = {
+	# Deadline #
+	IRQ_contest_nofly_zone_deadline_mission_decision = {
 
-		icon = GFX_decision_generic_air_defence
+		icon = GFX_decision_generic_fighter_soviet
 
-		priority = 10
+		priority = 100
+
+		fire_only_once = yes
+		is_good = no
+		selectable_mission = no
+		days_mission_timeout = 1095
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		available = {
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = custom_trigger_irq_nofly_zone_airspace_clear_tt
+
+					AND = {
+						check_variable = { irq_region_1_airspace_value = 2 }
+						check_variable = { irq_region_2_airspace_value = 2 }
+						check_variable = { irq_region_3_airspace_value = 2 }
+						check_variable = { irq_region_4_airspace_value = 2 }
+					}
+				}
+				IRQ = { has_completed_focus = IRQ_grant_partial_autonomy }
+			}
+		}
+
+		activation = {
+			IRQ = {
+				has_completed_focus = IRQ_contest_no-fly_zone
+			}
+		}
+
+		complete_effect = {
+			if = {
+				limit = {
+					IRQ = { has_idea = IRQ_no-fly_zones_2 }
+				}
+
+				remove_ideas = IRQ_no-fly_zones_2
+			}
+			hidden_effect = {
+				set_country_flag = IRQ_no-fly_zone_success_flag
+			}
+			custom_effect_tooltip = custom_effect_tt_irq_no-fly_zone_1
+		}
+
+		timeout_effect = {
+			hidden_effect = {
+				set_country_flag = IRQ_no-fly_zone_failed_flag
+			}
+			custom_effect_tooltip = custom_effect_tt_irq_no-fly_zone_2
+		}
+
+	}
+
+	# Airspace #
+	IRQ_contest_nofly_zone_region_1_launch_operations_decision = {
+
+		icon = GFX_decision_generic_fighter_soviet
+
+		priority = 23
 
 		fire_only_once = no
-		days_remove = 45
-		days_re_enable = 90
+		days_remove = 30
+		days_re_enable = 60
+
+		custom_cost_trigger = {
+			command_power > 14
+		}
+		custom_cost_text = needs_15_command_power_for_decision
 
 		visible = {
 			original_tag = IRQ
@@ -4979,10 +5045,153 @@ irq_category_contest_nofly_zone = {
 				country_exists = IRQ
 				IRQ = { has_war = no }
 				custom_trigger_tooltip = {
-					tooltip = custom_trigger_tt_irq_nofly_zone_defences_tt
+					tooltip = custom_trigger_irq_nofly_zone_airspace_tt
 					check_variable = {
-						var = irq_region_1_defences_value
-						value = 3
+						var = irq_region_1_airspace_value
+						value = 2
+						compare = not_equals
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = custom_trigger_irq_nofly_zone_central_airspace_tt
+					check_variable = {
+						var = irq_region_2_airspace_value
+						value = 2
+						compare = equals
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				has_completed_focus = IRQ_grant_partial_autonomy
+				hidden_trigger = {
+					IRQ = { has_country_flag = IRQ_no-fly_zone_success_flag }
+					IRQ = { has_country_flag = IRQ_no-fly_zone_failed_flag }
+				}
+			}
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -15
+			}
+		}
+
+		remove_effect = {
+			random_list = {
+				75 = {
+					IRQ = { country_event = { id = irq_nofly.1 } }
+
+					add_to_variable = {
+						var = irq_region_1_airspace_value
+						value = 1
+						tooltip = var_irq_nofly_zone_airspace_increase
+					}
+					clamp_variable = {
+						var = irq_region_1_airspace_value
+						max = 2
+					}
+				}
+				25 = {
+					modifier = {
+						factor = 2.0
+						check_variable = {
+							var = irq_region_1_defences_value
+							value = 2
+							compare = equals
+						}
+					}
+					modifier = {
+						factor = 2.5
+						check_variable = {
+							var = irq_region_1_defences_value
+							value = 1
+							compare = equals
+						}
+					}
+					modifier = {
+						factor = 5.0
+						check_variable = {
+							var = irq_region_1_defences_value
+							value = 0
+							compare = equals
+						}
+					}
+					modifier = {
+						factor = 1.5
+						check_variable = {
+							var = irq_region_1_intelligence_value
+							value = 2
+							compare = equals
+						}
+					}
+					modifier = {
+						factor = 2.0
+						check_variable = {
+							var = irq_region_1_intelligence_value
+							value = 1
+							compare = equals
+						}
+					}
+					modifier = {
+						factor = 3.0
+						check_variable = {
+							var = irq_region_1_intelligence_value
+							value = 0
+							compare = equals
+						}
+					}
+
+					IRQ = { country_event = { id = irq_nofly.2 } }
+
+					subtract_from_variable = {
+						var = irq_region_1_airspace_value
+						value = 1
+						tooltip = var_irq_nofly_zone_airspace_decrease
+					}
+					clamp_variable = {
+						var = irq_region_1_airspace_value
+						min = 0
+					}
+				}
+			}
+			IRQ_recalc_iraq_nofly_zone_map_frames = yes
+		}
+
+		ai_will_do = {
+		}
+
+	}
+	IRQ_contest_nofly_zone_region_2_launch_operations_decision = {
+
+		icon = GFX_decision_generic_fighter_soviet
+
+		priority = 22
+
+		fire_only_once = no
+		days_remove = 30
+		days_re_enable = 60
+
+		custom_cost_trigger = {
+			command_power > 14
+		}
+		custom_cost_text = needs_15_command_power_for_decision
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		available = {
+			AND = {
+				country_exists = IRQ
+				IRQ = { has_war = no }
+				custom_trigger_tooltip = {
+					tooltip = custom_trigger_irq_nofly_zone_airspace_tt
+					check_variable = {
+						var = irq_region_2_airspace_value
+						value = 2
 						compare = not_equals
 					}
 				}
@@ -4990,8 +5199,449 @@ irq_category_contest_nofly_zone = {
 		}
 
 		cancel_trigger = {
-			IRQ = {
+			OR = {
 				has_completed_focus = IRQ_grant_partial_autonomy
+				hidden_trigger = {
+					IRQ = { has_country_flag = IRQ_no-fly_zone_success_flag }
+					IRQ = { has_country_flag = IRQ_no-fly_zone_failed_flag }
+				}
+			}
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -15
+			}
+		}
+
+		remove_effect = {
+			random_list = {
+				75 = {
+					IRQ = { country_event = { id = irq_nofly.1 } }
+
+					add_to_variable = {
+						var = irq_region_2_airspace_value
+						value = 1
+						tooltip = var_irq_nofly_zone_airspace_increase
+					}
+					clamp_variable = {
+						var = irq_region_2_airspace_value
+						max = 2
+					}
+				}
+				25 = {
+					modifier = {
+						factor = 2.0
+						check_variable = {
+							var = irq_region_2_defences_value
+							value = 2
+							compare = equals
+						}
+					}
+					modifier = {
+						factor = 2.5
+						check_variable = {
+							var = irq_region_2_defences_value
+							value = 1
+							compare = equals
+						}
+					}
+					modifier = {
+						factor = 5.0
+						check_variable = {
+							var = irq_region_2_defences_value
+							value = 0
+							compare = equals
+						}
+					}
+					modifier = {
+						factor = 1.5
+						check_variable = {
+							var = irq_region_2_intelligence_value
+							value = 2
+							compare = equals
+						}
+					}
+					modifier = {
+						factor = 2.0
+						check_variable = {
+							var = irq_region_2_intelligence_value
+							value = 1
+							compare = equals
+						}
+					}
+					modifier = {
+						factor = 3.0
+						check_variable = {
+							var = irq_region_2_intelligence_value
+							value = 0
+							compare = equals
+						}
+					}
+
+					IRQ = { country_event = { id = irq_nofly.2 } }
+
+					subtract_from_variable = {
+						var = irq_region_2_airspace_value
+						value = 1
+						tooltip = var_irq_nofly_zone_airspace_decrease
+					}
+					clamp_variable = {
+						var = irq_region_2_airspace_value
+						min = 0
+					}
+				}
+			}
+			IRQ_recalc_iraq_nofly_zone_map_frames = yes
+		}
+
+		ai_will_do = {
+		}
+
+	}
+	IRQ_contest_nofly_zone_region_3_launch_operations_decision = {
+
+		icon = GFX_decision_generic_fighter_soviet
+
+		priority = 21
+
+		fire_only_once = no
+		days_remove = 30
+		days_re_enable = 60
+
+		custom_cost_trigger = {
+			command_power > 14
+		}
+		custom_cost_text = needs_15_command_power_for_decision
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		available = {
+			AND = {
+				country_exists = IRQ
+				IRQ = { has_war = no }
+				custom_trigger_tooltip = {
+					tooltip = custom_trigger_irq_nofly_zone_airspace_tt
+					check_variable = {
+						var = irq_region_3_airspace_value
+						value = 2
+						compare = not_equals
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = custom_trigger_irq_nofly_zone_central_airspace_tt
+					check_variable = {
+						var = irq_region_2_airspace_value
+						value = 2
+						compare = equals
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				has_completed_focus = IRQ_grant_partial_autonomy
+				hidden_trigger = {
+					IRQ = { has_country_flag = IRQ_no-fly_zone_success_flag }
+					IRQ = { has_country_flag = IRQ_no-fly_zone_failed_flag }
+				}
+			}
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -15
+			}
+		}
+
+		remove_effect = {
+			random_list = {
+				75 = {
+					IRQ = { country_event = { id = irq_nofly.1 } }
+
+					add_to_variable = {
+						var = irq_region_3_airspace_value
+						value = 1
+						tooltip = var_irq_nofly_zone_airspace_increase
+					}
+					clamp_variable = {
+						var = irq_region_3_airspace_value
+						max = 2
+					}
+				}
+				25 = {
+					modifier = {
+						factor = 2.0
+						check_variable = {
+							var = irq_region_3_defences_value
+							value = 2
+							compare = equals
+						}
+					}
+					modifier = {
+						factor = 2.5
+						check_variable = {
+							var = irq_region_3_defences_value
+							value = 1
+							compare = equals
+						}
+					}
+					modifier = {
+						factor = 5.0
+						check_variable = {
+							var = irq_region_3_defences_value
+							value = 0
+							compare = equals
+						}
+					}
+					modifier = {
+						factor = 1.5
+						check_variable = {
+							var = irq_region_3_intelligence_value
+							value = 2
+							compare = equals
+						}
+					}
+					modifier = {
+						factor = 2.0
+						check_variable = {
+							var = irq_region_3_intelligence_value
+							value = 1
+							compare = equals
+						}
+					}
+					modifier = {
+						factor = 3.0
+						check_variable = {
+							var = irq_region_3_intelligence_value
+							value = 0
+							compare = equals
+						}
+					}
+
+					IRQ = { country_event = { id = irq_nofly.2 } }
+
+					subtract_from_variable = {
+						var = irq_region_3_airspace_value
+						value = 1
+						tooltip = var_irq_nofly_zone_airspace_decrease
+					}
+					clamp_variable = {
+						var = irq_region_3_airspace_value
+						min = 0
+					}
+				}
+			}
+			IRQ_recalc_iraq_nofly_zone_map_frames = yes
+		}
+
+		ai_will_do = {
+		}
+
+	}
+	IRQ_contest_nofly_zone_region_4_launch_operations_decision = {
+
+		icon = GFX_decision_generic_fighter_soviet
+
+		priority = 20
+
+		fire_only_once = no
+		days_remove = 30
+		days_re_enable = 60
+
+		custom_cost_trigger = {
+			command_power > 14
+		}
+		custom_cost_text = needs_15_command_power_for_decision
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		available = {
+			AND = {
+				country_exists = IRQ
+				IRQ = { has_war = no }
+				custom_trigger_tooltip = {
+					tooltip = custom_trigger_irq_nofly_zone_airspace_tt
+					check_variable = {
+						var = irq_region_4_airspace_value
+						value = 2
+						compare = not_equals
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = custom_trigger_irq_nofly_zone_southern_airspace_tt
+					check_variable = {
+						var = irq_region_3_airspace_value
+						value = 2
+						compare = equals
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				has_completed_focus = IRQ_grant_partial_autonomy
+				hidden_trigger = {
+					IRQ = { has_country_flag = IRQ_no-fly_zone_success_flag }
+					IRQ = { has_country_flag = IRQ_no-fly_zone_failed_flag }
+				}
+			}
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -15
+			}
+		}
+
+		remove_effect = {
+			random_list = {
+				75 = {
+					IRQ = { country_event = { id = irq_nofly.1 } }
+
+					add_to_variable = {
+						var = irq_region_4_airspace_value
+						value = 1
+						tooltip = var_irq_nofly_zone_airspace_increase
+					}
+					clamp_variable = {
+						var = irq_region_4_airspace_value
+						max = 2
+					}
+				}
+				25 = {
+					modifier = {
+						factor = 2.0
+						check_variable = {
+							var = irq_region_4_defences_value
+							value = 2
+							compare = equals
+						}
+					}
+					modifier = {
+						factor = 2.5
+						check_variable = {
+							var = irq_region_4_defences_value
+							value = 1
+							compare = equals
+						}
+					}
+					modifier = {
+						factor = 5.0
+						check_variable = {
+							var = irq_region_4_defences_value
+							value = 0
+							compare = equals
+						}
+					}
+					modifier = {
+						factor = 1.5
+						check_variable = {
+							var = irq_region_4_intelligence_value
+							value = 2
+							compare = equals
+						}
+					}
+					modifier = {
+						factor = 2.0
+						check_variable = {
+							var = irq_region_4_intelligence_value
+							value = 1
+							compare = equals
+						}
+					}
+					modifier = {
+						factor = 3.0
+						check_variable = {
+							var = irq_region_4_intelligence_value
+							value = 0
+							compare = equals
+						}
+					}
+
+					IRQ = { country_event = { id = irq_nofly.2 } }
+
+					subtract_from_variable = {
+						var = irq_region_4_airspace_value
+						value = 1
+						tooltip = var_irq_nofly_zone_airspace_decrease
+					}
+					clamp_variable = {
+						var = irq_region_4_airspace_value
+						min = 0
+					}
+				}
+			}
+			IRQ_recalc_iraq_nofly_zone_map_frames = yes
+		}
+
+		ai_will_do = {
+		}
+
+	}
+
+	# Air Defences #
+	IRQ_contest_nofly_zone_region_1_new_air_defences_decision = {
+
+		icon = GFX_decision_generic_air_defence
+
+		priority = 13
+
+		fire_only_once = no
+		days_remove = 45
+		days_re_enable = 90
+
+		custom_cost_trigger = {
+			command_power > 4
+		}
+		custom_cost_text = needs_5_command_power_for_decision
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		available = {
+			AND = {
+				country_exists = IRQ
+				IRQ = { has_war = no }
+				custom_trigger_tooltip = {
+					tooltip = custom_trigger_irq_nofly_zone_defences_tt
+					check_variable = {
+						var = irq_region_1_defences_value
+						value = 3
+						compare = not_equals
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = custom_trigger_irq_nofly_zone_central_airspace_tt
+					check_variable = {
+						var = irq_region_2_airspace_value
+						value = 2
+						compare = equals
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				has_completed_focus = IRQ_grant_partial_autonomy
+				hidden_trigger = {
+					IRQ = { has_country_flag = IRQ_no-fly_zone_success_flag }
+					IRQ = { has_country_flag = IRQ_no-fly_zone_failed_flag }
+				}
+			}
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -5
 			}
 		}
 
@@ -5015,11 +5665,16 @@ irq_category_contest_nofly_zone = {
 
 		icon = GFX_decision_generic_air_defence
 
-		priority = 10
+		priority = 12
 
 		fire_only_once = no
 		days_remove = 45
 		days_re_enable = 90
+
+		custom_cost_trigger = {
+			command_power > 4
+		}
+		custom_cost_text = needs_5_command_power_for_decision
 
 		visible = {
 			original_tag = IRQ
@@ -5030,7 +5685,7 @@ irq_category_contest_nofly_zone = {
 				country_exists = IRQ
 				IRQ = { has_war = no }
 				custom_trigger_tooltip = {
-					tooltip = custom_trigger_tt_irq_nofly_zone_defences_tt
+					tooltip = custom_trigger_irq_nofly_zone_defences_tt
 					check_variable = {
 						var = irq_region_2_defences_value
 						value = 3
@@ -5041,8 +5696,18 @@ irq_category_contest_nofly_zone = {
 		}
 
 		cancel_trigger = {
-			IRQ = {
+			OR = {
 				has_completed_focus = IRQ_grant_partial_autonomy
+				hidden_trigger = {
+					IRQ = { has_country_flag = IRQ_no-fly_zone_success_flag }
+					IRQ = { has_country_flag = IRQ_no-fly_zone_failed_flag }
+				}
+			}
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -5
 			}
 		}
 
@@ -5066,11 +5731,16 @@ irq_category_contest_nofly_zone = {
 
 		icon = GFX_decision_generic_air_defence
 
-		priority = 10
+		priority = 11
 
 		fire_only_once = no
 		days_remove = 45
 		days_re_enable = 90
+
+		custom_cost_trigger = {
+			command_power > 4
+		}
+		custom_cost_text = needs_5_command_power_for_decision
 
 		visible = {
 			original_tag = IRQ
@@ -5081,19 +5751,37 @@ irq_category_contest_nofly_zone = {
 				country_exists = IRQ
 				IRQ = { has_war = no }
 				custom_trigger_tooltip = {
-					tooltip = custom_trigger_tt_irq_nofly_zone_defences_tt
+					tooltip = custom_trigger_irq_nofly_zone_defences_tt
 					check_variable = {
 						var = irq_region_3_defences_value
 						value = 3
 						compare = not_equals
 					}
 				}
+				custom_trigger_tooltip = {
+					tooltip = custom_trigger_irq_nofly_zone_central_airspace_tt
+					check_variable = {
+						var = irq_region_2_airspace_value
+						value = 2
+						compare = equals
+					}
+				}
 			}
 		}
 
 		cancel_trigger = {
-			IRQ = {
+			OR = {
 				has_completed_focus = IRQ_grant_partial_autonomy
+				hidden_trigger = {
+					IRQ = { has_country_flag = IRQ_no-fly_zone_success_flag }
+					IRQ = { has_country_flag = IRQ_no-fly_zone_failed_flag }
+				}
+			}
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -5
 			}
 		}
 
@@ -5123,6 +5811,11 @@ irq_category_contest_nofly_zone = {
 		days_remove = 45
 		days_re_enable = 90
 
+		custom_cost_trigger = {
+			command_power > 4
+		}
+		custom_cost_text = needs_5_command_power_for_decision
+
 		visible = {
 			original_tag = IRQ
 		}
@@ -5132,19 +5825,37 @@ irq_category_contest_nofly_zone = {
 				country_exists = IRQ
 				IRQ = { has_war = no }
 				custom_trigger_tooltip = {
-					tooltip = custom_trigger_tt_irq_nofly_zone_defences_tt
+					tooltip = custom_trigger_irq_nofly_zone_defences_tt
 					check_variable = {
 						var = irq_region_4_defences_value
 						value = 3
 						compare = not_equals
 					}
 				}
+				custom_trigger_tooltip = {
+					tooltip = custom_trigger_irq_nofly_zone_southern_airspace_tt
+					check_variable = {
+						var = irq_region_3_airspace_value
+						value = 2
+						compare = equals
+					}
+				}
 			}
 		}
 
 		cancel_trigger = {
-			IRQ = {
+			OR = {
 				has_completed_focus = IRQ_grant_partial_autonomy
+				hidden_trigger = {
+					IRQ = { has_country_flag = IRQ_no-fly_zone_success_flag }
+					IRQ = { has_country_flag = IRQ_no-fly_zone_failed_flag }
+				}
+			}
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -5
 			}
 		}
 
@@ -5156,6 +5867,296 @@ irq_category_contest_nofly_zone = {
 			}
 			clamp_variable = {
 				var = irq_region_4_defences_value
+				max = 3
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+
+	# Intelligence #
+	IRQ_contest_nofly_zone_region_1_intelligence_decision = {
+
+		icon = GFX_decision_generic_radar
+
+		priority = 4
+
+		fire_only_once = no
+		days_remove = 45
+		days_re_enable = 90
+
+		custom_cost_trigger = {
+			command_power > 4
+		}
+		custom_cost_text = needs_5_command_power_for_decision
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		available = {
+			AND = {
+				country_exists = IRQ
+				IRQ = { has_war = no }
+				custom_trigger_tooltip = {
+					tooltip = custom_trigger_irq_nofly_zone_intelligence_tt
+					check_variable = {
+						var = irq_region_1_intelligence_value
+						value = 3
+						compare = not_equals
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = custom_trigger_irq_nofly_zone_central_airspace_tt
+					check_variable = {
+						var = irq_region_2_airspace_value
+						value = 2
+						compare = equals
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				has_completed_focus = IRQ_grant_partial_autonomy
+				hidden_trigger = {
+					IRQ = { has_country_flag = IRQ_no-fly_zone_success_flag }
+					IRQ = { has_country_flag = IRQ_no-fly_zone_failed_flag }
+				}
+			}
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -5
+			}
+		}
+
+		remove_effect = {
+			add_to_variable = {
+				var = irq_region_1_intelligence_value
+				value = 1
+				tooltip = var_irq_nofly_zone_intelligence_increase
+			}
+			clamp_variable = {
+				var = irq_region_1_intelligence_value
+				max = 3
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+	IRQ_contest_nofly_zone_region_2_intelligence_decision = {
+
+		icon = GFX_decision_generic_radar
+
+		priority = 3
+
+		fire_only_once = no
+		days_remove = 45
+		days_re_enable = 90
+
+		custom_cost_trigger = {
+			command_power > 4
+		}
+		custom_cost_text = needs_5_command_power_for_decision
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		available = {
+			AND = {
+				country_exists = IRQ
+				IRQ = { has_war = no }
+				custom_trigger_tooltip = {
+					tooltip = custom_trigger_irq_nofly_zone_intelligence_tt
+					check_variable = {
+						var = irq_region_2_intelligence_value
+						value = 3
+						compare = not_equals
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				has_completed_focus = IRQ_grant_partial_autonomy
+				hidden_trigger = {
+					IRQ = { has_country_flag = IRQ_no-fly_zone_success_flag }
+					IRQ = { has_country_flag = IRQ_no-fly_zone_failed_flag }
+				}
+			}
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -5
+			}
+		}
+
+		remove_effect = {
+			add_to_variable = {
+				var = irq_region_2_intelligence_value
+				value = 1
+				tooltip = var_irq_nofly_zone_intelligence_increase
+			}
+			clamp_variable = {
+				var = irq_region_2_intelligence_value
+				max = 3
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+	IRQ_contest_nofly_zone_region_3_intelligence_decision = {
+
+		icon = GFX_decision_generic_radar
+
+		priority = 2
+
+		fire_only_once = no
+		days_remove = 45
+		days_re_enable = 90
+
+		custom_cost_trigger = {
+			command_power > 4
+		}
+		custom_cost_text = needs_5_command_power_for_decision
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		available = {
+			AND = {
+				country_exists = IRQ
+				IRQ = { has_war = no }
+				custom_trigger_tooltip = {
+					tooltip = custom_trigger_irq_nofly_zone_intelligence_tt
+					check_variable = {
+						var = irq_region_3_intelligence_value
+						value = 3
+						compare = not_equals
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = custom_trigger_irq_nofly_zone_central_airspace_tt
+					check_variable = {
+						var = irq_region_2_airspace_value
+						value = 2
+						compare = equals
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				has_completed_focus = IRQ_grant_partial_autonomy
+				hidden_trigger = {
+					IRQ = { has_country_flag = IRQ_no-fly_zone_success_flag }
+					IRQ = { has_country_flag = IRQ_no-fly_zone_failed_flag }
+				}
+			}
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -5
+			}
+		}
+
+		remove_effect = {
+			add_to_variable = {
+				var = irq_region_3_intelligence_value
+				value = 1
+				tooltip = var_irq_nofly_zone_intelligence_increase
+			}
+			clamp_variable = {
+				var = irq_region_3_intelligence_value
+				max = 3
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+	IRQ_contest_nofly_zone_region_4_intelligence_decision = {
+
+		icon = GFX_decision_generic_radar
+
+		priority = 1
+
+		fire_only_once = no
+		days_remove = 45
+		days_re_enable = 90
+
+		custom_cost_trigger = {
+			command_power > 4
+		}
+		custom_cost_text = needs_5_command_power_for_decision
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		available = {
+			AND = {
+				country_exists = IRQ
+				IRQ = { has_war = no }
+				custom_trigger_tooltip = {
+					tooltip = custom_trigger_irq_nofly_zone_intelligence_tt
+					check_variable = {
+						var = irq_region_4_intelligence_value
+						value = 3
+						compare = not_equals
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = custom_trigger_irq_nofly_zone_southern_airspace_tt
+					check_variable = {
+						var = irq_region_3_airspace_value
+						value = 2
+						compare = equals
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				has_completed_focus = IRQ_grant_partial_autonomy
+				hidden_trigger = {
+					IRQ = { has_country_flag = IRQ_no-fly_zone_success_flag }
+					IRQ = { has_country_flag = IRQ_no-fly_zone_failed_flag }
+				}
+			}
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -5
+			}
+		}
+
+		remove_effect = {
+			add_to_variable = {
+				var = irq_region_4_intelligence_value
+				value = 1
+				tooltip = var_irq_nofly_zone_intelligence_increase
+			}
+			clamp_variable = {
+				var = irq_region_4_intelligence_value
 				max = 3
 			}
 		}

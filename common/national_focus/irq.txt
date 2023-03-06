@@ -2787,7 +2787,18 @@ focus_tree = {
 		y = 1
 
 		prerequisite = {focus = IRQ_troll_kurds}
-		available = { NOT = { has_idea = IRQ_no-fly_zones } }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = IRQ_tt_use_air
+
+				NOT = {
+					OR = {
+						has_idea = IRQ_no-fly_zones
+						has_idea = IRQ_no-fly_zones_2
+					}
+				}
+			}
+		}
 		relative_position_id = IRQ_troll_kurds
 		
 		cost = 4
@@ -2938,6 +2949,7 @@ focus_tree = {
 			}
 			custom_effect_tooltip = propaganda_decision_cost_increases_by_10
 			add_to_variable = { propaganda_decision_cost_var = 10}
+			custom_effect_tooltip = IRQ_tt_grant_partial_autonomy
 		}
 	}
 
@@ -3167,7 +3179,11 @@ focus_tree = {
 		available = {
 			OR = {
 				has_completed_focus = IRQ_grant_partial_autonomy
-				always = no ## Temporary, will be replaced with decision completion check
+				custom_trigger_tooltip = {
+					tooltip = custom_trigger_tt_irq_no-fly_zone_success
+
+					has_country_flag = IRQ_no-fly_zone_success_flag
+				}
 			}
 		}
 
@@ -3233,7 +3249,11 @@ focus_tree = {
 		relative_position_id = IRQ_construct_air_defenses
 
 		available = {
-			always = no ## Temporary, will be replaced with decision completion check
+			custom_trigger_tooltip = {
+				tooltip = custom_trigger_tt_irq_no-fly_zone_failed
+
+				has_country_flag = IRQ_no-fly_zone_failed_flag
+			}
 		}
 
 		cost = 3

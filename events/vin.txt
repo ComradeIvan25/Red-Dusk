@@ -415,7 +415,7 @@ country_event = {
 		name = vin.20.a
 		hidden_effect = {
 		VIN = {
-				country_event = { id = vin.21 days = 5 }
+				country_event = { id = vin.23 days = 5 }
 			}
 		
     }
@@ -430,7 +430,7 @@ country_event = {
 		name = vin.20.b
 		hidden_effect = {
 		VIN = {
-				country_event = { id = vin.21 days = 5 }
+				country_event = { id = vin.23 days = 5 }
 			}
 		
     }
@@ -478,3 +478,80 @@ country_event = {
 }
 }
 }
+
+#National Assembly Meeting 1
+country_event = {
+	id = vin.23
+	title = vin.23.t
+	desc = vin.23.d
+	picture = GFX_report_event_national_assembly_meeting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vin.23.a
+		add_political_power = 15
+		add_stability = 0.01
+	hidden_effect = {
+		VIN = {
+				country_event = { id = vin.24 }
+			}
+      }
+      }
+	  option = {
+		name = vin.23.b
+		add_political_power = -50
+		add_stability = -0.01
+	hidden_effect = {
+		VIN = {
+				country_event = { id = vin.24 }
+			}
+      }
+      }
+	  option = {
+		name = vin.23.c
+		add_political_power = -25
+		add_stability = 0.01
+		add_popularity = {
+			ideology = reformed_communism
+			popularity = 0.01
+		}
+	hidden_effect = {
+		VIN = {
+				country_event = { id = vin.24 }
+			}
+      }
+      }
+}
+
+#National Assembly Meeting 2
+country_event = {
+	id = vin.24
+	title = vin.24.t
+	desc = vin.24.d
+	picture = GFX_report_event_national_assembly_meeting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vin.24.a
+		add_political_power = 15
+	complete_national_focus =  VIN_national_assembly_meeting
+	add_popularity = {
+			ideology = reformed_communism
+			popularity = 0.02
+		}
+     }
+	option = {
+		name = vin.24.b
+		add_political_power = 15
+		add_stability = -0.04
+	complete_national_focus =  VIN_national_assembly_meeting
+	 add_popularity = {
+			ideology = liberalism 
+			popularity = 0.05
+		}
+      }
+	 
+     }
+

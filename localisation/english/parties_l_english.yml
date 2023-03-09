@@ -814,7 +814,7 @@
  ISR_fascism_party:0 "Helpam"
  ISR_neutrality_party:0 "Central Council"
  VIN_fascism_party:0 "Vietnamese Restoration League" #or Reformation Society   
- VIN_democratic_party:0 "Communist Party of Vietnam - Liberal Wing" #formed in early 50s
+ VIN_conservatism_party:0 "Communist Party of Vietnam - Liberal Wing" #formed in early 50s
  VIN_communism_party:0 "Communist Party of Vietnam" #Viet Minh was more important in early years
  VIN_reformed_communism_party:0 "Communist Party of Vietnam"
  VIN_neutrality_party:0 "Communist Party of Vietnam"

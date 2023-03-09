@@ -1592,7 +1592,10 @@ focus_tree = {
     producer = VIN
      }
 	 add_manpower = -10
-	 
+	 swap_ideas = {
+	 add_idea = VIN_socialist_law_state_3
+	 remove_idea = VIN_socialist_law_state_2
+	 }
      }
 	 }
 	
@@ -1610,10 +1613,12 @@ focus_tree = {
 		}
 		prerequisite = {  }
 		available = {
-        has_completed_focus = VIN_2002_election
+        always = no
         }
         completion_reward = { 
         army_experience = 50
+		air_experience = 50
+		navy_experience = 50
 	  }
 	  }
 	#Modernization

@@ -623,6 +623,15 @@
  vin.22.t:0 "First Plenum"
  vin.22.d:0 "The Congress has ended, smoothly as expected. But the real game has only begun, the first plenum is the moment when the Politburo will elect the position of General Secretary, the most powerful position de facto and will be the one to steer the country for the next 5 years."
  vin.22.a:0 "Very well."
+ vin.23.t:0 "Vote for President"
+ vin.23.d:0 "The first session of the 11th National Assembly will appoint the head of our state."
+ vin.23.a:0 "Tran Duc Luong has been re-elected."
+ vin.23.b:0 "Appoint Nong Duc Manh, more power to the general secretary."
+ vin.23.c:0 "Phan Van Khai, for the sake of our reform."
+ vin.24.t:0 "Vote for Prime Minister"
+ vin.24.d:0 "The first session of the 11th National Assembly will elect the Prime Minister."
+ vin.24.a:0 "Elect Nguyen Mnh Triet, the rising star. "
+ vin.24.b:0 "Elect Nguyen Tan Dung, we need a more radical reform."
  #IRQ#
 
  irq.1.t:0 "A Nation of Snakes"

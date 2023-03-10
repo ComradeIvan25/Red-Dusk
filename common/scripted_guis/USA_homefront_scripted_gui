@@ -37,7 +37,7 @@ scripted_gui = {
 		}
 	
 		effects = {
-			open_da_yug_power_struggle_icon_gui_click = {
+			open_open_USA_icon_gui_click = {
 				if = {
 					limit = { has_country_flag = open_USA_homefront_gui }
 					clr_country_flag = open_USA_homefront_gui
@@ -55,7 +55,7 @@ scripted_gui = {
 		}
 	
 		effects = {
-			open_da_yug_power_struggle_icon_gui_click = {
+			close_USA_homefront_icon_gui_click = {
 				if = {
 					limit = { has_country_flag = close_USA_homefront_gui }
 					clr_country_flag = close_USA_homefront_gui

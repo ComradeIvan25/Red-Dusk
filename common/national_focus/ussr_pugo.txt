@@ -3,10 +3,10 @@
 	
 	country = {
 		factor = 0
-		#modifier = {
-		#tag = SOV
-		#add = 999
-		#}
+		modifier = {
+		tag = SOV
+		add = 999
+		}
 	}
 	
 	default = no
@@ -3246,12 +3246,13 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = -75
+			add_political_power = -50
 			add_stability = 0.10
 			custom_effect_tooltip = pugos_policies_tt_stability_increase
 			add_to_variable = {sov_pugo_policy_stability_var = 0.05}
 			custom_effect_tooltip = pugos_policies_tt_political_power_decrease
 			subtract_from_variable = {sov_pugo_policy_political_power_gain_var = 0.05}
+			
 		}
 	}
 	
@@ -3267,7 +3268,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 1
+		cost = 2.9
 		ai_will_do = {
 			factor = 1
 		}
@@ -3279,8 +3280,14 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
-			
+			add_stability = 0.05
+			add_war_support = -0.1
+			add_popularity = {
+			ideology = communism
+			popularity = -0.10
+			}
+			add_to_variable = {pugo_zyuganov_influence_var = 1}
+			custom_effect_tooltip = pugos_policies_zyuganov_influence_increase
 		}
 	}
 	
@@ -3296,7 +3303,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 1
+		cost = 4
 		ai_will_do = {
 			factor = 1
 		}
@@ -3308,8 +3315,8 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
-			
+			add_stability = -0.10
+			add_ideas = SOV_pugo_religious_socialism
 		}
 	}
 	
@@ -3384,7 +3391,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 1
+		cost = 4
 		ai_will_do = {
 			factor = 1
 		}
@@ -3396,7 +3403,8 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
+			add_to_variable = {pugo_udaltsov_influence_var = 1}
+			custom_effect_tooltip = pugos_policies_udaltsov_influence_increase
 			
 		}
 	}	

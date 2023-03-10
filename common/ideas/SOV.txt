@@ -1444,6 +1444,29 @@ ideas = {
 
 		}
 
+		##PUGO POLICY##
+		
+		SOV_pugo_religious_socialism = {
+
+			name = SOV_pugo_religious_socialism_name
+
+			removal_cost = -1
+
+			picture = SOV_Five_Year_Plan_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			political_power_factor = -0.15
+			democratic_drift = 0.01
+			communism_drift = 0.01
+			army_morale_factor = 0.10
+
+			}
+
+		}		
 		
 		#####YAZOV !!!!!!!!!!!!!!!!!#############
 		#####YAZOV !!!!!!!!!!!!!!!!!#############

@@ -76,6 +76,10 @@
  SOV_pugo_brezh_economy_name_desc:0 ""
  SOV_pugo_computer_name:0 "Computerisation Drive"
  SOV_pugo_computer_name_desc:0 ""
+ 
+ SOV_pugo_religious_socialism_name:0 "Religious Socialism"
+ SOV_pugo_religious_socialism_name_desc:0 ""
+ 
  SOV_cold_war:0 "Cold War"
  SOV_cold_war_desc:0 "This idea will get modified with each proxy war we win."
  ussr_embargo_name:0 "USSR Embargo"

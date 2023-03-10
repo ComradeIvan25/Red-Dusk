@@ -282,10 +282,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_old_enemy_in_Yugo.png"
 	}
 	SpriteType = {
-		name = "GFX_focus_SOV_an_offer_they_cannot_refuse"
-		texturefile = "gfx/interface/goals/SOV/focus_SOV_an_offer_they_cannot_refuse.png"
-	}
-	SpriteType = {
 		name = "GFX_focus_SOV_invade_balkan"
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_invade_balkan.png"
 	}
@@ -666,10 +662,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_SOV_against_the_eastern_dragon"
 		texturefile = "gfx/interface/goals/SOV/SOV_against_the_eastern_dragon.dds"
-	}
-	SpriteType = {
-		name = "GFX_SOV_army_kgb_cooperating"
-		texturefile = "gfx/interface/goals/SOV/SOV_army_kgb_cooperating.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_border_blockades"
@@ -1560,6 +1552,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_focus_IRQ_wahda_hurriyah_ishtirakiyah"
 		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_wahda_hurriyah_ishtirakiyah.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_baath_eagle"
+		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_baath_eagle.png"
 	}
 	
    ###SAF###

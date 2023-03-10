@@ -42,6 +42,9 @@
  
  #PUGO POLICY#
  
+ pugos_policies_udaltsov_influence_increase:0 "§GUdaltsov's influence will increase§!"
+ pugos_policies_zyuganov_influence_increase:0 "§GZyuganov's influence will increase§!"
+ 
  pugos_policies_tt_political_power_decrease:0 "§RPolitical power gain will decrease§!"
  pugos_policies_tt_political_power_increase:0 "§GPolitical power gain will increase§!"
  

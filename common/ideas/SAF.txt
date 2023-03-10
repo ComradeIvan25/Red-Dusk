@@ -994,6 +994,183 @@ ideas = {
 			}
 		}
 
+		SAF_developing_fleet_idea = {
+			name = SAF_developing_fleet_idea_name
+
+			removal_cost = -1
+
+			#picture =
+
+			allowed = {
+				always = no
+			}
+
+			research_bonus = {
+				naval_equipment = 0.05
+			}
+
+			modifier = {
+				war_support_weekly = 0.005
+				production_speed_dockyard_factor = 0.05
+			}
+		}
+
+		SAF_reinforcing_fleet_idea = {
+			name = SAF_reinforcing_fleet_idea_name
+
+			removal_cost = -1
+
+			#picture =
+
+			allowed = {
+				always = no
+			}
+
+			research_bonus = {
+				naval_equipment = 0.02
+			}
+
+			modifier = {
+				war_support_weekly = 0.005
+				navy_capital_ship_attack_factor = 0.02
+				navy_capital_ship_defence_factor = 0.02
+				navy_screen_attack_factor = 0.02
+				navy_screen_defence_factor = 0.02
+				navy_submarine_attack_factor = 0.02
+				navy_submarine_defence_factor = 0.02
+			}
+		}
+
+		SAF_reinforcing_fleet_submarine_idea = {
+			name = SAF_reinforcing_fleet_idea_name
+
+			removal_cost = -1
+
+			#picture =
+
+			allowed = {
+				always = no
+			}
+
+			research_bonus = {
+				naval_equipment = 0.05
+			}
+
+			modifier = {
+				war_support_weekly = 0.005
+				navy_capital_ship_attack_factor = 0.02
+				navy_capital_ship_defence_factor = 0.02
+				navy_screen_attack_factor = 0.02
+				navy_screen_defence_factor = 0.02
+				navy_submarine_attack_factor = 0.05
+				navy_submarine_defence_factor = 0.05
+			}
+		}
+
+		SAF_reinforcing_fleet_surface_idea = {
+			name = SAF_reinforcing_fleet_idea_name
+
+			removal_cost = -1
+
+			#picture =
+
+			allowed = {
+				always = no
+			}
+
+			research_bonus = {
+				naval_equipment = 0.05
+			}
+
+			modifier = {
+				war_support_weekly = 0.005
+				navy_capital_ship_attack_factor = 0.05
+				navy_capital_ship_defence_factor = 0.05
+				navy_screen_attack_factor = 0.05
+				navy_screen_defence_factor = 0.05
+				navy_submarine_attack_factor = 0.02
+				navy_submarine_defence_factor = 0.02
+			}
+		}
+
+		SAF_prioritizing_submarines_idea = {
+			name = SAF_prioritizing_submarines_idea_name
+
+			removal_cost = -1
+
+			#picture =
+
+			allowed = {
+				always = no
+			}
+
+			research_bonus = {
+				mod_cat_submarine = 0.05
+			}
+
+			traits = {
+				SAF_prioritizing_submarines_idea_trait
+			}
+		}
+
+		SAF_prioritizing_surface_idea = {
+			name = SAF_prioritizing_surface_idea_name
+
+			removal_cost = -1
+
+			#picture =
+
+			allowed = {
+				always = no
+			}
+
+			research_bonus = {
+				mod_cat_surface = 0.05
+			}
+
+			traits = {
+				SAF_prioritizing_surface_idea_trait
+			}
+		}
+
+		SAF_rulers_south_atlantic_idea = {
+			name = SAF_rulers_south_atlantic_idea_name
+
+			removal_cost = -1
+
+			#picture =
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_weekly = 0.005
+				political_power_gain = 0.5
+				naval_damage_factor = 0.05
+				naval_defense_factor = 0.05
+			}
+		}
+
+		SAF_rulers_south_atlantic_2_idea = {
+			name = SAF_rulers_south_atlantic_idea_name
+
+			removal_cost = -1
+
+			#picture =
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_weekly = 0.01
+				political_power_gain = 0.75
+				naval_damage_factor = 0.075
+				naval_defense_factor = 0.075
+			}
+		}
+
 	}
 
 }

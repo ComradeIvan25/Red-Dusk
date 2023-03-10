@@ -76,10 +76,10 @@
  SOV_pugo_brezh_economy_name_desc:0 ""
  SOV_pugo_computer_name:0 "Computerisation Drive"
  SOV_pugo_computer_name_desc:0 ""
- 
+
  SOV_pugo_religious_socialism_name:0 "Religious Socialism"
  SOV_pugo_religious_socialism_name_desc:0 ""
- 
+
  SOV_cold_war:0 "Cold War"
  SOV_cold_war_desc:0 "This idea will get modified with each proxy war we win."
  ussr_embargo_name:0 "USSR Embargo"
@@ -399,6 +399,16 @@
  SAF_new_home_african_democracy_idea_name_desc:0 ""
  SAF_overstretched_military_idea_name:0 "Overstretched Military"
  SAF_overstretched_military_idea_name_desc:0 ""
+ SAF_developing_fleet_idea_name:0 "Developing the Fleet"
+ SAF_developing_fleet_idea_name_desc:0 ""
+ SAF_rulers_south_atlantic_idea_name:0 "The New Rulers of the South Atlantic"
+ SAF_rulers_south_atlantic_idea_name_desc:0 ""
+ SAF_reinforcing_fleet_idea_name:0 "Reinforcing the Fleet"
+ SAF_reinforcing_fleet_idea_name_desc:0 ""
+ SAF_prioritizing_submarines_idea_name:0 "Prioritizing Submarines"
+ SAF_prioritizing_submarines_idea_name_desc:0 ""
+ SAF_prioritizing_surface_idea_name:0 "Prioritizing Surface Fleet"
+ SAF_prioritizing_surface_idea_name_desc:0 ""
 
  ANC_boers_idea_name:0 "Boer Support"
  ANC_boers_idea_name_desc:0 ""

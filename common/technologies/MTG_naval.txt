@@ -509,6 +509,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			mod_cat_corvette
+			mod_cat_surface
 		}
 
 	}
@@ -543,6 +544,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			mod_cat_corvette
+			mod_cat_surface
 		}
 
 	}
@@ -577,6 +579,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			mod_cat_corvette
+			mod_cat_surface
 		}
 
 	}
@@ -611,6 +614,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			mod_cat_corvette
+			mod_cat_surface
 		}
 
 	}
@@ -645,6 +649,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			mod_cat_corvette
+			mod_cat_surface
 		}
 
 	}
@@ -674,6 +679,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			mod_cat_corvette
+			mod_cat_surface
 		}
 
 	}
@@ -710,6 +716,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			mod_cat_destroyer
+			mod_cat_surface
 		}
 
 	}
@@ -744,6 +751,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			mod_cat_destroyer
+			mod_cat_surface
 		}
 
 	}
@@ -778,6 +786,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			mod_cat_destroyer
+			mod_cat_surface
 		}
 
 	}
@@ -812,6 +821,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			mod_cat_destroyer
+			mod_cat_surface
 		}
 
 	}
@@ -846,6 +856,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			mod_cat_destroyer
+			mod_cat_surface
 		}
 
 	}
@@ -875,6 +886,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			mod_cat_destroyer
+			mod_cat_surface
 		}
 
 	}
@@ -911,6 +923,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			mod_cat_cruiser
+			mod_cat_surface
 		}
 
 	}
@@ -940,6 +953,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			mod_cat_cruiser
+			mod_cat_surface
 		}
 
 	}
@@ -982,6 +996,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			mod_cat_carrier
+			mod_cat_surface
 		}
 
 	}
@@ -1016,6 +1031,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			mod_cat_carrier
+			mod_cat_surface
 		}
 
 	}
@@ -1050,6 +1066,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			mod_cat_carrier
+			mod_cat_surface
 		}
 
 	}
@@ -1079,6 +1096,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			mod_cat_carrier
+			mod_cat_surface
 		}
 
 	}

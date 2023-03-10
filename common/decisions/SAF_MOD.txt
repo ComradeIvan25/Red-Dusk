@@ -204,7 +204,7 @@ saf_category_request_foreign_weapons = {
 			}
 		}
 
-		remove_effect = {
+		complete_effect = {
 			SAF = {
 				add_equipment_to_stockpile = {
 					type = infantry_weapons
@@ -259,7 +259,7 @@ saf_category_request_foreign_weapons = {
 			}
 		}
 
-		remove_effect = {
+		complete_effect = {
 			SAF = {
 				add_equipment_to_stockpile = {
 					type = infantry_weapons
@@ -314,7 +314,7 @@ saf_category_request_foreign_weapons = {
 			}
 		}
 
-		remove_effect = {
+		complete_effect = {
 			SAF = {
 				add_equipment_to_stockpile = {
 					type = infantry_weapons
@@ -372,7 +372,7 @@ saf_category_request_foreign_weapons = {
 			}
 		}
 
-		remove_effect = {
+		complete_effect = {
 			SAF = {
 				add_equipment_to_stockpile = {
 					type = infantry_weapons
@@ -427,7 +427,7 @@ saf_category_request_foreign_weapons = {
 			}
 		}
 
-		remove_effect = {
+		complete_effect = {
 			SAF = {
 				add_equipment_to_stockpile = {
 					type = infantry_weapons
@@ -482,7 +482,7 @@ saf_category_request_foreign_weapons = {
 			}
 		}
 
-		remove_effect = {
+		complete_effect = {
 			SAF = {
 				add_equipment_to_stockpile = {
 					type = infantry_weapons
@@ -540,7 +540,7 @@ saf_category_request_foreign_weapons = {
 			}
 		}
 
-		remove_effect = {
+		complete_effect = {
 			SAF = {
 				add_equipment_to_stockpile = {
 					type = infantry_weapons
@@ -595,7 +595,7 @@ saf_category_request_foreign_weapons = {
 			}
 		}
 
-		remove_effect = {
+		complete_effect = {
 			SAF = {
 				add_equipment_to_stockpile = {
 					type = infantry_weapons
@@ -650,7 +650,7 @@ saf_category_request_foreign_weapons = {
 			}
 		}
 
-		remove_effect = {
+		complete_effect = {
 			SAF = {
 				add_equipment_to_stockpile = {
 					type = infantry_weapons
@@ -661,6 +661,384 @@ saf_category_request_foreign_weapons = {
 					type = support_equipment
 					amount = 240
 					producer = ENG
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+
+}
+
+saf_category_purchase_foreign_navy_designs = {
+
+	## United Kingdom ##
+
+	SAF_foreign_navy_designs_eng_submarine = {
+
+		icon = GFX_decision_generic_submarine
+
+		priority = 10
+
+		fire_only_once = yes
+		days_remove = 30
+
+		cost = 75
+
+		visible = {
+			original_tag = SAF
+		}
+
+		available = {
+			AND = {
+				country_exists = SAF
+				country_exists = ENG
+				NOT = {
+					SAF = {
+						has_war_with = ENG
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = SAF }
+				NOT = { country_exists = ENG }
+				SAF = {
+					has_war_with = ENG
+				}
+			}
+		}
+
+		remove_effect = {
+			if = {
+				limit = { has_dlc = "Death or Dishonor" }
+				ENG = {
+					create_production_license = {
+						target = SAF
+						equipment = {
+							type = attack_submarine_hull_2
+							version_name = "Upholder Class"
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+
+	## France ##
+
+	SAF_foreign_navy_designs_fra_submarine = {
+
+		icon = GFX_decision_generic_submarine
+
+		priority = 9
+
+		fire_only_once = yes
+		days_remove = 30
+
+		cost = 150
+
+		visible = {
+			original_tag = SAF
+		}
+
+		available = {
+			AND = {
+				country_exists = SAF
+				country_exists = FRA
+				NOT = {
+					SAF = {
+						has_war_with = FRA
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = SAF }
+				NOT = { country_exists = FRA }
+				SAF = {
+					has_war_with = FRA
+				}
+			}
+		}
+
+		remove_effect = {
+			if = {
+				limit = { has_dlc = "Death or Dishonor" }
+				FRA = {
+					create_production_license = {
+						target = SAF
+						equipment = {
+							type = attack_submarine_hull_4
+							version_name = "Scorpène Class"
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+	SAF_foreign_navy_designs_fra_ship = {
+
+		icon = GFX_decision_generic_ship
+
+		priority = 8
+
+		fire_only_once = yes
+		days_remove = 45
+
+		cost = 200
+
+		visible = {
+			original_tag = SAF
+		}
+
+		available = {
+			AND = {
+				country_exists = SAF
+				country_exists = FRA
+				NOT = {
+					SAF = {
+						has_war_with = FRA
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = SAF }
+				NOT = { country_exists = FRA }
+				SAF = {
+					has_war_with = FRA
+				}
+			}
+		}
+
+		remove_effect = {
+			if = {
+				limit = { has_dlc = "Death or Dishonor" }
+				FRA = {
+					create_production_license = {
+						target = SAF
+						equipment = {
+							type = destroyer_hull_3
+							version_name = "La Fayette Class"
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+
+	## Germany ##
+
+	SAF_foreign_navy_designs_ger_submarine_modern = {
+
+		icon = GFX_decision_generic_submarine
+
+		priority = 7
+
+		fire_only_once = yes
+		days_remove = 30
+
+		cost = 150
+
+		visible = {
+			original_tag = SAF
+		}
+
+		available = {
+			AND = {
+				country_exists = SAF
+				country_exists = GER
+				NOT = {
+					SAF = {
+						has_war_with = GER
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = SAF }
+				NOT = { country_exists = GER }
+				SAF = {
+					has_war_with = GER
+				}
+			}
+		}
+
+		remove_effect = {
+			if = {
+				limit = { has_dlc = "Death or Dishonor" }
+				GER = {
+					create_production_license = {
+						target = SAF
+						equipment = {
+							type = attack_submarine_hull_4
+							version_name = "Type 214 Class"
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+	SAF_foreign_navy_designs_ger_submarine_old = {
+
+		icon = GFX_decision_generic_submarine
+
+		priority = 6
+
+		fire_only_once = yes
+		days_remove = 30
+
+		cost = 50
+
+		visible = {
+			original_tag = SAF
+		}
+
+		available = {
+			AND = {
+				country_exists = SAF
+				country_exists = GER
+				NOT = {
+					SAF = {
+						has_war_with = GER
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = SAF }
+				NOT = { country_exists = GER }
+				SAF = {
+					has_war_with = GER
+				}
+			}
+		}
+
+		remove_effect = {
+			if = {
+				limit = { has_dlc = "Death or Dishonor" }
+				GER = {
+					create_production_license = {
+						target = SAF
+						equipment = {
+							type = attack_submarine_hull_1
+							version_name = "Type 209/1400 Class"
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+
+	}
+	SAF_foreign_navy_designs_ger_ship = {
+
+		icon = GFX_decision_generic_ship
+
+		priority = 5
+
+		fire_only_once = yes
+		days_remove = 45
+
+		cost = 150
+
+		visible = {
+			original_tag = SAF
+		}
+
+		available = {
+			AND = {
+				country_exists = SAF
+				country_exists = GER
+				NOT = {
+					SAF = {
+						has_war_with = GER
+					}
+				}
+			}
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = SAF }
+				NOT = { country_exists = GER }
+				SAF = {
+					has_war_with = GER
+				}
+			}
+		}
+
+		remove_effect = {
+			if = {
+				limit = {
+					NOT = {
+						SAF = { has_tech = destroyer_hull_1990 }
+					}
+				}
+				set_technology = {
+					destroyer_hull_1990 = 1
+				}
+			}
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+
+				create_equipment_variant = {
+					name = "Amatola Class"
+					type = destroyer_hull_3
+					#name_group = 
+					parent_version = 0
+					modules = {
+						fixed_ship_systems_slot = surface_electrical_systems_3
+						fixed_ship_engine_slot = small_surface_engine_diesel_2
+						fixed_ship_sonar_slot = sub_sonar_4
+						fixed_ship_radar_slot = ship_radar_3
+						fixed_ship_defensive_slot_1 = sam_missile_3
+						fixed_ship_defensive_slot_2 = sam_missile_3
+						fixed_ship_aviation_slot = naval_helicopter_2
+						custom_ship_cannon_slot = naval_gun_2
+						custom_slot_1 = cruise_missile_2
+						custom_slot_2 = ship_torpedo_surface_1
+						custom_slot_3 = cruise_missile_2
+						custom_slot_4 = empty
+						custom_ship_rear_cannon_slot = empty
+					}
+					obsolete = no
 				}
 			}
 		}

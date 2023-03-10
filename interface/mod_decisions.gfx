@@ -41,6 +41,10 @@ spriteTypes = {
 		name = "GFX_decision_cat_iraq_contest_nofly_zone"
 		texturefile = "gfx/interface/decisions/decision_cat_picture_iraq_contest_nofly_zone.dds"
 	}
+	spriteType = {
+		name = "GFX_decision_cat_saf_foreign_navy_designs"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_saf_foreign_navy_designs.dds"
+	}
 	
 	### decision icon stuff ###
 	

@@ -34,6 +34,10 @@
  
  railway_company:0 "Railway Company"
 
+ # SAF #
+ SAF_prioritizing_submarines_idea_trait:0 "Prioritizing Submarines"
+ SAF_prioritizing_surface_idea_trait:0 "Prioritizing Surface Fleet"
+
  # Designers #
 
  SOV_design_bureau_morozov_trait:0 ""

@@ -524,6 +524,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/FRA_attack_submarine_hull_1980.dds"
 	}
 	SpriteType = {
+		name = "GFX_FRA_attack_submarine_hull_2000_medium"
+		texturefile = "gfx/interface/technologies/FRA_attack_submarine_hull_2000.dds"
+	}
+	SpriteType = {
 		name = "GFX_FRA_attack_submarine_hull_2010_medium"
 		texturefile = "gfx/interface/technologies/FRA_attack_submarine_hull_2010.dds"
 	}

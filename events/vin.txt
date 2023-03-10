@@ -492,23 +492,39 @@ country_event = {
 		name = vin.23.a
 		add_political_power = 15
 		add_stability = 0.01
-	hidden_effect = {
-		VIN = {
+		hidden_effect = {
+			VIN = {
 				country_event = { id = vin.24 }
 			}
-      }
-      }
-	  option = {
+		}
+	}
+	option = {
 		name = vin.23.b
 		add_political_power = -50
 		add_stability = -0.01
-	hidden_effect = {
-		VIN = {
+		VIN_Tran_Duc_Luong = {
+			remove_advisor_role = { slot = political_advisor }
+		}
+		VIN_nong_duc_manh = {
+			add_advisor_role = {
+				activate = yes
+				advisor = {
+					cost = 100
+					slot = political_advisor
+					idea_token = VIN_nong_duc_manh
+					traits = {
+						president 
+					}
+				}
+			}
+		}
+		hidden_effect = {
+			VIN = {
 				country_event = { id = vin.24 }
 			}
-      }
-      }
-	  option = {
+		}
+	}
+	option = {
 		name = vin.23.c
 		add_political_power = -25
 		add_stability = 0.01
@@ -516,12 +532,12 @@ country_event = {
 			ideology = reformed_communism
 			popularity = 0.01
 		}
-	hidden_effect = {
-		VIN = {
+		hidden_effect = {
+			VIN = {
 				country_event = { id = vin.24 }
 			}
-      }
-      }
+		}
+	}
 }
 
 #National Assembly Meeting 2

@@ -192,6 +192,12 @@
  EQUIPMENT_DESIGNER_WEIGHT_EXCEEDS_THRUST_FOR_MISSIONS:0 "§RWeight exceeds Thrust for these missions:§!"
  EQUIPMENT_DESIGNER_PLANE_ROLE_REQUIRE_WEAPON:0 "Add main armament to give role"
 
+ # Specialized names can be provided by appending the archetype/hull token. These will take priority if available. E.g.
+ ship_designer_submarine:0 "$EQUIPMENT_SUBMARINE$"
+ ship_designer_capital_ship:0 "$EQUIPMENT_CAPITAL_SHIP$"
+ ship_designer_screen:0 "$EQUIPMENT_SCREEN$"
+ ship_designer_carrier:0 "$EQUIPMENT_CARRIER$"
+
 l_english:
  # name list themes -- updated to include country-specific and other new list names
  NAME_THEME_RIVERS:0 "Rivers"

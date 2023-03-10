@@ -464,7 +464,22 @@
  SAF_request_foreign_weapons_eng_small_decision:0 "Buy a small amount of weapons from the UK"
  SAF_request_foreign_weapons_eng_medium_decision:0 "Buy a medium amount of weapons from the UK"
  SAF_request_foreign_weapons_eng_large_decision:0 "Buy a large amount of weapons from the UK"
- 
+
+ saf_category_purchase_foreign_navy_designs:0 "Purchase Foreign Navy Designs"
+ saf_category_purchase_foreign_navy_designs_desc:0 "Although our nation has a well-established and powerful military-industrial complex, our fairly limited naval experience means that we are not able to create modern and effective designs. Fortunately, several of our western partners have a thriving export industry, allowing us to purchase tried-and-tested designs at no risk to us."
+ SAF_foreign_navy_designs_eng_submarine:0 "Purchase British Submarine Design"
+ SAF_foreign_navy_designs_eng_submarine_desc:0 "The British Navy has recently acquired the Upholder-class, a diesel-electric submarine designed mainly for coastal defence and training. By utilising our exiting commonwealth and defence ties, we could convince them to supply us with the design blueprints for our own production."
+ SAF_foreign_navy_designs_fra_submarine:0 "Purchase French Submarine Design"
+ SAF_foreign_navy_designs_fra_submarine_desc:0 "The French Naval Group have recently developed the Scorpène-class submarine, designed specifically for export as a modern and potent option for navies across the globe. Our navy has had previous experience buying French submarines, so we should be able to leverage our business ties to allow them to provide a production license."
+ SAF_foreign_navy_designs_fra_ship:0 "Purchase French Frigate Design"
+ SAF_foreign_navy_designs_fra_ship_desc:0 "France has designed a unique class of frigates, the La Fayette-class, which have a greater emphasis on low visibility and stealth compared to previous generations of frigates. They have already achieved export success with several nations; perhaps we should take advantage and voice our own desires for production."
+ SAF_foreign_navy_designs_ger_submarine_modern:0 "Purchase Modern German Submarine Design"
+ SAF_foreign_navy_designs_ger_submarine_modern_desc:0 "The German submarine industry, likely the largest and most successful one currently in existance, has recently revealed a new modern design utilising stealth and modern computing technologies. Although it will likely be costly to acquire production rights, the Germans are proven designers with an outstanding reputation for quality."
+ SAF_foreign_navy_designs_ger_submarine_old:0 "Purchase German Submarine Design"
+ SAF_foreign_navy_designs_ger_submarine_old_desc:0 "The Type 209-class is perhaps the most successful export submarine design, with several douzen countries operating a variety of different versions of this class. Although now becoming outdated, we can likely acquire production rights for a fairly cheap price."
+ SAF_foreign_navy_designs_ger_ship:0 "Purchase German Frigate Design"
+ SAF_foreign_navy_designs_ger_ship_desc:0 "The German Blohm+Voss shipyard has created the MEKO 200 frigate design exclusively for export to foreign navies. Unlike other export designs, this one is intended to allow for production license transfer and modification of the design to occur, making it easier for us to purchase the blueprints for domestic production."
+
 ## Indian Ocean Tsunami ##
 
  indian_tsunami_category_request_aid:0 "Indian Ocean Tsunami"

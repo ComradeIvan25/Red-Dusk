@@ -131,6 +131,7 @@ technology_categories = {
 	mod_cat_destroyer
 	mod_cat_cruiser
 	mod_cat_carrier
+	mod_cat_surface
 	mod_cat_submarine
 	mod_cat_attack_submarine
 	mod_cat_cruise_submarine

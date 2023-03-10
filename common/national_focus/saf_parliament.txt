@@ -2629,4 +2629,198 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = SAF_parliment_navy
+		#icon = 
+		x = 7
+		y = 1
+		relative_position_id = SAF_parliment_army_with_state
+
+		prerequisite = { focus = SAF_parliment_army_with_state }
+		
+		cost = 3
+		ai_will_do = {
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SAF_parliment_develop_fleet
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = SAF_parliment_navy
+
+		prerequisite = { focus = SAF_parliment_navy }
+		
+		cost = 5
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = SAF_developing_fleet_idea
+				days = 365
+			}
+		}
+	}
+	focus = {
+		id = SAF_parliment_navy_research_doctrines
+		#icon = 
+		x = -2
+		y = 1
+		relative_position_id = SAF_parliment_develop_fleet
+
+		prerequisite = { focus = SAF_parliment_develop_fleet }
+		
+		cost = 4
+		ai_will_do = {
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SAF_parliment_dockyard_construction
+		#icon = 
+		x = 2
+		y = 1
+		relative_position_id = SAF_parliment_develop_fleet
+
+		prerequisite = { focus = SAF_parliment_develop_fleet }
+		
+		cost = 2
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			add_political_power = -50
+			921 = {
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SAF_parliment_navy_western_designs
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = SAF_parliment_navy_research_doctrines
+
+		prerequisite = { focus = SAF_parliment_navy_research_doctrines }
+		mutually_exclusive = { focus = SAF_parliment_increase_fleet_production }
+
+		cost = 2
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = SAF_parliment_navy_western_designs_tt
+		}
+	}
+	focus = {
+		id = SAF_parliment_increase_fleet_production
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = SAF_parliment_dockyard_construction
+
+		prerequisite = { focus = SAF_parliment_dockyard_construction }
+		mutually_exclusive = { focus = SAF_parliment_navy_western_designs }
+
+		cost = 6
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			add_ideas = SAF_reinforcing_fleet_idea
+		}
+	}
+	focus = {
+		id = SAF_parliment_prioritise_submarines
+		#icon = 
+		x = -1
+		y = 1
+		relative_position_id = SAF_parliment_increase_fleet_production
+
+		prerequisite = { focus = SAF_parliment_increase_fleet_production }
+		mutually_exclusive = { focus = SAF_parliment_prioritise_surface_fleet }
+
+		cost = 7
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			add_ideas = SAF_prioritizing_submarines_idea
+			swap_ideas = {
+				remove_idea = SAF_reinforcing_fleet_idea
+				add_idea = SAF_reinforcing_fleet_submarine_idea
+			}
+		}
+	}
+	focus = {
+		id = SAF_parliment_prioritise_surface_fleet
+		#icon = 
+		x = 1
+		y = 1
+		relative_position_id = SAF_parliment_increase_fleet_production
+
+		prerequisite = { focus = SAF_parliment_increase_fleet_production }
+		mutually_exclusive = { focus = SAF_parliment_prioritise_submarines }
+
+		cost = 7
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			add_ideas = SAF_prioritizing_surface_idea
+			swap_ideas = {
+				remove_idea = SAF_reinforcing_fleet_idea
+				add_idea = SAF_reinforcing_fleet_surface_idea
+			}
+		}
+	}
+	focus = {
+		id = SAF_parliment_defenders_south_atlantic
+		#icon = 
+		x = -2
+		y = 1
+		relative_position_id = SAF_parliment_prioritise_submarines
+
+		prerequisite = { focus = SAF_parliment_navy_western_designs focus = SAF_parliment_prioritise_submarines focus = SAF_parliment_prioritise_surface_fleet }
+
+		cost = 10
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			add_political_power = 100
+			add_ideas = SAF_rulers_south_atlantic_idea
+		}
+	}
+	focus = {
+		id = SAF_parliment_worthy_fleet
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = SAF_parliment_defenders_south_atlantic
+
+		prerequisite = { focus = SAF_parliment_defenders_south_atlantic }
+
+		cost = 10
+		ai_will_do = {
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = SAF_rulers_south_atlantic_idea
+				add_idea = SAF_rulers_south_atlantic_2_idea
+			}
+		}
+	}
 }

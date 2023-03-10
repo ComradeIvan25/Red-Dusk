@@ -981,7 +981,7 @@ focus_tree = {
 	#Resources
 	focus = {
 		id = VIN_golden_forest_silver_sea
-		icon = GFX_VIN_focus_national_congress
+		icon = GFX_VIN_focus_resources
 		x = 6
 		y = 15
 		cost = 2
@@ -999,7 +999,7 @@ focus_tree = {
 	#Land Resources
 	focus = {
 		id = VIN_land_resources
-		icon = GFX_VIN_focus_national_congress
+		icon = GFX_VIN_focus_land_resources
 		x = 4
 		y = 16
 		cost = 2
@@ -1020,7 +1020,7 @@ focus_tree = {
 	#Rubber
 	focus = {
 		id = VIN_rubber
-		icon = GFX_VIN_focus_national_congress
+		icon = GFX_focus_generic_rubber
 		x = 3
 		y = 17
 		cost = 5
@@ -1040,7 +1040,7 @@ focus_tree = {
 	#Tungsten
 	focus = {
 		id = VIN_tungsten
-		icon = GFX_VIN_focus_national_congress
+		icon = GFX_focus_generic_aluminum
 		x = 5
 		y = 17
 		cost = 5
@@ -1060,7 +1060,7 @@ focus_tree = {
 	#Steel
 	focus = {
 		id = VIN_steel
-		icon = GFX_VIN_focus_national_congress
+		icon = GFX_focus_SAF_build_new_coal_factories
 		x = 4
 		y = 18
 		cost = 5
@@ -1194,7 +1194,7 @@ focus_tree = {
 	#Invest North
 	focus = {
 		id = VIN_invest_north
-		icon = GFX_VIN_focus_national_congress
+		icon = GFX_VIN_focus_invest_north
 		x = -4
 		y = 15
 		cost = 2
@@ -1232,7 +1232,7 @@ focus_tree = {
 	#Hai Phong Port
 	focus = {
 		id = VIN_Hai_Phong_port
-		icon = GFX_VIN_focus_national_congress
+		icon = GFX_VIN_focus_haipohong_port
 		x = -4
 		y = 16
 		cost = 5
@@ -1264,7 +1264,7 @@ focus_tree = {
 	#Invest South
 	focus = {
 		id = VIN_invest_south
-		icon = GFX_VIN_focus_national_congress
+		icon = GFX_VIN_focus_invest_south
 		x = 0
 		y = 15
 		cost = 5
@@ -1303,7 +1303,7 @@ focus_tree = {
 	#Sai Gon Port
 	focus = {
 		id = VIN_Sai_Gon_port
-		icon = GFX_VIN_focus_national_congress
+		icon = GFX_VIN_focus_saigon_port
 		x = 0
 		y = 16
 		cost = 5
@@ -1335,7 +1335,7 @@ focus_tree = {
 	#Railway transportation
 	focus = {
 		id = VIN_rail_way
-		icon = GFX_VIN_focus_national_congress
+		icon = GFX_focus_generic_railroad
 		x = -2
 		y = 17
 		cost = 5
@@ -1362,7 +1362,7 @@ focus_tree = {
 	#Defense Industry
 	focus = {
 		id = VIN_defense_industry
-		icon = GFX_VIN_focus_national_congress
+		icon = GFX_VIN_focus_quoc_phong
 		x = -2
 		y = 18
 		cost = 5
@@ -1372,10 +1372,10 @@ focus_tree = {
 		prerequisite = { focus = VIN_rail_way }
 		completion_reward = {
 		 916 = { 
-		add_extra_state_shared_building_slots = 1
+		add_extra_state_shared_building_slots = 2
 		add_building_construction = {
 	type = arms_factory
-	level = 1
+	level = 2
 	instant_build = yes
 		}
 	   }
@@ -1440,13 +1440,15 @@ focus_tree = {
 		icon = GFX_VIN_focus_national_congress
 		x = 13
 		y = 16
-		cost = 2
+		cost = 1.5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}	
 		prerequisite = { focus = VIN_social_protection_program }
 		completion_reward = {
-		add_political_power = -100
+		add_political_power = -150
+		add_stability = 0.02
+		add_war_support = 0.02
      }
 	 }
 	#Programme 135

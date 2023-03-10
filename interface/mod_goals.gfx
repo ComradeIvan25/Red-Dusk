@@ -1926,6 +1926,34 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/VIN/VIN_5_years_plan.png"
 	}
 	SpriteType = {
+		name = "GFX_VIN_focus_invest_north"
+		texturefile = "gfx/interface/goals/VIN/VIN_invest_north.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_invest_south"
+		texturefile = "gfx/interface/goals/VIN/VIN_invest_south.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_resources"
+		texturefile = "gfx/interface/goals/VIN/VIN_resources.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_land_resources"
+		texturefile = "gfx/interface/goals/VIN/VIN_land_resources.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_saigon_port"
+		texturefile = "gfx/interface/goals/VIN/VIN_saigon_port.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_haipohong_port"
+		texturefile = "gfx/interface/goals/VIN/VIN_hai_phong_port.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_quoc_phong"
+		texturefile = "gfx/interface/goals/VIN/VIN_defense_industry.png"
+	}
+	SpriteType = {
 		name = "VIN_army_modernization"
 		texturefile = "gfx/interface/goals/VIN/VIN_army_modernization.png"
 	}

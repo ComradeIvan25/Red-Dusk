@@ -240,6 +240,23 @@ characters = {
 			legacy_id=-1
 		}
 	}
+        VIN_Nguyen_Trung_Thu = {
+		name = "Nguyen Trung Thu"
+		portraits = {
+			army = {
+				large = "gfx/leaders/VIN/Nguyen_Trung_Thu.png"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
 	VIN_Do_Xuan_Cong = {
 		name = "Do Xuan Cong"
 		portraits = {

@@ -559,6 +559,15 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
+			type = infantry_anti_tank_weapons_2
+			creator = "VIN"
+		}
+		requested_factories = 1
+		progress = 0.43
+		efficiency = 32
+	}
+	add_equipment_production = {
+		equipment = {
 			type = support_equipment_1
 			creator = "SOV"
 		}

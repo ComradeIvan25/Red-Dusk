@@ -404,7 +404,7 @@ ideas = {
 				consumer_goods_factor = 0.05
 				production_speed_industrial_complex_factor = 0.12
                 industrial_capacity_factory = 0.1			
-				global_building_slots_factor = 0.1
+				global_building_slots_factor = 0.15
 			    production_speed_buildings_factor = 0.05
 			}
 		}
@@ -422,7 +422,7 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.05
 				production_speed_industrial_complex_factor = 0.12				
-				global_building_slots_factor = 0.1
+				global_building_slots_factor = 0.15
 				production_speed_buildings_factor = 0.05
 			}
 		}
@@ -440,7 +440,7 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.05
 				production_speed_industrial_complex_factor = 0.12				
-				global_building_slots_factor = 0.1
+				global_building_slots_factor = 0.15
 			    industrial_capacity_factory = 0.1
 				production_speed_buildings_factor = 0.05
 			}
@@ -478,7 +478,7 @@ ideas = {
 				production_speed_industrial_complex_factor = 0.05 
 				stability_factor = 0.03
 				production_speed_buildings_factor = -0.05
-				production_factory_efficiency_gain_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.1
 			}
 		}
 		VIN_corruption_1 = {

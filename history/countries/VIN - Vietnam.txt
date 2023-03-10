@@ -102,6 +102,7 @@ recruit_character = VIN_Nguyen_Huu_Kham
 recruit_character = VIN_Do_Xuan_Cong
 recruit_character = VIN_Pham_Xuan_The
 recruit_character = VIN_nong_duc_manh
+recruit_character = VIN_Nguyen_Trung_Thu 
 
 recruit_character = VIN_Tran_Duc_Luong
 recruit_character = VIN_Truong_Tan_Sang

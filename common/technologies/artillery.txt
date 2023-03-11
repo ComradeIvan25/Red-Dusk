@@ -895,11 +895,11 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 2
+				add = 2
 				is_major = yes
 			}
 			modifier = {
-				factor = 3
+				add = 3
 				tag = USA
 			}
 		}
@@ -941,11 +941,11 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 2
+				add = 2
 				is_major = yes
 			}
 			modifier = {
-				factor = 3
+				add = 3
 				tag = USA
 			}
 		}
@@ -977,14 +977,14 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 1
+				add = 1
 				OR = {
 					has_tech = motorised_artillery_1960
 					has_tech = rocket_artillery_1960
 				}
 			}
 			modifier = {
-				factor = 2
+				add = 2
 				OR = {
 					has_template_containing_unit = motorised_artillery_unit
 					has_template_containing_unit = rocket_artillery_unit
@@ -1034,7 +1034,7 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 2
+				add = 2
 				is_major = yes
 			}
 		}
@@ -1081,7 +1081,7 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 2
+				add = 2
 				is_major = yes
 			}
 		}
@@ -1123,7 +1123,7 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 2
+				add = 2
 				is_major = yes
 			}
 		}

@@ -27,6 +27,32 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 4
+				is_major = yes
+			}
+			modifier = {
+				factor = 6
+				tag = SOV
+			}
+			modifier = {
+				factor = 6
+				tag = GER
+			}
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -62,6 +88,32 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 4
+				is_major = yes
+			}
+			modifier = {
+				factor = 6
+				tag = SOV
+			}
+			modifier = {
+				factor = 6
+				tag = GER
+			}
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -97,6 +149,32 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 6
+				tag = SOV
+			}
+			modifier = {
+				factor = 6
+				tag = GER
+			}
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -132,6 +210,32 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 6
+				tag = SOV
+			}
+			modifier = {
+				factor = 6
+				tag = GER
+			}
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -167,6 +271,32 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 6
+				tag = SOV
+			}
+			modifier = {
+				factor = 6
+				tag = GER
+			}
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -197,6 +327,32 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 6
+				tag = SOV
+			}
+			modifier = {
+				factor = 6
+				tag = GER
+			}
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -232,6 +388,24 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 1
+				is_major = yes
+			}
+			modifier = {
+				add = 5
+				tag = SOV
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -267,6 +441,24 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 1
+				is_major = yes
+			}
+			modifier = {
+				add = 5
+				tag = SOV
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -302,6 +494,24 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 1
+				is_major = yes
+			}
+			modifier = {
+				add = 5
+				tag = SOV
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -332,6 +542,24 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 1
+				is_major = yes
+			}
+			modifier = {
+				add = 5
+				tag = SOV
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -367,6 +595,28 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				is_major = yes
+			}
+			modifier = {
+				add = 4
+				tag = SOV
+			}
+			modifier = {
+				add = 4
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -402,6 +652,28 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				is_major = yes
+			}
+			modifier = {
+				add = 4
+				tag = SOV
+			}
+			modifier = {
+				add = 4
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -437,6 +709,28 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				is_major = yes
+			}
+			modifier = {
+				add = 4
+				tag = SOV
+			}
+			modifier = {
+				add = 4
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -467,6 +761,28 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				is_major = yes
+			}
+			modifier = {
+				add = 4
+				tag = SOV
+			}
+			modifier = {
+				add = 4
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -504,6 +820,24 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 4
+				is_major = yes
+			}
+			modifier = {
+				factor = 0.5
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -539,6 +873,24 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 4
+				is_major = yes
+			}
+			modifier = {
+				factor = 0.5
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -574,6 +926,24 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 4
+				is_major = yes
+			}
+			modifier = {
+				factor = 0.5
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -609,6 +979,24 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 4
+				is_major = yes
+			}
+			modifier = {
+				factor = 0.5
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -644,6 +1032,24 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 4
+				is_major = yes
+			}
+			modifier = {
+				factor = 0.5
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -674,6 +1080,24 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 4
+				is_major = yes
+			}
+			modifier = {
+				factor = 0.5
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -711,6 +1135,20 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -746,6 +1184,20 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -781,6 +1233,20 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -816,6 +1282,20 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -851,6 +1331,20 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -881,6 +1375,20 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -918,6 +1426,24 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				tag = USA
+			}
+			modifier = {
+				add = 2
+				tag = SOV
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -948,6 +1474,24 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				tag = USA
+			}
+			modifier = {
+				add = 2
+				tag = SOV
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -991,6 +1535,24 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				is_major = yes
+			}
+			modifier = {
+				add = 4
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -1026,6 +1588,24 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				is_major = yes
+			}
+			modifier = {
+				add = 4
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -1061,6 +1641,24 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				is_major = yes
+			}
+			modifier = {
+				add = 4
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -1091,6 +1689,24 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				is_major = yes
+			}
+			modifier = {
+				add = 4
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -1127,6 +1743,24 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 4
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -1162,6 +1796,24 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 4
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -1197,6 +1849,24 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 3
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -1227,6 +1897,24 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 3
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -1261,6 +1949,24 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 1
+				is_major = yes
+			}
+			modifier = {
+				add = 3
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -1295,6 +2001,24 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 1
+				is_major = yes
+			}
+			modifier = {
+				add = 3
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -1329,6 +2053,24 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 1
+				is_major = yes
+			}
+			modifier = {
+				add = 3
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -1358,6 +2100,24 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 1
+				is_major = yes
+			}
+			modifier = {
+				add = 3
+				tag = USA
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -1396,6 +2156,22 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				is_major = yes
+			}
+			modifier = {
+				add = 2
+				tag = USA
+			}
+			modifier = {
+				add = 2
+				has_navy_size = {
+					size > 20
+				}
+			}
 		}
 
 		categories = {
@@ -1430,6 +2206,22 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				is_major = yes
+			}
+			modifier = {
+				add = 2
+				tag = USA
+			}
+			modifier = {
+				add = 2
+				has_navy_size = {
+					size > 20
+				}
+			}
 		}
 
 		categories = {
@@ -1463,6 +2255,22 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				is_major = yes
+			}
+			modifier = {
+				add = 2
+				tag = USA
+			}
+			modifier = {
+				add = 2
+				has_navy_size = {
+					size > 20
+				}
+			}
 		}
 
 		categories = {
@@ -1491,6 +2299,22 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				is_major = yes
+			}
+			modifier = {
+				add = 2
+				tag = USA
+			}
+			modifier = {
+				add = 2
+				has_navy_size = {
+					size > 20
+				}
+			}
 		}
 
 		categories = {
@@ -1522,6 +2346,20 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				tag = USA
+			}
+			modifier = {
+				add = 2
+				has_navy_size = { type = carrier size > 0 }
+			}
+			modifier = {
+				add = 3
+				has_navy_size = { type = carrier size > 2 }
+			}
 		}
 
 		categories = {
@@ -1548,6 +2386,20 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				tag = USA
+			}
+			modifier = {
+				add = 2
+				has_navy_size = { type = carrier size > 0 }
+			}
+			modifier = {
+				add = 3
+				has_navy_size = { type = carrier size > 2 }
+			}
 		}
 
 		categories = {
@@ -1586,6 +2438,22 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				is_major = yes
+			}
+			modifier = {
+				add = 2
+				tag = USA
+			}
+			modifier = {
+				add = 1
+				has_navy_size = {
+					size > 20
+				}
+			}
 		}
 
 		categories = {
@@ -1617,6 +2485,22 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				is_major = yes
+			}
+			modifier = {
+				add = 2
+				tag = USA
+			}
+			modifier = {
+				add = 1
+				has_navy_size = {
+					size > 20
+				}
+			}
 		}
 
 		categories = {
@@ -1649,6 +2533,22 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				is_major = yes
+			}
+			modifier = {
+				add = 2
+				tag = USA
+			}
+			modifier = {
+				add = 1
+				has_navy_size = {
+					size > 20
+				}
+			}
 		}
 
 		categories = {
@@ -1680,6 +2580,22 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				is_major = yes
+			}
+			modifier = {
+				add = 2
+				tag = USA
+			}
+			modifier = {
+				add = 1
+				has_navy_size = {
+					size > 20
+				}
+			}
 		}
 
 		categories = {
@@ -1716,6 +2632,22 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				is_major = yes
+			}
+			modifier = {
+				add = 2
+				tag = USA
+			}
+			modifier = {
+				add = 1
+				has_navy_size = {
+					size > 20
+				}
+			}
 		}
 
 		categories = {
@@ -1742,6 +2674,22 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				is_major = yes
+			}
+			modifier = {
+				add = 2
+				tag = USA
+			}
+			modifier = {
+				add = 1
+				has_navy_size = {
+					size > 20
+				}
+			}
 		}
 
 		categories = {
@@ -1769,6 +2717,22 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				is_major = yes
+			}
+			modifier = {
+				add = 2
+				tag = USA
+			}
+			modifier = {
+				add = 1
+				has_navy_size = {
+					size > 20
+				}
+			}
 		}
 
 		categories = {

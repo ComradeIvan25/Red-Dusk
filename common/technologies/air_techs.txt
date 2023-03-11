@@ -98,19 +98,19 @@ technologies = {
 				}
 			}
 			modifier = {
-				factor = 3
+				add = 3
 				tag = SOV
 			}
 			modifier = {
-				factor = 2
+				add = 2
 				tag = PRC
 			}
 			modifier = {
-				factor = 2
+				add = 2
 				tag = USA
 			}
 			modifier = {
-				factor = 1
+				add = 1
 				tag = ENG
 			}
 		}
@@ -218,19 +218,19 @@ technologies = {
 				}
 			}
 			modifier = {
-				factor = 3
+				add = 3
 				tag = SOV
 			}
 			modifier = {
-				factor = 2
+				add = 2
 				tag = PRC
 			}
 			modifier = {
-				factor = 1
+				add = 1
 				tag = USA
 			}
 			modifier = {
-				factor = 1
+				add = 1
 				tag = ENG
 			}
 		}
@@ -342,11 +342,11 @@ technologies = {
 				}
 			}
 			modifier = {
-				factor = 3
+				add = 3
 				tag = SOV
 			}
 			modifier = {
-				factor = 2
+				add = 2
 				tag = PRC
 			}
 		}
@@ -707,19 +707,19 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 1
+				add = 1
 				is_major = yes
 			}
 			modifier = {
-				factor = 5
+				add = 5
 				tag = USA
 			}
 			modifier = {
-				factor = 3
+				add = 3
 				tag = SOV
 			}
 			modifier = {
-				factor = 3
+				add = 3
 				date > "2005.1.1"
 			}
 		}
@@ -758,19 +758,19 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 2
+				add = 2
 				is_major = yes
 			}
 			modifier = {
-				factor = 5
+				add = 5
 				tag = USA
 			}
 			modifier = {
-				factor = 4
+				add = 4
 				tag = SOV
 			}
 			modifier = {
-				factor = 4
+				add = 4
 				date > "2015.1.1"
 			}
 		}
@@ -1201,7 +1201,7 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 1
+				add = 1
 				is_major = yes
 			}
 		}
@@ -1342,15 +1342,15 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 1
+				add = 1
 				is_major = yes
 			}
 			modifier = {
-				factor = 2
+				add = 2
 				tag = SOV
 			}
 			modifier = {
-				factor = 2
+				add = 2
 				tag = USA
 			}
 			modifier = {
@@ -1391,15 +1391,15 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 1
+				add = 1
 				is_major = yes
 			}
 			modifier = {
-				factor = 2
+				add = 2
 				tag = SOV
 			}
 			modifier = {
-				factor = 2
+				add = 2
 				tag = USA
 			}
 			modifier = {
@@ -1440,11 +1440,11 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 1
+				add = 1
 				is_major = yes
 			}
 			modifier = {
-				factor = 3
+				add = 3
 				tag = USA
 			}
 		}
@@ -1474,11 +1474,11 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 1
+				add = 1
 				is_major = yes
 			}
 			modifier = {
-				factor = 3
+				add = 3
 				tag = USA
 			}
 		}
@@ -1520,6 +1520,12 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 4
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -1548,6 +1554,12 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 4
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -1580,6 +1592,12 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 4
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -1608,6 +1626,12 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 4
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -1644,6 +1668,12 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 3
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -1680,6 +1710,12 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 3
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -1712,6 +1748,12 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 3
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -1744,6 +1786,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 1
+				is_major = yes
+			}
+			modifier = {
+				add = 3
+				has_navy_size = { size > 50 }
+			}
 		}
 
 		categories = {
@@ -1778,6 +1830,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 1
+				is_major = yes
+			}
+			modifier = {
+				add = 3
+				has_navy_size = { size > 50 }
+			}
 		}
 
 		categories = {
@@ -1807,6 +1869,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 1
+				is_major = yes
+			}
+			modifier = {
+				add = 3
+				has_navy_size = { size > 50 }
+			}
 		}
 
 		categories = {
@@ -1843,6 +1915,20 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 1
+				is_major = yes
+			}
+			modifier = {
+				add = 3
+				tag = USA
+			}
+			modifier = {
+				add = 2
+				tag = ISR
+			}
 		}
 
 		categories = {
@@ -1871,6 +1957,20 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 1
+				is_major = yes
+			}
+			modifier = {
+				add = 3
+				tag = USA
+			}
+			modifier = {
+				add = 2
+				tag = ISR
+			}
 		}
 
 		categories = {
@@ -1903,6 +2003,20 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 1
+				is_major = yes
+			}
+			modifier = {
+				add = 3
+				tag = USA
+			}
+			modifier = {
+				add = 2
+				tag = ISR
+			}
 		}
 
 		categories = {
@@ -1931,6 +2045,20 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 1
+				is_major = yes
+			}
+			modifier = {
+				add = 3
+				tag = USA
+			}
+			modifier = {
+				add = 2
+				tag = ISR
+			}
 		}
 
 		categories = {
@@ -1963,6 +2091,20 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 1
+				is_major = yes
+			}
+			modifier = {
+				add = 3
+				tag = USA
+			}
+			modifier = {
+				add = 1
+				tag = ISR
+			}
 		}
 
 		categories = {
@@ -1986,6 +2128,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 1
+				is_major = yes
+			}
+			modifier = {
+				add = 3
+				tag = USA
+			}
 		}
 
 		categories = {

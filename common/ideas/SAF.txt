@@ -994,6 +994,27 @@ ideas = {
 			}
 		}
 
+		SAF_overstretched_military_2_idea = {
+			name = SAF_overstretched_military_idea_name
+
+			removal_cost = -1
+
+			picture = MEX_politicised_army_2
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_cost = 0.5
+				stability_weekly = -0.0065
+				war_support_factor = -0.1
+				army_attack_factor = -0.03
+				army_defence_factor = -0.03
+				army_org_factor = -0.03
+			}
+		}
+
 		SAF_developing_fleet_idea = {
 			name = SAF_developing_fleet_idea_name
 

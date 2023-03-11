@@ -4,6 +4,10 @@ technologies = {
 
 	tech_modern_manufacturing = {
 
+		production_factory_max_efficiency_factor = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
+
 		path = {
 			leads_to_tech = tech_containerisation
 			research_cost_coeff = 1
@@ -18,6 +22,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 4
+
+			modifier = {
+				factor = 10
+				is_major = yes
+			}
+			modifier = {
+				factor = 10
+				date > "1995.1.1"
+			}
 		}
 
 		categories = {
@@ -25,6 +39,10 @@ technologies = {
 
 	}
 	tech_containerisation = {
+
+		production_factory_max_efficiency_factor = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
 
 		path = {
 			leads_to_tech = tech_lean_manufacturing
@@ -40,6 +58,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 4
+
+			modifier = {
+				factor = 10
+				is_major = yes
+			}
+			modifier = {
+				factor = 10
+				date > "1995.1.1"
+			}
 		}
 
 		categories = {
@@ -47,6 +75,10 @@ technologies = {
 
 	}
 	tech_lean_manufacturing = {
+
+		production_factory_max_efficiency_factor = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
 
 		path = {
 			leads_to_tech = tech_globalised_economy
@@ -66,6 +98,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 4
+
+			modifier = {
+				factor = 10
+				is_major = yes
+			}
+			modifier = {
+				factor = 10
+				date > "1995.1.1"
+			}
 		}
 
 		categories = {
@@ -73,6 +115,10 @@ technologies = {
 
 	}
 	tech_globalised_economy = {
+
+		production_factory_max_efficiency_factor = 0.05
+		trade_opinion_factor = 0.1
+		consumer_goods_factor = -0.025
 
 		path = {
 			leads_to_tech = tech_basic_international_trade
@@ -92,6 +138,24 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				is_major = yes
+			}
+			modifier = {
+				factor = 3
+				date > "1995.1.1"
+			}
+			modifier = {
+				factor = 3
+				tag = USA
+			}
+			modifier = {
+				factor = 3
+				tag = PRC
+			}
 		}
 
 		categories = {
@@ -99,6 +163,10 @@ technologies = {
 
 	}
 	tech_basic_international_trade = {
+
+		production_factory_max_efficiency_factor = 0.05
+		trade_opinion_factor = 0.1
+		consumer_goods_factor = -0.025
 
 		path = {
 			leads_to_tech = tech_improved_international_trade
@@ -114,6 +182,20 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			modifier = {
+				factor = 2
+				tag = PRC
+			}
 		}
 
 		categories = {
@@ -121,6 +203,10 @@ technologies = {
 
 	}
 	tech_improved_international_trade = {
+
+		production_factory_max_efficiency_factor = 0.05
+		trade_opinion_factor = 0.1
+		consumer_goods_factor = -0.025
 
 		path = {
 			leads_to_tech = tech_advanced_international_trade
@@ -136,6 +222,20 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			modifier = {
+				factor = 2
+				tag = PRC
+			}
 		}
 
 		categories = {
@@ -143,6 +243,10 @@ technologies = {
 
 	}
 	tech_advanced_international_trade = {
+
+		production_factory_max_efficiency_factor = 0.05
+		trade_opinion_factor = 0.1
+		consumer_goods_factor = -0.025
 
 		research_cost = 3
 		start_year = 2020
@@ -153,6 +257,20 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			modifier = {
+				factor = 2
+				tag = PRC
+			}
 		}
 
 		categories = {
@@ -160,6 +278,11 @@ technologies = {
 
 	}
 	tech_autarky = {
+
+		production_factory_max_efficiency_factor = 0.05
+		trade_opinion_factor = -0.1
+		global_building_slots = 0.1
+		production_lack_of_resource_penalty_factor = -0.1
 
 		path = {
 			leads_to_tech = tech_basic_self_sustainability
@@ -179,6 +302,48 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				is_major = yes
+			}
+			modifier = {
+				factor = 3
+				date > "1995.1.1"
+			}
+			modifier = {
+				factor = 3
+				tag = SOV
+			}
+			modifier = {
+				factor = 3
+				tag = KOR
+			}
+			modifier = {
+				factor = 1
+				has_government = paternal_autocracy
+			}
+			modifier = {
+				factor = 2
+				has_government = fascism
+			}
+			modifier = {
+				factor = 0
+				has_government = social_democracy
+			}
+			modifier = {
+				factor = 0
+				has_government = liberalism
+			}
+			modifier = {
+				factor = 0
+				has_government = democratic
+			}
+			modifier = {
+				factor = 0
+				has_idea = GER_eu
+			}
 		}
 
 		categories = {
@@ -186,6 +351,11 @@ technologies = {
 
 	}
 	tech_basic_self_sustainability = {
+
+		production_factory_max_efficiency_factor = 0.05
+		trade_opinion_factor = -0.1
+		global_building_slots = 0.1
+		production_lack_of_resource_penalty_factor = -0.1
 
 		path = {
 			leads_to_tech = tech_improved_self_sustainability
@@ -201,6 +371,20 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 2
+				tag = SOV
+			}
+			modifier = {
+				factor = 2
+				tag = KOR
+			}
 		}
 
 		categories = {
@@ -208,6 +392,11 @@ technologies = {
 
 	}
 	tech_improved_self_sustainability = {
+
+		production_factory_max_efficiency_factor = 0.05
+		trade_opinion_factor = -0.1
+		global_building_slots = 0.1
+		production_lack_of_resource_penalty_factor = -0.1
 
 		path = {
 			leads_to_tech = tech_advanced_self_sustainability
@@ -223,6 +412,20 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 2
+				tag = SOV
+			}
+			modifier = {
+				factor = 2
+				tag = KOR
+			}
 		}
 
 		categories = {
@@ -230,6 +433,11 @@ technologies = {
 
 	}
 	tech_advanced_self_sustainability = {
+
+		production_factory_max_efficiency_factor = 0.05
+		trade_opinion_factor = -0.1
+		global_building_slots = 0.1
+		production_lack_of_resource_penalty_factor = -0.1
 
 		research_cost = 3
 		start_year = 2020
@@ -240,6 +448,20 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 2
+				tag = SOV
+			}
+			modifier = {
+				factor = 2
+				tag = KOR
+			}
 		}
 
 		categories = {
@@ -250,6 +472,10 @@ technologies = {
 ## Factories ##
 
 	tech_modern_factories = {
+
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.20
 
 		path = {
 			leads_to_tech = tech_digital_control
@@ -265,6 +491,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 4
+
+			modifier = {
+				factor = 10
+				is_major = yes
+			}
+			modifier = {
+				factor = 10
+				date > "1995.1.1"
+			}
 		}
 
 		categories = {
@@ -272,6 +508,10 @@ technologies = {
 
 	}
 	tech_digital_control = {
+
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.20
 
 		path = {
 			leads_to_tech = tech_basic_automation
@@ -287,6 +527,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 3
+
+			modifier = {
+				factor = 8
+				is_major = yes
+			}
+			modifier = {
+				factor = 8
+				date > "1995.1.1"
+			}
 		}
 
 		categories = {
@@ -294,6 +544,10 @@ technologies = {
 
 	}
 	tech_basic_automation = {
+
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.20
 
 		path = {
 			leads_to_tech = tech_human_sweatshops
@@ -313,6 +567,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				is_major = yes
+			}
+			modifier = {
+				factor = 5
+				date > "1995.1.1"
+			}
 		}
 
 		categories = {
@@ -320,6 +584,9 @@ technologies = {
 
 	}
 	tech_human_sweatshops = {
+
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
 
 		path = {
 			leads_to_tech = tech_efficient_work_schedules
@@ -339,6 +606,36 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 4
+				tag = PRC
+			}
+			modifier = {
+				factor = 3
+				tag = RAJ
+			}
+			modifier = {
+				factor = 4
+				tag = VIN
+			}
+			modifier = {
+				factor = 2
+				tag = SIA
+			}
+			modifier = {
+				factor = 4
+				tag = LAO
+			}
+			modifier = {
+				factor = 4
+				tag = CAM
+			}
 		}
 
 		categories = {
@@ -346,6 +643,9 @@ technologies = {
 
 	}
 	tech_efficient_work_schedules = {
+
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
 
 		path = {
 			leads_to_tech = tech_concentrated_industrial_areas
@@ -365,6 +665,12 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -372,6 +678,11 @@ technologies = {
 
 	}
 	tech_concentrated_industrial_areas = {
+
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.15
+		global_building_slots_factor = 0.20
+		production_factory_start_efficiency_factor = 0.1
 
 		path = {
 			leads_to_tech = tech_centralised_directives
@@ -391,6 +702,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 5
+				num_of_controlled_states < 15
+			}
 		}
 
 		categories = {
@@ -398,6 +719,11 @@ technologies = {
 
 	}
 	tech_centralised_directives = {
+
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.15
+		global_building_slots_factor = 0.20
+		production_factory_start_efficiency_factor = 0.1
 
 		research_cost = 3
 		start_year = 2020
@@ -408,6 +734,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 5
+				num_of_controlled_states < 15
+			}
 		}
 
 		categories = {
@@ -415,6 +751,10 @@ technologies = {
 
 	}
 	tech_automated_factories = {
+
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.15
+		production_speed_buildings_factor = -0.1
 
 		path = {
 			leads_to_tech = tech_factory_digitisation
@@ -434,6 +774,12 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 4
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -441,6 +787,10 @@ technologies = {
 
 	}
 	tech_factory_digitisation = {
+
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.15
+		production_speed_buildings_factor = -0.1
 
 		path = {
 			leads_to_tech = tech_national_cargo_network
@@ -460,6 +810,12 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -467,6 +823,12 @@ technologies = {
 
 	}
 	tech_national_cargo_network = {
+
+		industrial_capacity_factory = 0.10
+		industrial_capacity_dockyard = 0.10
+		global_building_slots_factor = 0.20
+		line_change_production_efficiency_factor = 0.2
+		industry_air_damage_factor = -0.2
 
 		path = {
 			leads_to_tech = tech_regional_independence
@@ -486,6 +848,12 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -493,6 +861,12 @@ technologies = {
 
 	}
 	tech_regional_independence = {
+
+		industrial_capacity_factory = 0.10
+		industrial_capacity_dockyard = 0.10
+		global_building_slots_factor = 0.20
+		line_change_production_efficiency_factor = 0.2
+		industry_air_damage_factor = -0.2
 
 		research_cost = 3
 		start_year = 2020
@@ -503,6 +877,12 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -513,6 +893,9 @@ technologies = {
 ## Construction ##
 
 	tech_modern_construction = {
+
+		production_speed_buildings_factor = 0.10
+		industry_repair_factor = 0.10
 
 		path = {
 			leads_to_tech = tech_prefabrication
@@ -528,6 +911,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 4
+
+			modifier = {
+				factor = 10
+				is_major = yes
+			}
+			modifier = {
+				factor = 10
+				date > "1995.1.1"
+			}
 		}
 
 		categories = {
@@ -535,6 +928,9 @@ technologies = {
 
 	}
 	tech_prefabrication = {
+
+		production_speed_buildings_factor = 0.10
+		industry_repair_factor = 0.10
 
 		path = {
 			leads_to_tech = tech_computer_aided_design
@@ -550,6 +946,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 3
+
+			modifier = {
+				factor = 8
+				is_major = yes
+			}
+			modifier = {
+				factor = 8
+				date > "1995.1.1"
+			}
 		}
 
 		categories = {
@@ -557,6 +963,9 @@ technologies = {
 
 	}
 	tech_computer_aided_design = {
+
+		production_speed_buildings_factor = 0.10
+		industry_repair_factor = 0.10
 
 		path = {
 			leads_to_tech = tech_modern_build_codes
@@ -572,6 +981,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 6
+				is_major = yes
+			}
+			modifier = {
+				factor = 5
+				date > "1995.1.1"
+			}
 		}
 
 		categories = {
@@ -579,6 +998,9 @@ technologies = {
 
 	}
 	tech_modern_build_codes = {
+
+		production_speed_buildings_factor = 0.10
+		industry_repair_factor = 0.10
 
 		path = {
 			leads_to_tech = tech_energy_conservation
@@ -594,6 +1016,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				is_major = yes
+			}
+			modifier = {
+				factor = 5
+				date > "1995.1.1"
+			}
 		}
 
 		categories = {
@@ -601,6 +1033,9 @@ technologies = {
 
 	}
 	tech_energy_conservation = {
+
+		production_speed_buildings_factor = 0.10
+		industry_repair_factor = 0.10
 
 		path = {
 			leads_to_tech = tech_advanced_materials
@@ -616,6 +1051,12 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -623,6 +1064,9 @@ technologies = {
 
 	}
 	tech_advanced_materials = {
+
+		production_speed_buildings_factor = 0.10
+		industry_repair_factor = 0.10
 
 		path = {
 			leads_to_tech = tech_ecological_construction
@@ -638,6 +1082,12 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -645,6 +1095,9 @@ technologies = {
 
 	}
 	tech_ecological_construction = {
+
+		production_speed_buildings_factor = 0.10
+		industry_repair_factor = 0.10
 
 		research_cost = 3
 		start_year = 2020
@@ -655,6 +1108,12 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -686,6 +1145,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				is_major = yes
+			}
+			modifier = {
+				factor = 6
+				date > "1995.1.1"
+			}
 		}
 
 		categories = {
@@ -710,6 +1179,12 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -734,6 +1209,12 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -753,6 +1234,12 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -778,6 +1265,25 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				is_major = yes
+			}
+			modifier = {
+				factor = 5
+				date > "1995.1.1"
+			}
+			modifier = {
+				factor = 8
+				any_owned_state = {
+					has_resources_amount = {
+						resource = oil
+						amount > 9
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -803,6 +1309,21 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 6
+				any_owned_state = {
+					has_resources_amount = {
+						resource = oil
+						amount > 9
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -828,6 +1349,21 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 6
+				any_owned_state = {
+					has_resources_amount = {
+						resource = oil
+						amount > 9
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -853,6 +1389,21 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 5
+				any_owned_state = {
+					has_resources_amount = {
+						resource = oil
+						amount > 9
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -878,6 +1429,21 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 5
+				any_owned_state = {
+					has_resources_amount = {
+						resource = oil
+						amount > 9
+					}
+				}
+			}
 		}
 
 		categories = {
@@ -898,6 +1464,21 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 5
+				any_owned_state = {
+					has_resources_amount = {
+						resource = oil
+						amount > 9
+					}
+				}
+			}
 		}
 
 		categories = {

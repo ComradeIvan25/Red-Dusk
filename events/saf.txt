@@ -477,8 +477,8 @@ country_event = {
 
 		SAF = {
 			add_equipment_to_stockpile = {
-				type = towed_artillery_equipment
-				amount = 100
+				type = mbt_tank_equipment_2
+				amount = 50
 				producer = USA
 			}
 			country_event = { id = saf.18 }
@@ -524,6 +524,69 @@ country_event = {
 	
 	option = {
 		name = saf.19.a
+	}
+}
+
+#State Of The Air Force#
+country_event = {
+	id = saf.20
+	title = saf.20.t
+	desc = saf.20.d
+	picture = GFX_report_event_SAF_air_force_1
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = saf.20.a
+	}
+}
+
+#State Of The Navy#
+country_event = {
+	id = saf.21
+	title = saf.21.t
+	desc = saf.21.d
+	picture = GFX_report_event_SAF_navy_1
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = saf.21.a
+	}
+}
+
+#Meet with the President#
+country_event = {
+	id = saf.22
+	title = saf.22.t
+	desc = saf.22.d
+	picture = GFX_report_event_SAF_united_states
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = saf.22.a
+
+		SAF = {
+			country_event = { id = saf.23 }
+		}
+	}
+}
+#Meet with the President - Part 2#
+country_event = {
+	id = saf.23
+	title = saf.23.t
+	desc = saf.23.d
+	picture = GFX_report_event_SAF_united_states
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = saf.23.a
 	}
 }
 

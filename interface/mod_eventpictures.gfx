@@ -411,6 +411,18 @@ spriteTypes = {
 		name = "GFX_report_event_SAF_united_states_heavy_weapons_1"
 		texturefile = "gfx/event_pictures/SAF/report_event_SAF_united_states_heavy_weapons_1.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_SAF_air_force_1"
+		texturefile = "gfx/event_pictures/SAF/report_event_SAF_air_force_1.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_SAF_navy_1"
+		texturefile = "gfx/event_pictures/SAF/report_event_SAF_navy_1.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_SAF_united_states"
+		texturefile = "gfx/event_pictures/SAF/report_event_SAF_united_states.dds"
+	}
 
 	## ANC ##
 	spriteType = {

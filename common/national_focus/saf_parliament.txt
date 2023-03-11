@@ -1602,6 +1602,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			SAF = {
+				country_event = { id = saf.20 }
+			}
 		}
 	}
 	focus = {
@@ -1662,6 +1665,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			SAF = {
+				country_event = { id = saf.22 }
+			}
 		}
 	}
 	focus = {
@@ -2146,6 +2152,11 @@ focus_tree = {
 					owner = SAF
 				}
 			}
+			swap_ideas = {
+				remove_idea = SAF_overstretched_military_idea
+				add_idea = SAF_overstretched_military_2_idea
+			}
+			custom_effect_tooltip = SAF_parliment_found_militia_forces_tt
 		}
 	}
 	focus = {
@@ -2559,7 +2570,7 @@ focus_tree = {
 		prerequisite = { focus = SAF_parliment_quality_over_quantity }
 		mutually_exclusive = { focus = SAF_parliment_upgrade_troops_equipment }
 		
-		cost = 1
+		cost = 5
 		ai_will_do = {
 		}
 
@@ -2579,7 +2590,7 @@ focus_tree = {
 		prerequisite = { focus = SAF_parliment_quality_over_quantity }
 		mutually_exclusive = { focus = SAF_parliment_ask_us_heavy_armaments }
 		
-		cost = 1
+		cost = 5
 		ai_will_do = {
 		}
 
@@ -2601,7 +2612,7 @@ focus_tree = {
 
 		prerequisite = { focus = SAF_parliment_ask_us_heavy_armaments focus = SAF_parliment_upgrade_troops_equipment }
 		
-		cost = 1
+		cost = 8
 		ai_will_do = {
 		}
 
@@ -2643,6 +2654,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			SAF = {
+				country_event = { id = saf.21 }
+			}
 		}
 	}
 	focus = {

@@ -3903,6 +3903,125 @@ spriteTypes = {
 	## Industry Techs ##
 
 	SpriteType = {
+		name = "GFX_tech_modern_manufacturing_medium"
+		texturefile = "gfx/interface/technologies/production_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_containerisation_medium"
+		texturefile = "gfx/interface/technologies/containerisation.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_lean_manufacturing_medium"
+		texturefile = "gfx/interface/technologies/production_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_globalised_economy_medium"
+		texturefile = "gfx/interface/technologies/globalisation_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_basic_international_trade_medium"
+		texturefile = "gfx/interface/technologies/globalisation_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_improved_international_trade_medium"
+		texturefile = "gfx/interface/technologies/globalisation_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_advanced_international_trade_medium"
+		texturefile = "gfx/interface/technologies/globalisation_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_autarky_medium"
+		texturefile = "gfx/interface/technologies/autarky_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_basic_self_sustainability_medium"
+		texturefile = "gfx/interface/technologies/autarky_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_improved_self_sustainability_medium"
+		texturefile = "gfx/interface/technologies/autarky_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_advanced_self_sustainability_medium"
+		texturefile = "gfx/interface/technologies/autarky_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_modern_factories_medium"
+		texturefile = "gfx/interface/technologies/modern_factories.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_digital_control_medium"
+		texturefile = "gfx/interface/technologies/basic_automation_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_basic_automation_medium"
+		texturefile = "gfx/interface/technologies/basic_automation_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_human_sweatshops_medium"
+		texturefile = "gfx/interface/technologies/sweatshop_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_efficient_work_schedules_medium"
+		texturefile = "gfx/interface/technologies/sweatshop_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_concentrated_industrial_areas_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_centralised_directives_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_automated_factories_medium"
+		texturefile = "gfx/interface/technologies/automation_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_factory_digitisation_medium"
+		texturefile = "gfx/interface/technologies/automation_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_national_cargo_network_medium"
+		texturefile = "gfx/interface/technologies/dispersed_industry_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_regional_independence_medium"
+		texturefile = "gfx/interface/technologies/dispersed_industry_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_modern_construction_medium"
+		texturefile = "gfx/interface/technologies/construction_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_prefabrication_medium"
+		texturefile = "gfx/interface/technologies/construction_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_computer_aided_design_medium"
+		texturefile = "gfx/interface/technologies/construction_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_modern_build_codes_medium"
+		texturefile = "gfx/interface/technologies/construction_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_energy_conservation_medium"
+		texturefile = "gfx/interface/technologies/construction_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_advanced_materials_medium"
+		texturefile = "gfx/interface/technologies/construction_6.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_ecological_construction_medium"
+		texturefile = "gfx/interface/technologies/construction_7.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_tech_rotary_drilling_medium"
 		texturefile = "gfx/interface/technologies/oil_processing_1.dds"
 	}

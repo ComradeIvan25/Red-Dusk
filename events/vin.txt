@@ -532,6 +532,22 @@ country_event = {
 			ideology = reformed_communism
 			popularity = 0.01
 		}
+		VIN_Tran_Duc_Luong = {
+			remove_advisor_role = { slot = political_advisor }
+		}
+		VIN_Phan_Van_Khai = {
+			add_advisor_role = {
+				activate = yes
+				advisor = {
+					cost = 100
+					slot = political_advisor
+					idea_token = VIN_Phan_Van_Khai
+					traits = {
+						president 
+					}
+				}
+			}
+		}
 		hidden_effect = {
 			VIN = {
 				country_event = { id = vin.24 }

@@ -44,6 +44,12 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 5
+
+			modifier = {
+				factor = 10
+				is_major = yes
+			}
 		}
 	}
 
@@ -69,6 +75,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 6
+				is_major = yes
+			}
+			modifier = {
+				factor = 8
+				date > "1995.1.1"
+			}
 		}
 	}
 
@@ -107,6 +123,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 6
+				is_major = yes
+			}
+			modifier = {
+				factor = 8
+				date > "1995.1.1"
+			}
 		}
 	}
 
@@ -145,6 +171,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 6
+				is_major = yes
+			}
+			modifier = {
+				factor = 8
+				date > "2005.1.1"
+			}
 		}
 	}
 
@@ -178,6 +214,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 6
+				is_major = yes
+			}
+			modifier = {
+				factor = 8
+				date > "2015.1.1"
+			}
 		}
 	}
 
@@ -203,6 +249,22 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 3
+				is_major = yes
+			}
+			modifier = {
+				add = 5
+				date > "1995.1.1"
+			}
+			modifier = {
+				add = 10
+				any_controlled_state = {
+					has_active_resistance = yes
+				}
+			}
 		}
 	}
 
@@ -228,6 +290,22 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 3
+				is_major = yes
+			}
+			modifier = {
+				add = 5
+				date > "1995.1.1"
+			}
+			modifier = {
+				add = 10
+				any_controlled_state = {
+					has_active_resistance = yes
+				}
+			}
 		}
 	}
 
@@ -253,6 +331,22 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 3
+				is_major = yes
+			}
+			modifier = {
+				add = 5
+				date > "2005.1.1"
+			}
+			modifier = {
+				add = 10
+				any_controlled_state = {
+					has_active_resistance = yes
+				}
+			}
 		}
 	}
 
@@ -273,6 +367,22 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 3
+				is_major = yes
+			}
+			modifier = {
+				add = 5
+				date > "2015.1.1"
+			}
+			modifier = {
+				add = 10
+				any_controlled_state = {
+					has_active_resistance = yes
+				}
+			}
 		}
 	}
 
@@ -298,6 +408,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				is_major = yes
+			}
+			modifier = {
+				add = 3
+				date > "1995.1.1"
+			}
 		}
 	}
 
@@ -326,6 +446,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				is_major = yes
+			}
+			modifier = {
+				add = 3
+				date > "1995.1.1"
+			}
 		}
 	}
 
@@ -354,6 +484,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				is_major = yes
+			}
+			modifier = {
+				add = 3
+				date > "2005.1.1"
+			}
 		}
 	}
 
@@ -377,6 +517,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 2
+				is_major = yes
+			}
+			modifier = {
+				add = 3
+				date > "2015.1.1"
+			}
 		}
 	}
 
@@ -406,6 +556,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 6
+				is_major = yes
+			}
+			modifier = {
+				factor = 7
+				date > "1995.1.1"
+			}
 		}
 	}
 
@@ -436,6 +596,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 6
+				is_major = yes
+			}
+			modifier = {
+				factor = 7
+				date > "1995.1.1"
+			}
 		}
 	}
 
@@ -466,6 +636,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 6
+				is_major = yes
+			}
+			modifier = {
+				factor = 7
+				date > "2005.1.1"
+			}
 		}
 	}
 
@@ -491,6 +671,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 6
+				is_major = yes
+			}
+			modifier = {
+				factor = 7
+				date > "2015.1.1"
+			}
 		}
 	}
 
@@ -520,6 +710,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 4
+				is_major = yes
+			}
+			modifier = {
+				add = 5
+				date > "1995.1.1"
+			}
 		}
 	}
 
@@ -550,6 +750,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 4
+				is_major = yes
+			}
+			modifier = {
+				add = 5
+				date > "1995.1.1"
+			}
 		}
 	}
 
@@ -580,6 +790,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 4
+				is_major = yes
+			}
+			modifier = {
+				add = 5
+				date > "2005.1.1"
+			}
 		}
 	}
 
@@ -605,6 +825,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 4
+				is_major = yes
+			}
+			modifier = {
+				add = 5
+				date > "2015.1.1"
+			}
 		}
 	}
 
@@ -634,6 +864,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 5
+				is_major = yes
+			}
+			modifier = {
+				add = 6
+				date > "1995.1.1"
+			}
 		}
 	}
 
@@ -664,6 +904,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 5
+				is_major = yes
+			}
+			modifier = {
+				add = 6
+				date > "1995.1.1"
+			}
 		}
 	}
 
@@ -694,6 +944,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 5
+				is_major = yes
+			}
+			modifier = {
+				add = 6
+				date > "2005.1.1"
+			}
 		}
 	}
 
@@ -719,6 +979,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 5
+				is_major = yes
+			}
+			modifier = {
+				add = 6
+				date > "2015.1.1"
+			}
 		}
 	}
 
@@ -750,6 +1020,12 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 3
+
+			modifier = {
+				factor = 8
+				is_major = yes
+			}
 		}
 	}
 
@@ -775,6 +1051,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				is_major = yes
+			}
+			modifier = {
+				factor = 5
+				date > "1995.1.1"
+			}
 		}
 	}
 
@@ -800,6 +1086,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				is_major = yes
+			}
+			modifier = {
+				factor = 5
+				date > "2005.1.1"
+			}
 		}
 	}
 
@@ -820,6 +1116,16 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				is_major = yes
+			}
+			modifier = {
+				factor = 5
+				date > "2015.1.1"
+			}
 		}
 	}
 
@@ -847,6 +1153,12 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 10
+				is_major = yes
+			}
 		}
 	}
 
@@ -867,6 +1179,12 @@ technologies = {
 		}
 
 		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 4
+				is_major = yes
+			}
 		}
 	}
 

@@ -543,6 +543,7 @@
  SAF_parliment_focus_infantry_tt:0 "§YA new§! §OLarge Infantry Division§! §Ytemplate will be created§!"
  SAF_parliment_buy_foreign_armaments_tt:0 "§YDecisions to purchase foreign equipment will become available§!"
  SAF_parliment_navy_western_designs_tt:0 "§YDecisions to purchase foreign naval designs will become available§!"
+ SAF_parliment_found_militia_forces_tt:0 "§YWill now be able to train units, disband units, or edit unit templates.§!"
 
  SAF_junta_american_friends_focus_tt:0 "§YBy taking this focus, we will attempt to sign a trade agreement with the United States§!"
  SAF_junta_formalize_agreement_focus_tt:0 "§OForeign Military Jets Importation Costs§! §Ynational spirit will be removed 180 days after focus completion§!"

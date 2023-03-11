@@ -4590,7 +4590,7 @@ irq_category_request_foreign_aid = {
 		remove_effect = {
 			IRQ = {
 				add_equipment_to_stockpile = {
-					type = apc_tank_equipment
+					type = apc_tank_equipment_2
 					amount = 50
 					producer = SOV
 				}
@@ -4942,7 +4942,7 @@ irq_category_request_foreign_aid = {
 		remove_effect = {
 			IRQ = {
 				add_equipment_to_stockpile = {
-					type = apc_tank_equipment
+					type = apc_tank_equipment_0
 					amount = 50
 					producer = PRC
 				}

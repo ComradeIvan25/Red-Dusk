@@ -34,6 +34,7 @@ characters = {
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/VIN/Nong_Duc_Manh.png"
+				small = "gfx/leaders/VIN/VIN_Nong_Duc_Manh_small.png"
 			}
 		}
 		country_leader = {
@@ -104,7 +105,16 @@ characters = {
 				minister_of_public_security 
 			}
 		}
-	}	
+	}
+
+	VIN_Phan_Van_Khai = {
+		name = "Phan Van Khai"
+		portraits = {
+			civilian = {
+				small = "gfx/leaders/VIN/VIN_Phan_Van_Khai_small.png"
+			}
+		}
+	}
 	
   ### Generals ###
      VIN_phung_quang_thanh = {

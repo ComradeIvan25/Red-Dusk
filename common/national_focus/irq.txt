@@ -886,12 +886,12 @@ focus_tree = {
 				producer = SOV
 			}
 			add_equipment_to_stockpile = {
-				type = mbt_tank_equipment
+				type = mbt_tank_equipment_1
 				amount = 30
 				producer = SOV
 			}
 			add_equipment_to_stockpile = {
-				type = attacker_equipment
+				type = attacker_equipment_1
 				amount = 20
 				producer = SOV
 			}

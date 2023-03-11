@@ -309,7 +309,7 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 2
+				add = 2
 				is_major = yes
 			}
 		}
@@ -338,7 +338,7 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 2
+				add = 2
 				is_major = yes
 			}
 		}
@@ -367,7 +367,7 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 2
+				add = 2
 				is_major = yes
 			}
 		}
@@ -396,7 +396,7 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 2
+				add = 2
 				is_major = yes
 			}
 		}
@@ -425,7 +425,7 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 2
+				add = 2
 				is_major = yes
 			}
 		}
@@ -454,7 +454,7 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 2
+				add = 2
 				is_major = yes
 			}
 		}
@@ -483,7 +483,7 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 2
+				add = 2
 				is_major = yes
 			}
 		}
@@ -517,7 +517,7 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 1
+				add = 1
 				is_major = yes
 			}
 			modifier = {
@@ -525,7 +525,7 @@ technologies = {
 				tag = USA
 			}
 			modifier = {
-				factor = 2
+				add = 2
 				tag = SOV
 			}
 		}
@@ -559,7 +559,7 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 1
+				add = 1
 				is_major = yes
 			}
 			modifier = {
@@ -567,7 +567,7 @@ technologies = {
 				tag = USA
 			}
 			modifier = {
-				factor = 2
+				add = 2
 				tag = SOV
 			}
 		}
@@ -601,7 +601,7 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 1
+				add = 1
 				is_major = yes
 			}
 			modifier = {
@@ -609,7 +609,7 @@ technologies = {
 				tag = USA
 			}
 			modifier = {
-				factor = 2
+				add = 2
 				tag = SOV
 			}
 		}
@@ -638,7 +638,7 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 1
+				add = 1
 				is_major = yes
 			}
 			modifier = {
@@ -646,7 +646,7 @@ technologies = {
 				tag = USA
 			}
 			modifier = {
-				factor = 2
+				add = 2
 				tag = SOV
 			}
 		}
@@ -681,15 +681,15 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 2
+				add = 2
 				is_major = yes
 			}
 			modifier = {
-				factor = 3
+				add = 3
 				tag = USA
 			}
 			modifier = {
-				factor = 3
+				add = 3
 				tag = SOV
 			}
 		}
@@ -719,15 +719,15 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 2
+				add = 2
 				is_major = yes
 			}
 			modifier = {
-				factor = 3
+				add = 3
 				tag = USA
 			}
 			modifier = {
-				factor = 3
+				add = 3
 				tag = SOV
 			}
 		}
@@ -1010,7 +1010,7 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 2
+				add = 2
 				is_major = yes
 			}
 		}
@@ -1045,7 +1045,7 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 2
+				add = 2
 				is_major = yes
 			}
 		}
@@ -1080,7 +1080,7 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 2
+				add = 2
 				is_major = yes
 			}
 		}
@@ -1115,7 +1115,7 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 2
+				add = 2
 				is_major = yes
 			}
 		}
@@ -1150,7 +1150,7 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 2
+				add = 2
 				is_major = yes
 			}
 		}
@@ -1180,7 +1180,7 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 2
+				add = 2
 				is_major = yes
 			}
 		}
@@ -1476,11 +1476,11 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 2
+				add = 2
 				is_major = yes
 			}
 			modifier = {
-				factor = 1
+				add = 1
 				tag = SOV
 			}
 		}
@@ -1516,11 +1516,11 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 2
+				add = 2
 				is_major = yes
 			}
 			modifier = {
-				factor = 1
+				add = 1
 				tag = SOV
 			}
 		}
@@ -1556,11 +1556,11 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 2
+				add = 2
 				is_major = yes
 			}
 			modifier = {
-				factor = 1
+				add = 1
 				tag = SOV
 			}
 		}
@@ -1591,11 +1591,11 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 2
+				add = 2
 				is_major = yes
 			}
 			modifier = {
-				factor = 1
+				add = 1
 				tag = SOV
 			}
 		}
@@ -1633,11 +1633,11 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 1
+				add = 1
 				is_major = yes
 			}
 			modifier = {
-				factor = 3
+				add = 3
 				tag = SOV
 			}
 			modifier = {
@@ -1677,11 +1677,11 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 1
+				add = 1
 				is_major = yes
 			}
 			modifier = {
-				factor = 3
+				add = 3
 				tag = SOV
 			}
 			modifier = {
@@ -1721,11 +1721,11 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 1
+				add = 1
 				is_major = yes
 			}
 			modifier = {
-				factor = 3
+				add = 3
 				tag = SOV
 			}
 			modifier = {
@@ -1760,11 +1760,11 @@ technologies = {
 			factor = 0
 
 			modifier = {
-				factor = 1
+				add = 1
 				is_major = yes
 			}
 			modifier = {
-				factor = 3
+				add = 3
 				tag = SOV
 			}
 			modifier = {

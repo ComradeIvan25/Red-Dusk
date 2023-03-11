@@ -274,7 +274,7 @@ recruit_character = USA_james_ellis
 recruit_character = USA_vernon_clark
 recruit_character = USA_robert_natter
 
-create_faction = "NATO"
+create_faction = "North Atlantic Treaty Organization"
 USA = {
 	add_to_faction = ENG
 	add_to_faction = CAN

@@ -1950,8 +1950,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/VIN/VIN_hai_phong_port.png"
 	}
 	SpriteType = {
+		name = "GFX_VIN_focus_soviet_oil"
+		texturefile = "gfx/interface/goals/VIN/VIN_oil_with_Soviet.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_fuel"
+		texturefile = "gfx/interface/goals/VIN/VIN_fuel.png"
+	}
+	SpriteType = {
 		name = "GFX_VIN_focus_quoc_phong"
 		texturefile = "gfx/interface/goals/VIN/VIN_defense_industry.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_eye_on_east_sea"
+		texturefile = "gfx/interface/goals/VIN/VIN_east_sea.png"
 	}
 	SpriteType = {
 		name = "VIN_army_modernization"

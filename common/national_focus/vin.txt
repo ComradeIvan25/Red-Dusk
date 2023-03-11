@@ -1091,7 +1091,7 @@ focus_tree = {
 	#Oil
 	focus = {
 		id = VIN_eye_on_east_sea
-		icon = GFX_VIN_focus_national_congress
+		icon = GFX_VIN_focus_eye_on_east_sea
 		x = 8
 		y = 16
 		cost = 2
@@ -1111,7 +1111,7 @@ focus_tree = {
 	#Oil with Soviet
 	focus = {
 		id = VIN_oil_with_Soviet
-		icon = GFX_VIN_focus_national_congress
+		icon = GFX_VIN_focus_soviet_oil
 		x = 7
 		y = 17
 		cost = 5
@@ -1139,7 +1139,7 @@ focus_tree = {
 	#Build more synthetic
 	focus = {
 		id = VIN_synthetic
-		icon = GFX_VIN_focus_national_congress
+		icon = GFX_focus_IRQ_increase_oil_production
 		x = 9
 		y = 17
 		cost = 5
@@ -1170,7 +1170,7 @@ focus_tree = {
 	#Increase Oil Reserve
 	focus = {
 		id = VIN_oil_reserve
-		icon = GFX_VIN_focus_national_congress
+		icon = GFX_VIN_focus_fuel
 		x = 8
 		y = 18
 		cost = 5

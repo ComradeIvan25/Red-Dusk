@@ -1243,6 +1243,55 @@ leader_traits = {
 		}
 	}
 
+	## NAVY STUFF ##
+	
+	navy_amphibious_assault_1 = {
+		sprite = 3
+		amphibious_invasion = 0.05
+		#experience_gain_navy = @experience_gain_low
+
+		command_cap = @tier1
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				command_power < @tier1
+			}
+		}
+	}
+
+	navy_amphibious_assault_2 = {
+		sprite = 3
+		amphibious_invasion = 0.1
+		#experience_gain_navy = @experience_gain_medium
+
+		command_cap = @tier2
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 0
+				command_power < @tier2
+			}
+		}
+	}
+
+	navy_amphibious_assault_3 = {
+		sprite = 3
+		amphibious_invasion = 0.15
+		#experience_gain_navy = @experience_gain_high
+
+		command_cap = @tier3
+
+		ai_will_do = {
+			factor = 3
+			modifier = {
+				factor = 0
+				command_power < @tier3
+			}
+		}
+	}
 	
 	## industrial concern ##
 	

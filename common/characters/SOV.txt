@@ -506,6 +506,23 @@ characters = {
 			legacy_id=-1
 		}
 	}
+	SOV_Leonty_Kuznetsov = {
+		name = "Leonty Kuznetsov"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/Leonty_Kuznetsov.png"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
 	SOV_dmitry_bulgakov = {
 		name = "Dmitry Bulgakov"
 		portraits = {

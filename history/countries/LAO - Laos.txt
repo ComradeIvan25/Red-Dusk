@@ -24,7 +24,8 @@ add_ideas = LAO_balance_vin_prc
 add_ideas = LAO_army
 
 recruit_character = LAO_khamtai_siphandon
-recruit_character = LAO_khamtai_siphandon_1
+recruit_character = LAO_khamtai_siphandon_1 
+recruit_character = LAO_Douangchay_Phichit
 
 add_ideas = {
 	extensive_conscription

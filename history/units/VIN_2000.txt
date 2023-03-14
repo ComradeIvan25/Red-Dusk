@@ -553,7 +553,7 @@ instant_effect = {
 			type = infantry_weapons_2
 			creator = "SOV"
 		}
-		requested_factories = 2
+		requested_factories = 1
 		progress = 0.43
 		efficiency = 32
 	}

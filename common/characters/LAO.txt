@@ -28,5 +28,22 @@ characters = {
 			id = -1
 		}
 	}
+        LAO_Douangchay_Phichit = {
+		name = "Douangchay Phichit"
+		portraits = {
+			army = {
+				large = "gfx/leaders/LAO/Douangchay_Phichit.png"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
 
 }

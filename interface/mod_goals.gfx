@@ -1966,6 +1966,30 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/VIN/VIN_east_sea.png"
 	}
 	SpriteType = {
+		name = "GFX_VIN_focus_salary_reform"
+		texturefile = "gfx/interface/goals/VIN/VIN_salary_reform.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_social_security"
+		texturefile = "gfx/interface/goals/VIN/VIN_social_security.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_health_care"
+		texturefile = "gfx/interface/goals/VIN/VIN_health_care.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_edu_reform"
+		texturefile = "gfx/interface/goals/VIN/VIN_edu.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_police"
+		texturefile = "gfx/interface/goals/VIN/VIN_police.png"
+	}
+	SpriteType = {
+		name = "GFX_VIN_focus_fight_poverty"
+		texturefile = "gfx/interface/goals/VIN/VIN_figth_against_poverty.png"
+	}
+	SpriteType = {
 		name = "VIN_army_modernization"
 		texturefile = "gfx/interface/goals/VIN/VIN_army_modernization.png"
 	}

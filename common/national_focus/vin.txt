@@ -981,7 +981,7 @@ focus_tree = {
 	#Resources
 	focus = {
 		id = VIN_golden_forest_silver_sea
-		icon = GFX_VIN_focus_resources
+		icon = GFX_focus_SAF_safari
 		x = 6
 		y = 15
 		cost = 2
@@ -1396,7 +1396,7 @@ focus_tree = {
 	#For A Socialist Society
 	focus = {
 		id = VIN_socialist_society
-		icon = GFX_VIN_focus_national_congress
+		icon = GFX_focus_SOV_soviet_culture
 		x = 15
 		y = 14
 		cost = 2
@@ -1437,7 +1437,7 @@ focus_tree = {
 	#The Fight Against Poverty
 	focus = {
 		id = VIN_fight_poverty
-		icon = GFX_VIN_focus_national_congress
+		icon = GFX_VIN_focus_fight_poverty
 		x = 13
 		y = 16
 		cost = 1.5
@@ -1481,7 +1481,7 @@ focus_tree = {
 	 #Job security for workers
 	focus = {
 		id = VIN_job_security
-		icon = GFX_VIN_focus_national_congress
+		icon = GFX_SOV_economic_miracle
 		x = 14
 		y = 17
 		cost = 2
@@ -1498,7 +1498,7 @@ focus_tree = {
 	#Salary reform
 	focus = {
 		id = VIN_salary_reform
-		icon = GFX_VIN_focus_national_congress
+		icon = GFX_VIN_focus_salary_reform
 		x = 13
 		y = 18
 		cost = 2
@@ -1518,7 +1518,7 @@ focus_tree = {
 	#Ensure Social Security
 	focus = {
 		id = VIN_ensure_social_security
-		icon = GFX_VIN_focus_national_congress
+		icon = GFX_VIN_focus_social_security
 		x = 17
 		y = 16
 		cost = 2
@@ -1540,7 +1540,7 @@ focus_tree = {
 	 #Towards universal health insurance
 	focus = {
 		id = VIN_universal_health_insurance
-		icon = GFX_VIN_focus_national_congress
+		icon = GFX_VIN_focus_health_care
 		x = 16
 		y = 17
 		cost = 2
@@ -1558,7 +1558,7 @@ focus_tree = {
 	#Education Reform
 	focus = {
 		id = VIN_education_reform
-		icon = GFX_VIN_focus_national_congress
+		icon = GFX_VIN_focus_edu_reform
 		x = 18
 		y = 17
 		cost = 2
@@ -1571,14 +1571,14 @@ focus_tree = {
 		remove_idea = VIN_corruption_3
 		add_idea = VIN_corruption_4
 		}
-			
+		
       add_research_slot = 1
      }
 	 }
 	#Massive anti-crime campaign
 	focus = {
 		id = VIN_anti_crime_campaign
-		icon = GFX_VIN_focus_national_congress
+		icon = GFX_VIN_focus_police
 		x = 17
 		y = 18
 		cost = 2

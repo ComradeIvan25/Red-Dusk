@@ -1342,7 +1342,7 @@
 	
 	focus = {
 		id = SOV_yazov_our_old_enemies_in_yugoslavia
-		icon = GFX_focus_SOV_old_enemy_in_Yugo
+		icon = GFX_focus_YUG_a_new_dawn
 		x = 35
 		y = 11
 

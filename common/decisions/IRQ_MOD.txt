@@ -2142,6 +2142,51 @@ irq_category_new_pan_arabism = {
 		}
 	}
 	
+	IRQ_tel_aviv_trials = {
+
+		icon = GFX_decision_eng_trade_unions_demand
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_new_pan_arabism
+
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_new_pan_arabism
+			controls_state = 454
+		}
+		days_remove = 15
+		modifier {	
+		political_power_cost = 0.50		
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 454
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 9999
+		}
+
+		complete_effect = {
+		}
+		
+		remove_effect = { 
+			country_event = {id = irq.31}
+		}
+	}	
+	
 	IRQ_integrate_palestine = {
 
 		icon = GFX_decision_infiltrate_state
@@ -3122,6 +3167,669 @@ irq_category_a_new_state = {
 			}
 			add_to_variable = {irq_centralization_progress_monthly_variable = 0.25}
 			custom_effect_tooltip = irq_centralization_monthly_increased_by_025
+		}
+	}
+
+	IRQ_pan_arab_tel_aviv_trials = {
+
+		icon = GFX_decision_eng_trade_unions_demand
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			PAL = {controls_state = 454}
+		}
+		days_remove = 15
+		modifier {		
+		political_power_cost = 0.50		
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 454
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 9999
+		}
+
+		complete_effect = {
+		}
+		
+		remove_effect = { 
+			country_event = {id = irq.31}
+		}
+	}
+
+	IRQ_pan_arab_integrate_saudi_arabia = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_nasser_revenged
+
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_nasser_revenged
+			controls_state = 292
+		}
+		days_remove = 75
+		modifier {
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 292
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 100
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 55
+		}
+		complete_effect = {
+			subtract_from_variable = {irq_centralization_progress_variable = 2.5}
+			custom_effect_tooltip = irq_centralization_progress_decreased_by_25
+		}
+		remove_effect = { 
+			SAU = {
+			every_core_state = { add_core_of = IRQ }	
+			}
+			
+			add_to_variable = {irq_centralization_progress_monthly_variable = 0.25}
+			custom_effect_tooltip = irq_centralization_monthly_increased_by_025
+
+		}
+	}
+	
+	IRQ_pan_arab_integrate_egypt = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_nasser_revenged
+
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_nasser_revenged
+			controls_state = 901
+		}
+		days_remove = 75
+		modifier {
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 901
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 100
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 55
+		}
+		complete_effect = {
+			subtract_from_variable = {irq_centralization_progress_variable = 2.5}
+			custom_effect_tooltip = irq_centralization_progress_decreased_by_25
+		}
+		remove_effect = { 
+			EGY = {
+			every_core_state = { add_core_of = IRQ }	
+			}
+			
+			add_to_variable = {irq_centralization_progress_monthly_variable = 0.25}
+			custom_effect_tooltip = irq_centralization_monthly_increased_by_025
+
+		}
+	}
+	
+	IRQ_pan_arab_integrate_yemen = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_nasser_revenged
+
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_nasser_revenged
+			controls_state = 293
+		}
+		days_remove = 75
+		modifier {
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 293
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 100
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 55
+		}
+		complete_effect = {
+			subtract_from_variable = {irq_centralization_progress_variable = 2.5}
+			custom_effect_tooltip = irq_centralization_progress_decreased_by_25
+		}
+		remove_effect = { 
+			YEM = {
+			every_core_state = { add_core_of = IRQ }	
+			}
+			DYR = {
+			every_core_state = { add_core_of = IRQ }	
+			}
+			
+			add_to_variable = {irq_centralization_progress_monthly_variable = 0.25}
+			custom_effect_tooltip = irq_centralization_monthly_increased_by_025
+
+		}
+	}
+	
+	IRQ_pan_arab_integrate_oman = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_nasser_revenged
+
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_nasser_revenged
+			controls_state = 294
+		}
+		days_remove = 75
+		modifier {
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 294
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 100
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 55
+		}
+		complete_effect = {
+			subtract_from_variable = {irq_centralization_progress_variable = 2.5}
+			custom_effect_tooltip = irq_centralization_progress_decreased_by_25
+		}
+		remove_effect = { 
+			OMA = {
+			every_core_state = { add_core_of = IRQ }	
+			}
+			
+			add_to_variable = {irq_centralization_progress_monthly_variable = 0.25}
+			custom_effect_tooltip = irq_centralization_monthly_increased_by_025
+
+		}
+	}	
+
+	IRQ_pan_arab_integrate_uae = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_nasser_revenged
+
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_nasser_revenged
+			controls_state = 658
+		}
+		days_remove = 75
+		modifier {
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 658
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 100
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 55
+		}
+		complete_effect = {
+			subtract_from_variable = {irq_centralization_progress_variable = 2.5}
+			custom_effect_tooltip = irq_centralization_progress_decreased_by_25
+		}
+		remove_effect = { 
+			UAE = {
+			every_core_state = { add_core_of = IRQ }	
+			}
+			
+			add_to_variable = {irq_centralization_progress_monthly_variable = 0.25}
+			custom_effect_tooltip = irq_centralization_monthly_increased_by_025
+
+		}
+	}	
+
+	IRQ_pan_arab_integrate_qatar = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_nasser_revenged
+
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_nasser_revenged
+			controls_state = 765
+		}
+		days_remove = 75
+		modifier {
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 765
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 100
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 55
+		}
+		complete_effect = {
+			subtract_from_variable = {irq_centralization_progress_variable = 2.5}
+			custom_effect_tooltip = irq_centralization_progress_decreased_by_25
+		}
+		remove_effect = { 
+			QAT = {
+			every_core_state = { add_core_of = IRQ }	
+			}
+			
+			add_to_variable = {irq_centralization_progress_monthly_variable = 0.25}
+			custom_effect_tooltip = irq_centralization_monthly_increased_by_025
+
+		}
+	}	
+
+	IRQ_pan_arab_integrate_bahrain = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_nasser_revenged
+
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_nasser_revenged
+			controls_state = 934
+		}
+		days_remove = 75
+		modifier {
+		}
+		
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 934
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		cost = 100
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 55
+		}
+		complete_effect = {
+			subtract_from_variable = {irq_centralization_progress_variable = 2.5}
+			custom_effect_tooltip = irq_centralization_progress_decreased_by_25
+		}
+		remove_effect = { 
+			BHR = {
+			every_core_state = { add_core_of = IRQ }	
+			}
+			
+			add_to_variable = {irq_centralization_progress_monthly_variable = 0.25}
+			custom_effect_tooltip = irq_centralization_monthly_increased_by_025
+
+		}
+	}	
+	
+	IRQ_pan_arab_invade_saudi_arabia = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_nasser_revenged
+			is_neighbor_of = SAU
+			has_war = no
+			
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_nasser_revenged
+		}
+		days_remove = 25
+		modifier {				
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 9999
+		}
+
+		complete_effect = {
+		}
+		
+		remove_effect = { 
+            declare_war_on = {
+                target = SAU
+                type = annex_everything
+            }
+		}
+	}
+	
+	IRQ_pan_arab_invade_egypt = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_nasser_revenged
+			is_neighbor_of = EGY
+			has_war = no
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_nasser_revenged
+		}
+		days_remove = 25
+		modifier {				
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 9999
+		}
+
+		complete_effect = {
+		}
+		
+		remove_effect = { 
+            declare_war_on = {
+                target = EGY
+                type = annex_everything
+            }
+		}
+	}
+	
+	IRQ_pan_arab_invade_yemen = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_nasser_revenged
+			OR = {
+				is_neighbor_of = YEM
+				is_neighbor_of = DYR		
+			}
+			has_war = no
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_nasser_revenged
+		}
+		days_remove = 25
+		modifier {				
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 9999
+		}
+
+		complete_effect = {
+		}
+		
+		remove_effect = { 
+            declare_war_on = {
+                target = YEM
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = DYR
+                type = annex_everything
+            }			
+		}
+	}
+	
+	IRQ_pan_arab_invade_uae = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_nasser_revenged
+			is_neighbor_of = UAE
+			has_war = no
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_nasser_revenged
+		}
+		days_remove = 25
+		modifier {				
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 9999
+		}
+
+		complete_effect = {
+		}
+		
+		remove_effect = { 
+            declare_war_on = {
+                target = UAE
+                type = annex_everything
+            }
+	
+		}
+	}
+	
+	IRQ_pan_arab_invade_qatar = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_nasser_revenged
+			is_neighbor_of = QAT
+			has_war = no
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_nasser_revenged
+		}
+		days_remove = 25
+		modifier {				
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 9999
+		}
+
+		complete_effect = {
+		}
+		
+		remove_effect = { 
+            declare_war_on = {
+                target = QAT
+                type = annex_everything
+            }
+	
+		}
+	}
+	
+	IRQ_pan_arab_invade_bahrain = {
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_nasser_revenged
+			is_neighbor_of = BHR
+			has_war = no
+		}
+		visible = {
+			original_tag = IRQ
+			has_country_flag = irq_a_new_state
+			has_completed_focus = IRQ_nasser_revenged
+		}
+		days_remove = 25
+		modifier {				
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 9999
+		}
+
+		complete_effect = {
+		}
+		
+		remove_effect = { 
+            declare_war_on = {
+                target = BHR
+                type = annex_everything
+            }
+	
 		}
 	}
 }

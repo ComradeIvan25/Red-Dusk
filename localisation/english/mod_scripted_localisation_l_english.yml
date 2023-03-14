@@ -191,7 +191,9 @@
  
  IRQ_greater_iraq_ty_for_playing:0 "§RGreater Iraq, after many struggles has prevailed and intoduced a new approach to Pan Arabism.\n\nThanks for playing Iraq in Red Dusk!§!"
  IRQ_uar_ty_for_playing:0 "§GUnited Arab Republics, after many struggles has prevailed and united the Arabs upon the new millenium.\n\nThanks for playing Iraq in Red Dusk!§!"
-
+ 
+ irq_unlocks_decisions_to_invade_arab_nations:0 "§GUnlocks decisions to invade Arab nations"
+ 
  IRQ_tt_rebuild_navy:0 "§YDecisions to purchase foreign ships will become available§!"
  IRQ_tt_no_embargo_idea:0 "§YFree Trade will become available§!"
  IRQ_tt_exploit_internal_divisions:0 "§YDecisions to influence Kurdish factions will become available§!"

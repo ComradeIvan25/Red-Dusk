@@ -1906,9 +1906,6 @@ focus_tree = {
 		x = 0
 		y = 3
 		relative_position_id = IRQ_the_next_step
-		allow_branch = {
-			country_exists = ISR
-		}
 		prerequisite = {focus = IRQ_an_important_obstacle}
 
 		mutually_exclusive = { }
@@ -2053,7 +2050,7 @@ focus_tree = {
 				  add = 2
 				}
 			  }
-			  path = { 2097 12046 12839 12413 12316 10383 7184 4111 }
+			  path = { 2097 12046 12839 13311 12413 12316 10383 7184 4111 }
 			  start_province = 2097
 			  target_province = 4111
 			}
@@ -2200,14 +2197,14 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			mark_focus_tree_layout_dirty = yes
 			if = {
 				limit = {has_completed_focus = IRQ_dreams_of_a_greater_iraq}
 				country_event = {id = irq.19}
 			}
 			else_if = {
 				limit = {has_completed_focus = IRQ_dreams_of_a_united_arab_nation}
-				country_event = {id = irq.27}				
+				country_event = {id = irq.27}
+				custom_effect_tooltip = irq_unlocks_decisions_to_invade_arab_nations
 			}
 			add_war_support = 0.30
 			add_stability = 0.30

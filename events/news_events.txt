@@ -1153,6 +1153,7 @@ news_event = {
 	}
 }
 
+#invasion of Taiwan
 news_event = {
 	id = old_times_news.76
 	title = old_times_news.76.t
@@ -1167,6 +1168,39 @@ news_event = {
 		name = old_times_news.76.a
 	}
 }
+
+#5th arab israeli war
+news_event = {
+	id = old_times_news.77
+	title = old_times_news.77.t
+	desc = old_times_news.77.d
+	picture = GFX_news_invasion_of_taiwan
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.77.a
+	}
+}
+
+#Tel Aviv Trials
+news_event = {
+	id = old_times_news.78
+	title = old_times_news.78.t
+	desc = old_times_news.78.d
+	picture = GFX_news_invasion_of_taiwan
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.78.a
+	}
+}
+
 ### FLAVOUR NEWS EVENTS ###
 
 ## Concorde Trigger (HIDDEN) ##

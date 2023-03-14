@@ -659,6 +659,25 @@ country_event = {
 	}
 }
 
+#Tel Aviv Trials#
+country_event = {
+	id = irq.31
+	title = irq.31.t
+	desc = irq.31.d
+	picture = GFX_report_event_IRQ_saddam_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq.31.a
+		add_political_power = 150
+		454 = {
+		add_manpower = -9000
+		}
+		news_event = {id = old_times_news.78 days = 2}
+	}
+}
+
 ### KURDISH DECISION EVENTS ###
 
 #Hold talks with faction kdp#

@@ -748,6 +748,19 @@ on_actions = {
 		}
 	}
 
+			
+	on_declare_war = {
+		effect = {
+			if = {
+				limit = {
+					tag = IRQ
+					FROM = { tag = ISR }  #FROM is the war target 
+				}
+				news_event = {id = old_times_news.77}
+			}
+		}
+	}
+
 	on_monthly = {
 		## Unit Limiter Mechanics ##
 
@@ -1676,7 +1689,148 @@ on_actions = {
 						
 						
 					}
-										
+					
+					## IRAQ VS SAUDI - IRAQ WINS OVER SAUDI ##
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = IRQ
+							}
+							ROOT = {
+								original_tag = SAU
+								
+							}
+						}
+						
+						IRQ = {
+							white_peace = ROOT
+							annex_country = { target = SAU }						
+						}
+
+					}
+					
+					## IRAQ VS EGYPT - IRAQ WINS OVER EGYPT ##
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = IRQ
+							}
+							ROOT = {
+								original_tag = EGY
+								
+							}
+						}
+						
+						IRQ = {
+							white_peace = ROOT
+							annex_country = { target = EGY }						
+						}	
+						
+					}
+					
+					## IRAQ VS YEMEN - IRAQ WINS OVER YEMEN ##
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = IRQ
+							}
+							ROOT = {
+								OR = {
+									original_tag = YEM
+									original_tag = DYR
+								}	
+							}
+						}
+						
+						IRQ = {
+							white_peace = ROOT
+							annex_country = { target = YEM }						
+						}	
+						
+						IRQ = {
+							white_peace = ROOT
+							annex_country = { target = DYR }						
+						}
+						
+					}
+					
+					## IRAQ VS OMAN - IRAQ WINS OVER OMAN ##
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = IRQ
+							}
+							ROOT = {
+								original_tag = OMA
+								
+							}
+						}
+						
+						IRQ = {
+							white_peace = ROOT
+							annex_country = { target = OMA }						
+						}	
+						
+					}
+	
+					## IRAQ VS UAE - IRAQ WINS OVER UAE ##
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = IRQ
+							}
+							ROOT = {
+								original_tag = UAE
+								
+							}
+						}
+						
+						IRQ = {
+							white_peace = ROOT
+							annex_country = { target = UAE }						
+						}	
+						
+					}
+	
+	
+					## IRAQ VS QATAR - IRAQ WINS OVER QATAR ##
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = IRQ
+							}
+							ROOT = {
+								original_tag = QAT
+								
+							}
+						}
+						
+						IRQ = {
+							white_peace = ROOT
+							annex_country = { target = QAT }						
+						}	
+						
+					}
+					
+					## IRAQ VS BAHRAIN - IRAQ WINS OVER BAHRAIN ##
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = IRQ
+							}
+							ROOT = {
+								original_tag = BHR
+								
+							}
+						}
+						
+						IRQ = {
+							white_peace = ROOT
+							annex_country = { target = BHR }						
+						}	
+						
+					}
+					
 					### USSR WARS ###
 					
 					### USSR VS ESTONIA - USSR WINS ###

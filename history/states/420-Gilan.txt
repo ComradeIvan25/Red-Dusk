@@ -4,7 +4,7 @@ state={
 	name="STATE_420"
 	manpower = 1314948
 	
-	state_category = rural
+	state_category = large_town
 
 	history={
 		owner = PER
@@ -16,7 +16,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 3
+			industrial_complex = 2
 			arms_factory = 1
 			4637 ={
 				naval_base = 3

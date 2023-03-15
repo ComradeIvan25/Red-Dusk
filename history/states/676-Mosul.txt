@@ -3,12 +3,12 @@ state={
 	name="STATE_676"
 	manpower = 3525000
 	
-	state_category = wasteland
+	state_category = town
 
 	history={
 		owner = IRQ
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
 		victory_points = {
 			10106 5

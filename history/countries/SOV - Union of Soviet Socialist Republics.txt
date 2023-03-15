@@ -182,9 +182,9 @@ if = {
 	}
 }
 
-set_research_slots = 4
-set_stability = 0.7
-set_war_support = 0.2
+set_research_slots = 5
+set_stability = 0.72
+set_war_support = 0.42
 
 set_convoys = 500
 

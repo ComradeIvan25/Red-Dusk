@@ -39,7 +39,7 @@ set_technology = {
 	heli_attack_1970 = 1
 }
 
-set_research_slots = 3
+set_research_slots = 4
 set_stability = 0.5
 set_convoys = 300
 

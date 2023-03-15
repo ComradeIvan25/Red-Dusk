@@ -137,7 +137,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "open_da_yug_power_struggle_gui_window"
-		position = { x = 400 y = 430 }
+		position = { x = 420 y = 240 }
 		size = { width = 474% height= 287 }
 		moveable = no
 	

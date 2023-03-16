@@ -109,3 +109,10 @@ replace_alignment_to_PRC = {
 		add_ideas = china_aligned_nation
 	}
 }
+
+remove_alignments = {
+
+		remove_ideas = usa_aligned_nation
+		remove_ideas = ussr_aligned_nation
+		remove_ideas = china_aligned_nation
+}

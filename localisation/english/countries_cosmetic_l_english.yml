@@ -17,6 +17,14 @@
  LEB_iraq_puppet_DEF:0 "The Lebanese Arab Republic"
  PAL_iraq_puppet:0 "Palestinian Arab Republic"
  PAL_iraq_puppet_DEF:0 "The Palestinian Arab Republic"
+ EGY_iraq_puppet:0 "Egyptian Arab Republic"
+ EGY_iraq_puppet_DEF:0 "The Egyptian Arab Republic" 
+ SAU_iraq_puppet:0 "Peninsulan Arab Republic" # I HATE THE SAUDS I HATE THE SAUDS
+ SAU_iraq_puppet_DEF:0 "The Peninsulan Arab Republic"
+ YEM_iraq_puppet:0 "Yemeni Arab Republic"
+ YEM_iraq_puppet_DEF:0 "The Yemeni Arab Republic"
+ OMA_iraq_puppet:0 "Omani Arab Republic"
+ OMA_iraq_puppet_DEF:0 "The Omani Arab Republic"
  
  IRQ_iran_puppet:0 "Iraq"
  IRQ_iran_puppet_DEF:0 "The Islamic Republic of Iraq"

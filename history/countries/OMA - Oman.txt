@@ -22,6 +22,7 @@ add_ideas = OMA_oil_producers
 add_ideas = usa_aligned_nation
 
 recruit_character = OMA_qaboos_bin
+recruit_character = OMA_baath
 
 set_politics = {
 	ruling_party = neutrality

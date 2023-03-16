@@ -227,6 +227,22 @@ PAL_iraq_puppet = {
 	color = rgb { 114 58 21 }
 	color_ui = rgb { 231 148 129 }
 }
+SAU_iraq_puppet = {
+	color = rgb { 114 58 21 }
+	color_ui = rgb { 231 148 129 }
+}
+YEM_iraq_puppet = {
+	color = rgb { 114 58 21 }
+	color_ui = rgb { 231 148 129 }
+}
+OMA_iraq_puppet = {
+	color = rgb { 114 58 21 }
+	color_ui = rgb { 231 148 129 }
+}
+EGY_iraq_puppet = {
+	color = rgb { 114 58 21 }
+	color_ui = rgb { 231 148 129 }
+}
 
 IRQ_iran_puppet = {
 	color = rgb { 105 113 70 }

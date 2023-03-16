@@ -1454,6 +1454,148 @@ ideas = {
 				production_speed_buildings_factor = 0.15
 			}
 		}
+
+		IRQ_middle_east_economic_union_puppet_1 = {
+			name = IRQ_middle_east_economic_union_name
+
+			removal_cost = -1
+
+			picture = IRQ_MEEU_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_cost = 0.05						
+				consumer_goods_factor = -0.025
+
+			}
+			
+			targeted_modifier = {
+				tag = IRQ
+				cic_to_target_factor = 0.15
+				
+			}
+		}
+		
+		IRQ_middle_east_economic_union_puppet_2 = {
+			name = IRQ_middle_east_economic_union_name
+
+			removal_cost = -1
+
+			picture = IRQ_MEEU_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_cost = 0.10					
+				consumer_goods_factor = -0.05
+			}
+			
+			targeted_modifier = {
+				tag = IRQ
+				cic_to_target_factor = 0.25
+				
+			}
+		}	
+
+		IRQ_middle_east_economic_union_puppet_3 = {
+			name = IRQ_middle_east_economic_union_name
+
+			removal_cost = -1
+
+			picture = IRQ_MEEU_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_cost = 0.15		
+				consumer_goods_factor = -0.075
+			}
+			
+			targeted_modifier = {
+				tag = IRQ
+				cic_to_target_factor = 0.35
+				
+			}
+		}	
+
+		IRQ_middle_east_economic_union_puppet_4 = {
+			name = IRQ_middle_east_economic_union_name
+
+			removal_cost = -1
+
+			picture = IRQ_MEEU_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_cost = 0.20
+				consumer_goods_factor = -0.075
+				production_speed_buildings_factor = 0.05
+			}
+			
+			targeted_modifier = {
+				tag = IRQ
+				cic_to_target_factor = 0.45
+				
+			}
+		}	
+
+		IRQ_middle_east_economic_union_puppet_5 = {
+			name = IRQ_middle_east_economic_union_name
+
+			removal_cost = -1
+
+			picture = IRQ_MEEU_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_cost = 0.25
+				consumer_goods_factor = -0.075
+				production_speed_buildings_factor = 0.1
+			}
+			
+			targeted_modifier = {
+				tag = IRQ
+				cic_to_target_factor = 0.50
+				
+			}
+		}			
+
+		IRQ_middle_east_economic_union_puppet_6 = {
+			name = IRQ_middle_east_economic_union_name
+
+			removal_cost = -1
+
+			picture = IRQ_MEEU_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_cost = 0.35
+				consumer_goods_factor = -0.1
+				production_speed_buildings_factor = 0.15
+			}
+			
+			targeted_modifier = {
+				tag = IRQ
+				cic_to_target_factor = 0.55
+				
+			}
+		}
 		
 		IRQ_modernized_education = {
 			name = IRQ_modernized_education_name

@@ -1186,8 +1186,7 @@ focus_tree = {
 		continue_if_invalid = no
 		completion_reward = {
 		add_ideas = IRQ_middle_east_economic_union_1	
-		unlock_decision_tooltip = IRQ_invest_in_syria
-		unlock_decision_tooltip = IRQ_invest_in_iran
+		custom_effect_tooltip = IRQ_unlocks_MEEU
 		
 		}
 	}
@@ -1580,7 +1579,7 @@ focus_tree = {
 	
 	focus = {
 		id = IRQ_invite_pan_arab_intellectuals
-		icon = GFX_focus_IRQ_great_iraq 
+		icon = GFX_focus_IRQ_invite_intellectuals
 		x = 0
 		y = 1
 		relative_position_id = IRQ_proclaim_uar
@@ -1660,7 +1659,7 @@ focus_tree = {
 	
 	focus = {
 		id = IRQ_unified_arab_military
-		icon = GFX_focus_IRQ_great_iraq 
+		icon = GFX_focus_IRQ_unified_arab_military 
 		x = -1
 		y = 2
 		relative_position_id = IRQ_proclaim_uar
@@ -2204,10 +2203,10 @@ focus_tree = {
 			else_if = {
 				limit = {has_completed_focus = IRQ_dreams_of_a_united_arab_nation}
 				country_event = {id = irq.27}
-				custom_effect_tooltip = irq_unlocks_decisions_to_invade_arab_nations
 			}
 			add_war_support = 0.30
 			add_stability = 0.30
+			custom_effect_tooltip = irq_unlocks_decisions_to_invade_arab_nations			
 
 		}
 	}

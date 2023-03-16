@@ -1324,7 +1324,7 @@ on_actions = {
 							puppet = SYR
 						}
 						SYR = {
-							remove_ideas = ussr_aligned_nation
+							remove_alignments = yes
 							set_cosmetic_tag = SYR_occupation_zone_puppet
 							transfer_state = 554
 							transfer_state = 677
@@ -1640,7 +1640,7 @@ on_actions = {
 					
 						
 						PAL = {
-							remove_ideas = ussr_aligned_nation
+							remove_alignments = yes
 							set_cosmetic_tag = PAL_integration_zone
 							transfer_state = 920
 							transfer_state = 919
@@ -1704,7 +1704,48 @@ on_actions = {
 						
 						IRQ = {
 							white_peace = ROOT
-							annex_country = { target = SAU }						
+						}
+						
+						if = {
+						limit = {IRQ = {has_completed_focus = IRQ_greater_iraq}}
+							IRQ = {
+								puppet = SAU
+							}
+
+							SAU = {
+								remove_alignments = yes
+								set_cosmetic_tag = SAU_iraq_puppet
+
+								set_popularities = {
+									socialism = 15
+									paternal_autocracy = 70
+									fascism = 15
+								}
+								
+								set_party_name = {
+									ideology = fascism
+									name = baath_party
+									long_name = baath_party_long
+								}
+								
+								set_party_name = {
+									ideology = socialism
+									name = baath_party
+									long_name = baath_party_long
+								}								
+								
+							}
+						}
+						
+						else_if = {
+						limit = {IRQ = {has_completed_focus = IRQ_proclaim_uar}}
+							IRQ = {
+								annex_country = {
+								target = SAU
+								transfer_troops = no
+								}
+							}
+						
 						}
 
 					}
@@ -1723,8 +1764,49 @@ on_actions = {
 						
 						IRQ = {
 							white_peace = ROOT
-							annex_country = { target = EGY }						
-						}	
+						}
+						
+						if = {
+						limit = {IRQ = {has_completed_focus = IRQ_greater_iraq}}
+							IRQ = {
+								puppet = EGY
+							}
+
+							EGY = {
+								remove_alignments = yes
+								set_cosmetic_tag = EGY_iraq_puppet
+								retire_ideology_leader = fascism
+								set_popularities = {
+									socialism = 45
+									democratic = 30
+									fascism = 25
+								}
+								
+								set_party_name = {
+									ideology = fascism
+									name = baath_party
+									long_name = baath_party_long
+								}
+								
+								set_party_name = {
+									ideology = socialism
+									name = baath_party
+									long_name = baath_party_long
+								}								
+								
+							}
+						}
+						
+						else_if = {
+						limit = {IRQ = {has_completed_focus = IRQ_proclaim_uar}}
+							IRQ = {
+								annex_country = {
+								target = EGY
+								transfer_troops = no
+								}
+							}
+						
+						}
 						
 					}
 					
@@ -1744,12 +1826,55 @@ on_actions = {
 						
 						IRQ = {
 							white_peace = ROOT
-							annex_country = { target = YEM }						
-						}	
+						}
+
+						if = {
+						limit = {IRQ = {has_completed_focus = IRQ_greater_iraq}}
+							IRQ = {
+								puppet = YEM
+							}
+
+							YEM = {
+								set_cosmetic_tag = YEM_iraq_puppet
+								retire_ideology_leader = fascism
+								set_popularities = {
+									socialism = 20
+									democratic = 5
+									neutrality = 15
+									liberalism = 15
+									paternal_autocracy = 20
+									fascism = 25
+								}
+								transfer_state = 293
+								transfer_state = 659
+								
+								set_party_name = {
+									ideology = fascism
+									name = baath_party
+									long_name = baath_party_long
+								}
+								
+								set_party_name = {
+									ideology = socialism
+									name = baath_party
+									long_name = baath_party_long
+								}
+								
+							}
+						}
 						
-						IRQ = {
-							white_peace = ROOT
-							annex_country = { target = DYR }						
+						else_if = {
+						limit = {IRQ = {has_completed_focus = IRQ_proclaim_uar}}
+							IRQ = {
+								white_peace = ROOT
+								annex_country = { target = YEM }						
+							}	
+							
+							IRQ = {
+								white_peace = ROOT
+								annex_country = { target = DYR }						
+							}
+						
 						}
 						
 					}
@@ -1768,8 +1893,50 @@ on_actions = {
 						
 						IRQ = {
 							white_peace = ROOT
-							annex_country = { target = OMA }						
 						}	
+						
+						if = {
+						limit = {IRQ = {has_completed_focus = IRQ_greater_iraq}}
+							IRQ = {
+								puppet = OMA
+							}
+
+							OMA = {
+								remove_alignments = yes
+								set_cosmetic_tag = OMA_iraq_puppet
+
+								set_popularities = {
+									socialism = 15
+									fascism = 15
+									paternal_autocracy = 35
+									neutrality = 25
+								}
+								
+								set_party_name = {
+									ideology = fascism
+									name = baath_party
+									long_name = baath_party_long
+								}
+								
+								set_party_name = {
+									ideology = socialism
+									name = baath_party
+									long_name = baath_party_long
+								}
+								
+							}
+						}
+						
+						else_if = {
+						limit = {IRQ = {has_completed_focus = IRQ_proclaim_uar}}
+							IRQ = {
+								annex_country = {
+								target = OMA
+								transfer_troops = no
+								}
+							}
+						
+						}
 						
 					}
 	
@@ -1787,8 +1954,29 @@ on_actions = {
 						
 						IRQ = {
 							white_peace = ROOT
-							annex_country = { target = UAE }						
 						}	
+						
+						if = {
+						limit = {IRQ = {has_completed_focus = IRQ_greater_iraq}}
+						
+							SAU = {
+								annex_country = {
+								target = UAE
+								transfer_troops = no
+								}
+							}
+						}
+						
+						else_if = {
+						limit = {IRQ = {has_completed_focus = IRQ_proclaim_uar}}
+							IRQ = {
+								annex_country = {
+								target = UAE
+								transfer_troops = no
+								}
+							}
+						
+						}
 						
 					}
 	
@@ -1807,8 +1995,29 @@ on_actions = {
 						
 						IRQ = {
 							white_peace = ROOT
-							annex_country = { target = QAT }						
 						}	
+						
+						if = {
+						limit = {IRQ = {has_completed_focus = IRQ_greater_iraq}}
+						
+							SAU = {
+								annex_country = {
+								target = QAT
+								transfer_troops = no
+								}
+							}
+						}
+						
+						else_if = {
+						limit = {IRQ = {has_completed_focus = IRQ_proclaim_uar}}
+							IRQ = {
+								annex_country = {
+								target = QAT
+								transfer_troops = no
+								}
+							}
+						
+						}
 						
 					}
 					
@@ -1826,8 +2035,29 @@ on_actions = {
 						
 						IRQ = {
 							white_peace = ROOT
-							annex_country = { target = BHR }						
 						}	
+						
+						if = {
+						limit = {IRQ = {has_completed_focus = IRQ_greater_iraq}}
+						
+							IRQ = {
+								annex_country = {
+								target = BHR
+								transfer_troops = no
+								}
+							}
+						}
+						
+						else_if = {
+						limit = {IRQ = {has_completed_focus = IRQ_proclaim_uar}}
+							IRQ = {
+								annex_country = {
+								target = BHR
+								transfer_troops = no
+								}
+							}
+						
+						}
 						
 					}
 					

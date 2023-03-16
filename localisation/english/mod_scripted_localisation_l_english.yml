@@ -193,6 +193,7 @@
  IRQ_uar_ty_for_playing:0 "§GUnited Arab Republics, after many struggles has prevailed and united the Arabs upon the new millenium.\n\nThanks for playing Iraq in Red Dusk!§!"
  
  irq_unlocks_decisions_to_invade_arab_nations:0 "§GUnlocks decisions to invade Arab nations"
+ IRQ_unlocks_MEEU:0 "§GUnlocks decisions to invest in our fellow Arab Nations§!"
  
  IRQ_tt_rebuild_navy:0 "§YDecisions to purchase foreign ships will become available§!"
  IRQ_tt_no_embargo_idea:0 "§YFree Trade will become available§!"

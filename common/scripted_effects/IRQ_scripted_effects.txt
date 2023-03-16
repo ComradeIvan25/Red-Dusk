@@ -80,6 +80,70 @@ IRQ_improve_the_economic_union_idea = {
 	}
 }
 
+IRQ_improve_the_economic_union_idea_for_puppets = {
+
+	if = {
+		limit = {
+			NOT = {
+				has_idea = IRQ_middle_east_economic_union_puppet_1
+				has_idea = IRQ_middle_east_economic_union_puppet_2
+				has_idea = IRQ_middle_east_economic_union_puppet_3
+				has_idea = IRQ_middle_east_economic_union_puppet_4
+				has_idea = IRQ_middle_east_economic_union_puppet_5
+				has_idea = IRQ_middle_east_economic_union_puppet_6
+			
+			}
+		}
+		add_ideas = IRQ_middle_east_economic_union_1
+	}
+
+	else_if = {
+		limit = {has_idea = IRQ_middle_east_economic_union_puppet_1}
+		swap_ideas = {
+		remove_idea = IRQ_middle_east_economic_union_puppet_1
+		add_idea = IRQ_middle_east_economic_union_puppet_2
+		}
+	}
+	
+	else_if = {
+		limit = {has_idea = IRQ_middle_east_economic_union_puppet_2}
+		swap_ideas = {
+		remove_idea = IRQ_middle_east_economic_union_puppet_2
+		add_idea = IRQ_middle_east_economic_union_puppet_3
+		}
+	}
+	
+	else_if = {
+		limit = {has_idea = IRQ_middle_east_economic_union_puppet_3}
+		swap_ideas = {
+		remove_idea = IRQ_middle_east_economic_union_puppet_3
+		add_idea = IRQ_middle_east_economic_union_puppet_4
+		}
+	}
+	
+	else_if = {
+		limit = {has_idea = IRQ_middle_east_economic_union_puppet_4}
+		swap_ideas = {
+		remove_idea = IRQ_middle_east_economic_union_puppet_4
+		add_idea = IRQ_middle_east_economic_union_puppet_5
+		}
+	}
+	
+	else_if = {
+		limit = {has_idea = IRQ_middle_east_economic_union_puppet_5}
+		swap_ideas = {
+		remove_idea = IRQ_middle_east_economic_union_puppet_5
+		add_idea = IRQ_middle_east_economic_union_puppet_6
+		}
+	}
+	
+	else_if = {
+		limit = {has_idea = IRQ_middle_east_economic_union_puppet_6}	
+		add_offsite_building = { type = industrial_complex level = 1 }
+
+	}
+}
+
 IRQ_recalc_iraq_nofly_zone_map_frames = {
 
 	if = {

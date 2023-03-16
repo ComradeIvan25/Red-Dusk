@@ -14,5 +14,20 @@ characters = {
 			id = -1
 		}
 	}
+	
+	EGY_baath = { #yup, another party logo leader. im not wasting any more time finding irrelavent leaders for these countries
+		name = "Egypt Ba'ath Party Command"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JOR/jordan_baath.dds"
+			}
+		}
+		country_leader = {
+			ideology = baathist_nationalism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
 
 }

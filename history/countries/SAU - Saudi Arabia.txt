@@ -23,6 +23,7 @@ add_ideas = SAU_oil_producers
 add_ideas = usa_aligned_nation
 
 recruit_character = SAU_fahd
+recruit_character = SAU_baath
 
 set_politics = {
 	ruling_party = paternal_autocracy

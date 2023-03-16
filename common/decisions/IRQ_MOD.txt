@@ -1148,7 +1148,11 @@ irq_category_propaganda_machine = {
 		cost = propaganda_decision_cost_var
 		fire_only_once = no
 		ai_will_do = {
-			factor = 10
+			factor = 1
+			modifier = {
+				check_variable = {irq_propaganda_effect_costs_consumer_goods_var > 0.050}
+				factor = 0
+			} 
 		}
 		days_re_enable = 70
 		
@@ -1192,7 +1196,11 @@ irq_category_propaganda_machine = {
 		cost = propaganda_decision_cost_var
 		fire_only_once = no
 		ai_will_do = {
-			factor = 10
+			factor = 5
+			modifier = {
+				check_variable = {irq_propaganda_effect_costs_consumer_goods_var > 0.050}
+				factor = 10
+			} 
 		}
 		days_re_enable = 50
 		
@@ -1243,7 +1251,11 @@ irq_category_propaganda_machine = {
 		cost = propaganda_decision_cost_var
 		fire_only_once = no
 		ai_will_do = {
-			factor = 0
+			factor = 15
+			modifier = {
+				check_variable = {irq_propaganda_effect_costs_consumer_goods_var > 0.10}
+				factor = 0
+			} 
 		}
 		remove_effect = { 
 		add_to_variable = { irq_propaganda_effect_army_var = 0.02 }
@@ -1289,7 +1301,15 @@ irq_category_propaganda_machine = {
 		cost = propaganda_decision_cost_var
 		fire_only_once = no
 		ai_will_do = {
-			factor = 0
+			factor = 15
+			modifier = {
+				check_variable = {irq_propaganda_effect_costs_consumer_goods_var > 0.10}
+				factor = 0
+			} 
+			modifier = {
+				IRQ = {has_war_with = ISR}
+				factor = 30
+			}
 		}
 		remove_effect = { 
 		add_to_variable = { irq_propaganda_effect_costs_consumer_goods_var = 0.020}
@@ -1331,7 +1351,15 @@ irq_category_propaganda_machine = {
 		cost = propaganda_decision_cost_var
 		fire_only_once = no
 		ai_will_do = {
-			factor = 0
+			factor = 15
+			modifier = {
+				check_variable = {irq_propaganda_effect_costs_consumer_goods_var > 0.10}
+				factor = 0
+			} 
+			modifier = {
+				IRQ = {has_war = yes}
+				factor = 30
+			}
 		}
 		remove_effect = { 
 		add_to_variable = { irq_propaganda_effect_army_var = 0.05 }
@@ -1374,7 +1402,11 @@ irq_category_propaganda_machine = {
 		cost = propaganda_decision_cost_var
 		fire_only_once = no
 		ai_will_do = {
-			factor = 0
+			factor = 15
+			modifier = {
+				check_variable = {irq_propaganda_effect_costs_consumer_goods_var > 0.10}
+				factor = 0
+			} 
 		}
 		remove_effect = { 
 		add_to_variable = { irq_propaganda_effect_army_var = 0.05 }
@@ -1419,7 +1451,11 @@ irq_category_propaganda_machine = {
 		cost = propaganda_decision_cost_var
 		fire_only_once = no
 		ai_will_do = {
-			factor = 0
+			factor = 15
+			modifier = {
+				check_variable = {irq_propaganda_effect_costs_consumer_goods_var > 0.10}
+				factor = 0
+			} 
 		}
 		remove_effect = { 
 		add_to_variable = { irq_propaganda_effect_costs_consumer_goods_var = 0.010}
@@ -1461,7 +1497,11 @@ irq_category_propaganda_machine = {
 		cost = propaganda_decision_cost_var
 		fire_only_once = no
 		ai_will_do = {
-			factor = 0
+			factor = 15
+			modifier = {
+				check_variable = {irq_propaganda_effect_costs_consumer_goods_var > 0.10}
+				factor = 0
+			} 
 		}
 		remove_effect = { 
 		add_to_variable = { irq_propaganda_effect_costs_consumer_goods_var = 0.010}
@@ -1502,7 +1542,11 @@ irq_category_propaganda_machine = {
 		cost = propaganda_decision_cost_var
 		fire_only_once = no
 		ai_will_do = {
-			factor = 0
+			factor = 15
+			modifier = {
+				check_variable = {irq_propaganda_effect_costs_consumer_goods_var > 0.10}
+				factor = 0
+			} 
 		}
 		remove_effect = { 
 		add_to_variable = { irq_propaganda_effect_efficiency_var = 0.050}
@@ -1547,7 +1591,11 @@ irq_category_propaganda_machine = {
 		cost = propaganda_decision_cost_var
 		fire_only_once = no
 		ai_will_do = {
-			factor = 0
+			factor = 15
+			modifier = {
+				check_variable = {irq_propaganda_effect_costs_consumer_goods_var > 0.10}
+				factor = 0
+			} 
 		}
 		remove_effect = { 
 		add_to_variable = { irq_propaganda_effect_political_var = 0.050}
@@ -1590,7 +1638,11 @@ irq_category_propaganda_machine = {
 		cost = propaganda_decision_cost_var
 		fire_only_once = no
 		ai_will_do = {
-			factor = 1
+			factor = 15
+			modifier = {
+				check_variable = {irq_propaganda_effect_costs_consumer_goods_var > 0.10}
+				factor = 0
+			} 
 		}
 		remove_effect = { 
 		add_to_variable = { irq_propaganda_effect_costs_var = -0.020}

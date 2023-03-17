@@ -7,9 +7,12 @@ state={
 	history = {
 		owner = SAU
 		add_core_of = SAU
+		buildings = {
+			infrastructure = 2
+		}
 	}
-	manpower=5000
-	state_category=pastoral
+	manpower=235000
+	state_category=rural
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

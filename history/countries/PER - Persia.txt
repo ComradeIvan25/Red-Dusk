@@ -29,6 +29,8 @@ set_technology = {
 	apc_tank_1960 = 1
 	heli_transport_1960 = 1
 	drone_recon_1980 = 1
+	paratrooper_tech_1960 = 1
+	marine_tech_1960 = 1
 }
 if = {
 	limit = {
@@ -39,7 +41,10 @@ if = {
 	}
 }
 
-set_convoys = 10
+set_convoys = 80
+
+set_research_slots = 3
+
 
 add_ideas = PER_oil_producers
 

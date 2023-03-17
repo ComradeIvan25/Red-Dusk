@@ -50,3 +50,8 @@ set_popularities = {
 }
 
 add_opinion_modifier = { target = ISR modifier = HISTORIC_israel_hostile_40_opinion }
+
+country_event = {
+    id = yemen.1
+    days = 1159 
+}

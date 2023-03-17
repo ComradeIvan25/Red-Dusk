@@ -1,0 +1,38 @@
+add_namespace = yemen
+country_event = {
+	id = yemen.1
+	title = yemen.1.t
+	desc = yemen.1.d
+	picture = GFX_report_event_spark
+	
+	trigger = {
+	original_tag = YEM
+
+	}
+        is_triggered_only = yes
+
+	fire_only_once = yes
+
+		#rip#
+	option = {
+		name = yemen.1.a
+	EGY = {
+		create_faction = "Cairo Pact"
+		EGY = { add_to_faction = DYR }
+	}
+	SAU = {
+		create_faction = "Islamic Military Coalition"
+		SAU = { add_to_faction = YEM }
+	}
+	declare_war_on = {
+		target = DYR
+		type = annex_everything
+	}
+	SAU = {
+		declare_war_on = {
+			target = DYR
+			type = annex_everything
+		}
+	}
+}
+}

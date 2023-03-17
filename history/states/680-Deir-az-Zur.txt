@@ -5,6 +5,10 @@ state={
 	
 	state_category = wasteland
 
+	resources={
+		oil=10
+	}
+
 	history={
 		owner = SYR
 		victory_points = {

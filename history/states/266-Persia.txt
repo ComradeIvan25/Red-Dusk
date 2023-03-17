@@ -6,6 +6,11 @@ state={
 	
 	state_category = city
 
+	resources={
+		steel = 9
+		tungsten = 6
+	}
+
 	history={
 		owner = PER
 		buildings = {
@@ -14,7 +19,7 @@ state={
 			arms_factory = 3
 			air_base = 8
 			10385 ={
-				naval_base = 1
+				naval_base = 3
 			}
 		}
 		victory_points = {

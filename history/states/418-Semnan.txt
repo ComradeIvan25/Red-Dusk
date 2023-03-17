@@ -4,12 +4,19 @@ state={
 	name="STATE_418"
 	manpower = 332362
 	
-	state_category = wasteland
+	state_category = rural
+
+	resources={
+		oil=1
+		steel = 31
+		tungsten = 2
+        aluminium=6
+	}
 
 	history={
 		owner = PER
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
 		victory_points = {
 			8093 1 

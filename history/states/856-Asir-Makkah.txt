@@ -4,22 +4,28 @@ state={
 	provinces={
 		1923 2090 5037 8073 10786 12883 
 	}
+	resources={
+		steel = 7
+	}
+	
 	history = {
 		owner = SAU
 		add_core_of	= SAU
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
 			air_base = 4
 			12883 = {
 				naval_base = 5
 			}
 		}
 		victory_points = {
-			12883 1 
+			12883 5 
 		}
 	}
-	manpower=500000
-	state_category=pastoral
+	manpower=5650000
+	state_category=city
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 

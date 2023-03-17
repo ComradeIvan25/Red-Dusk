@@ -16,7 +16,10 @@ if = {
 	}
 }
 
-set_convoys = 5
+set_convoys = 100
+
+set_research_slots = 3
+
 
 add_ideas = SAU_oil_producers
 

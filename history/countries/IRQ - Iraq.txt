@@ -65,6 +65,9 @@ add_ideas = {
 	extensive_conscription
 }
 
+set_research_slots = 3
+
+
 add_ideas = IRQ_western_embargo_1
 add_ideas = IRQ_kurdish_rebels
 add_ideas = IRQ_broken_army_1

@@ -2497,7 +2497,7 @@
 		y = 3
 		
 		prerequisite = {focus = SOV_yazov_enforce_discipline}
-                availible = {has_country_flag = strict_training}                                  
+                available = {has_country_flag = strict_training}                                  
 		
 		cost = 3
 		ai_will_do = {
@@ -3242,11 +3242,11 @@
 				}
 					
 				else_if = {
-						limit = {
-							has_idea = SOV_old_tactics_new_age
-						}
-						swap_ideas = {
-						add_idea = SOV_Yazov_soviet_army_boomer
+					limit = {
+						has_idea = SOV_old_tactics_new_age
+					}
+					swap_ideas = {
+						add_idea = SOV_Yazov_soviet_army
 						remove_idea = SOV_old_tactics_new_age
 					}
 				}
@@ -3422,12 +3422,12 @@
 
 
 				add_resource = {
- 				  type = aluminum
+ 				  type = aluminium
  				  amount = 25
   				  state = 561
 				}
 				add_resource = {
- 				  type = aluminum
+ 				  type = aluminium
  				  amount = 15
   				  state = 560
 				}
@@ -3703,7 +3703,7 @@
 		
 		available = {}
 		prerequisite = {focus = SOV_expand_mil_cities}
-		prerequisite = {focus = focus = SOV_project_strela}
+		prerequisite = {focus = SOV_project_strela}
 		prerequisite = {focus = SOV_humn}
 
 		mutually_exclusive = { }

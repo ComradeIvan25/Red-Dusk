@@ -381,58 +381,58 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = -0.1
-				add_opinion_modifier = {
-				target = PRC
-				modifier = SOV_export_opinion
-				}
-				add_opinion_modifier = {
-				target = PRC
-				modifier = SOV_export_opinion
-				}
-				add_opinion_modifier = {
-				target = IRQ
-				modifier = SOV_export_opinion
-				}
-				add_opinion_modifier = {
-				target = SYR
-				modifier = SOV_export_opinion
-				}
-				add_opinion_modifier = {
-				target = LYB
-				modifier = SOV_export_opinion
-				}
-				add_opinion_modifier = {
-				target = EGY
-				modifier = SOV_export_opinion
-				}
-				add_opinion_modifier = {
-				target = YUG
-				modifier = SOV_export_opinion
-				}
-				add_opinion_modifier = {
-				target = MON
-				modifier = SOV_export_opinion
-				}
-				add_opinion_modifier = {
-				target = VIN
-				modifier = SOV_export_opinion
-				}
-				add_opinion_modifier = {
-				target = LAO
-				modifier = SOV_export_opinion
-				}
-				add_opinion_modifier = {
-				target = CAM
-				modifier = SOV_export_opinion
-				}
-				add_opinion_modifier = {
-				target = ETH
-				modifier = SOV_export_opinion
-				}
-				add_opinion_modifier = {
-				target = FIN
-				modifier = SOV_export_opinion
-				}			
+				#add_opinion_modifier = {
+				#target = PRC
+				#modifier = SOV_export_opinion
+				#}
+				#add_opinion_modifier = {
+				#target = PRC
+				#modifier = SOV_export_opinion
+				#}
+				#add_opinion_modifier = {
+				#target = IRQ
+				#modifier = SOV_export_opinion
+				#}
+				#add_opinion_modifier = {
+				#target = SYR
+				#modifier = SOV_export_opinion
+				#}
+				#add_opinion_modifier = {
+				#target = LYB
+				#modifier = SOV_export_opinion
+				#}
+				#add_opinion_modifier = {
+				#target = EGY
+				#modifier = SOV_export_opinion
+				#}
+				#add_opinion_modifier = {
+				#target = YUG
+				#modifier = SOV_export_opinion
+				#}
+				#add_opinion_modifier = {
+				#target = MON
+				#modifier = SOV_export_opinion
+				#}
+				#add_opinion_modifier = {
+				#target = VIN
+				#modifier = SOV_export_opinion
+				#}
+				#add_opinion_modifier = {
+				#target = LAO
+				#modifier = SOV_export_opinion
+				#}
+				#add_opinion_modifier = {
+				#target = CAM
+				#modifier = SOV_export_opinion
+				#}
+				#add_opinion_modifier = {
+				#target = ETH
+				#modifier = SOV_export_opinion
+				#}
+				#add_opinion_modifier = {
+				#target = FIN
+				#modifier = SOV_export_opinion
+				#}			
 			}
 
 		}
@@ -2011,11 +2011,11 @@ ideas = {
 
 			modifier = {
 
-				add_doctrine_cost_reduction = {
-					cost_reduction = 0.25
-					uses = 2
-					category = land_doctrine
-				}
+				#add_doctrine_cost_reduction = {
+				#	cost_reduction = 0.25
+				#	uses = 2
+				#	category = land_doctrine
+				#}
 			}
 
 		}
@@ -2034,16 +2034,16 @@ ideas = {
 
 			modifier = {
 
-				add_doctrine_cost_reduction = {
-					cost_reduction = 0.25
-					uses = 2
-					category = land_doctrine
-				}
-				add_tech_bonus = {
-				    bonus = 0.3
-				    uses = 1
-				    category = armor_tech
-				}
+				#add_doctrine_cost_reduction = {
+				#	cost_reduction = 0.25
+				#	uses = 2
+				#	category = land_doctrine
+				#}
+				#add_tech_bonus = {
+				#    bonus = 0.3
+				#    uses = 1
+				#    category = armor_tech
+				#}
 
 			}
 
@@ -2063,16 +2063,16 @@ ideas = {
 
 			modifier = {
 
-				add_doctrine_cost_reduction = {
-					cost_reduction = 0.5
-					uses = 2
-					category = land_doctrine
-				}
-				add_tech_bonus = {
-				    bonus = 0.3
-				    uses = 1
-				    category = armor_tech
-				}
+				#add_doctrine_cost_reduction = {
+				#	cost_reduction = 0.5
+				#	uses = 2
+				#	category = land_doctrine
+				#}
+				#add_tech_bonus = {
+				#    bonus = 0.3
+				#    uses = 1
+				#    category = armor_tech
+				#}
 
 			}
 
@@ -2221,11 +2221,11 @@ ideas = {
 
 			modifier = {
 
-				add_doctrine_cost_reduction = {
-					cost_reduction = 0.25
-					uses = 2
-					category = land_doctrine
-				}
+				#add_doctrine_cost_reduction = {
+				#	cost_reduction = 0.25
+				#	uses = 2
+				#	category = land_doctrine
+				#}
 			}
 
 		}
@@ -2244,16 +2244,16 @@ ideas = {
 
 			modifier = {
 
-				add_doctrine_cost_reduction = {
-					cost_reduction = 0.15
-					uses = 2
-					category = land_doctrine
-				}
-				add_tech_bonus = {
-				    bonus = 0.15
-				    uses = 1
-				    category = armor_tech
-				}
+				#add_doctrine_cost_reduction = {
+				#	cost_reduction = 0.15
+				#	uses = 2
+				#	category = land_doctrine
+				#}
+				#add_tech_bonus = {
+				#    bonus = 0.15
+				#    uses = 1
+				#    category = armor_tech
+				#}
 
 			}
 
@@ -2273,16 +2273,16 @@ ideas = {
 
 			modifier = {
 
-				add_doctrine_cost_reduction = {
-					cost_reduction = 0.35
-					uses = 2
-					category = land_doctrine
-				}
-				add_tech_bonus = {
-				    bonus = 0.25
-				    uses = 1
-				    category = armor_tech
-				}
+				#add_doctrine_cost_reduction = {
+				#	cost_reduction = 0.35
+				#	uses = 2
+				#	category = land_doctrine
+				#}
+				#add_tech_bonus = {
+				#    bonus = 0.25
+				#    uses = 1
+				#    category = armor_tech
+				#}
 
 			}
 
@@ -2302,16 +2302,16 @@ ideas = {
 
 			modifier = {
 
-				add_doctrine_cost_reduction = {
-					cost_reduction = 0.7
-					uses = 2
-					category = land_doctrine
-				}
-				add_tech_bonus = {
-				    bonus = 0.25
-				    uses = 1
-				    category = armor_tech
-				}
+				#add_doctrine_cost_reduction = {
+				#	cost_reduction = 0.7
+				#	uses = 2
+				#	category = land_doctrine
+				#}
+				#add_tech_bonus = {
+				#    bonus = 0.25
+				#    uses = 1
+				#    category = armor_tech
+				#}
 
 			}
 

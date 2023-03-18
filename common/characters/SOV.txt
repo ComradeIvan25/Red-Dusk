@@ -506,23 +506,6 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	SOV_valery_gerasimov = {
-		name = "Valery Gerasimov"
-		portraits = {
-			army = {
-				large = "gfx/leaders/SOV/Valery_Gerasimov.dds"
-			}
-		}
-		corps_commander={
-			traits={ }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=-1
-		}
-	}
 	SOV_anatoly_kvashnin = {
 		name = "Anatoly Kvashnin"
 		portraits = {

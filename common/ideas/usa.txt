@@ -132,7 +132,7 @@ ideas = {
 			#picture =
 
 			allowed = {
-				alwayas = no
+				always = no
 			}
 
 			modifier = {

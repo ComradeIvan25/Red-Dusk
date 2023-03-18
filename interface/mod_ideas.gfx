@@ -40,8 +40,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/SOV_Marshall_Iron_Order.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_SOV_made_in_USSR_icon"
+		texturefile = "gfx/interface/ideas/SOV_made_in_ussr.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_SOV_people_marshall_icon"
 		texturefile = "gfx/interface/ideas/SOV_people_marshall.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_Hum_of_Tanks_icon"
+		texturefile = "gfx/interface/ideas/SOV_hum_of_the_tanks.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_SOV_Corrupt_Officials_in_the_Army_icon"

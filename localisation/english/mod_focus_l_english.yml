@@ -111,6 +111,8 @@
  SOV_orgakov_doctrine_desc:0 ""
  SOV_utilize_old:0 "Utilize the Old Industrial Complexes"
  SOV_utilize_old_desc:0 ""
+ SOV_new_ind_plan:0 "New Industrial Plans"
+ SOV_new_ind_plan_desc:0 ""
  SOV_quality_over_quantity:0 "Quality Over Quantity"
  SOV_quality_over_quantity_desc:0 ""
  SOV_crums:0 "Crumbs for Civlian Sector"

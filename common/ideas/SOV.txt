@@ -36,7 +36,7 @@ ideas = {
 			}
 
 			modifier = {
-				political_power_factor = -0.07
+				political_power_factor = -0.1
 				stability_factor = -0.1
 			}
 
@@ -78,7 +78,7 @@ ideas = {
 				production_speed_buildings_factor = -0.25
 				consumer_goods_factor = 0.1
 				political_advisor_cost_factor = 0.1
-				political_power_factor = -0.08
+				political_power_factor = -0.1
 			}
 
 		}
@@ -330,6 +330,230 @@ ideas = {
                 ###Yazov###
 
 
+		SOV_yazov_tanks  = {
+
+			name = SOV_yazov_tanks_name
+
+			removal_cost = -1
+
+			picture = SOV_Hum_of_Tanks_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			}
+
+			equipment_bonus = {
+			        mbt_tank_equipment = {
+			        instant = yes
+			        build_cost_ic = -0.3 
+			    }
+			}
+
+			equipment_bonus = {
+			        apc_tank_equipment = {
+			        instant = yes
+			        build_cost_ic = -0.2 
+			    }
+			}
+
+			equipment_bonus = {
+			        spaa_tank_equipment = {
+			        instant = yes
+			        build_cost_ic = -0.3 
+			    }
+			}
+		}
+
+		SOV_made_in_ussr  = {
+
+			name = SOV_made_in_ussr_name
+
+			removal_cost = -1
+
+			picture = SOV_made_in_USSR_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.1
+				add_opinion_modifier = {
+				target = PRC
+				modifier = SOV_export_opinion
+				}
+				add_opinion_modifier = {
+				target = PRC
+				modifier = SOV_export_opinion
+				}
+				add_opinion_modifier = {
+				target = IRQ
+				modifier = SOV_export_opinion
+				}
+				add_opinion_modifier = {
+				target = SYR
+				modifier = SOV_export_opinion
+				}
+				add_opinion_modifier = {
+				target = LYB
+				modifier = SOV_export_opinion
+				}
+				add_opinion_modifier = {
+				target = EGY
+				modifier = SOV_export_opinion
+				}
+				add_opinion_modifier = {
+				target = YUG
+				modifier = SOV_export_opinion
+				}
+				add_opinion_modifier = {
+				target = MON
+				modifier = SOV_export_opinion
+				}
+				add_opinion_modifier = {
+				target = VIN
+				modifier = SOV_export_opinion
+				}
+				add_opinion_modifier = {
+				target = LAO
+				modifier = SOV_export_opinion
+				}
+				add_opinion_modifier = {
+				target = CAM
+				modifier = SOV_export_opinion
+				}
+				add_opinion_modifier = {
+				target = ETH
+				modifier = SOV_export_opinion
+				}
+				add_opinion_modifier = {
+				target = FIN
+				modifier = SOV_export_opinion
+				}			
+			}
+
+		}
+
+
+		SOV_stagnating_economy_yazov_rep  = {
+
+			name = SOV_yazov_rep_name
+
+			removal_cost = -1
+
+			picture = SOV_stagnating_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_buildings_factor = -0.1
+				consumer_goods_factor = 0.05
+				political_advisor_cost_factor = 0.1
+				political_power_factor = -0.02
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+				production_factory_max_efficiency_factor = 0.05 
+				stability_factor = 0.05
+			}
+
+		}
+
+		SOV_stagnating_economy_yazov_rep_1  = {
+
+			name = SOV_yazov_rep_name
+
+			removal_cost = -1
+
+			picture = SOV_stagnating_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				consumer_goods_factor = -0.05
+				political_advisor_cost_factor = 0.05
+				political_power_factor = 0.05
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				production_factory_max_efficiency_factor = 0.15 
+				stability_factor = 0.1
+			}
+
+		}
+
+		SOV_stagnating_economy_yazov_rep_2  = {
+
+			name = SOV_yazov_rep_name
+
+			removal_cost = -1
+
+			picture = SOV_stagnating_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_buildings_factor = 0.2
+				consumer_goods_factor = -0.1
+				political_advisor_cost_factor = 0.05
+				political_power_factor = 0.1
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				production_factory_max_efficiency_factor = 0.2
+				stability_factor = 0.1
+			}
+
+		}
+
+		SOV_yazov_ogas = {
+
+			name = SOV_yazov_ogas_name
+
+			removal_cost = -1
+
+			picture = SOV_computerization_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				consumer_goods_factor = 0.05
+				production_factory_max_efficiency_factor = 0.1
+			}
+
+		}
+
+		SOV_yazov_ogas_2 = {
+
+			name = SOV_yazov_ogas_name
+
+			removal_cost = -1
+
+			picture = SOV_computerization_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_buildings_factor = 0.2
+				production_factory_max_efficiency_factor = 0.15
+				consumer_goods_factor = 0.1
+			}
+
+		}
+
+
 		SOV_stagnating_economy_yazov = {
 
 			name = SOV_stagnating_economy_name
@@ -385,6 +609,49 @@ ideas = {
 			modifier = {
 				production_speed_nuclear_reactor_factor = 0.2
 				war_support_factor = 0.1
+			}
+
+		}
+
+		SOV_militarised_industry_romanov_doctrine = {
+
+			name = SOV_militarised_industry_name
+
+			removal_cost = -1
+
+			picture = SOV_militarised_industry_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_industrial_complex_factor = -0.1
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = 0.2
+				industrial_capacity_dockyard = 0.2
+			}
+
+		}
+
+		SOV_militarised_industry_yazov_compromise = {
+
+			name = SOV_militarised_industry_name
+
+			removal_cost = -1
+
+			picture = SOV_militarised_industry_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				stability_factor = -0.05
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.2
+				industrial_capacity_dockyard = 0.2
 			}
 
 		}
@@ -1699,7 +1966,7 @@ ideas = {
 			}
 
 			modifier = {
-				experience_gain_army_factor	= -0.10
+				experience_gain_army_factor = -0.10
 				stability_factor = -0.1
 				army_org_factor = -0.1
 				max_dig_in_factor = -0.05
@@ -1722,12 +1989,334 @@ ideas = {
 			}
 
 			modifier = {
-				army_defence_factor	= 0.1
+				army_defence_factor = 0.1
+				supply_consumption_factor = -0.1
+				land_doctrine_cost_factor = -0.1
 
 			}
 
 		}
-		
+
+		SOV_yazov_mil_research = {
+
+			name = SOV_yazov_mil_research_name
+
+			removal_cost = -1
+
+			picture =  SOV_Soviet_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+
+				add_doctrine_cost_reduction = {
+					cost_reduction = 0.25
+					uses = 2
+					category = land_doctrine
+				}
+			}
+
+		}
+
+		SOV_yazov_mil_research_1 = {
+
+			name = SOV_yazov_mil_research_name
+
+			removal_cost = -1
+
+			picture =  SOV_Soviet_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+
+				add_doctrine_cost_reduction = {
+					cost_reduction = 0.25
+					uses = 2
+					category = land_doctrine
+				}
+				add_tech_bonus = {
+				    bonus = 0.3
+				    uses = 1
+				    category = armor_tech
+				}
+
+			}
+
+		}
+
+		SOV_yazov_mil_research_2 = {
+
+			name = SOV_yazov_mil_research_name
+
+			removal_cost = -1
+
+			picture =  SOV_Soviet_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+
+				add_doctrine_cost_reduction = {
+					cost_reduction = 0.5
+					uses = 2
+					category = land_doctrine
+				}
+				add_tech_bonus = {
+				    bonus = 0.3
+				    uses = 1
+				    category = armor_tech
+				}
+
+			}
+
+		}
+
+
+		SOV_old_tactics_new_age_1 = {
+
+			name = SOV_old_tactics_new_age_name
+
+			removal_cost = -1
+
+			picture =  SOV_Soviet_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_defence_factor = 0.1
+				army_attack_factor = 0.1
+				experience_gain_army_factor = 0.05
+				supply_consumption_factor = -0.15
+				land_doctrine_cost_factor = -0.15
+
+			}
+
+		}
+
+		SOV_old_tactics_new_age_2 = {
+
+			name = SOV_old_tactics_new_age_name
+
+			removal_cost = -1
+
+			picture =  SOV_Soviet_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_defence_factor = 0.1
+				army_attack_factor = 0.1
+				experience_gain_army_factor = 0.1
+				experience_gain_air_factor = 0.1
+				experience_gain_navy_factor = 0.1
+				supply_consumption_factor = -0.15
+				land_doctrine_cost_factor = -0.15
+				training_time_factor = -0.2
+
+			}
+
+		}
+
+		SOV_old_tactics_new_age_3 = {
+
+			name = SOV_old_tactics_new_age_name
+
+			removal_cost = -1
+
+			picture =  SOV_Soviet_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_defence_factor = 0.2
+				army_attack_factor = 0.1
+				experience_gain_army_factor = 0.1
+				experience_gain_air_factor = 0.1
+				experience_gain_navy_factor = 0.1
+				supply_consumption_factor = -0.2
+				land_doctrine_cost_factor = -0.2
+				training_time_factor = -0.3
+
+			}
+
+		}
+
+		SOV_old_tactics_new_age_4 = {
+
+			name = SOV_old_tactics_new_age_name
+
+			removal_cost = -1
+
+			picture =  SOV_Soviet_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_defence_factor = 0.2
+				army_attack_factor = 0.1
+				experience_gain_army_factor = 0.1
+				experience_gain_air_factor = 0.1
+				experience_gain_navy_factor = 0.1
+				supply_consumption_factor = -0.4
+				land_doctrine_cost_factor = -0.2
+				training_time_factor = -0.3
+
+			}
+
+		}
+
+		SOV_old_tactics_new_age_5 = {
+
+			name = SOV_old_tactics_new_age_name
+
+			removal_cost = -1
+
+			picture =  SOV_Soviet_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_defence_factor = 0.3
+				army_attack_factor = 0.15
+				experience_gain_army_factor = 0.15
+				experience_gain_air_factor = 0.15
+				experience_gain_navy_factor = 0.15
+				supply_consumption_factor = -0.5
+				land_doctrine_cost_factor = -0.2
+				training_time_factor = -0.4
+
+			}
+
+		}
+
+
+		SOV_yazov_mil_research_new = {
+
+			name = SOV_yazov_mil_research_name
+
+			removal_cost = -1
+
+			picture =  SOV_Soviet_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+
+				add_doctrine_cost_reduction = {
+					cost_reduction = 0.25
+					uses = 2
+					category = land_doctrine
+				}
+			}
+
+		}
+
+		SOV_yazov_mil_research_new_1 = {
+
+			name = SOV_yazov_mil_research_name
+
+			removal_cost = -1
+
+			picture =  SOV_Soviet_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+
+				add_doctrine_cost_reduction = {
+					cost_reduction = 0.15
+					uses = 2
+					category = land_doctrine
+				}
+				add_tech_bonus = {
+				    bonus = 0.15
+				    uses = 1
+				    category = armor_tech
+				}
+
+			}
+
+		}
+
+		SOV_yazov_mil_research_new_2 = {
+
+			name = SOV_yazov_mil_research_name
+
+			removal_cost = -1
+
+			picture =  SOV_Soviet_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+
+				add_doctrine_cost_reduction = {
+					cost_reduction = 0.35
+					uses = 2
+					category = land_doctrine
+				}
+				add_tech_bonus = {
+				    bonus = 0.25
+				    uses = 1
+				    category = armor_tech
+				}
+
+			}
+
+		}
+
+		SOV_yazov_mil_research_new_3 = {
+
+			name = SOV_yazov_mil_research_name
+
+			removal_cost = -1
+
+			picture =  SOV_Soviet_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+
+				add_doctrine_cost_reduction = {
+					cost_reduction = 0.7
+					uses = 2
+					category = land_doctrine
+				}
+				add_tech_bonus = {
+				    bonus = 0.25
+				    uses = 1
+				    category = armor_tech
+				}
+
+			}
+
+		}
+
 		SOV_new_military_ideas_yazov = {
 
 			name = SOV_new_military_ideas_yazov_name
@@ -1741,11 +2330,121 @@ ideas = {
 			}
 
 			modifier = {
-				army_attack_factor = 0.05
+				army_attack_factor = 0.1
+				supply_consumption_factor = -0.1
+				land_doctrine_cost_factor = -0.1
 
 			}
 
 		}
+
+		SOV_new_military_ideas_yazov_1 = {
+
+			name = SOV_new_military_ideas_yazov_name
+
+			removal_cost = -1
+
+			picture =  SOV_Soviet_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_defence_factor = 0.05
+				army_attack_factor = 0.1
+				experience_gain_army_factor = 0.1
+				experience_gain_air_factor = 0.1
+				experience_gain_navy_factor = 0.1
+				supply_consumption_factor = -0.15
+				land_doctrine_cost_factor = -0.15
+
+			}
+
+		}
+
+		SOV_new_military_ideas_yazov_2 = {
+
+			name = SOV_new_military_ideas_yazov_name
+
+			removal_cost = -1
+
+			picture =  SOV_Soviet_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_defence_factor = 0.1
+				army_attack_factor = 0.2
+				experience_gain_army_factor = 0.15
+				experience_gain_air_factor = 0.1
+				experience_gain_navy_factor = 0.1
+				supply_consumption_factor = -0.2
+				land_doctrine_cost_factor = -0.2
+				training_time_factor = -0.2
+
+			}
+
+		}
+
+		SOV_new_military_ideas_yazov_3 = {
+
+			name = SOV_new_military_ideas_yazov_name
+
+			removal_cost = -1
+
+			picture =  SOV_Soviet_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_defence_factor = 0.05
+				army_attack_factor = 0.3
+				experience_gain_army_factor = 0.15
+				experience_gain_air_factor = 0.15
+				experience_gain_navy_factor = 0.1
+				supply_consumption_factor = -0.5
+				land_doctrine_cost_factor = -0.4
+				training_time_factor = -0.1
+
+			}
+
+		}
+
+
+		SOV_new_military_ideas_yazov_4 = {
+
+			name = SOV_new_military_ideas_yazov_name
+
+			removal_cost = -1
+
+			picture =  SOV_Soviet_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_defence_factor = 0.05
+				army_attack_factor = 0.3
+				experience_gain_army_factor = 0.2
+				experience_gain_air_factor = 0.2
+				experience_gain_navy_factor = 0.15
+				supply_consumption_factor = -0.5
+				land_doctrine_cost_factor = -0.4
+
+			}
+
+		}
+
+
+
+
+
 		
 		SOV_reformed_army_yazov = {
 
@@ -1773,25 +2472,7 @@ ideas = {
 
 		}
 		
-		SOV_Yazov_soviet_army_boomer = {
 
-			name = SOV_Yazov_soviet_army_name
-
-			removal_cost = -1
-
-			picture =  SOV_Soviet_Army_icon
-
-			allowed = {
-				always = no
-			}
-
-			modifier = {
-				army_defence_factor = 0.10
-				army_core_defence_factor = 0.05
-				experience_gain_army_factor = 0.10
-			}
-
-		}
 		
 		SOV_Yazov_soviet_army = {
 

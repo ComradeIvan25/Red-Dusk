@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  SOV_memories_of_perestroika_name:0 "Consequences of Perestroika"
  SOV_memories_of_perestroika_name_desc:0 "Memories and the consequences of Gorbachev's failed economic reforms, so called "Perestroika”, are still strong. Even though it has been more than 10 years, our economy still has not fully recovered. It will take a radical action to get us rid of its failures."
  SOV_memories_of_august_coup_name:0 "Memories of the August Coup"
@@ -19,7 +19,7 @@ l_english:
  SOV_decreased_commodity_production_name_desc:0 ""
  SOV_quantity_over_quality_name:0 "Quantity Over Quality"
  SOV_quantity_over_quality_name_desc:0 ""
-
+ 
  SOV_Marshall_iron_order_name:0 "Marshal's Iron Order"
  SOV_Marshall_iron_order_name_desc:0 "With his Power secured Dmitry Yazov has been rulling the union with a iron fist"
  SOV_marshall_of_the_people_name:0 "Marshal of The People"
@@ -49,7 +49,7 @@ l_english:
  SOV_reformed_army_yazov_name: "Reformed Army"
  SOV_reformed_army_yazov_name_desc:0 "Surprisingly, the Central Command of the Armed Forces has reformed the old Soviet Army with the help of the new battle tactics."
  SOV_Yazov_soviet_army_name:0 "Soviet Army"
- SOV_Yazov_soviet_army_name_desc:0 "The Soviet Armed Forces use the new battle tactics introduced by Comrade Marshal Yazov's military reforms."
+ SOV_Yazov_soviet_army_name_desc:0 "The Soviet Armed Forces use the new battle tactics introduced by Comrade Marshal Yazov's military reforms." 
  SOV_pugo_kgb_name:0 "The KGB Power Struggle"
  SOV_pugo_kgb_name_desc:0 ""
  SOV_pugo_purge_name:0 "Purged Military"
@@ -114,7 +114,17 @@ l_english:
  SOV_increased_KGB_spending_name_desc:0 ""
  SOV_yazov_icbm_economics_name:0 "ICBM Development"
  SOV_yazov_icbm_economics_name_desc:0 ""
-
+ SOV_yazov_rep_name:0 "Revised Economic Policy"
+ SOV_yazov_rep_name_desc:0 "While the Soviet Union needs a strong military industry to protect it from all foreign and internal enemies, it cannot just overlook the needs of its citizens. Decades of Arms Race have taken their toll on the population and while the military spending hasn't been greatly effected, we will continue to work on supporting our civilian sector."
+ SOV_yazov_ogas_name:0 "OGAS Development"
+ SOV_yazov_ogas_name_desc:0 ""
+ SOV_yazov_tanks_name:0 "The Hum of Tanks"
+ SOV_yazov_tanks_name_desc:0 ""
+ SOV_made_in_ussr_name:0 "Made in the USSR"
+ SOV_made_in_ussr_name_desc:0 ""
+ SOV_yazov_mil_research_name:0 "Old Military Theory"
+ SOV_yazov_mil_research_name_desc:0 ""
+ 
  USA_the_constitution_name:0 "The Constitution"
  USA_the_constitution_name_desc:0 "Written and Ratified in 1789 (by most states) the Constitution of the United States and its entailed Bill of Rights is the foremost document that makes America the “Land of the Free” in the World."
  USA_three_party_primacy_name:0 "The Three Party Primacy"
@@ -135,15 +145,15 @@ l_english:
  USA_worker_strikes_name_desc:0 ""
  USA_cold_war:0 "Cold War"
  USA_cold_war_desc:0 "This idea will get modified with each proxy wars we win"
-
+ 
  USA_economic_miracle_name:0 "Economic Miracle"
  USA_economic_miracle_name_desc:0 ""
-
+ 
  USA_patriot_act_name:0 "Patriot Act"
  USA_patriot_act_name_desc:0 "The world around us is a scary place, and the people in it are scarier still; around every corner is a villain, in every shadow is a monster, and among every town, city, county and state of this country, there is someone willing to do us harm from within. We cannot allow them to go unabated; we must act with whatever powers we can to stop them, even if it means giving up a few liberties..."
  USA_the_nsa_name:0 "The NSA"
  USA_the_nsa_name_desc:0 ""
-
+ 
  USA_overhauled_border_security_name:0 "Overhauled Border Security"
  USA_overhauled_border_security_name_desc:0 ""
  USA_overhauled_immigration_laws_name:0 "Overhauled Immigration Laws"
@@ -154,10 +164,10 @@ l_english:
  USA_bush_family_legacy_name_desc:0 "The Bush family has been a political dynasty dating back for quite some time, and have usually held some form of influence and sway over the Republican party in recent history. However, the recent failures of George Bush Sr, and the skepticism behind George Bush Jr., has left the family name somewhat tarnished. If we don’t clean our reputation soon, we may not see another Bush in office..."
  USA_social_soldiering_name:0 "Social Soldiering"
  USA_social_soldiering_name_desc:0 "The Republican party has always prided itself on being a party of social works; a party known for being strongly pro-American, pro-Freedom, and pro-Progress. What the Democrats and the Reformists call “progress” is a barbaric degradation of American values: we cannot tolerate this, and must progress America into retaking those good old fashioned values on which we used to rely!"
-
+ 
  USA_research_reluctancy_name:0 "Research Reluctancy"
  USA_research_reluctancy_name_desc:0 "Military spending is well and good and all, and it’s a wise policy to support our men overseas, but we cannot expect to prevail by inefficiently spending that budget; we need to start reapportioning funds, moving away from research grants and excess, and instead focusing on standardization and modernization."
-
+ 
  PRC_legacy_xiaoping_reform_name:0 "Legacy of Deng Xiaoping's Reforms"
  PRC_legacy_xiaoping_reform_name_desc:0 ""
  PRC_third_taiwan_strait_crisis_idea_name:0 "Third Taiwan Strait Crisis"
@@ -167,7 +177,7 @@ l_english:
 
  CHI_third_taiwan_strait_crisis_idea_name:0 "Third Taiwan Strait Crisis"
  CHI_third_taiwan_strait_crisis_idea_name_desc:0 "Despite multiple serious provications from the People's Republic of China, our government has held firm and withstood their threats. Furthermore, the United States has reasserted its commitment to us, something which should reassure even the most nervous Taiwanese citizen."
-
+ 
  oil_producers_name:0 "Oil Producers"
 
  LAO_undeveloped_infrastructure_name:0 "Undeveloped Infrastructure"
@@ -205,7 +215,7 @@ l_english:
  VIN_socialist_law_state_name:0 "Socialist rule-of-law State"
  VIN_Industrialization_plan_name:0 "Industrialization Plan"
  VIN_socialist_society_name:0 "Toward Socialism Society"
-
+ 
  YUG_demoralized_army_name:0 "Demoralised Army"
  YUG_demoralized_army_name_desc:0 "Yugoslav People's Army has been the main defence force of the SFRY since it's creation at the end of World War 2. However, a lot has changed since our glory days. The military command became corrupt, our equipment outdated and most of our manpower reduced to a small semi-professional force. Not to mention our loss of equipment and manpower during the 1990s."
  YUG_yugoslav_mode_of_socialism_name:0 "Yugoslav Model of Socialism"
@@ -232,15 +242,17 @@ l_english:
  YUG_nationalist_rebirth_name_desc:0 ""
  YUG_rebuilding_what_we_have_idea_name:0 "Rebuilding what we have"
  YUG_rebuilding_what_we_have_idea_name_desc:0 ""
-
+ 
+ YUG_yugoslav_railways:0 "Yugoslav Railways"
+ 
  BOS_indepandance_war_fighter_experience_name:0 "Independence Spirit"
  BOS_indepandance_war_fighter_experience_name_desc:0 "Our nation has been occupied by the Serb majority led "Equal Union" for too long, Bosnia is going to be finally free after so many years and this time we will succeed!"
-
+ 
  KOS_indepandance_war_fighter_experience_name:0 "Independence Spirit"
  KOS_indepandance_war_fighter_experience_name_desc:0 "Our nation has been occupied by the Serb majority led "Equal Union" for too long, Kosovo is going to be finally free after so many years and this time we will succeed!"
  KOS_albania_support_name:0 "Albanian Support"
  KOS_albania_support_name_desc:0 "Kosovo rebels have been funded by the Albanian nation to the south with equipment, machinery, and air support. While the Albanian government mostly denied these allegations, with Kosovo declaring independence from the falling nation of Yugoslavia, Albania has openly declared support for the new nation."
-
+ 
  IRQ_embargo_name:0 "Western Embargo"
  IRQ_embargo_name_desc:0 "After our invasion of Kuwait and the subsequent defeat, western nations such as the USA, UK, and France have imposed an embargo on us. Thus plummeting the already destroyed Iraqi economy further into the ground."
  IRQ_kurds_name:0 "Kurdish Rebels"
@@ -297,7 +309,7 @@ l_english:
  IRQ_desert_camouflage_idea_name:0 "Camouflaged Ground Forces"
  IRQ_desert_camouflage_idea_name_desc:0 "By utilising modern desert camouflage techniques, our ground forces are able to significantly reduce their visibility to enemy aircraft."
  IRQ_kurdish_decision_funding_name:0 "Providing funding to Kurdish territories"
- IRQ_middle_east_economic_union_name:0 "Middle East Economic Union"
+ IRQ_middle_east_economic_union_name:0 "Middle East Economic Union" 
  IRQ_middle_east_economic_union_name_desc:0 ""
  IRQ_modernized_education_name:0 "Modernized Education"
  IRQ_modernized_education_name_desc:0 ""
@@ -319,7 +331,7 @@ l_english:
  SAF_cia_idea_name:0 "CIA Support"
  SAF_cia_idea_name_desc:0 "Even though the United States have refused to support us publicly, their president has authorized CIA to help us in our effort to save our country. Their operatives will provide us with training, weapons, and even intel about the enemy."
  SAF_gas_idea_name:0 "The Forbidden Weapons"
- SAF_gas_idea_name_desc:0 "Chemical weapons have proven themselves to be very effective. Even our troops experienced it during the World War 1. Now that our country is in grave danger from both internal and external enemies, we must use these weapons as our last defence."
+ SAF_gas_idea_name_desc:0 "Chemical weapons have proven themselves to be very effective. Even our troops experienced it during the World War 1. Now that our country is in grave danger from both internal and external enemies, we must use these weapons as our last defence." 
  SAF_money_idea_name:0 "Economic Recovery"
  SAF_money_idea_name_desc:0 ""
  SAF_south_african_mines_inaguration_name:0 "Inaguration of Mines"
@@ -433,10 +445,10 @@ l_english:
 
  CUB_embargo_idea_name:0 "American Blockade"
  CUB_embargo_idea_name_desc:0 ""
-
+ 
  ERI_a_generation_of_warriors_name:0 "A Generation of Warriors"
  ERI_a_generation_of_warriors_name_desc:0 "EPLF has been fighting the Ethiopians for 38 years, a whole generation was raised in a battlefield that is Eritia, not knowing peace these people grew up with war in mind and hatred against Ethiopians, ready to fight them at all costs to kick them out of Eritia."
-
+ 
  ETH_soviet_idea_name:0 "Soviet Support"
  ETH_soviet_idea_name_desc:0 "Ethiopia, being a close ally of Soviet Union in Africa, receives industrial and military aid."
  ETH_operation_weridwali_name:0 "Operation Weridwali"
@@ -448,7 +460,7 @@ l_english:
  MON_communism_idea_name_desc:0 "Despite being one of the first communist countries and the closest ally of the Soviet Union, communism in Mongolia has been fading away into obscurity. While the Communist Party still runs the country, the recent economic and societal changes indicate that even if communism stays in power, people wouldn't care. More and more, Mongolia turns to trade with China and its citizens turn to import of foreign clothes, music, magazines and everything else.\n\nSeems that communism has become nothing more than a meaningless label to just keep good relations with Moscow."
  MON_split_idea_name:0 "Between Two Bears"
  MON_split_idea_name_desc:0 "Mongolia's geographic position has put it in the middle of the power struggle between two communist rivals. The hardline USSR and more reformist PRC. If we wish to keep our country stable and in peace, we must carefully balance the influences of these two giants that border us."
-
+ 
  COG_africas_world_war_name:0 "Africa's World War"
  COG_africas_world_war_name_desc:0 "What started in 1998 as a uprising in Congo has evolved into a full blown contient war claiming millions of lives with countries involving themselves either by directly or politically creating webs of alliances thus even getting the name "Africa's World War"."
  RCD_tensions_name:0 "RCD Tensions"
@@ -460,7 +472,7 @@ l_english:
  UGA_extreme_authoritarianism_name:0 "Extreme Authoritarianism"
  UGA_extreme_authoritarianism_name_desc:0 ""
  UGA_konys_cult_name:0 "Joseph Kony's cult of personality"
- UGA_konys_cult_name_desc:0 "Right after taking power, Joseph Kony wasted no time expending his cult of personality surroundering himself through the entire nation, giving himself the title of "Great Leader of Uganda".A portrait of Kony was required to be in classrooms, churches, government buildings, hospitals, workplaces.His beliefs were being entrenched in the nation's education system, going to churches were made to be required to expand christianity.\n\nWith people opposing these changes or not showing loyalty getting publicly executed day by day, nothing stands in the way of the new cult."
+ UGA_konys_cult_name_desc:0 "Right after taking power, Joseph Kony wasted no time expending his cult of personality surroundering himself through the entire nation, giving himself the title of "Great Leader of Uganda".A portrait of Kony was required to be in classrooms, churches, government buildings, hospitals, workplaces.His beliefs were being entrenched in the nation's education system, going to churches were made to be required to expand christianity.\n\nWith people opposing these changes or not showing loyalty getting publicly executed day by day, nothing stands in the way of the new cult." 
  UGA_an_army_of_criminals_name:0 "An Army of Criminals"
  UGA_an_army_of_criminals_name_desc:0 ""
  UGA_enforced_sharia_name:0 "Forced Sharia Law"
@@ -478,15 +490,15 @@ l_english:
 
  KOR_north_korean_resource_benefits_name:0 "North Korean Resource Benefits"
  KOR_north_korean_resource_benefits_name_desc:0 ""
-
+ 
  CRO_aftermath_of_the_krajina_war_name:0 "Aftermath of the Krajina War"
  CRO_aftermath_of_the_krajina_war_name_desc:0 ""
-
+ 
  PAL_secret_build_up_name:0 "Secret Build-Up"
  PAL_secret_build_up_name_desc:0 ""
  PAL_second_intifada_name:0 "Second Intifada"
  PAL_second_intifada_name_desc:0 ""
-
+ 
  ISR_zionist_volunteers_name:0 "Zionist Volunteers"
  ISR_zionist_volunteers_name_desc:0 ""
  ISR_political_instability_name:0 "Political Instability"
@@ -494,27 +506,27 @@ l_english:
 
  FIN_neutrality_name:0 "Finnish Neutraliy"
  FIN_neutrality_name_desc:0 ""
-
+ 
  NEP_communist_insurgency_idea_name:0 "Communist Insurgency"
  NEP_royal_autocracy_idea_name:0 "Rising Royal Autocracy"
-
+ 
  SOM_somalian_civil_war_name:0 "Somalian Anarchy"
  SOM_somalian_civil_war_name_desc:0 "Somalia has been in a state of anarchy, civil war, and violance after collapse of Barre's forces which had united multiple rebels against him. Shortly after his defeat rebel groups' differences with each other made it impossible for a central government to unify the nation.\n\nThis caused Somalia to devolve into a lawless anarchistic state with hundreds of rebel groups with different plans for Somalia fighting each other with no end in sight. \n\n§RPeace has become a long forgotten word in the lawless lands of Somalia.§!"
-
+ 
  BUR_internal_conflict_idea_name:0 "Not So United Union"
-
+ 
  JAP_article_9_name:0 "Article 9"
-
+ 
  KOR_usa_embargo_name:0 "Embargo"
  KOR_songun_name:0 "Songun"
-
+ 
  AFG_hardened_fighters_name:0 "Hardened Fighters"
  AFG_hardened_fighters_name_desc:0 "The standing army of the Taliban is one of hardened fighters, forged through years of conflict and struggle derived from the war with the Soviets and the ensuing civil wars. These soldiers are tough, resilient, and unyielding in the face of adversity. They have a fierce determination to succeed, and will stop at nothing to achieve their goals. Whether on the battlefield or in the political arena, they are always ready to stand up for their beliefs and defend their country. This ethos of perseverance and strength is a defining characteristic of this nation, and it is what has allowed them to survive and thrive in the face of countless challenges. "
  AFG_islamic_fanaticism_name:0 "Islamic Fanaticism"
  AFG_islamic_fanaticism_name_desc:0 "The Taliban is vehemently committed to a strict interpretation of Sharia law, and its government has resolved to enforce that interpretation using brutal methodology, including intimidation and violence, to get its ways. This interpretation of Sharia law involves the imposition of various rules on women and children, going so far as to require full-body covering, burqa wearing at all times and denying them access to education or employment. Their devotion toward Islam has led to multiple accusations about employment of child soldiers and violations of the rights of numerous groups in the country."
  NRO_taliban_insurgency_name:0 "Taliban Insurgency"
  NRO_taliban_insurgency_name_desc:0 "Since the victory of the Northern Alliance against the Taliban, the remaining Taliban forces that didnt surrender retreated into rural areas and have been waging an insurgency against the new Afghanistan government. The insurgency is causing extreme instability in Afghanistan with the renewed fighting causing many issues to the rebuilding process."
-
+ 
  east_europe_eastern_threat_name:0 "Eastern Threat"
  east_europe_eastern_threat_name_desc:0 "Ever since the dissolution of the Warsaw Pact, the former east european members that broke away after overthrowing their communist governments had been facing violent threats from Moscow with every attempt at distancing their country from the sphere of Soviet Union and trying to join its sworn enemy, the United States."
  east_europe_privatization_name:0 "Mass Privatization"
@@ -523,10 +535,10 @@ l_english:
  ROM_betrayed_revolution_name:0 "A Revolution, Betrayed"
  ROM_betrayed_revolution_name_desc:0 "The Romanian revolution of 1989 brought the end to not only communism in Romania but to Caucescu's reign too. However, a decade later we still can't say that things have changed for the better. Industry and infrastructure have either not improved at all or have worsened even more, all the while former Caucescu government personel still hold power in Romania but under a new slogan and banner.\n\nSome have even begun questioning if all of this was worth it at all..."
  ##cold war##
-
+ 
  cold_war_soviet_offensive_name:0 "Soviet Offensive"
  cold_war_soviet_offensive_name_desc:0 "The Soviet officials in this country ordered an offensive to be commenced in the region"
-
+ 
  cold_war_increased_volunteers_name:0 "Increased Volunteers"
  cold_war_increased_volunteers_name_desc:0 ""
 

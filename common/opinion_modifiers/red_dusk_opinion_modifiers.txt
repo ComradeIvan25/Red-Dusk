@@ -71,6 +71,11 @@ opinion_modifiers = {
 		value = 10
 	}
 
+	SOV_export_opinion = {
+		trade = yes
+		value = 25
+	}
+
 	YUG_cut_contacts = {
 		value = -25
 	}

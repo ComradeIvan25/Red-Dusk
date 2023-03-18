@@ -104,24 +104,24 @@ l_english:
  irq_stability_mission_tt:0 "Our §5Overall Stability§! changes by §Y[?irq_uar_stability_monthly_variable]%§!."
  irq_centralization_mission_tt:0 "Our §tCentralization Progress§! changes by §Y[?irq_centralization_progress_monthly_variable]%§!."
 
- irq_centralization_progress_decreased_by_25:0 "Our Monthly §tCentralization Progress§! §Rdecreases§! by §Y0.25%§!."
+ irq_centralization_progress_decreased_by_25:0 "Our Monthly §tCentralization Progress§! §Rdecreases§! by §Y0.25%§!." 
 
- irq_centralization_monthly_increased_by_025:0 "Our Monthly §tCentralization Progress§! §Gincreases§! by §Y0.25%§!."
- irq_centralization_monthly_increased_by_05:0 "Our Monthly §tCentralization Progress§! §Gincreases§! by §Y0.5%§!."
- irq_centralization_monthly_increased_by_1:0 "Our Monthly §tCentralization Progress§! §Gincreases§! by §Y1%§!."
- irq_centralization_monthly_increased_by_2:0 "Our Monthly §tCentralization Progress§! §Gincreases§! by §Y2%§!."
-
- irq_centralization_monthly_decreased_by_5:0 "Our Monthly §tCentralization Progress§! §Rdecreases§! by §Y5%§!."
-
- irq_stability_monthly_increased_by_25:0 "Our Monthly §5Overall Stability§! §Gincreases§! by §Y2.5%§!."
- irq_stability_monthly_increased_by_5:0 "Our Monthly §5Overall Stability§! §Gincreases§! by §Y5%§!."
-
- irq_stability_monthly_decreased_by_25:0 "Our Monthly §5Overall Stability§! §Rdecreases§! by §Y2.5%§!."
- irq_stability_monthly_decreased_by_5:0 "Our Monthly §5Overall Stability§! §Rdecreases§! by §Y5%§!."
+ irq_centralization_monthly_increased_by_025:0 "Our Monthly §tCentralization Progress§! §Gincreases§! by §Y0.25%§!." 
+ irq_centralization_monthly_increased_by_05:0 "Our Monthly §tCentralization Progress§! §Gincreases§! by §Y0.5%§!." 
+ irq_centralization_monthly_increased_by_1:0 "Our Monthly §tCentralization Progress§! §Gincreases§! by §Y1%§!." 
+ irq_centralization_monthly_increased_by_2:0 "Our Monthly §tCentralization Progress§! §Gincreases§! by §Y2%§!." 
+ 
+ irq_centralization_monthly_decreased_by_5:0 "Our Monthly §tCentralization Progress§! §Rdecreases§! by §Y5%§!." 
+ 
+ irq_stability_monthly_increased_by_25:0 "Our Monthly §5Overall Stability§! §Gincreases§! by §Y2.5%§!." 
+ irq_stability_monthly_increased_by_5:0 "Our Monthly §5Overall Stability§! §Gincreases§! by §Y5%§!." 
+ 
+ irq_stability_monthly_decreased_by_25:0 "Our Monthly §5Overall Stability§! §Rdecreases§! by §Y2.5%§!." 
+ irq_stability_monthly_decreased_by_5:0 "Our Monthly §5Overall Stability§! §Rdecreases§! by §Y5%§!." 
  irq_stability_monthly_decreased_by_75:0 "Our Monthly §5Overall Stability§! §Rdecreases§! by §Y7.5%§!."
-
+ 
  irq_stability_increased_by_65:0 "Our §5Overall Stability§! §Gincreases§! by §Y65%§!."
-
+ 
  IRQ_sanctions_done:0 "§YHas 'dealt' with our economic problems§!\n"
  IRQ_kurds_done:0 "§YHas dealt with the Kurdish rebels§!\n"
  IRQ_army_done:0 "§YHas dealt with our army problems§!\n"

@@ -183,5 +183,259 @@ defined_text = {
 		}
 		localization_key = USA_bush_visiting_armenia_focus_armenia_alive_loc_key
 	}
-
+}
+defined_text = {
+	name = USA_pop_support_percantage
+	text = {
+		trigger = {
+			check_variable = { USA_pop_support_variable < 2 }
+		}
+		localization_key = USA_loc_key_lower_then_25
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					check_variable = { USA_pop_support_variable > 2 }
+					check_variable = { USA_pop_support_variable < 3 }
+				}
+				check_variable = { USA_pop_support_variable = 2 }
+			}
+		}
+		localization_key = USA_loc_key_between_25_50
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					check_variable = { USA_pop_support_variable > 3 }
+					check_variable = { USA_pop_support_variable < 4 }
+				}
+				check_variable = { USA_pop_support_variable = 3 }
+			}
+		}
+		localization_key = USA_loc_key_between_50_75
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					check_variable = { USA_pop_support_variable > 4 }
+					check_variable = { USA_pop_support_variable < 5 }
+				}
+				check_variable = { USA_pop_support_variable = 4 }
+			}
+		}
+		localization_key = USA_loc_key_between_75_100
+	}
+	text = {
+		trigger = {
+			check_variable = { USA_pop_support_variable = 5 }
+		}
+		localization_key = USA_loc_key_100
+	}
+}
+defined_text = {
+	name = USA_warhawk_support_percantage
+	text = {
+		trigger = {
+			check_variable = { warhawk_support_variable < 2 }
+		}
+		localization_key = USA_loc_key_lower_then_25
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					check_variable = { warhawk_support_variable > 2 }
+					check_variable = { warhawk_support_variable < 3 }
+				}
+				check_variable = { warhawk_support_variable = 2 }
+			}
+		}
+		localization_key = IRQ_loc_key_between_25_50
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					check_variable = { warhawk_support_variable > 3 }
+					check_variable = { warhawk_support_variable < 4 }
+				}
+				check_variable = { warhawk_support_variable = 3 }
+			}
+		}
+		localization_key = USA_loc_key_between_50_75
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					check_variable = { warhawk_support_variable > 4 }
+					check_variable = { warhawk_support_variable < 5 }
+				}
+				check_variable = { warhawk_support_variable = 4 }
+			}
+		}
+		localization_key = USA_loc_key_between_75_100
+	}
+	text = {
+		trigger = {
+			check_variable = { warhawk_support_variable = 5 }
+		}
+		localization_key = USA_loc_key_100
+	}
+}
+defined_text = {
+	name = USA_WS_support_percantage
+	text = {
+		trigger = {
+			check_variable = { kurd_resistance_variable < 2 }
+		}
+		localization_key = USA_loc_key_lower_then_25
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					check_variable = { kurd_resistance_variable > 2 }
+					check_variable = { kurd_resistance_variable < 3 }
+				}
+				check_variable = { kurd_resistance_variable = 2 }
+			}
+		}
+		localization_key = USA_loc_key_between_25_50
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					check_variable = { kurd_resistance_variable > 3 }
+					check_variable = { kurd_resistance_variable < 4 }
+				}
+				check_variable = { kurd_resistance_variable = 3 }
+			}
+		}
+		localization_key = USA_loc_key_between_50_75
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					check_variable = { kurd_resistance_variable > 4 }
+					check_variable = { kurd_resistance_variable < 5 }
+				}
+				check_variable = { kurd_resistance_variable = 4 }
+			}
+		}
+		localization_key = USA_loc_key_between_75_100
+	}
+	text = {
+		trigger = {
+			check_variable = { kurd_resistance_variable = 5 }
+		}
+		localization_key = USA_loc_key_100
+	}
+}
+defined_text = {
+	name = USA_hrg_resistance_percantage
+	text = {
+		trigger = {
+			check_variable = { HRG_resistance_variable < 2 }
+		}
+		localization_key = USA_loc_key_lower_then_25
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					check_variable = { HRG_resistance_variable > 2 }
+					check_variable = { HRG_resistance_variable < 3 }
+				}
+				check_variable = { HRG_resistance_variable = 2 }
+			}
+		}
+		localization_key = USA_loc_key_between_25_50
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					check_variable = { HRG_resistance_variable > 3 }
+					check_variable = { HRG_resistance_variable < 4 }
+				}
+				check_variable = { HRG_resistance_variable = 3 }
+			}
+		}
+		localization_key = USA_loc_key_between_50_75
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					check_variable = { HRG_resistance_variable > 4 }
+					check_variable = { HRG_resistance_variable < 5 }
+				}
+				check_variable = { HRG_resistance_variable = 4 }
+			}
+		}
+		localization_key = USA_loc_key_between_75_100
+	}
+	text = {
+		trigger = {
+			check_variable = { HRG_resistance_variable = 5 }
+		}
+		localization_key = USA_loc_key_100
+	}
+}
+defined_text = {
+	name = USA_mic_support
+	text = {
+		trigger = {
+			check_variable = { mic_support_variable < 2 }
+		}
+		localization_key = USA_loc_key_lower_then_25
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					check_variable = { mic_support_variable > 2 }
+					check_variable = { mic_support_variable < 3 }
+				}
+				check_variable = { mic_support_variable = 2 }
+			}
+		}
+		localization_key = USA_loc_key_between_25_50
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					check_variable = { mic_support_variable > 3 }
+					check_variable = { mic_support_variable < 4 }
+				}
+				check_variable = { mic_support_variable = 3 }
+			}
+		}
+		localization_key = USA_loc_key_between_50_75
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					check_variable = { mic_support_variable > 4 }
+					check_variable = { mic_support_variable < 5 }
+				}
+				check_variable = { mic_support_variable = 4 }
+			}
+		}
+		localization_key = USA_loc_key_between_75_100
+	}
+	text = {
+		trigger = {
+			check_variable = { mic_support_variable = 5 }
+		}
+		localization_key = USA_loc_key_100
+	}
 }

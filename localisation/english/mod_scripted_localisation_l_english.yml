@@ -1,4 +1,4 @@
-﻿l_english:          
+l_english:          
  USA_misdirected_foreign_policy_tooltip:0 "£trigger_no Can not declare war\n£trigger_no Can not send volunteers\n§RThis has an impact on our foreign relations§!"
  USA_misdirected_foreign_policy_tooltip_2:0 "£trigger_no Can not declare war\n§RThis has an impact on our foreign relations§!"
  soviet_purge_tooltip:0 "§RUnlocks Decisions To Purge The Enemies Of Our Union§!"
@@ -39,20 +39,20 @@
  ##PUGO TREE##
 
  economy_for_pugo_tooltip:0 "§GWe are now ready to deal with our Economy\n\n§!"
- 
+
  #PUGO POLICY#
 
  pugos_policies_udaltsov_influence_increase:0 "§GUdaltsov's influence will increase§!"
  pugos_policies_zyuganov_influence_increase:0 "§GZyuganov's influence will increase§!"
- 
+
  pugos_policies_tt_political_power_decrease:0 "§RPolitical power gain will decrease§!"
  pugos_policies_tt_political_power_increase:0 "§GPolitical power gain will increase§!"
- 
+
  pugos_policies_tt_stability_decrease:0 "§RStability will decrease§!"
  pugos_policies_tt_stability_increase:0 "§GStability will increase§!"
- 
+
  ##PUGO POWER STRUGGLE##
- 
+
  pugo_power_struggle_ended:0 "§GThe Power Struggle has reached a conclusion.§!"
  pugo_power_struggle_ended_tt:0 "§GThe Power Struggle has reached a conclusion.§!"
  pugo_needs_500_support_tt:0 "§RBoris Pugo§! §Yhas 500 power.§!"
@@ -61,101 +61,101 @@
  pugo_gains_20_power_tt:0 "§RBoris Pugo§! §Ggains 20 power.§!"
  pugo_gains_15_power_tt:0 "§RBoris Pugo§! §Ggains 15 power.§!"
  pugo_gains_10_power_tt:0 "§RBoris Pugo§! §Ggains 10 power.§!"
- 
+
  putin_gains_15_power_tt:0 "§gVladimir Putin§! §Rgains 15 power§!"
  putin_loses_25_power_tt:0 "§gVladimir Putin§! §Gloses 25 power§!"
  #IRAQ#
- 
+
  fixed_army:0 "§YSolved The Army's Issues§!\n"
  irq_army_fix_1:0 "§YHas Reused Equipment§!\n"
  irq_army_fix_2:0 "§YHas Fixed Equipment§!\n"
  irq_army_fix_3:0 "§YHas Rebuilt The Military Assets§!\n"
  irq_army_fix_4:0 "§YHas Researched New Military Doctrines§!\n"
- 
+
  irq_kurd_resistance_decrases_small:0 "§GOur Progress Increases by a Small Amount§!\n\n"
  irq_kurd_resistance_decrases_med:0 "§GOur Progress Increases by a Medium Amount§!\n\n"
  irq_kurd_resistance_decrases_big:0 "§GOur Progress Increases by a Big Amount§!\n\n"
- 
+
  irq_kurd_resistance_incrases_mid:0 "§ROur Progress Decrases by a Medium Amount§!\n"
- 
+
  kurd_progress_bar_explanation_loc:0 "Our Progress On Eliminating \n\nThe Kurdish Resistance"
- 
+
  irq_you_can_now_do_military_stuff:0 "§GWe can now use direct military force for other operations§!\n\n"
  irq_started_direct_military_operations:0 "§YHas Started Direct Military Operations§!\n\n"
- 
+
  nothing:0 ""
- 
+
  IRQ_loc_key_lower_then_25:0 "Estimated Lower Than 25%"
  IRQ_loc_key_between_25_50:0 "Estimated Between 25% - 50%"
  IRQ_loc_key_between_50_75:0 "Estimated Between 50% - 75%"
  IRQ_loc_key_between_75_100:0 "Estimated Between 75% - 100%"
  IRQ_loc_key_100:0 "100%"
- 
+
  management_of_the_uar_loc:0 "Management of United Arab Republics"
- 
+
  irq_a_new_state:0 "A New State"
- 
+
  IRQ_uar_stability_percantage_explanation:0 "United Arab Republics' §5Overall Stability§! is §Y[?irq_uar_stability_variable]%§!.\n\nOur §5Stability§! changes by §Y[?irq_uar_stability_monthly_variable]%§! every month."
  IRQ_centralization_percantage_explanation:0 "§tCentralization Progress§! is §Y[?irq_centralization_progress_variable]%§! complete.\n\nOur Monthly §tProgress§! is §Y[?irq_centralization_progress_monthly_variable]%§!."
- 
+
  irq_uar_stability_tt:0 "This is an estimation of §5stability§! our states have at the moment, this might be influenced by different events.\n\nHaving §Rlow§! §5stability§! will cause terrorist attacks and higher resistance."
  irq_uar_centralization_tt:0 "With unification of arab nations that had been disunited for so long we need to §tcentralize§! the new state and connect the new acquired states to Baghdad, which will improve the efficiency of our governance and unity of the state."
- 
+
  irq_stability_mission_tt:0 "Our §5Overall Stability§! changes by §Y[?irq_uar_stability_monthly_variable]%§!."
  irq_centralization_mission_tt:0 "Our §tCentralization Progress§! changes by §Y[?irq_centralization_progress_monthly_variable]%§!."
 
- irq_centralization_progress_decreased_by_25:0 "Our Monthly §tCentralization Progress§! §Rdecreases§! by §Y0.25%§!." 
+ irq_centralization_progress_decreased_by_25:0 "Our Monthly §tCentralization Progress§! §Rdecreases§! by §Y0.25%§!."
 
- irq_centralization_monthly_increased_by_025:0 "Our Monthly §tCentralization Progress§! §Gincreases§! by §Y0.25%§!." 
- irq_centralization_monthly_increased_by_05:0 "Our Monthly §tCentralization Progress§! §Gincreases§! by §Y0.5%§!." 
- irq_centralization_monthly_increased_by_1:0 "Our Monthly §tCentralization Progress§! §Gincreases§! by §Y1%§!." 
- irq_centralization_monthly_increased_by_2:0 "Our Monthly §tCentralization Progress§! §Gincreases§! by §Y2%§!." 
- 
- irq_centralization_monthly_decreased_by_5:0 "Our Monthly §tCentralization Progress§! §Rdecreases§! by §Y5%§!." 
- 
- irq_stability_monthly_increased_by_25:0 "Our Monthly §5Overall Stability§! §Gincreases§! by §Y2.5%§!." 
- irq_stability_monthly_increased_by_5:0 "Our Monthly §5Overall Stability§! §Gincreases§! by §Y5%§!." 
- 
- irq_stability_monthly_decreased_by_25:0 "Our Monthly §5Overall Stability§! §Rdecreases§! by §Y2.5%§!." 
- irq_stability_monthly_decreased_by_5:0 "Our Monthly §5Overall Stability§! §Rdecreases§! by §Y5%§!." 
+ irq_centralization_monthly_increased_by_025:0 "Our Monthly §tCentralization Progress§! §Gincreases§! by §Y0.25%§!."
+ irq_centralization_monthly_increased_by_05:0 "Our Monthly §tCentralization Progress§! §Gincreases§! by §Y0.5%§!."
+ irq_centralization_monthly_increased_by_1:0 "Our Monthly §tCentralization Progress§! §Gincreases§! by §Y1%§!."
+ irq_centralization_monthly_increased_by_2:0 "Our Monthly §tCentralization Progress§! §Gincreases§! by §Y2%§!."
+
+ irq_centralization_monthly_decreased_by_5:0 "Our Monthly §tCentralization Progress§! §Rdecreases§! by §Y5%§!."
+
+ irq_stability_monthly_increased_by_25:0 "Our Monthly §5Overall Stability§! §Gincreases§! by §Y2.5%§!."
+ irq_stability_monthly_increased_by_5:0 "Our Monthly §5Overall Stability§! §Gincreases§! by §Y5%§!."
+
+ irq_stability_monthly_decreased_by_25:0 "Our Monthly §5Overall Stability§! §Rdecreases§! by §Y2.5%§!."
+ irq_stability_monthly_decreased_by_5:0 "Our Monthly §5Overall Stability§! §Rdecreases§! by §Y5%§!."
  irq_stability_monthly_decreased_by_75:0 "Our Monthly §5Overall Stability§! §Rdecreases§! by §Y7.5%§!."
- 
+
  irq_stability_increased_by_65:0 "Our §5Overall Stability§! §Gincreases§! by §Y65%§!."
- 
+
  IRQ_sanctions_done:0 "§YHas 'dealt' with our economic problems§!\n"
  IRQ_kurds_done:0 "§YHas dealt with the Kurdish rebels§!\n"
  IRQ_army_done:0 "§YHas dealt with our army problems§!\n"
- 
+
  IRQ_kurd_resistance_bar_is_100:0 "§YProgress Aganist the Kurdish Resistance is 100§!\n\n"
- 
+
  irq_running_propaganda:0 "§YCurrently Running a Propaganda§!."
- 
+
  irq_propaganda_political_buffed_by_5_per:0 "§GThe Effects of political Power gain and drift defence will increase by §Y5%§!."
  irq_propaganda_efficiency_buffed_by_5_per:0 "§GThe Effects of War Support , Stability and Military Factory construction speed will increase by §Y5%§!."
  irq_propaganda_army_buffed_by_2_per:0 "§GThe Effects of Recovery Rate, Division Attack and Defence will increase by §Y2%§!."
  irq_propaganda_army_buffed_by_5_per:0 "§GThe Effects of Recovery Rate, Division Attack and Defence will increase by §Y5%§!."
- 
+
  irq_propaganda_political_nerfed_by_5_per:0 "§RThe Effects of political Power gain and drift defence will decrease by §Y5%§!."
  irq_propaganda_efficiency_nerfed_by_5_per:0 "§RThe Effects of War Support , Stability and Military Factory construction speed will decrease by §Y5%§!."
  irq_propaganda_army_nerfed_by_5_per:0 "§RThe Effects of Recovery Rate, Division Attack and Defence will decrease by §Y5%§!."
- 
+
  irq_propaganda_factory_output_costs_increase_by_5_per:0 "§RThe Propaganda Costs Increase, Causing us to lose §Y5%§! factory output.§!"
  irq_propaganda_factory_output_costs_increase_by_2_per:0 "§RThe Propaganda Costs Increase, Causing us to lose §Y2%§! factory output.§!"
  irq_propaganda_factory_output_costs_increase_by_1_per:0 "§RThe Propaganda Costs Increase, Causing us to lose §Y1%§! factory output.§!"
  irq_propaganda_consumer_good_costs_increase_by_5_per:0 "§RThe Propaganda Costs Increase, Causing us to gain §Y5%§! consumer goods.§!"
  irq_propaganda_consumer_good_costs_increase_by_2_per:0 "§RThe Propaganda Costs Increase, Causing us to gain §Y2%§! consumer goods.§!"
  irq_propaganda_consumer_good_costs_increase_by_1_per:0 "§RThe Propaganda Costs Increase, Causing us to gain §Y1%§! consumer goods.§!"
- 
+
  irq_propaganda_consumer_good_costs_decrease_by_5_per:0 "§GThe Propaganda Costs Decrease, Causing us to lose §Y5%§! consumer goods.§!"
  irq_propaganda_factory_output_costs_decrease_by_5_per:0 "§GThe Propaganda Costs Decrease, Causing us to gain §Y5%§! factory output.§!"
- 
+
  propaganda_decision_cost_decreases_by_5:0 "Cost of the Propaganda Decisions §Gdecreases§! by §Y5§!."
  propaganda_decision_cost_decreases_by_15:0 "Cost of the Propaganda Decisions §Gdecreases§! by §Y15§!."
- 
+
  propaganda_decision_cost_increases_by_10:0 "Cost of the Propaganda Decisions §Rincreases§! by §Y10§!."
- 
+
  irq_trait_modify_chem_ali:0 "Modifies the trait of §Y"Ali Hassan Al-Majid"§! by\n-Resistance Target: §G-15%§!\n-Daily Compliance Gain: §R-15%§!"
- 
+
  hikmat_mizban_ibrahim:0 "§YHikmat Mizban Ibrahim§!"
 
  IRQ_loc_key_power_very_high:0 "§RVery High§!"
@@ -177,24 +177,24 @@
  IRQ_loc_key_nofly_zone_airpsace_0:0 "§RLost§!"
  IRQ_loc_key_nofly_zone_airpsace_1:0 "§YContested§!"
  IRQ_loc_key_nofly_zone_airpsace_2:0 "§GSafe§!"
- 
+
  IRQ_modernization_plans:0 "Modernization Plans"
- 
+
  irq_new_pan_arabism:0 "New Pan Arabism"
  irq_improved_oil_drills:0 "§YImproved the Oil Drills§!"
  irq_applied_new_techniques:0 "§YApplied New Techniques to the Oil System§!"
- 
+
  irq_we_will_attack_leb:0 "§RWe will attack Lebanon.§!"
  irq_we_will_attack_jor:0 "§RWe will attack Jordan.§!"
 
  irq_nuke:0 "§RWe will test our first nuclear bomb§!"
- 
+
  IRQ_greater_iraq_ty_for_playing:0 "§RGreater Iraq, after many struggles has prevailed and intoduced a new approach to Pan Arabism.\n\nThanks for playing Iraq in Red Dusk!§!"
  IRQ_uar_ty_for_playing:0 "§GUnited Arab Republics, after many struggles has prevailed and united the Arabs upon the new millenium.\n\nThanks for playing Iraq in Red Dusk!§!"
- 
+
  irq_unlocks_decisions_to_invade_arab_nations:0 "§GUnlocks decisions to invade Arab nations"
  IRQ_unlocks_MEEU:0 "§GUnlocks decisions to invest in our fellow Arab Nations§!"
- 
+
  IRQ_tt_rebuild_navy:0 "§YDecisions to purchase foreign ships will become available§!"
  IRQ_tt_no_embargo_idea:0 "§YFree Trade will become available§!"
  IRQ_tt_exploit_internal_divisions:0 "§YDecisions to influence Kurdish factions will become available§!"
@@ -208,12 +208,12 @@
 
  custom_trigger_tt_irq_no-fly_zone_success:0 "§YContest no-fly zone mission has been successfully completed§!"
  custom_trigger_tt_irq_no-fly_zone_failed:0 "§YContest no-fly zone mission has not been successfully completed§!"
- 
+
  #YUGOSLAVIA#
- 
+
  YUG_open_new_factories_flag:0 "§YHas Choosen to open new factories\n\n§!"
  YUG_rebuilding_our_industry_flag:0 "§YHas Choosen to rebuild our industry\n\n§!"
- 
+
  YUG_economy_time:0 "§GWe Can Now Focus On Fixing Our Economy\n\n§!"
  YUG_can_deal_with_economy:0 "§GWe Can Now Focus On Fixing Our Economy\n\n§!"
  YUG_military_time:0 "§GWe Can Now Focus On Fixing Our Military Situation\n\n§!"
@@ -233,26 +233,26 @@
  yug_nationalist_milosevic_focus:0 "Nationalist Milosevic's Focus Tree"
  yug_won_over_yugoslavia_milosevic_communist:0 "§GAt last we have won aganist reactionaries that threathened to end our Unitery Socialist Republic back in 91' and reunified Yugoslavia \n\nBrotherhood and Unity forever! \n\nGains Cores On All of Yugoslavia\n\n§!"
  yug_won_over_yugoslavia_milosevic_nationalist:0 "§RAt last we have won aganist the pesky Croats, Bosniaks, Albanians, Slovenians that threathened to end our Serbian State back in 91' and reunified Serbia to its natural borders \n\Nživela Srbija! \n\nGains Cores On All of Greater Serbia\n\n§!"
- 
+
  yug_a_peace_deal_with_ussr_will_be_signed:0 "§GA Peace Deal with the USSR will be signed§!"
- 
+
  yug_milosevic_loyalists_strength_increases_by_10:0 "§RMilosevic Loyalists' strength increases by 10§!"
 
  yug_milosevic_loyalists_strength_decreases_by_15:0 "§GMilosevic Loyalists' strength decreases by 15§!"
  yug_milosevic_loyalists_strength_decreases_by_30:0 "§GMilosevic Loyalists' strength decreases by 30§!"
- 
+
  yug_stambolic_army_warning:0 "§R If Milosevic Loyalists' strength is 50 or higher, the army might attempt a coup§!"
- 
+
  ## YUG YUGOSLAVIA REPUBLICS ##
- 
+
  YUG_bosnia_SR:0 "SR Bosnia and Herzegovina"
  YUG_montenegro_SR:0 "SR Montenegro"
  YUG_macedonia_SR:0 "SR Macedonia"
  YUG_serbia_SR:0 "SR Serba"
  YUG_backa_SAO:0 "SAO Backa"
- 
+
  #YUG GUI#####
-  
+
  yug_this_opens_da_gui:0 "The situation of the power struggle"
  power_struggle_gui_loc:0 "The Yugoslav Power Struggle"
  yug_gov_coalition_gui_loc:0 "§YGovernment Coalition§!"
@@ -271,17 +271,17 @@
  yug_decrease_stambolic_pop_20:0 "§YNew Yugoslav Left§!'s popularity §Rdecreases§! by 20%"
 
  yug_increase_milosevic_pop_25:0 "§YMilosevic§!'s popularity §Gincreases§! by 2.5%"
- yug_increase_milosevic_pop_5:0 "§YMilosevic§!'s popularity §Gincreases§! by 5%" 
+ yug_increase_milosevic_pop_5:0 "§YMilosevic§!'s popularity §Gincreases§! by 5%"
  yug_increase_socialist_pop_25:0 "§YSocialist Left Party of Yugoslavia§!'s popularity §Gincreases§! by 2.5%"
- yug_increase_socialist_pop_5:0 "§YSocialist Left Party of Yugoslavia§!'s popularity §Gincreases§! by 5%" 
+ yug_increase_socialist_pop_5:0 "§YSocialist Left Party of Yugoslavia§!'s popularity §Gincreases§! by 5%"
  yug_increase_stambolic_pop_25:0 "§YNew Yugoslav Left§!'s popularity §Gincreases§! by 2.5%"
- yug_increase_stambolic_pop_5:0 "§YNew Yugoslav Left§!'s popularity §Gincreases§! by 5%" 
- yug_increase_stambolic_pop_10:0 "§YNew Yugoslav Left§!'s popularity §Gincreases§! by 10%" 
+ yug_increase_stambolic_pop_5:0 "§YNew Yugoslav Left§!'s popularity §Gincreases§! by 5%"
+ yug_increase_stambolic_pop_10:0 "§YNew Yugoslav Left§!'s popularity §Gincreases§! by 10%"
  yug_increase_natcom_pop_25:0 "§YPatriotic Communist Party of Yugoslavia§!'s popularity §Gincreases§! by 2.5%"
  yug_increase_natcom_pop_5:0 "§YPatriotic Communist Party of Yugoslavia§!'s popularity §Gincreases§! by 5%"
 
  ###CULTURE WAR###
- 
+
  culture_war_leaning_balanced:0 "§gBalanced§!"
  culture_war_leaning_slightly_conservative:0 "§CSlightly Conservative§!"
  culture_war_leaning_conservative:0 "§2Conservative§!"
@@ -289,17 +289,17 @@
  culture_war_leaning_slightly_liberal:0 "§LSlightly Liberal§!"
  culture_war_leaning_liberal:0 "§YSlightly Liberal§!"
  culture_war_leaning_extremely_liberal:0 "§8Extremely Liberal§!"
- 
+
  sov_culture_war_increase_small_conservative:0 "§2This will make the leaning more Conservative by a small amount§!"
  sov_culture_war_increase_mid_conservative:0 "§2This will make the leaning more Conservative by a medium amount§!"
  sov_culture_war_increase_large_conservative:0 "§2This will make the leaning more Conservative by a large amount§!"
- 
+
  sov_culture_war_increase_small_liberal:0 "§YThis will make the leaning more Liberal by a small amount§!"
  sov_culture_war_increase_mid_liberal:0 "§YThis will make the leaning more Liberal by a medium amount§!"
  sov_culture_war_increase_large_liberal:0 "§YThis will make the leaning more Liberal by a large amount§!"
 
  ###SOVIET FACTIONALISM GUI#####
- 
+
  sov_current_state_of_factionalism_loc:0 "Current State of Factionalism"
  sov_current_gensec_loc:0 "§YCurrent General Secretary: [SOV.GetLeader]§!"
  sov_hardliner_localisation_tt:0 "The §RConservative Faction§! is a group of politicians that want to keep the old system and style of governance of the Soviet Union.\n\nThe §RConservative faction§! combining prominent leaders from other factions, ousted the §treformist§! leader Mikhail Gorbachev in the August Coup in 1991."
@@ -318,7 +318,7 @@
  this_faction_rules_the_nation_military:0 "The §gMilitarist Faction§! currently rules the nation."
  this_faction_rules_the_nation_reformist:0 "The §tReformer Faction§! currently rules the nation."
  this_faction_rules_the_nation_kgb:0 "The §OKGB Faction§! currently rules the nation."
- 
+
  hardliner_5_influence_increase:0 "The §R£sov_hardliner_faction_texticon Conservative Faction§!'s influence §Gincreases§! by 5."
  army_5_influence_increase:0 "The §g£sov_army_faction_texticon Militarist Faction§!'s influence §Gincreases§! by 5."
  reformist_5_influence_increase:0 "The §t£sov_reformist_faction_texticon Reformist Faction§!'s influence §Gincreases§! by 5."
@@ -332,30 +332,30 @@
  army_20_influence_increase:0 "The §g£sov_army_faction_texticon Militarist Faction§!'s influence §Gincreases§! by 20."
  reformist_20_influence_increase:0 "The §t£sov_reformist_faction_texticon Reformist Faction§!'s influence §Gincreases§! by 20."
  kgb_20_influence_increase:0 "The §O£sov_kgb_faction_texticon KGB Faction§!'s influence §Gincreases§! by 20."
- 
+
  sov_opposing_factions_gains_influence:0 "§RFactions that oppose us gains influence!§!"
- 
- 
+
+
  army_5_influence_decrease:0 "The §g£sov_army_faction_texticon Militarist Faction§!'s influence §Rdecreases§! by 5."
  army_10_influence_decrease:0 "The §g£sov_army_faction_texticon Militarist Faction§!'s influence §Rdecreases§! by 10."
 
  reformist_5_influence_decrease:0 "The §t£sov_reformist_faction_texticon Reformist Faction§!'s influence §Rdecreases§! by 5."
  reformist_10_influence_decrease:0 "The §t£sov_reformist_faction_texticon Reformist Faction§!'s influence §Rdecreases§! by 10."
- 
- hardliner_10_influence_decrease:0 "The §R£sov_hardliner_faction_texticon Hardliner Faction§!'s influence §Rdecreases§! by 10." 
- 
+
+ hardliner_10_influence_decrease:0 "The §R£sov_hardliner_faction_texticon Hardliner Faction§!'s influence §Rdecreases§! by 10."
+
  hardliner_15_influence_decrease:0 "The §R£sov_hardliner_faction_texticon Hardliner Faction§!'s influence §Rdecreases§! by 15."
  army_15_influence_decrease:0 "The §g£sov_army_faction_texticon Militarist Faction§!'s influence §Rdecreases§! by 15."
  reformist_15_influence_decrease:0 "The §t£sov_reformist_faction_texticon Reformist Faction§!'s influence §Rdecreases§! by 15."
  sov_militarists_and_reformists_lose_30: "The §g£sov_army_faction_texticon Militarist Faction§! and §t£sov_reformist_faction_texticon Reformist Faction§!'s influence §Rdecreases§! by 30."
- 
+
  reformist_20_influence_decrease:0 "The §t£sov_reformist_faction_texticon Reformist Faction§!'s influence §Rdecreases§! by 20."
- 
+
  sov_all_factions_lose_5_hardliner:0 "§g£sov_army_faction_texticon Militarist§!, §t£sov_reformist_faction_texticon Reformist§!, and the §O£sov_kgb_faction_texticon KGB§! factions §Rlose§! 5 influence."
  sov_all_factions_lose_5_militarist:0 "§R£sov_hardliner_faction_texticon Hardliner§!, §t£sov_reformist_faction_texticon Reformist§!, and the §O£sov_kgb_faction_texticon KGB§! factions §Rlose§! 5 influence."
  sov_all_factions_lose_5_reformist:0 "§R£sov_hardliner_faction_texticon Hardliner§!, §g£sov_army_faction_texticon Militarist§!, and the §O£sov_kgb_faction_texticon KGB§! factions §Rlose§! 5 influence."
  sov_all_factions_lose_5_kgb:0 "§R£sov_hardliner_faction_texticon Hardliner§!, §t£sov_reformist_faction_texticon Reformist§!, and the §g£sov_army_faction_texticon Militarist§! factions §Rlose§! 5 influence." ####RESISTANCE STUFF FOR SOVIET#########
- 
+
  spet_decision_unlock_tt:0 "§GUnlocks Special Action Decisions\n\n§!"
  this_might_end_bad_bozo:0 "§YThis operation might end § §Rvery bad\n\n§!"
  spet_decision_unlock:0 "Has Allowed Conducting Of Spetsnaz Operations"
@@ -363,38 +363,38 @@
  finished_crackdown_lithuenia:0 "§YHas finished anti-seperatist operations in Lithuenia§!\n\n"
  finished_crackdown_chechenya:0 "§YHas finished anti-seperatist operations in Chechenya§!\n\n"
  finished_crackdown_ukraine:0 "§YHas finished anti-seperatist operations in Ukraine§!\n\n"
- 
+
  decrase_var_stab_5:0 "§Rdecreases §CStability § §RBy 5 Percent\n\n§!"
  decrase_var_stab_10:0 "§Rdecreases §CStability § §RBy 10 Percent\n\n§!"
  decrase_var_stab_15:0 "§Rdecreases §CStability § §RBy 15 Percent\n\n§!"
  decrase_var_stab_20:0 "§Rdecreases §CStability § §RBy 20 Percent\n\n§!"
  decrase_var_stab_25:0 "§Rdecreases §CStability § §RBy 25 Percent\n\n§!"
  decrase_var_stab_30:0 "§Rdecreases §CStability § §RBy 30 Percent\n\n§!"
- 
+
  incrase_var_stab_5:0 "§GIncreases §CStability § §GBy 5 Percent\n\n§!"
  incrase_var_stab_10:0 "§GIncreases §CStability § §GBy 10 Percent\n\n§!"
  incrase_var_stab_15:0 "§GIncreases §CStability § §GBy 15 Percent\n\n§!"
  incrase_var_stab_20:0 "§GIncreases §CStability § §GBy 20 Percent\n\n§!"
- 
- 
+
+
  sov_55_stab_required:0 "§C55 Stability§!"
  sov_55_stab_required_blocked:0 "§C55 Stability§!"
  sov_55_stab_required_tooltip:0 "§YRequires At Least §C55 Percent Stability §YTo take This Action\n\n§!"
- 
+
  decrase_var_res_5:0 "§Gdecreases §RResistance § §GBy 5 Percent\n\n§!"
  decrase_var_res_10:0 "§Gdecreases §RResistance § §GBy 10 Percent\n\n§!"
  decrase_var_res_15:0 "§Gdecreases §RResistance § §GBy 15 Percent\n\n§!"
  decrase_var_res_20:0 "§Gdecreases §RResistance § §GBy 20 Percent\n\n§!"
  decrase_var_res_25:0 "§Gdecreases §RResistance § §GBy 25 Percent\n\n§!"
- 
+
  incrase_var_res_5:0 "§RIncreases §RResistance § §RBy 5 Percent\n\n§!"
  incrase_var_res_10:0 "§RIncreases §RResistance § §RBy 10 Percent\n\n§!"
  incrase_var_res_15:0 "§RIncreases §RResistance § §RBy 15 Percent\n\n§!"
  incrase_var_res_25:0 "§RIncreases §RResistance § §RBy 25 Percent\n\n§!"
- 
+
  ### INFLUENCE ###
  influencing_north_korea:0 "Influencing North Korea"
- 
+
  sov_25_influence_points_required:0 "£influence_point_decision  §G25 Influence Points§!"
  sov_25_influence_points_required_blocked:0 "£influence_point_decision_blocked  §g25 Influence Points§!"
  sov_25_influence_points_required_tooltip:0 "§YRequires At Least £influence_point_decision  §G25 Influence Points§! §YTo take This Action\n\n§!"
@@ -417,59 +417,59 @@
  needs_35_command_power_for_decision:0 "£command_power 35"
  needs_35_command_power_for_decision_blocked:0 "§R£command_power 35§!"
  needs_35_command_power_for_decision_tooltip:0 "§YRequires At Least§! £command_power 35 command power §YTo take This Action\n\n§!"
-  
+
  sov_adds_15_influence:0 "Increases £influence_decision  §Rinfluence§! by 15\n\n"
  sov_adds_10_influence:0 "Increases £influence_decision  §Rinfluence§! by 10\n\n"
  sov_adds_5_influence:0 "Increases £influence_decision  §Rinfluence§! by 5\n\n"
- 
+
  sov_adds_35_influence_points:0 "Adds 35 £influence_point_decision  §Ginfluence points§!\n\n"
  sov_adds_15_influence_points:0 "Adds 15 £influence_point_decision  §Ginfluence points§!\n\n"
  sov_adds_20_influence_points:0 "Adds 20 £influence_point_decision  §Ginfluence points§!\n\n"
-  
+
  prc_subtracts_10_influence:0 "Subtracts 10 £influence_decision_prc  §Rinfluence§! from [PRC.GetNameWithFlag]\n\n"
- prc_subtracts_10_influence_points:0 "Subtracts 10 £influence_point_decision  §Ginfluence points§! from [PRC.GetNameWithFlag]\n\n" 
- 
+ prc_subtracts_10_influence_points:0 "Subtracts 10 £influence_point_decision  §Ginfluence points§! from [PRC.GetNameWithFlag]\n\n"
+
  sov_subtracts_10_influence:0 "Subtracts 10 £influence_decision  §Rinfluence§! from [SOV.GetNameWithFlag]\n\n"
- sov_subtracts_10_influence_points:0 "Subtracts 10 £influence_point_decision  §Ginfluence points§! from [SOV.GetNameWithFlag]\n\n" 
- 
+ sov_subtracts_10_influence_points:0 "Subtracts 10 £influence_point_decision  §Ginfluence points§! from [SOV.GetNameWithFlag]\n\n"
+
  sov_99_influence_on_nk_points_required:0 "£influence_decision  §R100 Influence§!"
  sov_99_influence_on_nk_points_required_blocked:0 "£influence_decision_blocked  §g100 Influence§!"
  sov_99_influence_on_nk_points_required_tooltip:0 "§YRequires At Least £influence_decision  §R100 Influence§! §YTo take This Action\n\n§!"
  nk_enters_ussr_sphere:0 "[KOR.GetNameWithFlag] Will Enter §R[SOV.GetNameWithFlag]'s Sphere of Influence.\n\n§!"
  soviets_won_north_korea:0 "[KOR.GetNameWithFlag] is in §R[SOV.GetNameWithFlag]'s Sphere§!"
- 
+
  prc_99_influence_on_nk_points_required:0 "£influence_decision_prc  §R100 Influence§!"
  prc_99_influence_on_nk_points_required_blocked:0 "£influence_decision_prc_blocked  §g100 Influence§!"
  prc_99_influence_on_nk_points_required_tooltip:0 "§YRequires At Least £influence_decision_prc  §R100 Influence§! §YTo take This Action\n\n§!"
  nk_enters_china_sphere:0 "[KOR.GetNameWithFlag] Will Enter §t[PRC.GetNameWithFlag]'s Sphere of Influence.\n\n§!"
- 
+
  ### MINING NORTH KOREA ###
- 
+
  sov_mined_iron_for_north_korea:0 "§YHas mined Iron that can be converted§!"
  sov_mined_iron_for_north_korea_tt:0 "§GWe will be able to convert the iron sources into steel§!"
  sov_has_started_mining_operations:0 "§YStated Mining Operations§!"
- 
+
  ####GORBACHEV######
 
  sov_gorby_support_incrase_by_15:0 "§GIncreases §tSupport For Gorbachev §GBy §C15 §GPercent\n\n§!"
  sov_gorby_support_incrase_by_20:0 "§GIncreases §tSupport For Gorbachev §GBy §C20 §GPercent\n\n§!"
  sov_gorby_support_incrase_by_25:0 "§GIncreases §tSupport For Gorbachev §GBy §C25 §GPercent\n\n§!"
- 
+
  gorby_gathering_support_time:0 "§tGorbachev Has Begun Securing Support\n\n§!"
  gorby_has_70_support:0 "§tGorbachev §YNeeds 70 Support For This Decision\n\n§!"
  gorby_secured_support:0 "§tGorbachev §GHas Secured Support\n\n§!"
  sov_gorby_got_couped:0 "§tGorbachev §RHas Been Couped§!"
  gorby_new_ministers_will_be_avaliable:0 "§tNew Ministers Will be Available\n\n§!"
- ######SOVIET REFERANDUMS FOR REITEGRATIONS#### 
+ ######SOVIET REFERANDUMS FOR REITEGRATIONS####
 
  sov_gorby_ref_incrase_by_5:0 "§GIncreases §CSupport In All Countries §GBy §C5 §GPercent\n\n§!"
  sov_gorby_ref_incrase_by_10:0 "§GIncreases §CSupport In All Countries §GBy §C10 §GPercent\n\n§!"
-  
+
  sov_refs_succeeds:0 "§GReferendums Have Succeeded\n\n§!"
  sov_referandums_happened:0 "§YReferendums Have Been Hold\n\n§!"
  SOV_referandums_decisions_start:0 "§YReferendums Have Been Organized\n\n§!"
  ###### BY ADDING "\n\n" AND ADDING "§!" RIGHT AFTER IT AT THE END OF THE LOC WILL (sometimes,mostly in decisions i think) MAKE IT LOOK MORE CLEAN WHEN USING COLOUR -durango#######
- 
+
  ########     \n\n§!       ######
 
 ## USA ##
@@ -488,7 +488,7 @@
  USA_loc_key_ruling_party_conservative_reform:0 "§YRepublican Party\nReform Party§!"
  USA_loc_key_ruling_party_democratic_reform:0 "§YDemocratic Party\nReform Party§!"
  USA_loc_key_ruling_party_all:0 "§YRepublican Party\nDemocratic Party\nReform Party§!"
- 
+
  bush_will_be_rep_candicate:0 "§YBush becomes Republican Candidate for President.§!"
  mccain_will_be_rep_candicate:0 "§YMcCain becomes Republican Candidate for President.§!"
  gore_will_be_dem_candicate:0 "§YGore becomes Democrat Candidate for President.§!"
@@ -498,36 +498,50 @@
  rep_candicate_will_become_president_on_jan20:0 "§GRepublican Candidate will become President on Jan 20.§!"
  dem_candicate_will_become_president_on_jan20:0 "§GDemocrat Candidate will become President on Jan 20.§!"
  reform_candicate_will_become_president_on_jan20:0 "§GReformist Candidate will become President on Jan 20.§!"
- 
+
  usa_warning:0 "§R DO NOT CHOOSE THIS AS A CANDIDATE, THEY HAVE NO CONTENT FOR NOW. DO NOT CHOOSE THIS CANDIDATE§!"
- 
+
  USA_unlocks_diplomacy:0 "§GUnlocks the Diplomatic Tree§!"
- 
+
  reform_party_congress_attitude_changes_friendly:0 "The Reform Party will have a §GFriendly Attitude§!"
  reform_party_congress_attitude_changes_neutral:0 "The Reform Party will have a §gNeutral Attitude§!"
  reform_party_congress_attitude_is_neutral:0 "The Reform Party has a §gNeutral Attitude§!"
- 
+
  USA_new_ministers_will_be_available:0 "§GNew Ministers will be Available.§!"
- 
+
  will_improve_economic_stagnation_tooltip:0 "§GThis will improve the §Y"Economic Stagnation" §Gnational spirit.§!"
  will_improve_bush_family_legacy_tooltip:0 "§GThis will improve the §Y"Bush Family Legacy" §Gnational spirit.§!"
  will_improve_social_soldiering_tooltip:0 "§GThis will improve the §Y"Social Soldiering" §Gnational spirit.§!"
- 
+
  rust_belt_completed_new_york_decision:0 "Completed the §Y"New York, New Steel"§! decision."
  rust_belt_completed_ohio_decision:0 "Completed the §Y"Ohio, Automobile Central"§! decision."
  rust_belt_completed_penny_decision:0 "Completed the §Y"Black Mountains of Pennsylvania"§! decision."
  rust_belt_completed_indiana_decision:0 "Completed the §Y"Indiana Ingenuity"§! decision."
  rust_belt_completed_michigan_decision:0 "Completed the §Y"Michigan Manufacturing"§! decision."
- 
+
  USA_revived_the_rust_belt:0 "§YRevived the Rust Belt§!"
- 
+
  USA_bush_dies_tooltip:0 "§RGeorge Bush dies§!"
+
+ ## USA WAR SUPPORT MECHANIC ##
+
+ USA_unlocks_maintain_home_front:0 "§Unlocks the Home Front mechanic§"
+
+ decrase_var_sup_5:0 "§Gdecreases §RSupport § §GBy 5 Percent\n\n§!" decrase_var_sup_10:0 "§Gdecreases §RSupport § §GBy 10 Percent\n\n§!" decrase_var_sup_15:0 "§Gdecreases §RSupport § §GBy 15 Percent\n\n§!" decrase_var_sup_20:0 "§Gdecreases §RSupport § §GBy 20 Percent\n\n§!"     decrase_var_sup_25:0 "§Gdecreases §RSupport § §GBy 25 Percent\n\n§!"
+
+ incrase_var_sup_5:0 "§RIncreases §Rsupport § §RBy 5 Percent\n\n§!"
+ incrase_var_sup_10:0 "§RIncreases §RSupport § §RBy 10 Percent\n\n§!"
+ incrase_var_sup_15:0 "§RIncreases §RSupport § §RBy 15 Percent\n\n§!"
+ incrase_var_sup_25:0 "§RIncreases §RSupport § §RBy 20 Percent\n\n§
+ incrase_var_sup_25:0 "§RIncreases §RSupport § §RBy 25 Percent\n\n§
+
+
  ## SOUTH AFRICA ##
- 
+
  SAF_decrases_the_figthing_strength_of_rebels_by_5:0 "§GDecrases The Fighting Strength Of The Rebels by 5 percent§!\n\n"
  SAF_decrases_the_figthing_strength_of_rebels_by_10:0 "§GDecrases The Fighting Strength Of The Rebels by 10 percent§!\n\n"
  SAF_decrases_the_figthing_strength_of_rebels_by_15:0 "§GDecrases The Fighting Strength Of The Rebels by 15 percent§!\n\n"
-   
+
  SAF_insurgent_mechanic_explanation:0 "§OIf the estimated figthing strength of ANC is lower than 25 percent if an uprising happens their forces will start out disorganized§!\n\n"
  saf_started_to_deal_with_insurgents:0 "§OStarted Operations Aganist the Insurgents§!\n\n"
  saf_end_of_operations_reached:0 "§OThe Deadline For The Operations Have Been Reached§!\n\n"
@@ -577,7 +591,7 @@
  INDTSU_loc_key_country_3:0 "[BRM.GetName]"
  INDTSU_loc_key_country_4:0 "[SIA.GetName]"
  INDTSU_loc_key_country_5:0 "[MLD.GetName]"
- 
+
  ##Vietnam##
  remove_ussr:0 "§RWe shall move away from Moscow's influence§!"
  vin_chose_fast_industrialization:0 "§YThis will unlock the "No Time To Waste" focus.§!"
@@ -586,22 +600,22 @@
  vin_small_industry:0 "§YChose a policy of focusing on Light Industry and Agriculture.§!"
 
  VIN_tt_vin18:0 "§YDPRK will transfer two Song-O class submarines to [VIN.GetNameDef].§!"
- 
+
  ##other countries##
  cannot_do_shit_with_units:0 "§RCan not train, edit and disband units§!"
  cannot_join_nato:0 "§RThis Nation Cannot Join NATO§!"
  ##leader descriptions##
- 
+
  nothern_alliance_DESC:0 "Northern Alliance is an alliance formed by anti-Taliban fighters after the overthrowal of the legitimate government by the Taliban.\n\nThe group is unified with the goal of defeating the Taliban and retaking Afghanistan.\n\nIt consists of;\n-§gJamiat-e Islami, led by Ahmad Shah Massoud.§!\n§t-Junbish-i Milli led by Abdul Rashid Dostum with backing from Mohammad Najibullah.§!\n-§GHezb-e Wahdat led by Muhammad Mohaqiq.§!"
  mullah_omar_DESC:0 "Mohammed Omar, later known as Mullah 'Omar, was born in the village of Singesar in 1960. His Soldier career started in 1979 with the Soviet invasion of Afghanistan, he decided to join the anti-Soviet mujahideen faction but had to withdraw from the front as he lost his right eye to a bullet. Shortly after being discharged from the surgery, he went to study and teach in a Madrasa in the city of Quetta with multiple students starting to follow his teachings. After the fall of the Afghan communist regime and the retreat of the Soviets, Afghanistan was in chaos and in the grip of Mujahideen factions fighting for power for the control of the country. Mullah, with his students and soldiers, headed a faction of Afghan soldiers, later called §g"Taliban"§!, his movement gained strength very quickly and in 1994 he took control of the province of Kandahar. With these newfound victories, Taliban forces swept across the nation, attacking multiple warlords and winning, this paved the way towards Kabul. Omar’s forces successfully conquered the city, unifying almost all of Afghanistan and moved the headquarters of the government to Kabul. To this day, the Taliban acclaim him with the title of "Amīr al-Mu'minīn," "Commander of the Believers.""
  muhammad_mohaqiq_DESC:0 "Haji Mohammad Mohaqiq was born 26 July 1955 in Mazar-e-Sharif in Balkh Province, he is a politician, who served as a member of the Afghanistan Parliament. He is also the founder and chairman of the People's Islamic Unity Party of Afghanistan, Mohammad has also been involved in the Saur Revolution. With the invasion of Afghanistan by the USSR Mohammad in the 1980s served in the Mujahideen to fight the Soviets and the Communist Government, after the Soviet retreat in 1989 Mohaqiq was appointed as the leader of the Hezb-e Wahdat for northern Afghanistan. In the Afghan Civil war in the early 1990s, he was regarded as a prominent leader fighting for his Hazara people. In the late 1990s, Mohaqiq joined the Northern Alliance (United Front) in their resistance and struggle against the Islamic Emirate of Afghanistan (Taliban)."
- 
+
  ## Unit Limiter GUI ##
 
  max_units_info_tt:0 "The unit limiter displays how many §Gunits§! your nation is capable of effectively fielding. It is influenced by §Ytotal manpower§!, §Ywar support§!, §Ynation size§!, and §Ynumber of factories§!.\n\nIf you have more §Gunits§! than can be effectively supported, your £overmiliterisation_icon §YOver-Militerisation§! will increase, which will result in §Rnegative penalties§! applied to your nation. You can fix this by §Rdisbanding§! excess §Gunits§!.\n\n§gValues will be updated at the start of each month.§!"
  overmiliterisation_info_tt:0 "§HEffects from our current £overmiliterisation_icon Over-Militerisation:§!\nPolitical Power Gain: §Y-[?ROOT.overmiliterisation_percentage|%1]§!\nConstruction Speed: §Y-[?ROOT.overmiliterisation_percentage|%1]§!\nFactory Output: §Y-[?ROOT.overmiliterisation_percentage|%1]§!\nDockyard Output: §Y-[?ROOT.overmiliterisation_percentage|%1]§!\nSupply Consumption: §Y+[?ROOT.overmiliterisation_percentage|%1]§!\nUnit Upkeep: §Y+[?ROOT.overmiliterisation_percentage|%1]§!"
- 
+
  ## peace deal messages ##
- 
+
  NRO_wins_AFG_peace_message:0 "§Y@NRO Northern Alliance§! has defeated the §Y@AFG Emirate of Afghanistan§! in a war."
  YUG_wins_SOV_peace_message:0 "§Y@YUG Yugoslavia§! has succeeded in defending and defeated the §Y@SOV Soviet Union§! in a war."

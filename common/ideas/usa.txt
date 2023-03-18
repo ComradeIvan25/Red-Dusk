@@ -124,15 +124,35 @@ ideas = {
 			modifier = {
 			}
 		}
-		
+		USA_war_support = {
+			name = USA_war_support_name
+
+			removal_cost = -1
+
+			#picture =
+
+			allowed = {
+				alwayas = no
+			}
+
+			modifier = {
+				war_support_factor = 0.30
+				stability_factor = -0.10
+				consumer_goods_factor = -0.10
+				economy_cost_factor = 1.0
+				production_speed_arms_factory_factor = 0.5
+				faction_trade_opinion_factor = 0.2
+			}
+		}
+
 		##QUAYLE/START TREE##
-		
+
 		USA_worker_strikes = {
 			name = USA_worker_strikes_name
 
 			removal_cost = -1
 
-			#picture = 
+			#picture =
 
 			allowed = {
 				always = no
@@ -143,7 +163,7 @@ ideas = {
 			political_power_factor = -0.10
 			}
 		}
-		
+
 		USA_three_party_primacy_1 = {
 			name = USA_three_party_primacy_name
 
@@ -161,7 +181,7 @@ ideas = {
 			}
 		}
 		##ECONOMY IMPROVEMENT##
-		
+
 		USA_stagnating_economy_1 = {
 			name = USA_stagnating_economy_name
 
@@ -179,7 +199,7 @@ ideas = {
 				min_export = 0.1
 			}
 		}
-		
+
 		USA_stagnating_economy_2 = {
 			name = USA_stagnating_economy_name
 
@@ -196,10 +216,10 @@ ideas = {
 				production_speed_buildings_factor = -0.05
 				min_export = 0.1
 				research_speed_factor = 0.05
-				
+
 			}
 		}
-		
+
 		USA_stagnating_economy_3 = {
 			name = USA_stagnating_economy_name
 
@@ -215,10 +235,10 @@ ideas = {
 				production_speed_industrial_complex_factor = -0.05
 				min_export = 0.1
 				research_speed_factor = 0.05
-				
+
 			}
 		}
-		
+
 		USA_stagnating_economy_4 = {
 			name = USA_stagnating_economy_name
 
@@ -235,7 +255,7 @@ ideas = {
 				research_speed_factor = 0.05
 			}
 		}
-		
+
 		USA_economic_miracle = {
 			name = USA_economic_miracle_name
 
@@ -255,15 +275,15 @@ ideas = {
 				consumer_goods_factor = -0.15
 			}
 		}
-		
+
 		##BUSH##
-		
+
 		USA_republicans_and_the_internet = {
 			name = USA_republicans_and_the_internet_name
 
 			removal_cost = -1
 
-			#picture = 
+			#picture =
 
 			allowed = {
 				always = no
@@ -274,13 +294,13 @@ ideas = {
 			consumer_goods_factor = 0.1
 			}
 		}
-		
+
 		USA_republicans_and_the_internet_fre_buff = {
 			name = USA_republicans_and_the_internet_name
 
 			removal_cost = -1
 
-			#picture = 
+			#picture =
 
 			allowed = {
 				always = no
@@ -290,13 +310,13 @@ ideas = {
 			research_speed_factor = -0.10
 			}
 		}
-		
+
 		USA_republicans_and_the_internet_pat_buff = {
 			name = USA_republicans_and_the_internet_name
 
 			removal_cost = -1
 
-			#picture = 
+			#picture =
 
 			allowed = {
 				always = no
@@ -307,13 +327,13 @@ ideas = {
 			consumer_goods_factor = 0.1
 			}
 		}
-		
+
 		USA_republicans_and_the_internet_pat_buff_2 = {
 			name = USA_republicans_and_the_internet_name
 
 			removal_cost = -1
 
-			#picture = 
+			#picture =
 
 			allowed = {
 				always = no
@@ -323,13 +343,13 @@ ideas = {
 			consumer_goods_factor = 0.1
 			}
 		}
-		
+
 		USA_bush_family_legacy = {
 			name = USA_bush_family_legacy_name
 
 			removal_cost = -1
 
-			#picture = 
+			#picture =
 
 			allowed = {
 				always = no
@@ -340,13 +360,13 @@ ideas = {
 			stability_factor = -0.05
 			}
 		}
-		
+
 		USA_bush_family_legacy_1 = {
 			name = USA_bush_family_legacy_name
 
 			removal_cost = -1
 
-			#picture = 
+			#picture =
 
 			allowed = {
 				always = no
@@ -363,7 +383,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = 
+			#picture =
 
 			allowed = {
 				always = no
@@ -374,14 +394,14 @@ ideas = {
 			stability_factor = 0.075
 			}
 		}
-		
-		
+
+
 		USA_bush_family_legacy_3 = {
 			name = USA_bush_family_legacy_name
 
 			removal_cost = -1
 
-			#picture = 
+			#picture =
 
 			allowed = {
 				always = no
@@ -393,13 +413,13 @@ ideas = {
 			consumer_goods_factor = -0.05
 			}
 		}
-		
+
 		USA_bush_family_legacy_4 = {
 			name = USA_bush_family_legacy_name
 
 			removal_cost = -1
 
-			#picture = 
+			#picture =
 
 			allowed = {
 				always = no
@@ -412,13 +432,13 @@ ideas = {
 			conscription_factor = 0.02
 			}
 		}
-		
+
 		USA_bush_family_legacy_5 = {
 			name = USA_bush_family_legacy_name
 
 			removal_cost = -1
 
-			#picture = 
+			#picture =
 
 			allowed = {
 				always = no
@@ -431,13 +451,13 @@ ideas = {
 			conscription_factor = 0.02
 			}
 		}
-		
+
 		USA_bush_family_legacy_final = {
 			name = USA_bush_family_legacy_name
 
 			removal_cost = -1
 
-			#picture = 
+			#picture =
 
 			allowed = {
 				always = no
@@ -458,7 +478,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = 
+			#picture =
 
 			allowed = {
 				always = no
@@ -468,13 +488,13 @@ ideas = {
 
 			}
 		}
-		
+
 		USA_social_soldiering_2 = {
 			name = USA_social_soldiering_name
 
 			removal_cost = -1
 
-			#picture = 
+			#picture =
 
 			allowed = {
 				always = no
@@ -485,13 +505,13 @@ ideas = {
 			monthly_population = 0.1
 			}
 		}
-		
+
 		USA_social_soldiering_3 = {
 			name = USA_social_soldiering_name
 
 			removal_cost = -1
 
-			#picture = 
+			#picture =
 
 			allowed = {
 				always = no
@@ -503,13 +523,13 @@ ideas = {
 			consumer_goods_factor = -0.05
 			}
 		}
-		
+
 		USA_social_soldiering_4 = {
 			name = USA_social_soldiering_name
 
 			removal_cost = -1
 
-			#picture = 
+			#picture =
 
 			allowed = {
 				always = no
@@ -522,13 +542,13 @@ ideas = {
 			consumer_goods_factor = -0.05
 			}
 		}
-		
+
 		USA_social_soldiering_final = {
 			name = USA_social_soldiering_name
 
 			removal_cost = -1
 
-			#picture = 
+			#picture =
 
 			allowed = {
 				always = no
@@ -544,7 +564,7 @@ ideas = {
 			communism_drift = -0.05
 			}
 		}
-		
+
 		USA_second_amendment_bush_buff = {
 			name = USA_second_amendment_name
 
@@ -564,13 +584,13 @@ ideas = {
 				recruitable_population_factor = -0.15
 			}
 		}
-			
+
 		USA_research_reluctancy = {
 				name = USA_research_reluctancy_name
 
 				removal_cost = -1
 
-				#picture = 
+				#picture =
 
 				allowed = {
 					always = no
@@ -584,13 +604,13 @@ ideas = {
 					naval_equipment = -0.15
 					air_equipment = -0.15
 				}
-				
+
 				modifier = {
 				production_factory_efficiency_gain_factor = 0.20
 				}
-				
+
 		}
-		
+
 		USA_military_spending_2 = {
 			name = USA_military_spending_name
 
@@ -609,7 +629,7 @@ ideas = {
 				production_speed_arms_factory_factor = 0.1
 			}
 		}
-		
+
 		USA_military_spending_3 = {
 			name = USA_military_spending_name
 
@@ -628,7 +648,7 @@ ideas = {
 				production_speed_arms_factory_factor = 0.05
 			}
 		}
-		
+
 		USA_misdirected_foreign_policy_2 = {
 			name = USA_misdirected_foreign_policy_name
 
@@ -645,7 +665,7 @@ ideas = {
 			}
 
 		}
-		
+
 		USA_patriot_act_lar = {
 			name = USA_patriot_act_name
 
@@ -663,7 +683,7 @@ ideas = {
 			}
 
 		}
-		
+
 		USA_patriot_act_lar_2 = {
 			name = USA_patriot_act_name
 
@@ -683,7 +703,7 @@ ideas = {
 			}
 
 		}
-		
+
 		USA_the_nsa_lar = {
 			name = USA_the_nsa_name
 
@@ -705,7 +725,7 @@ ideas = {
 			}
 
 		}
-		
+
 		USA_patriot_act = {
 			name = USA_patriot_act_name
 
@@ -724,7 +744,7 @@ ideas = {
 			}
 
 		}
-		
+
 		USA_patriot_act_2 = {
 			name = USA_patriot_act_name
 
@@ -743,7 +763,7 @@ ideas = {
 			}
 
 		}
-		
+
 		USA_the_nsa = {
 			name = USA_the_nsa_name
 
@@ -764,7 +784,7 @@ ideas = {
 			}
 
 		}
-		
+
 		USA_overhauled_border_security = {
 			name = USA_overhauled_border_security_name
 
@@ -781,7 +801,7 @@ ideas = {
 			}
 
 		}
-		
+
 		USA_overhauled_immigration_laws = {
 			name = USA_overhauled_immigration_laws_name
 
@@ -798,7 +818,7 @@ ideas = {
 			}
 
 		}
-		
+
 		USA_three_party_primacy_2 = {
 			name = USA_three_party_primacy_name
 
@@ -816,27 +836,13 @@ ideas = {
 		}
 	}
 
-	
+
 	hidden_ideas = {
-	
+
 		usa_aligned_nation = {
-				
+
 			name = usa_aligned_nation_name
 
-			removal_cost = -1
-
-			picture =  bruh_nothing
-
-			allowed = {
-				always = no
-			}
-				
-			modifier = {
-			}	
-
-		}
-	
-	
 	}
 
 }

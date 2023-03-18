@@ -1,9 +1,9 @@
 USA_debug = {
 
 	usa_bush = {
-	
+
 		icon = generic_prepare_civil_war
-	
+
 		allowed = {
 			original_tag = USA
 
@@ -22,23 +22,23 @@ USA_debug = {
 		ai_will_do = {
 			factor = 0
 		}
-		complete_effect = { 
+		complete_effect = {
 			load_focus_tree = usa_bush_focus
 			complete_national_focus = USA_bush_bush_in_office
 			retire_country_leader = yes
 			promote_character = USA_george_bush
 			news_event = {id = old_times_news.47}
 			add_popularity = {
-				ideology = democratic 
+				ideology = democratic
 				popularity = 0.025
 			}
-		}	
+		}
 	}
-	
+
 	usa_mccain = {
-	
+
 		icon = generic_prepare_civil_war
-	
+
 		allowed = {
 			original_tag = USA
 
@@ -57,22 +57,22 @@ USA_debug = {
 		ai_will_do = {
 			factor = 0
 		}
-		complete_effect = { 
+		complete_effect = {
 			load_focus_tree = usa_mccain_focus
 			complete_national_focus = USA_mccain_mccain_in_office
 			retire_country_leader = yes
 			promote_character = USA_john_mccain
 			add_popularity = {
-				ideology = democratic 
+				ideology = democratic
 				popularity = 0.025
 			}
-		}	
+		}
 	}
-	
+
 	usa_gore = {
-	
+
 		icon = generic_prepare_civil_war
-	
+
 		allowed = {
 			original_tag = USA
 
@@ -91,7 +91,7 @@ USA_debug = {
 		ai_will_do = {
 			factor = 0
 		}
-		complete_effect = { 
+		complete_effect = {
 			load_focus_tree = usa_gore_focus
 			complete_national_focus = USA_gore_gore_in_office
 			retire_country_leader = yes
@@ -103,7 +103,7 @@ USA_debug = {
 				election_frequency = 48
 				elections_allowed = no
 			}
-			
+
 			if = {
 				limit = {has_country_flag = bush_for_rep_candicate}
 				promote_character = USA_george_bush
@@ -112,18 +112,18 @@ USA_debug = {
 				limit = {has_country_flag = mccain_for_rep_candicate}
 				promote_character = USA_john_mccain
 			}
-			
+
 			add_popularity = {
-				ideology = liberalism 
+				ideology = liberalism
 				popularity = 0.05
 			}
-		}	
+		}
 	}
-	
+
 	usa_trump = {
-	
+
 		icon = generic_prepare_civil_war
-	
+
 		allowed = {
 			original_tag = USA
 
@@ -142,20 +142,20 @@ USA_debug = {
 		ai_will_do = {
 			factor = 0
 		}
-		complete_effect = { 
+		complete_effect = {
 			load_focus_tree = usa_trump_focus
 			complete_national_focus = USA_trump_trump_in_office
-			retire_country_leader = yes			
+			retire_country_leader = yes
 			promote_character = USA_donald_trump
 
-			
+
 			set_politics = {
 				ruling_party = social_democracy
 				last_election = "1930.11.9"
 				election_frequency = 48
 				elections_allowed = no
 			}
-			
+
 			if = {
 				limit = {has_country_flag = bush_for_rep_candicate}
 				promote_character = USA_george_bush
@@ -165,10 +165,10 @@ USA_debug = {
 				promote_character = USA_john_mccain
 			}
 			add_popularity = {
-				ideology = social_democracy 
+				ideology = social_democracy
 				popularity = 0.05
 			}
-		}	
+		}
 	}
 }
 
@@ -191,6 +191,8 @@ category_USA_congress = {
 		}
 
 	}
+}
+USA_maintain_home_front = {
 
 }
 
@@ -202,9 +204,9 @@ USA_the_rust_belt = {
 		priority = 7
 
 		fire_only_once = yes
-		
+
 		cost = 75
-		
+
 		visible = {
 			original_tag = USA
 		}
@@ -212,9 +214,9 @@ USA_the_rust_belt = {
 		ai_will_do = {
 			factor = 75
 		}
-		
+
 		days_remove = 35
-		
+
 		remove_effect = {
 			add_resource = {
 				type = steel
@@ -223,9 +225,9 @@ USA_the_rust_belt = {
 			}
 			set_country_flag = rust_belt_completed_new_york_decision
 		}
-		
+
 	}
-	
+
 	USA_rust_belt_ohio = {
 
 		icon = GFX_decision_generic_decision
@@ -233,9 +235,9 @@ USA_the_rust_belt = {
 		priority = 6
 
 		fire_only_once = yes
-		
+
 		cost = 50
-		
+
 		visible = {
 			original_tag = USA
 		}
@@ -243,9 +245,9 @@ USA_the_rust_belt = {
 		ai_will_do = {
 			factor = 75
 		}
-		
+
 		days_remove = 35
-		
+
 		remove_effect = {
 			261 = {
 				add_extra_state_shared_building_slots = 3
@@ -257,9 +259,9 @@ USA_the_rust_belt = {
 			}
 			set_country_flag = rust_belt_completed_ohio_decision
 		}
-		
+
 	}
-	
+
 	USA_rust_belt_pennsyvlania = {
 
 		icon = GFX_decision_generic_decision
@@ -267,9 +269,9 @@ USA_the_rust_belt = {
 		priority = 4
 
 		fire_only_once = yes
-		
+
 		cost = 75
-		
+
 		visible = {
 			original_tag = USA
 		}
@@ -277,9 +279,9 @@ USA_the_rust_belt = {
 		ai_will_do = {
 			factor = 75
 		}
-		
+
 		days_remove = 42
-		
+
 		remove_effect = {
 			add_resource = {
 				type = oil
@@ -288,9 +290,9 @@ USA_the_rust_belt = {
 			}
 			set_country_flag = rust_belt_completed_penny_decision
 		}
-		
+
 	}
-	
+
 	USA_rust_belt_indiana = {
 
 		icon = GFX_decision_generic_decision
@@ -298,9 +300,9 @@ USA_the_rust_belt = {
 		priority = 3
 
 		fire_only_once = yes
-		
+
 		cost = 25
-		
+
 		visible = {
 			original_tag = USA
 		}
@@ -308,9 +310,9 @@ USA_the_rust_belt = {
 		ai_will_do = {
 			factor = 75
 		}
-		
+
 		days_remove = 35
-		
+
 		remove_effect = {
 			add_tech_bonus = {
 				bonus = 0.5
@@ -319,9 +321,9 @@ USA_the_rust_belt = {
 			}
 			set_country_flag = rust_belt_completed_indiana_decision
 		}
-		
+
 	}
-	
+
 	USA_rust_belt_michigan = {
 
 		icon = GFX_decision_generic_decision
@@ -329,9 +331,9 @@ USA_the_rust_belt = {
 		priority = 2
 
 		fire_only_once = yes
-		
+
 		cost = 50
-		
+
 		visible = {
 			original_tag = USA
 		}
@@ -339,9 +341,9 @@ USA_the_rust_belt = {
 		ai_will_do = {
 			factor = 75
 		}
-		
+
 		days_remove = 21
-		
+
 		remove_effect = {
 			393 = {
 				add_extra_state_shared_building_slots = 3
@@ -353,9 +355,9 @@ USA_the_rust_belt = {
 			}
 			set_country_flag = rust_belt_completed_michigan_decision
 		}
-		
+
 	}
-	
+
 	USA_rust_belt_revive = {
 
 		icon = GFX_decision_generic_decision
@@ -363,9 +365,9 @@ USA_the_rust_belt = {
 		priority = 1
 
 		fire_only_once = yes
-		
+
 		cost = 50
-		
+
 		visible = {
 			original_tag = USA
 		}
@@ -382,9 +384,9 @@ USA_the_rust_belt = {
 		ai_will_do = {
 			factor = 75
 		}
-		
+
 		days_remove = 0
-		
+
 		complete_effect = {
 			add_stability = 0.05
 			custom_effect_tooltip = will_improve_economic_stagnation_tooltip
@@ -392,7 +394,7 @@ USA_the_rust_belt = {
 			clr_country_flag = rust_belt_time
 			set_country_flag = USA_revived_the_rust_belt
 		}
-		
+
 	}
 }
 
@@ -405,24 +407,24 @@ USA_americanism_decisions = {
 		priority = 10
 
 		fire_only_once = no
-		
+
 		cost = 75
-		
+
 		visible = {
 			original_tag = USA
 		}
-		
+
 		modifier = {
 		political_power_factor = 0.20
 		}
-		
+
 		days_remove = 150
 		ai_will_do = {
 			factor = 0
 		}
 
 	}
-	
+
 	USA_americanism_give_out_scholarships = {
 
 		icon = GFX_decision_generic_decision
@@ -430,24 +432,24 @@ USA_americanism_decisions = {
 		priority = 10
 
 		fire_only_once = no
-		
+
 		cost = 150
-		
+
 		visible = {
 			original_tag = USA
 		}
-		
+
 		modifier = {
 		research_speed_factor = 0.10
 		}
-		
+
 		days_remove = 300
 		ai_will_do = {
 			factor = 0
 		}
 
 	}
-	
+
 	USA_americanism_awards_for_the_workers = {
 
 		icon = GFX_decision_generic_decision
@@ -455,22 +457,629 @@ USA_americanism_decisions = {
 		priority = 10
 
 		fire_only_once = no
-		
+
 		cost = 300
-		
+
 		visible = {
 			original_tag = USA
 		}
-		
+
 		modifier = {
 		production_speed_buildings_factor = 0.20
 		}
-		
+
 		days_remove = 300
 		ai_will_do = {
 			factor = 0
 		}
 
 	}
+
+}
+
+#WORKING_WITH_OUR_POPULACE#
+
+USA_calm_the_populace = {
+
+	icon = GFX_decision_generic_decision
+
+	priority = 10
+
+	fire_only_once = no
+
+	visible = {
+		original_tag = USA
+	}
+
+	allowed = {
+
+	}
+	available = {
+		event = usa.foriegn_policy.5.a
+		}
+		visible = {
+			original_tag = USA
+			has_country_flag = USA_calm_the_populace
+					NOT = {
+					has_country_flag = USA_calm_the_populace
+				}
+			}
+
+		cost = 5
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			add_to_variable = { pop_resistance = -20 }
+			add_to_variable = { pop_stab_level = 20 }
+			custom_effect_tooltip = decrase_var_res_20
+			custom_effect_tooltip = incrase_var_stab_10
+		}
+	}
+
+	visible = {
+		original_tag = USA
+		has_country_flag = USA_calm_the_populace
+				NOT = {
+				has_country_flag = USA_calm_the_populace
+			}
+		}
+
+	cost = 5
+	fire_only_once = yes
+	ai_will_do = {
+		factor = 0
+	}
+	complete_effect = {
+		add_to_variable = { pop_resistance = -20 }
+		add_to_variable = { pop_stab_level = 20 }
+		custom_effect_tooltip = decrase_var_res_20
+		custom_effect_tooltip = incrase_var_stab_10
+	}
+	visible = {
+		original_tag = USA
+		has_country_flag = USA_calm_the_populace
+				NOT = {
+				has_country_flag = USA_calm_the_populace
+			}
+		}
+
+	cost = 5
+	fire_only_once = yes
+	ai_will_do = {
+		factor = 0
+	}
+	complete_effect = {
+		add_to_variable = { pop_resistance = -20 }
+		add_to_variable = { pop_stab_level = 20 }
+		custom_effect_tooltip = decrase_var_res_20
+		custom_effect_tooltip = incrase_var_stab_10
+	}
+	visible = {
+		original_tag = USA
+		has_country_flag = USA_calm_the_populace
+				NOT = {
+				has_country_flag = USA_calm_the_populace
+			}
+		}
+
+	cost = 5
+	fire_only_once = yes
+	ai_will_do = {
+		factor = 0
+	}
+	complete_effect = {
+		add_to_variable = { pop_resistance = -20 }
+		add_to_variable = { pop_stab_level = 20 }
+		custom_effect_tooltip = decrase_var_res_20
+		custom_effect_tooltip = incrase_var_stab_10
+	}
+	visible = {
+		original_tag = USA
+		has_country_flag = USA_calm_the_populace
+				NOT = {
+				has_country_flag = USA_calm_the_populace
+			}
+		}
+
+	cost = 5
+	fire_only_once = yes
+	ai_will_do = {
+		factor = 0
+	}
+	complete_effect = {
+		add_to_variable = { pop_resistance = -20 }
+		add_to_variable = { pop_stab_level = 20 }
+		custom_effect_tooltip = decrase_var_res_20
+		custom_effect_tooltip = incrase_var_stab_10
+	}
+		visible = {
+			original_tag = USA
+			has_country_flag = USA_calm_the_populace
+					NOT = {
+					has_country_flag = USA_calm_the_populace
+				}
+			}
+
+		cost = 5
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			add_to_variable = { pop_resistance = -20 }
+			add_to_variable = { pop_stab_level = 20 }
+			custom_effect_tooltip = decrase_var_res_20
+			custom_effect_tooltip = incrase_var_stab_10
+		}
+	}
+
+USA_support_loss = {
+
+	USA_support_timer = {
+		allowed = {
+			}
+			available = {
+				state_target = USA
+			}
+		activation = {
+			NOT = {has_country_flag = false}
+
+		}
+	    visible = {
+			has-country_flag =waning support
+		}
+
+		is_good = no
+		selectable_mission = no
+		days_mission_timeout = 500
+		timeout_effect = {
+			country_event = { id = USA_foriegn_policy_6}
+			complete_effect = {
+				remove_stability = 10
+				remove_war_support = 15
+			}
+		}
+
+        complete_effect = {
+			country_event = { id = USA_foriegn_policy_9 }
+	}
+	m
+}
+
+#RALLY_DEMOMESTIC_WARHAWKS#
+
+USA_rally_the_warhawks = {
+
+	icon = GFX_decision_generic_decision
+
+	priority = 10
+
+	fire_only_once = no
+
+	visible = {
+		original_tag = USA
+		has_country_flag = USA_calm_the_populace
+				NOT = {
+				has_country_flag = USA_calm_the_populace
+			}
+		}
+
+	cost = 5
+	fire_only_once = yes
+	ai_will_do = {
+		factor = 0
+	}
+	complete_effect = {
+		add_to_variable = { pop_resistance = -20 }
+		add_to_variable = { pop_stab_level = 20 }
+		custom_effect_tooltip = decrase_var_res_20
+		custom_effect_tooltip = incrase_var_stab_10
+	}
+	visible = {
+		original_tag = USA
+		has_country_flag = USA_calm_the_populace
+				NOT = {
+				has_country_flag = USA_calm_the_populace
+			}
+		}
+
+	cost = 5
+	fire_only_once = yes
+	ai_will_do = {
+		factor = 0
+	}
+	complete_effect = {
+		add_to_variable = { pop_resistance = -20 }
+		add_to_variable = { pop_stab_level = 20 }
+		custom_effect_tooltip = decrase_var_res_20
+		custom_effect_tooltip = incrase_var_stab_10
+	}
+	visible = {
+		original_tag = USA
+		has_country_flag = USA_calm_the_populace
+				NOT = {
+				has_country_flag = USA_calm_the_populace
+			}
+		}
+
+	cost = 5
+	fire_only_once = yes
+	ai_will_do = {
+		factor = 0
+	}
+	complete_effect = {
+		add_to_variable = { pop_resistance = -20 }
+		add_to_variable = { pop_stab_level = 20 }
+		custom_effect_tooltip = decrase_var_res_20
+		custom_effect_tooltip = incrase_var_stab_10
+	}
+	visible = {
+		original_tag = USA
+		has_country_flag = USA_calm_the_populace
+				NOT = {
+				has_country_flag = USA_calm_the_populace
+			}
+		}
+
+	cost = 5
+	fire_only_once = yes
+	ai_will_do = {
+		factor = 0
+	}
+	complete_effect = {
+		add_to_variable = { pop_resistance = -20 }
+		add_to_variable = { pop_stab_level = 20 }
+		custom_effect_tooltip = decrase_var_res_20
+		custom_effect_tooltip = incrase_var_stab_10
+	}
+	visible = {
+		original_tag = USA
+	}
+
+	allowed = {
+
+	}
+	available = {
+		event = usa.foriegn_policy.5.a
+		}
+		visible = {
+			original_tag = USA
+			has_country_flag = USA_calm_the_populace
+					NOT = {
+					has_country_flag = USA_calm_the_populace
+				}
+			}
+
+		cost = 5
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			add_to_variable = { pop_resistance = -20 }
+			add_to_variable = { pop_stab_level = 20 }
+			custom_effect_tooltip = decrase_var_res_20
+			custom_effect_tooltip = incrase_var_stab_10
+		}
+}
+
+#CALM_DOWN_WALL_STREET#
+
+USA_keep_wall_street_green = {
+
+	icon = GFX_decision_generic_decision
+
+	priority = 10
+
+	fire_only_once = no
+
+	visible = {
+		original_tag = USA
+		has_country_flag = USA_calm_the_populace
+				NOT = {
+				has_country_flag = USA_calm_the_populace
+			}
+		}
+
+	cost = 5
+	fire_only_once = yes
+	ai_will_do = {
+		factor = 0
+	}
+	complete_effect = {
+		add_to_variable = { pop_resistance = -20 }
+		add_to_variable = { pop_stab_level = 20 }
+		custom_effect_tooltip = decrase_var_res_20
+		custom_effect_tooltip = incrase_var_stab_10
+	}
+	visible = {
+		original_tag = USA
+		has_country_flag = USA_calm_the_populace
+				NOT = {
+				has_country_flag = USA_calm_the_populace
+			}
+		}
+
+	cost = 5
+	fire_only_once = yes
+	ai_will_do = {
+		factor = 0
+	}
+	complete_effect = {
+		add_to_variable = { pop_resistance = -20 }
+		add_to_variable = { pop_stab_level = 20 }
+		custom_effect_tooltip = decrase_var_res_20
+		custom_effect_tooltip = incrase_var_stab_10
+	}
+	visible = {
+		original_tag = USA
+		has_country_flag = USA_calm_the_populace
+				NOT = {
+				has_country_flag = USA_calm_the_populace
+			}
+		}
+
+	cost = 5
+	fire_only_once = yes
+	ai_will_do = {
+		factor = 0
+	}
+	complete_effect = {
+		add_to_variable = { pop_resistance = -20 }
+		add_to_variable = { pop_stab_level = 20 }
+		custom_effect_tooltip = decrase_var_res_20
+		custom_effect_tooltip = incrase_var_stab_10
+	}
+	visible = {
+		original_tag = USA
+		has_country_flag = USA_calm_the_populace
+				NOT = {
+				has_country_flag = USA_calm_the_populace
+			}
+		}
+
+	cost = 5
+	fire_only_once = yes
+	ai_will_do = {
+		factor = 0
+	}
+	complete_effect = {
+		add_to_variable = { pop_resistance = -20 }
+		add_to_variable = { pop_stab_level = 20 }
+		custom_effect_tooltip = decrase_var_res_20
+		custom_effect_tooltip = incrase_var_stab_10
+	}
+	visible = {
+		original_tag = USA
+	}
+
+	allowed = {
+
+	}
+	available = {
+		event = usa.foriegn_policy.5.a
+		}
+}
+
+#DEAL_WITH_HUMAN_RIGHTS_GROUPS#
+
+USA_deal_with_human_rights_Groups = {
+
+	icon = GFX_decision_generic_decision
+
+	priority = 10
+
+	fire_only_once = no
+
+	visible = {
+		original_tag = USA
+		has_country_flag = USA_calm_the_populace
+				NOT = {
+				has_country_flag = USA_calm_the_populace
+			}
+		}
+
+	cost = 5
+	fire_only_once = yes
+	ai_will_do = {
+		factor = 0
+	}
+	complete_effect = {
+		add_to_variable = { pop_resistance = -20 }
+		add_to_variable = { pop_stab_level = 20 }
+		custom_effect_tooltip = decrase_var_res_20
+		custom_effect_tooltip = incrase_var_stab_10
+	}
+	visible = {
+		original_tag = USA
+	}
+
+	allowed = {
+
+	}
+	available = {
+		event = usa.foriegn_policy.5.a
+		}
+		visible = {
+			original_tag = USA
+			has_country_flag = USA_calm_the_populace
+					NOT = {
+					has_country_flag = USA_calm_the_populace
+				}
+			}
+
+		cost = 5
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			add_to_variable = { pop_resistance = -20 }
+			add_to_variable = { pop_stab_level = 20 }
+			custom_effect_tooltip = decrase_var_res_20
+			custom_effect_tooltip = incrase_var_stab_10
+		}
+
+	visible = {
+		original_tag = USA
+		has_country_flag = USA_calm_the_populace
+				NOT = {
+				has_country_flag = USA_calm_the_populace
+			}
+		}
+
+	cost = 5
+	fire_only_once = yes
+	ai_will_do = {
+		factor = 0
+	}
+	complete_effect = {
+		add_to_variable = { pop_resistance = -20 }
+		add_to_variable = { pop_stab_level = 20 }
+		custom_effect_tooltip = decrase_var_res_20
+		custom_effect_tooltip = incrase_var_stab_10
+	}
+	visible = {
+		original_tag = USA
+		has_country_flag = USA_calm_the_populace
+				NOT = {
+				has_country_flag = USA_calm_the_populace
+			}
+		}
+
+	cost = 5
+	fire_only_once = yes
+	ai_will_do = {
+		factor = 0
+	}
+	complete_effect = {
+		add_to_variable = { pop_resistance = -20 }
+		add_to_variable = { pop_stab_level = 20 }
+		custom_effect_tooltip = decrase_var_res_20
+		custom_effect_tooltip = incrase_var_stab_10
+	}
+}
+
+#RAMP_FUNDING_THE_MIC#
+
+USA_fund_military_industrial_complex = {
+
+	icon = GFX_decision_generic_decision
+
+	priority = 10
+
+	fire_only_once = no
+
+	visible = {
+		original_tag = USA
+	}
+
+	allowed = {
+
+	}
+	available = {
+		event = usa.foriegn_policy.5.a
+		}
+}
+
+visible = {
+	original_tag = USA
+	has_country_flag = USA_calm_the_populace
+			NOT = {
+			has_country_flag = USA_calm_the_populace
+		}
+	}
+
+cost = 5
+fire_only_once = yes
+ai_will_do = {
+	factor = 0
+}
+complete_effect = {
+	add_to_variable = { pop_resistance = -20 }
+	add_to_variable = { pop_stab_level = 20 }
+	custom_effect_tooltip = decrase_var_res_20
+	custom_effect_tooltip = incrase_var_stab_10
+}
+visible = {
+	original_tag = USA
+	has_country_flag = USA_calm_the_populace
+			NOT = {
+			has_country_flag = USA_calm_the_populace
+		}
+	}
+
+cost = 5
+fire_only_once = yes
+ai_will_do = {
+	factor = 0
+}
+complete_effect = {
+	add_to_variable = { pop_resistance = -20 }
+	add_to_variable = { pop_stab_level = 20 }
+	custom_effect_tooltip = decrase_var_res_20
+	custom_effect_tooltip = incrase_var_stab_10
+}
+visible = {
+	original_tag = USA
+	has_country_flag = USA_calm_the_populace
+			NOT = {
+			has_country_flag = USA_calm_the_populace
+		}
+	}
+
+cost = 5
+fire_only_once = yes
+ai_will_do = {
+	factor = 0
+}
+complete_effect = {
+	add_to_variable = { pop_resistance = -20 }
+	add_to_variable = { pop_stab_level = 20 }
+	custom_effect_tooltip = decrase_var_res_20
+	custom_effect_tooltip = incrase_var_stab_10
+}
+visible = {
+	original_tag = USA
+	has_country_flag = USA_calm_the_populace
+			NOT = {
+			has_country_flag = USA_calm_the_populace
+		}
+	}
+
+cost = 5
+fire_only_once = yes
+ai_will_do = {
+	factor = 0
+}
+complete_effect = {
+	add_to_variable = { pop_resistance = -20 }
+	add_to_variable = { pop_stab_level = 20 }
+	custom_effect_tooltip = decrase_var_res_20
+	custom_effect_tooltip = incrase_var_stab_10
+}
+	visible = {
+	original_tag = USA
+	has_country_flag = USA_calm_the_populace
+			NOT = {
+			has_country_flag = USA_calm_the_populace
+		}
+	}
+
+cost = 5
+fire_only_once = yes
+ai_will_do = {
+	factor = 0
+}
+complete_effect = {
+	add_to_variable = { pop_resistance = -20 }
+	add_to_variable = { pop_stab_level = 20 }
+	custom_effect_tooltip = decrase_var_res_20
+	custom_effect_tooltip = incrase_var_stab_10
+}
+
+}
 
 }

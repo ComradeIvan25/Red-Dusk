@@ -2517,4 +2517,262 @@ focus_tree = {
 			add_ideas = SAF_new_south_african_army
 		}
 	}
+	
+	focus = {
+		id = SAF_junta_military_the_navy
+		icon = GFX_goal_unknown
+		x = 37
+		y = 0
+		
+		prerequisite = { focus = SAF_junta_military_an_army_with_a_state }
+		
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_encourage_the_transport_sector
+		
+		completion_reward = {
+		add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_develop_our_fleet
+		icon = GFX_goal_unknown
+		x = 37
+		y = 1
+		
+		prerequisite = { focus = SAF_junta_military_the_navy }
+		
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_encourage_the_transport_sector
+		
+		completion_reward = {
+		add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_research_new_doctrines
+		icon = GFX_goal_unknown
+		x = 36
+		y = 2
+		
+		prerequisite = { focus = SAF_junta_military_develop_our_fleet }
+		
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_encourage_the_transport_sector
+		
+		completion_reward = {
+		add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_support_the_construction_of_dockyards
+		icon = GFX_goal_unknown
+		x = 38
+		y = 2
+		
+		prerequisite = { focus = SAF_junta_military_develop_our_fleet }
+		
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_encourage_the_transport_sector
+		
+		completion_reward = {
+		add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_increase_fleet_production
+		icon = GFX_goal_unknown
+		x = 37
+		y = 3
+		
+		prerequisite = { focus = SAF_junta_military_research_new_doctrines }
+		prerequisite = { focus = SAF_junta_military_support_the_construction_of_dockyards }
+		mutually_exclusive = { focus = SAF_junta_military_purchase_western_designs }
+		
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_encourage_the_transport_sector
+		
+		completion_reward = {
+		add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_purchase_western_designs
+		icon = GFX_goal_unknown
+		x = 34
+		y = 3
+		
+		prerequisite = { focus = SAF_junta_military_research_new_doctrines }
+		prerequisite = { focus = SAF_junta_military_support_the_construction_of_dockyards }
+		mutually_exclusive = { focus = SAF_junta_military_increase_fleet_production }
+		
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_encourage_the_transport_sector
+		
+		completion_reward = {
+		add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_new_rulers_of_the_south_atlantic_ocean
+		icon = GFX_goal_unknown
+		x = 34
+		y = 4
+		
+		prerequisite = { focus = SAF_junta_military_purchase_western_designs }
+		
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_encourage_the_transport_sector
+		
+		completion_reward = {
+		add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_prioritize_submarines
+		icon = GFX_goal_unknown
+		x = 36
+		y = 4
+		
+		prerequisite = { focus = SAF_junta_military_increase_fleet_production }
+		
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_encourage_the_transport_sector
+		
+		completion_reward = {
+		add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_prioritize_the_surface_fleet
+		icon = GFX_goal_unknown
+		x = 38
+		y = 4
+		
+		prerequisite = { focus = SAF_junta_military_increase_fleet_production }
+		
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_encourage_the_transport_sector
+		
+		completion_reward = {
+		add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_defenders_of_the_south_atlantic_ocean
+		icon = GFX_goal_unknown
+		x = 35
+		y = 5
+		
+		prerequisite = { focus = SAF_junta_military_prioritize_the_surface_fleet }
+		prerequisite = { focus = SAF_junta_military_prioritize_submarines }
+		prerequisite = { focus = SAF_junta_military_new_rulers_of_the_south_atlantic_ocean }
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_encourage_the_transport_sector
+		
+		completion_reward = {
+		add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = SAF_junta_military_defenders_of_the_south_atlantic_ocean
+		icon = GFX_goal_unknown
+		x = 35
+		y = 6
+		
+		prerequisite = { focus = SAF_junta_military_defenders_of_the_south_atlantic_ocean }
+
+		cost = 3
+		ai_will_do = {
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		relative_position_id = SAF_junta_economy_encourage_the_transport_sector
+		
+		completion_reward = {
+		add_political_power = 50
+		}
+	}
 }

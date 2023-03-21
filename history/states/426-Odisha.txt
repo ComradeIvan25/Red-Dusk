@@ -4,7 +4,7 @@ state={
 	name="STATE_426" # Orissa
 	manpower = 36707900
 	
-	state_category = rural
+	state_category = large_town
 	
 	resources={
 		steel=25 # was: 44

@@ -32,6 +32,18 @@ recruit_character = RAJ_atal_vajpayee
 
 add_ideas = ussr_aligned_nation
 
+##nat ideas 
+add_ideas = {
+    RAJ_caste_system
+	RAJ_neverending_military_spending
+	RAJ_parliment_split
+	RAJ_the_southern_revolutionaries
+	RAJ_fragile_union
+}
+
+
+
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1935.11.14"

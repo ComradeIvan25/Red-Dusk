@@ -1,0 +1,86 @@
+ideas = {
+
+	country = {
+
+		RAJ_fragile_union = {
+			name = RAJ_fragile_union_idea_name
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.25
+				political_power_gain = -0.25
+			}
+		}
+		
+		
+		
+		RAJ_the_southern_revolutionaries = {
+			name = RAJ_the_southern_revolutionaries_idea_name
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.1
+				consumer_goods_factor = 0.1
+				army_org = -5.0
+			}
+		}
+		
+		RAJ_parliment_split = {
+			name = RAJ_parliment_split_idea_name
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			
+			}
+	    }
+			
+	    RAJ_neverending_military_spending = {
+			name = RAJ_neverending_military_spending_idea_name
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			consumer_goods_factor = 0.1
+			army_org = 10.0
+			army_attack_factor	= 0.1
+			army_defence_factor = 0.1
+			}
+	    }
+		
+		RAJ_caste_system = {
+			name = RAJ_caste_system_idea_name
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			stability_factor = -0.05
+			research_speed_factor = -0.1
+			}
+		}
+
+	}
+
+}

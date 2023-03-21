@@ -574,3 +574,21 @@
  SOV_design_bureau_uraltransmash:0 "Uraltransmash"
  SOV_design_bureau_splav:0 "NPO Splav"
  SOV_design_bureau_izhevsk:0 "Izhmash Industrial Association"
+ 
+ 
+ ##INDIA
+ 
+ RAJ_fragile_union_idea_name:0 "Fragile Union"
+ RAJ_fragile_union_idea_name_desc:0 "placeholder"
+ 
+ RAJ_the_southern_revolutionaries_idea_name:0 "The Southern Revolutionaries"
+ RAJ_the_southern_revolutionaries_idea_name_desc:0 "placeholder"
+ 
+ RAJ_parliment_split_idea_name:0 "Parliment Split"
+ RAJ_parliment_split_idea_name_desc:0 "placeholder"
+ 
+ RAJ_neverending_military_spending_idea_name:0 "Neverending Military Spending"
+ RAJ_neverending_military_spending_idea_name_desc:0 "placeholder"
+ 
+ RAJ_caste_system_idea_name:0 "Caste System" 
+ RAJ_caste_system_idea_name_desc:0 "placeholder"

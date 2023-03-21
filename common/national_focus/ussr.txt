@@ -4,7 +4,7 @@
 		factor = 0
 		
 		modifier = {
-			add = 10
+			add = 1000
 			tag = SOV
 		}
 	}
@@ -46,7 +46,7 @@
 		mutually_exclusive = { }
 		relative_position_id = SOV_morning_in_moscow
 		
-		cost = 3
+		cost = 1
 		ai_will_do = {
 			factor = 1
 		}
@@ -73,7 +73,7 @@
 		mutually_exclusive = { }
 		relative_position_id = SOV_status_of_the_union
 		
-		cost = 3
+		cost = 2
 		ai_will_do = {
 			factor = 1
 		}
@@ -99,7 +99,7 @@
 		mutually_exclusive = { }
 		relative_position_id = SOV_status_of_the_union
 		
-		cost = 3
+		cost = 2
 		ai_will_do = {
 			factor = 1
 		}
@@ -125,7 +125,7 @@
 		mutually_exclusive = { }
 		relative_position_id = SOV_status_of_the_union
 		
-		cost = 3
+		cost = 2
 		ai_will_do = {
 			factor = 1
 		}
@@ -157,7 +157,7 @@
 		mutually_exclusive = { }
 		relative_position_id = SOV_stagnating_economy
 		
-		cost = 6
+		cost = 4
 		ai_will_do = {
 			factor = 1
 		}
@@ -209,7 +209,7 @@
 		mutually_exclusive = { }
 		relative_position_id = SOV_economic_reforms
 		
-		cost = 5
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -238,7 +238,7 @@
 		mutually_exclusive = { }
 		relative_position_id = SOV_economic_reforms
 		
-		cost = 5
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -261,7 +261,7 @@
 		mutually_exclusive = { }
 		relative_position_id = SOV_economic_reforms
 		
-		cost = 5
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -295,7 +295,7 @@
 		mutually_exclusive = { }
 		relative_position_id = SOV_working_around_clock
 		
-		cost = 6
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -352,7 +352,7 @@
 		mutually_exclusive = { }
 		relative_position_id = SOV_administrative_reforms
 		
-		cost = 5
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -362,12 +362,12 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-          			add_stability = 0.05
-          			add_political_power = -20
-
+          			add_stability = 0.08
+                    add_war_support = 0.03
+					add_political_power = -20
           			add_popularity = {
           			    ideology = communism
-          			    popularity = -0.075
+          			    popularity = -0.065
           			}
 		}
 	}
@@ -382,7 +382,7 @@
 		mutually_exclusive = { }
 		relative_position_id = SOV_administrative_reforms
 		
-		cost = 5
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -408,7 +408,7 @@
 		mutually_exclusive = { }
 		relative_position_id = SOV_administrative_reforms
 		
-		cost = 5
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -422,7 +422,7 @@
 				remove_idea = SOV_party_infighting
 				add_idea = SOV_party_infighting_1
 			}
-          	add_political_power = 20
+          	add_political_power = 50
 			subtract_from_variable = {sov_hardliner_influence_var = 10 }
             		custom_effect_tooltip = hardliner_10_influence_decrease
 			add_to_variable = {sov_militarist_influence_var = 5}
@@ -431,7 +431,7 @@
 			custom_effect_tooltip = kgb_5_influence_increase
 			add_to_variable = {sov_reformist_influence_var = 5}
 			custom_effect_tooltip = reformist_5_influence_increase
-			
+			add_stability=0.02
 			
 		}
 	}
@@ -448,7 +448,7 @@
 		mutually_exclusive = { }
 		relative_position_id = SOV_talk_krychkov
 		
-		cost = 6
+		cost = 4
 		ai_will_do = {
 			factor = 1
 		}
@@ -485,7 +485,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_stability = -0.05
+			add_stability = -0.03
 			SOV = {
 				country_event = { id = ussr.33 }
 			}
@@ -527,7 +527,7 @@
 		mutually_exclusive = { }
 		relative_position_id = SOV_yanayev's_resignation
 		
-		cost = 5
+		cost = 2.5
 		ai_will_do = {
 			factor = 100
 		}

@@ -14,6 +14,34 @@ characters = {
 			id = -1
 		}
 	}
+	EGY_party = {
+		name = "National Democratic Party"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/EGY/National_Democratic_Party.png"
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+	EGY_Khaled_Mohieddin = {
+		name = "Khaled Mohieddin"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/EGY/Khaled_Mohieddin.png"
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
 	
 	EGY_baath = { #yup, another party logo leader. im not wasting any more time finding irrelavent leaders for these countries
 		name = "Egypt Ba'ath Party Command"

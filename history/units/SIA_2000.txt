@@ -1,4 +1,21 @@
-﻿division_template = { # Reconnaissance Division #
+﻿division_template = { # Light Infantry Division #
+	name = "Thahan Phran"
+	division_names_group = GENERIC_INF_01
+
+	regiments = {
+		infantry_unit = { x = 0 y = 0 }
+		infantry_unit = { x = 0 y = 1 }
+		militia_unit = { x = 1 y = 0 }
+		militia_unit = { x = 1 y = 1 }
+                 militia_unit = { x = 1 y = 2 }
+		militia_unit =  {x = 1 y = 3 }
+	}
+	support = {
+
+	}
+	priority = 0
+}
+division_template = { # Reconnaissance Division #
 	name = "Reconnaissance Division"
 	division_names_group = GENERIC_RCN_01
 
@@ -94,23 +111,7 @@ division_template = { # Infantry Division #
 	}
 	priority = 1
 }
-division_template = { # Light Infantry Division #
-	name = "Thahan Phran"
-	division_names_group = GENERIC_INF_01
 
-	regiments = {
-		infantry_unit = { x = 0 y = 0 }
-		infantry_unit = { x = 0 y = 1 }
-		militia_unit = { x = 1 y = 0 }
-		militia_unit = { x = 1 y = 1 }
-                 militia_unit = { x = 1 y = 2 }
-		militia_unit =  {x = 1 y = 3 }
-	}
-	support = {
-
-	}
-	priority = 0
-}
 division_template = { # Paratrooper Division #
 	name = "Paratrooper Division"
 	division_names_group = GENERIC_PAR_01

@@ -699,4 +699,12 @@ spriteTypes = {
 		name = "GFX_news_invasion_of_taiwan"
 		texturefile = "gfx/event_pictures/news_invasion_of_taiwan.png"
 	}
+	spriteType = {
+		name = "GFX_news_Hosni_Mubarak_assasination"
+		texturefile = "gfx/event_pictures/news_Hosni_Mubarak_assasination.png"
+	}
+	spriteType = {
+		name = "GFX_news_egyptian_revolution"
+		texturefile = "gfx/event_pictures/news_egyptian_revolution.png"
+	}
 }

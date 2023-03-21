@@ -215,6 +215,12 @@
  old_times_news.78.t:0 "Tel Aviv Trials"
  old_times_news.78.d:0 "Saddam makes "fair" trials for Israeli officials !! (they all get shot) NOLOC"
  old_times_news.78.a:0 "well that just happened !." 
+ old_times_news.79.t:0 "Egyptian President Assassinated"
+ old_times_news.79.d:0 ""Hosni Mubarak is dead, the President is dead". These words spread throughout the Egyptian people all these days.\n\nAccording to official source, when Mubarak arrived in Cairo for the International Petroleum Conference. On the way to the meeting, an armed group opened fire on Mubarak’s bulletproof car, killing the President and most of his bodyguards. The government believes that Jihad Group is responsible for this assassination.\n\nThe assassination aggravated political tension and economic downturn in Egypt - soaring unemployment, a huge trade deficit, a tourism industry in tatters,...Across the country, extreme Islamic and socialist organizations are also taking advantage of this opportunity to prepare and intensify their activities, National Democratic Party is becoming ever more fragile."
+ old_times_news.79.a:0 "The situation is not about Hosni Mubarak, but the reality is now about Egypt." 
+ old_times_news.80.t:0 "Egyptian Revolution"
+ old_times_news.80.d:0 ""
+ old_times_news.80.a:0 "What was taken by force, can only be restored by force." 
 ## Flavour News Events ##
 
 
@@ -228,7 +234,7 @@
  #flavour_news.4.t:0 ##HIDDEN SCRIPTED EVENT##
  flavour_news.5.t:0 "2000 Summer Olympics"
  flavour_news.5.d:0 "The 2000 Summer Olympics were recently held in Sydney, Australia. The United States saw the most success with 37 gold medals, closely followed by the Soviet Union and China.\n\nMarking the start of the new millenium, these games are already being praised for their quality and entertainment, with some journalists even jokingly remarking that we should 'admit there can never be a better Olympic Games'.\n\nOnce again they prove to be a testament to the international cooperation and sportsmanship that is possible, with athletes being cheered on regardless of nationality. Australia has set a new gold standard, and the next host nation has the difficult task of attempting to reach it."
- flavour_news.5.a:0 "Citius, altius, fortius"
+ flavour_news.6.a:0 "Citius, altius, fortius"
  flavour_news.6.t:0 "2000 Summer Olympics"
  flavour_news.6.d:0 "The 2000 Summer Olympics were recently held in Sydney, Australia. The Soviet Union saw the most success with 39 gold medals, closely followed by the United States and China.\n\nThis victory is a much-needed boost for [SOV.GetLeader.GetSurname], with the Soviets seemingly reasserting themselves on the world stage after a troublesome decade. Undoubtedly, there will be many happy celebrations in the houses of the Soviet elite tonight.\n\nDespite the political showboating, athletes from all participating nations have been friendly and cooperative, a sign that sportsmanship is universal and without borders. The departing Soviet team were seen off by a crowd of cheerful Australians, taking with them personal souvenirs and good memories." flavour_news.6.a:0 "Citius, altius, fortius"
  flavour_news.7.t:0 "2000 Summer Olympics"

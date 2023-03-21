@@ -49,7 +49,7 @@
 		}
 		mutually_exclusive = { }
 		
-		cost = 3
+		cost = 2
 		ai_will_do = {
 			factor = 1
 		}
@@ -75,7 +75,7 @@
 		}
 		mutually_exclusive = { }
 		
-		cost = 3
+		cost = 2
 		ai_will_do = {
 			factor = 1
 		}
@@ -346,7 +346,7 @@
 		}
 		mutually_exclusive = { }
 		
-		cost = 7
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -519,7 +519,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 7
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -672,7 +672,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 7
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -688,7 +688,7 @@
 			add_political_power = 50
 			add_timed_idea = {
  			    idea = SOV_army_purge
-			    days = 600
+			    days = 400
 			}
 			subtract_from_variable = {sov_militarist_influence_var = 10}
 			custom_effect_tooltip = army_10_influence_decrease
@@ -718,7 +718,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 7
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -729,6 +729,7 @@
 		continue_if_invalid = no
 		completion_reward = {
 			add_stability = 0.3
+			add_war_support = 0.15
 			add_political_power = 25
 		        remove_ideas = SOV_party_infighting
 			swap_ideas = {
@@ -753,7 +754,7 @@
 		
 		cost = 3
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 
 		bypass = {
@@ -1009,7 +1010,7 @@
 		prerequisite = {focus = SOV_pugo_little_traitors} 
 		mutually_exclusive = { }
 		
-		cost = 4.3
+		cost = 4
 		ai_will_do = {
 			factor = 1
 		}
@@ -1036,7 +1037,7 @@
 		available = {has_completed_focus = SOV_pugo_reunification_talks}
 		mutually_exclusive = { }
 		
-		cost = 4.3
+		cost = 4
 		ai_will_do = {
 			factor = 1
 		}
@@ -1063,7 +1064,7 @@
 		prerequisite = {focus = SOV_pugo_preparing_their_fate} 
 		mutually_exclusive = { }
 		
-		cost = 5.8
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -1291,7 +1292,7 @@
 		mutually_exclusive = {}
 		
 		
-		cost = 5.8
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -2751,7 +2752,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 4.3
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -4203,7 +4204,7 @@
 		prerequisite = {focus = SOV_pugo_stomp_rich} 
 		mutually_exclusive = { }
 		
-		cost = 5
+		cost = 4
 		ai_will_do = {
 			factor = 900
 		}
@@ -4412,7 +4413,7 @@
 		
 		cost = 5
 		ai_will_do = {
-			factor = 1
+			factor = 900
 		}
 
 		bypass = {
@@ -4589,7 +4590,7 @@
 		prerequisite = {focus = SOV_pugo_ural} 
 		mutually_exclusive = {}
 		
-		cost = 5
+		cost = 4
 		ai_will_do = {
 			factor = 900
 		}
@@ -4611,7 +4612,7 @@
 		prerequisite = {focus = SOV_pugo_stable focus = SOV_pugo_steady}  
 		mutually_exclusive = {}
 		
-		cost = 7
+		cost = 4
 		ai_will_do = {
 			factor = 900
 		}

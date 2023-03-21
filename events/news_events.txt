@@ -1200,6 +1200,36 @@ news_event = {
 		name = old_times_news.78.a
 	}
 }
+#Hosni Mubarak assasination
+news_event = {
+	id = old_times_news.79
+	title = old_times_news.79.t
+	desc = old_times_news.79.d
+	picture = GFX_news_Hosni_Mubarak_assasination
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.79.a
+	}
+}
+#Egyptian Revolution
+news_event = {
+	id = old_times_news.80
+	title = old_times_news.80.t
+	desc = old_times_news.80.d
+	picture = GFX_news_egyptian_revolution
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.80.a
+	}
+}
 
 ### FLAVOUR NEWS EVENTS ###
 

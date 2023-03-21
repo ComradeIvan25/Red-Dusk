@@ -15,7 +15,9 @@ if = {
 set_convoys = 20
 
 recruit_character = EGY_hosni_mubarak
+recruit_character = EGY_party
 recruit_character = EGY_baath
+recruit_character = EGY_Khaled_Mohieddin
 
 add_ideas = usa_aligned_nation
 
@@ -27,8 +29,9 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 20
-	fascism = 80
-	communism = 0
+	fascism = 60
+	communism = 10
+	socialism = 10
 	neutrality = 0
 }
 
@@ -38,4 +41,8 @@ add_opinion_modifier = { target = ISR modifier = HISTORIC_israel_hostile_20_opin
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_naval_oob = "EGY_2000_naval_mtg"
+}
+country_event = {
+    id = egypt.1
+    days = 1069
 }

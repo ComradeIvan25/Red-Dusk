@@ -1970,14 +1970,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/VIN/VIN_invest_south.png"
 	}
 	SpriteType = {
-		name = "GFX_VIN_focus_resources"
-		texturefile = "gfx/interface/goals/VIN/VIN_resources.png"
-	}
-	SpriteType = {
-		name = "GFX_VIN_focus_land_resources"
-		texturefile = "gfx/interface/goals/VIN/VIN_land_resources.png"
-	}
-	SpriteType = {
 		name = "GFX_VIN_focus_saigon_port"
 		texturefile = "gfx/interface/goals/VIN/VIN_saigon_port.png"
 	}

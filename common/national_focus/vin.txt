@@ -999,7 +999,7 @@ focus_tree = {
 	#Land Resources
 	focus = {
 		id = VIN_land_resources
-		icon = GFX_VIN_focus_land_resources
+		icon = GFX_focus_SAF_open_mines
 		x = 4
 		y = 16
 		cost = 2
@@ -1600,7 +1600,173 @@ focus_tree = {
 	 }
      }
 	 }
+	 
+	 #####INDOCHINA WAR######
+	 focus = {
+		id = VIN_chaos_in_cambodia
+		icon = GFX_VIN_focus_edu_reform
+		x = 7
+		y = 20
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		completion_reward = {
 	
+     }
+	 }
+	 focus = {
+		id = VIN_ready_the_army
+		icon = GFX_VIN_focus_edu_reform
+		x = 7
+		y = 21
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_chaos_in_cambodia }
+		completion_reward = {
+	
+     }
+	 }
+	 
+	 focus = {
+		id = VIN_call_laos_ally
+		icon = GFX_VIN_focus_edu_reform
+		x = 6
+		y = 22
+		cost = 0.5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_ready_the_army }
+		completion_reward = {
+	   LAO = { 
+		army_experience = 100
+		add_equipment_to_stockpile = {
+			type = infantry_weapons
+			amount = 1500
+			producer = SOV
+		}
+		add_equipment_to_stockpile = {
+			type = mbt_tank_equipment
+			amount = 50
+			producer = SOV
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 50
+			producer = SOV
+		}
+	   }
+     }
+	 }
+	 focus = {
+		id = VIN_mobilize_their_army
+		icon = GFX_VIN_focus_edu_reform
+		x = 6
+		y = 23
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_call_laos_ally }
+		completion_reward = {
+     }
+	 }
+	 focus = {
+		id = VIN_reorganize_cambodian_army
+		icon = GFX_VIN_focus_edu_reform
+		x = 8
+		y = 22
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_ready_the_army }
+		completion_reward = {
+     }
+	 }
+	 focus = {
+		id = VIN_send_military_advisor
+		icon = GFX_VIN_focus_edu_reform
+		x = 8
+		y = 23
+		cost = 0.5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_reorganize_cambodian_army }
+		completion_reward = {
+     }
+	 }
+	 focus = {
+		id = VIN_begin_the_liberation_war
+		icon = GFX_VIN_focus_edu_reform
+		x = 7
+		y = 24
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_send_military_advisor }
+		prerequisite = { focus = VIN_mobilize_their_army }
+		completion_reward = {
+     }
+	 }
+	 focus = {
+		id = VIN_mobilize_the_economy
+		icon = GFX_VIN_focus_edu_reform
+		x = 9
+		y = 25
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_begin_the_liberation_war }
+		completion_reward = {
+     }
+	 }
+	 focus = {
+		id = VIN_aid_cambodia
+		icon = GFX_VIN_focus_edu_reform
+		x = 8
+		y = 26
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_mobilize_the_economy }
+		completion_reward = {
+     }
+	 }
+	 focus = {
+		id = VIN_aid_laos
+		icon = GFX_VIN_focus_edu_reform
+		x = 10
+		y = 26
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_mobilize_the_economy }
+		completion_reward = {
+     }
+	 }
+	 focus = {
+		id = VIN_seek_help
+		icon = GFX_VIN_focus_edu_reform
+		x = 9
+		y = 27
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_aid_cambodia }
+		prerequisite = { focus = VIN_aid_laos }
+		completion_reward = {
+     }
+	 }
     
 	#######MILITARY########
 	#PAVN

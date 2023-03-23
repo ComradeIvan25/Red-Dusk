@@ -1399,7 +1399,27 @@
  VIN_ground_force:0 "Our Redoubled Steps Resound on the Road"
  VIN_navy:0 "Our Homeland is the Sea"
  VIN_air_force:0 "Dreams of Mastering Fatherland’s Skies"
-
+ VIN_chaos_in_cambodia:0 "Chaos in Cambodia"
+ VIN_ready_the_army:0 "Ready The Army"
+ VIN_call_laos_ally:0 "An Ally in Need"
+ VIN_mobilize_their_army:0 "Mobile Laos Army"
+ VIN_reorganize_cambodian_army:0 "Reorganize The KPRAF"
+ VIN_send_military_advisor:0 "Send Military Advisor"
+ VIN_begin_the_liberation_war:0 "Begin The Liberation War"
+ VIN_mobilize_the_economy:0 "Mobilize The Industry"
+ VIN_aid_cambodia:0 "Send Weapons to Cambodia"
+ VIN_aid_laos:0 "Send Weapons to Laos"
+ VIN_seek_help:0 "Seek Help From the Communist World"
+ VIN_volunteer_army:0 "Vietnamese Volunteer Army"
+ VIN_the_righteous_war:0 "The Righteous War"
+ VIN_for_cambodia:0 "For The Liberation of Cambodia"
+ VIN_for_us:0 "For The National Security of Our Fatherland"
+ VIN_HQ:0 "Establish the Campaign Command"
+ VIN_ensure_supply:0 "Ensure The Supply"
+ VIN_call_the_airforce:0 "Call The Airforce"
+ VIN_war_in_the_shadow:0 "War In The Shadow"
+ VIN_sabotage_FUNCINPEC:0 "Sabotage FUNCINPEC"
+ 
 ## IRQ ##
 
  IRQ_new_era:0 "New Era for Iraq"

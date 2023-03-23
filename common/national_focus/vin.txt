@@ -1608,6 +1608,9 @@ focus_tree = {
 		x = 7
 		y = 20
 		cost = 2
+		available = {
+			always = no
+		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}	
@@ -1717,7 +1720,7 @@ focus_tree = {
 	 focus = {
 		id = VIN_mobilize_the_economy
 		icon = GFX_VIN_focus_edu_reform
-		x = 9
+		x = 11
 		y = 25
 		cost = 2
 		search_filters = {
@@ -1730,7 +1733,7 @@ focus_tree = {
 	 focus = {
 		id = VIN_aid_cambodia
 		icon = GFX_VIN_focus_edu_reform
-		x = 8
+		x = 10
 		y = 26
 		cost = 2
 		search_filters = {
@@ -1743,7 +1746,7 @@ focus_tree = {
 	 focus = {
 		id = VIN_aid_laos
 		icon = GFX_VIN_focus_edu_reform
-		x = 10
+		x = 12
 		y = 26
 		cost = 2
 		search_filters = {
@@ -1756,7 +1759,7 @@ focus_tree = {
 	 focus = {
 		id = VIN_seek_help
 		icon = GFX_VIN_focus_edu_reform
-		x = 9
+		x = 11
 		y = 27
 		cost = 2
 		search_filters = {
@@ -1764,6 +1767,123 @@ focus_tree = {
 		}	
 		prerequisite = { focus = VIN_aid_cambodia }
 		prerequisite = { focus = VIN_aid_laos }
+		completion_reward = {
+     }
+	 }
+	 focus = {
+		id = VIN_volunteer_army
+		icon = GFX_VIN_focus_edu_reform
+		x = 3
+		y = 25
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_begin_the_liberation_war }
+		completion_reward = {
+     }
+	 }
+	 focus = {
+		id = VIN_the_righteous_war
+		icon = GFX_VIN_focus_edu_reform
+		x = 7
+		y = 26
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_volunteer_army }
+		completion_reward = {
+     }
+	 }
+	 focus = {
+		id = VIN_for_cambodia
+		icon = GFX_VIN_focus_edu_reform
+		x = 6
+		y = 27
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_the_righteous_war }
+		completion_reward = {
+     }
+	 }
+	 focus = {
+		id = VIN_for_us
+		icon = GFX_VIN_focus_edu_reform
+		x = 8
+		y = 27
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_the_righteous_war }
+		completion_reward = {
+     }
+	 }
+	 focus = {
+		id = VIN_HQ
+		icon = GFX_VIN_focus_edu_reform
+		x = 3
+		y = 26
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_volunteer_army }
+		completion_reward = {
+     }
+	 }
+	 focus = {
+		id = VIN_ensure_supply
+		icon = GFX_VIN_focus_edu_reform
+		x = 2
+		y = 27
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_HQ }
+		completion_reward = {
+     }
+	 }
+	 focus = {
+		id = VIN_call_the_airforce
+		icon = GFX_VIN_focus_edu_reform
+		x = 4
+		y = 27
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_HQ }
+		completion_reward = {
+     }
+	 }
+	 focus = {
+		id = VIN_war_in_the_shadow
+		icon = GFX_VIN_focus_edu_reform
+		x = 0
+		y = 26
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_volunteer_army }
+		completion_reward = {
+     }
+	 }
+	 focus = {
+		id = VIN_sabotage_FUNCINPEC
+		icon = GFX_VIN_focus_edu_reform
+		x = 0
+		y = 27
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		prerequisite = { focus = VIN_war_in_the_shadow }
 		completion_reward = {
      }
 	 }

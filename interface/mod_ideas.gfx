@@ -433,7 +433,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_idea_COG_africas_world_war_icon"
-		texturefile = "gfx/interface/ideas/COG_africas_ww.dds"
+		texturefile = "gfx/interface/ideas/COG_africas_ww.png"
 	}
 	spriteType = {
 		name = "GFX_idea_RCD_tensions_icon"

@@ -26,6 +26,7 @@ scripted_gui = {  #durangoose note: there was going to be a gui to show who rule
 	 
 	 	visible = {
 	 		original_tag = YUG
+			NOT = {has_country_flag = yug_power_struggle_ended}
 	 	}
 	 
 	 	effects = {

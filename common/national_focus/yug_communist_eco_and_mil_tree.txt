@@ -349,7 +349,7 @@
 	#ECONOMY#
 	shared_focus = {
 		id = YUG_matters_of_economy
-		icon = GFX_focus_YUG_tito_honour
+		icon = GFX_VIN_focus_labour_code
 		x = 16
 		y = 0
 
@@ -433,7 +433,7 @@
 	
 	shared_focus = {
 		id = YUG_moving_away_from_IMF
-		icon = GFX_focus_YUG_tito_honour
+		icon = GFX_focus_YUG_debt
 		x = 15
 		y = 2
 
@@ -546,7 +546,7 @@
 	
 	shared_focus = {
 		id = YUG_keep_in_thouch_with_IMF
-		icon = GFX_focus_YUG_tito_honour
+		icon = GFX_focus_YUG_debt
 		x = 19
 		y = 2
 

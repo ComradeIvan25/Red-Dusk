@@ -14,7 +14,7 @@ ideas = {
 			picture = fragile_union
 
 			modifier = {
-				stability_factor = -0.25
+				stability_factor = -0.2
 				political_power_gain = -0.25
 			}
 		}
@@ -35,7 +35,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.1
 				consumer_goods_factor = 0.1
-				army_org = -5.0
+				army_org_factor = -0.1
 			}
 		}
 		

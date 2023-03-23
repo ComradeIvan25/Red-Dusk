@@ -117,57 +117,24 @@ IRQ_modernization_plans = {
 }
 
 
-YUG_bosnia_SR = {
+YUG_bosnian_rebels = {
 	enable = { always = yes }
 
-	icon = GFX_yug_republics_icon_gui
+	icon = GFX_decision_category_spr_the_seeds_of_revolution
 
 	state_resources_factor = -0.25
-	recruitable_population_factor = -0.15
-	local_building_slots_factor = 0.3
+	recruitable_population_factor = -0.35
+	local_building_slots_factor = -0.3
 	
 }
 
-YUG_montenegro_SR = {
+YUG_kosovar_rebels = {
 	enable = { always = yes }
 
-	icon = GFX_yug_republics_icon_gui
+	icon = GFX_decision_category_spr_the_seeds_of_revolution
 
 	state_resources_factor = -0.25
-	recruitable_population_factor = -0.15
-	local_building_slots_factor = 0.3
-	
-}
-
-YUG_macedonia_SR = {
-	enable = { always = yes }
-
-	icon = GFX_yug_republics_icon_gui
-
-	state_resources_factor = -0.25
-	recruitable_population_factor = -0.15
-	local_building_slots_factor = 0.3
-	
-}
-
-YUG_serbia_SR = {
-	enable = { always = yes }
-
-	icon = GFX_yug_republics_icon_gui
-
-	state_resources_factor = 0.25
-	recruitable_population_factor = 0.15
-	local_building_slots_factor = 0.3
-	
-}
-
-YUG_backa_SAO = {
-	enable = { always = yes }
-
-	icon = GFX_yug_republics_icon_gui
-
-	state_resources_factor = 0.25
-	recruitable_population_factor = 0.15
-	local_building_slots_factor = 0.3
+	recruitable_population_factor = -0.35
+	local_building_slots_factor = -0.3
 	
 }

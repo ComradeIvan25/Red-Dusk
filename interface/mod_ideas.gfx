@@ -705,4 +705,27 @@ spriteTypes = {
 		name = "GFX_idea_tot_economic_mobilisation"
 		texturefile = "gfx/interface/ideas/economy/idea_tot_economic_mobilisation.png"
 	}
+	
+	#INDIA#
+
+	spriteType = {
+		name = "GFX_idea_RAJ_the_southern_revolutionaries"
+		texturefile = "gfx/interface/ideas/south_rebels.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RAJ_fragile_union"
+		texturefile = "gfx/interface/ideas/fragile_union.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RAJ_neverending_military_spending"
+		texturefile = "gfx/interface/ideas/Indian_Arrmy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RAJ_parliment_split"
+		texturefile = "gfx/interface/ideas/parliment_split.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RAJ_caste_system"
+		texturefile = "gfx/interface/ideas/caste.dds"
+	}
 }

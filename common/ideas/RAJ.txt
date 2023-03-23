@@ -10,6 +10,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
+			
+			picture = fragile_union
 
 			modifier = {
 				stability_factor = -0.25
@@ -27,6 +29,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
+			
+			picture = south_rebels
 
 			modifier = {
 				stability_factor = -0.1
@@ -43,6 +47,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
+			
+			picture = parliment_split
 
 			modifier = {
 			
@@ -57,6 +63,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
+			
+			picture = Indian_Arrmy
 
 			modifier = {
 			consumer_goods_factor = 0.1
@@ -74,6 +82,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
+			
+			picture = caste
 
 			modifier = {
 			stability_factor = -0.05

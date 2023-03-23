@@ -243,14 +243,11 @@
  
  yug_stambolic_army_warning:0 "§R If Milosevic Loyalists' strength is 50 or higher, the army might attempt a coup§!"
  
- ## YUG YUGOSLAVIA REPUBLICS ##
+ ## YUG YUGOSLAVIA rebel modifiers ##
  
- YUG_bosnia_SR:0 "SR Bosnia and Herzegovina"
- YUG_montenegro_SR:0 "SR Montenegro"
- YUG_macedonia_SR:0 "SR Macedonia"
- YUG_serbia_SR:0 "SR Serba"
- YUG_backa_SAO:0 "SAO Backa"
- 
+ YUG_bosnian_rebels:0 "Bosnian Rebel Activity"
+ YUG_kosovar_rebels:0 "Kosovar Rebel Activity"
+
  #YUG GUI#####
   
  yug_this_opens_da_gui:0 "The situation of the power struggle"
@@ -258,10 +255,10 @@
  yug_gov_coalition_gui_loc:0 "§YGovernment Coalition§!"
  yug_slobo_faction_loc:0 "Slobodan Milosevic's Faction\nFaction Popularity is [?party_popularity@reformed_communism|%G0]"
  yug_socialist_left_loc:0 "Socialist Left Party\n of Yugoslavia\n\nFaction Popularity is [?party_popularity@socialism|%G0]"
- yug_this_is_slobo_tooltip:0 "Slobodan Milosevic"
- yug_this_is_markovic_tooltip:0 "Mirjana Markovic"
- yug_this_is_seselj_tooltip:0 "Vojislav Seselj"
- yug_this_is_stambolic_tooltip:0 "Ivan Stambolic"
+ yug_this_is_slobo_tooltip:0 "Slobodan Milosevic \n\n------------------\n\n Paramount Leader of Yugoslavia since his rise to power in '89. §YMilosevic§! is renowned for his populist Serb nationalistic policies that almost collapsed Yugoslavia, and left it without Croatia and Slovenia after a war with both nations. §YMilosevic§!'s government slowly became more unpopular due to increasing tensions between different ethnicities, which contributed to growing instability of Yugoslavia with terrorist attacks and crime becaming more common by day.\n\n§YMilosevic§! decided to create a unity government to not fall out of power after the founding of §RNYL§! by Stambolic.\n\n Party Policies : Reformist Communism, Serb Nationalism, Anti-NATO, Market Socialism."
+ yug_this_is_markovic_tooltip:0 "Mirjana Markovic \n\n------------------\n\n §YMilosevic§!'s wife and close advisor. Founded the §tSLPoY§! (often referred as the §tsocialist party§!) in '97 after the announcement of an united opposition by §RIvan Stambolic§!. Most see the §tSocialist Party§! as a puppet to §YMilosevic§! and a prime example of nepotism in politics.\n\nParty Policies : Libertarian Communism/Leftist Nationalism , Moderate Serbian Nationalism, Anti-EU, Market Socialist Economy."
+ yug_this_is_seselj_tooltip:0 "Vojislav Seselj \n\n------------------\n\n Famous for his Ultranationalist stance against many ethnicities of Yugoslavia, Seselj had been opposed against the Communist government of §YMilosevic§! until being allowed to register a party with the condition of allying with §YMilosevic§! to form a unity government. Seselj's party, §OPatriotic Communist Party of Yugoslavia§!, has desrcibed itself as a "National Communist, Patriotic organization" that promotes a perspective of Communism that protects the Serb population. Many leftists have denounced Seselj as a fake Communist with many doubting Seselj would change his mind on communism so quickly.\n\nParty Policies : National Communism, Serb Nationalism, Anti-NATO, Command Economy."
+ yug_this_is_stambolic_tooltip:0 "Ivan Stambolic \n\n------------------\n\n A known critic of §YMilosevic§! since his rise of power. Stambolic is the leader of the §RNew Yugoslav Left§!, founding the party together with smaller parties that couldnt pose a serious threat to §YMilosevic§!'s Government. The Party become the official opposition and rose to prominance after winning multiple seats in the assemly in the 1998 election. With many believing §RNYL§! to finally be the party to end §YMilosevic§!'s dominance of the political scene.\n\n Party Policies : Anti-Establishment, Clasical Communism/Titoism/Popular Frontism, Pro-USSR/Neutral foreign policy orianted against NATO"
 
  yug_national_communist_loc:0 "Patriotic Communist\n Party of Yugoslavia\n\nFaction Popularity is [?party_popularity@fascism|%G0]"
  yug_opposition_gui_loc:0 "§ROpposition§!"

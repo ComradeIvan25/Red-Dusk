@@ -81,6 +81,10 @@ country_event = {
 		name = yug_terror_attack.3.a
 		add_war_support = -0.02
 		add_stability = -0.02		
+			add_popularity = {
+				ideology = paternal_autocracy
+				popularity = 0.025
+			}
 		random_owned_state = {
 			damage_building = {
 				type = infrastructure
@@ -115,6 +119,10 @@ country_event = {
 		BOS = {
 			add_manpower = -242
 		}
+			add_popularity = {
+				ideology = paternal_autocracy
+				popularity = 0.05
+			}
 		hidden_effect = {
 		country_event = {id = yug_terror_attack.1 days = 45}
 		}
@@ -263,6 +271,7 @@ country_event = {
 		107 = {
 			add_manpower = -1
 		}
+		set_country_flag = yug_power_struggle_ended
 			custom_effect_tooltip = yug_decrease_stambolic_pop_20
 			hidden_effect = {
 				add_popularity = {
@@ -292,6 +301,7 @@ country_event = {
 				ideology = fascism
 				popularity = 0.05
 			}
+		set_country_flag = yug_power_struggle_ended			
 		country_event = {id = yug.6 days = 3}
 		news_event = {id = old_times_news.71}
 	}

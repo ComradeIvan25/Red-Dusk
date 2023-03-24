@@ -50,3 +50,23 @@ set_popularities = {
 	communism = 0
 	neutrality = 64
 }
+
+diplomatic_relation = {
+	country = RCK
+	relation = military_access
+}
+
+diplomatic_relation = {
+	country = BRD
+	relation = military_access
+}
+
+diplomatic_relation = {
+	country = RWA
+	relation = military_access
+}
+
+diplomatic_relation = {
+	country = RGO
+	relation = military_access
+}

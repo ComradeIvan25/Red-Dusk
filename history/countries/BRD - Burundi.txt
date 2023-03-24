@@ -53,3 +53,23 @@ declare_war_on = {
 	target = ZIM
 	type = topple_government
 }
+
+diplomatic_relation = {
+	country = RCK
+	relation = military_access
+}
+
+diplomatic_relation = {
+	country = RGO
+	relation = military_access
+}
+
+diplomatic_relation = {
+	country = RWA
+	relation = military_access
+}
+
+diplomatic_relation = {
+	country = UGA
+	relation = military_access
+}

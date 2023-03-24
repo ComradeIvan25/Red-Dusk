@@ -13,6 +13,8 @@ add_ideas = war_economy
 
 add_ideas = usa_aligned_nation
 
+add_ideas = extensive_conscription 
+
 RGO = { set_province_controller = 12907 }
 RGO = { set_province_controller = 2024 }
 RGO = { set_province_controller = 8016 }
@@ -23,6 +25,26 @@ set_technology = {
 	towed_artillery_1960 = 1
 	infantry_anti_tank_weapons_1960 = 1
 	infantry_anti_air_weapons_1960 = 1
+}
+
+diplomatic_relation = {
+	country = RCK
+	relation = military_access
+}
+
+diplomatic_relation = {
+	country = BRD
+	relation = military_access
+}
+
+diplomatic_relation = {
+	country = RWA
+	relation = military_access
+}
+
+diplomatic_relation = {
+	country = UGA
+	relation = military_access
 }
 
 declare_war_on = {

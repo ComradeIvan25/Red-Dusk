@@ -23,6 +23,7 @@ ideas = {
 				stability_factor = -0.3
 				monthly_population = -0.7
 				ai_focus_aggressive_factor = 0.5
+				surrender_limit = 0.1
 			}
 		}
 		

@@ -52,16 +52,13 @@ country_event = {
 			popularity = 0.05
 		}
 		
-		RWA = {
-		dismantle_faction = yes  
-		}
-		RWA = {
+		BRD = {
 		create_faction = "RCD - Goma Forces"
 		}
 		
-		RWA = {
+		BRD = {
 			add_to_faction = RGO
-			add_to_faction = BRD
+			add_to_faction = RWA
 		}
 		
 		UGA = {
@@ -277,7 +274,7 @@ country_event = {
 				white_peace = BRD
 			}
 							
-			RWA = {
+			BRD = {
 			dismantle_faction = yes
 			}
 			
@@ -432,12 +429,12 @@ country_event = {
 				white_peace = BRD
 			}
 							
-			RWA = {
+			BRA = {
 			dismantle_faction = yes
 				white_peace = UGA
 			}
 			
-			BRD = {
+			RWA = {
 				white_peace = UGA
 			}
 			
@@ -590,12 +587,12 @@ country_event = {
 				white_peace = BRD
 			}
 							
-			RWA = {
+			BRD = {
 			dismantle_faction = yes
 				white_peace = UGA
 			}
 			
-			BRD = {
+			RWA  = {
 				white_peace = UGA
 			}
 			

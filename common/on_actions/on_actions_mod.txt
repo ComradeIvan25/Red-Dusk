@@ -4478,7 +4478,7 @@ on_actions = {
 								white_peace = BRD
 							}
 						
-							RWA = {
+							BRD = {
 								dismantle_faction = yes
 							}
 							
@@ -4514,10 +4514,6 @@ on_actions = {
 							}
 						}
 							
-							COG = {
-								white_peace = RCK
-								white_peace = UGA
-							}
 							
 							ANG = {
 								white_peace = RCK
@@ -4534,19 +4530,18 @@ on_actions = {
 								white_peace = UGA
 							}
 							
-							RWA = {
-								white_peace = RCK
-								white_peace = UGA
-							}
-							
-							BRD = {
-								white_peace = RCK
-								white_peace = UGA
-							}
 							
 							UGA = {
 							dismantle_faction = yes
 							country_event = {id = uganda.1 days = 5}
+							white_peace = RGO
+							white_peace = RWA
+							white_peace = BRD
+							white_peace = COG
+							white_peace = ANG
+							white_peace = UNI
+							white_peace = ZIM
+							white_peace = NMB
 							}
 							
 						

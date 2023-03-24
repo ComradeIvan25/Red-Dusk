@@ -2,12 +2,13 @@
 state={
 	id=538
 	name="STATE_538" # Central Congo
-	manpower = 506780
+	manpower = 5026780
 	
-	state_category = pastoral
+	state_category = town
 	history={
 		buildings = {
 			infrastructure = 1
+			arms_factory = 1
 		}
 		owner = RCK
 		add_core_of = COG

@@ -3,7 +3,7 @@ state={
 	name="STATE_932"
 
 	resources={
-		rubber=5.000
+		rubber=15.000
 	}
 
 	history={
@@ -14,6 +14,8 @@ state={
 
 		buildings = {
 			infrastructure = 2
+			arms_factory = 2
+            industrial_complex = 2
 		}
 		victory_points = {
 			5117 3 
@@ -23,8 +25,8 @@ state={
 	provinces={
 		5117 10025 10071 12775 12896 12945
 	}
-	manpower=760170
+	manpower=14760170
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 	local_supplies=0.000
 }

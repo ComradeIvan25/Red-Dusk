@@ -709,6 +709,8 @@
  JAP_fascism_DEF:0 "Japan"
  JAP_democratic:0 "State of Japan"
  JAP_democratic_DEF:0 "Japan"
+ JAP_liberalism:0 "State of Japan"
+ JAP_liberalism_DEF:0 "Japan"
  JAP_neutrality:0 "Japanese Shogunate"
  JAP_neutrality_DEF:0 "the Japanese Shogunate"
  JAP_communism:0 "Japanese People's Republic"

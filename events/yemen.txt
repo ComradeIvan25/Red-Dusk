@@ -34,5 +34,8 @@ country_event = {
 			type = annex_everything
 		}
 	}
+	news_event = {
+		id = old_times_news.85
+	}
 }
 }

@@ -203,7 +203,7 @@ news_event = {
 	id = old_times_news.20
 	title = old_times_news.20.t
 	desc = old_times_news.20.d
-	picture = GFX_news_alf
+	picture = GFX_news_congo_alliance_collapse
 	
 	major = yes
 
@@ -219,7 +219,7 @@ news_event = {
 	id = old_times_news.21
 	title = old_times_news.21.t
 	desc = old_times_news.21.d
-	picture = GFX_news_alf
+	picture = GFX_news_congo_gov_win
 	
 	major = yes
 	
@@ -235,7 +235,7 @@ news_event = {
 	id = old_times_news.22
 	title = old_times_news.22.t
 	desc = old_times_news.22.d
-	picture = GFX_news_alf
+	picture = GFX_news_congo_liberal_win
 	
 	major = yes
 	
@@ -251,7 +251,7 @@ news_event = {
 	id = old_times_news.23
 	title = old_times_news.23.t
 	desc = old_times_news.23.d
-	picture = GFX_news_alf
+	picture = GFX_news_congo_liberal_win
 	
 	major = yes
 	
@@ -1228,6 +1228,81 @@ news_event = {
 	 
 	option ={
 		name = old_times_news.80.a
+	}
+}
+#Ryutaro Hashimoto
+news_event = {
+	id = old_times_news.81
+	title = old_times_news.81.t
+	desc = old_times_news.81.d
+	picture = GFX_news_Ryutaro_Hashimoto
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.81.a
+	}
+}
+###LDP Victory
+news_event = {
+	id = old_times_news.82
+	title = old_times_news.82.t
+	desc = old_times_news.82.d
+	picture = GFX_news_ldp_win_2
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.82.a
+	}
+}
+###DPJ Victory
+news_event = {
+	id = old_times_news.83
+	title = old_times_news.83.t
+	desc = old_times_news.83.d
+	picture = GFX_news_dpj_win
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.83.a
+	}
+}
+###Nong Duc Manh
+news_event = {
+	id = old_times_news.84
+	title = old_times_news.84.t
+	desc = old_times_news.84.d
+	picture = GFX_news_nong_duc_manh
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.84.a
+	}
+}
+###Yemeni Civil War
+news_event = {
+	id = old_times_news.85
+	title = old_times_news.85.t
+	desc = old_times_news.85.d
+	picture = GFX_news_yemeni_civil_war
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.85.a
 	}
 }
 

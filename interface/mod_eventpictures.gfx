@@ -707,4 +707,36 @@ spriteTypes = {
 		name = "GFX_news_egyptian_revolution"
 		texturefile = "gfx/event_pictures/news_egyptian_revolution.png"
 	}
+	spriteType = {
+		name = "GFX_news_Ryutaro_Hashimoto"
+		texturefile = "gfx/event_pictures/news_Ryutaro_Hashimoto.png"
+	}
+	spriteType = {
+		name = "GFX_news_ldp_win_2"
+		texturefile = "gfx/event_pictures/news_ldp_win_2.png"
+	}
+	spriteType = {
+		name = "GFX_news_dpj_win"
+		texturefile = "gfx/event_pictures/news_dpj_win.png"
+	}
+	spriteType = {
+		name = "GFX_news_congo_alliance_collapse"
+		texturefile = "gfx/event_pictures/news_congo_alliance_collapse.png"
+	}
+	spriteType = {
+		name = "GFX_news_congo_gov_win"
+		texturefile = "gfx/event_pictures/news_congo_gov_win.png"
+	}
+	spriteType = {
+		name = "GFX_news_congo_liberal_win"
+		texturefile = "gfx/event_pictures/news_congo_liberal_win.png"
+	}
+	spriteType = {
+		name = "GFX_news_nong_duc_manh"
+		texturefile = "gfx/event_pictures/news_nong_duc_manh.png"
+	}
+	spriteType = {
+		name = "GFX_news_yemeni_civil_war"
+		texturefile = "gfx/event_pictures/news_yemeni_civil_war.png"
+	}
 }

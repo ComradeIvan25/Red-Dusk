@@ -258,6 +258,7 @@ country_event = {
 			VIN = {
 				country_event = { id = vin.14 days = 1 }
 			}
+			news_event = { id = old_times_news.84 }
 	}
 }
 }

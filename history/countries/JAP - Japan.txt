@@ -21,12 +21,16 @@ set_war_support = 0.8
 set_research_slots = 4
 
 set_convoys = 200
-
+recruit_character = JAP_Kazuo_Shii
 recruit_character = JAP_keizō_obuchi
 recruit_character = JAP_yoshiro_mori
 recruit_character = JAP_tetsuzo_fuwa
 recruit_character = JAP_junichiro_koizumi
 recruit_character = JAP_takenori_kanzaki
+recruit_character = JAP_Ryutaro_Hashimoto
+recruit_character = JAP_Naoto_Kan 
+recruit_character = JAP_Yukio_Hatoyama
+
 
 add_ideas = JAP_article_9
 
@@ -417,4 +421,12 @@ if = {
 country_event = {
     id = japan_mod.1
     days = 134
+}
+country_event = {
+    id = japan_mod.2
+    days = 481
+}
+country_event = {
+    id = japan_mod.3
+    days = 1418 
 }

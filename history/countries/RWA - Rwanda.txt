@@ -1,5 +1,7 @@
 ﻿capital = 768
 
+set_oob = "RWA_2000"
+
 set_convoys = 0
 
 recruit_character = RWA_paul_kagame

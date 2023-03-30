@@ -2,15 +2,18 @@
 
 set_research_slots = 3
 
+recruit_character = KOS_kosovo_liberation_army
+
 set_politics = {
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 50
-	neutrality = 30
-	communism = 20
+	democratic = 20
+	liberalism = 5
+	fascism = 40
+	paternal_autocracy = 35
 }

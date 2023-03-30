@@ -45,6 +45,14 @@ spriteTypes = {
 		name = "GFX_decision_cat_saf_foreign_navy_designs"
 		texturefile = "gfx/interface/decisions/decision_cat_picture_saf_foreign_navy_designs.dds"
 	}
+	spriteType = {
+		name = "GFX_decision_cat_generic_factory"
+		texturefile = "gfx/interface/decisions/decision_cat_generic_factory.dds"
+	}	
+	spriteType = {
+		name = "GFX_decision_cat_generic_army"
+		texturefile = "gfx/interface/decisions/decision_cat_generic_army.dds"
+	}		
 	
 	### decision icon stuff ###
 	

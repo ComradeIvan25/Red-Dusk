@@ -1092,3 +1092,107 @@ yug_remmants_of_the_old_gov = {
 	}
 
 }
+
+yug_stambolic_a_new_yugoslavia_category = {
+
+	## theres gonna be tensions which will give you debuffs and collapse yugoslavia if it reaches 100
+	## regime power/popularity is required to do certain decisions, hitting 0 regime popularity will give and idea that decreases pp gain by %15
+	## regime power/popularity can only be increased by either focuses/events or missions (like the ones in vanilla Italy)
+
+	yug_fight_rebels = {
+		icon = GFX_decision_generic_factory
+
+
+		visible = {
+			original_tag = YUG
+			has_completed_focus = YUG_stambolic_a_new_yugoslavia
+		}
+
+		available = {
+			has_completed_focus = YUG_stambolic_a_new_yugoslavia
+		}
+
+		modifier = {
+
+		}
+		
+		cost = 35
+		days_remove = 30
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		
+        complete_effect = {
+			custom_effect_tooltip = yug_milosevic_loyalists_strength_decreases_by_15
+			subtract_from_variable = {yug_regime_popularity_strength = -15}	
+			subtract_from_variable = {yug_regime_ethnic_tensions_strength = -15}	
+
+			add_stability = -0.05
+
+			add_popularity = {
+				ideology = communism
+				popularity = -0.05
+			}
+        }
+	}
+	
+	yug_stambolic_foreign_policy = {
+		icon = GFX_decision_generic_factory
+
+
+		visible = {
+			original_tag = YUG
+			has_completed_focus = YUG_stambolic_a_new_yugoslavia
+		}
+
+		available = {
+			has_completed_focus = YUG_stambolic_a_new_yugoslavia
+		}
+
+		modifier = {
+
+		}
+		
+		cost = 35
+		days_remove = 30
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		
+        complete_effect = {
+			#gets event to decide to align with either USSR or be neutral 
+        }
+	}
+
+	yug_stambolic_foreign_policy = {
+		icon = GFX_decision_generic_factory
+
+
+		visible = {
+			original_tag = YUG
+			has_completed_focus = YUG_stambolic_a_new_yugoslavia
+		}
+
+		available = {
+			has_completed_focus = YUG_stambolic_a_new_yugoslavia
+		}
+
+		modifier = {
+
+		}
+		
+		cost = 35
+		days_remove = 30
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		
+        complete_effect = {
+			#gets event to decide to align with either USSR or be neutral 
+        }
+	}
+
+}

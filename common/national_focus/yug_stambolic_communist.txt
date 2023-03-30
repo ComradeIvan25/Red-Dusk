@@ -2,10 +2,10 @@ focus_tree = {
 	id = yug_stambolic_communist_focus
 	country = {
 		factor = 0
-		#modifier = {
-		#add = 999
-		#tag = YUG
-		#}
+		modifier = {
+		add = 999
+		tag = YUG
+		}
 	}
 	
 	## idea suggested by Madrugada#6988. further planning, refining and coding by durangoose
@@ -312,7 +312,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.30
 			remove_ideas = YUG_what_are_we_2
-			
+			unlock_decision_category_tooltip = yug_stambolic_a_new_yugoslavia_category
 		}
 	}
 	

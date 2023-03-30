@@ -1593,6 +1593,18 @@ spriteTypes = {
 		name = "GFX_focus_IRQ_invite_intellectuals"
 		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_invite_intellectuals.png"
 	}	
+	SpriteType = {
+		name = "GFX_focus_IRQ_brother_nations"
+		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_brother_nations.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_MEEU"
+		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_MEEU.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_deport_iranians"
+		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_deport_iranians.png"
+	}	
 	
    ###SAF###
 

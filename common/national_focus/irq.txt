@@ -1052,7 +1052,7 @@ focus_tree = {
 	
 	focus = {
 		id = IRQ_deport_the_iranians
-		icon = GFX_focus_IRQ_great_iraq 
+		icon = GFX_focus_IRQ_deport_iranians
 		x = -2
 		y = 1
 		relative_position_id = IRQ_greater_iraq
@@ -1097,7 +1097,7 @@ focus_tree = {
 	
 	focus = {
 		id = IRQ_establish_the_brother_nations
-		icon = GFX_focus_IRQ_great_iraq 
+		icon = GFX_focus_IRQ_brother_nations 
 		x = 0
 		y = 1
 		relative_position_id = IRQ_greater_iraq
@@ -1166,7 +1166,7 @@ focus_tree = {
 	
 	focus = {
 		id = IRQ_middle_east_economic_union
-		icon = GFX_focus_IRQ_great_iraq 
+		icon = GFX_focus_IRQ_MEEU 
 		x = 2
 		y = 1
 		relative_position_id = IRQ_greater_iraq

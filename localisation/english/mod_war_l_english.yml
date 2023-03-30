@@ -1,3 +1,12 @@
 ﻿l_english:
-  WAR_NAME_RWA_COG:0 "Second Congo War"
-  WAR_NAME_COG_RWA:0 "Second Congo War"
+  WAR_NAME_COG_UGA:0 "Second Congo War"
+  WAR_NAME_UGA_COG:0 "Second Congo War"
+  
+  WAR_NAME_SRL_TAM:0 "Sri Lankan Civil War"
+  WAR_NAME_TAM_SRL:0 "Sri Lankan Civil War"
+  
+  WAR_NAME_AFG_NRO:0 "Afghan Civil War"
+  WAR_NAME_NRO_AFG:0 "Afghan Civil War" 
+  
+  WAR_NAME_ANG_UNI:0 "Angolan Civil War"
+  WAR_NAME_UNI_ANG:0 "Angolan Civil War" 

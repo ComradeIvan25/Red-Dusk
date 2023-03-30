@@ -18,7 +18,7 @@ characters = {
 		name = "Corneliu Vadim Tudor"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/ROM/Emil_Constantinescu.png"
+				large = "gfx/leaders/ROM/Tudor.png"
 			}
 		}
 		country_leader = {

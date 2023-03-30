@@ -89,3 +89,16 @@ nine_elevent = {
 		date < 2001.09.11
 	}
 }
+
+why_tho = {
+	
+	possible = {
+		has_start_date < 2000.01.02
+	}
+	
+	happened = {
+		is_ironman = yes
+
+	}
+}
+

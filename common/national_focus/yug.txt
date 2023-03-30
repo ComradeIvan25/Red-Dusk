@@ -107,7 +107,7 @@ focus_tree = {
 
 	focus = {
 		id = YUG_the_two_coalition_parties
-		icon = GFX_focus_YUG_slobos_11
+		icon = GFX_focus_SOV_diplo_in_chaos
 		x = -1
 		y = 2
 

@@ -57,14 +57,14 @@ set_politics = {
 }
 
 set_popularities = {
-	communism = 1
-	reformed_communism = 0
-	social_democracy = 43
+	communism = 2
+	reformed_communism = 2
+	social_democracy = 37
 	liberalism = 16
 	democratic = 30
 	neutrality = 0
 	paternal_autocracy = 0
-	fascism = 10
+	fascism = 13
 }
 
 ENG = {

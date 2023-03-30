@@ -2,10 +2,10 @@ focus_tree = {
 	id = yug_stambolic_communist_focus
 	country = {
 		factor = 0
-		modifier = {
-		add = 999
-		tag = YUG
-		}
+		#modifier = {
+		#add = 999
+		#tag = YUG
+		#}
 	}
 	
 	## idea suggested by Madrugada#6988. further planning, refining and coding by durangoose

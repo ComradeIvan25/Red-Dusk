@@ -32,6 +32,15 @@ set_popularities = {
 	neutrality = 80
 }
 
+
+##nat ideas 
+add_ideas = {
+	PAK_no_relation_with_india
+	PAK_rampant_corruption
+	PAK_religious_tension
+	PAK_musilm_state
+}
+
 add_opinion_modifier = { target = RAJ modifier = HISTORIC_india_pakistan_opinion }
 add_opinion_modifier = { target = ISR modifier = HISTORIC_israel_hostile_40_opinion }
 

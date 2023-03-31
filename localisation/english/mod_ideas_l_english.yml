@@ -592,3 +592,18 @@
  
  RAJ_caste_system_idea_name:0 "Caste System" 
  RAJ_caste_system_idea_name_desc:0 "placeholder"
+ 
+ ##pakistan
+ 
+ PAK_no_relation_with_india_name:0 "Diplomatic break down with India"
+ PAK_no_relation_with_india_name_desc:0 "placeholder"
+ 
+ PAK_rampant_corruption_name:0 "Rampant Corruption"
+ PAK_rampant_corruption_name_desc:0 "placeholder"
+ 
+ PAK_religious_tension_name:0 "Religious Tension"
+ PAK_religious_tension_name_name_desc:0 "placeholder"
+ 
+ PAK_musilm_state_name:0 "A Muslim State " 
+ PAK_musilm_state_name_desc:0 "placeholder"
+ 

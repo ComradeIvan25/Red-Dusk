@@ -6,7 +6,7 @@ state={
 		add_core_of = KOR
 		add_core_of = SKR
 		buildings = {
-			industrial_complex = 1
+			industrial_complex = 2
 			arms_factory = 1
 		}
 		victory_points = {
@@ -19,5 +19,5 @@ state={
 	manpower=543453
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-	state_category=city
+	state_category=large_town
 }

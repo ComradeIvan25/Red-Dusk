@@ -57,6 +57,24 @@ ideas = {
 				stability_factor = -0.1
 			}
 		}
+		 PRC_factory_of_the_world = {
+			name = PRC_factory_of_the_world_name
+
+			removal_cost = -1
+
+			picture = PRC_world_fac_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				industrial_capacity_factory = 0.2
+				consumer_goods_factor = 0.2
+				production_factory_efficiency_gain_factor = 0.1
+
+			}
+		}
 
 	}
 	

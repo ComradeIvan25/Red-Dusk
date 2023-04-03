@@ -131,7 +131,7 @@ ideas = {
 				is_puppet = yes
 			}
 			
-			picture = UGA_increasing_auth_icon
+			picture = generic_autho
 
 			allowed = {
 				always = no
@@ -153,7 +153,7 @@ ideas = {
 				is_puppet = yes
 			}
 			
-			picture = UGA_increasing_auth_icon
+			picture = UGA_islam_power
 
 			allowed = {
 				always = no

@@ -66,6 +66,7 @@ set_popularities = {
 add_ideas = PRC_one_child_policy
 add_ideas = PRC_legacy_xiaoping_reform
 add_ideas = PRC_third_taiwan_strait_crisis
+add_ideas =  PRC_factory_of_the_world
 
 add_ideas = china_aligned_nation
 

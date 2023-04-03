@@ -139,6 +139,10 @@ spriteTypes = {
 		name = "GFX_idea_PRC_one_child_icon"
 		texturefile = "gfx/interface/ideas/PRC_one_child_policy.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_PRC_world_fac_icon"
+		texturefile = "gfx/interface/ideas/PRC_world_fac.png"
+	}
 
 	#USA#
 
@@ -458,6 +462,10 @@ spriteTypes = {
 		name = "GFX_idea_UGA_an_army_of_criminals_icon"
 		texturefile = "gfx/interface/ideas/UGA_an_army_of_criminals.png"
 	}
+	spriteType = {
+		name = "GFX_idea_UGA_islam_power"
+		texturefile = "gfx/interface/ideas/UGA_islam_power.png"
+	}
 	
 	spriteType = {
 		name = "GFX_idea_BRD_tutsi_dominance_icon"
@@ -727,5 +735,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_RAJ_caste_system"
 		texturefile = "gfx/interface/ideas/RAJ_caste.png"
+	}
+
+	###GENERIC###
+	spriteType = {
+		name = "GFX_idea_generic_autho"
+		texturefile = "gfx/interface/ideas/generic_autho.png"
 	}
 }

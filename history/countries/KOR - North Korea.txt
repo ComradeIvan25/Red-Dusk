@@ -24,7 +24,6 @@ set_stability = 0.7
 
 recruit_character = KOR_kim_jong_il
 
-add_ideas = KOR_usa_embargo
 add_ideas = KOR_songun
 
 set_research_slots = 4

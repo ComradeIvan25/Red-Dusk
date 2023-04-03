@@ -8,7 +8,7 @@ state={
 	}
 
 
-	state_category = rural
+	state_category = town
 	history={
 		owner = PER
 		victory_points = {
@@ -22,8 +22,9 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 2
+			industrial_complex = 1
 			arms_factory = 1
+			dockyard = 2
 			air_base = 6
 			7982 = {
 				naval_base = 4

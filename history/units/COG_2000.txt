@@ -53,7 +53,7 @@ units = {
 		location = 7716
 		division_template = "Soldats de la Défense du Congo"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = { 
 		division_name = {
@@ -63,7 +63,7 @@ units = {
 		location = 10071
 		division_template = "Soldats de la Défense du Congo"
 		start_experience_factor = -0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = { 
 		division_name = {
@@ -73,7 +73,7 @@ units = {
 		location = 1817
 		division_template = "Soldats de la Défense du Congo"
 		start_experience_factor = -0.2
-		start_equipment_factor = 0.2
+		start_equipment_factor = 0.5
 	}
 	division = { 
 		division_name = {
@@ -93,7 +93,17 @@ units = {
 		location = 5117
 		division_template = "Soldats de la Défense du Congo"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.10
+		start_equipment_factor = 0.3
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 12775
+		division_template = "Soldats de la Défense du Congo"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.5
 	}
 	division = { 
 		division_name = {
@@ -102,7 +112,7 @@ units = {
 		}
 		location = 1516
 		division_template = "Milice de la DRC"
-		start_experience_factor = -0.1
+		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 	}
 	division = { 
@@ -112,7 +122,7 @@ units = {
 		}
 		location = 1516
 		division_template = "Milice de la DRC"
-		start_experience_factor = -0.1
+		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 	}
 	division = { 
@@ -122,18 +132,18 @@ units = {
 		}
 		location = 1516
 		division_template = "Kadogos"
-		start_experience_factor = -0.1
-		start_equipment_factor = 0.2
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
 	}
 	division = { 
 		division_name = {
 			is_name_ordered = yes
 			name_order = 8
 		}
-		location = 1516
+		location = 9986
 		division_template = "Kadogos"
-		start_experience_factor = -0.1
-		start_equipment_factor = 0.2
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
 	}
 	division = { 
 		division_name = {
@@ -143,7 +153,7 @@ units = {
 		location = 9986
 		division_template = "Kadogos"
 		start_experience_factor = -0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.35
 	}
 	division = { 
 		division_name = {
@@ -152,8 +162,8 @@ units = {
 		}
 		location = 10071
 		division_template = "Kadogos"
-		start_experience_factor = -0.1
-		start_equipment_factor = 0.2
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = { 
 		division_name = {
@@ -162,7 +172,7 @@ units = {
 		}
 		location = 10071
 		division_template = "Kadogos"
-		start_experience_factor = -0.1
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
 }

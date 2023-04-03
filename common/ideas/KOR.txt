@@ -79,24 +79,6 @@ ideas = {
 		}
 		
 		
-		KOR_usa_embargo = {
-			name = KOR_usa_embargo_name
-
-			removal_cost = -1
-
-			picture = IRQ_western_embargo_icon
-
-			allowed = {
-				always = no
-			}
-
-			modifier = {
-				industrial_capacity_factory = -0.025
-				industrial_capacity_dockyard = -0.05
-				production_factory_start_efficiency_factor = -0.05
-			}
-		}
-		
 		KOR_songun = {
 			name = KOR_songun_name
 

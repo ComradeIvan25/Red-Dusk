@@ -1162,7 +1162,7 @@ yug_stambolic_a_new_yugoslavia_category = {
 			subtract_from_variable = {yug_regime_ethnic_tensions_strength = -15}	
 			custom_effect_tooltip = yug_regime_ethnic_tensions_strength_decreases_by_15
 			
-			remove_country_flag = yug_stambolic_pop_fight_rebels_in_bosnia_flag
+			clr_country_flag = yug_stambolic_pop_fight_rebels_in_bosnia_flag
 
         }
 		
@@ -1176,7 +1176,7 @@ yug_stambolic_a_new_yugoslavia_category = {
 			add_to_variable = {yug_regime_ethnic_tensions_strength = 30}	
 			custom_effect_tooltip = yug_regime_ethnic_tensions_strength_increases_by_30
 			
-			remove_country_flag = yug_stambolic_pop_fight_rebels_in_bosnia_flag
+			clr_country_flag = yug_stambolic_pop_fight_rebels_in_bosnia_flag
 	
 		}
 	}
@@ -1242,7 +1242,7 @@ yug_stambolic_a_new_yugoslavia_category = {
 			add_to_variable = {yug_regime_popularity_strength = 2}
 			custom_effect_tooltip = yug_regime_popularity_strength_increases_by_2
 			
-			remove_country_flag = yug_stambolic_pop_increase_industrial_capabilities_flag
+			clr_country_flag = yug_stambolic_pop_increase_industrial_capabilities_flag
 
         }
 		
@@ -1253,7 +1253,7 @@ yug_stambolic_a_new_yugoslavia_category = {
 			subtract_from_variable = {yug_regime_popularity_strength = 1}
 			custom_effect_tooltip = yug_regime_popularity_strength_decreases_by_1
 			
-			remove_country_flag = yug_stambolic_pop_increase_industrial_capabilities_flag
+			clr_country_flag = yug_stambolic_pop_increase_industrial_capabilities_flag
 	
 		}
 	}

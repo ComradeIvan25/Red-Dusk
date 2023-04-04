@@ -977,11 +977,15 @@ SML = {
 	color_ui = rgb { 99  165  104 }
 }
 DYR = { 
-	color = rgb { 128 195 230  }
+	color = rgb { 128 195 230 }
 	color_ui = rgb { 128 195 230 }
 }
 OFS = { 
-	color = rgb { 255 166 0  }
+	color = rgb { 255 166 0 }
 	color_ui = rgb { 255 166 0 }
+}
+CMK = { 
+	color = rgb { 139 94 255 }
+	color_ui = rgb { 139 94 255 }
 }
 

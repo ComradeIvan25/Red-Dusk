@@ -1226,7 +1226,7 @@ focus_tree = {
 	
 	focus = {
 		id = IRQ_modernize_iraq
-		icon = GFX_focus_IRQ_chemical_ali
+		icon = GFX_focus_IRQ_modernize_iraq
 		x = 1
 		y = 2
 		relative_position_id = IRQ_greater_iraq
@@ -1306,7 +1306,7 @@ focus_tree = {
 	
 	focus = {
 		id = IRQ_reconstructing_the_economy
-		icon = GFX_focus_IRQ_great_iraq 
+		icon = GFX_focus_IRQ_reconstruction_of_the_economy
 		x = 0
 		y = 2
 		relative_position_id = IRQ_saddam_epic_win
@@ -1372,7 +1372,7 @@ focus_tree = {
 	
 	focus = {
 		id = IRQ_a_sense_of_normalcy
-		icon = GFX_focus_IRQ_great_iraq 
+		icon = GFX_focus_IRQ_a_sense_of_normalcy 
 		x = -1
 		y = 1
 		relative_position_id = IRQ_reconstructing_the_economy
@@ -1409,7 +1409,7 @@ focus_tree = {
 	
 	focus = {
 		id = IRQ_benefits_of_a_planned_economy
-		icon = GFX_focus_IRQ_great_iraq 
+		icon = GFX_focus_IRQ_benefits_of_planned_economy 
 		x = 1
 		y = 1
 		relative_position_id = IRQ_reconstructing_the_economy
@@ -1447,7 +1447,7 @@ focus_tree = {
 	
 	focus = {
 		id = IRQ_domestic_goods_sector
-		icon = GFX_focus_IRQ_great_iraq 
+		icon = GFX_focus_IRQ_domestic_sector 
 		x = 0
 		y = 2
 		relative_position_id = IRQ_reconstructing_the_economy
@@ -1873,39 +1873,13 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = IRQ_an_important_obstacle
+		id = IRQ_scum_of_the_earth
 		icon = GFX_focus_IRQ_great_iraq 
 		x = 0
 		y = 2
 		relative_position_id = IRQ_the_next_step
 		prerequisite = {focus = IRQ_erase_the_hashemite_scum}
 		prerequisite = {focus = IRQ_push_lebanon_to_the_sea}
-
-
-		mutually_exclusive = { }
-		
-		cost = 5
-		ai_will_do = {
-			factor = 100
-		}
-
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		completion_reward = {
-			army_experience = 50
-			mark_focus_tree_layout_dirty = yes
-		}
-	}
-	
-	focus = {
-		id = IRQ_scum_of_the_earth
-		icon = GFX_focus_IRQ_great_iraq 
-		x = 0
-		y = 3
-		relative_position_id = IRQ_the_next_step
-		prerequisite = {focus = IRQ_an_important_obstacle}
 
 		mutually_exclusive = { }
 		
@@ -1920,6 +1894,7 @@ focus_tree = {
 		continue_if_invalid = no
 		completion_reward = {
 			add_war_support = 0.15
+			army_experience = 50
 			IRQ = {
 				add_opinion_modifier = { target = ISR modifier = nonexistant_relations_opinion }
 			}

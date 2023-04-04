@@ -244,6 +244,9 @@
  YUG_rebuilding_what_we_have_idea_name:0 "Rebuilding what we have"
  YUG_rebuilding_what_we_have_idea_name_desc:0 ""
  
+ YUG_another_wave_of_insurgency_name:0 "Another Wave of Insurgency"
+ YUG_another_wave_of_insurgency_name_desc:0 ""
+ 
  YUG_yugoslav_railways:0 "Yugoslav Railways"
  
  BOS_indepandance_war_fighter_experience_name:0 "Independence Spirit"
@@ -605,6 +608,6 @@
  PAK_religious_tension_name:0 "Religious Tension"
  PAK_religious_tension_name_name_desc:0 "placeholder"
  
- PAK_musilm_state_name:0 "A Muslim State " 
- PAK_musilm_state_name_desc:0 "placeholder"
+ PAK_muslim_state_name:0 "A Muslim State " 
+ PAK_muslim_state_name_desc:0 "placeholder"
  

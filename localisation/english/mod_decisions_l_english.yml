@@ -426,6 +426,15 @@
  yug_reform_the_socialists:0 "Reform the Socialists"
  yug_return_of_the_SKJ:0 "Return of the SKJ"
  yug_reform_the_SBD:0 "Reform the SBD"
+ 
+ yug_stambolic_a_new_yugoslavia_category:0 "A New Yugoslavia"
+ yug_stambolic_a_new_yugoslavia_category_desc:0 "do programs n stuff, yeeeeeah (i suck ass at writing descs - durangoose) NOLOC\n\n§G£influence_decision Stambolic Programs' popularity is [?yug_stambolic_program_pop]\n§!If it reaches 0 the political power gain will decrease by %15\n\n£fire_decision §REthnic tensions is [?yug_stambolic_tensions]§!\nIf ethnic tensions rise to 100 §RYugoslavia will collapse§!"
+
+ yug_stambolic_pop_fight_rebels_in_bosnia:0 "Fight rebels in Bosnia"
+ yug_stambolic_pop_fight_rebels_in_bosnia_mission:0 "§tFighting rebels in Bosnia§!"
+ 
+ yug_stambolic_pop_increase_industrial_capabilities:0 "Increase Industrial Capabilities"
+ yug_stambolic_pop_increase_industrial_capabilities_mission:0 "§GIncreasing Industrial Capabilities§!" 
  ## USA ##
 
  category_USA_congress:0 "United States Congress"

@@ -243,6 +243,18 @@
  
  yug_stambolic_army_warning:0 "§R If Milosevic Loyalists' strength is 50 or higher, the army might attempt a coup§!"
  
+ ## stambolic programs ##
+ 
+ yug_regime_popularity_strength_increases_by_1:0 "§G£influence_decision Stambolic Programs' popularity§! §Gincreases§! by 1"
+ yug_regime_popularity_strength_increases_by_2:0 "§G£influence_decision Stambolic Programs' popularity§! §Gincreases§! by 2"
+
+ yug_regime_popularity_strength_decreases_by_1:0 "§G£influence_decision Stambolic Programs' popularity§! §Rdecreases§! by 1"
+ 
+ yug_regime_ethnic_tensions_strength_decreases_by_15:0 "£fire_decision §REthnic tensions§! §Gdecreases§! by 15"
+ 
+ yug_regime_ethnic_tensions_strength_increases_by_30:0 "£fire_decision §REthnic tensions§! §Rincreases§! by 30"
+
+ 
  ## YUG YUGOSLAVIA rebel modifiers ##
  
  YUG_bosnian_rebels:0 "Bosnian Rebel Activity"
@@ -276,7 +288,6 @@
  yug_increase_stambolic_pop_10:0 "§YNew Yugoslav Left§!'s popularity §Gincreases§! by 10%" 
  yug_increase_natcom_pop_25:0 "§YPatriotic Communist Party of Yugoslavia§!'s popularity §Gincreases§! by 2.5%"
  yug_increase_natcom_pop_5:0 "§YPatriotic Communist Party of Yugoslavia§!'s popularity §Gincreases§! by 5%"
-
  ###CULTURE WAR###
  
  culture_war_leaning_balanced:0 "§gBalanced§!"

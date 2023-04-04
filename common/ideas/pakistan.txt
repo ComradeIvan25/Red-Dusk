@@ -11,10 +11,9 @@ ideas = {
 				always = no
 			}
 			
-			picture = 	
+			#picture = 	
 
 			modifier = {
-				add_opinion_modifier = { target = RAJ modifier = large_decrease }
 				political_power_gain = -0.25
 			}
 		}
@@ -30,7 +29,7 @@ ideas = {
 				always = no
 			}
 			
-			picture = 
+			#picture = 
 
 			modifier = {
 				stability_factor = -0.15
@@ -47,18 +46,18 @@ ideas = {
 				always = no
 			}
 			
-			picture = 
+			#picture = 
 
 			modifier = {
 			
 			stability_factor = -0.15
 			political_power_gain = -0.25
-			add_opinion_modifier = { target = RAJ modifier = large_decrease }
+			
 			}
 	    }
 			
-	    PAK_musilm_state = {
-			name = PAK_musilm_state_name
+	    PAK_muslim_state = {
+			name = PAK_muslim_state_name
 
 			removal_cost = -1
 
@@ -66,7 +65,7 @@ ideas = {
 				always = no
 			}
 			
-			picture =
+			#picture =
 
 			modifier = {
 		

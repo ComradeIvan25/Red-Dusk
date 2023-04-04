@@ -73,4 +73,17 @@ spriteTypes = {
 		texturefile = "gfx/texticons/pol_power_20x20.dds"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = {
+		name = "GFX_fire_decision"
+		texturefile = "gfx/texticons/fire_decision.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_fire_decision_blocked"
+		texturefile = "gfx/texticons/fire_decision_blocked.dds"
+		legacy_lazy_load = no
+	}
+	
 }

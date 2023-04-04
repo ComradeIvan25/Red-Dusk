@@ -312,6 +312,8 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.30
 			remove_ideas = YUG_what_are_we_2
+			set_variable = {yug_regime_popularity_strength = 5}
+			set_variable = {yug_regime_ethnic_tensions_strength = 45}
 			unlock_decision_category_tooltip = yug_stambolic_a_new_yugoslavia_category
 		}
 	}
@@ -752,6 +754,215 @@ focus_tree = {
 				add_state_core = 736
 			}
 			country_event = {id = yug.11}
+		}
+	}
+	
+	focus = {
+		id = YUG_stambolic_greater_yugoslav_idea
+		icon = GFX_focus_YUG_tito_honour
+		x = 0
+		y = 1
+		
+		prerequisite = {focus = YUG_stambolic_united_once_more}
+		available = {
+		}
+		mutually_exclusive = { }
+		relative_position_id = YUG_stambolic_united_once_more
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = -0.20
+			add_war_support = 0.10
+	
+		ALB = {
+			every_core_state = { 
+			add_claim_by = YUG
+
+			}	
+		}
+		
+		BUL = {
+			every_core_state = { 
+			add_claim_by = YUG
+
+			}	
+		}
+
+		}
+	}
+	
+	focus = {
+		id = YUG_stambolic_crush_albania
+		icon = GFX_focus_YUG_tito_honour
+		x = -2
+		y = 1
+		
+		prerequisite = {focus = YUG_stambolic_greater_yugoslav_idea}
+		available = {
+		}
+		mutually_exclusive = { }
+		relative_position_id = YUG_stambolic_greater_yugoslav_idea
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			declare_war_on = {
+				target = ALB
+				type = annex_everything
+			}
+
+		}
+	}
+	
+	focus = {
+		id = YUG_stambolic_crush_bulgaria
+		icon = GFX_focus_YUG_tito_honour
+		x = 2
+		y = 1
+		
+		prerequisite = {focus = YUG_stambolic_greater_yugoslav_idea}
+		available = {
+			NOT = {	BUL = {is_puppet_of = SOV}}
+		}
+		mutually_exclusive = {focus = YUG_stambolic_negotiate_for_bulgaria}
+		relative_position_id = YUG_stambolic_greater_yugoslav_idea
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			declare_war_on = {
+				target = BUL
+				type = annex_everything
+			}
+
+		}
+	}
+	
+	focus = {
+		id = YUG_stambolic_negotiate_for_bulgaria
+		icon = GFX_focus_YUG_tito_honour
+		x = 4
+		y = 1
+		
+		prerequisite = {focus = YUG_stambolic_greater_yugoslav_idea}
+		available = {
+			BUL = {is_puppet_of = SOV}
+		}
+		mutually_exclusive = {focus = YUG_stambolic_crush_bulgaria}
+		relative_position_id = YUG_stambolic_greater_yugoslav_idea
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			#TODO : event chain where you negotiate with soviets
+
+		}
+	}
+	
+	focus = {
+		id = YUG_stambolic_run_over_trieste
+		icon = GFX_focus_YUG_tito_honour
+		x = 0
+		y = 1
+		
+		prerequisite = {focus = YUG_stambolic_greater_yugoslav_idea}
+		available = {
+		}
+		mutually_exclusive = { }
+		relative_position_id = YUG_stambolic_greater_yugoslav_idea
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = {
+					state = 736
+					num_provinces = 2
+					modifier = 0.1
+					dig_in_factor = 0
+					terrain_factor = 0
+				}	
+				defender = {
+					state = 937
+					num_provinces = 1
+
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = YUG_stambolic_a_balkan_superpower
+		icon = GFX_focus_YUG_tito_honour
+		x = 1
+		y = 2
+		
+		prerequisite = {focus = YUG_stambolic_run_over_trieste}
+		prerequisite = {focus = YUG_stambolic_crush_albania}
+		prerequisite = {focus = YUG_stambolic_crush_bulgaria focus = YUG_stambolic_negotiate_for_bulgaria}
+	
+		available = {
+			YUG = {owns_State = 48}
+			YUG = {owns_State = 44}
+			
+		}
+		mutually_exclusive = { }
+		relative_position_id = YUG_stambolic_greater_yugoslav_idea
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = -0.1
+			swap_ideas =  {
+			remove_idea = YUG_after_tito_2
+			add_idea = YUG_after_tito_stambolic_yug_end
+			}
+			add_ideas = YUG_another_wave_of_insurgency
 		}
 	}
 	

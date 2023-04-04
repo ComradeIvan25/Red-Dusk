@@ -1605,7 +1605,27 @@ spriteTypes = {
 		name = "GFX_focus_IRQ_deport_iranians"
 		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_deport_iranians.png"
 	}	
-	
+	SpriteType = {
+		name = "GFX_focus_IRQ_modernize_iraq"
+		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_modernize_iraq.png"
+	}	
+	SpriteType = {
+		name = "GFX_focus_IRQ_benefits_of_planned_economy"
+		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_benefits_of_planned_economy.png"
+	}		
+	SpriteType = {
+		name = "GFX_focus_IRQ_domestic_sector"
+		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_domestic_sector.png"
+	}	
+	SpriteType = {
+		name = "GFX_focus_IRQ_a_sense_of_normalcy"
+		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_a_sense_of_normalcy.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_reconstruction_of_the_economy"
+		texturefile = "gfx/interface/goals/IRQ/focus_IRQ_reconstruction_of_the_economy.png"
+	}	
+
    ###SAF###
 
 	SpriteType = {

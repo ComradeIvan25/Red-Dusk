@@ -73,7 +73,7 @@
 		mutually_exclusive = { }
 		relative_position_id = SOV_status_of_the_union
 		
-		cost = 2
+		cost = 1
 		ai_will_do = {
 			factor = 1
 		}
@@ -99,7 +99,7 @@
 		mutually_exclusive = { }
 		relative_position_id = SOV_status_of_the_union
 		
-		cost = 2
+		cost = 1
 		ai_will_do = {
 			factor = 1
 		}
@@ -125,7 +125,7 @@
 		mutually_exclusive = { }
 		relative_position_id = SOV_status_of_the_union
 		
-		cost = 2
+		cost = 1
 		ai_will_do = {
 			factor = 1
 		}
@@ -135,8 +135,8 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			subtract_from_variable = {sov_hardliner_influence_var = 15}
-			custom_effect_tooltip = hardliner_15_influence_decrease
+			subtract_from_variable = {sov_hardliner_influence_var = 10}
+			custom_effect_tooltip = hardliner_10_influence_decrease
 			add_popularity = {
 				ideology = communism
 				popularity = -0.05
@@ -157,7 +157,7 @@
 		mutually_exclusive = { }
 		relative_position_id = SOV_stagnating_economy
 		
-		cost = 4
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -196,6 +196,8 @@
 				add_idea = SOV_stagnating_economy_1
 				remove_idea = SOV_stagnating_economy
 			}
+			add_to_variable = {sov_hardliner_influence_var = 5}
+			custom_effect_tooltip = hardliner_5_influence_increase
 		}
 	}
 
@@ -334,8 +336,8 @@
 		completion_reward = {
 		add_political_power = -100
 		add_stability = 0.10
-			add_to_variable = {sov_hardliner_influence_var = 5}
-			custom_effect_tooltip = hardliner_5_influence_increase
+			add_to_variable = {sov_hardliner_influence_var = 10}
+			custom_effect_tooltip = hardliner_10_influence_increase
 
 			add_to_variable = {sov_reformist_influence_var = 5}
 			custom_effect_tooltip = reformist_5_influence_increase
@@ -392,15 +394,18 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_to_variable = {sov_kgb_influence_var = 5 }
-			custom_effect_tooltip = kgb_5_influence_increase
+			add_to_variable = {sov_kgb_influence_var = 10 }
+			custom_effect_tooltip = kgb_10_influence_increase
+			add_to_variable = {sov_hardliner_influence_var = 10}
+			custom_effect_tooltip = hardliner_10_influence_increase
+			add_stability = 0.05
 			add_political_power = 15
 		}
 	}
 
 	focus = {
 		id = SOV_make_concessions
-		icon = GFX_focus_SOV_make_concessions
+		icon = GFX_SOV_keep_your_friend_close
 		x = 2
 		y = 1
 
@@ -423,8 +428,8 @@
 				add_idea = SOV_party_infighting_1
 			}
           	add_political_power = 50
-			subtract_from_variable = {sov_hardliner_influence_var = 10 }
-            		custom_effect_tooltip = hardliner_10_influence_decrease
+			subtract_from_variable = {sov_hardliner_influence_var = 5 }
+            		custom_effect_tooltip = hardliner_5_influence_decrease
 			add_to_variable = {sov_militarist_influence_var = 5}
 			custom_effect_tooltip = army_5_influence_increase
 			add_to_variable = {sov_kgb_influence_var = 5}
@@ -448,7 +453,7 @@
 		mutually_exclusive = { }
 		relative_position_id = SOV_talk_krychkov
 		
-		cost = 4
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -475,7 +480,7 @@
 		mutually_exclusive = { }
 		relative_position_id = SOV_quantity_over_quality
 		
-		cost = 3
+		cost = 2
 		ai_will_do = {
 			factor = 1
 		}
@@ -500,7 +505,7 @@
 		prerequisite = {focus = SOV_this_isnt_working}
 		relative_position_id = SOV_this_isnt_working
                
-		cost=3
+		cost = 2.5
 		ai_will_do = {
 			factor = 100
 		}
@@ -527,7 +532,7 @@
 		mutually_exclusive = { }
 		relative_position_id = SOV_yanayev's_resignation
 		
-		cost = 2.5
+		cost = 2
 		ai_will_do = {
 			factor = 100
 		}

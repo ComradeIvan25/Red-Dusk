@@ -41,7 +41,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = cold_war_soviet_offensive_or_defensive_icon
+			picture = cold_war_comecon_icon
 
 			allowed = {
 				NOT = {has_war_with = SOV}

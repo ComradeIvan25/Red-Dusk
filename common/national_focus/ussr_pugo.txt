@@ -49,7 +49,7 @@
 		}
 		mutually_exclusive = { }
 		
-		cost = 2
+		cost = 1
 		ai_will_do = {
 			factor = 1
 		}
@@ -75,7 +75,7 @@
 		}
 		mutually_exclusive = { }
 		
-		cost = 2
+		cost = 1.5
 		ai_will_do = {
 			factor = 1
 		}
@@ -102,7 +102,7 @@
 		}
 		mutually_exclusive = { }
 		
-		cost = 2
+		cost = 1.5
 		ai_will_do = {
 			factor = 1
 		}
@@ -127,7 +127,7 @@
 		}
 		mutually_exclusive = { }
 		
-		cost = 3
+		cost = 2
 		ai_will_do = {
 			factor = 1
 		}
@@ -153,7 +153,7 @@
 		}
 		mutually_exclusive = { }
 		
-		cost = 5
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -228,7 +228,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_stability = -0.15
+			add_stability = -0.1
 			add_political_power = 30
 			add_manpower = -100
                                 add_popularity = {
@@ -346,7 +346,7 @@
 		}
 		mutually_exclusive = { }
 		
-		cost = 5
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -385,7 +385,6 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_stability = -0.05
 			add_political_power = 15
 		}
 	}
@@ -519,7 +518,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 5
+		cost = 4
 		ai_will_do = {
 			factor = 1
 		}
@@ -624,7 +623,7 @@
 			custom_effect_tooltip = hardliner_15_influence_increase
 			add_to_variable = {sov_kgb_influence_var = 10 }
 			custom_effect_tooltip = kgb_10_influence_increase
-			add_war_support = -0.07
+			add_war_support = -0.02
 			add_political_power = 30
 		}
 	}
@@ -672,7 +671,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 5
+		cost = 4
 		ai_will_do = {
 			factor = 1
 		}
@@ -718,7 +717,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 5
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -729,7 +728,7 @@
 		continue_if_invalid = no
 		completion_reward = {
 			add_stability = 0.3
-			add_war_support = 0.15
+			add_war_support = 0.3
 			add_political_power = 25
 		        remove_ideas = SOV_party_infighting
 			swap_ideas = {
@@ -780,7 +779,7 @@
 		mutually_exclusive = { 
 		}
 		
-		cost = 3
+		cost = 2.5
 		ai_will_do = {
 			factor = 1
 		}
@@ -802,7 +801,12 @@
 		x = 10
 		y = 11
 		
-		
+		available = {
+			
+				has_completed_focus = SOV_pugo_31th_party_congress
+				has_completed_focus = SOV_mil_red_bears_fist
+			    has_completed_focus = SOV_pugo_gorby_mistake
+		}
 		prerequisite = {focus = SOV_pugo_army} 
 		prerequisite = {focus = SOV_matters_of_the_economy} 
 		mutually_exclusive = { }
@@ -2540,8 +2544,7 @@
 				limit = {
 					OR = {
 					has_government = communism
-					has_government = reformed_communism
-					has_government = socialism					
+					has_government = reformed_communism				
 					}
 					NOT = {has_idea = usa_aligned_nation}
 					NOT = {has_idea = china_aligned_nation}
@@ -2658,14 +2661,10 @@
 					NOT = {has_idea = ussr_aligned_nation}
 					NOT = {has_idea = cold_war_comecon}
 					NOT = {original_tag = SOV}
-					NOT = {has_government = fascism}
-					NOT = {has_government = anarchism}
-					NOT = {has_government = paternal_autocracy}
-					NOT = {has_government = neutrality}
-					NOT = {has_government = democratic}
-					NOT = {has_government = liberalism}
+					has_government = socialism
 					
 				}
+				
 				country_event = {id =ussr_foreign_policy.4}
 				
 			}
@@ -3425,7 +3424,11 @@
 		prerequisite = {
 			focus = SOV_pugo_ally_with_the_religious focus = SOV_pugo_sponsor_soviet_youth
 		}
-		mutually_exclusive = { 
+		prerequisite = { 
+			focus = SOV_pugo_CPSU_reborn
+		}
+		prerequisite = { 
+			focus = SOV_pugo_preparing_for_party_congress
 		}
 		
 		cost = 1

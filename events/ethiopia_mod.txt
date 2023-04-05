@@ -20,7 +20,6 @@ country_event = {
 		name = ethiopia_mod.1.a
 		set_country_flag = eth_weridwali_fails
 		add_stability = -0.30
-		add_war_support = -0.50
 		country_event = {id = ethiopia_mod.2 days = 2}
 		
 		ai_chance = {
@@ -46,7 +45,7 @@ country_event = {
 				ideology = communism
 				popularity = 0.5
 			}
-
+       add_war_support = 0.05
 		ETV = {
 		transfer_state = 839
 		add_state_core = 839
@@ -72,6 +71,7 @@ country_event = {
 		ETV = {
 		give_military_access = ERI
 		}
+		load_oob = "ETH_emergency_militia"
 					
 			ETH = {
 				transfer_units_fraction= {
@@ -103,7 +103,10 @@ country_event = {
 		ETV = {
 		give_military_access = ERI
 		}
-		
+		ETH = {
+			load_oob = "ETH_emergency_militia"
+		}
+		add_war_support = 0.05
 		ETV = {
 		transfer_state = 839
 		add_state_core = 839

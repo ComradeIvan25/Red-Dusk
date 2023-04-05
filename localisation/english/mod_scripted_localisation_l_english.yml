@@ -350,7 +350,8 @@
  reformist_5_influence_decrease:0 "The §t£sov_reformist_faction_texticon Reformist Faction§!'s influence §Rdecreases§! by 5."
  reformist_10_influence_decrease:0 "The §t£sov_reformist_faction_texticon Reformist Faction§!'s influence §Rdecreases§! by 10."
  
- hardliner_10_influence_decrease:0 "The §R£sov_hardliner_faction_texticon Hardliner Faction§!'s influence §Rdecreases§! by 10." 
+ hardliner_10_influence_decrease:0 "The §R£sov_hardliner_faction_texticon Hardliner Faction§!'s influence §Rdecreases§! by 10."
+ hardliner_5_influence_decrease:0 "The §R£sov_hardliner_faction_texticon Hardliner Faction§!'s influence §Rdecreases§! by 5."  
  
  hardliner_15_influence_decrease:0 "The §R£sov_hardliner_faction_texticon Hardliner Faction§!'s influence §Rdecreases§! by 15."
  army_15_influence_decrease:0 "The §g£sov_army_faction_texticon Militarist Faction§!'s influence §Rdecreases§! by 15."

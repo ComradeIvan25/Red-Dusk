@@ -176,6 +176,13 @@
  PRC_one_child_policy_name_desc:0 ""
  PRC_factory_of_the_world_name:0 "Factory of The World"
 
+ ITA_second_republic_name:0 "The Second Republic"
+ ITA_second_republic_name_desc:0 "Un Voto per la Repubblica è un Voto Per Te!\n(A vote for the Republic is a vote for you.)\n\nThe Italian Republic was not born in meaningless words and false promises, it was born in the fire of social revolution, and the blood of patriots - brave resistance fighter against the decadent fascists. Brothers of Italy, Italy has woken, from the Alps to Sicily, let's us united and sing aloud proudly:\n\n"Long live Italy,\nShe has awoken from slumber,\nbound Scipio's helmet\nUpon her head.\nWhere is Victory?\nLet her bow down,\nBecause as a slave of Rome\nGod created her.""
+ ITA_mafia_name:0 "The Invisibile Menance"
+ ITA_mafia_name_desc:0 "For Years, to the Second World War, to the Modern day, the Mafia has been like a knife in our back. For our population, mainly in the South, it is like an inevitable threat, which shamelessly carries out all kinds of acts, only for the purpose of profit. The only ones who came close to destroying it were our two Magistrates, Giovanni Falcone and Paolo Borsellino, killed in two different attacks by Cosa Nostra. As long as we don't deal with it, they will continue to massacrate La nostra Bella Italia."
+ ITA_ciampi_gov_name:0 "Ciampi’s Goverment"
+ ITA_ciampi_gov_name_desc:0 "Carlo Ciampi is member of the Democratic Party (PD), President of the Republic, and has the right to be a Senator for Life. His government is very stable and popular in Italy, which guarantees us politcal stability."
+
  CHI_third_taiwan_strait_crisis_idea_name:0 "Third Taiwan Strait Crisis"
  CHI_third_taiwan_strait_crisis_idea_name_desc:0 "Despite multiple serious provications from the People's Republic of China, our government has held firm and withstood their threats. Furthermore, the United States has reasserted its commitment to us, something which should reassure even the most nervous Taiwanese citizen."
  

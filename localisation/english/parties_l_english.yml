@@ -263,13 +263,18 @@
  ENG_fascism_party_long:0 "UK Independence Party"
  
  
- ITA_communism_party:0 "PRC"
- ITA_communism_party_long:0 "Partito della Rifondazione Comunista"
- ITA_democratic_party:0 "DS"
- ITA_fascism_party:0 "FT"
- ITA_fascism_party_long:0 "Fiamma Tricolore"
+ ITA_communism_party:0 "Communist Refoundation Party"
+ ITA_reformed_communism_party:0 "Italian Communist Party"
+ ITA_socialism_party:0 "Italian Democratic Socialists"
+ ITA_liberalism_party:0 "Italian Liberal Party"
+ ITA_paternal_autocracy:0 "Monarchist National Party"
+ ITA_socialism:0 "Italian Socialist Party"
+ 
+ ITA_democratic_party:0 "Forward Italy"
+ ITA_fascism_party:0 "New Force"
  ITA_neutrality_party:0 "AN"
  ITA_neutrality_party_long:0 "Alleanza Nazionale"
+ ITA_social_democracy_party:0 "Democratic Party"
  JAP_communism_party:0 "Japanese Communist Party"
  JAP_reformed_communism_party:0 "Japanese Communist Party"
  JAP_socialism_party:0 "Japanese Communist Party"

@@ -518,6 +518,21 @@ spriteTypes = {
 		name = "GFX_idea_JAP_article_9_icon"
 		texturefile = "gfx/interface/ideas/article_9.png"
 	}
+
+
+	###Italia###
+	spriteType = {
+		name = "GFX_idea_ITA_second_republic"
+		texturefile = "gfx/interface/ideas/ITA_second_republic.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ITA_mafia"
+		texturefile = "gfx/interface/ideas/ITA_mafia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ITA_Ciampi_gov"
+		texturefile = "gfx/interface/ideas/ITA_Ciampi_gov.png"
+	}
 	
 	# Designers #
 

@@ -27,14 +27,19 @@ if = {
 }
 
 set_research_slots = 4
-set_stability = 0.6
-set_war_support = 0.7
+set_stability = 0.5
+set_war_support = 0.35
 
 set_convoys = 200
-
+recruit_character = ITA_Massimo_DAlema
 recruit_character = ITA_carlo_ciampi
 recruit_character = ITA_roberto_fiore
 
+
+
+add_ideas = ITA_second_republic
+add_ideas = ITA_ciampi_gov
+add_ideas = ITA_mafia
 add_ideas = GER_eu
 
 add_ideas = usa_aligned_nation

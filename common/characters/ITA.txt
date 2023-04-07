@@ -14,6 +14,20 @@ characters = {
 			id = -1
 		}
 	}
+	ITA_Massimo_DAlema = {
+		name = "Massimo D'Alema"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/Massimo_DAlema.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_sub
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
 
 	ITA_roberto_fiore = {
 		name = "Roberto Fiore"

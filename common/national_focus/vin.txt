@@ -1418,7 +1418,7 @@ focus_tree = {
 	#Social Protection
 	focus = {
 		id = VIN_social_protection_program
-		icon = GFX_VIN_focus_national_congress
+		icon = GFX_focus_SOV_economic_reforms
 		x = 15
 		y = 15
 		cost = 2
@@ -1454,7 +1454,7 @@ focus_tree = {
 	#Programme 135
 	focus = {
 		id = VIN_Programme_135
-		icon = GFX_VIN_focus_national_congress
+		icon = GFX_focus_SOV_return_to_latin_alphabet
 		x = 12
 		y = 17
 		cost = 2

@@ -588,3 +588,65 @@ country_event = {
 	 
      }
 
+     ##CAMBODIA REPORT##
+	 country_event = {
+		id = vin.25
+		title = vin.25.t
+		desc = vin.25.d
+		picture = GFX_report_event_cambodia_report
+		
+		is_triggered_only = yes
+		
+		option = {
+        
+			name = vin.25.a
+			hidden_effect = {
+				country_event = { id = vin.26 days = 7}
+			}
+		 }
+		 
+		 }
+
+	 ##CAMBODIA STUFF##
+	 country_event = {
+		id = vin.26
+		title = vin.26.t
+		desc = vin.26.d
+		picture = GFX_report_event_cambodia_coup
+		
+		is_triggered_only = yes
+		
+		option = {
+			name = vin.26.a
+			complete_national_focus =  VIN_chaos_in_cambodia
+		CAM = {
+			delete_unit = {
+			state = 741
+			disband = yes 
+		}
+		delete_unit = {
+			state = 918
+			disband = yes 
+		}
+		set_politics = {
+			ruling_party = reformed_communism
+		}
+		remove_ideas = CAM_internal_conflict
+		remove_ideas = CAM_legacy_of_polpot
+	    hidden_effect = { load_oob = "CAM_civil_war" }
+		add_popularity = {
+			ideology = neutrality
+			popularity = -0.3
+		}
+
+
+	}
+		CMK = {
+			transfer_state = 741
+			hidden_effect = { load_oob = "CMK_civil_war" }
+		}
+
+		 }
+		 
+		 }
+

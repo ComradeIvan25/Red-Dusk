@@ -632,6 +632,12 @@
  vin.24.d:0 "The first session of the 11th National Assembly will elect the Prime Minister."
  vin.24.a:0 "Elect Nguyen Mnh Triet, the rising star. "
  vin.24.b:0 "Elect Nguyen Tan Dung, we need a more radical reform."
+ vin.25.t:0 "Report on the situation in Cambodia"
+ vin.25.d:0 "The situation in Cambodia is becoming increasingly tense with Cambodia's 2003 general election approaching. The opposition Funicipec party announced its withdrawal from the ruling coalition last September and is calling for a boycott of the upcoming elections. The conflict between the two largest parties in the country is getting more and more out of control and it seems that another civil war in Cambodia is inevitable without timely intervention measures. Our intelligence in Cambodia believes that Funicipec is plotting a coup with the help of disloyal elements in the military. Whether that's true or not, we need to warn Cambodian comrades of this potential danger."
+ vin.25.a:0 "We need to keep an eye on this."
+ vin.26.t:0 "COUP IN CAMBODIA!"
+ vin.26.d:0 "The coup took place as expected, but it came so quickly and unexpectedly that we and the Phnom Penh goverment were completely unable to react. A large number of soldiers with armored vehicles entered the capital Phnom Penh, overthrowing the government of Chea Sim, declaring martial law and banning the Cambodian People's Party. The Chea Sim along with several key members of the government were captured by the rebels. Fortunately, Prime Minister Hunsen managed to flee to the East in time and is calling on the people and loyal military forces to rally and fight the reactionaries. It seems the scenario we least want is about to come true...."
+ vin.26.a:0 "Fuck it! Call the Headquarters of the Southern military districts! Now!"
  #IRQ#
 
  irq.1.t:0 "A Nation of Snakes"

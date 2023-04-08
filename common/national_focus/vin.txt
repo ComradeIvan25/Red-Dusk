@@ -1623,13 +1623,14 @@ focus_tree = {
 		icon = GFX_VIN_focus_edu_reform
 		x = 7
 		y = 21
-		cost = 1
+		cost = 0.5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}	
 		prerequisite = { focus = VIN_chaos_in_cambodia }
 		completion_reward = {
-	
+			army_experience = 100
+			add_command_power = 100
      }
 	 }
 	 
@@ -1648,7 +1649,7 @@ focus_tree = {
 		army_experience = 100
 		add_equipment_to_stockpile = {
 			type = infantry_weapons
-			amount = 1500
+			amount = 1800
 			producer = SOV
 		}
 		add_equipment_to_stockpile = {
@@ -1658,10 +1659,11 @@ focus_tree = {
 		}
 		add_equipment_to_stockpile = {
 			type = support_equipment
-			amount = 50
+			amount = 100
 			producer = SOV
 		}
 	   }
+	   give_military_access = LAO
      }
 	 }
 	 focus = {
@@ -1669,7 +1671,7 @@ focus_tree = {
 		icon = GFX_VIN_focus_edu_reform
 		x = 6
 		y = 23
-		cost = 1
+		cost = 0.5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}	
@@ -1682,12 +1684,40 @@ focus_tree = {
 		icon = GFX_VIN_focus_edu_reform
 		x = 8
 		y = 22
-		cost = 1
+		cost = 0.5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}	
 		prerequisite = { focus = VIN_ready_the_army }
 		completion_reward = {
+			CAM = { 
+				
+				add_equipment_to_stockpile = {
+					type = infantry_weapons
+					amount = 1500
+					producer = SOV
+				}
+				add_equipment_to_stockpile = {
+					type = mbt_tank_equipment
+					amount = 50
+					producer = SOV
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 50
+					producer = SOV
+				}
+				create_field_marshal = {
+					name = "Heng Sarim"
+					picture = "Heng_Samrin.png"
+					skill = 2
+					attack_skill = 2
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 1
+				}
+			   }
+			   give_military_access = CAM
      }
 	 }
 	 focus = {
@@ -1701,20 +1731,56 @@ focus_tree = {
 		}	
 		prerequisite = { focus = VIN_reorganize_cambodian_army }
 		completion_reward = {
+			CAM = {
+				army_experience = 100
+			}
+
+		}
      }
-	 }
+	 
 	 focus = {
 		id = VIN_begin_the_liberation_war
 		icon = GFX_VIN_focus_edu_reform
 		x = 7
 		y = 24
-		cost = 1
+		cost = 0.5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}	
 		prerequisite = { focus = VIN_send_military_advisor }
 		prerequisite = { focus = VIN_mobilize_their_army }
 		completion_reward = {
+			hidden_effect = {
+			SIA = {
+				create_faction = "Indochina War - Anti Communist Faction"
+				SIA = { add_to_faction = CMK }
+				declare_war_on = {
+					target = CAM
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = LAO
+					type = annex_everything
+				}
+			}
+			CAM = {
+				create_faction = "Indochina War - Communist Faction"
+				CAM = { add_to_faction = LAO }
+			}
+			CAM = {
+			declare_war_on = {
+				target = CMK
+				type = annex_everything
+			}
+		     }
+			LAO = {
+				declare_war_on = {
+					target = CMK
+					type = annex_everything
+				}
+			}
+		}
+			custom_effect_tooltip = vin_indochina_war
      }
 	 }
 	 focus = {
@@ -1728,6 +1794,8 @@ focus_tree = {
 		}	
 		prerequisite = { focus = VIN_begin_the_liberation_war }
 		completion_reward = {
+			add_ideas = war_economy
+			recruit_character = VIN_Nguyen_Trung_Thu
      }
 	 }
 	 focus = {
@@ -1741,6 +1809,7 @@ focus_tree = {
 		}	
 		prerequisite = { focus = VIN_mobilize_the_economy }
 		completion_reward = {
+		
      }
 	 }
 	 focus = {

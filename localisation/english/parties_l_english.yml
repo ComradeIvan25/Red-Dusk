@@ -863,7 +863,8 @@
  CAM_democratic_party:0 "Democratic Party" #formed in 1946 
  CAM_communism_party:0 "Cambodian People's Party" # aka Khmer Communist Party or a different party Krom Pracheachon aka Krom
  CAM_reformed_communism_party:0 "Cambodian People's Party"
- CAM_neutrality_party:0 "FUNCINPEC" # or just Sangkum 1955, democratic but right leaning and anti communist
+ CAM_neutrality_party:0 "FUNCINPEC"
+ CMK_neutrality_party:0 "FUNCINPEC" # or just Sangkum 1955, democratic but right leaning and anti communist
  INS_fascism_party:0 "New Order" #inspired by right wingers from 1960s
  INS_democratic_party:0 "PNI" #Indonesian National Party founded by Sukarno
  INS_communism_party:0 "PKI" #Partai Komunis Indonesia

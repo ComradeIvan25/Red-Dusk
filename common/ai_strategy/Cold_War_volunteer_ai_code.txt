@@ -65,6 +65,8 @@ SOV_help_ETH_win_war = {
 		value = 50
 	}
 }
+
+
  
 CUB_help_ETH_win_war = {
 	allowed = {
@@ -82,6 +84,48 @@ CUB_help_ETH_win_war = {
 	ai_strategy = {
 		type = send_volunteers_desire
 		id = ETH
+		value = 50
+	}
+}
+
+# make vietnam send volunteer to cambodia
+VIN_help_CAM_win_war = {
+	allowed = {
+		original_tag = VIN
+	}
+	enable = {
+		CAM = { has_war_with = SIA } 	
+		}
+	abort = {
+		NOT = {	
+			CAM = { has_war_with = SIA } 
+		}
+	}
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = CAM
+		value = 50
+	}
+}
+
+# make vietnam send volunteer to laos
+VIN_help_CAM_win_war = {
+	allowed = {
+		original_tag = VIN
+	}
+	enable = {
+		LAO = { has_war_with = SIA } 	
+		}
+	abort = {
+		NOT = {	
+			LAO = { has_war_with = SIA } 
+		}
+	}
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = LAO
 		value = 50
 	}
 }

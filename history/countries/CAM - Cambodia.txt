@@ -31,7 +31,6 @@ add_ideas = extensive_conscription
 recruit_character = CAM_Chea_Sim
 recruit_character = CAM_Hun_Sen
 recruit_character = CAM_Tea_Banh
-recruit_character = CAM_Norodom_Ranariddh
 recruit_character = CAM_Ke_Kim_Yan
 
 set_politics = {

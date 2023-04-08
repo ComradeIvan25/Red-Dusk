@@ -28,20 +28,7 @@ characters = {
 			id = -1
 		}
 	}
-        CAM_Norodom_Ranariddh = {
-		name = "Norodom Ranariddh"
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/CAM/Norodom_Ranariddh.png"
-			}
-		}
-		country_leader = {
-			ideology = despotism 
-			traits = {}
-			expire = "2050.3.1.1"
-			id = -1
-		}
-	}
+        
         CAM_Tea_Banh = {
 		name = "Tea Banh"
 		portraits = {

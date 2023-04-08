@@ -556,6 +556,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news_afghan_invasion.dds"
 	}
 	spriteType = {
+		name = "GFX_news_putin_denounces_gkchp"
+		texturefile = "gfx/event_pictures/news_putin_denounces_gkchp.dds"
+	}
+	spriteType = {
 		name = "GFX_news_coup"
 		texturefile = "gfx/event_pictures/news_coup.dds"
 	}

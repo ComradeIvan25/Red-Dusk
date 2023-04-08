@@ -97,6 +97,21 @@ news_event = {
 }
 
 news_event = {
+	id = old_times_news.86
+	title = old_times_news.86.t
+	desc = old_times_news.86.d
+	picture = GFX_news_putin_denounces_gkchp
+	
+	major = yes
+	
+	is_triggered_only = yes
+	 
+	option ={
+		name = old_times_news.86.a
+	}
+}
+
+news_event = {
 	id = old_times_news.7
 	title = old_times_news.7.t
 	desc = old_times_news.7.d

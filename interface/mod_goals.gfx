@@ -1115,12 +1115,56 @@ spriteTypes = {
 		name = "GFX_focus_SOV_hum_of_tanks"
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_hum_of_tanks.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_SOV_kpss2"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_kpss2.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_continue_russification"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_continue_russification.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_continue_russification"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_continue_russification.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_Empower_Young_Poltiicans"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_Empower_Young_Poltiicans.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_increase_anti-terrorist_funding"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_increace_anti-terror_funds.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_protect_religious"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_protect_religious.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_zyuganov_doctrine"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_zyuganov_doctrine.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_ally_religious"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_ally_religious.png"
+	}
 
   ###PUTIN###
 
 	SpriteType = {
 		name = "GFX_focus_SOV_petrushev_chosen"
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_petrushev_chosen.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_old_managment"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_old_managment.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_puppet_no_more"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_puppet_no_more.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_new_constitution"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_constitution.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_bortnikov_chosen"
@@ -1190,6 +1234,25 @@ spriteTypes = {
 		name = "GFX_focus_SOV_increase_gen_sec_power"
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_increase_gen_sec_power.png"
 	}
+
+
+	SpriteType = {
+		name = "GFX_focus_SOV_loosen_requirements"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_loosen_requirements.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_remove_opposition"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_remove_opposition.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_limited_dengism"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_limited_dengism.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_new_guard"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_new_guard.png"
+	}
+
 	
    ###IRQ###
 
